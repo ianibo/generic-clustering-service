@@ -22,7 +22,7 @@ public class InMemoryVectorIndex<T> implements VectorIndex<T> {
     @Override
     public List<Neighbor<T>> topK(float[] query, int k) {
         return entries.stream()
-                .map(entry -> new Neighbor<>(entry.id(), CosineSimilarity.cosineSimilarity(query, entry.vector()), entry.payload()))
+                .map(entry -> new Neighbor<>(entry.id(), CosineSimilarity.cosineSimilarity(query, entry.vector()), entry.payload(), entry.vector()))
                 .sorted(Comparator.comparingDouble((Neighbor<T> n) -> n.score()).reversed())
                 .limit(k)
                 .toList();
@@ -31,7 +31,7 @@ public class InMemoryVectorIndex<T> implements VectorIndex<T> {
     @Override
     public List<Neighbor<T>> radius(float[] query, float threshold) {
         return entries.stream()
-                .map(entry -> new Neighbor<>(entry.id(), CosineSimilarity.cosineSimilarity(query, entry.vector()), entry.payload()))
+                .map(entry -> new Neighbor<>(entry.id(), CosineSimilarity.cosineSimilarity(query, entry.vector()), entry.payload(), entry.vector()))
                 .filter(neighbor -> neighbor.score() >= threshold)
                 .sorted(Comparator.comparingDouble((Neighbor<T> n) -> n.score()).reversed())
                 .toList();

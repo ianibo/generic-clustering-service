@@ -1,5 +1,6 @@
 package gcs.core;
 
+import io.micronaut.serde.annotation.Serdeable;
 import java.util.List;
 
 /**
@@ -13,9 +14,11 @@ public interface VectorIndex<T> {
      * @param id The ID of the neighbor.
      * @param score The similarity score of the neighbor.
      * @param payload The payload of the neighbor.
+     * @param vector The vector of the neighbor.
      * @param <T> The type of the payload.
      */
-    record Neighbor<T>(String id, double score, T payload) {}
+    @Serdeable
+    record Neighbor<T>(String id, double score, T payload, float[] vector) {}
 
     /**
      * Adds a vector to the index.

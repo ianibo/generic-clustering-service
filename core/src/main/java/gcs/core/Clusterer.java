@@ -1,5 +1,7 @@
 package gcs.core;
 
+import io.micronaut.serde.annotation.Serdeable;
+
 import java.util.List;
 
 /**
@@ -15,6 +17,7 @@ public interface Clusterer<T> {
      * @param payload The payload of the item.
      * @param <T> The type of the payload.
      */
+    @Serdeable
     record Item<T>(String id, float[] vector, T payload) {}
 
     /**
