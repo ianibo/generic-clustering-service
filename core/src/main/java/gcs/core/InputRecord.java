@@ -2,9 +2,11 @@ package gcs.core;
 
 import io.micronaut.core.annotation.Nullable;
 import io.micronaut.serde.annotation.Serdeable;
+import io.micronaut.core.annotation.Introspected;
 import java.util.List;
 import java.time.OffsetDateTime;
 
+@Introspected
 @Serdeable
 public record InputRecord(
     String id,

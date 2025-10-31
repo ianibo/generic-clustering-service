@@ -1,5 +1,5 @@
 plugins {
-    id("java-library")
+	id("io.micronaut.library")
 }
 
 repositories {
@@ -7,8 +7,21 @@ repositories {
 }
 
 dependencies {
-    annotationProcessor("io.micronaut.serde:micronaut-serde-processor:2.2.0")
-    implementation("io.micronaut.serde:micronaut-serde-api:2.2.0")
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.0")
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.10.0")
+
+	annotationProcessor("io.micronaut:micronaut-inject-java")
+	annotationProcessor("io.micronaut.serde:micronaut-serde-processor")
+	annotationProcessor("org.projectlombok:lombok")
+
+	implementation("io.micronaut.serde:micronaut-serde-api")
+
+	// JSON runtime (pick one; Jackson is common)
+	implementation("io.micronaut.serde:micronaut-serde-jackson")
+
+	compileOnly("org.projectlombok:lombok")
+
+	testAnnotationProcessor("io.micronaut:micronaut-inject-java")
+	testAnnotationProcessor("io.micronaut.serde:micronaut-serde-processor")
+	testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.0")
+	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.10.0")
+
 }
