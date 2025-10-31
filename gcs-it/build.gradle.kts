@@ -56,3 +56,18 @@ tasks.withType<Test> {
 tasks.named<Test>("test") {
 	enabled = false
 }
+
+tasks.named<Jar>("jar").configure { enabled = false }
+tasks.named<JavaCompile>("compileJava").configure { enabled = false }
+tasks.named<ProcessResources>("processResources").configure { enabled = false }
+tasks.named("assemble").configure { enabled = false }
+
+plugins.withId("application") {
+	tasks
+		.matching { it.name in listOf("startScripts", "installDist", "distZip", "distTar") }
+		.configureEach { enabled = false }   // ← no `it.`
+}
+
+plugins.withId("com.gradleup.shadow") {
+	tasks.named("shadowJar").configure { enabled = false } // also receiver lambda
+}
