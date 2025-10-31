@@ -1,0 +1,114 @@
+{
+	"id": "urn:uuid:1c7de3a5-3d0d-4f09-9b8f-9a8c2a6e9b2d",
+	"provenance": {
+		"authorityId": "GB-UkLiD",
+		"authorityScheme": "ISIL",
+		"sourceRecordId": "cat-123456",
+		"sourceRecordUri": "https://catalog.example.org/record/cat-123456",
+		"originalFormat": "MARC",
+		"harvestedAt": "2025-10-31T06:58:00Z",
+		"metadataLicense": "CC0"
+	},
+	"domain": "bibliographic",
+
+	"licenseDeclaration": {
+		"license": "CC0-1.0",
+		"licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+		"publisherAffirmation": {
+			"statement": "GB-UkLiD affirms rights to publish this metadata and releases it under CC0 1.0.",
+			"confirmed": true,
+			"confirmedAt": "2025-10-31T07:15:00Z",
+			"signatory": "GB-UkLiD Metadata Services"
+		}
+	},
+
+	"identifiers": [
+		{ "type": "ISBN-13", "value": "9780471948137", "status": "valid" },
+		{ "type": "OCLC", "value": "123456789" },
+		{ "type": "LCCN", "value": "76012345" }
+	],
+
+	"titles": [
+		{ "value": "Brain of the Firm", "type": "main", "language": "eng" },
+		{ "value": "Brain of the Firm", "type": "uniform", "language": "eng" },
+		{ "value": "Stafford Beer’s Brain of the Firm", "type": "alternative", "language": "eng" }
+	],
+
+	"contributors": [
+		{
+			"name": "Beer, Stafford",
+			"role": "author",
+			"kind": "person",
+			"identifiers": [
+				{ "scheme": "VIAF", "value": "12345678", "uri": "http://viaf.org/viaf/12345678" },
+				{ "scheme": "ISNI", "value": "0000000121234567" }
+			],
+			"dates": "1926-2002"
+		},
+		{
+			"name": "Wiley",
+			"role": "publisher",
+			"kind": "corporate"
+		}
+	],
+
+	"languages": ["eng"],
+
+	"edition": { "statement": "2nd ed." },
+
+	"publication": {
+		"place": ["Chichester", "New York"],
+		"publisher": ["Wiley"],
+		"date": "1972",
+		"year": 1972,
+		"countryCode": "GB"
+	},
+
+	"physical": {
+		"extent": "xvi, 291 pages",
+		"dimensions": "24 cm",
+		"contentType": "text",
+		"mediaType": "unmediated",
+		"carrierType": "volume",
+		"format": "hardcover"
+	},
+
+	"subjects": [
+		{ "value": "Management cybernetics", "scheme": "LCSH", "type": "topical" }
+	],
+
+	"series": [],
+
+	"relations": {
+		"otherFormats": ["urn:isbn:9780471948144"]
+	},
+
+	"classification": [
+		{ "scheme": "DDC", "value": "658.4018" }
+	],
+
+	"notes": [
+		{ "type": "general", "value": "Includes bibliographical references." }
+	],
+
+	"rights": {
+		"rightsStatement": "Metadata supplied by GB-UkLiD",
+		"license": "CC0"
+	},
+
+	"admin": {
+		"created": "2025-10-31T06:58:00Z",
+		"quality": { "normalized": false },
+		"flags": ["ingested"]
+	},
+
+	"media": {},
+
+	"ext": {
+		"sourceHints": {
+			"titleTokens": ["brain", "firm"],
+			"nameTitlePair": "Beer|Brain of the Firm"
+		}
+	}
+}
+

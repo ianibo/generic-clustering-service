@@ -1,0 +1,340 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://example.org/schemas/gcs-inputrecord.schema.json",
+	"title": "Generic Clustering Service - InputRecord",
+	"type": "object",
+	"additionalProperties": false,
+	"required": ["id", "provenance", "domain", "titles", "licenseDeclaration"],
+	"properties": {
+		"id": {
+			"type": "string",
+			"description": "Stable ID for this input record within your pipeline (UUID/URI)."
+		},
+
+		"provenance": {
+			"type": "object",
+			"required": ["authorityId", "sourceRecordId"],
+			"additionalProperties": false,
+			"properties": {
+				"authorityId": {
+					"type": "string",
+					"description": "Identifier of the sending authority (e.g., ISIL, ROR, internal org code)."
+				},
+				"authorityScheme": {
+					"type": "string",
+					"description": "Scheme of authorityId (e.g., 'ISIL', 'ROR', 'INTERNAL')."
+				},
+				"sourceRecordId": {
+					"type": "string",
+					"description": "The authority's own identifier for their record."
+				},
+				"sourceRecordUri": {
+					"type": "string",
+					"format": "uri",
+					"description": "Resolvable URI to the record at source (optional)."
+				},
+				"originalFormat": {
+					"type": "string",
+					"description": "Declared source format BEFORE mapping (e.g., 'MARC', 'DublinCore', 'EAD', 'LIDO', 'Custom')."
+				},
+				"harvestedAt": { "type": "string", "format": "date-time" },
+				"sourceUpdatedAt": { "type": "string", "format": "date-time" },
+				"metadataLicense": {
+					"type": "string",
+					"description": "Source-stated metadata license (informational)."
+				}
+			}
+		},
+
+		"domain": {
+			"type": "string",
+			"enum": [
+				"bibliographic",
+				"archival",
+				"museum",
+				"gallery",
+				"movingImage",
+				"audio",
+				"serials",
+				"cartographic",
+				"mixed",
+				"other"
+			],
+			"description": "High-level domain hint for downstream profiles."
+		},
+
+		"licenseDeclaration": {
+			"type": "object",
+			"description": "Legal declaration that this record's metadata is openly licensed and rights-cleared for publication.",
+			"required": ["license", "publisherAffirmation"],
+			"additionalProperties": false,
+			"properties": {
+				"license": {
+					"type": "string",
+					"enum": ["CC0-1.0", "CC-BY-4.0", "ODC-BY-1.0", "PDDL-1.0"],
+					"description": "Accepted open data licenses only."
+				},
+				"licenseUri": {
+					"type": "string",
+					"format": "uri",
+					"description": "Canonical license URI (e.g., https://creativecommons.org/publicdomain/zero/1.0/)."
+				},
+				"licenseVersion": { "type": "string" },
+				"publisherAffirmation": {
+					"type": "object",
+					"required": ["confirmed"],
+					"additionalProperties": false,
+					"properties": {
+						"statement": {
+							"type": "string",
+							"description": "Declarative text affirming rights to publish under the stated license."
+						},
+						"confirmed": {
+							"type": "boolean",
+							"const": true,
+							"description": "Must be true: depositor affirms rights and open license compliance."
+						},
+						"confirmedAt": { "type": "string", "format": "date-time" },
+						"signatory": { "type": "string", "description": "Organisation or agent name/ID." }
+					}
+				}
+			}
+		},
+
+		"identifiers": {
+			"type": "array",
+			"description": "Standard numbers and external identifiers (typed).",
+			"items": {
+				"type": "object",
+				"required": ["type", "value"],
+				"additionalProperties": false,
+				"properties": {
+					"type": {
+						"type": "string",
+						"description": "e.g., 'ISBN-13', 'ISBN-10', 'ISSN', 'ISSN-L', 'DOI', 'OCLC', 'LCCN', 'UPC', 'EAN', 'ARK', 'HANDLE', 'ISNI', 'VIAF', 'Local'."
+					},
+					"value": { "type": "string" },
+					"status": {
+						"type": "string",
+						"enum": ["valid", "invalid", "canceled", "unknown"]
+					},
+					"qualifier": { "type": "string", "description": "Binding/format qualifier if present." }
+				}
+			}
+		},
+
+		"titles": {
+			"type": "array",
+			"minItems": 1,
+			"description": "All title strings with roles to support work/instance extraction.",
+			"items": {
+				"type": "object",
+				"required": ["value"],
+				"additionalProperties": false,
+				"properties": {
+					"value": { "type": "string" },
+					"type": {
+						"type": "string",
+						"enum": ["main", "alternative", "uniform", "translated", "parallel", "series", "part"],
+						"default": "main"
+					},
+					"language": { "type": "string", "description": "ISO 639-2/3 code if known." },
+					"script": { "type": "string", "description": "ISO 15924 code if known." },
+					"partNumber": { "type": "string" },
+					"partName": { "type": "string" }
+				}
+			}
+		},
+
+		"contributors": {
+			"type": "array",
+			"description": "Creators/contributors; keep roles explicit.",
+			"items": {
+				"type": "object",
+				"required": ["name"],
+				"additionalProperties": false,
+				"properties": {
+					"name": { "type": "string" },
+					"role": { "type": "string", "description": "Relator term/code (author, editor, translator, composer, director, performer, publisher, etc.)." },
+					"kind": { "type": "string", "enum": ["person", "corporate", "meeting", "family"], "default": "person" },
+					"identifiers": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"required": ["scheme", "value"],
+							"additionalProperties": false,
+							"properties": {
+								"scheme": { "type": "string", "description": "e.g., VIAF, ISNI, ORCID, LCNAF, Wikidata" },
+								"value": { "type": "string" },
+								"uri": { "type": "string", "format": "uri" }
+							}
+						}
+					},
+					"dates": { "type": "string", "description": "Life/active dates (e.g., '1926-2002')." }
+				}
+			}
+		},
+
+		"languages": {
+			"type": "array",
+			"description": "Language codes of the resource/expression.",
+			"items": { "type": "string" }
+		},
+
+		"edition": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"statement": { "type": "string" },
+				"number": { "type": "string" }
+			}
+		},
+
+		"publication": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"place": { "type": "array", "items": { "type": "string" } },
+				"publisher": { "type": "array", "items": { "type": "string" } },
+				"date": { "type": "string", "description": "Free text or ISO year—normalized later." },
+				"year": { "type": "integer", "minimum": 0, "maximum": 9999 },
+				"countryCode": { "type": "string", "description": "ISO 3166-1 alpha-2 if known." }
+			}
+		},
+
+		"physical": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"extent": { "type": "string" },
+				"dimensions": { "type": "string" },
+				"illustrations": { "type": "string" },
+				"duration": { "type": "string", "description": "For AV/audio." },
+				"contentType": { "type": "string", "description": "e.g., text, performed music, moving image." },
+				"mediaType": { "type": "string", "description": "e.g., unmediated, audio, video." },
+				"carrierType": { "type": "string", "description": "e.g., volume, online resource, microform, DVD, CD." },
+				"format": { "type": "string", "description": "Binding/format phrases as provided." }
+			}
+		},
+
+		"subjects": {
+			"type": "array",
+			"description": "Controlled/uncontrolled subjects; useful but low-precision for clustering.",
+			"items": {
+				"type": "object",
+				"required": ["value"],
+				"additionalProperties": false,
+				"properties": {
+					"value": { "type": "string" },
+					"type": { "type": "string", "enum": ["topical", "name", "geographic", "temporal", "form"], "default": "topical" },
+					"scheme": { "type": "string", "description": "e.g., LCSH, MeSH, AAT, TGM, FAST, local" },
+					"uri": { "type": "string", "format": "uri" }
+				}
+			}
+		},
+
+		"series": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"title": { "type": "string" },
+					"issn": { "type": "string" },
+					"numbering": { "type": "string" }
+				}
+			}
+		},
+
+		"relations": {
+			"type": "object",
+			"description": "Graph relations across instances/works/collections (typed).",
+			"additionalProperties": false,
+			"properties": {
+				"partOf": { "type": "array", "items": { "type": "string" } },
+				"hasPart": { "type": "array", "items": { "type": "string" } },
+				"otherFormats": { "type": "array", "items": { "type": "string" } },
+				"relatedInstances": { "type": "array", "items": { "type": "string" } },
+				"relatedWorks": { "type": "array", "items": { "type": "string" } },
+				"replaces": { "type": "array", "items": { "type": "string" } },
+				"isReplacedBy": { "type": "array", "items": { "type": "string" } },
+				"continues": { "type": "array", "items": { "type": "string" } },
+				"continuedBy": { "type": "array", "items": { "type": "string" } }
+			}
+		},
+
+		"classification": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": ["scheme", "value"],
+				"additionalProperties": false,
+				"properties": {
+					"scheme": { "type": "string", "description": "e.g., DDC, LCC, UDC, NLM, local" },
+					"value": { "type": "string" },
+					"edition": { "type": "string" }
+				}
+			}
+		},
+
+		"notes": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"type": { "type": "string", "description": "e.g., general, contents, dissertation, audience" },
+					"value": { "type": "string" },
+					"language": { "type": "string" }
+				}
+			}
+		},
+
+		"rights": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"rightsStatement": { "type": "string" },
+				"license": { "type": "string" },
+				"attribution": { "type": "string" }
+			}
+		},
+
+		"admin": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"created": { "type": "string", "format": "date-time" },
+				"modified": { "type": "string", "format": "date-time" },
+				"quality": {
+					"type": "object",
+					"additionalProperties": false,
+					"properties": {
+						"normalized": { "type": "boolean" },
+						"parseWarnings": { "type": "array", "items": { "type": "string" } }
+					}
+				},
+				"flags": { "type": "array", "items": { "type": "string" } }
+			}
+		},
+
+		"media": {
+			"type": "object",
+			"description": "Optional AV/moving-image/audio specifics.",
+			"additionalProperties": false,
+			"properties": {
+				"sound": { "type": "string" },
+				"color": { "type": "string" },
+				"aspectRatio": { "type": "string" },
+				"regionCode": { "type": "string" }
+			}
+		},
+
+		"ext": {
+			"type": "object",
+			"description": "Namespaced, domain/source-specific extensions.",
+			"additionalProperties": true
+		}
+	}
+}
+
