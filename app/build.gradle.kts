@@ -10,15 +10,6 @@ repositories {
     mavenCentral()
 }
 
-configurations {
-    create("integrationTestImplementation") {
-        extendsFrom(configurations.testImplementation.get())
-    }
-    create("integrationTestRuntimeOnly") {
-        extendsFrom(configurations.testRuntimeOnly.get())
-    }
-}
-
 dependencies {
 
   annotationProcessor("io.micronaut:micronaut-inject-java")
@@ -37,12 +28,13 @@ dependencies {
   compileOnly("org.projectlombok:lombok")
 	runtimeOnly("org.yaml:snakeyaml")
 
+	testImplementation("io.micronaut.test:micronaut-test-junit5")
+
 	testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.0")
 	testImplementation("org.junit.jupiter:junit-jupiter-params:5.10.0")
 	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.10.0")
 	testImplementation("io.micronaut.test:micronaut-test-junit5:3.9.0")
 	testImplementation("io.micronaut:micronaut-http-client")
-	"integrationTestImplementation"("org.testcontainers:junit-jupiter:1.17.6")
 
   testAnnotationProcessor("io.micronaut:micronaut-inject-java")
   testAnnotationProcessor("io.micronaut.serde:micronaut-serde-processor")
@@ -63,21 +55,4 @@ micronaut {
         incremental(true)
         annotations("gcs.app.*")
     }
-}
-
-val integrationTest by sourceSets.creating {
-	java.srcDir("src/integrationTest/java")
-	resources.srcDir("src/integrationTest/resources")
-	compileClasspath += sourceSets["main"].output + configurations.testRuntimeClasspath.get()
-	runtimeClasspath += output + compileClasspath
-}
-
-configurations[integrationTest.implementationConfigurationName].extendsFrom(configurations.testImplementation.get())
-configurations[integrationTest.runtimeOnlyConfigurationName].extendsFrom(configurations.testRuntimeOnly.get())
-
-val integrationTestTask = tasks.register<Test>("integrationTest") {
-	testClassesDirs = integrationTest.output.classesDirs
-	classpath = integrationTest.runtimeClasspath
-	shouldRunAfter(tasks.test)
-	useJUnitPlatform() // if you use JUnit 5
 }
