@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00026666270",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026666270",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026666270",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 25002414 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3935299"
+    },
+    {
+      "type": "Local",
+      "value": "9911305258302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Clough, Arthur Hugh,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Palgrave, Francis Turner,",
+      "role": "writer of added text.",
+      "kind": "person"
+    },
+    {
+      "name": "Macmillan & Co.,",
+      "role": "publisher.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Spottiswoode & Co.,",
+      "role": "printer.",
+      "kind": "corporate"
+    }
+  ],
+  "edition": {
+    "statement": "[First edition]."
+  },
+  "publication": {
+    "place": [
+      "Cambridge :",
+      "London :"
+    ],
+    "publisher": [
+      "Macmillan and Co. ;",
+      "Macmillan and Co., 23 Henrietta Street, Covent Garden,"
+    ],
+    "date": "1862.",
+    "year": 1862,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxvii, 259 pages",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Clough, Arthur Hugh,",
+      "type": "topical"
+    },
+    {
+      "value": "Gold tooled bindings",
+      "type": "topical"
+    },
+    {
+      "value": "Poems.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)793720455",
+      "Poems."
+    ]
+  }
+}

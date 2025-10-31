@@ -1,0 +1,90 @@
+{
+  "id": "marc:001:in00029386850",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029386850",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029386850",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)25438224"
+    },
+    {
+      "type": "Local",
+      "value": "9910452893702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey of Homer : done into English prose /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Butcher, S. H.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Lang, Andrew,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "3rd ed., rev. and cor. with additionl notes."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1883.",
+    "year": 1883,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xxiv, 428 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)613035150",
+      "Odyssey of Homer."
+    ]
+  }
+}

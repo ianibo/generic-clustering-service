@@ -1,0 +1,137 @@
+{
+  "id": "marc:001:in00025810170",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025810170",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025810170",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0192112783"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192112781"
+    },
+    {
+      "type": "LCCN",
+      "value": " 71414233 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)26596"
+    },
+    {
+      "type": "Local",
+      "value": "9910395898602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Akhmatova, Anna Andreevna,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "McKane, Richard,",
+      "role": "translator,",
+      "kind": "person"
+    },
+    {
+      "name": "Sini︠a︡vskiĭ, A.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Oxford University Press,",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1969.",
+    "year": 1969,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "111 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Akhmatova, Anna Andreevna,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Russian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Russian poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)578586195",
+      "Selected poems."
+    ]
+  }
+}

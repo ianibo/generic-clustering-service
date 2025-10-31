@@ -1,0 +1,134 @@
+{
+  "id": "marc:001:in00029730612",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029730612",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029730612",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 60006504 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2061796"
+    },
+    {
+      "type": "Local",
+      "value": "9910556961402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The brothers Karamazov.",
+      "type": "main"
+    },
+    {
+      "value": "Bratʹi︠a︡ Karamazovy.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Harper"
+    ],
+    "date": "[1960]",
+    "year": 1960,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "877 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1533-1917",
+      "type": "topical"
+    },
+    {
+      "value": "Brothers",
+      "type": "topical"
+    },
+    {
+      "value": "Brothers.",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and sons",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and sons.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Russia.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Harper's modern classics"
+    },
+    {
+      "title": "Harper's modern classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647231959",
+      "Brothers Karamazov."
+    ]
+  }
+}

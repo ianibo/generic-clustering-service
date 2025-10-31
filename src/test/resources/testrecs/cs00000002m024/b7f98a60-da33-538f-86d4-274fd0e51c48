@@ -1,0 +1,131 @@
+{
+  "id": "marc:001:in00030410366",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030410366",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030410366",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0151792607"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780151792603"
+    },
+    {
+      "type": "LCCN",
+      "value": " 77073044 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2837542"
+    },
+    {
+      "type": "Local",
+      "value": "9910008319902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Samuel Johnson /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bate, Walter Jackson,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Harcourt Brace Jovanovich,"
+    ],
+    "date": "©1977.",
+    "year": 1977,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "xxii, 646 pages, 9 unnumbered leaves of plates :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, English",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biography",
+      "type": "topical"
+    },
+    {
+      "value": "Critics",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Intellectual life",
+      "type": "topical"
+    },
+    {
+      "value": "Intellectuals",
+      "type": "topical"
+    },
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    },
+    {
+      "value": "Lexicographers",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)557881804",
+      "Samuel Johnson."
+    ]
+  }
+}

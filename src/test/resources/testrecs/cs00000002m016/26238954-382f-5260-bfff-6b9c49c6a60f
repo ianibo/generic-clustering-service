@@ -1,0 +1,87 @@
+{
+  "id": "marc:001:in00027889432",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027889432",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027889432",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "ocm04338117"
+    },
+    {
+      "type": "Local",
+      "value": "(GStG)439379-gasouthdb"
+    },
+    {
+      "type": "Local",
+      "value": "9910862119202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey of Homer/",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Butcher, S. H.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Lang, Andrew,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York ;"
+    ],
+    "publisher": [
+      "P.F. Collier & Son"
+    ],
+    "date": "[1937]",
+    "year": 1937,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "334 p.",
+    "illustrations": "port.",
+    "dimensions": "22 cm."
+  },
+  "series": [
+    {
+      "title": "The Harvard classics ;",
+      "numbering": "v. 22."
+    },
+    {
+      "title": "Harvard classics."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00027513453",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027513453",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027513453",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)704528742"
+    },
+    {
+      "type": "Local",
+      "value": "9910888111702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The way of all flesh /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Butler, Samuel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Garden City, NY :"
+    ],
+    "publisher": [
+      "International Collectors Library, American Headquarters,"
+    ],
+    "date": "[1944?]",
+    "year": 1944,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "429 pages :",
+    "illustrations": "illustrations",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    },
+    {
+      "value": "Religious fiction.",
+      "type": "topical"
+    }
+  ]
+}

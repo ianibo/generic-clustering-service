@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:abacin00000239244",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000239244",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000239244",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 57006875 //r83"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)8409-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994978012902932"
+    },
+    {
+      "type": "Local",
+      "value": "994978012902932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Freedom of the will.",
+      "type": "main"
+    },
+    {
+      "value": "Careful and strict enquiry into the modern prevailing notions of that freedom of will",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven,"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "1957.",
+    "year": 1957,
+    "countryCode": "ctu"
+  },
+  "physical": {
+    "extent": "xii, 494 p.",
+    "illustrations": "port., facsim.",
+    "dimensions": "24 cm."
+  },
+  "subjects": [
+    {
+      "value": "Free will and determinism.",
+      "type": "topical"
+    },
+    {
+      "value": "Kames, Henry Home,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "His Works, v. 1"
+    }
+  ]
+}

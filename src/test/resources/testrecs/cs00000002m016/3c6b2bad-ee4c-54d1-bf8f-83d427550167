@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00029426685",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029426685",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029426685",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "a 17001381 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2925051"
+    },
+    {
+      "type": "Local",
+      "value": "9910794141502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of John Masefield.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Masefield, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Canby, Henry Seidel,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Pierce, F. E.",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Durham, W. H.",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Macmillan Co.,"
+    ],
+    "date": "1917.",
+    "year": 1917,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "v, 313 pages",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)562903729",
+      "Poems of John Masefield."
+    ]
+  }
+}

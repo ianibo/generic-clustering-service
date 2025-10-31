@@ -1,0 +1,147 @@
+{
+  "id": "marc:001:in00025763222",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025763222",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025763222",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 67059395 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)368588"
+    },
+    {
+      "type": "Local",
+      "value": "9910385901002931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "CEKM 27"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected works /",
+      "type": "main"
+    },
+    {
+      "value": "Keyboard music.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mareschal, Samuel,",
+      "role": "composer.",
+      "kind": "person"
+    },
+    {
+      "name": "Bonhôte, Jean-Marc.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Place of publication not identified] :"
+    ],
+    "publisher": [
+      "American Institute of Musicology,"
+    ],
+    "date": "1967.",
+    "year": 1967,
+    "countryCode": "xx "
+  },
+  "physical": {
+    "extent": "1 score (xii, 31 pages) :",
+    "illustrations": "illustrations, facsimile ;",
+    "dimensions": "31 cm",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Art music",
+      "type": "topical"
+    },
+    {
+      "value": "Art music.",
+      "type": "topical"
+    },
+    {
+      "value": "Fugues",
+      "type": "topical"
+    },
+    {
+      "value": "Fugues.",
+      "type": "topical"
+    },
+    {
+      "value": "Harpsichord music",
+      "type": "topical"
+    },
+    {
+      "value": "Harpsichord music.",
+      "type": "topical"
+    },
+    {
+      "value": "Organ music",
+      "type": "topical"
+    },
+    {
+      "value": "Organ music.",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred music",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred music.",
+      "type": "topical"
+    },
+    {
+      "value": "Scores",
+      "type": "topical"
+    },
+    {
+      "value": "Scores.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Corpus of early keyboard music ;",
+      "numbering": "27"
+    },
+    {
+      "title": "Corpus of early keyboard music ;",
+      "numbering": "27."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)681095714",
+      "Selected works."
+    ]
+  }
+}

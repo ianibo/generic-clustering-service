@@ -1,0 +1,82 @@
+{
+  "id": "marc:001:in00027376684",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027376684",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027376684",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0520037227"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780520037229"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4993458"
+    },
+    {
+      "type": "Local",
+      "value": "9910460289202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Trollope, Anthony,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Booth, Bradford Allen,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Berkeley :"
+    ],
+    "publisher": [
+      "University of California Press,"
+    ],
+    "date": "1978.",
+    "year": 1978,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxii, 312 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Trollope, Anthony,",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:in00028673410",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028673410",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028673410",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)11847199"
+    },
+    {
+      "type": "Local",
+      "value": "9910491878802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Julia H. Kinney,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mayo, Sarah C. Edgarton",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "A. Tompkins & B.B. Mussey,"
+    ],
+    "date": "1843.",
+    "year": 1843,
+    "countryCode": "c a"
+  },
+  "physical": {
+    "extent": "216 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "17 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American poetry, 1609-1900.",
+      "numbering": "no. 2035 and no. 2036."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 30010785"
+    ]
+  }
+}

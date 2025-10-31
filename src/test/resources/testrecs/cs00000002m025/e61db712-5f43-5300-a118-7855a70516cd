@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00026402129",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026402129",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026402129",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0915032457"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780915032457"
+    },
+    {
+      "type": "ISBN",
+      "value": "0915032465"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780915032464"
+    },
+    {
+      "type": "LCCN",
+      "value": " 84071923 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)11965515"
+    },
+    {
+      "type": "Local",
+      "value": "9910186532402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Corbett, William,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Orono, Me. :"
+    ],
+    "publisher": [
+      "National Poetry Foundation,"
+    ],
+    "date": "©1984.",
+    "year": 1984,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "153 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)568055587",
+      "Collected poems."
+    ]
+  }
+}

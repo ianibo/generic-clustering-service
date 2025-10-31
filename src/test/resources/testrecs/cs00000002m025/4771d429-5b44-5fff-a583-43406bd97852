@@ -1,0 +1,151 @@
+{
+  "id": "marc:001:in00026773130",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026773130",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026773130",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780199538751"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199538751"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2009464694"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)316670564"
+    },
+    {
+      "type": "Local",
+      "value": "9910517401802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Père Goriot /",
+      "type": "main"
+    },
+    {
+      "value": "Père Goriot.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Balzac, Honoré de,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Krailsheimer, A. J.,",
+      "role": "translator,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "[2009]",
+    "year": 2009,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xxiv, 274 pages :",
+    "illustrations": "maps ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1814-1824",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "Boardinghouses",
+      "type": "topical"
+    },
+    {
+      "value": "Boardinghouses.",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "France.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Older men",
+      "type": "topical"
+    },
+    {
+      "value": "Older men.",
+      "type": "topical"
+    },
+    {
+      "value": "Paris (France)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford world's classics"
+    },
+    {
+      "title": "Oxford world's classics."
+    }
+  ]
+}

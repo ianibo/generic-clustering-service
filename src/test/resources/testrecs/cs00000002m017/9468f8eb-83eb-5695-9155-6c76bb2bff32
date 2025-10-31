@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00029622244",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029622244",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029622244",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 39007839 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3659395"
+    },
+    {
+      "type": "Local",
+      "value": "9911317885002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The dialogues of Plato,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Plato.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jowett, Benjamin,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "3d ed.,",
+    "number": "rev. and cor. throughout, with marginal analyses and an index of subjects and proper names."
+  },
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "H. Milford, Oxford University Press,"
+    ],
+    "date": "1931.",
+    "year": 1931,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "5 volumes",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Philosophy, Ancient.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)987960085",
+      "Dialogues of Plato."
+    ]
+  }
+}

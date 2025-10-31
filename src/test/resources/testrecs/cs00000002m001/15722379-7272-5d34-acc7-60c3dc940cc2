@@ -1,0 +1,83 @@
+{
+  "id": "marc:001:abacin00000240065",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000240065",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000240065",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0895771594"
+    },
+    {
+      "type": "LCCN",
+      "value": " 82062131 //r933"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)5323-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994976580802932"
+    },
+    {
+      "type": "Local",
+      "value": "994976580802932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Wuthering Heights /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Emily,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Pleasantville, N.Y. :"
+    ],
+    "publisher": [
+      "Reader's Digest Association,"
+    ],
+    "date": "c1982.",
+    "year": 1982,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "303 p. :",
+    "illustrations": "col. ill. ;",
+    "dimensions": "24 cm."
+  },
+  "subjects": [
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Man-woman relationships",
+      "type": "topical"
+    }
+  ]
+}

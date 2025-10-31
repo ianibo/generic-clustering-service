@@ -1,0 +1,161 @@
+{
+  "id": "marc:001:in00027298339",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027298339",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027298339",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0743215656"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780743215657"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2001020568"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)46366239"
+    },
+    {
+      "type": "Local",
+      "value": "9910253300302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Paradise /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "McMurtry, Larry.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Simon & Schuster,"
+    ],
+    "date": "©2001.",
+    "year": 2001,
+    "countryCode": "b 0"
+  },
+  "physical": {
+    "extent": "159 pages :",
+    "illustrations": "map ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American novelists",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Families",
+      "type": "topical"
+    },
+    {
+      "value": "Family",
+      "type": "topical"
+    },
+    {
+      "value": "Homes",
+      "type": "topical"
+    },
+    {
+      "value": "Intellectual life",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "McMurtry family",
+      "type": "topical"
+    },
+    {
+      "value": "McMurtry family.",
+      "type": "topical"
+    },
+    {
+      "value": "McMurtry, Larry",
+      "type": "topical"
+    },
+    {
+      "value": "Novelists, American",
+      "type": "topical"
+    },
+    {
+      "value": "Oceania",
+      "type": "topical"
+    },
+    {
+      "value": "Texas",
+      "type": "topical"
+    },
+    {
+      "value": "Texas, West",
+      "type": "topical"
+    },
+    {
+      "value": "Travel",
+      "type": "topical"
+    },
+    {
+      "value": "Travel writing",
+      "type": "topical"
+    },
+    {
+      "value": "Travel writing.",
+      "type": "topical"
+    },
+    {
+      "value": "West Texas",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)606610724",
+      "(OCoLC)607815848",
+      "Paradise."
+    ]
+  }
+}

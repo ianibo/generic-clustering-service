@@ -1,0 +1,115 @@
+{
+  "id": "marc:001:in00028057467",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028057467",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028057467",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0192822829"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192822826"
+    },
+    {
+      "type": "LCCN",
+      "value": " 93048950 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)29597362"
+    },
+    {
+      "type": "Local",
+      "value": "9910134567202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bunting, Basil.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Caddel, Richard,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford [England] ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1994.",
+    "year": 1994,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xii, 226 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford poets"
+    },
+    {
+      "title": "Oxford poets."
+    }
+  ]
+}

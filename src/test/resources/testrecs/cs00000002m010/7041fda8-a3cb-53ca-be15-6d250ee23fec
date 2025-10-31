@@ -1,0 +1,153 @@
+{
+  "id": "marc:001:in00028287202",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028287202",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028287202",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780670821624"
+    },
+    {
+      "type": "ISBN",
+      "value": "0670821624"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140268867"
+    },
+    {
+      "type": "ISBN",
+      "value": "0140268863"
+    },
+    {
+      "type": "LCCN",
+      "value": " 96017280 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)34583995"
+    },
+    {
+      "type": "Local",
+      "value": "9910045850802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Fagles, Robert,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Knox, Bernard,",
+      "role": "writer of introduction,",
+      "kind": "person"
+    },
+    {
+      "name": "Bibliotheca Homerica Langiana.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Viking,"
+    ],
+    "date": "[1996]",
+    "year": 1996,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "x, 541 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Mythology, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus (Greek mythology)",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)646895345",
+      "Odyssey."
+    ]
+  }
+}

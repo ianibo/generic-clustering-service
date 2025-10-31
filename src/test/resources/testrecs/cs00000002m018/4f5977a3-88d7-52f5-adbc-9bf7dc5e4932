@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00028453760",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028453760",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028453760",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 51005101 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2200136"
+    },
+    {
+      "type": "Local",
+      "value": "9910064139502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    },
+    {
+      "value": "Poems (Methuen)",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pope, Alexander,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "[Twickenham ed.",
+    "number": "General editor: John Butt."
+  },
+  "publication": {
+    "place": [
+      "London,",
+      "New Haven,"
+    ],
+    "publisher": [
+      "Methuen;",
+      "Yale University Press,"
+    ],
+    "date": "1951-1969; v. 1, 1961]",
+    "year": 1951,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "11 volumes in 12 ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)612059635",
+      "Poems."
+    ]
+  }
+}

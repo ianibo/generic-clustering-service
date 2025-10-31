@@ -1,0 +1,134 @@
+{
+  "id": "marc:001:in00025976569",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025976569",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025976569",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0394544048"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780394544045"
+    },
+    {
+      "type": "ISBN",
+      "value": "039474344X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780394743448"
+    },
+    {
+      "type": "LCCN",
+      "value": " 85018384 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)12419159"
+    },
+    {
+      "type": "Local",
+      "value": "9910207654102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Denby, Edwin,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Padgett, Ron,",
+      "role": "editor,",
+      "kind": "person"
+    },
+    {
+      "name": "O'Hara, Frank,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kirstein, Lincoln,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Random House,"
+    ],
+    "date": "©1986.",
+    "year": 1986,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xxvi, 194 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Denby, Edwin,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)569253654",
+      "Complete poems."
+    ]
+  }
+}

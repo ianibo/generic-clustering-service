@@ -1,0 +1,203 @@
+{
+  "id": "marc:001:in00029575367",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029575367",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029575367",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781595510914"
+    },
+    {
+      "type": "ISBN",
+      "value": "1595510915"
+    },
+    {
+      "type": "LCCN",
+      "value": " 63024081 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)645786"
+    },
+    {
+      "type": "Local",
+      "value": "9910115680502931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "62.702"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "CMM 27"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "CMM 27-II"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ludford, Nicholas,",
+      "role": "composer.",
+      "kind": "person"
+    },
+    {
+      "name": "Bergsagel, John,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Ludford, Nicholas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ludford, Nicholas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ludford, Nicholas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ludford, Nicholas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ludford, Nicholas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ludford, Nicholas,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "lat"
+  ],
+  "publication": {
+    "place": [
+      "[Place of publication not identified] :"
+    ],
+    "publisher": [
+      "American Institute of Musicology,"
+    ],
+    "date": "1963-1977.",
+    "year": 1963,
+    "countryCode": "xx "
+  },
+  "physical": {
+    "extent": "1 score (2 volumes) ;",
+    "dimensions": "36 cm.",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Evening service music",
+      "type": "topical"
+    },
+    {
+      "value": "Evening service music.",
+      "type": "topical"
+    },
+    {
+      "value": "Magnificat (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Masses",
+      "type": "topical"
+    },
+    {
+      "value": "Masses, Unaccompanied",
+      "type": "topical"
+    },
+    {
+      "value": "Masses, Unaccompanied.",
+      "type": "topical"
+    },
+    {
+      "value": "Masses.",
+      "type": "topical"
+    },
+    {
+      "value": "Music",
+      "type": "topical"
+    },
+    {
+      "value": "Part songs, Sacred",
+      "type": "topical"
+    },
+    {
+      "value": "Part songs, Sacred.",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred music",
+      "type": "topical"
+    },
+    {
+      "value": "Scores",
+      "type": "topical"
+    },
+    {
+      "value": "Scores.",
+      "type": "topical"
+    },
+    {
+      "value": "Vocal music",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Corpus mensurabilis musicae ;",
+      "numbering": "27"
+    },
+    {
+      "title": "Corpus mensurabilis musicae ;",
+      "numbering": "27."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647088764",
+      "Collected works."
+    ]
+  }
+}

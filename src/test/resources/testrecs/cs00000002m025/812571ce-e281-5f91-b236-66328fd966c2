@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00028189672",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028189672",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028189672",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1857544463"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781857544466"
+    },
+    {
+      "type": "LCCN",
+      "value": " 00302686 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)42365559"
+    },
+    {
+      "type": "Local",
+      "value": "9910230272602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dunbar, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Harvey Wood, Harriet,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Manchester :"
+    ],
+    "publisher": [
+      "Fyfield Books,"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxiii, 135 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Dunbar, William,",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    },
+    {
+      "value": "Scottish poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Scottish poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "To 1700",
+      "type": "topical"
+    }
+  ]
+}

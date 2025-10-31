@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:in00028042133",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028042133",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028042133",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 25013596 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1383984"
+    },
+    {
+      "type": "Local",
+      "value": "9910464405602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The principles of psychology /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "James, William,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "H. Holt,"
+    ],
+    "date": "[1918]",
+    "year": 1918,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "illustrations.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Psychology",
+      "type": "topical"
+    },
+    {
+      "value": "Psychology.",
+      "type": "topical"
+    },
+    {
+      "value": "psychology.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American science series. Advanced course"
+    },
+    {
+      "title": "American science series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1416045111",
+      "Principles of psychology."
+    ]
+  }
+}

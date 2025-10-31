@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00028195916",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028195916",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028195916",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 63004204 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)184309"
+    },
+    {
+      "type": "Local",
+      "value": "9910024465702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Teaching English : 7-12 /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lewis, John Smith,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Sisk, Jean C.,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "American Book Company,"
+    ],
+    "date": "[1963]",
+    "year": 1963,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "594 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English language",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)610421251",
+      "Teaching English."
+    ]
+  }
+}

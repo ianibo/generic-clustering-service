@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00028047021",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028047021",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028047021",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)15794202"
+    },
+    {
+      "type": "Local",
+      "value": "9911137735302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Carey, Mathew,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Brooklyn],"
+    ],
+    "date": "[1942]",
+    "year": 1942,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "ix, 134 pages",
+    "illustrations": "including frontispiece (portrait)",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Carey, Mathew,",
+      "type": "topical"
+    },
+    {
+      "value": "Pennsylvania",
+      "type": "topical"
+    },
+    {
+      "value": "Printers",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary works)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Research classics,",
+      "numbering": "no. 1"
+    },
+    {
+      "title": "Library of American civilization ;",
+      "numbering": "LAC 16794."
+    }
+  ]
+}

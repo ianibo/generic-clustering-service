@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:in00026947503",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026947503",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026947503",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2068449"
+    },
+    {
+      "type": "Local",
+      "value": "9911577223602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of John Masefield.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Masefield, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Canby, Henry Seidel,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Pierce, F. E.",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Durham, W. H.",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Macmillan Co.,"
+    ],
+    "date": "1935.",
+    "year": 1935,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "v, 313 pages",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

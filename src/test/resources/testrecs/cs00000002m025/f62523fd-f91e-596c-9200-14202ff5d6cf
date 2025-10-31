@@ -1,0 +1,174 @@
+{
+  "id": "marc:001:in00027145432",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027145432",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027145432",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0141439602"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780141439600"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780141196909"
+    },
+    {
+      "type": "ISBN",
+      "value": "0141196904"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003270053"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)50937084"
+    },
+    {
+      "type": "Local",
+      "value": "9910314224802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "A tale of two cities /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Maxwell, Richard,",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London, England ;",
+      "New York, New York :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "2003.",
+    "year": 2003,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "lii, 488 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Executions and executioners",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "French fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "London (England)",
+      "type": "topical"
+    },
+    {
+      "value": "Lookalikes",
+      "type": "topical"
+    },
+    {
+      "value": "Paris (France)",
+      "type": "topical"
+    },
+    {
+      "value": "War fiction",
+      "type": "topical"
+    },
+    {
+      "value": "War fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "War stories",
+      "type": "topical"
+    },
+    {
+      "value": "War stories.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1232441367",
+      "Tale of two cities"
+    ]
+  }
+}

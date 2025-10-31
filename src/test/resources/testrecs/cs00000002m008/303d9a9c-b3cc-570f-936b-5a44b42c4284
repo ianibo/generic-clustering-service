@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00030086698",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030086698",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030086698",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0674676009"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780674676008"
+    },
+    {
+      "type": "LCCN",
+      "value": " 54008631 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)19911572"
+    },
+    {
+      "type": "Local",
+      "value": "9911530224702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Emily Dickinson : including variant readings critically compared with all known manuscripts /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickinson, Emily,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Johnson, Thomas Herbert,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, Massachusetts :"
+    ],
+    "publisher": [
+      "The Belknap Press of Harvard University Press,"
+    ],
+    "date": "1955.",
+    "year": 1955,
+    "countryCode": "fh "
+  },
+  "physical": {
+    "extent": "3 volumes (lxviii, 1266 pages, 20 unnumbered pages of plates) :",
+    "illustrations": "facsimiles ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Dickinson, Emily,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)606319826",
+      "(OCoLC)609236082",
+      "Poems of Emily Dickinson."
+    ]
+  }
+}

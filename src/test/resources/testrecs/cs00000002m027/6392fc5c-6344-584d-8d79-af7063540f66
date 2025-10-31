@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00030491205",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030491205",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030491205",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 66007651 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5278984"
+    },
+    {
+      "type": "Local",
+      "value": "9911251729502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The moonstone /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collins, Wilkie,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Baltimore :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "[1966]",
+    "year": 1966,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "527 pages ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Detective and mystery fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "East Indians",
+      "type": "topical"
+    },
+    {
+      "value": "East Indians.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Jewelry theft",
+      "type": "topical"
+    },
+    {
+      "value": "Jewelry theft.",
+      "type": "topical"
+    },
+    {
+      "value": "Mystery fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Police",
+      "type": "topical"
+    },
+    {
+      "value": "Police.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin English library ;",
+      "numbering": "EL14"
+    }
+  ]
+}

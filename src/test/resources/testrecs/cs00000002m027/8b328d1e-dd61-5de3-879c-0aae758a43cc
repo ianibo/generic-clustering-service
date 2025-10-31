@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00028032619",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028032619",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028032619",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0748730958"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780748730957"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)39755484"
+    },
+    {
+      "type": "Local",
+      "value": "9911282803902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories by Charles Dickens",
+      "type": "alternative"
+    },
+    {
+      "value": "Short stories /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Royston, Mike.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cheltenham, England :"
+    ],
+    "publisher": [
+      "Stanley Thornes,"
+    ],
+    "date": "1997.",
+    "year": 1997,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "90 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Dickens, Charles,",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories.",
+      "type": "topical"
+    },
+    {
+      "value": "short stories.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Thornes classic short stories"
+    },
+    {
+      "title": "Thornes classic short stories."
+    }
+  ]
+}

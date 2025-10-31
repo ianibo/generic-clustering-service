@@ -1,0 +1,69 @@
+{
+  "id": "marc:001:in00028852308",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028852308",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028852308",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)8772048"
+    },
+    {
+      "type": "Local",
+      "value": "9911093578102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dobson, Austin,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "K. Paul, Trench, Trübner,"
+    ],
+    "date": "1897.",
+    "year": 1897,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "xv, 526 pages :",
+    "illustrations": "portrait",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "series": [
+    {
+      "title": "Library of English literature ;",
+      "numbering": "LEL 10869."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00026221682",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026221682",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026221682",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0882332651"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780882332659"
+    },
+    {
+      "type": "LCCN",
+      "value": " 77356472 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2867667"
+    },
+    {
+      "type": "Local",
+      "value": "9910380756402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kli︠u︡ev, Nikolaĭ,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Glad, John,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "rus"
+  ],
+  "publication": {
+    "place": [
+      "Ann Arbor, Mich. :"
+    ],
+    "publisher": [
+      "Published by the Iowa Translation Series, International Writing Program, University of Iowa and Ardis,"
+    ],
+    "date": "[1977]",
+    "year": 1977,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "xx, 72, [25] pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Kli︠u︡ev, Nikolaĭ,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Iowa translation series"
+    },
+    {
+      "title": "Iowa translation series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)608812692",
+      "Poems."
+    ]
+  }
+}

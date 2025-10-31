@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:in00025927019",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025927019",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025927019",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 30011288 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1832884"
+    },
+    {
+      "type": "Local",
+      "value": "9911580299102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey of Homer,",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Butcher, S. H.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Lang, Andrew,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Moffett, Wallace B.,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York]"
+    ],
+    "publisher": [
+      "Macmillan Co."
+    ],
+    "date": "[©1930]",
+    "year": 1930,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xvii pages, 2 leaves, 3-435 pages",
+    "illustrations": "frontispiece, plates, map",
+    "dimensions": "17 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "New pocket classics"
+    },
+    {
+      "title": "New pocket classics."
+    }
+  ]
+}

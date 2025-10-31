@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00026664186",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026664186",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026664186",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0792322622"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780792322627"
+    },
+    {
+      "type": "LCCN",
+      "value": " 93000894 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)27812875"
+    },
+    {
+      "type": "Local",
+      "value": "9910315037502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Early writings in the philosophy of logic and mathematics /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Husserl, Edmund,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Willard, Dallas,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Boston :",
+      "Dordrecht ;"
+    ],
+    "publisher": [
+      "Kluwer Academic Publishers,"
+    ],
+    "date": "1994.",
+    "year": 1994,
+    "countryCode": "b 0"
+  },
+  "physical": {
+    "extent": "xlviii, 505 pages ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Logic",
+      "type": "topical"
+    },
+    {
+      "value": "Logic.",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics",
+      "type": "topical"
+    },
+    {
+      "value": "logic.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Edmund Husserl collected works ;",
+      "numbering": "v. 5"
+    }
+  ]
+}

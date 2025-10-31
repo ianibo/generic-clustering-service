@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00028061853",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028061853",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028061853",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)40865777"
+    },
+    {
+      "type": "Local",
+      "value": "9912064837602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Great ideas",
+      "type": "alternative"
+    },
+    {
+      "value": "The syntopicon. an index to the great ideas /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Adler, Mortimer J.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Encyclopaedia Britannica, Inc.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "edition": {
+    "statement": "2nd ed."
+  },
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": " bi"
+  },
+  "physical": {
+    "extent": "vi, 1041 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Anthologies",
+      "type": "topical"
+    },
+    {
+      "value": "Indexes",
+      "type": "topical"
+    },
+    {
+      "value": "Indexes.",
+      "type": "topical"
+    },
+    {
+      "value": "indexes (reference sources)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "2"
+    },
+    {
+      "title": "Great books of the Western world (1990) ;",
+      "numbering": "2."
+    }
+  ]
+}

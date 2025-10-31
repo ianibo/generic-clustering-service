@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:in00029781358",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029781358",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029781358",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "346200882X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783462008821"
+    },
+    {
+      "type": "LCCN",
+      "value": " 72351503 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)529890"
+    },
+    {
+      "type": "Local",
+      "value": "9910867412602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Erzählungen, 1950-1970.",
+      "type": "main"
+    },
+    {
+      "value": "Short stories.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Böll, Heinrich,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Köln, Berlin]"
+    ],
+    "publisher": [
+      "Kiepenheuer & Witsch"
+    ],
+    "date": "[1972]",
+    "year": 1972,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "444 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "German fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Roman allemand.",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories, German",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)581067088",
+      "Erzählungen."
+    ]
+  }
+}

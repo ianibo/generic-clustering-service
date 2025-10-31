@@ -1,0 +1,154 @@
+{
+  "id": "marc:001:in00027131694",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027131694",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027131694",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0835902153"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780835902151"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)31186676"
+    },
+    {
+      "type": "Local",
+      "value": "9914928253302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Jane Eyre /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Charlotte,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Carlin, Jerome,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Christ, Henry I.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Weiss, M. Jerry",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Brontë, Charlotte,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Englewood Cliffs, N.J. :"
+    ],
+    "publisher": [
+      "Globe,"
+    ],
+    "date": "©1992.",
+    "year": 1992,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "214 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800 - 1899",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Governesses",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Man-woman relationships",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Readers (Adult)",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "An adapted classic"
+    },
+    {
+      "title": "Adapted classic."
+    }
+  ]
+}

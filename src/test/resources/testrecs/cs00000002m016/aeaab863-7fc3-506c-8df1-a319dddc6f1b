@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00030279086",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030279086",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030279086",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0226629155"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780226629155"
+    },
+    {
+      "type": "ISBN",
+      "value": "0226629147"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780226629148"
+    },
+    {
+      "type": "LCCN",
+      "value": " 63022589 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3331225"
+    },
+    {
+      "type": "Local",
+      "value": "9911638321902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Olson, Elder,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "University of Chicago Press,"
+    ],
+    "date": "1963.",
+    "year": 1963,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiii, 194 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Phoenix poets ;",
+      "numbering": "PP8"
+    },
+    {
+      "title": "Phoenix poets ;",
+      "numbering": "PP8."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)639384749",
+      "Collected poems."
+    ]
+  }
+}

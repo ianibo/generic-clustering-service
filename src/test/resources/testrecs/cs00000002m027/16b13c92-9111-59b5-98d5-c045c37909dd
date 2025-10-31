@@ -1,0 +1,81 @@
+{
+  "id": "marc:001:in00027708525",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027708525",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027708525",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)9947325"
+    },
+    {
+      "type": "Local",
+      "value": "9911243842802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Principles of political economy : with some of their applications to social philosophy /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York :"
+    ],
+    "publisher": [
+      "Dutton,",
+      "Routledge ;"
+    ],
+    "date": "[1900?]",
+    "year": 1900,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "640 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Economics.",
+      "type": "topical"
+    },
+    {
+      "value": "economics.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647309579",
+      "Principles of political economy."
+    ]
+  }
+}

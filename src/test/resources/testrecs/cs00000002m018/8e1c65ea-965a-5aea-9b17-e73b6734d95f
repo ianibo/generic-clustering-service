@@ -1,0 +1,106 @@
+{
+  "id": "marc:001:in00029660433",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029660433",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029660433",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "D05005779X"
+    },
+    {
+      "type": "LCCN",
+      "value": " 15015005 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1248287"
+    },
+    {
+      "type": "Local",
+      "value": "9910190929702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Bibliography of Oscar Wilde /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mason, Stuart,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "T. Werner Laurie (Firm),",
+      "role": "publisher.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Riverside Press (Edinburgh, Scotland),",
+      "role": "printer.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "T. Werner Laurie, Ltd.,"
+    ],
+    "date": "[1914]",
+    "year": 1914,
+    "countryCode": "acf"
+  },
+  "physical": {
+    "extent": "xxxii, 605 pages, 13 unnumbered leaves of plates :",
+    "illustrations": "illustrations, facsimiles, portraits ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Annotations (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Authors' autographs (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Bibliographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Wilde, Oscar,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609724945",
+      "Bibliography of Oscar Wilde."
+    ]
+  }
+}

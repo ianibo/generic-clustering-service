@@ -1,0 +1,106 @@
+{
+  "id": "marc:001:in00026823036",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026823036",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026823036",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2978880"
+    },
+    {
+      "type": "Local",
+      "value": "9922990813402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The decline and fall of the Roman Empire /",
+      "type": "main"
+    },
+    {
+      "value": "History of the decline and fall of the Roman Empire",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gibbon, Edward,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Low, D. M.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Washington Square Press,"
+    ],
+    "date": "1962.",
+    "year": 1962,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "3 volumes (xxvi, 1163 pages) :",
+    "illustrations": "maps ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "30 B.C.-476 A.D",
+      "type": "topical"
+    },
+    {
+      "value": "Byzantine Empire",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "History, Ancient.",
+      "type": "topical"
+    },
+    {
+      "value": "Rome",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)567433415",
+      "(OCoLC)608698852",
+      "Decline and fall of the Roman Empire."
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "marc:001:in00027134717",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027134717",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027134717",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0717200019"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780717200016"
+    },
+    {
+      "type": "LCCN",
+      "value": " 78119753 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)12381138"
+    },
+    {
+      "type": "Local",
+      "value": "9911254579402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Ivanhoe /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Danbury, Conn. :"
+    ],
+    "publisher": [
+      "Grolier Enterprises Corp.,"
+    ],
+    "date": "[1978?]",
+    "year": 1978,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xv, 654 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1189-1199",
+      "type": "topical"
+    },
+    {
+      "value": "Action and adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The World's great classics"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)760839792",
+      "Ivanhoe."
+    ]
+  }
+}

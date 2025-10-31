@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:in00027104415",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027104415",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027104415",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0670031984"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780670031986"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780143039082"
+    },
+    {
+      "type": "ISBN",
+      "value": "0143039083"
+    },
+    {
+      "type": "Other",
+      "value": "9780670031986"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003050159"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)52086260"
+    },
+    {
+      "type": "Local",
+      "value": "9910018596102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Marianne Moore /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Moore, Marianne,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Schulman, Grace,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Viking,"
+    ],
+    "date": "2003.",
+    "year": 2003,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxx, 449 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poems.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607030140",
+      "Poems of Marianne Moore."
+    ]
+  }
+}

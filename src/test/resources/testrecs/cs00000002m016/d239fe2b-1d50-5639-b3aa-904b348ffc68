@@ -1,0 +1,152 @@
+{
+  "id": "marc:001:in00029893902",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029893902",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029893902",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1857541715"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781857541717"
+    },
+    {
+      "type": "ISBN",
+      "value": "1897722044"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781897722046"
+    },
+    {
+      "type": "ISBN",
+      "value": "1857542614"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781857542615"
+    },
+    {
+      "type": "ISBN",
+      "value": "1857542800"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781857542806"
+    },
+    {
+      "type": "LCCN",
+      "value": " 97164310 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)34022223"
+    },
+    {
+      "type": "Local",
+      "value": "9910210907402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems",
+      "type": "alternative"
+    },
+    {
+      "value": "Complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Graves, Robert,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Graves, Beryl,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Ward, Dunstan,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Manchester :",
+      "Paris :"
+    ],
+    "publisher": [
+      "Alyscamps Press,",
+      "Carcanet Press ;"
+    ],
+    "date": "1995-1999.",
+    "year": 1995,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "3 volumes ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Robert Graves programme"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)604712324",
+      "Complete poems."
+    ]
+  }
+}

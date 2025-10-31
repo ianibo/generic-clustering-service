@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00026363273",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026363273",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026363273",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 51011212 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)846931708"
+    },
+    {
+      "type": "Local",
+      "value": "9910436534002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Political writings.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lasswell, Harold D.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Glencoe, Ill.,"
+    ],
+    "publisher": [
+      "Free Press,"
+    ],
+    "date": "1951.",
+    "year": 1951,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "525 p. 22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Political science",
+      "type": "topical"
+    },
+    {
+      "value": "Political science.",
+      "type": "topical"
+    },
+    {
+      "value": "Politics",
+      "type": "topical"
+    },
+    {
+      "value": "Politics, Practical",
+      "type": "topical"
+    },
+    {
+      "value": "Politics, Practical.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychoanalysis",
+      "type": "topical"
+    },
+    {
+      "value": "Psychoanalysis.",
+      "type": "topical"
+    },
+    {
+      "value": "politics.",
+      "type": "topical"
+    },
+    {
+      "value": "psychoanalysis.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)576430485",
+      "(OCoLC)608609952",
+      "Political writings of Harold D. Lasswell."
+    ]
+  }
+}

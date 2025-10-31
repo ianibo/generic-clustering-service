@@ -1,0 +1,106 @@
+{
+  "id": "marc:001:in00027298416",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027298416",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027298416",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 01018647 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2772777"
+    },
+    {
+      "type": "Local",
+      "value": "9910458652502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Keats, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bates, Arlo,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston,",
+      "London,"
+    ],
+    "publisher": [
+      "Ginn,"
+    ],
+    "date": "1896.",
+    "year": 1896,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "xxx pages, 1 leaf, 302 pages",
+    "illustrations": "frontispiece (portrait)",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Readers.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Athenaeum Press series"
+    },
+    {
+      "title": "Athenæum Press series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)566119155",
+      "Poems."
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00029672505",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029672505",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029672505",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1881584"
+    },
+    {
+      "type": "Local",
+      "value": "9910305053202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Martin-Harvey, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "S. Low, Marston"
+    ],
+    "date": "[1933]",
+    "year": 1933,
+    "countryCode": "cfh"
+  },
+  "physical": {
+    "extent": "xix, 563 pages",
+    "illustrations": "plates, portraits, facsimile",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Actors",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Irving, Henry,",
+      "type": "topical"
+    },
+    {
+      "value": "Martin-Harvey, John,",
+      "type": "topical"
+    },
+    {
+      "value": "Personal correspondence",
+      "type": "topical"
+    },
+    {
+      "value": "Theater",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary works)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1357081610",
+      "Autobiography."
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "id": "marc:001:in00027520988",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027520988",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027520988",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300028253"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300028256"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300028288"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300028287"
+    },
+    {
+      "type": "ISBN",
+      "value": "0140422773"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140422771"
+    },
+    {
+      "type": "LCCN",
+      "value": " 81015948 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7875672"
+    },
+    {
+      "type": "Local",
+      "value": "9910381498402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jonson, Ben,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Parfitt, George A. E.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "1982.",
+    "year": 1982,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "634 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The English poets"
+    },
+    {
+      "title": "English poets."
+    }
+  ]
+}

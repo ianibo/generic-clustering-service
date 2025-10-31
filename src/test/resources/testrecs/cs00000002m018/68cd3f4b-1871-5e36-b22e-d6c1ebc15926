@@ -1,0 +1,176 @@
+{
+  "id": "marc:001:in00027307960",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027307960",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027307960",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0845073052"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780845073056"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780854073078"
+    },
+    {
+      "type": "ISBN",
+      "value": "0854073078"
+    },
+    {
+      "type": "LCCN",
+      "value": " 91752761 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)24544443"
+    },
+    {
+      "type": "Local",
+      "value": "9910406075902931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "MR 5"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Busnois, Antoine,",
+      "role": "composer.",
+      "kind": "person"
+    },
+    {
+      "name": "Perkins, Leeman L.",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Taruskin, Richard,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "frm",
+    "lat"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Broude Trust,"
+    ],
+    "date": "[1990-2018]",
+    "year": 1990,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "1 score (4 volumes) :",
+    "illustrations": "illustrations ;",
+    "dimensions": "30 cm",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1400-1499",
+      "type": "topical"
+    },
+    {
+      "value": "Art music",
+      "type": "topical"
+    },
+    {
+      "value": "Art music.",
+      "type": "topical"
+    },
+    {
+      "value": "Ballades (Formes fixes)",
+      "type": "topical"
+    },
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Music",
+      "type": "topical"
+    },
+    {
+      "value": "Rondeaux (Formes fixes)",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred music",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred music.",
+      "type": "topical"
+    },
+    {
+      "value": "Scores",
+      "type": "topical"
+    },
+    {
+      "value": "Scores.",
+      "type": "topical"
+    },
+    {
+      "value": "Virelais (Formes fixes)",
+      "type": "topical"
+    },
+    {
+      "value": "Vocal music",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Masters and monuments of the Renaissance ;",
+      "numbering": "v. 5"
+    },
+    {
+      "title": "Masters and monuments of the Renaissance ;",
+      "numbering": "v. 5."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)635576885",
+      "Collected works."
+    ]
+  }
+}

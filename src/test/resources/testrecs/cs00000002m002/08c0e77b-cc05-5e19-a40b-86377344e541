@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00029280206",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029280206",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029280206",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 53005343 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)501204"
+    },
+    {
+      "type": "Local",
+      "value": "9910046800602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poetry and prose;",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Blake, William,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Modern Library"
+    ],
+    "date": "[1953]",
+    "year": 1953,
+    "countryCode": "f j"
+  },
+  "physical": {
+    "extent": "xxx, 475 pages",
+    "illustrations": "plates",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Blake, William,",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Modern library of the world's best books, 285"
+    },
+    {
+      "title": "Modern library of the world's best books ;",
+      "numbering": "285."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)646933021",
+      "Selected poetry and prose."
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "id": "marc:001:in00028705629",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028705629",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028705629",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0198281897"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198281894"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199269572"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198281849"
+    },
+    {
+      "type": "ISBN",
+      "value": "0198281846"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199269570"
+    },
+    {
+      "type": "LCCN",
+      "value": " 76369858 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2524266"
+    },
+    {
+      "type": "Local",
+      "value": "9910485553502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Glasgow edition of the works and correspondence of Adam Smith.",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Smith, Adam,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford :"
+    ],
+    "publisher": [
+      "Clarendon Press ;",
+      "Oxford University Press,"
+    ],
+    "date": "1976-1983.",
+    "year": 1976,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "6 volumes in 7 ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Economics.",
+      "type": "topical"
+    },
+    {
+      "value": "Ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "economics.",
+      "type": "topical"
+    },
+    {
+      "value": "ethics (philosophy)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)778070827",
+      "Glasgow edition of the works and correspondence of Adam Smith."
+    ]
+  }
+}

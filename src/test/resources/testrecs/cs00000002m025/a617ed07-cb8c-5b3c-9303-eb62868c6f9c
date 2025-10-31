@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00026716762",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026716762",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026716762",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0091795184"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780091795184"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2005415915"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)51000013"
+    },
+    {
+      "type": "Local",
+      "value": "9910341895802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New and collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Abse, Dannie.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Hutchinson,"
+    ],
+    "date": "2003.",
+    "year": 2003,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xvii, 426 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)606936190",
+      "(OCoLC)607842749",
+      "New and collected poems."
+    ]
+  }
+}

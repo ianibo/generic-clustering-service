@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00027876515",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027876515",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027876515",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9057551063"
+    },
+    {
+      "type": "ISBN",
+      "value": "9789057551062"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003386134"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)58976706"
+    },
+    {
+      "type": "Local",
+      "value": "9910448015702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Czerniawski, Adam,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Higgins, Iain Macleod.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "pol"
+  ],
+  "publication": {
+    "place": [
+      "Amsterdam :"
+    ],
+    "publisher": [
+      "Harwood Academic,"
+    ],
+    "date": "©2000.",
+    "year": 2000,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xvii, 221 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm +",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Czerniawski, Adam,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Poets' voices ;",
+      "numbering": "v. 1"
+    },
+    {
+      "title": "Poets' voices ;",
+      "numbering": "v. 1."
+    }
+  ]
+}

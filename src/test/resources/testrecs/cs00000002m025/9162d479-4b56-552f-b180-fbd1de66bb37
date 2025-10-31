@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00029532806",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029532806",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029532806",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:48Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:48Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 2004560290"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)52113590"
+    },
+    {
+      "type": "Local",
+      "value": "9910143695502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Roberts, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bailey, Candace,",
+      "role": "edt",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Broude Trust,"
+    ],
+    "date": "2003.",
+    "year": 2003,
+    "countryCode": "dfz"
+  },
+  "physical": {
+    "extent": "xviii pages, 53 pages of music :",
+    "illustrations": "facsimiles ;",
+    "dimensions": "31 cm.",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dance music.",
+      "type": "topical"
+    },
+    {
+      "value": "Harpsichord music.",
+      "type": "topical"
+    },
+    {
+      "value": "Keyboard instrument music.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The art of the keyboard ;",
+      "numbering": "8"
+    },
+    {
+      "title": "Art of the keyboard ;",
+      "numbering": "8."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)646095462",
+      "Collected works."
+    ]
+  }
+}

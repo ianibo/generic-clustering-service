@@ -1,0 +1,159 @@
+{
+  "id": "marc:001:in00027136720",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027136720",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027136720",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780822945666"
+    },
+    {
+      "type": "ISBN",
+      "value": "0822945665"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780822966289"
+    },
+    {
+      "type": "ISBN",
+      "value": "082296628X"
+    },
+    {
+      "type": "ISBN",
+      "value": "0822965836"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780822965831"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2022285340"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1057376747"
+    },
+    {
+      "type": "Local",
+      "value": "9916393319102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "\"I\" : new and selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Derricotte, Toi,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Ochester, Ed,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Pittsburgh, Pa. :"
+    ],
+    "publisher": [
+      "University of Pittsburgh Press,"
+    ],
+    "date": "[2019]",
+    "year": 2019,
+    "countryCode": "pau"
+  },
+  "physical": {
+    "extent": "xxi, 298 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Black people",
+      "type": "topical"
+    },
+    {
+      "value": "Gender identity",
+      "type": "topical"
+    },
+    {
+      "value": "Gender identity.",
+      "type": "topical"
+    },
+    {
+      "value": "Human skin color",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Social classes",
+      "type": "topical"
+    },
+    {
+      "value": "Women",
+      "type": "topical"
+    },
+    {
+      "value": "Women.",
+      "type": "topical"
+    },
+    {
+      "value": "Womyn.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Pitt poetry series"
+    },
+    {
+      "title": "Pitt poetry series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "0822986779"
+    ]
+  }
+}

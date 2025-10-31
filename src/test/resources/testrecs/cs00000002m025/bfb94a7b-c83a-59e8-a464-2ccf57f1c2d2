@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00027569343",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027569343",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027569343",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780748605675"
+    },
+    {
+      "type": "ISBN",
+      "value": "0748605673"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)154678427"
+    },
+    {
+      "type": "Local",
+      "value": "9910113286802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Waverley /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Garside, Peter.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :"
+    ],
+    "publisher": [
+      "Edinburgh University Press,"
+    ],
+    "date": "©2007.",
+    "year": 2007,
+    "countryCode": "h b"
+  },
+  "physical": {
+    "extent": "xvi, 641 pages :",
+    "illustrations": "1 facsimile ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Jacobite Rebellion, 1745-1746",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Edinburgh edition of the Waverley novels ;",
+      "numbering": "1"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)608579295",
+      "Waverley."
+    ]
+  }
+}

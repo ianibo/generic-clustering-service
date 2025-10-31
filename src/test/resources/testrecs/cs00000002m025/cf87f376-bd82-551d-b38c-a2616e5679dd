@@ -1,0 +1,79 @@
+{
+  "id": "marc:001:in00030194093",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030194093",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030194093",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)21498380"
+    },
+    {
+      "type": "Local",
+      "value": "9910477948502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Donne, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Printed by M.F. for John Marriot, and are to be sold at his shop in St. Dunstans Church-yard in Fleet-street,"
+    ],
+    "date": "1635.",
+    "year": 1635,
+    "countryCode": "c a"
+  },
+  "physical": {
+    "extent": "[13], 388, [31] pages :",
+    "illustrations": "portrait",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Early English books, 1475-1640 ;",
+      "numbering": "1708:23."
+    }
+  ]
+}

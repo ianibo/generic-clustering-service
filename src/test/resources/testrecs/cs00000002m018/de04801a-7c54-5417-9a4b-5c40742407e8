@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00029669492",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029669492",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029669492",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "014043626X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140436266"
+    },
+    {
+      "type": "LCCN",
+      "value": " 00265217 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)43465254"
+    },
+    {
+      "type": "Local",
+      "value": "9910122783202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Laforgue, Jules,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Martin, Graham Dunstan.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "London, England ;",
+      "New York, N.Y., USA :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1998.",
+    "year": 1998,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "304 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Laforgue, Jules,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654123387",
+      "Selected poems."
+    ]
+  }
+}

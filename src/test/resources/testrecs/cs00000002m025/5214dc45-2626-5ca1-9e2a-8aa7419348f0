@@ -1,0 +1,87 @@
+{
+  "id": "marc:001:in00028666754",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028666754",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028666754",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 43012190 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)13021493"
+    },
+    {
+      "type": "Local",
+      "value": "9910396316802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "On organization /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stalin, Joseph,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Lawrence & Wishart ltd,"
+    ],
+    "date": "[1942]",
+    "year": 1942,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "32 pages ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Vsesoi︠u︡znai︠a︡ kommunisticheskai︠a︡ partii︠a︡ (bolʹshevikov)",
+      "type": "topical"
+    },
+    {
+      "value": "Vsesoi︠u︡znai︠a︡ kommunisticheskai︠a︡ partii︠a︡ (bolʹshevikov) (1925-1952)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Little Stalin library ;",
+      "numbering": "no. 6"
+    },
+    {
+      "title": "Little Stalin library ;",
+      "numbering": "no. 6."
+    }
+  ]
+}

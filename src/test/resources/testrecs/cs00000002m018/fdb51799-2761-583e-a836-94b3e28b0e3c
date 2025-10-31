@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00026961998",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026961998",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026961998",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0312114680"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780312114688"
+    },
+    {
+      "type": "LCCN",
+      "value": " 94020639 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)30624281"
+    },
+    {
+      "type": "Local",
+      "value": "9910700651002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Donne, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st U.S. ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "St. Martin's Press,"
+    ],
+    "date": "1994.",
+    "year": 1994,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "127 pages ;",
+    "dimensions": "16 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1500-1700",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Bloomsbury poetry classics"
+    },
+    {
+      "title": "Bloomsbury poetry classics."
+    }
+  ]
+}

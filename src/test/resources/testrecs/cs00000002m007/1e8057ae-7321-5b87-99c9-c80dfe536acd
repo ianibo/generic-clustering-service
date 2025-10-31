@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:cosuin00000463452",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "cosuin00000463452",
+    "sourceRecordUri": "https://catalog.example.org/record/cosuin00000463452",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(GCbSU)533253-csudb"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2460809"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_COLUMBUS)995332533602939"
+    },
+    {
+      "type": "Local",
+      "value": "995332533602939"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anna Karenina /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "[1950?]",
+    "year": 1950,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "950 p. ;",
+    "dimensions": "21 cm."
+  },
+  "subjects": [
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Karenina, Anna (Fictitious character)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Modern library of the world's best books"
+    },
+    {
+      "title": "Modern library of the world's best books."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)743254590",
+      "Anna Karenina."
+    ]
+  }
+}

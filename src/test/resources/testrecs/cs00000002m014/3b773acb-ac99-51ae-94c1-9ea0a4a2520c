@@ -1,0 +1,68 @@
+{
+  "id": "marc:001:ghcin00000143239",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ghcin00000143239",
+    "sourceRecordUri": "https://catalog.example.org/record/ghcin00000143239",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 41005729"
+    },
+    {
+      "type": "Local",
+      "value": "(Voyager)32148-fcdb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_FLOYD)99321483702946"
+    },
+    {
+      "type": "Local",
+      "value": "99321483702946"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bishop, John Peale,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Scribner,"
+    ],
+    "date": "1941.",
+    "year": 1941,
+    "countryCode": " p "
+  },
+  "physical": {
+    "extent": "xii, 99 p. ;",
+    "dimensions": "22 cm."
+  }
+}

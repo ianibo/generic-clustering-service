@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:gsuin00004476768",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004476768",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004476768",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0534389937 (acid-free paper)"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003108099"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)ocm"
+    },
+    {
+      "type": "Local",
+      "value": "(GSU)1337680"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)1337680-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9913376803402952"
+    },
+    {
+      "type": "Local",
+      "value": "9913376803402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Numerical mathematics and computing /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cheney, E. W.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kincaid, David",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "5th ed."
+  },
+  "publication": {
+    "place": [
+      "Belmont, CA :"
+    ],
+    "publisher": [
+      "Thomson-Brooks/Cole,"
+    ],
+    "date": "c2004.",
+    "year": 2004,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xviii, 817 p. :",
+    "illustrations": "ill. (some col.) ;",
+    "dimensions": "25 cm."
+  },
+  "subjects": [
+    {
+      "value": "Numerical analysis",
+      "type": "topical"
+    }
+  ]
+}

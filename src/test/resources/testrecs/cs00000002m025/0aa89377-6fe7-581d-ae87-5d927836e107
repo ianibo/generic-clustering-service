@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00027595665",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027595665",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027595665",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1557280401"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781557280404"
+    },
+    {
+      "type": "LCCN",
+      "value": " 88017188 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)18069419"
+    },
+    {
+      "type": "Local",
+      "value": "9910041926902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Arkansas /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fletcher, John Gould,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Carpenter, Lucas.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Fayetteville :"
+    ],
+    "publisher": [
+      "University of Arkansas Press,"
+    ],
+    "date": "1989.",
+    "year": 1989,
+    "countryCode": "aru"
+  },
+  "physical": {
+    "extent": "xvii, 348 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Arkansas",
+      "type": "topical"
+    },
+    {
+      "value": "Arkansas.",
+      "type": "topical"
+    },
+    {
+      "value": "Folklore",
+      "type": "topical"
+    },
+    {
+      "value": "Folklore.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The John Gould Fletcher series ;",
+      "numbering": "v. 3"
+    },
+    {
+      "title": "John Gould Fletcher series ;",
+      "numbering": "v. 3."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)555740849",
+      "Arkansas."
+    ]
+  }
+}

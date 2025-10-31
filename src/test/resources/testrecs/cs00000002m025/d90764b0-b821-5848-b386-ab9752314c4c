@@ -1,0 +1,126 @@
+{
+  "id": "marc:001:in00027719281",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027719281",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027719281",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)913887084"
+    },
+    {
+      "type": "Local",
+      "value": "9910261940902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gray, Thomas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Murray, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "A new edition."
+  },
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Printed for J. Murray,"
+    ],
+    "date": "1790.",
+    "year": 1790,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "[2], 178 pages, 6 unnumbered leaves of plates :",
+    "illustrations": "illustrations ;",
+    "dimensions": "20 cm (8vo)",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Copyright infringement",
+      "type": "topical"
+    },
+    {
+      "value": "Copyright infringement.",
+      "type": "topical"
+    },
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Gray, Thomas,",
+      "type": "topical"
+    },
+    {
+      "value": "Old Norse poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Old Norse poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Parodies, imitations, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Pindar",
+      "type": "topical"
+    },
+    {
+      "value": "Pindar.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "Welsh poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Welsh poetry.",
+      "type": "topical"
+    }
+  ]
+}

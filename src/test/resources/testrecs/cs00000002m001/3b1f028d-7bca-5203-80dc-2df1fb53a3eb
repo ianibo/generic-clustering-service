@@ -1,0 +1,176 @@
+{
+  "id": "marc:001:in00028000671",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028000671",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028000671",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1591940095"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781591940098"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003100037"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)55689491"
+    },
+    {
+      "type": "Local",
+      "value": "9911226965402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Jane Eyre /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Charlotte,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Johnson, Beth,",
+      "role": "editor,",
+      "kind": "person"
+    },
+    {
+      "name": "Brontë, Charlotte,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "West Berlin, New Jersey :"
+    ],
+    "publisher": [
+      "Townsend Press,"
+    ],
+    "date": "2003.",
+    "year": 2003,
+    "countryCode": "nju"
+  },
+  "physical": {
+    "extent": "428 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "Charity-schools",
+      "type": "topical"
+    },
+    {
+      "value": "Classical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Country homes",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Governesses",
+      "type": "topical"
+    },
+    {
+      "value": "High interest-low vocabulary books",
+      "type": "topical"
+    },
+    {
+      "value": "High interest-low vocabulary books.",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Married men",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill women",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Orphans",
+      "type": "topical"
+    },
+    {
+      "value": "Readers (Adult)",
+      "type": "topical"
+    },
+    {
+      "value": "Young women",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Townsend library"
+    },
+    {
+      "title": "Townsend Library."
+    }
+  ]
+}

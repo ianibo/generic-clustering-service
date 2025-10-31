@@ -1,0 +1,130 @@
+{
+  "id": "marc:001:ksuin00001259416",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ksuin00001259416",
+    "sourceRecordUri": "https://catalog.example.org/record/ksuin00001259416",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(CaSfKAN)kan13233117"
+    },
+    {
+      "type": "Local",
+      "value": "998099194002954"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "13233117"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Prince.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Muñoz, Sebastián,",
+      "role": "film director.",
+      "kind": "person"
+    },
+    {
+      "name": "Castro, Alfredo,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Martin, Catalina,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Pauls, Gastón,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Carlos Maldonado, Juan,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Balmaceda, Lucas,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Ayala, Sebastián,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Kino Lorber (Firm),",
+      "role": "dst",
+      "kind": "corporate"
+    },
+    {
+      "name": "Kanopy (Firm),",
+      "role": "dst",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "publisher": [
+      "Kino Lorber,"
+    ],
+    "date": "2019.",
+    "year": 2019,
+    "countryCode": "cau"
+  },
+  "physical": {
+    "extent": "1 online resource (streaming video file) (96 minutes):",
+    "illustrations": "digital, .flv file, sound",
+    "contentType": "two-dimensional moving image",
+    "mediaType": "computer",
+    "carrierType": "online resource"
+  },
+  "subjects": [
+    {
+      "value": "Crime.",
+      "type": "topical"
+    },
+    {
+      "value": "Drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Feature films.",
+      "type": "topical"
+    },
+    {
+      "value": "Foreign films.",
+      "type": "topical"
+    },
+    {
+      "value": "Motion pictures.",
+      "type": "topical"
+    },
+    {
+      "value": "Queer cinema.",
+      "type": "topical"
+    }
+  ]
+}

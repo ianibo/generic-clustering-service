@@ -1,0 +1,141 @@
+{
+  "id": "marc:001:in00028601620",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028601620",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028601620",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0451529308"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780451529305"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003060632"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)52979070"
+    },
+    {
+      "type": "Local",
+      "value": "9911353412802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Signet Classic,"
+    ],
+    "date": "2004.",
+    "year": 2004,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "vi, 456 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographical fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "March family (Fictional characters)",
+      "type": "topical"
+    },
+    {
+      "value": "March family (Fictitious characters)",
+      "type": "topical"
+    },
+    {
+      "value": "Mother-daughter relationship",
+      "type": "topical"
+    },
+    {
+      "value": "Mothers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "New England",
+      "type": "topical"
+    },
+    {
+      "value": "Sisters",
+      "type": "topical"
+    },
+    {
+      "value": "Young women",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Signet Classic."
+    },
+    {
+      "title": "Signet Classic."
+    }
+  ]
+}

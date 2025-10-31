@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:in00026476305",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026476305",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026476305",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 68059013 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)22060"
+    },
+    {
+      "type": "Local",
+      "value": "9910507621802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The major works.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Frederic, Harold,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Greenwood Press"
+    ],
+    "date": "[1969]-",
+    "year": 1969,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "volumes",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)644029161",
+      "Major works."
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00028477450",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028477450",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028477450",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0691098581"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691098586"
+    },
+    {
+      "type": "LCCN",
+      "value": " 70100357 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)206738"
+    },
+    {
+      "type": "Local",
+      "value": "9910015148702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Saint-John Perse,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Auden, W. H.",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "Princeton, N.J.]"
+    ],
+    "publisher": [
+      "Princeton University Press"
+    ],
+    "date": "[1971]",
+    "year": 1971,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "682 pages",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Saint-John Perse,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Bollingen series,",
+      "numbering": "87"
+    },
+    {
+      "title": "Bollingen series ;",
+      "numbering": "87."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756462424",
+      "Collected poems."
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "marc:001:in00027587173",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027587173",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027587173",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0810160277"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780810160279"
+    },
+    {
+      "type": "ISBN",
+      "value": "0810160285"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780810160286"
+    },
+    {
+      "type": "LCCN",
+      "value": " 98034123 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)39523408"
+    },
+    {
+      "type": "Local",
+      "value": "9910492897902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An Italian journey /",
+      "type": "main"
+    },
+    {
+      "value": "Voyage en Italie.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Giono, Jean,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cumming, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Evanston, Ill. :"
+    ],
+    "publisher": [
+      "Marlboro Press/Northwestern,"
+    ],
+    "date": "©1998.",
+    "year": 1998,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "188 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, French",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "French",
+      "type": "topical"
+    },
+    {
+      "value": "Giono, Jean,",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Italy",
+      "type": "topical"
+    },
+    {
+      "value": "Travel",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary works)",
+      "type": "topical"
+    }
+  ]
+}

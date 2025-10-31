@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00029221068",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029221068",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029221068",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 67023064 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1064767"
+    },
+    {
+      "type": "Local",
+      "value": "9910978802002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Eliot, T. S.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "[1st American ed.]."
+  },
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Harcourt, Brace & World"
+    ],
+    "date": "[1967, ©1964]",
+    "year": 1967,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "127 pages",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Harbrace paperback library"
+    },
+    {
+      "title": "Harbrace paperback library."
+    }
+  ]
+}

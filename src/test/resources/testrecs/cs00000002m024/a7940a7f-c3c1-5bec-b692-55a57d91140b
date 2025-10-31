@@ -1,0 +1,174 @@
+{
+  "id": "marc:001:in00027792794",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027792794",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027792794",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 55010340 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)916252"
+    },
+    {
+      "type": "Local",
+      "value": "9910970980102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Pensées",
+      "type": "alternative"
+    },
+    {
+      "value": "Scientific treatises",
+      "type": "alternative"
+    },
+    {
+      "value": "The provincial letters : Pensées : Scientific treatises /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pascal, Blaise,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "M'Crie, Thomas,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Trotter, W. F.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Scofield, Richard,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Pascal, Blaise,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pascal, Blaise,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "[1955]",
+    "year": 1955,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "vi, 487 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "Jansenists",
+      "type": "topical"
+    },
+    {
+      "value": "Jesuits",
+      "type": "topical"
+    },
+    {
+      "value": "Jesuits.",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy.",
+      "type": "topical"
+    },
+    {
+      "value": "Port Royal.",
+      "type": "topical"
+    },
+    {
+      "value": "Port-Royal des Champs (Abbey)",
+      "type": "topical"
+    },
+    {
+      "value": "Religion and Science",
+      "type": "topical"
+    },
+    {
+      "value": "Religion and science",
+      "type": "topical"
+    },
+    {
+      "value": "Religion and science.",
+      "type": "topical"
+    },
+    {
+      "value": "philosophy.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 33"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 33."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756455500",
+      "Provincial letters."
+    ]
+  }
+}

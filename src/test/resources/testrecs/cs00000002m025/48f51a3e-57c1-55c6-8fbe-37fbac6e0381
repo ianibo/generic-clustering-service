@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00028133362",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028133362",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028133362",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)34382832"
+    },
+    {
+      "type": "Local",
+      "value": "9910445863202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Drayton, Michael,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hole, William,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Printed by W. Stansby for Iohn Smethvvicke,"
+    ],
+    "date": "[1619]",
+    "year": 1619,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "[8], 487 pages :",
+    "illustrations": "portrait",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Early English books, 1475-1640 ;",
+      "numbering": "1893:11."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00028917515",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028917515",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028917515",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 46003911 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)188088"
+    },
+    {
+      "type": "Local",
+      "value": "9910966873002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Hawthorne's short stories /",
+      "type": "main"
+    },
+    {
+      "value": "Short stories",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hawthorne, Nathaniel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Arvin, Newton,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First Borzoi edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Alfred A. Knopf,"
+    ],
+    "date": "1946.",
+    "year": 1946,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "xxii, 422 pages :",
+    "illustrations": "frontispiece (portrait) ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Arvin, Newton,",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)568755484",
+      "Hawthorne's short stories."
+    ]
+  }
+}

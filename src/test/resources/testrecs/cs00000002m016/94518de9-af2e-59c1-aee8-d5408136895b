@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00029295574",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029295574",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029295574",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)4898388"
+    },
+    {
+      "type": "Local",
+      "value": "9910813096102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Robinson Crusoe /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Defoe, Daniel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wyeth, N. C.",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia :"
+    ],
+    "publisher": [
+      "David McKay,"
+    ],
+    "date": "1920.",
+    "year": 1920,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "368 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Action and adventure fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Action and adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Castaways",
+      "type": "topical"
+    },
+    {
+      "value": "Crusoe, Robinson (Fictitious character)",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Islands",
+      "type": "topical"
+    },
+    {
+      "value": "Shipwreck survival",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)752874635",
+      "Robinson Crusoe."
+    ]
+  }
+}

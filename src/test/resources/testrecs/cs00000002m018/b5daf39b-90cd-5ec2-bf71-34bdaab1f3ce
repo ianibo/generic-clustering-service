@@ -1,0 +1,104 @@
+{
+  "id": "marc:001:in00027520158",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027520158",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027520158",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0404113877"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780404113872"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73018576 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2062206"
+    },
+    {
+      "type": "Local",
+      "value": "9910633935502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Harper, Frances Ellen Watkins,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cairns Collection of American Women Writers.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "AMS Press,"
+    ],
+    "date": "1975.",
+    "year": 1975,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "48 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "African Americans",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)891121182",
+      "Poems."
+    ]
+  }
+}

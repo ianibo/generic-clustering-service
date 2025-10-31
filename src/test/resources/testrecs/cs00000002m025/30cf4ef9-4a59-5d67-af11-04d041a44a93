@@ -1,0 +1,77 @@
+{
+  "id": "marc:001:in00030434520",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030434520",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030434520",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)8425160"
+    },
+    {
+      "type": "Local",
+      "value": "(GUA)2095257"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)2095257-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910206797402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Paradise /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hamilton, Cosmo,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Grosset & Dunlap,"
+    ],
+    "date": "c1925.",
+    "year": 1925,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "295, [14] p., [8] leaves of plates :",
+    "illustrations": "ill. ;",
+    "dimensions": "20 cm."
+  },
+  "series": [
+    {
+      "title": "Photoplay Collection"
+    },
+    {
+      "title": "Photoplay Collection."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00026818911",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026818911",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026818911",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780875653600"
+    },
+    {
+      "type": "ISBN",
+      "value": "087565360X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780875654621"
+    },
+    {
+      "type": "ISBN",
+      "value": "0875654622"
+    },
+    {
+      "type": "Other",
+      "value": "99821309162"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2007042700"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)174501906"
+    },
+    {
+      "type": "Local",
+      "value": "9910230113702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New and selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thomas, Larry D.,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Fort Worth, Tex. :"
+    ],
+    "publisher": [
+      "TCU Press,"
+    ],
+    "date": "[2008?]",
+    "year": 2008,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "viii, 88 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Texas, West",
+      "type": "topical"
+    },
+    {
+      "value": "West Texas.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "TCU Texas poets laureate series"
+    },
+    {
+      "title": "TCU Texas poets laureate series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)679600160",
+      "New and selected poems."
+    ]
+  }
+}

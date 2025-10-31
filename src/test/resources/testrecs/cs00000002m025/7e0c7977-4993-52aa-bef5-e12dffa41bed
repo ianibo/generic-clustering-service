@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:in00029708211",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029708211",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029708211",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0192826581"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192826589"
+    },
+    {
+      "type": "LCCN",
+      "value": " 92001254 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)25316309"
+    },
+    {
+      "type": "Local",
+      "value": "9910427684802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Quentin Durward /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Manning, Susan,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1992.",
+    "year": 1992,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "xl, 566 pages :",
+    "illustrations": "map ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1461-1483",
+      "type": "topical"
+    },
+    {
+      "value": "Charles,",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Louis",
+      "type": "topical"
+    },
+    {
+      "value": "Scots",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The World's classics"
+    },
+    {
+      "title": "World's classics."
+    }
+  ]
+}

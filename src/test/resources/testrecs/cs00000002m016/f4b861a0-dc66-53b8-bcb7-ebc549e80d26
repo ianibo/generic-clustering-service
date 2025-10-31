@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:gsouin00002358360",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsouin00002358360",
+    "sourceRecordUri": "https://catalog.example.org/record/gsouin00002358360",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780374513054"
+    },
+    {
+      "type": "ISBN",
+      "value": "0374513058"
+    },
+    {
+      "type": "LCCN",
+      "value": " 68029469 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)285274"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GASOUTH)993083703802950"
+    },
+    {
+      "type": "Local",
+      "value": "993083703802950"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jarrell, Randall,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Farrar, Strauss & Giroux,"
+    ],
+    "date": "1969.",
+    "year": 1969,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xvi, 507 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1084616511",
+      "Complete poems"
+    ]
+  }
+}

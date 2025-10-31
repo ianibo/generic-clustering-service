@@ -1,0 +1,134 @@
+{
+  "id": "marc:001:in00028279642",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028279642",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028279642",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:33Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:33Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "3938793597"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783938793596"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783110332421"
+    },
+    {
+      "type": "ISBN",
+      "value": "3110332426"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783110332544"
+    },
+    {
+      "type": "ISBN",
+      "value": "311033254X"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)213357240"
+    },
+    {
+      "type": "Local",
+      "value": "9910419322002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rescher, Nicholas.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Frankfurt :"
+    ],
+    "publisher": [
+      "Ontos Verlag,"
+    ],
+    "date": "2007.",
+    "year": 2007,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "iv, 342 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophers",
+      "type": "topical"
+    },
+    {
+      "value": "Rescher, Nicholas",
+      "type": "topical"
+    },
+    {
+      "value": "Rescher, Nicholas.",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary works)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Nicholas Rescher collected papers. Supplementary volume"
+    },
+    {
+      "title": "Nicholas Rescher collected papers."
+    }
+  ]
+}

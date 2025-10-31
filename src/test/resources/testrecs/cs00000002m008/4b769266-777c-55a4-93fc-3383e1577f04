@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00027874833",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027874833",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027874833",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)849023"
+    },
+    {
+      "type": "Local",
+      "value": "9910362522802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of Ben Jonson,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jonson, Ben,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, Mass.,"
+    ],
+    "publisher": [
+      "Harvard University Press,"
+    ],
+    "date": "1968 [©1954]",
+    "year": 1968,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "liv, 353 pages",
+    "illustrations": "illustrations ;",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Johnston, George Burke,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Muses' library"
+    },
+    {
+      "title": "Muses' library."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)745698546",
+      "Poems of Ben Jonson."
+    ]
+  }
+}

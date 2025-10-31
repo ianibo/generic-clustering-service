@@ -1,0 +1,135 @@
+{
+  "id": "marc:001:in00029668687",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029668687",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029668687",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 55010337 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)913595"
+    },
+    {
+      "type": "Local",
+      "value": "9910837619802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New Atlantis",
+      "type": "alternative"
+    },
+    {
+      "value": "Novum organum",
+      "type": "alternative"
+    },
+    {
+      "value": "Advancement of learning ; and, Novum organum ; and, New Atlantis.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bacon, Francis,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bacon, Francis,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bacon, Francis,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "[1955, ©1952]",
+    "year": 1955,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "vi, 214 pages ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Induction (Logic)",
+      "type": "topical"
+    },
+    {
+      "value": "Logic",
+      "type": "topical"
+    },
+    {
+      "value": "Logic.",
+      "type": "topical"
+    },
+    {
+      "value": "Science",
+      "type": "topical"
+    },
+    {
+      "value": "Utopian fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Utopias",
+      "type": "topical"
+    },
+    {
+      "value": "logic.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 30"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 30."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756448283",
+      "Advancement of learning."
+    ]
+  }
+}

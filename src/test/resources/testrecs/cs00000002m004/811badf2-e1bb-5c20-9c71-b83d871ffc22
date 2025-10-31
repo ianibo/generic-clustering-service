@@ -1,0 +1,80 @@
+{
+  "id": "marc:001:in00028497922",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028497922",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028497922",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 53056559 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1160209"
+    },
+    {
+      "type": "Local",
+      "value": "9910037709402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Works.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cooper, James Fenimore,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "P.F. Collier"
+    ],
+    "date": "[1891-1893]",
+    "year": 1891,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "10 volumes",
+    "illustrations": "illustrations",
+    "dimensions": "27 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Cooper, James Fenimore,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1522945566",
+      "Works."
+    ]
+  }
+}

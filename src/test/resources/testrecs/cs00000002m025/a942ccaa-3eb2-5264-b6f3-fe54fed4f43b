@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00025922875",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025922875",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025922875",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "090642786X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780906427866"
+    },
+    {
+      "type": "ISBN",
+      "value": "0906427878"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780906427873"
+    },
+    {
+      "type": "ISBN",
+      "value": "0905289544"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780905289540"
+    },
+    {
+      "type": "ISBN",
+      "value": "0905289498"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780905289496"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87144212 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)18191958"
+    },
+    {
+      "type": "Local",
+      "value": "9910231889102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Horovitz, Frances,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Newcastle upon Tyne :"
+    ],
+    "publisher": [
+      "Bloodaxe Books in association with the Enitharmon Press,"
+    ],
+    "date": "1985.",
+    "year": 1985,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "128 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)644368330",
+      "Collected poems."
+    ]
+  }
+}

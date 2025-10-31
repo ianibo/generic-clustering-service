@@ -1,0 +1,143 @@
+{
+  "id": "marc:001:in00027896661",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027896661",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027896661",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1402026412"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781402026416"
+    },
+    {
+      "type": "ISBN",
+      "value": "1402026420"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781402026423"
+    },
+    {
+      "type": "ISBN",
+      "value": "1402032153"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781402032158"
+    },
+    {
+      "type": "Other",
+      "value": "9781402026416 (hd.bd.)"
+    },
+    {
+      "type": "Other",
+      "value": "9781402026423 (e-book)"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2007275336"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)61430321"
+    },
+    {
+      "type": "Local",
+      "value": "9910343044902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Phantasy, image consciousness, and memory, 1898-1925 /",
+      "type": "main"
+    },
+    {
+      "value": "Phantasie, Bildbewusstsein, Erinnerung.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Husserl, Edmund,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Brough, John B.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Dordrecht :"
+    ],
+    "publisher": [
+      "Springer,"
+    ],
+    "date": "©2005.",
+    "year": 2005,
+    "countryCode": "b 0"
+  },
+  "physical": {
+    "extent": "lxviii, 725 pages ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Aesthetics.",
+      "type": "topical"
+    },
+    {
+      "value": "Imagination (Philosophy)",
+      "type": "topical"
+    },
+    {
+      "value": "Perception (Philosophy)",
+      "type": "topical"
+    },
+    {
+      "value": "Phenomenology.",
+      "type": "topical"
+    },
+    {
+      "value": "perception.",
+      "type": "topical"
+    },
+    {
+      "value": "phenomenology.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Collected works / Edmund Husserl ;",
+      "numbering": "v. 11"
+    }
+  ]
+}

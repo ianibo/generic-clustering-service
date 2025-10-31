@@ -1,0 +1,157 @@
+{
+  "id": "marc:001:in00030172512",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030172512",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030172512",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781101946329"
+    },
+    {
+      "type": "ISBN",
+      "value": "1101946326"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781101912379"
+    },
+    {
+      "type": "ISBN",
+      "value": "1101912375"
+    },
+    {
+      "type": "ISBN",
+      "value": "0000000000000"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780000000002"
+    },
+    {
+      "type": "ISBN",
+      "value": "0000000000"
+    },
+    {
+      "type": "Other",
+      "value": "40025856888"
+    },
+    {
+      "type": "Other",
+      "value": "99965209020"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2015013264"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)916684394"
+    },
+    {
+      "type": "Local",
+      "value": "9910741482802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Silk Roads : a new history of the world /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Frankopan, Peter.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First US edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Alfred A. Knopf,"
+    ],
+    "date": "2016.",
+    "year": 2016,
+    "countryCode": "ab "
+  },
+  "physical": {
+    "extent": "xix, 645 pages :",
+    "illustrations": "illustrations (some color), maps ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Acculturation",
+      "type": "topical"
+    },
+    {
+      "value": "Asia",
+      "type": "topical"
+    },
+    {
+      "value": "China",
+      "type": "topical"
+    },
+    {
+      "value": "Culture conflict",
+      "type": "topical"
+    },
+    {
+      "value": "East and West",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Imperialism",
+      "type": "topical"
+    },
+    {
+      "value": "Silk Road",
+      "type": "topical"
+    },
+    {
+      "value": "Trade routes",
+      "type": "topical"
+    },
+    {
+      "value": "World history",
+      "type": "topical"
+    },
+    {
+      "value": "World history.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00025998854",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025998854",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025998854",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "cd 62000261 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)13600853"
+    },
+    {
+      "type": "Local",
+      "value": "9910513854402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Calico shoes",
+      "type": "alternative"
+    },
+    {
+      "value": "Can all this grandeur perish?",
+      "type": "alternative"
+    },
+    {
+      "value": "Guillotine party",
+      "type": "alternative"
+    },
+    {
+      "value": "Short stories.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Farrell, James T.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Grosset & Dunlap"
+    ],
+    "date": "[1962, ©1937]",
+    "year": 1962,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "1 volume (lii, 302, 305, 308 pages)",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Short stories, American.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Universal library,",
+      "numbering": "UL130"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)612186070",
+      "Short stories."
+    ]
+  }
+}

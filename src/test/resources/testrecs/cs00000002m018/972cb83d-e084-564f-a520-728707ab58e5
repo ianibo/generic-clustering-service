@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:in00030248740",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030248740",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030248740",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140400311"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140400311"
+    },
+    {
+      "type": "LCCN",
+      "value": " 78377839 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4199898"
+    },
+    {
+      "type": "Local",
+      "value": "9910671172202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Hippocratic writings /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hippocrates.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lloyd, G. E. R.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Chadwick, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mann, W. N.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hippocrates.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "[New] ed. ; with additional material."
+  },
+  "publication": {
+    "place": [
+      "Harmondsworth ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin,"
+    ],
+    "date": "1978.",
+    "year": 1978,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "380 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Greece",
+      "type": "topical"
+    },
+    {
+      "value": "History, Ancient",
+      "type": "topical"
+    },
+    {
+      "value": "Medicine, Greek and Roman.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The pelican classics"
+    },
+    {
+      "title": "Pelican classics."
+    }
+  ]
+}

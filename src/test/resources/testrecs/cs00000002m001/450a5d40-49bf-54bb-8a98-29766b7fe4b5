@@ -1,0 +1,68 @@
+{
+  "id": "marc:001:abacin00000239490",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000239490",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000239490",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 67026082 //r85"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)1773-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994975199802932"
+    },
+    {
+      "type": "Local",
+      "value": "994975199802932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems of Marianne Moore.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Moore, Marianne,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Macmillan"
+    ],
+    "date": "[1967]",
+    "year": 1967,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiv, 305 p.",
+    "dimensions": "24 cm."
+  }
+}

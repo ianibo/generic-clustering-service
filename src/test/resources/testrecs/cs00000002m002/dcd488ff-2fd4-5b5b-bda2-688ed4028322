@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00030042233",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030042233",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030042233",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0517390531"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780517390535"
+    },
+    {
+      "type": "LCCN",
+      "value": " 82011794 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8591068"
+    },
+    {
+      "type": "Local",
+      "value": "9911918087002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rieu, E. V.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Distributed by Crown Publishers,",
+      "Greenwich House :"
+    ],
+    "date": "1982.",
+    "year": 1982,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "365 pages, 6 unnumbered pages of plates :",
+    "illustrations": "illustrations ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus (Greek mythology.)",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Greenwich House classics library"
+    },
+    {
+      "title": "Greenwich House classics library."
+    },
+    {
+      "title": "Greenwich House classics library."
+    }
+  ]
+}

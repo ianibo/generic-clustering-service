@@ -1,0 +1,86 @@
+{
+  "id": "marc:001:gsuin00004428894",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004428894",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004428894",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "ocm00374475"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)199582-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)991995823402952"
+    },
+    {
+      "type": "Local",
+      "value": "991995823402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tchicaya U Tam'si,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Moore, Gerald,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Heinemann"
+    ],
+    "date": "[1970]",
+    "year": 1970,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xvi, 143 p."
+  },
+  "series": [
+    {
+      "title": "African writers series ;",
+      "numbering": "72."
+    },
+    {
+      "title": "African writers series ;",
+      "numbering": "72."
+    }
+  ]
+}

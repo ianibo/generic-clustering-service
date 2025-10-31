@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00029142435",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029142435",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029142435",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0486284840"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780486284842"
+    },
+    {
+      "type": "LCCN",
+      "value": " 94024742 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)31134342"
+    },
+    {
+      "type": "Local",
+      "value": "9910098894902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Analects /",
+      "type": "main"
+    },
+    {
+      "value": "Lun yü.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Confucius.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Soothill, William Edward,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Dover Publications,"
+    ],
+    "date": "[1995]",
+    "year": 1995,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xii, 128 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Confucianism",
+      "type": "topical"
+    },
+    {
+      "value": "Confucianism.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Dover thrift editions"
+    },
+    {
+      "title": "Dover thrift editions."
+    }
+  ]
+}

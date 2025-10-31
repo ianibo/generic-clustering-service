@@ -1,0 +1,140 @@
+{
+  "id": "marc:001:in00027197006",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027197006",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027197006",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 10000466 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1654933"
+    },
+    {
+      "type": "Local",
+      "value": "9911072699902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey of Homer /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Butcher, S. H.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Lang, Andrew,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "P.F. Collier & Son,"
+    ],
+    "date": "[1909]",
+    "year": 1909,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "347 pages :",
+    "illustrations": "frontispiece ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Homer.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Odyssey (Homer)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War",
+      "type": "topical"
+    },
+    {
+      "value": "epic literature.",
+      "type": "topical"
+    },
+    {
+      "value": "epic poems.",
+      "type": "topical"
+    },
+    {
+      "value": "epic poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Harvard classics,",
+      "numbering": "volume 22"
+    },
+    {
+      "title": "Harvard classics ;",
+      "numbering": "v. 22."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)582875808",
+      "Odyssey of Homer."
+    ]
+  }
+}

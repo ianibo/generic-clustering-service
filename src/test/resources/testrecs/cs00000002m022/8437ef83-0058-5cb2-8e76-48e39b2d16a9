@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:in00029361749",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029361749",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029361749",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0395329353"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780395329351"
+    },
+    {
+      "type": "ISBN",
+      "value": "0395294754"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780395294758"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)18853438"
+    },
+    {
+      "type": "Local",
+      "value": "9911365190002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sexton, Anne,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sexton, Anne,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Houghton Mifflin,"
+    ],
+    "date": "1982, ©1981.",
+    "year": 1982,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "xxxiv, 622 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:in00028654809",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028654809",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028654809",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 60003291 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)861971"
+    },
+    {
+      "type": "Local",
+      "value": "9910984735902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Winters, Yvor,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "[Revised edition]."
+  },
+  "publication": {
+    "place": [
+      "[Denver] :"
+    ],
+    "publisher": [
+      "Swallow Press,"
+    ],
+    "date": "[1960]",
+    "year": 1960,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "146 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "García Lorca, Federico,",
+      "type": "topical"
+    },
+    {
+      "value": "Valle-Inclán, Ramón del,",
+      "type": "topical"
+    },
+    {
+      "value": "Velásquez, Diego Rodriguez de Silva y,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Swallow paperbook"
+    },
+    {
+      "title": "Swallow paperbook."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)747308682",
+      "Collected poems."
+    ]
+  }
+}

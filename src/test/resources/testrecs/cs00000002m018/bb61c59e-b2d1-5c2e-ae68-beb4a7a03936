@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00029359090",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029359090",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029359090",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1857544080"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781857544084"
+    },
+    {
+      "type": "LCCN",
+      "value": " 00362698 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)44861031"
+    },
+    {
+      "type": "Local",
+      "value": "9910578297002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poetry /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Beddoes, Thomas Lovell,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Higgens, Judith.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bradshaw, Michael,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "Rev. ed."
+  },
+  "publication": {
+    "place": [
+      "Manchester [England] :"
+    ],
+    "publisher": [
+      "Fyfield Books,"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxvi, 116 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

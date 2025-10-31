@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00030257680",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030257680",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030257680",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0297840142"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780297840145"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)40519711"
+    },
+    {
+      "type": "Local",
+      "value": "9911711478602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Lives of the poets /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Schmidt, Michael,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Weidenfeld & Nicolson,"
+    ],
+    "date": "1998.",
+    "year": 1998,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xi, 939 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Authors' autographs (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, English",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, English.",
+      "type": "topical"
+    }
+  ]
+}

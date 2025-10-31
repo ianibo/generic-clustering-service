@@ -1,0 +1,156 @@
+{
+  "id": "marc:001:in00029654684",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029654684",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029654684",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 10023804 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4784041"
+    },
+    {
+      "type": "Local",
+      "value": "9923345110202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Miscellanies /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Symonds, John Addington,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Symonds, John Addington,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Macmillan & Co.,",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Bristol :",
+      "London :"
+    ],
+    "publisher": [
+      "I. Arrowsmith,",
+      "Macmillan"
+    ],
+    "date": "1871",
+    "year": 1871,
+    "countryCode": "acd"
+  },
+  "physical": {
+    "extent": "xxxii, 416 pages, 4 leaves of plates (double sided) :",
+    "illustrations": "illustrations, table (folded) ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biography",
+      "type": "topical"
+    },
+    {
+      "value": "Collected Work",
+      "type": "topical"
+    },
+    {
+      "value": "Collotypes.",
+      "type": "topical"
+    },
+    {
+      "value": "Essay",
+      "type": "topical"
+    },
+    {
+      "value": "Essays.",
+      "type": "topical"
+    },
+    {
+      "value": "Ethics, Medical",
+      "type": "topical"
+    },
+    {
+      "value": "Medical ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "Medicine",
+      "type": "topical"
+    },
+    {
+      "value": "Medicine.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Social medicine.",
+      "type": "topical"
+    },
+    {
+      "value": "Symonds, John Addington,",
+      "type": "topical"
+    },
+    {
+      "value": "essays.",
+      "type": "topical"
+    },
+    {
+      "value": "medicine (discipline)",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609607633",
+      "Miscellanies."
+    ]
+  }
+}

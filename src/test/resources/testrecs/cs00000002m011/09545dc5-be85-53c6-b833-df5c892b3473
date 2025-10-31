@@ -1,0 +1,146 @@
+{
+  "id": "marc:001:in00029999992",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029999992",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029999992",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0748605746"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780748605743"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2001524850"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)46372568"
+    },
+    {
+      "type": "Local",
+      "value": "9910520708602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The monastery /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fielding, Penny.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :"
+    ],
+    "publisher": [
+      "Edinburgh University Press,"
+    ],
+    "date": "©2000.",
+    "year": 2000,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xvi, 509 pages ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1500-1599",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Monastic and religious life",
+      "type": "topical"
+    },
+    {
+      "value": "Monastic and religious life.",
+      "type": "topical"
+    },
+    {
+      "value": "Monks",
+      "type": "topical"
+    },
+    {
+      "value": "Monks.",
+      "type": "topical"
+    },
+    {
+      "value": "Reformation",
+      "type": "topical"
+    },
+    {
+      "value": "Reformation.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Edinburgh edition of the Waverley novels ;",
+      "numbering": "v. 9"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)606503999",
+      "Monastery."
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "id": "marc:001:in00026556180",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026556180",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026556180",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 08026750 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1873491"
+    },
+    {
+      "type": "Local",
+      "value": "9910047737502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anna Karénina /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Dole, Nathan Haskell,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Thomas Y. Crowell Company,",
+      "role": "publisher.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Rand, Avery & Co.,",
+      "role": "printer.",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Thomas Y. Crowell & Co."
+    ],
+    "date": "[1886]",
+    "year": 1886,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "viii, pages 5-773 ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adultery",
+      "type": "topical"
+    },
+    {
+      "value": "Adultery.",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Married women",
+      "type": "topical"
+    },
+    {
+      "value": "Married women.",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Russia.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)570168126",
+      "Anna Karénina."
+    ]
+  }
+}

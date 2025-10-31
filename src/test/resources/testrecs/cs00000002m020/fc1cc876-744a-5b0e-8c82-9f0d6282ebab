@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00026997178",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026997178",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026997178",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0198710593"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198710592"
+    },
+    {
+      "type": "LCCN",
+      "value": " 72192883 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)515320"
+    },
+    {
+      "type": "Local",
+      "value": "9910639698302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems;",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Crawford, Thomas,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oxford,"
+    ],
+    "publisher": [
+      "Clarendon Press,"
+    ],
+    "date": "1972.",
+    "year": 1972,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "xxviii, 302 pages",
+    "illustrations": "2 maps",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford Paperback English texts."
+    },
+    {
+      "title": "Oxford Paperback English texts."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)701261948",
+      "Selected poems."
+    ]
+  }
+}

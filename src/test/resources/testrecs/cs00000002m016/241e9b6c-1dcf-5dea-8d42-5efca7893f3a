@@ -1,0 +1,77 @@
+{
+  "id": "marc:001:in00029513738",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029513738",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029513738",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)4402989"
+    },
+    {
+      "type": "Local",
+      "value": "9911632615902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The principles of psychology.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "James, William,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1901.",
+    "year": 1901,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "2 v.",
+    "illustrations": "illus.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Psychology",
+      "type": "topical"
+    },
+    {
+      "value": "Psychology.",
+      "type": "topical"
+    },
+    {
+      "value": "psychology.",
+      "type": "topical"
+    }
+  ]
+}

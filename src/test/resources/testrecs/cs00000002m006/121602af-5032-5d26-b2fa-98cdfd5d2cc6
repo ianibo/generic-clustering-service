@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00026493832",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026493832",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026493832",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 90222656 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)22859595"
+    },
+    {
+      "type": "Local",
+      "value": "9911804559802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Freud",
+      "type": "alternative"
+    },
+    {
+      "value": "Sigmund Freud",
+      "type": "alternative"
+    },
+    {
+      "value": "The major works of Sigmund Freud.",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Freud, Sigmund,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "Second edition."
+  },
+  "publication": {
+    "place": [
+      "Chicago [Illinois] :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica, Inc.,"
+    ],
+    "date": "[1990]",
+    "year": 1990,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "vi, 884 pages :",
+    "illustrations": "black and white illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Psychoanalysis.",
+      "type": "topical"
+    },
+    {
+      "value": "psychoanalysis.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "54"
+    },
+    {
+      "title": "Great books of the Western world (1990) ;",
+      "numbering": "54."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)760888338",
+      "Major works of Sigmund Freud."
+    ]
+  }
+}

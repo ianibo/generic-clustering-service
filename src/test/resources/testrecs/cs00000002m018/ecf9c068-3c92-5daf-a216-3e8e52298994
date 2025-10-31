@@ -1,0 +1,79 @@
+{
+  "id": "marc:001:in00027961833",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027961833",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027961833",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2172607"
+    },
+    {
+      "type": "Local",
+      "value": "9910728453602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Organization /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Smith, R. Dean.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "International Association of Chiefs of Police. Professional Standards Division.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Gaithersburg, Md.] :"
+    ],
+    "publisher": [
+      "[Professional Standards Division, International Association of Chiefs of Police],"
+    ],
+    "date": "[approximately 1950?]",
+    "year": 1950,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "14 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "28 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Police",
+      "type": "topical"
+    },
+    {
+      "value": "Police administration.",
+      "type": "topical"
+    }
+  ]
+}

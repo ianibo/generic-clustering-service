@@ -1,0 +1,146 @@
+{
+  "id": "marc:001:in00028314638",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028314638",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028314638",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 00003373 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1933701"
+    },
+    {
+      "type": "Local",
+      "value": "9910025141502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Ivanhoe; a romance,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "MacClintock, Porter Lander,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston,"
+    ],
+    "publisher": [
+      "D.C. Heath & Co.,"
+    ],
+    "date": "1900.",
+    "year": 1900,
+    "countryCode": "cf "
+  },
+  "physical": {
+    "extent": "xxiv pages 1 1., 530 pages",
+    "illustrations": "frontispiece (portrait) plates",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1189-1199",
+      "type": "topical"
+    },
+    {
+      "value": "Anglo-Saxons",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Ivanhoe",
+      "type": "topical"
+    },
+    {
+      "value": "Jews",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Heath's English classics"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894217812",
+      "Ivanhoe."
+    ]
+  }
+}

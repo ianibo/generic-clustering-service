@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00028914236",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028914236",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028914236",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 51014119 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)890667"
+    },
+    {
+      "type": "Local",
+      "value": "9910290630402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poesies.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mallarmé, Stéphane,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Mauron, Charles,",
+      "role": "writer of added commentary.",
+      "kind": "person"
+    },
+    {
+      "name": "Fry, Roger,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "[New York] :"
+    ],
+    "publisher": [
+      "[New Directions],"
+    ],
+    "date": "[1951]",
+    "year": 1951,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "viii, 312 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "French poetry",
+      "type": "topical"
+    },
+    {
+      "value": "French poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The New classics series ;",
+      "numbering": "[28]"
+    },
+    {
+      "title": "New classics (New Directions Publishing Corp.) ;",
+      "numbering": "28."
+    }
+  ]
+}

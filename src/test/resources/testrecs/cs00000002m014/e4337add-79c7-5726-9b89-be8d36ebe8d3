@@ -1,0 +1,140 @@
+{
+  "id": "marc:001:in00028953583",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028953583",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028953583",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 76472903 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)83240"
+    },
+    {
+      "type": "Local",
+      "value": "9919308860502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The fair maid of Perth;",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[London]"
+    ],
+    "publisher": [
+      "Distributed by Heron"
+    ],
+    "date": "[1969?-",
+    "year": 1969,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "volumes",
+    "illustrations": "illustrations",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1390-1406",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Merchants",
+      "type": "topical"
+    },
+    {
+      "value": "Merchants.",
+      "type": "topical"
+    },
+    {
+      "value": "Nobility",
+      "type": "topical"
+    },
+    {
+      "value": "Nobility.",
+      "type": "topical"
+    },
+    {
+      "value": "Perth (Scotland)",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    },
+    {
+      "value": "Social classes",
+      "type": "topical"
+    },
+    {
+      "value": "Social classes.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Sir Walter Scott novels"
+    },
+    {
+      "title": "Sir Walter Scott novels."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1417450664",
+      "Fair maid of Perth."
+    ]
+  }
+}

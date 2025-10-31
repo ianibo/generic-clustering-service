@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00028185514",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028185514",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028185514",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0590974092"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780590974097"
+    },
+    {
+      "type": "ISBN",
+      "value": "0439078393"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780439078399"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)36290233"
+    },
+    {
+      "type": "Local",
+      "value": "9910039510502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Sarah, plain and tall /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "MacLachlan, Patricia.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Scholastic,"
+    ],
+    "date": "[1996]",
+    "year": 1996,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "64 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Children's stories, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Frontier and pioneer life",
+      "type": "topical"
+    },
+    {
+      "value": "Stepmothers",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Ready-to-go classroom library. Grade 3"
+    },
+    {
+      "title": "Ready-to-go classroom library."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)761004330",
+      "Sarah, plain and tall."
+    ]
+  }
+}

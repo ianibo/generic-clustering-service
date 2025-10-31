@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:gsouin00003060503",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsouin00003060503",
+    "sourceRecordUri": "https://catalog.example.org/record/gsouin00003060503",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781504044462"
+    },
+    {
+      "type": "ISBN",
+      "value": "1504044460"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)980287946"
+    },
+    {
+      "type": "Local",
+      "value": "(EXLNZ-01GALI_NETWORK)9914295651202931"
+    },
+    {
+      "type": "Local",
+      "value": "9916008793902950"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Odyssey /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Butler, Samuel,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Open Road Integrated Media,"
+    ],
+    "date": "2017.",
+    "year": 2017,
+    "countryCode": " o "
+  },
+  "physical": {
+    "extent": "1 online resource",
+    "contentType": "text",
+    "mediaType": "computer",
+    "carrierType": "online resource"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Classical",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Classical.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Heroes",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "The Odyssey"
+    ]
+  }
+}

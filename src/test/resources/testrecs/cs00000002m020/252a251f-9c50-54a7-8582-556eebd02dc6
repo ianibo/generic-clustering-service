@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00029412180",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029412180",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029412180",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2992637"
+    },
+    {
+      "type": "Local",
+      "value": "9911862837502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Masefield, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1929.",
+    "year": 1929,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "900 pages in various pagings ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fox hunting",
+      "type": "topical"
+    },
+    {
+      "value": "Fox hunting.",
+      "type": "topical"
+    },
+    {
+      "value": "Hunting",
+      "type": "topical"
+    },
+    {
+      "value": "Hunting.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)612491914",
+      "Poems."
+    ]
+  }
+}

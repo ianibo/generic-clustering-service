@@ -1,0 +1,164 @@
+{
+  "id": "marc:001:in00029492394",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029492394",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029492394",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781551115320"
+    },
+    {
+      "type": "ISBN",
+      "value": "1551115328"
+    },
+    {
+      "type": "Other",
+      "value": "99950883674"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2007276920"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)78042860"
+    },
+    {
+      "type": "Local",
+      "value": "9910716432102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Wuthering Heights /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Newman, Beth,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Orchard Park, NY :",
+      "Peterborough, Ont. ;"
+    ],
+    "publisher": [
+      "Broadview Press,"
+    ],
+    "date": "©2007.",
+    "year": 2007,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "396 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Brontë, Emily,",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Love triangles.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Rejection (Psychology)",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Rural families",
+      "type": "topical"
+    },
+    {
+      "value": "Triangles (Interpersonal relations)",
+      "type": "topical"
+    },
+    {
+      "value": "Wuthering Heights (Brontë, Emily)",
+      "type": "topical"
+    },
+    {
+      "value": "Yorkshire (England)",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Broadview editions"
+    },
+    {
+      "title": "Broadview editions."
+    }
+  ]
+}

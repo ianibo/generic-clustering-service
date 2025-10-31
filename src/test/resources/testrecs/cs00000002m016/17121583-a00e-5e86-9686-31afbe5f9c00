@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00026790081",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026790081",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026790081",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)6333485"
+    },
+    {
+      "type": "Local",
+      "value": "9910795950202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Samuel Johnson /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stephen, Leslie,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "People's ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Harper,"
+    ],
+    "date": "[1879?]",
+    "year": 1879,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "195 pages ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, English",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, English.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "English men of letters ;",
+      "numbering": "v. 6"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)919795890",
+      "Samuel Johnson."
+    ]
+  }
+}

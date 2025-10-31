@@ -1,0 +1,133 @@
+{
+  "id": "marc:001:in00026436236",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026436236",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026436236",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780425202593"
+    },
+    {
+      "type": "ISBN",
+      "value": "0425202593"
+    },
+    {
+      "type": "Other",
+      "value": "9780425202593"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2005041136"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)57694730"
+    },
+    {
+      "type": "Local",
+      "value": "9910593595602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Scratch the surface : a cat lover's mystery /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Conant, Susan,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "Berkley Prime Crime hardcover ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Berkley Prime Crime,"
+    ],
+    "date": "2005.",
+    "year": 2005,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "279 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Apartment houses",
+      "type": "topical"
+    },
+    {
+      "value": "Apartment houses.",
+      "type": "topical"
+    },
+    {
+      "value": "Cats",
+      "type": "topical"
+    },
+    {
+      "value": "Cats.",
+      "type": "topical"
+    },
+    {
+      "value": "Detective and mystery fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Detective and mystery stories",
+      "type": "topical"
+    },
+    {
+      "value": "Detective and mystery stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Mystery fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Women novelists",
+      "type": "topical"
+    },
+    {
+      "value": "Women novelists.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Cat lover's mysteries"
+    }
+  ]
+}

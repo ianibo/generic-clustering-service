@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:in00028704043",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028704043",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028704043",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0192504967"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192504968"
+    },
+    {
+      "type": "LCCN",
+      "value": " 47018860 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1313027"
+    },
+    {
+      "type": "Local",
+      "value": "9910695114402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Democracy in America /",
+      "type": "main"
+    },
+    {
+      "value": "De la démocratie en Amérique.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tocqueville, Alexis de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Reeve, Henry,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Commager, Henry Steele,",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "G. Cumberlege",
+      "Oxford University Press,"
+    ],
+    "date": "[1946]",
+    "year": 1946,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxviii, 599, [1] pages",
+    "dimensions": "16 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Democracy",
+      "type": "topical"
+    },
+    {
+      "value": "Democracy.",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government",
+      "type": "topical"
+    },
+    {
+      "value": "Social conditions",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "democracy.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "World's classics",
+      "numbering": "496"
+    },
+    {
+      "title": "World's classics ;",
+      "numbering": "496."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "marc:001:in00029615883",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029615883",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029615883",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0815323018"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815323013"
+    },
+    {
+      "type": "LCCN",
+      "value": " 96703750 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)34306994"
+    },
+    {
+      "type": "Local",
+      "value": "9910529219902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wood, Abraham,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kroeger, Karl.",
+      "role": "edt",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Garland,"
+    ],
+    "date": "1996.",
+    "year": 1996,
+    "countryCode": "mua"
+  },
+  "physical": {
+    "extent": "1 score (xxiii, 116 pages) ;",
+    "dimensions": "29 cm.",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Canons (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Canons, fugues, etc. (Voices (4))",
+      "type": "topical"
+    },
+    {
+      "value": "Canons, fugues, etc. (Voices)",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices, 4 parts), Unaccompanied",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices, 4 parts), Unaccompanied.",
+      "type": "topical"
+    },
+    {
+      "value": "Hymns, English",
+      "type": "topical"
+    },
+    {
+      "value": "Hymns, English.",
+      "type": "topical"
+    },
+    {
+      "value": "Hymns.",
+      "type": "topical"
+    },
+    {
+      "value": "Psalms (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Scores.",
+      "type": "topical"
+    },
+    {
+      "value": "Tune books",
+      "type": "topical"
+    },
+    {
+      "value": "Tune books.",
+      "type": "topical"
+    },
+    {
+      "value": "Tune-books",
+      "type": "topical"
+    },
+    {
+      "value": "Tune-books.",
+      "type": "topical"
+    },
+    {
+      "value": "psalms.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Music of the new American nation ;",
+      "numbering": "v. 6"
+    },
+    {
+      "title": "Music of the new American nation ;",
+      "numbering": "v. 6."
+    }
+  ]
+}

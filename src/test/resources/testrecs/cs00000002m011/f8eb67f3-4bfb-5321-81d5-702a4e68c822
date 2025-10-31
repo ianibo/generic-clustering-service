@@ -1,0 +1,285 @@
+{
+  "id": "marc:001:in00027260775",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027260775",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027260775",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0895791021"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780895791023"
+    },
+    {
+      "type": "LCCN",
+      "value": " 78000097 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3946301"
+    },
+    {
+      "type": "Local",
+      "value": "9910488820302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "composer.",
+      "kind": "person"
+    },
+    {
+      "name": "Ennulat, Egbert M.,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fossa, Johannes de,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Madison [Wis.] :"
+    ],
+    "publisher": [
+      "A-R Editions,"
+    ],
+    "date": "[1978]",
+    "year": 1978,
+    "countryCode": "wiu"
+  },
+  "physical": {
+    "extent": "1 score (xi, 218 pages) :",
+    "illustrations": "illustrations ;",
+    "dimensions": "29 cm",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Antiphons (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Belgium.",
+      "type": "topical"
+    },
+    {
+      "value": "Chamber music.",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices, 4 parts), Unaccompanied",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices, 5 parts), Unaccompanied",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices, 6 parts), Unaccompanied",
+      "type": "topical"
+    },
+    {
+      "value": "Evening service music.",
+      "type": "topical"
+    },
+    {
+      "value": "Litanies (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Madrigals (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Madrigals, Italian",
+      "type": "topical"
+    },
+    {
+      "value": "Magnificat (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Masses",
+      "type": "topical"
+    },
+    {
+      "value": "Masses, Unaccompanied",
+      "type": "topical"
+    },
+    {
+      "value": "Masses.",
+      "type": "topical"
+    },
+    {
+      "value": "Motets",
+      "type": "topical"
+    },
+    {
+      "value": "Motets.",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred music.",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred vocal music",
+      "type": "topical"
+    },
+    {
+      "value": "Scores.",
+      "type": "topical"
+    },
+    {
+      "value": "Vocal music.",
+      "type": "topical"
+    },
+    {
+      "value": "Vocal quartets, Unaccompanied",
+      "type": "topical"
+    },
+    {
+      "value": "Vocal quintets, Unaccompanied",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Recent researches in the music of the Renaissance ;",
+      "numbering": "v. 28-29,"
+    },
+    {
+      "title": "Recent researches in the music of the Renaissance ;",
+      "numbering": "v. 28-29."
+    }
+  ]
+}

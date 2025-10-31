@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00028673968",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028673968",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028673968",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0143039032"
+    },
+    {
+      "type": "Other",
+      "value": "9780143039037"
+    },
+    {
+      "type": "Other",
+      "value": "40013099504"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2005058623"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)62493630"
+    },
+    {
+      "type": "Local",
+      "value": "(GSU)1516817"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)1516817-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "9910766352402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Faggen, Robert.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "2006.",
+    "year": 2006,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xliv, 337 p. ;",
+    "dimensions": "20 cm."
+  },
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

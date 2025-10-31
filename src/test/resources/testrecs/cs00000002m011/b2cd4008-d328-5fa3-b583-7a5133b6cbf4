@@ -1,0 +1,174 @@
+{
+  "id": "marc:001:in00027271360",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027271360",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027271360",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781250002839"
+    },
+    {
+      "type": "ISBN",
+      "value": "1250002834"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781250002860"
+    },
+    {
+      "type": "ISBN",
+      "value": "1250002869"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780749957735"
+    },
+    {
+      "type": "ISBN",
+      "value": "0749957735"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2013002657"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)795172186"
+    },
+    {
+      "type": "Local",
+      "value": "9911411858802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Inferno /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kenyon, Sherrilyn,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "St. Martin's Griffin,"
+    ],
+    "date": "2013.",
+    "year": 2013,
+    "countryCode": " d "
+  },
+  "physical": {
+    "extent": "ix, 451 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Boys",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Gautier, Nick,",
+      "type": "topical"
+    },
+    {
+      "value": "Good and evil",
+      "type": "topical"
+    },
+    {
+      "value": "Good and evil.",
+      "type": "topical"
+    },
+    {
+      "value": "High schools",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "Louisiana",
+      "type": "topical"
+    },
+    {
+      "value": "New Orleans (La.)",
+      "type": "topical"
+    },
+    {
+      "value": "Occult fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Paranormal fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Schools",
+      "type": "topical"
+    },
+    {
+      "value": "Supernatural",
+      "type": "topical"
+    },
+    {
+      "value": "Teenage boys",
+      "type": "topical"
+    },
+    {
+      "value": "Teenage boys.",
+      "type": "topical"
+    },
+    {
+      "value": "Teenagers",
+      "type": "topical"
+    },
+    {
+      "value": "Young adult fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Young adult works.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Chronicles of Nick ;",
+      "numbering": "[4]"
+    }
+  ]
+}

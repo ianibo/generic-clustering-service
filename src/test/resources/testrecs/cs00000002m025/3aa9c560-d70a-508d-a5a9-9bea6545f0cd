@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00029986068",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029986068",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029986068",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 06007338 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3059889"
+    },
+    {
+      "type": "Local",
+      "value": "9910110400202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The works of Ralph Waldo Emerson.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Emerson, Ralph Waldo,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia,"
+    ],
+    "publisher": [
+      "J.D. Morris & Co.,"
+    ],
+    "date": "[1906]",
+    "year": 1906,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "6 volumes",
+    "illustrations": "frontispieces (v, 1-2 portraits)",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Emerson, Ralph Waldo,",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Goethe, Johann Wolfgang von,",
+      "type": "topical"
+    },
+    {
+      "value": "Montaigne, Michel de,",
+      "type": "topical"
+    },
+    {
+      "value": "Napoleon",
+      "type": "topical"
+    },
+    {
+      "value": "Plato.",
+      "type": "topical"
+    },
+    {
+      "value": "Shakespeare, William,",
+      "type": "topical"
+    },
+    {
+      "value": "Swedenborg, Emanuel,",
+      "type": "topical"
+    },
+    {
+      "value": "Travel.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)890567042",
+      "Works of Ralph Waldo Emerson."
+    ]
+  }
+}

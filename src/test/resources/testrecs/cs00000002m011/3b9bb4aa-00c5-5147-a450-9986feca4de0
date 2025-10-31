@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00030311047",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030311047",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030311047",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780060909000"
+    },
+    {
+      "type": "ISBN",
+      "value": "0060909005"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780060133696"
+    },
+    {
+      "type": "ISBN",
+      "value": "0060133694"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)27166388"
+    },
+    {
+      "type": "Local",
+      "value": "9910745552202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Plath, Sylvia,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Hughes, Ted,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st HarperPerennial edition, published 1992"
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "HarperPerennial,"
+    ],
+    "date": "1992",
+    "year": 1992,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "351 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

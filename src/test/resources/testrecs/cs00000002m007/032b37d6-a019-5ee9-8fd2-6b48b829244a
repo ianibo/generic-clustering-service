@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00027940071",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027940071",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027940071",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2974342"
+    },
+    {
+      "type": "Local",
+      "value": "9923477313102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Faust. /",
+      "type": "main"
+    },
+    {
+      "value": "Faust.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gounod, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Barbier, Jules,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "G. Schirmer,"
+    ],
+    "date": "[1954]",
+    "year": 1954,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vii, 20, 20 pages ;",
+    "dimensions": "27 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Operas",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "G. Schirmer's collection of opera librettos ;",
+      "numbering": "Ed. 2528"
+    },
+    {
+      "title": "G. Schirmer's collection of opera librettos."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1453340399",
+      "Faust.."
+    ]
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "id": "marc:001:in00029539597",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029539597",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029539597",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780300007336"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300007337"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300002942"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300002947"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300011579"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300011571"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300007343"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300007345"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300006056"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300006055"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300012514"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300012519"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300015935"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300015933"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300125177"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300125178"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300166972"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300166974"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300166989"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300166982"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300166996"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300166990"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300021042"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300021046"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300030037"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300030037"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300044515"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300044518"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300092707"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300092709"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300106725"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300106726"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300210958"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300210957"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300228281"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300228287"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300123142"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300123140"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300166910"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300166915"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300166927"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300166923"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300166934"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300166931"
+    },
+    {
+      "type": "LCCN",
+      "value": " 57011918 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)353834"
+    },
+    {
+      "type": "Local",
+      "value": "9910003125702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Yale edition of the works of Samuel Johnson.",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Johnson, Samuel,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Johnson, Samuel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Johnson, Samuel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Johnson, Samuel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lobo, Jerónimo,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New Haven ;"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "1958-2018.",
+    "year": 1958,
+    "countryCode": "ctu"
+  },
+  "physical": {
+    "extent": "23 volumes :",
+    "illustrations": "facsimiles ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, English",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, Scottish",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Boswell, James,",
+      "type": "topical"
+    },
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Diaries",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Essay on man (Pope, Alexander)",
+      "type": "topical"
+    },
+    {
+      "value": "Ethiopia",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Friendship",
+      "type": "topical"
+    },
+    {
+      "value": "Happiness",
+      "type": "topical"
+    },
+    {
+      "value": "Hebrides (Scotland)",
+      "type": "topical"
+    },
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    },
+    {
+      "value": "Lobo, Jerónimo,",
+      "type": "topical"
+    },
+    {
+      "value": "Pope, Alexander,",
+      "type": "topical"
+    },
+    {
+      "value": "Princes",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Shakespeare, William,",
+      "type": "topical"
+    },
+    {
+      "value": "Travel",
+      "type": "topical"
+    },
+    {
+      "value": "Western Isles (Scotland)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Johnson, Samuel, 1709-1784. Works. 1958 ;",
+      "numbering": "v. 16"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)565924305",
+      "(OCoLC)609525475",
+      "Yale edition of the works of Samuel Johnson."
+    ]
+  }
+}

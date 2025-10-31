@@ -1,0 +1,140 @@
+{
+  "id": "marc:001:in00028150233",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028150233",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028150233",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0801868548"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780801868542"
+    },
+    {
+      "type": "ISBN",
+      "value": "0801882672"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780801882678"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003021372"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)53183432"
+    },
+    {
+      "type": "Local",
+      "value": "9910509896902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "McCrorie, Edward,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Martin, Richard P.,",
+      "role": "writer of introduction,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Baltimore :"
+    ],
+    "publisher": [
+      "Johns Hopkins University Press,"
+    ],
+    "date": "©2004.",
+    "year": 2004,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xlviii, 418 pages ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Johns Hopkins new translations from antiquity"
+    },
+    {
+      "title": "Johns Hopkins new translations from antiquity."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607263104",
+      "Odyssey."
+    ]
+  }
+}

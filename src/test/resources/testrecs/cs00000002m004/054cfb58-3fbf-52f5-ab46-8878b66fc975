@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00026955029",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026955029",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026955029",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2271798"
+    },
+    {
+      "type": "Local",
+      "value": "9910023852402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems of Robert Frost 1949",
+      "type": "alternative"
+    },
+    {
+      "value": "Complete poems of Robert Frost.",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Frost, Robert,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Holt, Rinehart and Winston,"
+    ],
+    "date": "1949.",
+    "year": 1949,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "xxi, 666 pages, 1 unnumbered page :",
+    "illustrations": "portrait ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Authors' inscriptions (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Poems (Frost, Robert)",
+      "type": "topical"
+    },
+    {
+      "value": "Poems.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647090989",
+      "Complete poems of Robert Frost."
+    ]
+  }
+}

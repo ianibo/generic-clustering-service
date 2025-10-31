@@ -1,0 +1,69 @@
+{
+  "id": "marc:001:in00027610502",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027610502",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027610502",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 08017685 "
+    },
+    {
+      "type": "Local",
+      "value": "ocm03174108"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)2076524-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910273120202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Vanity fair. A novel without a hero.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thackeray, William Makepeace,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Bradbury & Evans,"
+    ],
+    "date": "1848.",
+    "year": 1848,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "4 p. l., [vii]-xvi, 624 p.",
+    "illustrations": "front, illus., 38 pl.",
+    "dimensions": "22 cm"
+  }
+}

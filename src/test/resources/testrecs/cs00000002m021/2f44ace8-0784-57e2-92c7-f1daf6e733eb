@@ -1,0 +1,67 @@
+{
+  "id": "marc:001:in00028728717",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028728717",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028728717",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "45004298"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)371714"
+    },
+    {
+      "type": "Local",
+      "value": "(Voyager)386817-regentsdb"
+    },
+    {
+      "type": "Local",
+      "value": "9910052220902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography of John Stuart Mill.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Columbia university press"
+    ],
+    "date": "[1960, c1924]",
+    "year": 1960,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "240 p."
+  }
+}

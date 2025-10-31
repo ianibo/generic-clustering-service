@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00028310723",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028310723",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028310723",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)28654491"
+    },
+    {
+      "type": "Local",
+      "value": "9911855535602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Democracy in America /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tocqueville, Alexis de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bradley, Phillips,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Reeve, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bowen, Francis,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "A.A. Knopf,"
+    ],
+    "date": "1976, ©1945.",
+    "year": 1976,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Democracy.",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government.",
+      "type": "topical"
+    },
+    {
+      "value": "Social conditions.",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The American past: an informal series"
+    }
+  ]
+}

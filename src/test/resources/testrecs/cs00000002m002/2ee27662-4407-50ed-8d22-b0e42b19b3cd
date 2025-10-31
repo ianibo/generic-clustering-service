@@ -1,0 +1,136 @@
+{
+  "id": "marc:001:asuin00000492187",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "asuin00000492187",
+    "sourceRecordUri": "https://catalog.example.org/record/asuin00000492187",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0393972836 (pbk.)"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2001042716"
+    },
+    {
+      "type": "Local",
+      "value": "12439304"
+    },
+    {
+      "type": "Local",
+      "value": "(ZIU)108984"
+    },
+    {
+      "type": "Local",
+      "value": "(GAlDC)108984-dartondb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_ALBANY)991089843702933"
+    },
+    {
+      "type": "Local",
+      "value": "991089843702933"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Moby-Dick /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Parker, Hershel.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hayford, Harrison.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "2nd ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Norton,"
+    ],
+    "date": "c2002.",
+    "year": 2002,
+    "countryCode": "ab "
+  },
+  "physical": {
+    "extent": "xv, 726 p. :",
+    "illustrations": "ill., maps ;",
+    "dimensions": "24 cm."
+  },
+  "subjects": [
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab, Captain (Fictitious character)",
+      "type": "topical"
+    },
+    {
+      "value": "Melville, Herman,",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling ships",
+      "type": "topical"
+    }
+  ]
+}

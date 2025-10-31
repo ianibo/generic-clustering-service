@@ -1,0 +1,69 @@
+{
+  "id": "marc:001:in00027869586",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027869586",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027869586",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)6741333"
+    },
+    {
+      "type": "Local",
+      "value": "9911093556102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Works.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Locke, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Printed for John Churchill and Sam. Manship,"
+    ],
+    "date": "1714.",
+    "year": 1714,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "3 volumes :",
+    "illustrations": "portrait",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "series": [
+    {
+      "title": "Library of English literature ;",
+      "numbering": "LEL 21574-76."
+    }
+  ]
+}

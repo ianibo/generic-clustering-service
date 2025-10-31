@@ -1,0 +1,90 @@
+{
+  "id": "marc:001:in00027159779",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027159779",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027159779",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0871401592"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780871401595"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)60177098"
+    },
+    {
+      "type": "Local",
+      "value": "9910618997402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hayden, Robert.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Glaysher, Frederick.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rampersad, Arnold.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Liveright Books,"
+    ],
+    "date": "1997.",
+    "year": 1997,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "240 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "African American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    }
+  ]
+}

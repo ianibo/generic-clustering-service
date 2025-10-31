@@ -1,0 +1,102 @@
+{
+  "id": "marc:001:in00026879419",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026879419",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026879419",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 01000588 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2682623"
+    },
+    {
+      "type": "Local",
+      "value": "9910045667002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Emerson, Ralph Waldo,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "New and rev. ed."
+  },
+  "publication": {
+    "place": [
+      "Boston,",
+      "New York,"
+    ],
+    "publisher": [
+      "Houghton, Mifflin and Company,"
+    ],
+    "date": "1895.",
+    "year": 1895,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "vi, 324 pages",
+    "illustrations": "frontispiece (portrait)",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poésie américaine",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Works of Ralph Waldo Emerson ;",
+      "numbering": "v. 9"
+    },
+    {
+      "title": "Works of Ralph Waldo Emerson ;",
+      "numbering": "v. 9."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647361359",
+      "Poems."
+    ]
+  }
+}

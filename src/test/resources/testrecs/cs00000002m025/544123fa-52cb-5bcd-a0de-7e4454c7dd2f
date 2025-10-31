@@ -1,0 +1,79 @@
+{
+  "id": "marc:001:in00027960275",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027960275",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027960275",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "nuc87565734 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)15453832"
+    },
+    {
+      "type": "Local",
+      "value": "9910359184802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Rambler /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Johnson, Samuel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia :"
+    ],
+    "publisher": [
+      "Printed by Robert Carr for Samuel F. Bradford and John Conrad,"
+    ],
+    "date": "1803.",
+    "year": 1803,
+    "countryCode": "acf"
+  },
+  "physical": {
+    "extent": "4 volumes :",
+    "illustrations": "illustrations, frontispiece, portrait, plates ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microopaque"
+  },
+  "series": [
+    {
+      "title": "Early American imprints.",
+      "numbering": "no. 4458."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 34017536"
+    ]
+  }
+}

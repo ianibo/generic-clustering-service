@@ -1,0 +1,73 @@
+{
+  "id": "marc:001:in00027325593",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027325593",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027325593",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 27013068 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1486340"
+    },
+    {
+      "type": "Local",
+      "value": "9910026581402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gill, Daisy Sanial.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "H. Vinal,"
+    ],
+    "date": "1927.",
+    "year": 1927,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "6 preliminary leaves, 77 pages, 1 leaf",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)776774663",
+      "Poems."
+    ]
+  }
+}

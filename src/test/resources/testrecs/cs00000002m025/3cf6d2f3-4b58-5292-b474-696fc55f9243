@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00028241100",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028241100",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028241100",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "a 13000976 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1637603"
+    },
+    {
+      "type": "Local",
+      "value": "9910415593502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crime and punishment,",
+      "type": "main"
+    },
+    {
+      "value": "Prestuplenie i nakazanie.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Whishaw, Frederick,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York,"
+    ],
+    "publisher": [
+      "E.P. Dutton & Co.",
+      "J.M. Dent & Sons;"
+    ],
+    "date": "[1911]",
+    "year": 1911,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xv, [5]-455, [1] pages",
+    "dimensions": "17 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Russia (Federation)",
+      "type": "topical"
+    },
+    {
+      "value": "Saint Petersburg (Russia)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library, ed. by Ernest Rhys. Fiction [no. 501]"
+    },
+    {
+      "title": "Everyman's library.",
+      "numbering": "no. 501."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)818828108",
+      "Crime and punishment."
+    ]
+  }
+}

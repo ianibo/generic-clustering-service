@@ -1,0 +1,136 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://example.org/schemas/gcs-instanceprofile.schema.json",
+	"title": "Generic Clustering Service - InstanceProfile",
+	"type": "object",
+	"additionalProperties": false,
+	"required": ["instanceId", "inputRef", "identifiers", "licenseDeclaration"],
+	"properties": {
+		"instanceId": {
+			"type": "string",
+			"description": "Synthetic, stable ID for this manifestation/edition/format."
+		},
+		"inputRef": {
+			"type": "string",
+			"description": "The source InputRecord.id from which this instance profile was derived."
+		},
+		"workRef": {
+			"type": "string",
+			"description": "Optional reference to a clustered WorkProfile.workId once assigned."
+		},
+		"identifiers": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"isbn": { "type": "array", "items": { "type": "string" } },
+				"issn": { "type": "array", "items": { "type": "string" } },
+				"doi": { "type": "array", "items": { "type": "string" } },
+				"upc": { "type": "array", "items": { "type": "string" } },
+				"ean": { "type": "array", "items": { "type": "string" } },
+				"other": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"required": ["type", "value"],
+						"additionalProperties": false,
+						"properties": {
+							"type": { "type": "string" },
+							"value": { "type": "string" },
+							"status": { "type": "string", "enum": ["valid", "invalid", "canceled", "unknown"] }
+						}
+					}
+				}
+			},
+			"$comment": "Partition InputRecord.identifiers by known types; normalize ISBN/ISSN."
+		},
+		"title": {
+			"type": "string",
+			"$comment": "Prefer titles[type='main'] for display; not necessarily the same as Work.canonicalTitle."
+		},
+		"edition": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"statement": { "type": "string" },
+				"number": { "type": "string" }
+			}
+		},
+		"publication": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"place": { "type": "array", "items": { "type": "string" } },
+				"publisher": { "type": "array", "items": { "type": "string" } },
+				"year": { "type": "integer", "minimum": 0, "maximum": 9999 },
+				"date": { "type": "string" },
+				"countryCode": { "type": "string" }
+			},
+			"$comment": "Direct lift from InputRecord.publication with light normalization."
+		},
+		"physical": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"extent": { "type": "string" },
+				"dimensions": { "type": "string" },
+				"illustrations": { "type": "string" },
+				"duration": { "type": "string" },
+				"contentType": { "type": "string" },
+				"mediaType": { "type": "string" },
+				"carrierType": { "type": "string" },
+				"format": { "type": "string" }
+			}
+		},
+		"languages": {
+			"type": "array",
+			"items": { "type": "string" },
+			"$comment": "Copy InputRecord.languages."
+		},
+		"series": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"title": { "type": "string" },
+					"issn": { "type": "string" },
+					"numbering": { "type": "string" }
+				}
+			}
+		},
+		"relations": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"otherFormats": { "type": "array", "items": { "type": "string" } }
+			},
+			"$comment": "Subset of InputRecord.relations for manifestation ties."
+		},
+		"contributors": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"additionalProperties": false,
+				"required": ["name", "role"],
+				"properties": {
+					"name": { "type": "string" },
+					"role": { "type": "string" },
+					"kind": { "type": "string", "enum": ["person", "corporate", "meeting", "family"] }
+				}
+			},
+			"$comment": "May include publisher, translator, editor, etc., as appropriate for the instance."
+		},
+		"licenseDeclaration": {
+			"$ref": "https://example.org/schemas/defs.json#/$defs/licenseDeclaration"
+		},
+		"provenance": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"authorityId": { "type": "string" },
+				"authorityScheme": { "type": "string" },
+				"sourceRecordId": { "type": "string" }
+			}
+		}
+	}
+}

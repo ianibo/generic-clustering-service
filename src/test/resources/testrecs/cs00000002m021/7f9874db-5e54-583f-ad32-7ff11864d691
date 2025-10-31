@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:in00028744825",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028744825",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028744825",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)8517402"
+    },
+    {
+      "type": "Local",
+      "value": "9911093536502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Killigrew, Anne,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Dryden, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "S. Lowndes,"
+    ],
+    "date": "1686.",
+    "year": 1686,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "[18], 100 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Library of English literature ;",
+      "numbering": "LEL 11098."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 12037046"
+    ]
+  }
+}

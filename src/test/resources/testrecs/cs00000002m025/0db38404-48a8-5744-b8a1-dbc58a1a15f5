@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00028896679",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028896679",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028896679",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "SBRT4453850"
+    },
+    {
+      "type": "LCCN",
+      "value": " 30005384 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2117691"
+    },
+    {
+      "type": "Local",
+      "value": "9910208960902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The tower of Babel /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gressmann, Hugo,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Obermann, Julian,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Jewish Institute of Religion Press,"
+    ],
+    "date": "1928.",
+    "year": 1928,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "xx, 92 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Assyro-Babylonian religion.",
+      "type": "topical"
+    },
+    {
+      "value": "Babel, Tower of.",
+      "type": "topical"
+    },
+    {
+      "value": "Judaism",
+      "type": "topical"
+    },
+    {
+      "value": "Judaism.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Hilde Stich Stroock lectures ... at the Jewish Institute of Religion"
+    },
+    {
+      "title": "Hilde Stich Stroock lectures ... at the Jewish Institute of Religion."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1475280937",
+      "Tower of Babel."
+    ]
+  }
+}

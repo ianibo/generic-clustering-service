@@ -1,0 +1,144 @@
+{
+  "id": "marc:001:in00029085718",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029085718",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029085718",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300027516"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300027518"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300027524"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300027525"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300027540"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300027549"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300027559"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300027556"
+    },
+    {
+      "type": "LCCN",
+      "value": " 81002994 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)10289429"
+    },
+    {
+      "type": "Local",
+      "value": "9910994923002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "William Wordsworth, the poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wordsworth, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hayden, John O.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "1981.",
+    "year": 1981,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The English poets ;",
+      "numbering": "7-8"
+    },
+    {
+      "title": "English poets ;",
+      "numbering": "7-8."
+    }
+  ]
+}

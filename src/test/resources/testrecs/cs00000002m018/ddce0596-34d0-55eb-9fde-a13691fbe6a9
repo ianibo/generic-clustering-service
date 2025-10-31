@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00029421234",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029421234",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029421234",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0691068194"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691068190"
+    },
+    {
+      "type": "ISBN",
+      "value": "0691014698"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691014692"
+    },
+    {
+      "type": "LCCN",
+      "value": " 89036438 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)20056608"
+    },
+    {
+      "type": "Local",
+      "value": "9910434142802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Feinman, Alvin,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Princeton, N.J. :"
+    ],
+    "publisher": [
+      "Princeton University Press,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vii, 79 pages ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Saskatchewan.",
+      "type": "topical"
+    },
+    {
+      "value": "Tales",
+      "type": "topical"
+    },
+    {
+      "value": "Tales.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Princeton series of contemporary poets"
+    },
+    {
+      "title": "Princeton series of contemporary poets."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "marc:001:in00027177178",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027177178",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027177178",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "ocm01709395"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)370546-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910116008802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hemingway, Ernest,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Scribner,"
+    ],
+    "date": "1954.",
+    "year": 1954,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "499 p.",
+    "dimensions": "22 cm"
+  }
+}

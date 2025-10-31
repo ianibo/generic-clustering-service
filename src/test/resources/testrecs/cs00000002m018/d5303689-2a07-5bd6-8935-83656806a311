@@ -1,0 +1,131 @@
+{
+  "id": "marc:001:in00026205215",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026205215",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026205215",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0882331795"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780882331799"
+    },
+    {
+      "type": "ISBN",
+      "value": "0882331809"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780882331805"
+    },
+    {
+      "type": "LCCN",
+      "value": " 76150538 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2517549"
+    },
+    {
+      "type": "Local",
+      "value": "9910238035502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Akhmatova, Anna Andreevna,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Arndt, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kemball, Robin.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Proffer, Carl R.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Ann Arbor, Mich. :"
+    ],
+    "publisher": [
+      "Ardis,"
+    ],
+    "date": "©1976.",
+    "year": 1976,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "xxxvi, 202 pages :",
+    "illustrations": "portraits ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Akhmatova, Anna Andreevna,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "[Russian literature series]"
+    },
+    {
+      "title": "Russian literature series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)557612767",
+      "(OCoLC)606042482",
+      "Selected poems."
+    ]
+  }
+}

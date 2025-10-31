@@ -1,0 +1,79 @@
+{
+  "id": "marc:001:in00027464023",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027464023",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027464023",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 08004264 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8942461"
+    },
+    {
+      "type": "Local",
+      "value": "9910267448302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An examination of Sir William Hamilton's philosophy : and of the principal philosophical questions discussed in his writings /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "W.V. Spencer,"
+    ],
+    "date": "1868.",
+    "year": 1868,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Hamilton, William,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1477577921",
+      "Examination of Sir William Hamilton's philosophy."
+    ]
+  }
+}

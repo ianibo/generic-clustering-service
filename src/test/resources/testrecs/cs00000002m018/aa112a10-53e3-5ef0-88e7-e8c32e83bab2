@@ -1,0 +1,180 @@
+{
+  "id": "marc:001:in00027542686",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027542686",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027542686",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140437614"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140437614"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780141439822"
+    },
+    {
+      "type": "ISBN",
+      "value": "0141439823"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)47869247"
+    },
+    {
+      "type": "Local",
+      "value": "9910456107602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Robinson Crusoe /",
+      "type": "main"
+    },
+    {
+      "value": "Life and strange surprizing adventures of Robinson Crusoe of York, mariner",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Defoe, Daniel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Richetti, John J.,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Penguin,"
+    ],
+    "date": "2001.",
+    "year": 2001,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xxxiv, 251 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Action and adventure fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Action and adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure stories",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Cannibalism",
+      "type": "topical"
+    },
+    {
+      "value": "Castaways",
+      "type": "topical"
+    },
+    {
+      "value": "Crusoe, Robinson",
+      "type": "topical"
+    },
+    {
+      "value": "Crusoe, Robinson (Fictitious character)",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Indigenous peoples",
+      "type": "topical"
+    },
+    {
+      "value": "Islands",
+      "type": "topical"
+    },
+    {
+      "value": "Robinsonades",
+      "type": "topical"
+    },
+    {
+      "value": "Robinsonades.",
+      "type": "topical"
+    },
+    {
+      "value": "Shipwreck survival",
+      "type": "topical"
+    },
+    {
+      "value": "Shipwrecks",
+      "type": "topical"
+    },
+    {
+      "value": "Solitude",
+      "type": "topical"
+    },
+    {
+      "value": "Survival",
+      "type": "topical"
+    },
+    {
+      "value": "Survival after airplane accidents, shipwrecks, etc.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)855597747",
+      "Robinson Crusoe."
+    ]
+  }
+}

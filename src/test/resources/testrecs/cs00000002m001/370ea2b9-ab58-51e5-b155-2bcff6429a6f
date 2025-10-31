@@ -1,0 +1,251 @@
+{
+  "id": "marc:001:in00030476012",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030476012",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030476012",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0790745917"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780790745916"
+    },
+    {
+      "type": "Other",
+      "value": "012569516021"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2022605758"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)52848818"
+    },
+    {
+      "type": "Local",
+      "value": "9914928536102931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "65160"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "LeRoy, Mervyn,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Solt, Andrew,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mason, Sarah Y.,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Heerman, Victor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Allyson, June,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lawford, Peter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "O'Brien, Margaret,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Taylor, Elizabeth,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Leigh, Janet.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Deutsch, Adolph,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Metro-Goldwyn-Mayer.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Warner Home Video (Firm)",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Turner Entertainment Co.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "Burbank, CA :"
+    ],
+    "publisher": [
+      "Warner Home Video,"
+    ],
+    "date": "[2003]",
+    "year": 2003,
+    "countryCode": "122"
+  },
+  "physical": {
+    "extent": "1 videodisc (122 min.) :",
+    "illustrations": "sound, color ;",
+    "dimensions": "4 3/4 in.",
+    "contentType": "two-dimensional moving image",
+    "mediaType": "video",
+    "carrierType": "videodisc"
+  },
+  "subjects": [
+    {
+      "value": "Children's films",
+      "type": "topical"
+    },
+    {
+      "value": "Children's films.",
+      "type": "topical"
+    },
+    {
+      "value": "Closed caption video recordings.",
+      "type": "topical"
+    },
+    {
+      "value": "Concord (Mass. : Town)",
+      "type": "topical"
+    },
+    {
+      "value": "DVD-Video discs.",
+      "type": "topical"
+    },
+    {
+      "value": "DVD.",
+      "type": "topical"
+    },
+    {
+      "value": "Drama",
+      "type": "topical"
+    },
+    {
+      "value": "Family life",
+      "type": "topical"
+    },
+    {
+      "value": "Feature films",
+      "type": "topical"
+    },
+    {
+      "value": "Feature films.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works",
+      "type": "topical"
+    },
+    {
+      "value": "March family (Fictitious characters)",
+      "type": "topical"
+    },
+    {
+      "value": "Mothers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "New England",
+      "type": "topical"
+    },
+    {
+      "value": "Romance films",
+      "type": "topical"
+    },
+    {
+      "value": "Romance films.",
+      "type": "topical"
+    },
+    {
+      "value": "Romances.",
+      "type": "topical"
+    },
+    {
+      "value": "Sisters",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "Video recordings for the hearing impaired",
+      "type": "topical"
+    },
+    {
+      "value": "Video recordings for the hearing impaired.",
+      "type": "topical"
+    },
+    {
+      "value": "Video.",
+      "type": "topical"
+    },
+    {
+      "value": "Young women",
+      "type": "topical"
+    },
+    {
+      "value": "children's films.",
+      "type": "topical"
+    }
+  ]
+}

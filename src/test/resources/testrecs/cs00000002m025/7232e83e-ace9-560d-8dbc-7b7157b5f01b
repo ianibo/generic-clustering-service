@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00027935348",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027935348",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027935348",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)18692588"
+    },
+    {
+      "type": "Local",
+      "value": "9910279173002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Wealth of nations",
+      "type": "alternative"
+    },
+    {
+      "value": "An inquiry into the nature and causes of the wealth of nations /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Smith, Adam,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Stewart, Dugald,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Garnier,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wakefield, Edward Gibbon,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "C. Knight,"
+    ],
+    "date": "1835-1839",
+    "year": 1835,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "6 volumes :",
+    "illustrations": "portraits ;",
+    "dimensions": "17 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Booksellers' labels (Publishing)",
+      "type": "topical"
+    },
+    {
+      "value": "Economics",
+      "type": "topical"
+    },
+    {
+      "value": "Economics.",
+      "type": "topical"
+    },
+    {
+      "value": "Inscriptions (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Publishers' cloth bindings (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Smith, Adam,",
+      "type": "topical"
+    },
+    {
+      "value": "economics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Goldsmiths'-Kress library of economic literature ;",
+      "numbering": "no. 28973.25."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00026969493",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026969493",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026969493",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0002160129"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780002160124"
+    },
+    {
+      "type": "ISBN",
+      "value": "0396075169"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780396075165"
+    },
+    {
+      "type": "LCCN",
+      "value": " 78303391 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3473421"
+    },
+    {
+      "type": "Local",
+      "value": "9910472351602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Christie, Agatha,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Collins,"
+    ],
+    "date": "1977.",
+    "year": 1977,
+    "countryCode": "acf"
+  },
+  "physical": {
+    "extent": "542 pages, 20 unnumbered pages of plates :",
+    "illustrations": "illustrations, portraits (some color) ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, English",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Christie, Agatha,",
+      "type": "topical"
+    },
+    {
+      "value": "Detective and mystery stories",
+      "type": "topical"
+    },
+    {
+      "value": "Women novelists, English",
+      "type": "topical"
+    },
+    {
+      "value": "collective biographies.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00028021618",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028021618",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028021618",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)692524108"
+    },
+    {
+      "type": "Local",
+      "value": "9922415350202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Great books of the Western World /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hutchins, Robert Maynard,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopedia Britannica,"
+    ],
+    "date": "1955, ©1952.",
+    "year": 1955,
+    "countryCode": " ei"
+  },
+  "physical": {
+    "extent": "54 volumes ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Anthologies.",
+      "type": "topical"
+    },
+    {
+      "value": "Collections.",
+      "type": "topical"
+    },
+    {
+      "value": "Indexes.",
+      "type": "topical"
+    },
+    {
+      "value": "Literature",
+      "type": "topical"
+    },
+    {
+      "value": "Literature.",
+      "type": "topical"
+    },
+    {
+      "value": "anthologies.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great ideas books ;",
+      "numbering": "10 vols."
+    }
+  ]
+}

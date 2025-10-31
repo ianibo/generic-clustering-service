@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00029539908",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029539908",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029539908",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "a 51009849 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1592390"
+    },
+    {
+      "type": "Local",
+      "value": "9910566942202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Divine comedy of Dante Alghieri",
+      "type": "alternative"
+    },
+    {
+      "value": "The Divine comedy /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Fletcher, Jefferson Butler,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Columbia University Press,"
+    ],
+    "date": "1951.",
+    "year": 1951,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xi, 471 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Heaven",
+      "type": "topical"
+    },
+    {
+      "value": "Heaven.",
+      "type": "topical"
+    },
+    {
+      "value": "Hell",
+      "type": "topical"
+    },
+    {
+      "value": "Hell.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "marc:001:in00026048044",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026048044",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026048044",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 64011997 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1434232"
+    },
+    {
+      "type": "Local",
+      "value": "9910529176702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Simmons, Ernest J.",
+      "role": "selector,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "[Random House],"
+    ],
+    "date": "[1964-65]",
+    "year": 1964,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "map ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories, Russian",
+      "type": "topical"
+    },
+    {
+      "value": "Tolstoy, Leo,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Modern library of the world's best books [ML346, 361]"
+    },
+    {
+      "title": "Modern library of the world's best books ;",
+      "numbering": "ML346, 361."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647110950",
+      "Short stories."
+    ]
+  }
+}

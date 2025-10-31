@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00029545403",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029545403",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029545403",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0903747065"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780903747066"
+    },
+    {
+      "type": "ISBN",
+      "value": "0903747073"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780903747073"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73176705 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)895290"
+    },
+    {
+      "type": "Local",
+      "value": "9910290673602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems.",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mandelʹshtam, Osip,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "McDuff, David,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "rus"
+  ],
+  "publication": {
+    "place": [
+      "Cambridge [England]"
+    ],
+    "publisher": [
+      "Rivers Press"
+    ],
+    "date": "[1973]",
+    "year": 1973,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxiii, 182 pages",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Mandelʹshtam, Osip,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654912762",
+      "Selected poems."
+    ]
+  }
+}

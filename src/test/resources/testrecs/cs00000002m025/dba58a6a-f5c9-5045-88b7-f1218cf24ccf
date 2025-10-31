@@ -1,0 +1,136 @@
+{
+  "id": "marc:001:in00026496432",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026496432",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026496432",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0882331345"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780882331348"
+    },
+    {
+      "type": "ISBN",
+      "value": "0882331353"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780882331355"
+    },
+    {
+      "type": "LCCN",
+      "value": " 78110678 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4244980"
+    },
+    {
+      "type": "Local",
+      "value": "9910377799302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Platonov, Andreĭ Platonovich,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Brodsky, Joseph,",
+      "role": "writer of preface.",
+      "kind": "person"
+    },
+    {
+      "name": "Whitney, Thomas P.,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Proffer, Carl R.,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Kiselev, Alexey A.,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Jordan, Marion,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Snyder, Friederike,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Ann Arbor, Michigan :"
+    ],
+    "publisher": [
+      "Ardis,"
+    ],
+    "date": "1978.",
+    "year": 1978,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xii, 438 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Platonov, Andreĭ Platonovich,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)558413568",
+      "Collected works."
+    ]
+  }
+}

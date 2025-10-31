@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00026598130",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026598130",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026598130",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1841580848"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781841580845"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2001369155"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)45260235"
+    },
+    {
+      "type": "Local",
+      "value": "9910228855902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fergusson, Robert,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Robertson, James,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "sco"
+  ],
+  "publication": {
+    "place": [
+      "Chester Springs, PA :",
+      "Edinburgh :"
+    ],
+    "publisher": [
+      "Birlinn ;",
+      "U.S. distributor Dufour Editions,"
+    ],
+    "date": "2000.",
+    "year": 2000,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "vii, 214 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    }
+  ]
+}

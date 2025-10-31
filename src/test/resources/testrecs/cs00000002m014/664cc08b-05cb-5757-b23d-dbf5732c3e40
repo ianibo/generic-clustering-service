@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00028006270",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028006270",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028006270",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "LCCN",
+      "value": " 92080213 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)27012524"
+    },
+    {
+      "type": "Local",
+      "value": "9911879613602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Life of Samuel Johnson, LL. D. /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Boswell, James,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago ;",
+      "London :"
+    ],
+    "publisher": [
+      "Encyclopaedia Britannica,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xvii, 618 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    },
+    {
+      "value": "collective biographies.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the western world ;",
+      "numbering": "41"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "41."
+    }
+  ]
+}

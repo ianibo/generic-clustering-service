@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00030353376",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030353376",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030353376",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 76378053 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2912720"
+    },
+    {
+      "type": "Local",
+      "value": "9925218526802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Young, Ella,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Dublin :"
+    ],
+    "publisher": [
+      "Maunsel & Co.,"
+    ],
+    "date": "1906.",
+    "year": 1906,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "37 pages ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Authors' autographs (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Authors' presentation copies (Provenance)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Tower Press booklets ;",
+      "numbering": "2nd ser., no. 4"
+    },
+    {
+      "title": "Tower Press booklets ;",
+      "numbering": "2nd ser., no. 4."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647125045",
+      "Poems."
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "id": "marc:001:in00028185262",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028185262",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028185262",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:33Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:33Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140440011"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140440010"
+    },
+    {
+      "type": "LCCN",
+      "value": " 82011794 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3011605"
+    },
+    {
+      "type": "Local",
+      "value": "9910136774102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rieu, E. V.",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "[Baltimore] :"
+    ],
+    "publisher": [
+      "Penguin,"
+    ],
+    "date": "[1946]",
+    "year": 1946,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "365 pages ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Greece",
+      "type": "topical"
+    },
+    {
+      "value": "Greek literature",
+      "type": "topical"
+    },
+    {
+      "value": "Greek literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Legends",
+      "type": "topical"
+    },
+    {
+      "value": "Mythology",
+      "type": "topical"
+    },
+    {
+      "value": "Mythology.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus (Greek mythology)",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Publishers' paper bindings (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "epic literature.",
+      "type": "topical"
+    },
+    {
+      "value": "epic poems.",
+      "type": "topical"
+    },
+    {
+      "value": "epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "mythology (literary genre)",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)904074948",
+      "Odyssey."
+    ]
+  }
+}

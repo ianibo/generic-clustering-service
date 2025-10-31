@@ -1,0 +1,159 @@
+{
+  "id": "marc:001:in00027591485",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027591485",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027591485",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)23131063"
+    },
+    {
+      "type": "Local",
+      "value": "9911809618502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The spirit of laws /",
+      "type": "main"
+    },
+    {
+      "value": "De l'esprit des lois.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Montesquieu, Charles de Secondat,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Nugent, Thomas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Prichard, J. V.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cole, G. D. H.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rousseau, Jean-Jacques,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rousseau, Jean-Jacques,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rousseau, Jean-Jacques,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "2nd ed."
+  },
+  "publication": {
+    "place": [
+      "Chicago, Ill. :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxii, 439 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Jurisprudence",
+      "type": "topical"
+    },
+    {
+      "value": "Jurisprudence.",
+      "type": "topical"
+    },
+    {
+      "value": "Law",
+      "type": "topical"
+    },
+    {
+      "value": "Law.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science",
+      "type": "topical"
+    },
+    {
+      "value": "Political science.",
+      "type": "topical"
+    },
+    {
+      "value": "State, The",
+      "type": "topical"
+    },
+    {
+      "value": "State, The.",
+      "type": "topical"
+    },
+    {
+      "value": "law (discipline)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "35"
+    },
+    {
+      "title": "Great books of the Western world (1990) ;",
+      "numbering": "35."
+    }
+  ]
+}

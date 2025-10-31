@@ -1,0 +1,179 @@
+{
+  "id": "marc:001:in00026931720",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026931720",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026931720",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "3791325345"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783791325347"
+    },
+    {
+      "type": "ISBN",
+      "value": "3791330179"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783791330174"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783791332574"
+    },
+    {
+      "type": "ISBN",
+      "value": "3791332570"
+    },
+    {
+      "type": "ISBN",
+      "value": "3791328522"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783791328522"
+    },
+    {
+      "type": "ISBN",
+      "value": "3791332589"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783791332581"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783791332598"
+    },
+    {
+      "type": "ISBN",
+      "value": "3791332597"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003536571"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)53277329"
+    },
+    {
+      "type": "Local",
+      "value": "9910784548902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Norman Foster works",
+      "type": "alternative"
+    },
+    {
+      "value": "Works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Foster, Norman,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Foster, Norman,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jenkins, David,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Munich ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Prestel,"
+    ],
+    "date": "©2002-<c2013>",
+    "year": 2002,
+    "countryCode": "gw "
+  },
+  "physical": {
+    "extent": "volumes <1-6> :",
+    "illustrations": "illustrations (some color) ;",
+    "dimensions": "30 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-2099",
+      "type": "topical"
+    },
+    {
+      "value": "Architecture",
+      "type": "topical"
+    },
+    {
+      "value": "Architecture.",
+      "type": "topical"
+    },
+    {
+      "value": "Catalogs.",
+      "type": "topical"
+    },
+    {
+      "value": "Catalogues raisonnés.",
+      "type": "topical"
+    },
+    {
+      "value": "Foster, Norman,",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "catalogues raisonnés.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)662881737",
+      "Works."
+    ]
+  }
+}

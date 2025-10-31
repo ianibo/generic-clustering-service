@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00027927329",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027927329",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027927329",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780786018680"
+    },
+    {
+      "type": "ISBN",
+      "value": "0786018682"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2009510898"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)237213084"
+    },
+    {
+      "type": "Local",
+      "value": "9911703823402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Purgatory /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Johnstone, William W.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Johnstone, J. A.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Pinnacle Books,"
+    ],
+    "date": "©2008.",
+    "year": 2008,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "328 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Escapes",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Outlaws",
+      "type": "topical"
+    },
+    {
+      "value": "Revenge",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "Western fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Western fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Western stories.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Matt Jensen, the last mountain man"
+    }
+  ]
+}

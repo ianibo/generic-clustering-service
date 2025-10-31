@@ -1,0 +1,134 @@
+{
+  "id": "marc:001:in00027501429",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027501429",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027501429",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 36037048 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)11893017"
+    },
+    {
+      "type": "Local",
+      "value": "9912109391402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Ivanhoe,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London",
+      "New York,",
+      "Toronto,"
+    ],
+    "publisher": [
+      "E.P. Dutton & Co.",
+      "J.M. Dent & Sons, Ltd.;"
+    ],
+    "date": "[1931]",
+    "year": 1931,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xv, 460 pages",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1189-1199",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Jews",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's Library ;",
+      "numbering": "16"
+    },
+    {
+      "title": "Everyman's library ;",
+      "numbering": "16."
+    }
+  ]
+}

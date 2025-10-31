@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00027492772",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027492772",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027492772",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)362381"
+    },
+    {
+      "type": "Local",
+      "value": "9910197756802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Woodstock.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London and Edinburgh,"
+    ],
+    "publisher": [
+      "Adam and Charles Black,"
+    ],
+    "date": "1894.",
+    "year": 1894,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "493 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1649-1660",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Waverley novels. Dryburgh ed.",
+      "numbering": "v. 21"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894147954",
+      "Woodstock."
+    ]
+  }
+}

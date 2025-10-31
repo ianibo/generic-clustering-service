@@ -1,0 +1,86 @@
+{
+  "id": "marc:001:in00028852261",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028852261",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028852261",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "nuc87734704 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2939251"
+    },
+    {
+      "type": "Local",
+      "value": "9911093571402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Samuel Johnson /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stephen, Leslie,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1878.",
+    "year": 1878,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "195 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "subjects": [
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "English men of letters, edited by John Morley"
+    },
+    {
+      "title": "English men of letters.",
+      "numbering": "LEL 11159."
+    },
+    {
+      "title": "English men of letters.",
+      "numbering": "LEL 11159."
+    }
+  ]
+}

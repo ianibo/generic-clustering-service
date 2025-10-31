@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:in00030484983",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030484983",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030484983",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 46008477 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1402840"
+    },
+    {
+      "type": "Local",
+      "value": "9910271813802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Jane Eyre /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Carlin, Jerome,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Christ, Henry I.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Brontë, Charlotte,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Globe Book Co.,"
+    ],
+    "date": "©1946.",
+    "year": 1946,
+    "countryCode": "fo "
+  },
+  "physical": {
+    "extent": "v, 220 pages :",
+    "illustrations": "plates ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Governesses",
+      "type": "topical"
+    },
+    {
+      "value": "Governesses.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "Mental illness",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1420671871",
+      "Jane Eyre."
+    ]
+  }
+}

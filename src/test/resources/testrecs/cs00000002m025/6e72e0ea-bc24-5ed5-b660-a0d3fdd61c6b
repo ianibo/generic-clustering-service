@@ -1,0 +1,165 @@
+{
+  "id": "marc:001:in00026059404",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026059404",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026059404",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0192817809"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192817808"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87020330 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)16352428"
+    },
+    {
+      "type": "Local",
+      "value": "9910374762702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Moby Dick /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Tanner, Tony.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford, OX ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1988.",
+    "year": 1988,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "liv, 602 pages ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure stories",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab,",
+      "type": "topical"
+    },
+    {
+      "value": "Allegories",
+      "type": "topical"
+    },
+    {
+      "value": "Allegories.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling ships",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The World's classics"
+    },
+    {
+      "title": "World's classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)902950348",
+      "Moby Dick."
+    ]
+  }
+}

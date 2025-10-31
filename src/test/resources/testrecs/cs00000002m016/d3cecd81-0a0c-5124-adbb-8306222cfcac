@@ -1,0 +1,67 @@
+{
+  "id": "marc:001:gsouin00002322072",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsouin00002322072",
+    "sourceRecordUri": "https://catalog.example.org/record/gsouin00002322072",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0826214118"
+    },
+    {
+      "type": "Local",
+      "value": "F391785"
+    },
+    {
+      "type": "Local",
+      "value": "(GSaAAS)165095-armstrongdb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GASOUTH)9916088064902950"
+    },
+    {
+      "type": "Local",
+      "value": "9916088064902950"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short Stories",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Miller, R. Baxter (Edt)/ Rampersad, Arnold (Int)",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "COLUMBIA MO"
+    ],
+    "publisher": [
+      "Univ of Missouri Pr (T)"
+    ],
+    "date": "2002",
+    "year": 2002
+  }
+}

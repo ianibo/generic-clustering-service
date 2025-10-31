@@ -1,0 +1,138 @@
+{
+  "id": "marc:001:in00026382700",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026382700",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026382700",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0845073028"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780845073025"
+    },
+    {
+      "type": "LCCN",
+      "value": " 85751335 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)9068813"
+    },
+    {
+      "type": "Local",
+      "value": "9910393660802931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "MR 2"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Morton, Robert,",
+      "role": "composer.",
+      "kind": "person"
+    },
+    {
+      "name": "Atlas, Allan W.,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "frm",
+    "spa"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Broude Brothers,"
+    ],
+    "date": "[1981]",
+    "year": 1981,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "1 score (xxxvii, 104 pages) ;",
+    "dimensions": "30 cm.",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Intabulations",
+      "type": "topical"
+    },
+    {
+      "value": "Intabulations (Keyboard instrument)",
+      "type": "topical"
+    },
+    {
+      "value": "Intabulations.",
+      "type": "topical"
+    },
+    {
+      "value": "Polyphonic chansons",
+      "type": "topical"
+    },
+    {
+      "value": "Polyphonic chansons.",
+      "type": "topical"
+    },
+    {
+      "value": "Scores",
+      "type": "topical"
+    },
+    {
+      "value": "Scores.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Masters and monuments of the Renaissance ;",
+      "numbering": "v. 2"
+    },
+    {
+      "title": "Masters and monuments of the Renaissance ;",
+      "numbering": "v. 2."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)635578374",
+      "Collected works."
+    ]
+  }
+}

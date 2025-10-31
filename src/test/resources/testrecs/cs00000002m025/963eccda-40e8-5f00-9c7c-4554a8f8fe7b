@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:in00027973984",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027973984",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027973984",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 27026109 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1965626"
+    },
+    {
+      "type": "Local",
+      "value": "9910407309802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey of Homer:",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Marris, William Sinclair,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York"
+    ],
+    "publisher": [
+      "Oxford University Press"
+    ],
+    "date": "1925.",
+    "year": 1925,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "x pages, 1 leaf, 438 pages",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Odyssey (Greek mythology)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ]
+}

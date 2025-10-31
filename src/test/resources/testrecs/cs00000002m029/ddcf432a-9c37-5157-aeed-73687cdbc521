@@ -1,0 +1,159 @@
+{
+  "id": "marc:001:in00026466937",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026466937",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026466937",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0810102684"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780810102682"
+    },
+    {
+      "type": "ISBN",
+      "value": "0810102692"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780810102699"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)35172339"
+    },
+    {
+      "type": "Local",
+      "value": "9910845940702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Moby Dick : or The whale /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hayford, Harrison.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Parker, Hershel.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Tanselle, G. Thomas",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago :",
+      "Evanston [Ill.] :"
+    ],
+    "publisher": [
+      "Newberry Library,",
+      "Northwestern University Press ;"
+    ],
+    "date": "1988.",
+    "year": 1988,
+    "countryCode": "h b"
+  },
+  "physical": {
+    "extent": "xxviii, 1043 pages :",
+    "illustrations": "facsimiles ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Melville, Herman,",
+      "type": "topical"
+    },
+    {
+      "value": "Moby Dick (Melville, Herman)",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Sea fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea in literature",
+      "type": "topical"
+    },
+    {
+      "value": "Sea in literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Writings of Herman Melville ;",
+      "numbering": "v. 6"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)571170235",
+      "Moby Dick."
+    ]
+  }
+}

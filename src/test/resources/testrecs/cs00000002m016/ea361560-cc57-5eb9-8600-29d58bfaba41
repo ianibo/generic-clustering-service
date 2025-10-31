@@ -1,0 +1,125 @@
+{
+  "id": "marc:001:in00027696892",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027696892",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027696892",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0486264785"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780486264783"
+    },
+    {
+      "type": "Other",
+      "value": "9780486264783"
+    },
+    {
+      "type": "LCCN",
+      "value": " 90036100 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)21521126"
+    },
+    {
+      "type": "Local",
+      "value": "9911117281702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The importance of being earnest /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wilde, Oscar,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Dover Publications,"
+    ],
+    "date": "1990.",
+    "year": 1990,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "viii, 54 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Comedies.",
+      "type": "topical"
+    },
+    {
+      "value": "Comedy plays",
+      "type": "topical"
+    },
+    {
+      "value": "Comedy plays.",
+      "type": "topical"
+    },
+    {
+      "value": "Drama",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "English drama (Comedy)",
+      "type": "topical"
+    },
+    {
+      "value": "English drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings",
+      "type": "topical"
+    },
+    {
+      "value": "Identity (Psychology)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Dover thrift editions"
+    },
+    {
+      "title": "Dover thrift editions."
+    }
+  ]
+}

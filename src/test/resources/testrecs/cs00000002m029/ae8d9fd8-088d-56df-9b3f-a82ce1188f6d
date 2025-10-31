@@ -1,0 +1,123 @@
+{
+  "id": "marc:001:in00027799403",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027799403",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027799403",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780593240724"
+    },
+    {
+      "type": "ISBN",
+      "value": "0593240723"
+    },
+    {
+      "type": "Other",
+      "value": "40030804059"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2021029864"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1260169375"
+    },
+    {
+      "type": "Local",
+      "value": "9922901587902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ai, Qing,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Dorsett, Robert Hammond,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Crown,"
+    ],
+    "date": "[2021]",
+    "year": 2021,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xv, 104 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Ai, Qing,",
+      "type": "topical"
+    },
+    {
+      "value": "Chinese poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Free verse",
+      "type": "topical"
+    },
+    {
+      "value": "Free verse.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 2021029865",
+      "9780593240731",
+      "Selected poems"
+    ]
+  }
+}

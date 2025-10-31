@@ -1,0 +1,102 @@
+{
+  "id": "marc:001:in00026210586",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026210586",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026210586",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "063112926X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780631129264"
+    },
+    {
+      "type": "Other",
+      "value": "12634726"
+    },
+    {
+      "type": "LCCN",
+      "value": " 65004943 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3787974"
+    },
+    {
+      "type": "Local",
+      "value": "9911746207502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Divine comedy.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bickersteth, Geoffrey L.",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "ita"
+  ],
+  "publication": {
+    "place": [
+      "Oxford,"
+    ],
+    "publisher": [
+      "Published for the Shakespeare Head Press by Basil Blackwell,"
+    ],
+    "date": "1965.",
+    "year": 1965,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiiii, 795 pages",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Allegories.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Italian.",
+      "type": "topical"
+    },
+    {
+      "value": "allegory (artistic device)",
+      "type": "topical"
+    }
+  ]
+}

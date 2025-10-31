@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00026302478",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026302478",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026302478",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "D00420362X"
+    },
+    {
+      "type": "LCCN",
+      "value": " 49003306 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)740638"
+    },
+    {
+      "type": "Local",
+      "value": "9910328911002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sitwell, Sacheverell,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sitwell, Osbert,",
+      "role": "writer of preface.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Gerald Duckworth & Co. Ltd.,"
+    ],
+    "date": "1948.",
+    "year": 1948,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "192 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)575959883",
+      "Selected poems."
+    ]
+  }
+}

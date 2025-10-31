@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00030021021",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030021021",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030021021",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)8601173"
+    },
+    {
+      "type": "Local",
+      "value": "9910462839102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sewall, Harriet Winslow,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cheney, Ednah Dow,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cairns Collection of American Women Writers.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cambridge :"
+    ],
+    "publisher": [
+      "Riverside Press,"
+    ],
+    "date": "1889.",
+    "year": 1889,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xliii, 124 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Maine.",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Sewall, Harriet Winslow,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)616151776",
+      "Poems."
+    ]
+  }
+}

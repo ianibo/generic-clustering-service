@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:in00027655566",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027655566",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027655566",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0571230717"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780571230716"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2006491213"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)64168742"
+    },
+    {
+      "type": "Local",
+      "value": "9910832579202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Echlin, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mahon, Derek,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Faber and Faber,"
+    ],
+    "date": "2006.",
+    "year": 2006,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xx, 122 pages :",
+    "illustrations": "music ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "Poet to poet series"
+    },
+    {
+      "title": "Poet to poet series."
+    }
+  ]
+}

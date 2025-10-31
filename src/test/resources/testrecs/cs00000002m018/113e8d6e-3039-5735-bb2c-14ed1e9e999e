@@ -1,0 +1,249 @@
+{
+  "id": "marc:001:in00026190138",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026190138",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026190138",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0720418003"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780720418002"
+    },
+    {
+      "type": "ISBN",
+      "value": "0444100032"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780444100030"
+    },
+    {
+      "type": "ISBN",
+      "value": "0720418011"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780720418019"
+    },
+    {
+      "type": "ISBN",
+      "value": "0444899723"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780444899729"
+    },
+    {
+      "type": "ISBN",
+      "value": "0444529462"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780444529466"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780444532916"
+    },
+    {
+      "type": "ISBN",
+      "value": "0444532919"
+    },
+    {
+      "type": "ISBN",
+      "value": "072041802X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780720418026"
+    },
+    {
+      "type": "ISBN",
+      "value": "0444898921"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780444898920"
+    },
+    {
+      "type": "ISBN",
+      "value": "0444513361"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780444513366"
+    },
+    {
+      "type": "ISBN",
+      "value": "0720418038"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780720418033"
+    },
+    {
+      "type": "ISBN",
+      "value": "0444867120"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780444867124"
+    },
+    {
+      "type": "ISBN",
+      "value": "0444107843"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780444107848"
+    },
+    {
+      "type": "ISBN",
+      "value": "0720418046"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780720418040"
+    },
+    {
+      "type": "ISBN",
+      "value": "0444865012"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780444865014"
+    },
+    {
+      "type": "ISBN",
+      "value": "0444870032"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780444870032"
+    },
+    {
+      "type": "ISBN",
+      "value": "0444869298"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780444869296"
+    },
+    {
+      "type": "LCCN",
+      "value": " 70126498 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)538755"
+    },
+    {
+      "type": "Local",
+      "value": "9910487150902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Niels Bohr Collected works",
+      "type": "alternative"
+    },
+    {
+      "value": "Collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bohr, Niels,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rosenfeld, L.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rüdinger, Erik.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aaserud, Finn.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Nielsen, J. Rud,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "dan",
+    "eng",
+    "ger"
+  ],
+  "publication": {
+    "place": [
+      "Amsterdam :"
+    ],
+    "publisher": [
+      "North-Holland Publishing Company,"
+    ],
+    "date": "1972-2008.",
+    "year": 1972,
+    "countryCode": "ne "
+  },
+  "physical": {
+    "extent": "13 volumes :",
+    "illustrations": "illustrations ;",
+    "dimensions": "27 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Physics",
+      "type": "topical"
+    },
+    {
+      "value": "Physics.",
+      "type": "topical"
+    },
+    {
+      "value": "physics.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)625264260",
+      "Collected works."
+    ]
+  }
+}

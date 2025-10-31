@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00028333413",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028333413",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028333413",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "a 30000969"
+    },
+    {
+      "type": "Local",
+      "value": "ocm01833073"
+    },
+    {
+      "type": "Local",
+      "value": "(GDahN)328974-northgadb"
+    },
+    {
+      "type": "Local",
+      "value": "9911253965602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Capital (a critique of political economy)",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marx, Karl,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Paul, Eden,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Paul, Cedar,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London",
+      "New York,",
+      "Toronto,"
+    ],
+    "publisher": [
+      "E. P. Dutton & co.",
+      "J. M. Dent & sons, ltd.;"
+    ],
+    "date": "[1930]",
+    "year": 1930,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "2 v.",
+    "dimensions": "18 cm."
+  },
+  "subjects": [
+    {
+      "value": "Capital.",
+      "type": "topical"
+    },
+    {
+      "value": "Economics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Half-title: Everyman's library, ed. by Ernest Rhys. Science. [no.848-849]"
+    }
+  ]
+}

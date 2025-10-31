@@ -1,0 +1,212 @@
+{
+  "id": "marc:001:in00027940072",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027940072",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027940072",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781987208061"
+    },
+    {
+      "type": "ISBN",
+      "value": "1987208064"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781987208078"
+    },
+    {
+      "type": "ISBN",
+      "value": "1987208072"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781987208085"
+    },
+    {
+      "type": "ISBN",
+      "value": "1987208080"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1344433611"
+    },
+    {
+      "type": "Local",
+      "value": "9923477313502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Pieces with obbligato instruments",
+      "type": "alternative"
+    },
+    {
+      "value": "Collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Notari, Angelo,",
+      "role": "composer.",
+      "kind": "person"
+    },
+    {
+      "name": "Wainwright, Jonathan P.,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "ita",
+    "lat"
+  ],
+  "publication": {
+    "place": [
+      "Madison, Wisconsin :"
+    ],
+    "publisher": [
+      "A-R Editions,"
+    ],
+    "date": "[2022]",
+    "year": 2022,
+    "countryCode": "wiu"
+  },
+  "physical": {
+    "extent": "1 score (3 volumes) + 6 parts ;",
+    "dimensions": "31 cm.",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Chamber music",
+      "type": "topical"
+    },
+    {
+      "value": "Chamber music.",
+      "type": "topical"
+    },
+    {
+      "value": "Madrigals",
+      "type": "topical"
+    },
+    {
+      "value": "Madrigals (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Madrigals.",
+      "type": "topical"
+    },
+    {
+      "value": "Motets",
+      "type": "topical"
+    },
+    {
+      "value": "Motets.",
+      "type": "topical"
+    },
+    {
+      "value": "Part songs",
+      "type": "topical"
+    },
+    {
+      "value": "Part songs.",
+      "type": "topical"
+    },
+    {
+      "value": "Parts (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred music",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred music.",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred vocal music",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred vocal music.",
+      "type": "topical"
+    },
+    {
+      "value": "Scores",
+      "type": "topical"
+    },
+    {
+      "value": "Scores.",
+      "type": "topical"
+    },
+    {
+      "value": "Songs",
+      "type": "topical"
+    },
+    {
+      "value": "Songs with continuo",
+      "type": "topical"
+    },
+    {
+      "value": "Songs with continuo.",
+      "type": "topical"
+    },
+    {
+      "value": "Songs.",
+      "type": "topical"
+    },
+    {
+      "value": "Vocal ensembles with continuo",
+      "type": "topical"
+    },
+    {
+      "value": "Vocal ensembles with continuo.",
+      "type": "topical"
+    },
+    {
+      "value": "Vocal music",
+      "type": "topical"
+    },
+    {
+      "value": "Vocal music.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Recent researches in the music of the Baroque Era,",
+      "numbering": "230-232"
+    },
+    {
+      "title": "Recent researches in the music of the Baroque Era ;",
+      "numbering": "v. 230-232."
+    }
+  ]
+}

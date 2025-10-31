@@ -1,0 +1,193 @@
+{
+  "id": "marc:001:in00026150575",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026150575",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026150575",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0691069840"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691069845"
+    },
+    {
+      "type": "ISBN",
+      "value": "0691015376"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691015378"
+    },
+    {
+      "type": "ISBN",
+      "value": "069106279X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691062792"
+    },
+    {
+      "type": "ISBN",
+      "value": "0691013209"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691013206"
+    },
+    {
+      "type": "LCCN",
+      "value": " 92001198 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)25281900"
+    },
+    {
+      "type": "Local",
+      "value": "9910215878202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cavafy, Constantine,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Keeley, Edmund,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Sherrard, Philip,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Savvidēs, Geōrgios P.,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "Rev. ed."
+  },
+  "publication": {
+    "place": [
+      "Princeton, N.J. :"
+    ],
+    "publisher": [
+      "Princeton University Press,"
+    ],
+    "date": "©1992.",
+    "year": 1992,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xvi, 284 pages ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Authors' annotations (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Authors' copies (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Cavafy, Constantine,",
+      "type": "topical"
+    },
+    {
+      "value": "Dust jackets (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Greek poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "Wrappers (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Princeton modern Greek studies"
+    },
+    {
+      "title": "Princeton modern Greek studies"
+    },
+    {
+      "title": "Princeton modern Greek studies"
+    },
+    {
+      "title": "Princeton modern Greek studies."
+    },
+    {
+      "title": "Princeton modern Greek studies."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)662562789",
+      "Collected poems."
+    ]
+  }
+}

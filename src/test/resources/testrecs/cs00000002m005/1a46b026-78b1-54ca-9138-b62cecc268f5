@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00025864088",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025864088",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025864088",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 70139321 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)124280"
+    },
+    {
+      "type": "Local",
+      "value": "9910334524202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Moss, Howard,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Atheneum,"
+    ],
+    "date": "1971.",
+    "year": 1971,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "171 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Autographs (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "(Penguin Modern European poets.)"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)568681342",
+      "(OCoLC)577357706",
+      "(OCoLC)631451298",
+      "Selected poems."
+    ]
+  }
+}

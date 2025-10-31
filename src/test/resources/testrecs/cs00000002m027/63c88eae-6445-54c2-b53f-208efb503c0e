@@ -1,0 +1,155 @@
+{
+  "id": "marc:001:in00029505446",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029505446",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029505446",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0895773228"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780895773227"
+    },
+    {
+      "type": "ISBN",
+      "value": "0679600108"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679600107"
+    },
+    {
+      "type": "LCCN",
+      "value": " 88062887 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)20390702"
+    },
+    {
+      "type": "Local",
+      "value": "9911257460602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Moby Dick /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Ciardiello, Joseph,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Fleming, Thomas J.,",
+      "role": "writer of afterword.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "Reader's Digest edition."
+  },
+  "publication": {
+    "place": [
+      "Pleasantville, New York :"
+    ],
+    "publisher": [
+      "Reader's Digest Association, Inc.,"
+    ],
+    "date": "[1989]",
+    "year": 1989,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "495 pages :",
+    "illustrations": "color illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab,",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling ships",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The world's best reading"
+    },
+    {
+      "title": "World's best reading."
+    }
+  ]
+}

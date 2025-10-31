@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00027943538",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027943538",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027943538",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1286237"
+    },
+    {
+      "type": "Local",
+      "value": "9910824173502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crime and punishment,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Harper & Row"
+    ],
+    "date": "[1965]",
+    "year": 1965,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiv, 562 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Murder",
+      "type": "topical"
+    },
+    {
+      "value": "Murder.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia (Federation)",
+      "type": "topical"
+    },
+    {
+      "value": "Saint Petersburg (Russia)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Harper's modern classics"
+    },
+    {
+      "title": "Harper's modern classics."
+    }
+  ]
+}

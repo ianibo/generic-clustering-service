@@ -1,0 +1,69 @@
+{
+  "id": "marc:001:in00026011024",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026011024",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026011024",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)908327"
+    },
+    {
+      "type": "Local",
+      "value": "(GSaAAS)9938-armstrongdb"
+    },
+    {
+      "type": "Local",
+      "value": "9911650504102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Wuthering heights",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Emily,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Grosset & Dunlap"
+    ],
+    "date": "[1939?]",
+    "year": 1939,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xii, 365 p.",
+    "dimensions": "22 cm."
+  },
+  "series": [
+    {
+      "title": "Universal library"
+    }
+  ]
+}

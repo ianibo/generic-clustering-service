@@ -1,0 +1,123 @@
+{
+  "id": "marc:001:in00025777356",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025777356",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025777356",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 62036277 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3620265"
+    },
+    {
+      "type": "Local",
+      "value": "9910154532202931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "CMM 241"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "CMM 2417"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Opera omnia",
+      "type": "alternative"
+    },
+    {
+      "value": "Collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wert, Giaches de,",
+      "role": "composer.",
+      "kind": "person"
+    },
+    {
+      "name": "MacClintock, Carol,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Bernstein, Melvin,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "ita",
+    "lat"
+  ],
+  "publication": {
+    "place": [
+      "[Rome] :"
+    ],
+    "publisher": [
+      "American Institute of Musicology,"
+    ],
+    "date": "1961-<1977>",
+    "year": 1961,
+    "countryCode": "it "
+  },
+  "physical": {
+    "extent": "17 vocal scores (volumes <1-17>) ;",
+    "dimensions": "36 cm",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Motets.",
+      "type": "topical"
+    },
+    {
+      "value": "Vocal music",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Corpus mensurabilis musicae ;",
+      "numbering": "24"
+    },
+    {
+      "title": "Corpus mensurabilis musicae ;",
+      "numbering": "24."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)646885696",
+      "Collected works."
+    ]
+  }
+}

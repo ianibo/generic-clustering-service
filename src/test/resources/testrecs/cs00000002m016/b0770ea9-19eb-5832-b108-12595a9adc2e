@@ -1,0 +1,80 @@
+{
+  "id": "marc:001:in00030099608",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030099608",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030099608",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)7044006"
+    },
+    {
+      "type": "Local",
+      "value": "9910844463402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Samuel Johnson /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stephen, Leslie,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1914, ©1878.",
+    "year": 1914,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "200 pages ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "English men of letters"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)588907453",
+      "Samuel Johnson."
+    ]
+  }
+}

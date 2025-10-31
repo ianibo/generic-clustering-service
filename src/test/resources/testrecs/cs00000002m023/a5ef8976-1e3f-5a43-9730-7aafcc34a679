@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00026306736",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026306736",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026306736",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)19546566"
+    },
+    {
+      "type": "Local",
+      "value": "9911560108902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anna Karénina : a novel /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Maude, Louise,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Maude, Aylmer,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "[1958]",
+    "year": 1958,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "2 volumes in 1",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Russian literature",
+      "type": "topical"
+    },
+    {
+      "value": "Russian literature.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "World's classics ;",
+      "numbering": "210"
+    },
+    {
+      "title": "World's classics ;",
+      "numbering": "210."
+    }
+  ]
+}

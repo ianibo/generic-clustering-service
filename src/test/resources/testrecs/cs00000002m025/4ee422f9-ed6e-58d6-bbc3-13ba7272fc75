@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00028555092",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028555092",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028555092",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0792344812"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780792344810"
+    },
+    {
+      "type": "LCCN",
+      "value": " 97007798 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)36528255"
+    },
+    {
+      "type": "Local",
+      "value": "9910461960002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Psychological and transcendental phenomenology and the confrontation with Heidegger (1927-1931) : the Encyclopaedia Britannica article, the Amsterdam lectures \"Phenomenology and anthropology,\" and Husserl's marginal notes in Being and time, and Kant and the problem of metaphysics /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Husserl, Edmund,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sheehan, Thomas.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Palmer, Richard E.,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Boston :",
+      "Dordrecht ;"
+    ],
+    "publisher": [
+      "Kluwer Academic Publishers,"
+    ],
+    "date": "©1997.",
+    "year": 1997,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xvi, 510 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Heidegger, Martin,",
+      "type": "topical"
+    },
+    {
+      "value": "Phenomenological psychology.",
+      "type": "topical"
+    },
+    {
+      "value": "Phenomenology.",
+      "type": "topical"
+    },
+    {
+      "value": "phenomenology.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Edmund Husserl collected works ;",
+      "numbering": "v. 6"
+    }
+  ]
+}

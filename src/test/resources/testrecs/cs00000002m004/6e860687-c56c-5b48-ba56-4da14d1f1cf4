@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00029582643",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029582643",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029582643",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 46015880 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)13927823"
+    },
+    {
+      "type": "Local",
+      "value": "9910004983802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gargantua and Pantagruel,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rabelais, François,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Urquhart, Thomas,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Motteux, Peter Anthony,",
+      "role": "joint tr.",
+      "kind": "person"
+    },
+    {
+      "name": "Brandt, R. A.,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "J. Westhouse,"
+    ],
+    "date": "1945.",
+    "year": 1945,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "8 preliminary leaves, 269 pages",
+    "illustrations": "frontispiece, plates",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Gargantua (Legendary character)",
+      "type": "topical"
+    },
+    {
+      "value": "Giants (Folklore)",
+      "type": "topical"
+    },
+    {
+      "value": "Rabelais, François,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1468020018",
+      "Gargantua and Pantagruel."
+    ]
+  }
+}

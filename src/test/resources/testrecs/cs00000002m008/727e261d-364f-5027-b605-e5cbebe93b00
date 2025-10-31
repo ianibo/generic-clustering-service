@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:dscin00000324111",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "dscin00000324111",
+    "sourceRecordUri": "https://catalog.example.org/record/dscin00000324111",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1558908870"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781558908871"
+    },
+    {
+      "type": "Other",
+      "value": "717951000682"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)764434926"
+    },
+    {
+      "type": "Local",
+      "value": "(GMC)421074"
+    },
+    {
+      "type": "Local",
+      "value": "(Voyager)421074-middlegadb-Voyager"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_DALTON)996013342002940"
+    },
+    {
+      "type": "Local",
+      "value": "996013342002940"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "15092"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Dead poets society",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Weir, Peter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Williams, Robin,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Leonard, Robert Sean,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hawke, Ethan,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Burbank, Calif. :"
+    ],
+    "publisher": [
+      "Buena Vista Home Entertainment,"
+    ],
+    "date": "[2006]",
+    "year": 2006,
+    "countryCode": "129"
+  },
+  "physical": {
+    "extent": "1 videodisc (129 min.) :",
+    "illustrations": "sound, color ;",
+    "dimensions": "4 3/4 in.",
+    "contentType": "two-dimensional moving image",
+    "mediaType": "video",
+    "carrierType": "videodisc"
+  },
+  "subjects": [
+    {
+      "value": "DVD-Video discs.",
+      "type": "topical"
+    },
+    {
+      "value": "Drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Teacher-student relationships",
+      "type": "topical"
+    },
+    {
+      "value": "Teachers",
+      "type": "topical"
+    },
+    {
+      "value": "Video recordings for the hearing impaired.",
+      "type": "topical"
+    }
+  ]
+}

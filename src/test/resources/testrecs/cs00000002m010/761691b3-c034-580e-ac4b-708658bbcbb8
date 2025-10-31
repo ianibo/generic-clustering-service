@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00029980325",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029980325",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029980325",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "ocm01019833"
+    },
+    {
+      "type": "Local",
+      "value": "(GFVV)28962-ftvdb"
+    },
+    {
+      "type": "Local",
+      "value": "9911677766402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Calypso.",
+      "type": "alternative"
+    },
+    {
+      "value": "Children.",
+      "type": "alternative"
+    },
+    {
+      "value": "Gift.",
+      "type": "alternative"
+    },
+    {
+      "value": "Intelligent Sheep-man and the New Cars.",
+      "type": "alternative"
+    },
+    {
+      "value": "Sappho, Be Comforted.",
+      "type": "alternative"
+    },
+    {
+      "value": "This is Pioneer Weather.",
+      "type": "alternative"
+    },
+    {
+      "value": "To Flossie.",
+      "type": "alternative"
+    },
+    {
+      "value": "New Poems",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Humphries, Rolfe.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Humphries, Rolfe.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Williams, William Carlos,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cummings, E. E.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Moore, Marianne,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Ballantine Books,"
+    ],
+    "date": "1957.",
+    "year": 1957,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "6 p. ℓ., 1-179 [1] p.",
+    "dimensions": "20.1 cm"
+  }
+}

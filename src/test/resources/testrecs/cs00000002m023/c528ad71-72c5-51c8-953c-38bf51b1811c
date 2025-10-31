@@ -1,0 +1,133 @@
+{
+  "id": "marc:001:in00025750081",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025750081",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025750081",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 65023455 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)274896"
+    },
+    {
+      "type": "Local",
+      "value": "9910052491302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Edgar Allan Poe /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Poe, Edgar Allan,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Stovall, Floyd,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Poe, Edgar Allan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Poe, Edgar Allan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Poe, Edgar Allan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Poe, Edgar Allan,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Charlottesville :"
+    ],
+    "publisher": [
+      "The University Press of Virginia,"
+    ],
+    "date": "1965",
+    "year": 1965,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "xxxvii, 361 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "27 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy poetry, American",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy poetry, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)586096157",
+      "Poems."
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "marc:001:in00028932408",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028932408",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028932408",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1421730"
+    },
+    {
+      "type": "Local",
+      "value": "9911706593502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems;",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stevens, Wallace,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Morse, Samuel French,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Vintage Books,"
+    ],
+    "date": "1961.",
+    "year": 1961,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxiii, 173 pages",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "Vintage book,",
+      "numbering": "V-85"
+    }
+  ]
+}

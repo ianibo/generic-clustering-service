@@ -1,0 +1,104 @@
+{
+  "id": "marc:001:in00028273327",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028273327",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028273327",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0618154450"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780618154456"
+    },
+    {
+      "type": "ISBN",
+      "value": "0618021876"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780618021871"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2001039523"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)47667415"
+    },
+    {
+      "type": "Local",
+      "value": "9911031495102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "A new selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kinnell, Galway,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st Mariner Books ed."
+  },
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Houghton Mifflin,"
+    ],
+    "date": "2001.",
+    "year": 2001,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xi, 179 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ]
+}

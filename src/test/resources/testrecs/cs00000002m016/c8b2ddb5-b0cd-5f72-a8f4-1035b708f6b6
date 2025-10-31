@@ -1,0 +1,190 @@
+{
+  "id": "marc:001:in00027116192",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027116192",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027116192",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "093046718220"
+    },
+    {
+      "type": "Other",
+      "value": "9304671822"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)36766712"
+    },
+    {
+      "type": "Local",
+      "value": "9910796479802931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "HMU 907182"
+    }
+  ],
+  "titles": [
+    {
+      "value": "De profundis /",
+      "type": "main"
+    },
+    {
+      "value": "Choral music.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pärt, Arvo,",
+      "role": "composer.",
+      "kind": "person"
+    },
+    {
+      "name": "Hillier, Paul,",
+      "role": "conductor.",
+      "kind": "person"
+    },
+    {
+      "name": "Bowers-Broadbent, Christopher,",
+      "role": "performer.",
+      "kind": "person"
+    },
+    {
+      "name": "Kennedy, Daniel,",
+      "role": "performer.",
+      "kind": "person"
+    },
+    {
+      "name": "Pärt, Arvo.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pärt, Arvo.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pärt, Arvo.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pärt, Arvo.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pärt, Arvo.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pärt, Arvo.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pärt, Arvo.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pärt, Arvo.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pärt, Arvo.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Theatre of Voices,",
+      "role": "performer.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Arles, France :"
+    ],
+    "publisher": [
+      "Harmonia Mundi France,"
+    ],
+    "date": "[1996]",
+    "year": 1996,
+    "countryCode": "fr "
+  },
+  "physical": {
+    "extent": "1 audio disc (76 min., 6 sec.) ;",
+    "dimensions": "4 3/4 in.",
+    "contentType": "performed music",
+    "mediaType": "audio",
+    "carrierType": "audio disc"
+  },
+  "subjects": [
+    {
+      "value": "Antiphons (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Beatitudes (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Men's voices) with instrumental ensemble.",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices) with organ.",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices), Unaccompanied.",
+      "type": "topical"
+    },
+    {
+      "value": "Credo (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Evening service music.",
+      "type": "topical"
+    },
+    {
+      "value": "Magnificat (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Masses.",
+      "type": "topical"
+    },
+    {
+      "value": "Psalms (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred music.",
+      "type": "topical"
+    }
+  ]
+}

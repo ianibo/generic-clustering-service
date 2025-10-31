@@ -1,0 +1,89 @@
+{
+  "id": "marc:001:in00025841192",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025841192",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025841192",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0405046405"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780405046407"
+    },
+    {
+      "type": "LCCN",
+      "value": " 72004970 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)393286"
+    },
+    {
+      "type": "Local",
+      "value": "9910234938002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pinkney, Edward Coote,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Arno Press,"
+    ],
+    "date": "1972.",
+    "year": 1972,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "72 pages",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "The Romantic tradition in American literature"
+    },
+    {
+      "title": "Romantic tradition in American literature."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)857369898",
+      "Poems."
+    ]
+  }
+}

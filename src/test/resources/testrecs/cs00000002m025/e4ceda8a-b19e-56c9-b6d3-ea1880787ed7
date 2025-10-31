@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00027940153",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027940153",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027940153",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "01018984"
+    },
+    {
+      "type": "Local",
+      "value": "ocm02378432"
+    },
+    {
+      "type": "Local",
+      "value": "(GUA)455324"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)455324-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910237105902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gargantua and Pantagruel,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rabelais, François,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Urquhart, Thomas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Motteux, Peter Anthony,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Whibley, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "D. Nutt,"
+    ],
+    "date": "1900.",
+    "year": 1900,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "3 v.",
+    "dimensions": "22 cm."
+  },
+  "series": [
+    {
+      "title": "The Tudor translations ;",
+      "numbering": "24-26"
+    },
+    {
+      "title": "Tudor translations ;",
+      "numbering": "24-26."
+    }
+  ]
+}

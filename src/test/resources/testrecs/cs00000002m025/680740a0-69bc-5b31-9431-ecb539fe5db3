@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00029679125",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029679125",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029679125",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140422137"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140422139"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)37554940"
+    },
+    {
+      "type": "Local",
+      "value": "9910125306002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marvell, Andrew,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Donno, Elizabeth Story,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1996.",
+    "year": 1996,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "314 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1600-1699",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Intellectual life.",
+      "type": "topical"
+    },
+    {
+      "value": "Marvell, Andrew,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

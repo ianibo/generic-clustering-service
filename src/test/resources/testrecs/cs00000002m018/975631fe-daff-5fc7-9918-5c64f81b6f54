@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00027138235",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027138235",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027138235",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 01018984"
+    },
+    {
+      "type": "Local",
+      "value": "ocm02132104"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)367481-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "9910741103502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gargantua and Pantagruel,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rabelais, François,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Urquhart, Thomas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Whibley, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Motteux, Peter Anthony,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "D. Nutt,"
+    ],
+    "date": "1900.",
+    "year": 1900,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "3 v.",
+    "dimensions": "22 cm."
+  },
+  "series": [
+    {
+      "title": "The Tudor translations, 24-26"
+    }
+  ]
+}

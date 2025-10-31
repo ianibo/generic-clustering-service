@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00027616184",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027616184",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027616184",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:33Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:33Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300078404"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300078404"
+    },
+    {
+      "type": "LCCN",
+      "value": " 98051003 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)40403638"
+    },
+    {
+      "type": "Local",
+      "value": "9910789342902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Sermons and discourses, 1730-1733 /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Valeri, Mark R.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xii, 480 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Congregational churches",
+      "type": "topical"
+    },
+    {
+      "value": "Edwards, Jonathan,",
+      "type": "topical"
+    },
+    {
+      "value": "Sermons",
+      "type": "topical"
+    },
+    {
+      "value": "Sermons, American",
+      "type": "topical"
+    },
+    {
+      "value": "Sermons, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Sermons.",
+      "type": "topical"
+    },
+    {
+      "value": "sermons.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The works of Jonathan Edwards ;",
+      "numbering": "v. 17"
+    }
+  ]
+}

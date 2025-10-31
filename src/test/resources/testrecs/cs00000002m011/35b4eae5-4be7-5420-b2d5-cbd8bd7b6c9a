@@ -1,0 +1,133 @@
+{
+  "id": "marc:001:in00029071457",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029071457",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029071457",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 52004705 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2858223"
+    },
+    {
+      "type": "Local",
+      "value": "9911407019602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The way of all flesh.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Butler, Samuel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cleveland,"
+    ],
+    "publisher": [
+      "Fine Editions Press"
+    ],
+    "date": "[1952]",
+    "year": 1952,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "371 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "Children of clergy",
+      "type": "topical"
+    },
+    {
+      "value": "Children of clergy.",
+      "type": "topical"
+    },
+    {
+      "value": "Conflict of generations",
+      "type": "topical"
+    },
+    {
+      "value": "Conflict of generations.",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Middle class",
+      "type": "topical"
+    },
+    {
+      "value": "Middle class.",
+      "type": "topical"
+    },
+    {
+      "value": "Parent and child",
+      "type": "topical"
+    },
+    {
+      "value": "Parent and child.",
+      "type": "topical"
+    },
+    {
+      "value": "Young men",
+      "type": "topical"
+    },
+    {
+      "value": "Young men.",
+      "type": "topical"
+    }
+  ]
+}

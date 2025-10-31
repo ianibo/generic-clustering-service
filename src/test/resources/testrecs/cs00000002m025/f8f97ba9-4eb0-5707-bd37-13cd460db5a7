@@ -1,0 +1,87 @@
+{
+  "id": "marc:001:in00027277180",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027277180",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027277180",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)12409752"
+    },
+    {
+      "type": "Local",
+      "value": "9910376230302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cleveland, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Printed for John Williams ...,"
+    ],
+    "date": "1661.",
+    "year": 1661,
+    "countryCode": "cf "
+  },
+  "physical": {
+    "extent": "[2], 233, [4] pages, 1 leaf of plates :",
+    "illustrations": "portrait",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Early English books, 1641-1700 ;",
+      "numbering": "658:8."
+    }
+  ]
+}

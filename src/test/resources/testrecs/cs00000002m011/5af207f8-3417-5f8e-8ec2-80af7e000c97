@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:in00027459458",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027459458",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027459458",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:48Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:48Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0679436421"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679436423"
+    },
+    {
+      "type": "LCCN",
+      "value": " 94005865 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)30078651"
+    },
+    {
+      "type": "Local",
+      "value": "9911445119802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women or, Meg, Jo, Beth and Amy /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Gray, M. E.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "A.A. Knopf :",
+      "Distributed by Random House,"
+    ],
+    "date": "©1994.",
+    "year": 1994,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "527 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Families",
+      "type": "topical"
+    },
+    {
+      "value": "Family life",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works",
+      "type": "topical"
+    },
+    {
+      "value": "March family (Fictitious characters)",
+      "type": "topical"
+    },
+    {
+      "value": "New England",
+      "type": "topical"
+    },
+    {
+      "value": "Sisters",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library children's classics"
+    },
+    {
+      "title": "Everyman's library children's classics."
+    }
+  ]
+}

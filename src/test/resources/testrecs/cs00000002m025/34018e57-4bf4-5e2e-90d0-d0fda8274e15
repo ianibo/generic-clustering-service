@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00030177660",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030177660",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030177660",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:54Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:54Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 49034797 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2793134"
+    },
+    {
+      "type": "Local",
+      "value": "9910165214002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The works of Lord Byron.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Byron, George Gordon Byron,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "J. Murray,"
+    ],
+    "date": "1823.",
+    "year": 1823,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "5 volumes",
+    "illustrations": "frontispiece (portraits)",
+    "dimensions": "17 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bookbinding",
+      "type": "topical"
+    },
+    {
+      "value": "Bookbinding.",
+      "type": "topical"
+    },
+    {
+      "value": "Fore-edge painting.",
+      "type": "topical"
+    },
+    {
+      "value": "Specimens.",
+      "type": "topical"
+    },
+    {
+      "value": "marginal illustrations.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)719422648",
+      "Works of Lord Byron."
+    ]
+  }
+}

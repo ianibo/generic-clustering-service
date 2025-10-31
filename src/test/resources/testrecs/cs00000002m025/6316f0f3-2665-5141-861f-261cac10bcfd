@@ -1,0 +1,70 @@
+{
+  "id": "marc:001:in00026661367",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026661367",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026661367",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)15492476"
+    },
+    {
+      "type": "Local",
+      "value": "9910348858802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Works.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Opie, Amelia,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston,"
+    ],
+    "publisher": [
+      "Goodrich,"
+    ],
+    "date": "1827.",
+    "year": 1827,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "12 volumes",
+    "illustrations": "portrait",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1314869351",
+      "Works."
+    ]
+  }
+}

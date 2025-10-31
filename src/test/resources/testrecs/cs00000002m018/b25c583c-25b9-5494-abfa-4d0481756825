@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:gsuin00004491800",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004491800",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004491800",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0679602100"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679602101"
+    },
+    {
+      "type": "LCCN",
+      "value": " 96017277 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)34590960"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)998016373402952"
+    },
+    {
+      "type": "Local",
+      "value": "998016373402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The purgatorio /",
+      "type": "main"
+    },
+    {
+      "value": "Purgatorio.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ciardi, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "1996.",
+    "year": 1996,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "vi, 364 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Purgatory",
+      "type": "topical"
+    },
+    {
+      "value": "Purgatory.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)610149863",
+      "Purgatorio."
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "marc:001:in00028315361",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028315361",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028315361",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)11673274"
+    },
+    {
+      "type": "Local",
+      "value": "(GPM)754606"
+    },
+    {
+      "type": "Local",
+      "value": "(GStG)754606-gasouthdb"
+    },
+    {
+      "type": "Local",
+      "value": "9910803184002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Tale of 2 cities",
+      "type": "alternative"
+    },
+    {
+      "value": "A tale of two cities /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "[1900?]",
+    "year": 1900,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "x, 397 p.,",
+    "dimensions": "19 cm."
+  },
+  "series": [
+    {
+      "title": "The Modern library of the world's best books"
+    },
+    {
+      "title": "Modern library of the world's best books."
+    }
+  ]
+}

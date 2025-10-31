@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00026234280",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026234280",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026234280",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2335688"
+    },
+    {
+      "type": "Local",
+      "value": "9910526766502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mallarmé, Stéphane,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fry, Roger,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mauron, Charles.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1937.",
+    "year": 1937,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xii, 307 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Association copies (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Dust jackets (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "French poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Publishers' cloth bindings (Binding)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)988151867",
+      "Poems."
+    ]
+  }
+}

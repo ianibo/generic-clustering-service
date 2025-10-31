@@ -1,0 +1,104 @@
+{
+  "id": "marc:001:in00028554661",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028554661",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028554661",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)4536313"
+    },
+    {
+      "type": "Local",
+      "value": "9910924500902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The bride of Lammermoor /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "P.F. Collier,"
+    ],
+    "date": "1902.",
+    "year": 1902,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "377, [4] leaves of plates :",
+    "illustrations": "illustrations ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1689 - 1745",
+      "type": "topical"
+    },
+    {
+      "value": "Arranged marriage",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Revenge",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Swindlers and swindling",
+      "type": "topical"
+    },
+    {
+      "value": "Women murderers",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "His The Waverley novels ;",
+      "numbering": "v. 8"
+    }
+  ]
+}

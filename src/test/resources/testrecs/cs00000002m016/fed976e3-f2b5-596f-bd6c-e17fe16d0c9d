@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00029631032",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029631032",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029631032",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 32026051 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)421315"
+    },
+    {
+      "type": "Local",
+      "value": "9910811068402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crime and punishment,",
+      "type": "main"
+    },
+    {
+      "value": "Prestuplenie i nakazanie.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "The Modern Library"
+    ],
+    "date": "[1932]",
+    "year": 1932,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "516 pages",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Russian literature",
+      "type": "topical"
+    },
+    {
+      "value": "Russian literature.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The modern library of the world's best books"
+    },
+    {
+      "title": "Modern library of the world's best books."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647363223",
+      "Crime and punishment."
+    ]
+  }
+}

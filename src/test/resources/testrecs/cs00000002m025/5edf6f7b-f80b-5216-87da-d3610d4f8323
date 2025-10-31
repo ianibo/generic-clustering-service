@@ -1,0 +1,176 @@
+{
+  "id": "marc:001:in00028505676",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028505676",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028505676",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 47033469 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2729426"
+    },
+    {
+      "type": "Local",
+      "value": "9915725618402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little Dorrit /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Browne, Hablot Knight,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Bradbury & Evans,",
+      "role": "publisher,",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Bradbury & Evans,"
+    ],
+    "date": "[1855-1857]",
+    "year": 1855,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "20 parts in 19 :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Advertisements",
+      "type": "topical"
+    },
+    {
+      "value": "Advertisements (Provenance).",
+      "type": "topical"
+    },
+    {
+      "value": "Children of prisoners",
+      "type": "topical"
+    },
+    {
+      "value": "Debt, Imprisonment for",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Inheritance and succession",
+      "type": "topical"
+    },
+    {
+      "value": "London (England)",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Marshalsea Prison (Southwark, London, England)",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Publishers' advertisements",
+      "type": "topical"
+    },
+    {
+      "value": "Publishers' paper bindings (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Serialized fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Serialized fiction.",
+      "type": "topical"
+    }
+  ]
+}

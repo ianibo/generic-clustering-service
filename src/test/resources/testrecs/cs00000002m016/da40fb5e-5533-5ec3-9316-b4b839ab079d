@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00027539256",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027539256",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027539256",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0374126216"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780374126216"
+    },
+    {
+      "type": "ISBN",
+      "value": "0374524335"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780374524333"
+    },
+    {
+      "type": "LCCN",
+      "value": " 93074183 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)30502445"
+    },
+    {
+      "type": "Local",
+      "value": "9910056749902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gunn, Thom,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First American edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Farrar, Straus & Giroux,"
+    ],
+    "date": "[1994]",
+    "year": 1994,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xvi, 495 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Annotations (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry, Modern",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

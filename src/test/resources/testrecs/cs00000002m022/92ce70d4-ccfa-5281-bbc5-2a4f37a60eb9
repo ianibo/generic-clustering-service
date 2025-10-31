@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00027007839",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027007839",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027007839",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0460010166"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460010160"
+    },
+    {
+      "type": "ISBN",
+      "value": "0460100165"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460100168"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)222324857"
+    },
+    {
+      "type": "Local",
+      "value": "9915004454602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Ivanhoe /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Parker, W. M.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Dent,"
+    ],
+    "date": "1983.",
+    "year": 1983,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xvi, 464 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no. 16"
+    }
+  ]
+}

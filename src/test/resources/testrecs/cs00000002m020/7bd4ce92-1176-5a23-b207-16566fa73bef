@@ -1,0 +1,70 @@
+{
+  "id": "marc:001:in00028456508",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028456508",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028456508",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1326385"
+    },
+    {
+      "type": "Local",
+      "value": "9911529505902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hughes, Langston,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Knopf,"
+    ],
+    "date": "1971.",
+    "year": 1971,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "297 pages",
+    "illustrations": "illustrations",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)747117637",
+      "Selected poems."
+    ]
+  }
+}

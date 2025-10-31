@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00029672942",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029672942",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029672942",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1857544722"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781857544725"
+    },
+    {
+      "type": "LCCN",
+      "value": " 00341903 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)43340208"
+    },
+    {
+      "type": "Local",
+      "value": "9910469056602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Khalvati, Mimi,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Manchester :"
+    ],
+    "publisher": [
+      "Carcanet,"
+    ],
+    "date": "2000.",
+    "year": 2000,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "135 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Poetry pléiade"
+    },
+    {
+      "title": "Poetry pléiade."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)606296443",
+      "(OCoLC)608375773",
+      "Selected poems."
+    ]
+  }
+}

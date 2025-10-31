@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:gsuin00004462672",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004462672",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004462672",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 57013897 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)944480"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9931142713402952"
+    },
+    {
+      "type": "Local",
+      "value": "9931142713402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The red badge of courage, and other stories.",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Crane, Stephen,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Dodd, Mead"
+    ],
+    "date": "[1957]",
+    "year": 1957,
+    "countryCode": "ach"
+  },
+  "physical": {
+    "extent": "vii, 409 pages,",
+    "illustrations": "illustrations, portraits, facsimile",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1861-1865",
+      "type": "topical"
+    },
+    {
+      "value": "American Civil War (1861-1865)",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    },
+    {
+      "value": "War stories.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great illustrated classics"
+    },
+    {
+      "title": "Great illustrated classics."
+    }
+  ]
+}

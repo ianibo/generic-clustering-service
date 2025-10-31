@@ -1,0 +1,144 @@
+{
+  "id": "marc:001:in00028575724",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028575724",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028575724",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780300123142"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300123140"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300166910"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300166915"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300166927"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300166923"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300166934"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300166931"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2009925022"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)639545983"
+    },
+    {
+      "type": "Local",
+      "value": "9911390252402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The lives of the poets /",
+      "type": "main"
+    },
+    {
+      "value": "Lives of the English poets",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Johnson, Samuel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Middendorf, John H.",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven, CT :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "2010.",
+    "year": 2010,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "3 volumes (lvii, 1583 pages) ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    },
+    {
+      "value": "Lives of the English poets (Johnson, Samuel)",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, English",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, English.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Yale edition of the works of Samuel Johnson ;",
+      "numbering": "volume XXI, XXII, XXIII"
+    }
+  ]
+}

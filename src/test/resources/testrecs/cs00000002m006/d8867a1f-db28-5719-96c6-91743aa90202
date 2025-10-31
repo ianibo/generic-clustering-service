@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00026493843",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026493843",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026493843",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)23021246"
+    },
+    {
+      "type": "Local",
+      "value": "9911809567402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Hippocratic writings /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hippocrates.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Adams, Francis,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Brock, Arthur John.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Galen.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "2nd ed."
+  },
+  "publication": {
+    "place": [
+      "Chicago, Ill. :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiii, 449 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Medicine, Greek and Roman.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "9"
+    },
+    {
+      "title": "Great books of the Western world (1990) ;",
+      "numbering": "9."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)895123917",
+      "Hippocratic writings."
+    ]
+  }
+}

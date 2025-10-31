@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00029056705",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029056705",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029056705",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 41019391 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2222448"
+    },
+    {
+      "type": "Local",
+      "value": "9910617196902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Faust. Parts one and two.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Priest, George Madison,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "A.A. Knopf,"
+    ],
+    "date": "1941.",
+    "year": 1941,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "3 preliminary leaves, iii-xxix, 425 pages 1 leaf",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Priest, George Madison,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)557814530",
+      "(OCoLC)613033531",
+      "Faust."
+    ]
+  }
+}

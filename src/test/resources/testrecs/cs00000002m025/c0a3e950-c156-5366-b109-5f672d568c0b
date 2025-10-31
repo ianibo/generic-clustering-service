@@ -1,0 +1,121 @@
+{
+  "id": "marc:001:in00026104095",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026104095",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026104095",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0943373247"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780943373249"
+    },
+    {
+      "type": "ISBN",
+      "value": "0943373255"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780943373256"
+    },
+    {
+      "type": "LCCN",
+      "value": " 93086980 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)30925709"
+    },
+    {
+      "type": "Local",
+      "value": "9910349361302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fearing, Kenneth,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ryley, Robert M.,",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Orono, Me. :"
+    ],
+    "publisher": [
+      "The National Poetry Foundation,"
+    ],
+    "date": "1994.",
+    "year": 1994,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "lxiii, 310 pages :",
+    "illustrations": "illustrations (1 color) ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Phoenix poets"
+    },
+    {
+      "title": "Phoenix poets (National Poetry Foundation (U.S.))"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)621584216",
+      "Complete poems."
+    ]
+  }
+}

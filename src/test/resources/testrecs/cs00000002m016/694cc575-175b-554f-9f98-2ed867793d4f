@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00026953324",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026953324",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026953324",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 57000577 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)708732"
+    },
+    {
+      "type": "Local",
+      "value": "9910869273102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Low, David,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "M. Joseph"
+    ],
+    "date": "[1956]",
+    "year": 1956,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "387 pages",
+    "illustrations": "illustrations",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Cartoonists",
+      "type": "topical"
+    },
+    {
+      "value": "Cartoonists.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)551393910",
+      "Autobiography."
+    ]
+  }
+}

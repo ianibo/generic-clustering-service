@@ -1,0 +1,85 @@
+{
+  "id": "marc:001:in00026878985",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026878985",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026878985",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 24021029 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)309985"
+    },
+    {
+      "type": "Local",
+      "value": "9911724025602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey of Homer.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Butcher, S. H.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Lang, Andrew,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "publisher": [
+      "Macmillan Co.,"
+    ],
+    "date": "1906.",
+    "year": 1906,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "429 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1083372133",
+      "Odyssey of Homer."
+    ]
+  }
+}

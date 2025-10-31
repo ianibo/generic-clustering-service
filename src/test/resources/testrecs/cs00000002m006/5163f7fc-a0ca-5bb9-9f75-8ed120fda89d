@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00027411527",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027411527",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027411527",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0701116080"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780701116088"
+    },
+    {
+      "type": "LCCN",
+      "value": " 69015407 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5330"
+    },
+    {
+      "type": "Local",
+      "value": "9910257057502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bishop, Elizabeth,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Andrade, Carlos Drummond de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cabral de Melo Neto, João,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Farrar, Straus and Giroux,"
+    ],
+    "date": "1969.",
+    "year": 1969,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "216 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Andrade, Carlos Drummond de,",
+      "type": "topical"
+    },
+    {
+      "value": "Cabral de Melo Neto, João,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

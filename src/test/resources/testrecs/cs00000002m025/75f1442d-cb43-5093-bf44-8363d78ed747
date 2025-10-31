@@ -1,0 +1,68 @@
+{
+  "id": "marc:001:in00028202758",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028202758",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028202758",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)23117504"
+    },
+    {
+      "type": "Local",
+      "value": "9910175235702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Osborn, Selleck,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "J.P. Orcutt, Printer,"
+    ],
+    "date": "[1823]",
+    "year": 1823,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "x, 200 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "relations": {
+    "otherFormats": [
+      "(DLC) 24015544"
+    ]
+  }
+}

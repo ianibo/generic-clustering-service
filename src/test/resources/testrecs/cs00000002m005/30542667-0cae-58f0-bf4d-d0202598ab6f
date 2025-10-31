@@ -1,0 +1,106 @@
+{
+  "id": "marc:001:in00028642817",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028642817",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028642817",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0192541676"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192541673"
+    },
+    {
+      "type": "ISBN",
+      "value": "019281155X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192811554"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)16282617"
+    },
+    {
+      "type": "Local",
+      "value": "9914193550202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems [of] Sir Thomas Wyatt /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wyatt, Thomas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Daalder, Joost.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1975.",
+    "year": 1975,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxix, 255 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford standard authors"
+    },
+    {
+      "title": "Oxford standard authors."
+    }
+  ]
+}

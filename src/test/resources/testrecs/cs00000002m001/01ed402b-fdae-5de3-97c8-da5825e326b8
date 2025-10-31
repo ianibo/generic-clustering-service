@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00029754327",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029754327",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029754327",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 37004484 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2582139"
+    },
+    {
+      "type": "Local",
+      "value": "9910002484302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The dialogues of Plato /",
+      "type": "main"
+    },
+    {
+      "value": "Dialogues.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Plato.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jowett, Benjamin,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Demos, Raphael,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Random House,"
+    ],
+    "date": "[©1937]",
+    "year": 1937,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy, Ancient",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy, Ancient.",
+      "type": "topical"
+    },
+    {
+      "value": "Plato",
+      "type": "topical"
+    },
+    {
+      "value": "Plato.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)604861182",
+      "(OCoLC)610066442",
+      "Dialogues of Plato."
+    ]
+  }
+}

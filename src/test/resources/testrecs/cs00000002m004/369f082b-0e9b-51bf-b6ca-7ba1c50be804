@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:in00028872108",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028872108",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028872108",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)767566"
+    },
+    {
+      "type": "Local",
+      "value": "9910080879302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The moonstone /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collins, Wilkie,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Sharp, William,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Garden City, New York :"
+    ],
+    "publisher": [
+      "Garden City Publishing Co., Inc.,"
+    ],
+    "date": "1948.",
+    "year": 1948,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "444 pages, 15 unnumbered leaves of plates :",
+    "illustrations": "illustrations (some color) ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Detective and mystery fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Detective and mystery fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Diamonds",
+      "type": "topical"
+    },
+    {
+      "value": "East Indians",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "India",
+      "type": "topical"
+    },
+    {
+      "value": "Jewelry theft",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Police",
+      "type": "topical"
+    },
+    {
+      "value": "Upper class",
+      "type": "topical"
+    },
+    {
+      "value": "Young women",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)965454358",
+      "Moonstone."
+    ]
+  }
+}

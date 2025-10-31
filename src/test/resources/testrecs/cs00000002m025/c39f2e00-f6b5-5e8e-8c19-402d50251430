@@ -1,0 +1,83 @@
+{
+  "id": "marc:001:in00030035098",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030035098",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030035098",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 48005717 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)485386"
+    },
+    {
+      "type": "Local",
+      "value": "9910011377202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Van Doren, Mark,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "William Sloane Associates"
+    ],
+    "date": "[1948]",
+    "year": 1948,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vi, 135 pages",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609525349",
+      "New poems."
+    ]
+  }
+}

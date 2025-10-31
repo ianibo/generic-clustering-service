@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:gsuin00004432013",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004432013",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004432013",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 49009728"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)958975"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9930773733402952"
+    },
+    {
+      "type": "Local",
+      "value": "9930773733402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "A tale of two cities.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Browne, Hablot Knight,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York,"
+    ],
+    "publisher": [
+      "Oxford University Press"
+    ],
+    "date": "[1949]",
+    "year": 1949,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xvi, 358 p.",
+    "illustrations": "illus.",
+    "dimensions": "19 cm."
+  },
+  "subjects": [
+    {
+      "value": "Executions and executioners",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "French",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Lookalikes",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Oxford illustrated Dickens"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "marc:001:in00030004280",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030004280",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030004280",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0900036117"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780900036118"
+    },
+    {
+      "type": "LCCN",
+      "value": " 79596800 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)195613"
+    },
+    {
+      "type": "Local",
+      "value": "9910109814302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Watson, Roderick,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Lancashire,"
+    ],
+    "publisher": [
+      "Akros Publications,"
+    ],
+    "date": "1970.",
+    "year": 1970,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "12 pages",
+    "dimensions": "26 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "Parklands poets ;",
+      "numbering": "no. 7"
+    },
+    {
+      "title": "Parklands poets ;",
+      "numbering": "no. 7."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654137909",
+      "Poems."
+    ]
+  }
+}

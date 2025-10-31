@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00028286574",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028286574",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028286574",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0835918661"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780835918664"
+    },
+    {
+      "type": "LCCN",
+      "value": " 97813625 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)42448311"
+    },
+    {
+      "type": "Local",
+      "value": "9911252797202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hutchinson, Emily.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Harden, Laurie.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Upper Saddle River, NJ :"
+    ],
+    "publisher": [
+      "Globe Fearon Educational Publisher,"
+    ],
+    "date": "©1996.",
+    "year": 1996,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "viii, 103 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adaptations.",
+      "type": "topical"
+    },
+    {
+      "value": "Alcott, Louisa May,",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "March family (Fictitious characters)",
+      "type": "topical"
+    },
+    {
+      "value": "New England",
+      "type": "topical"
+    },
+    {
+      "value": "New England.",
+      "type": "topical"
+    },
+    {
+      "value": "Sisters",
+      "type": "topical"
+    },
+    {
+      "value": "Sisters.",
+      "type": "topical"
+    }
+  ]
+}

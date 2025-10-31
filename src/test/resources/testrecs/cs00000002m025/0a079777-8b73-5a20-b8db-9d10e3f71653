@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:in00029992392",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029992392",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029992392",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)15461025"
+    },
+    {
+      "type": "Local",
+      "value": "9910119715002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Rob Roy /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New-York :"
+    ],
+    "publisher": [
+      "Kirk and Mercein,"
+    ],
+    "date": "1818",
+    "year": 1818,
+    "countryCode": " c "
+  },
+  "physical": {
+    "extent": "2 volumes",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microopaque"
+  },
+  "subjects": [
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Rob Roy,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Early American imprints.",
+      "numbering": "no. 45660."
+    }
+  ]
+}

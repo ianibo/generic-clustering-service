@@ -1,0 +1,142 @@
+{
+  "id": "marc:001:in00030193630",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030193630",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030193630",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0748605770"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780748605774"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2005363173"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)56437757"
+    },
+    {
+      "type": "Local",
+      "value": "9910187917202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The fortunes of Nigel /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jordan, Frank,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :"
+    ],
+    "publisher": [
+      "Edinburgh University Press,"
+    ],
+    "date": "©2004.",
+    "year": 2004,
+    "countryCode": "stk"
+  },
+  "physical": {
+    "extent": "xvi, 682 pages :",
+    "illustrations": "map ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1600-1699",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "James",
+      "type": "topical"
+    },
+    {
+      "value": "London (England)",
+      "type": "topical"
+    },
+    {
+      "value": "Scots",
+      "type": "topical"
+    },
+    {
+      "value": "Scots.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Edinburgh edition of the Waverley novels"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607596197",
+      "Fortunes of Nigel."
+    ]
+  }
+}

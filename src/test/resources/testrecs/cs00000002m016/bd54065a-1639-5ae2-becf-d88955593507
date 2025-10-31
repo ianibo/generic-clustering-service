@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00029182942",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029182942",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029182942",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0195580370"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780195580372"
+    },
+    {
+      "type": "ISBN",
+      "value": "0195581938"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780195581935"
+    },
+    {
+      "type": "LCCN",
+      "value": " 81156943 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7371462"
+    },
+    {
+      "type": "Local",
+      "value": "9910465664402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Works",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Baxter, James K.,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Weir, J. E.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Wellington, N.Z. ;"
+    ],
+    "publisher": [
+      "Oxford University Press in association with Price Milburn,"
+    ],
+    "date": "©1979.",
+    "year": 1979,
+    "countryCode": "b 0"
+  },
+  "physical": {
+    "extent": "xxvii, 656 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Maori (New Zealand people)",
+      "type": "topical"
+    },
+    {
+      "value": "Māori (New Zealand people)",
+      "type": "topical"
+    },
+    {
+      "value": "New Zealand poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

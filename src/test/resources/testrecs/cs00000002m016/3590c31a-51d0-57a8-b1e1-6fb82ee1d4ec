@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00029302107",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029302107",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029302107",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:33Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:33Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 46011910 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1516592"
+    },
+    {
+      "type": "Local",
+      "value": "9910067989302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The monastery,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Majdalany, F.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston,"
+    ],
+    "publisher": [
+      "Houghton Mifflin Company,"
+    ],
+    "date": "1946.",
+    "year": 1946,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "148 pages",
+    "illustrations": "1 illustration",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1939-1945",
+      "type": "topical"
+    },
+    {
+      "value": "Cassino, Battle of, Cassino, Italy, 1944.",
+      "type": "topical"
+    },
+    {
+      "value": "Italy",
+      "type": "topical"
+    },
+    {
+      "value": "Montecassino (Monastery)",
+      "type": "topical"
+    },
+    {
+      "value": "Personal narratives",
+      "type": "topical"
+    },
+    {
+      "value": "World War, 1939-1945",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)568065794",
+      "Monastery."
+    ]
+  }
+}

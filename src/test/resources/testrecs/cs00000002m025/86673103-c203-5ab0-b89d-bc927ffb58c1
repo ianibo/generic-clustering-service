@@ -1,0 +1,136 @@
+{
+  "id": "marc:001:in00025923715",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025923715",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025923715",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0080245323"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780080245324"
+    },
+    {
+      "type": "LCCN",
+      "value": " 80041162 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7532217"
+    },
+    {
+      "type": "Local",
+      "value": "9910260776902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "From my life /",
+      "type": "main"
+    },
+    {
+      "value": "Aus meinem Leben.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Honecker, Erich.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford, England ;"
+    ],
+    "publisher": [
+      "Pergamon,"
+    ],
+    "date": "1981.",
+    "year": 1981,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "515 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Germany",
+      "type": "topical"
+    },
+    {
+      "value": "Germany (East)",
+      "type": "topical"
+    },
+    {
+      "value": "Germany.",
+      "type": "topical"
+    },
+    {
+      "value": "Heads of state",
+      "type": "topical"
+    },
+    {
+      "value": "Heads of state.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Honecker, Erich.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Leaders of the world"
+    },
+    {
+      "title": "Leaders of the world."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)558918820",
+      "From my life."
+    ]
+  }
+}

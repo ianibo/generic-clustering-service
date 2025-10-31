@@ -1,0 +1,85 @@
+{
+  "id": "marc:001:in00027977482",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027977482",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027977482",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 01029912 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4649287"
+    },
+    {
+      "type": "Local",
+      "value": "9911708910102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Eliot, George,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston,"
+    ],
+    "publisher": [
+      "Little, Brown, and Co.,"
+    ],
+    "date": "1900.",
+    "year": 1900,
+    "countryCode": "cf "
+  },
+  "physical": {
+    "extent": "1 preliminary leaf, 400 pages",
+    "illustrations": "frontispiece (portrait)",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "In her Works. Foleshill ed. [v. 12]"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)760286044",
+      "Poems."
+    ]
+  }
+}

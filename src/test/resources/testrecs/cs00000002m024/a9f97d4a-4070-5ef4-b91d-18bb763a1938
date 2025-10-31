@@ -1,0 +1,65 @@
+{
+  "id": "marc:001:sgscin00000240393",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "sgscin00000240393",
+    "sourceRecordUri": "https://catalog.example.org/record/sgscin00000240393",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(GaDgSGS)10551-southgadb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_SGC)99105514202957"
+    },
+    {
+      "type": "Local",
+      "value": "99105514202957"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The inferno : a verse rendering for the modern reader /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante, Alighieri,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "New American Library,"
+    ],
+    "date": "c1982.",
+    "year": 1982,
+    "countryCode": "0 0"
+  },
+  "physical": {
+    "extent": "288 p. :",
+    "illustrations": "ill. ;",
+    "dimensions": "18 cm."
+  }
+}

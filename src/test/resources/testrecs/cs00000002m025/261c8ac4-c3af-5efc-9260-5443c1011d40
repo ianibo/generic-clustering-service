@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:in00027202352",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027202352",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027202352",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)5177077"
+    },
+    {
+      "type": "Local",
+      "value": "9910504034602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Miscellanies,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Barrington, Daines,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Printed by J. Nichols, sold by B. White"
+    ],
+    "date": "1781.",
+    "year": 1781,
+    "countryCode": "bcd"
+  },
+  "physical": {
+    "extent": "iv, viii, 557, [1] pages",
+    "illustrations": "2 portrait, folded map, 5 genealogical table (1 folded), chart",
+    "dimensions": "27 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Arctic Ocean",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Natural History",
+      "type": "topical"
+    },
+    {
+      "value": "Natural history.",
+      "type": "topical"
+    },
+    {
+      "value": "North Pole.",
+      "type": "topical"
+    },
+    {
+      "value": "history (discipline)",
+      "type": "topical"
+    },
+    {
+      "value": "natural sciences.",
+      "type": "topical"
+    }
+  ]
+}

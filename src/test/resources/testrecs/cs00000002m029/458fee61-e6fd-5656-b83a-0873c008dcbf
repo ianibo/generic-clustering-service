@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00027873021",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027873021",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027873021",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)41601727"
+    },
+    {
+      "type": "Local",
+      "value": "9911005014902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The antiquary /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :"
+    ],
+    "publisher": [
+      "Printed by T. and A. Constable for T.C. and E.C. Jack,"
+    ],
+    "date": "1901.",
+    "year": 1901,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "illustrations, portrait ;",
+    "dimensions": "27 cm",
+    "contentType": "text",
+    "mediaType": "unmediated"
+  },
+  "subjects": [
+    {
+      "value": "Antiquarians",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Man-woman relationships",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Waverley novels ;",
+      "numbering": "v. 5-6"
+    },
+    {
+      "title": "Waverley novels ;",
+      "numbering": "v. 5-6"
+    },
+    {
+      "title": "Waverley novels ;",
+      "numbering": "v. 5-6."
+    },
+    {
+      "title": "Waverley novels ;",
+      "numbering": "v. 5-6."
+    }
+  ]
+}

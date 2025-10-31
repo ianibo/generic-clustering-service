@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:mgsuin00000265049",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "mgsuin00000265049",
+    "sourceRecordUri": "https://catalog.example.org/record/mgsuin00000265049",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0691062854 :"
+    },
+    {
+      "type": "LCCN",
+      "value": " 74027874"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1964829"
+    },
+    {
+      "type": "Local",
+      "value": "(Voyager)245696-middlegadb-Voyager"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_MGA)992456964602955"
+    },
+    {
+      "type": "Local",
+      "value": "992456964602955"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Andersen, Benny.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "engdan"
+  ],
+  "publication": {
+    "place": [
+      "Princeton, N.J. :"
+    ],
+    "publisher": [
+      "Princeton University Press,"
+    ],
+    "date": "c1975.",
+    "year": 1975,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxi, 141 p. ;",
+    "dimensions": "21 cm."
+  },
+  "series": [
+    {
+      "title": "The Lockert library of poetry in translation"
+    }
+  ]
+}

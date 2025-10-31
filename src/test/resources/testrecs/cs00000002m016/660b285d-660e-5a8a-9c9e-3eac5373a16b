@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00029599421",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029599421",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029599421",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0141394811"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780141394817"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)861317527"
+    },
+    {
+      "type": "Local",
+      "value": "9910714922002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Morrissey autobiography",
+      "type": "alternative"
+    },
+    {
+      "value": "Autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Morrissey,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Penguin Classics,"
+    ],
+    "date": "2013.",
+    "year": 2013,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "457 pages :",
+    "illustrations": "illustrations, portraits ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Alternative rock musicians",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Morrissey",
+      "type": "topical"
+    },
+    {
+      "value": "Morrissey.",
+      "type": "topical"
+    },
+    {
+      "value": "Rock musicians",
+      "type": "topical"
+    },
+    {
+      "value": "Singers",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)983749947",
+      "Autobiography"
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "marc:001:in00029023732",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029023732",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029023732",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2497800"
+    },
+    {
+      "type": "Local",
+      "value": "9910426715402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gulliver's travels,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Van Loon, Hendrik Willem,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Published for the Classics Club by Walter J. Black"
+    ],
+    "date": "[©1943]",
+    "year": 1943,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xiii, 304 pages",
+    "illustrations": "illustrations",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Allegories.",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    }
+  ]
+}

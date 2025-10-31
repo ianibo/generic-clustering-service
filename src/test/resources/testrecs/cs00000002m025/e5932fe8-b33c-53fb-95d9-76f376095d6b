@@ -1,0 +1,71 @@
+{
+  "id": "marc:001:in00028840035",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028840035",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028840035",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)13345424"
+    },
+    {
+      "type": "Local",
+      "value": "9910351354802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Button, Susan S.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Litchfield, Ohio :"
+    ],
+    "publisher": [
+      "Button,",
+      "John A. Gray)"
+    ],
+    "date": "1858",
+    "year": 1858,
+    "countryCode": "a a"
+  },
+  "physical": {
+    "extent": "xii, 336 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    }
+  ]
+}

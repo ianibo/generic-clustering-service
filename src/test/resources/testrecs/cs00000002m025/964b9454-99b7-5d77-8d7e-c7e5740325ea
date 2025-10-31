@@ -1,0 +1,134 @@
+{
+  "id": "marc:001:in00026220526",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026220526",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026220526",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "019211803X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192118035"
+    },
+    {
+      "type": "LCCN",
+      "value": " 75877318 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)258058"
+    },
+    {
+      "type": "Local",
+      "value": "9910170371002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Marina Tsvetayeva selected poems",
+      "type": "alternative"
+    },
+    {
+      "value": "Selected poems Marina Tsvetayeva",
+      "type": "alternative"
+    },
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "T︠S︡vetaeva, Marina,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Feinstein, Elaine,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Hayward, Max,",
+      "role": "writer of foreword.",
+      "kind": "person"
+    },
+    {
+      "name": "Oxford University Press,",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1971.",
+    "year": 1971,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xix, 103 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "T︠S︡vetaeva, Marina,",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647089494",
+      "Selected poems [of] Marina Tsvetayeva."
+    ]
+  }
+}

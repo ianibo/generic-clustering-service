@@ -1,0 +1,160 @@
+{
+  "id": "marc:001:in00029575008",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029575008",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029575008",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780679601005"
+    },
+    {
+      "type": "ISBN",
+      "value": "0679601007"
+    },
+    {
+      "type": "ISBN",
+      "value": "0553211757"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780553211757"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781904633341"
+    },
+    {
+      "type": "ISBN",
+      "value": "190463334X"
+    },
+    {
+      "type": "LCCN",
+      "value": " 50013714 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)373996"
+    },
+    {
+      "type": "Local",
+      "value": "9910272534202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crime and punishment /",
+      "type": "main"
+    },
+    {
+      "value": "Prestuplenie i nakazanie.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Simmons, Ernest J.",
+      "role": "writer of introduction.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "[1950]",
+    "year": 1950,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xix, 531 pages ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Detective and mystery fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Detective and mystery fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Detective and mystery stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Guilt",
+      "type": "topical"
+    },
+    {
+      "value": "Murder",
+      "type": "topical"
+    },
+    {
+      "value": "Mystery fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Russia (Federation)",
+      "type": "topical"
+    },
+    {
+      "value": "Saint Petersburg (Russia)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The modern library of the world's best books ;",
+      "numbering": "199"
+    },
+    {
+      "title": "Modern library of the world's best books ;",
+      "numbering": "199."
+    }
+  ]
+}

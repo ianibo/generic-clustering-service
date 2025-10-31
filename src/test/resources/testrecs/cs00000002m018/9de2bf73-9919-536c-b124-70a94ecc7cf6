@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00030525548",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030525548",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030525548",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781324075035"
+    },
+    {
+      "type": "ISBN",
+      "value": "1324075031"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1379265778"
+    },
+    {
+      "type": "Local",
+      "value": "9925469102202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New and selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Howe, Marie,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "W.W. Norton & Company,"
+    ],
+    "date": "[2024]",
+    "year": 2024,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "178 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Women",
+      "type": "topical"
+    },
+    {
+      "value": "Women.",
+      "type": "topical"
+    },
+    {
+      "value": "Womyn.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1428573086",
+      "9781324075042",
+      "New and selected poems."
+    ]
+  }
+}

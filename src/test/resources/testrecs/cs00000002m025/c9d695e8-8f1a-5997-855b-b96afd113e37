@@ -1,0 +1,86 @@
+{
+  "id": "marc:001:in00027366265",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027366265",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027366265",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)15567887"
+    },
+    {
+      "type": "Local",
+      "value": "9910332846802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey of Homer /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Le Bossu, René,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pope, Alexander,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "William Durell,"
+    ],
+    "date": "1812",
+    "year": 1812,
+    "countryCode": "a c"
+  },
+  "physical": {
+    "extent": "2 volumes (270; 224 pages) :",
+    "illustrations": "illustrations",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microopaque"
+  },
+  "series": [
+    {
+      "title": "Early American imprints.",
+      "numbering": "no. 25678."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00028911477",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028911477",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028911477",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)17757681"
+    },
+    {
+      "type": "Local",
+      "value": "9911002627702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Pensées de M. Pascal sur la réligion, et sur quelques autres sujets",
+      "type": "alternative"
+    },
+    {
+      "value": "Pensées de Pascal",
+      "type": "alternative"
+    },
+    {
+      "value": "Pensées /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pascal, Blaise,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Paris :"
+    ],
+    "publisher": [
+      "Garnier,"
+    ],
+    "date": "[1958]",
+    "year": 1958,
+    "countryCode": "cfh"
+  },
+  "physical": {
+    "extent": "x, 342 pages, 4 unnumbered leaves of plates :",
+    "illustrations": "facsimiles, portrait ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1600-1699",
+      "type": "topical"
+    },
+    {
+      "value": "Apologetics",
+      "type": "topical"
+    },
+    {
+      "value": "Apologetics.",
+      "type": "topical"
+    },
+    {
+      "value": "Catholic Church",
+      "type": "topical"
+    },
+    {
+      "value": "Catholic Church.",
+      "type": "topical"
+    },
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Theology, Doctrinal",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Collection Selecta Garnier"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)707067063",
+      "Pensées."
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00030324673",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030324673",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030324673",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780300133943"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300133944"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2007046612"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)183179441"
+    },
+    {
+      "type": "Local",
+      "value": "9910191813602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Catalogues of books /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Thuesen, Peter Johannes,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "2008.",
+    "year": 2008,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "x, 496 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Books and reading",
+      "type": "topical"
+    },
+    {
+      "value": "Catalogs",
+      "type": "topical"
+    },
+    {
+      "value": "Catalogs.",
+      "type": "topical"
+    },
+    {
+      "value": "Edwards, Jonathan,",
+      "type": "topical"
+    },
+    {
+      "value": "Libraries",
+      "type": "topical"
+    },
+    {
+      "value": "catalogs (documents)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The works of Jonathan Edwards ;",
+      "numbering": "v. 26"
+    }
+  ]
+}

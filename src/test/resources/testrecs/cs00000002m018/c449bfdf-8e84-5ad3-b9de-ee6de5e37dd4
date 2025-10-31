@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00030119077",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030119077",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030119077",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0060882964"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780060882969"
+    },
+    {
+      "type": "Other",
+      "value": "9780060882969"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)70868190"
+    },
+    {
+      "type": "Local",
+      "value": "9910551131002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brooks, Gwendolyn,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First Harper Perennial modern classics edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "HarperPerennial,"
+    ],
+    "date": "2006.",
+    "year": 2006,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "xii, 127 pages, 34 pages :",
+    "illustrations": "illustrations, 2 portraits ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "AFRICAN AMERICANS",
+      "type": "topical"
+    },
+    {
+      "value": "African Americans",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Harper Perennial modern classics"
+    },
+    {
+      "title": "Harper Perennial modern classics."
+    }
+  ]
+}

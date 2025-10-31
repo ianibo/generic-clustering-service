@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00028348793",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028348793",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028348793",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 67003347 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1129153"
+    },
+    {
+      "type": "Local",
+      "value": "9910742261202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems.",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Reeves, James,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York]"
+    ],
+    "publisher": [
+      "Barnes & Noble"
+    ],
+    "date": "[1967]",
+    "year": 1967,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "vi, 146 pages",
+    "illustrations": "portrait",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Poetry bookshelf"
+    },
+    {
+      "title": "Poetry bookshelf."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)578164721",
+      "Selected poems."
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00027537944",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027537944",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027537944",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1194357"
+    },
+    {
+      "type": "Local",
+      "value": "9910225914402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Horton, Robert F.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "G. Allen & Unwin Ltd."
+    ],
+    "date": "[1918]",
+    "year": 1918,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "352 pages",
+    "illustrations": "2 plates, 2 portrait (including frontispiece)",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiography.",
+      "type": "topical"
+    },
+    {
+      "value": "Horton, Robert F.",
+      "type": "topical"
+    },
+    {
+      "value": "autobiography (genre)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)707602885",
+      "Autobiography."
+    ]
+  }
+}

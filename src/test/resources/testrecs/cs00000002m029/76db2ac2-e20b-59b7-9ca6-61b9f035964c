@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00028398087",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028398087",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028398087",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)30004290"
+    },
+    {
+      "type": "Local",
+      "value": "9911031724902931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "SRV 296 SD"
+    }
+  ],
+  "titles": [
+    {
+      "value": "De profundis /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lalande, Michel Richard de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sheppard, Honor.",
+      "role": "sng",
+      "kind": "person"
+    },
+    {
+      "name": "Thomas, Mary,",
+      "role": "sng",
+      "kind": "person"
+    },
+    {
+      "name": "Tear, Robert.",
+      "role": "sng",
+      "kind": "person"
+    },
+    {
+      "name": "Bevan, Maurice.",
+      "role": "sng",
+      "kind": "person"
+    },
+    {
+      "name": "Deller, Alfred.",
+      "role": "cnd",
+      "kind": "person"
+    },
+    {
+      "name": "Wiener Kammerchor.",
+      "role": "prf",
+      "kind": "corporate"
+    },
+    {
+      "name": "Wiener Staatsoper. Orchester.",
+      "role": "prf",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "lat"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Vanguard,"
+    ],
+    "date": "©1969.",
+    "year": 1969,
+    "countryCode": "mon"
+  },
+  "physical": {
+    "extent": "1 audio disc :",
+    "illustrations": "33 1/3 rpm, stereo ;",
+    "dimensions": "12 in.",
+    "contentType": "performed music",
+    "mediaType": "audio",
+    "carrierType": "audio disc"
+  },
+  "subjects": [
+    {
+      "value": "Choruses, Sacred (Mixed voices) with orchestra.",
+      "type": "topical"
+    },
+    {
+      "value": "Psalms (Music)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Vanguard everyman classics"
+    },
+    {
+      "title": "Everyman classics."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "marc:001:in00029064937",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029064937",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029064937",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)3556001"
+    },
+    {
+      "type": "Local",
+      "value": "9911125692102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems of Emily Dickinson /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickinson, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Reeves, James,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "©1959, 1960.",
+    "year": 1959,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "lii, 113 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "The Poetry bookshelf"
+    },
+    {
+      "title": "Poetry bookshelf."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "marc:001:in00026936524",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026936524",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026936524",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:54Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:54Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)8609752"
+    },
+    {
+      "type": "Local",
+      "value": "9910840549902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New & selected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Nemerov, Howard.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Chicago] :"
+    ],
+    "publisher": [
+      "[University of Chicago Press],"
+    ],
+    "date": "[1969, ©1963]",
+    "year": 1969,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "vi, 115 [1] pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

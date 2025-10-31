@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00029081744",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029081744",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029081744",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0900821116"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780900821110"
+    },
+    {
+      "type": "LCCN",
+      "value": " 75304620 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3120002"
+    },
+    {
+      "type": "Local",
+      "value": "9910824139902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems",
+      "type": "alternative"
+    },
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rolfe, Frederick,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Woolf, Cecil,",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Cecil & Amelia Woolf,"
+    ],
+    "date": "1974.",
+    "year": 1974,
+    "countryCode": "acf"
+  },
+  "physical": {
+    "extent": "79 pages, 5 unnumbered pages of plates :",
+    "illustrations": "frontispiece (portrait), illustrations, facsimiles, music ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)586998816",
+      "Collected poems."
+    ]
+  }
+}

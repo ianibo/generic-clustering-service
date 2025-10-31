@@ -1,0 +1,79 @@
+{
+  "id": "marc:001:in00026725212",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026725212",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026725212",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)10947734"
+    },
+    {
+      "type": "Local",
+      "value": "9911123143202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems by Emily Dickinson /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickinson, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Higginson, Thomas Wentworth,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Todd, Mabel Loomis,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Roberts Brothers,"
+    ],
+    "date": "1892.",
+    "year": 1892,
+    "countryCode": "h b"
+  },
+  "physical": {
+    "extent": "230 pages :",
+    "illustrations": "frontispiece (facsimiles 4 pages)",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "series": [
+    {
+      "title": "Library of American civilization ;",
+      "numbering": "LAC 16334."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:gsuin00004506450",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004506450",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004506450",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0553255762"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780553255768"
+    },
+    {
+      "type": "ISBN",
+      "value": "0808508911"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780808508915"
+    },
+    {
+      "type": "ISBN",
+      "value": "060603854X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780606038546"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)30315030"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9929725773402952"
+    },
+    {
+      "type": "Local",
+      "value": "9929725773402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Maya Angelou : poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Angelou, Maya,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, NY :"
+    ],
+    "publisher": [
+      "Bantam,"
+    ],
+    "date": "1993.",
+    "year": 1993,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "209 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Bantam book"
+    }
+  ]
+}

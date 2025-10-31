@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00026376795",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026376795",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026376795",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0802029469"
+    },
+    {
+      "type": "ISBN",
+      "value": "0802071929"
+    },
+    {
+      "type": "LCCN",
+      "value": "cn 94930489"
+    },
+    {
+      "type": "Local",
+      "value": "ocm30070931"
+    },
+    {
+      "type": "Local",
+      "value": "(GUA)1457926"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)1457926-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910313172402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "François Villon : complete poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Villon, François,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sargent-Baur, Barbara Nelson.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Toronto :"
+    ],
+    "publisher": [
+      "University of Toronto Press,"
+    ],
+    "date": "c1994.",
+    "year": 1994,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "346 p. :",
+    "illustrations": "ill. ;",
+    "dimensions": "24 cm."
+  },
+  "subjects": [
+    {
+      "value": "Villon, François,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Toronto medieval texts and translations,",
+      "numbering": "9"
+    },
+    {
+      "title": "Toronto medieval texts and translations ;",
+      "numbering": "9."
+    }
+  ]
+}

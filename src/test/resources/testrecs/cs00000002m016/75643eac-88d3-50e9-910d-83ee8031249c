@@ -1,0 +1,89 @@
+{
+  "id": "marc:001:in00028643829",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028643829",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028643829",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)3309206"
+    },
+    {
+      "type": "Local",
+      "value": "9911405014202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of William Cullen Bryant /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bryant, William Cullen,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Dole, Nathan Haskell,",
+      "role": "author of introduction, etc.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Thomas Y. Crowell Company, Publishers,"
+    ],
+    "date": "[1893]",
+    "year": 1893,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "li, 532 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)876645675",
+      "Poems of William Cullen Bryant."
+    ]
+  }
+}

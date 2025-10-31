@@ -1,0 +1,165 @@
+{
+  "id": "marc:001:in00028505919",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028505919",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028505919",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "081532779X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815327790"
+    },
+    {
+      "type": "LCCN",
+      "value": " 97701884 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)36419933"
+    },
+    {
+      "type": "Local",
+      "value": "9910414871302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "3 Connecticut composers",
+      "type": "alternative"
+    },
+    {
+      "value": "Three Connecticut composers : the collected works of Oliver Brownson, Alexander Gillet, and Solomon Chandler /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kroeger, Karl.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Brownson, Oliver,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Gillet, Alexander,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Chandler, Solomon,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Garland,"
+    ],
+    "date": "1997.",
+    "year": 1997,
+    "countryCode": "hya"
+  },
+  "physical": {
+    "extent": "1 score (xxv, 185 pages) ;",
+    "dimensions": "29 cm.",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700 - 1899",
+      "type": "topical"
+    },
+    {
+      "value": "Art music.",
+      "type": "topical"
+    },
+    {
+      "value": "Canons, fugues, etc. (Voices (4))",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices, 4 parts), Unaccompanied",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices, 4 parts), Unaccompanied.",
+      "type": "topical"
+    },
+    {
+      "value": "Connecticut",
+      "type": "topical"
+    },
+    {
+      "value": "Hymns, English",
+      "type": "topical"
+    },
+    {
+      "value": "Hymns.",
+      "type": "topical"
+    },
+    {
+      "value": "Psalms (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred vocal music",
+      "type": "topical"
+    },
+    {
+      "value": "Scores.",
+      "type": "topical"
+    },
+    {
+      "value": "Tune books",
+      "type": "topical"
+    },
+    {
+      "value": "Tune books.",
+      "type": "topical"
+    },
+    {
+      "value": "psalms.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Music of the new American nation ;",
+      "numbering": "v. 2"
+    },
+    {
+      "title": "Music of the new American nation ;",
+      "numbering": "v. 2."
+    }
+  ]
+}

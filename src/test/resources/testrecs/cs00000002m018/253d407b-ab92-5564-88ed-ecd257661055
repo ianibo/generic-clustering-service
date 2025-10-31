@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00026522921",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026522921",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026522921",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1417931"
+    },
+    {
+      "type": "Local",
+      "value": "9910585828802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Clare, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Tibble, J. W.",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Tibble, Anne Northgrave,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Dutton"
+    ],
+    "date": "[1965]",
+    "year": 1965,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxxv, 361 pages",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Tibble, Anne.",
+      "type": "topical"
+    },
+    {
+      "value": "Tibble, J. W.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library ;",
+      "numbering": "563"
+    },
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no. 563."
+    }
+  ]
+}

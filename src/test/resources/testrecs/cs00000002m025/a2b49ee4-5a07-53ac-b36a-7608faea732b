@@ -1,0 +1,115 @@
+{
+  "id": "marc:001:in00029771581",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029771581",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029771581",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780190204952"
+    },
+    {
+      "type": "ISBN",
+      "value": "0190204958"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2015002225"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)903363511"
+    },
+    {
+      "type": "Local",
+      "value": "9910135179902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Aeneid /",
+      "type": "main"
+    },
+    {
+      "value": "Aeneis.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Virgil,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Powell, Barry B.,",
+      "role": "translator",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York ;",
+      "Oxford :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "2015.",
+    "year": 2015,
+    "countryCode": "abj"
+  },
+  "physical": {
+    "extent": "xxi, 410 pages :",
+    "illustrations": "illustrations, maps, genealogical table ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Aeneas",
+      "type": "topical"
+    },
+    {
+      "value": "Aeneis (Virgil)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "Virgil.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "marc:001:in00028937183",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028937183",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028937183",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0394489381"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780394489384"
+    },
+    {
+      "type": "ISBN",
+      "value": "039448939X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780394489391"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73020559 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)800605"
+    },
+    {
+      "type": "Local",
+      "value": "9910641418002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "First International and After",
+      "type": "alternative"
+    },
+    {
+      "value": "Revolutions of 1848",
+      "type": "alternative"
+    },
+    {
+      "value": "Surveys from Exile",
+      "type": "alternative"
+    },
+    {
+      "value": "Political writings /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marx, Karl,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "[1st American ed.]."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Random House,"
+    ],
+    "date": "<1974->",
+    "year": 1974,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "3 volumes ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Europe",
+      "type": "topical"
+    },
+    {
+      "value": "Europe.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Socialism.",
+      "type": "topical"
+    },
+    {
+      "value": "World politics",
+      "type": "topical"
+    },
+    {
+      "value": "World politics.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)973561662",
+      "Political writings."
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:in00029496053",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029496053",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029496053",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 66006448 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)697429"
+    },
+    {
+      "type": "Local",
+      "value": "9910632071302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Works /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bentley, Richard,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Dyce, Alexander,",
+      "role": "compiler,",
+      "kind": "person"
+    },
+    {
+      "name": "Newton, Isaac,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York],"
+    ],
+    "publisher": [
+      "[AMS Press],"
+    ],
+    "date": "[1966]",
+    "year": 1966,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "3 volumes",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1869-1945",
+      "type": "topical"
+    },
+    {
+      "value": "Chamberlain, Neville,",
+      "type": "topical"
+    },
+    {
+      "value": "Diplomatic relations",
+      "type": "topical"
+    },
+    {
+      "value": "Germany",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    }
+  ]
+}

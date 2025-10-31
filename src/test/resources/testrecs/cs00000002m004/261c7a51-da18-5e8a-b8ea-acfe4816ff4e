@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00030073024",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030073024",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030073024",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 29025329 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)808896"
+    },
+    {
+      "type": "Local",
+      "value": "9910101022502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Morley, Christopher,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Doubleday, Doran & Company.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Garden City, N.Y.,"
+    ],
+    "publisher": [
+      "Doubleday, Doran,"
+    ],
+    "date": "1929.",
+    "year": 1929,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xvii, 361 pages",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autographs (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Dust jackets",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Private presses",
+      "type": "topical"
+    },
+    {
+      "value": "Publishers' advertisements.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)701703314",
+      "Poems."
+    ]
+  }
+}

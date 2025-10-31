@@ -1,0 +1,138 @@
+{
+  "id": "marc:001:in00029241590",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029241590",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029241590",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 30031911 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)776790604"
+    },
+    {
+      "type": "Local",
+      "value": "9910316152202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Faust, part 1",
+      "type": "alternative"
+    },
+    {
+      "value": "Faust, part I",
+      "type": "alternative"
+    },
+    {
+      "value": "Faust : a tragedy /",
+      "type": "main"
+    },
+    {
+      "value": "Faust.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Raphael, Alice,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Van Doren, Mark,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    },
+    {
+      "name": "Ward, Lynd,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Jonathan Cape & Harrison Smith,"
+    ],
+    "date": "1930.",
+    "year": 1930,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "xxi, 262 pages, 6 unnumbered pages of plates :",
+    "illustrations": "illustrations (engravings) ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Illustrated books",
+      "type": "topical"
+    },
+    {
+      "value": "Limitation statements (Publishing)",
+      "type": "topical"
+    },
+    {
+      "value": "New York (State)",
+      "type": "topical"
+    },
+    {
+      "value": "Specimens",
+      "type": "topical"
+    },
+    {
+      "value": "Wood-engraving, American",
+      "type": "topical"
+    },
+    {
+      "value": "Woodcuts.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)742303097",
+      "Faust."
+    ]
+  }
+}

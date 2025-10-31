@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00027627270",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027627270",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027627270",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0717200019"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780717200016"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3721240"
+    },
+    {
+      "type": "Local",
+      "value": "9911926182002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Lives of ten noble Greeks and Romans,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Plutarch.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Grolier"
+    ],
+    "date": "[1969?]",
+    "year": 1969,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "607 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Greece",
+      "type": "topical"
+    },
+    {
+      "value": "Rome",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The world's great classics"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1019546785",
+      "Lives of ten noble Greeks and Romans."
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00030460843",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030460843",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030460843",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0025810103"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780025810105"
+    },
+    {
+      "type": "LCCN",
+      "value": " 78010365 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4496406"
+    },
+    {
+      "type": "Local",
+      "value": "9910196079202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Masefield, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st American ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1978.",
+    "year": 1978,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "ix, 328 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ]
+}

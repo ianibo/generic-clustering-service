@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:in00028385018",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028385018",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028385018",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 66023616 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)819982"
+    },
+    {
+      "type": "Local",
+      "value": "9910995665802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Selected Poetry of Keats.",
+      "type": "alternative"
+    },
+    {
+      "value": "Selected poetry.",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Keats, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "De Man, Paul,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "New American Library"
+    ],
+    "date": "[1966]",
+    "year": 1966,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "352 pages, with the first 48 being marked in Roman numerals ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Keats, John,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Signet classic poetry series, CQ 325"
+    },
+    {
+      "title": "Signet Classic poetry series ;",
+      "numbering": "CQ325."
+    }
+  ]
+}

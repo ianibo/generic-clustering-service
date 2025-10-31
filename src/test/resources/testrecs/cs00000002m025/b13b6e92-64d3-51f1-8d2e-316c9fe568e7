@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00028207566",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028207566",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028207566",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:54Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:54Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0571210767"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780571210763"
+    },
+    {
+      "type": "ISBN",
+      "value": "0571210716"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780571210718"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)47637081"
+    },
+    {
+      "type": "Local",
+      "value": "9910282499102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Armitage, Simon,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Faber,"
+    ],
+    "date": "2001.",
+    "year": 2001,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "165 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-2099",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

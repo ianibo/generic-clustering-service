@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00026229830",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026229830",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026229830",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:54Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:54Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0000000000000"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780000000002"
+    },
+    {
+      "type": "ISBN",
+      "value": "0000000000"
+    },
+    {
+      "type": "LCCN",
+      "value": " 39027333 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)809796"
+    },
+    {
+      "type": "Local",
+      "value": "9910433870502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "A gathering of birds; an anthology of the best ornithological prose,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Peattie, Donald Culross,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Shenton, Edward,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Dodd, Mead & Company,"
+    ],
+    "date": "1939.",
+    "year": 1939,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xii, 379 pages",
+    "illustrations": "illustrations",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Birds",
+      "type": "topical"
+    },
+    {
+      "value": "Birds.",
+      "type": "topical"
+    },
+    {
+      "value": "Literary collections.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)595707212",
+      "Gathering of birds."
+    ]
+  }
+}

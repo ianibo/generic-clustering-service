@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:in00029914195",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029914195",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029914195",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 62048971 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)245643"
+    },
+    {
+      "type": "Local",
+      "value": "9910293192102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marston, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Davenport, A.",
+      "role": "ed.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Liverpool, England]"
+    ],
+    "publisher": [
+      "Liverpool University Press,"
+    ],
+    "date": "1961.",
+    "year": 1961,
+    "countryCode": "h 0"
+  },
+  "physical": {
+    "extent": "xv, 393 p.",
+    "illustrations": "facsims.",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Davenport, A.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Liverpool English texts and studies"
+    },
+    {
+      "title": "Liverpool English texts and studies."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)568612953",
+      "(OCoLC)573397879",
+      "Poems."
+    ]
+  }
+}

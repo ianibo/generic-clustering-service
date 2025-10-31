@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:in00028794960",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028794960",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028794960",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "094071602X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780940716025"
+    },
+    {
+      "type": "LCCN",
+      "value": " 96083583 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)35833961"
+    },
+    {
+      "type": "Local",
+      "value": "9925330551802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Arkansas /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bradley, Matt,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Little Rock, Arkansas :"
+    ],
+    "publisher": [
+      "Bradley Publishing,"
+    ],
+    "date": "1996.",
+    "year": 1996,
+    "countryCode": "ab "
+  },
+  "physical": {
+    "extent": "127 pages :",
+    "illustrations": "color illustrations, 1 color map ;",
+    "dimensions": "24 x 31 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Arkansas",
+      "type": "topical"
+    },
+    {
+      "value": "Illustrated works",
+      "type": "topical"
+    },
+    {
+      "value": "Illustrated works.",
+      "type": "topical"
+    },
+    {
+      "value": "Photobooks.",
+      "type": "topical"
+    },
+    {
+      "value": "photobooks.",
+      "type": "topical"
+    }
+  ]
+}

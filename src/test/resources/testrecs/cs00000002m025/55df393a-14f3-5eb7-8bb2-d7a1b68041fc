@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00029464849",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029464849",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029464849",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 17019778 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1965616"
+    },
+    {
+      "type": "Local",
+      "value": "9910166880102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad of Homer /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pope, Alexander,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Wakefield, Gilbert,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Baldwin, Henry,",
+      "role": "printer.",
+      "kind": "person"
+    },
+    {
+      "name": "Pre-1801 Imprint Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Printed by H. Baldwin, for T. Longman [and others],"
+    ],
+    "date": "M DCC XCVI [1796]",
+    "year": 1796,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "6 volumes :",
+    "illustrations": "frontispiece (portrait) ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Achilles",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)576581983",
+      "Iliad of Homer."
+    ]
+  }
+}

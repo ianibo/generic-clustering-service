@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00027140172",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027140172",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027140172",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)4423387"
+    },
+    {
+      "type": "Local",
+      "value": "9910710240302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hardy, Thomas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ransom, John Crowe,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York]"
+    ],
+    "publisher": [
+      "Collier Books"
+    ],
+    "date": "[1966, ©1961]",
+    "year": 1966,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxxiii, 134 pages",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894773360",
+      "Selected poems."
+    ]
+  }
+}

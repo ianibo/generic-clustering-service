@@ -1,0 +1,185 @@
+{
+  "id": "marc:001:in00028896210",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028896210",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028896210",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)10214039"
+    },
+    {
+      "type": "Local",
+      "value": "9910848787602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Don Quixote de la Mancha",
+      "type": "alternative"
+    },
+    {
+      "value": "The history of Don Quixote de la Mancha /",
+      "type": "main"
+    },
+    {
+      "value": "Don Quixote.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cervantes Saavedra, Miguel de,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Ormsby, John,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "©1952.",
+    "year": 1952,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xvi, 429 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1400-1700",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Chivalry.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood.",
+      "type": "topical"
+    },
+    {
+      "value": "Literature, Modern",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Panza, Sancho",
+      "type": "topical"
+    },
+    {
+      "value": "Picaresque literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Quixote,",
+      "type": "topical"
+    },
+    {
+      "value": "Spain",
+      "type": "topical"
+    },
+    {
+      "value": "Spain.",
+      "type": "topical"
+    },
+    {
+      "value": "Spanish fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Spanish literature",
+      "type": "topical"
+    },
+    {
+      "value": "Squires",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the western world ;",
+      "numbering": "v. 29"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 29."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)988157974",
+      "History of Don Quixote de la Mancha."
+    ]
+  }
+}

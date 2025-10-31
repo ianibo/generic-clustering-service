@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00029875881",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029875881",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029875881",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0435150022"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780435150020"
+    },
+    {
+      "type": "ISBN",
+      "value": "0435150030"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780435150037"
+    },
+    {
+      "type": "LCCN",
+      "value": "a 54006743 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)359329"
+    },
+    {
+      "type": "Local",
+      "value": "9910664335102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Clare, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Heinemann"
+    ],
+    "date": "[1954]",
+    "year": 1954,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "xxix, 143 pages",
+    "illustrations": "portrait",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Poetry bookshelf"
+    },
+    {
+      "title": "Poetry bookshelf."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)904072100",
+      "Selected poems."
+    ]
+  }
+}

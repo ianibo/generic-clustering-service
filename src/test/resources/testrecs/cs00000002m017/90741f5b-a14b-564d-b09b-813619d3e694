@@ -1,0 +1,106 @@
+{
+  "id": "marc:001:in00029939276",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029939276",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029939276",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "LCCN",
+      "value": " 55010359 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)918402"
+    },
+    {
+      "type": "Local",
+      "value": "9910848765402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The principles of psychology /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "James, William,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopaedia Britannica,"
+    ],
+    "date": "©1952.",
+    "year": 1952,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xiv, 897 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Psychology",
+      "type": "topical"
+    },
+    {
+      "value": "Psychology.",
+      "type": "topical"
+    },
+    {
+      "value": "psychology.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 53"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 53."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)768247018",
+      "Principles of psychology."
+    ]
+  }
+}

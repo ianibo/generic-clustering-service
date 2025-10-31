@@ -1,0 +1,178 @@
+{
+  "id": "marc:001:in00029323690",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029323690",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029323690",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300075529"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300075526"
+    },
+    {
+      "type": "LCCN",
+      "value": " 97049390 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)38055942"
+    },
+    {
+      "type": "Local",
+      "value": "9910443175002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bacchylides,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Fagles, Robert,",
+      "role": "translator,",
+      "kind": "person"
+    },
+    {
+      "name": "Parry, Adam,",
+      "role": "writer of supplementary textual content.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "1998.",
+    "year": 1998,
+    "countryCode": "ctu"
+  },
+  "physical": {
+    "extent": "xxvi, 123 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Athletics",
+      "type": "topical"
+    },
+    {
+      "value": "Athletics.",
+      "type": "topical"
+    },
+    {
+      "value": "Bacchylide",
+      "type": "topical"
+    },
+    {
+      "value": "Bacchylides",
+      "type": "topical"
+    },
+    {
+      "value": "Bacchylides.",
+      "type": "topical"
+    },
+    {
+      "value": "Games",
+      "type": "topical"
+    },
+    {
+      "value": "Games.",
+      "type": "topical"
+    },
+    {
+      "value": "Greece.",
+      "type": "topical"
+    },
+    {
+      "value": "Laudatory poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Laudatory poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Laudatory poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Odes",
+      "type": "topical"
+    },
+    {
+      "value": "Odes.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poésie élogieuse.",
+      "type": "topical"
+    },
+    {
+      "value": "Poésie.",
+      "type": "topical"
+    },
+    {
+      "value": "Sports athlétiques",
+      "type": "topical"
+    },
+    {
+      "value": "Translations into English.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "odes.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

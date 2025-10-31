@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00030364527",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030364527",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030364527",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0856353086"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780856353086"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)30692088"
+    },
+    {
+      "type": "Local",
+      "value": "9910114639902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems",
+      "type": "alternative"
+    },
+    {
+      "value": "Selected poetry /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Skelton, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hammond, Gerald.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Skelton, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Manchester [England] :"
+    ],
+    "publisher": [
+      "Carcanet Press,"
+    ],
+    "date": "1992.",
+    "year": 1992,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "142 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "Fyfield books"
+    },
+    {
+      "title": "Fyfield books."
+    }
+  ]
+}

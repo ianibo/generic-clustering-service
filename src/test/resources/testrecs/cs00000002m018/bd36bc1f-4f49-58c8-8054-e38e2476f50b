@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00028860334",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028860334",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028860334",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0810114674"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780810114678"
+    },
+    {
+      "type": "LCCN",
+      "value": " 96034027 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)35174982"
+    },
+    {
+      "type": "Local",
+      "value": "9910219310202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The piazza tales /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hayford, Harrison.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "MacDougall, Alma A.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Tanselle, G. Thomas",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Evanston, Illinois :"
+    ],
+    "publisher": [
+      "Northwestern University Press,"
+    ],
+    "date": "1996.",
+    "year": 1996,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "187 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Short stories, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories.",
+      "type": "topical"
+    },
+    {
+      "value": "short stories.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)871199291",
+      "Piazza tales."
+    ]
+  }
+}

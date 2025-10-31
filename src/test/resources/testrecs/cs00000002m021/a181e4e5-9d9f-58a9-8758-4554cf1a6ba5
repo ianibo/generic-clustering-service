@@ -1,0 +1,79 @@
+{
+  "id": "marc:001:in00029448231",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029448231",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029448231",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)7613850"
+    },
+    {
+      "type": "Local",
+      "value": "9911088981602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Townshend, Chauncy Hare,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Printed for Thomas Boys ...,"
+    ],
+    "date": "1821.",
+    "year": 1821,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "xi, [1], 360 pages ;",
+    "dimensions": "17 cm (8vo)",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poems",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)610444169",
+      "Poems."
+    ]
+  }
+}

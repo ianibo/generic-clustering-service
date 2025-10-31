@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00030329692",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030329692",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030329692",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780374531119"
+    },
+    {
+      "type": "ISBN",
+      "value": "0374531110"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)190773477"
+    },
+    {
+      "type": "Local",
+      "value": "9910005486002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Walcott, Derek,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Baugh, Edward,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First paperback edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Farrar, Straus and Giroux,"
+    ],
+    "date": "2008.",
+    "year": 2008,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xvii, 307 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Caribbean Area",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Saint Lucia",
+      "type": "topical"
+    },
+    {
+      "value": "Saint Lucian poetry (English)",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "marc:001:abacin00000241177",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000241177",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000241177",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0684832038"
+    },
+    {
+      "type": "LCCN",
+      "value": " 96053117"
+    },
+    {
+      "type": "Local",
+      "value": "(DLC) 96053117"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)25850-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994975904202932"
+    },
+    {
+      "type": "Local",
+      "value": "994975904202932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Price, Reynolds,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Scribner,"
+    ],
+    "date": "1997.",
+    "year": 1997,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxiv, 471 p. :",
+    "dimensions": "25 cm."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00029984331",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029984331",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029984331",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 67013259 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)228903"
+    },
+    {
+      "type": "Local",
+      "value": "9910083367202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Organization.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dale, Ernest,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York]"
+    ],
+    "publisher": [
+      "American Management Association"
+    ],
+    "date": "[1967]",
+    "year": 1967,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "368 pages",
+    "illustrations": "illustrations",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Industrial management",
+      "type": "topical"
+    },
+    {
+      "value": "Industrial management.",
+      "type": "topical"
+    },
+    {
+      "value": "Industrial organization",
+      "type": "topical"
+    },
+    {
+      "value": "Organization",
+      "type": "topical"
+    },
+    {
+      "value": "Organization.",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609115461",
+      "Organization."
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:in00027734935",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027734935",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027734935",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0195087445"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780195087444"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)40232719"
+    },
+    {
+      "type": "Local",
+      "value": "9910047916402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The divine comedy of Dante Alighieri /",
+      "type": "main"
+    },
+    {
+      "value": "Divina commedia.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Durling, Robert M.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "[1st Oxford University Press pbk. ed.]."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1997-",
+    "year": 1997,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "volumes <1-> :",
+    "illustrations": "illustrations, maps ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dante Alighieri,",
+      "type": "topical"
+    },
+    {
+      "value": "Divina commedia (Dante Alighieri)",
+      "type": "topical"
+    }
+  ]
+}

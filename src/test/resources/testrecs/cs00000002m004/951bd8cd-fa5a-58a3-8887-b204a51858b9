@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:in00027727049",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027727049",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027727049",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1564784037"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781564784032"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2005049206"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)60550505"
+    },
+    {
+      "type": "Local",
+      "value": "9910096863302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Paradise /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Barthelme, Donald.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st Dalkey Archive ed."
+  },
+  "publication": {
+    "place": [
+      "Normal, IL :"
+    ],
+    "publisher": [
+      "Dalkey Archive Press,"
+    ],
+    "date": "2005.",
+    "year": 2005,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "208 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Apartment houses",
+      "type": "topical"
+    },
+    {
+      "value": "Architects",
+      "type": "topical"
+    },
+    {
+      "value": "Experimental fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Experimental fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "New York (N.Y.)",
+      "type": "topical"
+    },
+    {
+      "value": "New York (State)",
+      "type": "topical"
+    },
+    {
+      "value": "Roommates",
+      "type": "topical"
+    },
+    {
+      "value": "Runaway husbands",
+      "type": "topical"
+    },
+    {
+      "value": "Young women",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American literature series"
+    },
+    {
+      "title": "American literature series."
+    }
+  ]
+}

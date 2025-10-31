@@ -1,0 +1,115 @@
+{
+  "id": "marc:001:in00026395394",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026395394",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026395394",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "085635595X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780856355950"
+    },
+    {
+      "type": "LCCN",
+      "value": " 85175208 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)13525019"
+    },
+    {
+      "type": "Local",
+      "value": "9910361124802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Davie, Donald.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Manchester [Greater Manchester] :"
+    ],
+    "publisher": [
+      "Carcanet Press,"
+    ],
+    "date": "1985.",
+    "year": 1985,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "124 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Poetry signatures"
+    },
+    {
+      "title": "Poetry signatures."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)560330698",
+      "Selected poems."
+    ]
+  }
+}

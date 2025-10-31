@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00030435030",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030435030",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030435030",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)5328298"
+    },
+    {
+      "type": "Local",
+      "value": "9911287284802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Dialogues of Plato /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Plato.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jowett, Benjamin,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Aristotle.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Colonial Press,"
+    ],
+    "date": "[©1900]",
+    "year": 1900,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "ix, 208 pages ix, 208 pages :",
+    "illustrations": "frontispiece ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Socrates.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The World's great classics ;",
+      "numbering": "3"
+    },
+    {
+      "title": "World's great classics ;",
+      "numbering": "3."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647604731",
+      "Dialogues of Plato."
+    ]
+  }
+}

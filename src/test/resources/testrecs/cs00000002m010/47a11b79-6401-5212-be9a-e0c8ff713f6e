@@ -1,0 +1,82 @@
+{
+  "id": "marc:001:in00026814534",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026814534",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026814534",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 50012359 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3177136"
+    },
+    {
+      "type": "Local",
+      "value": "9911687060302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Elements of chemistry,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brownlee, Raymond B.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston,"
+    ],
+    "publisher": [
+      "Allyn and Bacon,"
+    ],
+    "date": "1950.",
+    "year": 1950,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xx, 680, 23 pages",
+    "illustrations": "illustrations (some color), portraits",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Chemistry",
+      "type": "topical"
+    },
+    {
+      "value": "Chemistry.",
+      "type": "topical"
+    },
+    {
+      "value": "chemistry.",
+      "type": "topical"
+    }
+  ]
+}

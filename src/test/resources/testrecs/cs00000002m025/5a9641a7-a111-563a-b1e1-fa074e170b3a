@@ -1,0 +1,208 @@
+{
+  "id": "marc:001:in00027363041",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027363041",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027363041",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780895798770"
+    },
+    {
+      "type": "ISBN",
+      "value": "0895798778"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780895798817"
+    },
+    {
+      "type": "ISBN",
+      "value": "0895798816"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2020560045"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1031916442"
+    },
+    {
+      "type": "Local",
+      "value": "9915334554202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Vinders, Jheronimus,",
+      "role": "composer.",
+      "kind": "person"
+    },
+    {
+      "name": "Jas, Eric,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Févin, Antoine de,",
+      "role": "composer.",
+      "kind": "person"
+    },
+    {
+      "name": "Pipelare, Matthaeus,",
+      "role": "composer.",
+      "kind": "person"
+    },
+    {
+      "name": "Appenzeller, Benedictus,",
+      "role": "composer.",
+      "kind": "person"
+    },
+    {
+      "name": "Josquin,",
+      "role": "composer.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "dut",
+    "lat"
+  ],
+  "publication": {
+    "place": [
+      "Middleton, Wisconsin :"
+    ],
+    "publisher": [
+      "A-R Editions, Inc.,"
+    ],
+    "date": "[2018]",
+    "year": 2018,
+    "countryCode": "wiu"
+  },
+  "physical": {
+    "extent": "1 score (2 volumes) ;",
+    "dimensions": "28 cm",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Choruses, Sacred (Mixed voices), Unaccompanied",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices), Unaccompanied.",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Secular (Mixed voices), Unaccompanied",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Secular (Mixed voices), Unaccompanied.",
+      "type": "topical"
+    },
+    {
+      "value": "Magnificat (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Masses",
+      "type": "topical"
+    },
+    {
+      "value": "Masses, Unaccompanied",
+      "type": "topical"
+    },
+    {
+      "value": "Masses, Unaccompanied.",
+      "type": "topical"
+    },
+    {
+      "value": "Masses.",
+      "type": "topical"
+    },
+    {
+      "value": "Motets",
+      "type": "topical"
+    },
+    {
+      "value": "Motets.",
+      "type": "topical"
+    },
+    {
+      "value": "Part songs",
+      "type": "topical"
+    },
+    {
+      "value": "Part songs, Dutch",
+      "type": "topical"
+    },
+    {
+      "value": "Part songs, Dutch.",
+      "type": "topical"
+    },
+    {
+      "value": "Part songs.",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred music",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred music.",
+      "type": "topical"
+    },
+    {
+      "value": "Salve Regina (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Scores",
+      "type": "topical"
+    },
+    {
+      "value": "Scores.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Recent researches in the music of the Renaissance,",
+      "numbering": "166-167"
+    },
+    {
+      "title": "Recent researches in the music of the Renaissance ;",
+      "numbering": "166-167."
+    }
+  ]
+}

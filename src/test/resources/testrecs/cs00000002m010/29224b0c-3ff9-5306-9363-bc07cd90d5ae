@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00029450319",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029450319",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029450319",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1395551"
+    },
+    {
+      "type": "Local",
+      "value": "9911689601802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of Robert Browning /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Browning, Robert,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "A.L. Burt Company,",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "A. L. Burt Company, Publishers,"
+    ],
+    "date": "1872.",
+    "year": 1872,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "ix, 396 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Browning, Robert,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The home library"
+    },
+    {
+      "title": "Home library."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)646909172",
+      "Poems of Robert Browning."
+    ]
+  }
+}

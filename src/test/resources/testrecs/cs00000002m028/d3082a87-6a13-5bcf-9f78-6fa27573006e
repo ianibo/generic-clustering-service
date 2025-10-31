@@ -1,0 +1,224 @@
+{
+  "id": "marc:001:in00025765356",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025765356",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025765356",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0198114907"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198114901"
+    },
+    {
+      "type": "ISBN",
+      "value": "0192510177"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192510174"
+    },
+    {
+      "type": "LCCN",
+      "value": " 72429060 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)27879"
+    },
+    {
+      "type": "Local",
+      "value": "9910955978302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Jane Eyre;",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Charlotte,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Oxford U.P.,"
+    ],
+    "date": "1969.",
+    "year": 1969,
+    "countryCode": "fh "
+  },
+  "physical": {
+    "extent": "xxxiii, 635 pages",
+    "illustrations": "3 plates, facsimiles",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Angleterre",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "Charity-schools",
+      "type": "topical"
+    },
+    {
+      "value": "Charity-schools.",
+      "type": "topical"
+    },
+    {
+      "value": "Country homes",
+      "type": "topical"
+    },
+    {
+      "value": "Country homes.",
+      "type": "topical"
+    },
+    {
+      "value": "Couples mariés",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Eyre, Jane",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters.",
+      "type": "topical"
+    },
+    {
+      "value": "Femmes vivant avec un trouble de santé mentale",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Gouvernantes",
+      "type": "topical"
+    },
+    {
+      "value": "Governesses",
+      "type": "topical"
+    },
+    {
+      "value": "Governesses.",
+      "type": "topical"
+    },
+    {
+      "value": "Jeunes femmes",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Married people",
+      "type": "topical"
+    },
+    {
+      "value": "Married people.",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill women",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill women.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Orphans",
+      "type": "topical"
+    },
+    {
+      "value": "Orphans.",
+      "type": "topical"
+    },
+    {
+      "value": "Pères et filles",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Young women",
+      "type": "topical"
+    },
+    {
+      "value": "Young women.",
+      "type": "topical"
+    },
+    {
+      "value": "Écoles de charité",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Clarendon edition of the novels of the Brontës"
+    },
+    {
+      "title": "Clarendon edition of the novels of the Brontës."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)557807428",
+      "Jane Eyre."
+    ]
+  }
+}

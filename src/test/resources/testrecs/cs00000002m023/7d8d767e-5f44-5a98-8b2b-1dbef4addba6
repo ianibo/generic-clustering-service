@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00026471565",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026471565",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026471565",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "D00620167X"
+    },
+    {
+      "type": "LCCN",
+      "value": " 59002769 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2214397"
+    },
+    {
+      "type": "Local",
+      "value": "9910110561302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Watchorn, Robert,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oklahoma City,"
+    ],
+    "publisher": [
+      "Robert Watchorn Charities,"
+    ],
+    "date": "1958 [i.e. 1959]",
+    "year": 1958,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "218 pages",
+    "illustrations": "illustrations",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiography",
+      "type": "topical"
+    },
+    {
+      "value": "Watchorn, Robert,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)761275874",
+      "Autobiography."
+    ]
+  }
+}

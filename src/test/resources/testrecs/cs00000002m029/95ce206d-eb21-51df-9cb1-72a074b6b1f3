@@ -1,0 +1,172 @@
+{
+  "id": "marc:001:in00028666582",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028666582",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028666582",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0811210219"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780811210218"
+    },
+    {
+      "type": "ISBN",
+      "value": "0811210227"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780811210225"
+    },
+    {
+      "type": "LCCN",
+      "value": " 86031075 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)14931012"
+    },
+    {
+      "type": "Local",
+      "value": "9910211070102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pacheco, José Emilio,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "McWhirter, George,",
+      "role": "editor,",
+      "kind": "person"
+    },
+    {
+      "name": "Hoeksema, Thomas,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "McWhirter, George,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Reid, Alastair,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Scheer, Linda,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Dorn, Edward,",
+      "role": "contributor.",
+      "kind": "person"
+    },
+    {
+      "name": "Brotherston, Gordon,",
+      "role": "contributor.",
+      "kind": "person"
+    },
+    {
+      "name": "Silver, Katherine,",
+      "role": "contributor.",
+      "kind": "person"
+    },
+    {
+      "name": "Umlas, Elizabeth,",
+      "role": "contributor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "spa"
+  ],
+  "publication": {
+    "place": [
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "New Directions Publishing Corporation,"
+    ],
+    "date": "[1987]",
+    "year": 1987,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "ix, 208 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Pacheco, José Emilio",
+      "type": "topical"
+    },
+    {
+      "value": "Pacheco, José Emilio.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Spanish poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Spanish poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1523145528",
+      "Selected poems"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00028800639",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028800639",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028800639",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)391525"
+    },
+    {
+      "type": "Local",
+      "value": "9911851118302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Divine comedy.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cary, Henry Francis,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Romano, Umberto,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Garden City, N.Y.,"
+    ],
+    "publisher": [
+      "Doubleday,"
+    ],
+    "date": "1947.",
+    "year": 1947,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "475 pages",
+    "illustrations": "illustrations",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dante Alighieri,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Programmed classics"
+    }
+  ]
+}

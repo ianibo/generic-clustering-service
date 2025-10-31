@@ -1,0 +1,125 @@
+{
+  "id": "marc:001:in00026674963",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026674963",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026674963",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)27046966"
+    },
+    {
+      "type": "Local",
+      "value": "9919308978102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Capital : a critique of political economy /",
+      "type": "main"
+    },
+    {
+      "value": "Kapital.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marx, Karl,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Moore, Samuel,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Aveling, Edward B.,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Engels, Friedrich,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Untermann, Gerhard Ernest,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Charles H. Kerr & Company,",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Charles H. Kerr & Company,"
+    ],
+    "date": "1918.",
+    "year": 1918,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "3 volumes ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Capital",
+      "type": "topical"
+    },
+    {
+      "value": "Capital.",
+      "type": "topical"
+    },
+    {
+      "value": "Economics",
+      "type": "topical"
+    },
+    {
+      "value": "Economics.",
+      "type": "topical"
+    },
+    {
+      "value": "Marxian economics",
+      "type": "topical"
+    },
+    {
+      "value": "Marxian economics.",
+      "type": "topical"
+    },
+    {
+      "value": "economics.",
+      "type": "topical"
+    }
+  ]
+}

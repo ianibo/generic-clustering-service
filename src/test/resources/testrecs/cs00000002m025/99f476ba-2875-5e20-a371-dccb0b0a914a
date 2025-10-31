@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00029329070",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029329070",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029329070",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "019558192X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780195581928"
+    },
+    {
+      "type": "ISBN",
+      "value": "0195581997"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780195581997"
+    },
+    {
+      "type": "LCCN",
+      "value": " 89130485 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)21412457"
+    },
+    {
+      "type": "Local",
+      "value": "9910411032302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of Katherine Mansfield /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mansfield, Katherine,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "O'Sullivan, Vincent,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Auckland, N.Z. :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1988.",
+    "year": 1988,
+    "countryCode": "001"
+  },
+  "physical": {
+    "extent": "xiii, 96 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "New Zealand poetry",
+      "type": "topical"
+    },
+    {
+      "value": "New Zealand poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

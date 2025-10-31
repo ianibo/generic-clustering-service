@@ -1,0 +1,202 @@
+{
+  "id": "marc:001:in00028280459",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028280459",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028280459",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "883476030067"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)693613051"
+    },
+    {
+      "type": "Local",
+      "value": "9910551195702931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "RH3006"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The odyssey /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lovell, Dyson.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mikhalkov-Konchalovskiĭ, Andreĭ.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Solimine, Chris.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Assante, Armand,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Scacchi, Greta.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Chaplin, Geraldine,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Krabbé, Jeroen,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lee, Christopher,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kozlov, Sergeĭ,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ellis, Michael.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Artemʹev, Ėduard.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hallmark Entertainment (Firm)",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "American Zoetrope (Firm)",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Vivendi Entertainment (Firm)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Universal City, Calif. :"
+    ],
+    "publisher": [
+      "Vivendi Entertainment,"
+    ],
+    "date": "2010.",
+    "year": 2010,
+    "countryCode": "cau"
+  },
+  "physical": {
+    "extent": "1 videodisc (183 min.) :",
+    "illustrations": "sound, color ;",
+    "dimensions": "4 3/4 in.",
+    "contentType": "two-dimensional moving image",
+    "mediaType": "video",
+    "carrierType": "videodisc"
+  },
+  "subjects": [
+    {
+      "value": "Action and adventure television programs",
+      "type": "topical"
+    },
+    {
+      "value": "Action and adventure television programs.",
+      "type": "topical"
+    },
+    {
+      "value": "DVD-Video discs.",
+      "type": "topical"
+    },
+    {
+      "value": "Drama",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction television programs",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction television programs.",
+      "type": "topical"
+    },
+    {
+      "value": "Made-for-TV movies",
+      "type": "topical"
+    },
+    {
+      "value": "Made-for-TV movies.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Television adaptations",
+      "type": "topical"
+    },
+    {
+      "value": "Television adaptations.",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages and travels",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Classic adventures collection ;",
+      "numbering": "1"
+    },
+    {
+      "title": "Classic adventures collection ;",
+      "numbering": "1."
+    }
+  ]
+}

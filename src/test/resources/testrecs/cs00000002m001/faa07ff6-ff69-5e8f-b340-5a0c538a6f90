@@ -1,0 +1,143 @@
+{
+  "id": "marc:001:in00027386640",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027386640",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027386640",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0766607682"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780766607682"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)51236105"
+    },
+    {
+      "type": "Local",
+      "value": "9912108627202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gulliver's travels /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Arneson, D. J.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Clift, Eva,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "Modern Publications,"
+    ],
+    "date": "©2002.",
+    "year": 2002,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "186 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fantasy",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Imaginary voyages.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages and travels",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Treasury of illustrated classics"
+    },
+    {
+      "title": "Treasury of illustrated classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609224118",
+      "(OCoLC)626669055",
+      "Gulliver's travels."
+    ]
+  }
+}

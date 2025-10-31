@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00029388684",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029388684",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029388684",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 61006478 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)358862"
+    },
+    {
+      "type": "Local",
+      "value": "9910692002602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Barnes, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jones, Bernard,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Carbondale, Ill. :"
+    ],
+    "publisher": [
+      "Southern Illinois University Press,"
+    ],
+    "date": "[1962]",
+    "year": 1962,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Centaur classics"
+    },
+    {
+      "title": "Centaur classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607834024",
+      "Poems."
+    ]
+  }
+}

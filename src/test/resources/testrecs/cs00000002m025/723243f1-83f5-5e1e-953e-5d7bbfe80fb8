@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00026286094",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026286094",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026286094",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 64057247 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)911123"
+    },
+    {
+      "type": "Local",
+      "value": "9910255604802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Carner, Josep,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hutchinson, Pearse.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "spa"
+  ],
+  "publication": {
+    "place": [
+      "Oxford,"
+    ],
+    "publisher": [
+      "Dolphin Book Co.,"
+    ],
+    "date": "1962.",
+    "year": 1962,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "85 pages",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)570941792",
+      "Poems."
+    ]
+  }
+}

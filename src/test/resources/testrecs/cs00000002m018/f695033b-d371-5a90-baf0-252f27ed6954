@@ -1,0 +1,139 @@
+{
+  "id": "marc:001:in00028715029",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028715029",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028715029",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1784103128"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781784103125"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)946161009"
+    },
+    {
+      "type": "Local",
+      "value": "9913965206702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alain-Fournier,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Alain-Fournier,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Alain-Fournier,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Howell, Anthony,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Marsh, Anita,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Costello, Anthony",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fra",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "Manchester :"
+    ],
+    "publisher": [
+      "Carcanet Press Limited,"
+    ],
+    "date": "2016.",
+    "year": 2016,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "91 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "French poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry, Modern",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Fyfield books"
+    },
+    {
+      "title": "Fyfield books."
+    }
+  ]
+}

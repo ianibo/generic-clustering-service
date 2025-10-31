@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00027510204",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027510204",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027510204",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780226450186"
+    },
+    {
+      "type": "ISBN",
+      "value": "022645018X"
+    },
+    {
+      "type": "Other",
+      "value": "40027506212"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2017002329"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)969973664"
+    },
+    {
+      "type": "Local",
+      "value": "9914118072102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Aeneid /",
+      "type": "main"
+    },
+    {
+      "value": "Aeneis.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Virgil,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Ferry, David,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago ;",
+      "London:"
+    ],
+    "publisher": [
+      "The University of Chicago Press,"
+    ],
+    "date": "2017.",
+    "year": 2017,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "xx, 416 pages :",
+    "illustrations": "1 illustration, map ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Aeneas",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "9780226450216"
+    ]
+  }
+}

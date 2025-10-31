@@ -1,0 +1,90 @@
+{
+  "id": "marc:001:in00029502680",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029502680",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029502680",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2148508"
+    },
+    {
+      "type": "Local",
+      "value": "9910308146702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Davis, Sam P.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "San Francisco, California :"
+    ],
+    "publisher": [
+      "Golden Era Company,"
+    ],
+    "date": "1886.",
+    "year": 1886,
+    "countryCode": " a "
+  },
+  "physical": {
+    "extent": "189 pages",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "California",
+      "type": "topical"
+    },
+    {
+      "value": "California.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Nevada",
+      "type": "topical"
+    },
+    {
+      "value": "Nevada.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Wright American fiction ;",
+      "numbering": "v. 3 (1876-1900), reel D-11, no. 1442."
+    }
+  ]
+}

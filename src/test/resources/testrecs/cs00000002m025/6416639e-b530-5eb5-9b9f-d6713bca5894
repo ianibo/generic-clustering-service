@@ -1,0 +1,133 @@
+{
+  "id": "marc:001:in00030118914",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030118914",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030118914",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0192100327"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192100320"
+    },
+    {
+      "type": "LCCN",
+      "value": " 99461935 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)43552949"
+    },
+    {
+      "type": "Local",
+      "value": "9910208128702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Don Quixote de la Mancha /",
+      "type": "main"
+    },
+    {
+      "value": "Don Quixote.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cervantes Saavedra, Miguel de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jervas, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Riley, E. C.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "x, 1,118 pages ;",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood.",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    },
+    {
+      "value": "Spain",
+      "type": "topical"
+    },
+    {
+      "value": "Spain.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford world's classics"
+    },
+    {
+      "title": "Oxford world's classics (Oxford University Press)"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607455116",
+      "Don Quixote de la Mancha."
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "marc:001:in00029026177",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029026177",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029026177",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)6494719"
+    },
+    {
+      "type": "Local",
+      "value": "9910852147202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hay, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston,",
+      "New York,"
+    ],
+    "publisher": [
+      "Houghton, Mifflin and Co.,"
+    ],
+    "date": "[©1913]",
+    "year": 1913,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vi pages, 1 leaf, [9]-272 pages",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)656601850",
+      "Poems."
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "marc:001:in00027869344",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027869344",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027869344",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 21012001 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8043985"
+    },
+    {
+      "type": "Local",
+      "value": "9910189902902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad of Homer /",
+      "type": "main"
+    },
+    {
+      "value": "Iliad.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lang, Andrew,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Leaf, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Myers, Ernest,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "Rev. ed."
+  },
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1914",
+    "year": 1914,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vii, 504 pages ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Achilles",
+      "type": "topical"
+    },
+    {
+      "value": "Achilles (Greek mythology)",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Globe edition"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)812129481",
+      "Iliad of Homer."
+    ]
+  }
+}

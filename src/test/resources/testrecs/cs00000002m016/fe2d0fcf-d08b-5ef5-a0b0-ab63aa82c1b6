@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00026155206",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026155206",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026155206",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "082651202X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780826512024"
+    },
+    {
+      "type": "LCCN",
+      "value": " 75033234 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2038546"
+    },
+    {
+      "type": "Local",
+      "value": "9910214873102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wills, Jesse.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Nashville :"
+    ],
+    "publisher": [
+      "Vanderbilt University Press,"
+    ],
+    "date": "1975.",
+    "year": 1975,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiii, 98 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)559280072",
+      "Selected poems."
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "id": "marc:001:in00026188514",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026188514",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026188514",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0374523525"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780374523527"
+    },
+    {
+      "type": "LCCN",
+      "value": " 94014722 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)30110618"
+    },
+    {
+      "type": "Local",
+      "value": "9910105652502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected verse /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "García Lorca, Federico,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Maurer, Christopher.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aragon, Francisco.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "spa"
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Farrar Straus Giroux,"
+    ],
+    "date": "1995.",
+    "year": 1995,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xx, 343 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Spanish language materials",
+      "type": "topical"
+    },
+    {
+      "value": "Spanish poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The poetical works of Federico García Lorca ;",
+      "numbering": "v. 3"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)605125584",
+      "Selected verse."
+    ]
+  }
+}

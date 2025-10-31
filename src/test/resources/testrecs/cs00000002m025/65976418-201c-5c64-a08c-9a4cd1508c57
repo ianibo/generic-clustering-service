@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00029105787",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029105787",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029105787",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300095724"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300095722"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2002007544"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)49853232"
+    },
+    {
+      "type": "Local",
+      "value": "9910517492502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Sermons and discourses, 1739-1742 /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Stout, Harry S.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hatch, Nathan O.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Farley, Kyle P.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "©2003.",
+    "year": 2003,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xiv, 582 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Congregational churches",
+      "type": "topical"
+    },
+    {
+      "value": "Congregational churches.",
+      "type": "topical"
+    },
+    {
+      "value": "Sermons.",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    },
+    {
+      "value": "sermons.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The works of Jonathan Edwards ;",
+      "numbering": "v. 22"
+    }
+  ]
+}

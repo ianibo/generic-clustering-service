@@ -1,0 +1,169 @@
+{
+  "id": "marc:001:in00029458664",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029458664",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029458664",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 07017953 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)30847311"
+    },
+    {
+      "type": "Local",
+      "value": "9910309438402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Moby-Dick",
+      "type": "alternative"
+    },
+    {
+      "value": "Whale",
+      "type": "alternative"
+    },
+    {
+      "value": "Moby-Dick, or, The whale /",
+      "type": "main"
+    },
+    {
+      "value": "Moby Dick",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Hawthorne, Nathaniel,",
+      "role": "dedicatee.",
+      "kind": "person"
+    },
+    {
+      "name": "Oliver Wendell Holmes Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Harper & Brothers,",
+      "role": "publisher.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Richard Bentley (Firm),",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York :"
+    ],
+    "publisher": [
+      "Harper & Brothers, Publishers ;",
+      "Richard Bentley,"
+    ],
+    "date": "1851.",
+    "year": 1851,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxiii, [1], 634, [10] pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Action and adventure fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Action and adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab,",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling ships",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)868010603",
+      "Moby-Dick, or, the Whale."
+    ]
+  }
+}

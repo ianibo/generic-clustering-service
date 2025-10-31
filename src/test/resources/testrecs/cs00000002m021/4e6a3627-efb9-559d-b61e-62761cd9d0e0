@@ -1,0 +1,156 @@
+{
+  "id": "marc:001:in00027532286",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027532286",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027532286",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0674991885"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780674991880"
+    },
+    {
+      "type": "ISBN",
+      "value": "0674991893"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780674991897"
+    },
+    {
+      "type": "ISBN",
+      "value": "0434991708"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780434991709"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)24307738"
+    },
+    {
+      "type": "Local",
+      "value": "9911095123302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Murray, A. T.",
+      "role": "translator,",
+      "kind": "person"
+    },
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "grc"
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, MA :",
+      "London :"
+    ],
+    "publisher": [
+      "Harvard University Press ;",
+      "William Heinemann,"
+    ],
+    "date": "1978-1985.",
+    "year": 1978,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "17 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Achilles",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Homer",
+      "type": "topical"
+    },
+    {
+      "value": "Homer.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War",
+      "type": "topical"
+    },
+    {
+      "value": "epic literature.",
+      "type": "topical"
+    },
+    {
+      "value": "epic poems.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Loeb classical library ;",
+      "numbering": "170-171"
+    },
+    {
+      "title": "Loeb classical library ;",
+      "numbering": "170-171."
+    }
+  ]
+}

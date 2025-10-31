@@ -1,0 +1,155 @@
+{
+  "id": "marc:001:in00029878033",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029878033",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029878033",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)4531602"
+    },
+    {
+      "type": "Local",
+      "value": "9910410948802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gullivers' travels /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Landa, Louis A.,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Methuen & Co.,"
+    ],
+    "date": "[1965]",
+    "year": 1965,
+    "countryCode": "bh "
+  },
+  "physical": {
+    "extent": "xxviii, 258 pages :",
+    "illustrations": "maps, facsimiles ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, Irish",
+      "type": "topical"
+    },
+    {
+      "value": "Correspondence (Swift, Jonathan)",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Gulliver's travels (Swift, Jonathan)",
+      "type": "topical"
+    },
+    {
+      "value": "Gulliver, Lemuel",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Personal correspondence",
+      "type": "topical"
+    },
+    {
+      "value": "Personal correspondence.",
+      "type": "topical"
+    },
+    {
+      "value": "Satire",
+      "type": "topical"
+    },
+    {
+      "value": "Satire.",
+      "type": "topical"
+    },
+    {
+      "value": "Swift, Jonathan,",
+      "type": "topical"
+    },
+    {
+      "value": "Travelers",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary",
+      "type": "topical"
+    },
+    {
+      "value": "letters (correspondence)",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    },
+    {
+      "value": "personal correspondence.",
+      "type": "topical"
+    }
+  ]
+}

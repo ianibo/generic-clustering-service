@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00026775891",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026775891",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026775891",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0160751861"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780160751868"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2006411016"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)62583886"
+    },
+    {
+      "type": "Local",
+      "value": "9910149726302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Discussion draft bill regarding Indian gaming and its need and effects in Northern California : oversight field hearing before the Committee on Resources, U.S. House of Representatives, One Hundred Ninth Congress, first session, Monday, June 6, 2005, in Sacramento, California.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "United States. Congress. House. Committee on Resources.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Washington :"
+    ],
+    "publisher": [
+      "For sale by the Supt. of Docs., U.S. G.P.O.,",
+      "U.S. G.P.O. :"
+    ],
+    "date": "2005.",
+    "year": 2005,
+    "countryCode": " f0"
+  },
+  "physical": {
+    "extent": "iii, 65 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Casinos",
+      "type": "topical"
+    },
+    {
+      "value": "Gambling on Indian reservations",
+      "type": "topical"
+    },
+    {
+      "value": "Northern California.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)62928198",
+      "(OCoLC)654637298",
+      "Discussion draft bill regarding Indian gaming and its need and effects in Northern California"
+    ]
+  }
+}

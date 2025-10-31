@@ -1,0 +1,135 @@
+{
+  "id": "marc:001:in00026935347",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026935347",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026935347",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:48Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:48Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0943373050"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780943373058"
+    },
+    {
+      "type": "ISBN",
+      "value": "0943373069"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780943373065"
+    },
+    {
+      "type": "ISBN",
+      "value": "0943373077"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780943373072"
+    },
+    {
+      "type": "ISBN",
+      "value": "0943373085"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780943373089"
+    },
+    {
+      "type": "LCCN",
+      "value": " 88062929 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)22688742"
+    },
+    {
+      "type": "Local",
+      "value": "9911082904402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Griffin, Jonathan,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Orono, Me. :"
+    ],
+    "publisher": [
+      "National Poetry Foundation, Univ. of Maine,"
+    ],
+    "date": "©1989.",
+    "year": 1989,
+    "countryCode": "meu"
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)551431984",
+      "Collected poems."
+    ]
+  }
+}

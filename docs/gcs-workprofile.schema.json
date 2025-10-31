@@ -1,0 +1,111 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://example.org/schemas/gcs-workprofile.schema.json",
+	"title": "Generic Clustering Service - WorkProfile",
+	"type": "object",
+	"additionalProperties": false,
+	"required": ["workId", "inputRef", "canonicalTitle", "creators", "languages", "licenseDeclaration"],
+	"properties": {
+		"workId": {
+			"type": "string",
+			"description": "Synthetic, stable ID for the work (e.g., ULID/UUID or hash over canonical key)."
+		},
+		"inputRef": {
+			"type": "string",
+			"description": "The source InputRecord.id from which this work profile was derived."
+		},
+		"canonicalKey": {
+			"type": "string",
+			"description": "Opaque stable key used for clustering (e.g., hash of normalizedTitleKey + creatorKey).",
+			"$comment": "Build from normalizedTitleKey + primary creator authority (if present) or surname."
+		},
+		"canonicalTitle": {
+			"type": "string",
+			"$comment": "Prefer titles[type='uniform']; else titles[type='main']; normalize spacing/diacritics and strip leading articles (lang-aware)."
+		},
+		"variantTitles": {
+			"type": "array",
+			"items": { "type": "string" },
+			"$comment": "Include remaining titles (alternative/parallel/translated/series/part) as candidate variants."
+		},
+		"normalizedTitleKey": {
+			"type": "string",
+			"$comment": "Lowercased, punctuation/stop-word stripped token key for blocking."
+		},
+		"creators": {
+			"type": "array",
+			"minItems": 1,
+			"items": {
+				"type": "object",
+				"additionalProperties": false,
+				"required": ["name", "role"],
+				"properties": {
+					"name": { "type": "string" },
+					"role": { "type": "string", "description": "Creation role only: author/composer/director/etc." },
+					"kind": { "type": "string", "enum": ["person", "corporate", "meeting", "family"] },
+					"authority": {
+						"type": "object",
+						"additionalProperties": false,
+						"properties": {
+							"viaf": { "type": "string" },
+							"isni": { "type": "string" },
+							"orcid": { "type": "string" },
+							"lcnaf": { "type": "string" },
+							"wikidata": { "type": "string" }
+						}
+					}
+				}
+			},
+			"$comment": "Filter InputRecord.contributors to creation roles; keep authority IDs if present."
+		},
+		"languages": {
+			"type": "array",
+			"items": { "type": "string" },
+			"$comment": "Copy InputRecord.languages as a set."
+		},
+		"form": {
+			"type": "array",
+			"items": { "type": "string" },
+			"$comment": "Optional: infer from physical.contentType or domain-specific rules."
+		},
+		"dates": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"workYear": { "type": "integer", "minimum": 0, "maximum": 9999 }
+			},
+			"$comment": "Heuristic: prefer publication.year as initial proxy; can be refined by domain-specific mappers."
+		},
+		"subjects": {
+			"type": "array",
+			"items": { "type": "string" },
+			"$comment": "Flatten InputRecord.subjects[].value (weak signal; optional)."
+		},
+		"classification": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": ["scheme", "value"],
+				"additionalProperties": false,
+				"properties": {
+					"scheme": { "type": "string" },
+					"value": { "type": "string" }
+				}
+			},
+			"$comment": "Carry classifications as tie-breakers; not part of canonicalKey."
+		},
+		"licenseDeclaration": {
+			"$ref": "https://example.org/schemas/defs.json#/$defs/licenseDeclaration"
+		},
+		"provenance": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"authorityId": { "type": "string" },
+				"authorityScheme": { "type": "string" },
+				"sourceRecordId": { "type": "string" }
+			},
+			"$comment": "Echo a minimal provenance subset for audit/lineage."
+		}
+	}
+}

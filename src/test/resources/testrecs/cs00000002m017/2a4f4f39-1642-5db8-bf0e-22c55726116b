@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00027356330",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027356330",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027356330",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 38034319 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)311259"
+    },
+    {
+      "type": "Local",
+      "value": "9911274913802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Principles of psychology",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Harmon, Francis Lelande,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Milwaukee,"
+    ],
+    "publisher": [
+      "The Bruce Publishing Company"
+    ],
+    "date": "[©1938]",
+    "year": 1938,
+    "countryCode": "ak "
+  },
+  "physical": {
+    "extent": "xiv, 609 pages",
+    "illustrations": "illustrations, diagrams, form",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Psychology",
+      "type": "topical"
+    },
+    {
+      "value": "Psychology.",
+      "type": "topical"
+    },
+    {
+      "value": "psychology.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Science and culture texts"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609469311",
+      "Principles of psychology."
+    ]
+  }
+}

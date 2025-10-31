@@ -1,0 +1,159 @@
+{
+  "id": "marc:001:in00025999187",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025999187",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025999187",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 56014184 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2003421"
+    },
+    {
+      "type": "Local",
+      "value": "9910355374602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crime and punishment /",
+      "type": "main"
+    },
+    {
+      "value": "Prestuplenie i nakazanie.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Kopman, Benjamin,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Asprey & Co.,",
+      "role": "binder.",
+      "kind": "person"
+    },
+    {
+      "name": "Aramont Library Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Random House,"
+    ],
+    "date": "1956.",
+    "year": 1956,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "493 p., [28] leaves of plates :",
+    "illustrations": "ill. ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Case bindings (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Detective and mystery fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Dust jackets (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Murderers.",
+      "type": "topical"
+    },
+    {
+      "value": "Mystery fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Quarter bindings (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Saint Petersburg (Russia)",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Illustrated modern library"
+    },
+    {
+      "title": "Illustrated modern library."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)578105020",
+      "Crime and punishment."
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00026168867",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026168867",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026168867",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 32021072 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2356649"
+    },
+    {
+      "type": "Local",
+      "value": "9910346661702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The races of man; differentiation and dispersal of man,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bean, Robert Bennett,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "University Society, Inc."
+    ],
+    "date": "[©1932]",
+    "year": 1932,
+    "countryCode": "ab "
+  },
+  "physical": {
+    "extent": "iv, [2] 134 pages",
+    "illustrations": "illustrations (including portrait, maps) diagram",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Anthropology",
+      "type": "topical"
+    },
+    {
+      "value": "Anthropology, Physical",
+      "type": "topical"
+    },
+    {
+      "value": "Anthropology.",
+      "type": "topical"
+    },
+    {
+      "value": "Ethnology",
+      "type": "topical"
+    },
+    {
+      "value": "Ethnology.",
+      "type": "topical"
+    },
+    {
+      "value": "Physical anthropology.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The University series; higlights of modern knowledge. Physical anthoropology"
+    },
+    {
+      "title": "University series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)805923015",
+      "Races of man."
+    ]
+  }
+}

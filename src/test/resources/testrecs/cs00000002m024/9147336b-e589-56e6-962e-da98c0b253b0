@@ -1,0 +1,71 @@
+{
+  "id": "marc:001:in00029457752",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029457752",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029457752",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)17246975"
+    },
+    {
+      "type": "Local",
+      "value": "(ZIX)78135"
+    },
+    {
+      "type": "Local",
+      "value": "(GaDgSGS)81481-southgadb"
+    },
+    {
+      "type": "Local",
+      "value": "9911731513602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems of W.H. Davies /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Davies, W. H.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st American ed."
+  },
+  "publication": {
+    "place": [
+      "Middletown, Conn. :"
+    ],
+    "publisher": [
+      "Wesleyan University Press,"
+    ],
+    "date": "1965, c1963.",
+    "year": 1965,
+    "countryCode": "ctu"
+  },
+  "physical": {
+    "extent": "xxxiv, 1 l., 23-616 p. ;",
+    "dimensions": "20 cm"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "id": "marc:001:in00026362503",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026362503",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026362503",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:33Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:33Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 29004567 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)635517"
+    },
+    {
+      "type": "Local",
+      "value": "9910472097502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works of J. Willard Gibbs",
+      "type": "alternative"
+    },
+    {
+      "value": "The collected works of /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gibbs, J. Willard",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bumstead, Henry Andrews,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Van Name, Ralph Gibbs,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Longley, William Raymond,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Longmans, Green and Co.,"
+    ],
+    "date": "1928.",
+    "year": 1928,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "frontispiece (portrait) diagrams ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Science",
+      "type": "topical"
+    },
+    {
+      "value": "Science.",
+      "type": "topical"
+    },
+    {
+      "value": "Statistical mechanics.",
+      "type": "topical"
+    },
+    {
+      "value": "Thermodynamics",
+      "type": "topical"
+    },
+    {
+      "value": "Thermodynamics.",
+      "type": "topical"
+    },
+    {
+      "value": "sciences (philosophy)",
+      "type": "topical"
+    },
+    {
+      "value": "thermodynamics.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609227282",
+      "Collected works of J. Willard Gibbs ."
+    ]
+  }
+}

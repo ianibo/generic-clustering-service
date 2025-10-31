@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00026600384",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026600384",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026600384",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0460007602"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460007603"
+    },
+    {
+      "type": "ISBN",
+      "value": "0460017608"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460017602"
+    },
+    {
+      "type": "LCCN",
+      "value": " 77370753 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1398321"
+    },
+    {
+      "type": "Local",
+      "value": "9911085195902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pope, Alexander,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York,"
+    ],
+    "publisher": [
+      "Dent;",
+      "Dutton"
+    ],
+    "date": "[1956, 1965]",
+    "year": 1956,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "408 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library"
+    },
+    {
+      "title": "Everyman's library."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)795652992",
+      "Collected poems."
+    ]
+  }
+}

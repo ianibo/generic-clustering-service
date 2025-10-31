@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00030402791",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030402791",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030402791",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0689106025"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780689106026"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73093706 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1050702"
+    },
+    {
+      "type": "Local",
+      "value": "9910007499402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Watson, Robert,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Atheneum,"
+    ],
+    "date": "1974.",
+    "year": 1974,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "193 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "(Penguin modern European poets.)"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)580332463",
+      "Selected poems."
+    ]
+  }
+}

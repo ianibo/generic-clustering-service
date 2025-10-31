@@ -1,0 +1,70 @@
+{
+  "id": "marc:001:in00027302608",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027302608",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027302608",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)3101668"
+    },
+    {
+      "type": "Local",
+      "value": "9910379229202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ingelow, Jean,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "H. Milford,"
+    ],
+    "date": "1921.",
+    "year": 1921,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "vii, 503 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609625033",
+      "Poems."
+    ]
+  }
+}

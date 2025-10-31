@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00028980687",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028980687",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028980687",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 38014768 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1597460"
+    },
+    {
+      "type": "Local",
+      "value": "9910014632302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fletcher, John Gould,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,",
+      "Toronto,"
+    ],
+    "publisher": [
+      "Farrar & Rinehart, Inc."
+    ],
+    "date": "[©1938]",
+    "year": 1938,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xii, 237 pages",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654161839",
+      "Selected poems."
+    ]
+  }
+}

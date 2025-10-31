@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00026655473",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026655473",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026655473",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)5917523"
+    },
+    {
+      "type": "Local",
+      "value": "9911738347502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crime and punishment /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Dell,"
+    ],
+    "date": "1959, 1968 printing.",
+    "year": 1959,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "576 pages ;",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Popular literature.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Laurel Dostoevsky"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1103245914",
+      "Crime and punishment."
+    ]
+  }
+}

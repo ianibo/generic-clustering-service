@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00026161551",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026161551",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026161551",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0553255762"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780553255768"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)13113911"
+    },
+    {
+      "type": "Local",
+      "value": "9910004317302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Maya Angelou, poems",
+      "type": "alternative"
+    },
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Angelou, Maya.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "Bantam,"
+    ],
+    "date": "1986.",
+    "year": 1986,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "209 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900 - 1999",
+      "type": "topical"
+    },
+    {
+      "value": "African Americans.",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647381623",
+      "Poems."
+    ]
+  }
+}

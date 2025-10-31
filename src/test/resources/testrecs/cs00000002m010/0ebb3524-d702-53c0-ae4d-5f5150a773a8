@@ -1,0 +1,131 @@
+{
+  "id": "marc:001:in00026643839",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026643839",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026643839",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 54036793 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2037383"
+    },
+    {
+      "type": "Local",
+      "value": "9911674296002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Rob Roy.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "H. Hamilton"
+    ],
+    "date": "[1948]",
+    "year": 1948,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vii, 501 pages",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1689-1745",
+      "type": "topical"
+    },
+    {
+      "value": "Biographical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Outlaws",
+      "type": "topical"
+    },
+    {
+      "value": "Rob Roy,",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Novel library"
+    },
+    {
+      "title": "Novel library."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1137484661",
+      "Rob Roy."
+    ]
+  }
+}

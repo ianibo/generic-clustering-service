@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:in00028064387",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028064387",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028064387",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0816620431"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780816620432"
+    },
+    {
+      "type": "ISBN",
+      "value": "0816620458"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780816620456"
+    },
+    {
+      "type": "ISBN",
+      "value": "0816621632"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780816621637"
+    },
+    {
+      "type": "LCCN",
+      "value": " 92044863 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)27265651"
+    },
+    {
+      "type": "Local",
+      "value": "9910456654602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Political writings /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lyotard, Jean-François,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Readings, Bill,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Geiman, Kevin Paul.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Minneapolis :"
+    ],
+    "publisher": [
+      "University of Minnesota Press,"
+    ],
+    "date": "©1993.",
+    "year": 1993,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxvi, 352 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Politics and literature.",
+      "type": "topical"
+    }
+  ]
+}

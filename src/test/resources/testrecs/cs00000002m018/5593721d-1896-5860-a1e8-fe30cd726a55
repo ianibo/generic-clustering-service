@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00030111781",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030111781",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030111781",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 46005393 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1209787"
+    },
+    {
+      "type": "Local",
+      "value": "9910681680102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Trollope, Anthony,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "William & Norgate Ltd."
+    ],
+    "date": "[1946]",
+    "year": 1946,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "319, [1] pages",
+    "illustrations": "frontispiece (portrait)",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biography",
+      "type": "topical"
+    },
+    {
+      "value": "Trollope, Anthony,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)581867636",
+      "Autobiography."
+    ]
+  }
+}

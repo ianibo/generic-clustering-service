@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00030093906",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030093906",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030093906",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0773700226"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780773700222"
+    },
+    {
+      "type": "ISBN",
+      "value": "0773710078"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780773710078"
+    },
+    {
+      "type": "LCCN",
+      "value": " 76367429 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2144739"
+    },
+    {
+      "type": "Local",
+      "value": "9910657935502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hébert, Anne.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Brown, Alan,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Don Mills, Ont. :"
+    ],
+    "publisher": [
+      "Musson Book Co.,"
+    ],
+    "date": "1975.",
+    "year": 1975,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "x, 76 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Hébert, Anne",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)567942796",
+      "Poems."
+    ]
+  }
+}

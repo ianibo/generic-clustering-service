@@ -1,0 +1,75 @@
+{
+  "id": "marc:001:in00027383406",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027383406",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027383406",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 41013574"
+    },
+    {
+      "type": "Local",
+      "value": "ocm00706687"
+    },
+    {
+      "type": "Local",
+      "value": "(GStG)350568-gasouthdb"
+    },
+    {
+      "type": "Local",
+      "value": "9910869298902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gill, Eric,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "The Devin-Adair company,"
+    ],
+    "date": "1947, [c1941]",
+    "year": 1947,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xv, 300 p.",
+    "illustrations": "illus.",
+    "dimensions": "22 cm"
+  },
+  "subjects": [
+    {
+      "value": "Gill, Eric,",
+      "type": "topical"
+    }
+  ]
+}

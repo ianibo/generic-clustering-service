@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00030260685",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030260685",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030260685",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "ac 39002937 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7303431"
+    },
+    {
+      "type": "Local",
+      "value": "9910479196302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Dialogues--",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Seneca, Lucius Annaeus,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bourgery, A.",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Waltz, René,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "fre",
+    "lat"
+  ],
+  "publication": {
+    "place": [
+      "Paris,"
+    ],
+    "publisher": [
+      "les Belles Lettres"
+    ],
+    "date": "[1961-67]",
+    "year": 1961,
+    "countryCode": "fr "
+  },
+  "physical": {
+    "extent": "4 volumes",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dialogues, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Collection des universités de France"
+    },
+    {
+      "title": "Collection des universités de France."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1375054827",
+      "Dialogues--"
+    ]
+  }
+}

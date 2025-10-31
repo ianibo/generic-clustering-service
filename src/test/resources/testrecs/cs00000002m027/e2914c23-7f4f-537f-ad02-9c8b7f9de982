@@ -1,0 +1,73 @@
+{
+  "id": "marc:001:in00026872027",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026872027",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026872027",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 30026389"
+    },
+    {
+      "type": "Local",
+      "value": "ocm04537132"
+    },
+    {
+      "type": "Local",
+      "value": "(GDahN)338201-northgadb"
+    },
+    {
+      "type": "Local",
+      "value": "9911271784302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anna Karenina,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "The Modern Library"
+    ],
+    "date": "[1930]",
+    "year": 1930,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "3 p. β., 3-950 p.",
+    "dimensions": "17 cm."
+  },
+  "series": [
+    {
+      "title": "The Modern library of the world's best books"
+    }
+  ]
+}

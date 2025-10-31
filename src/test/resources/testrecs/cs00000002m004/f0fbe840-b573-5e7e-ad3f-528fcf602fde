@@ -1,0 +1,68 @@
+{
+  "id": "marc:001:in00029335764",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029335764",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029335764",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2701495"
+    },
+    {
+      "type": "Local",
+      "value": "(Voyager)174214-regentsdb"
+    },
+    {
+      "type": "Local",
+      "value": "9910040950302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anna Karenina; a novel",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoi, Lev Nikolacvich,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "rus"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Modern Library"
+    ],
+    "date": "[c1950]",
+    "year": 1950,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "950 p.",
+    "dimensions": "22 cm"
+  }
+}

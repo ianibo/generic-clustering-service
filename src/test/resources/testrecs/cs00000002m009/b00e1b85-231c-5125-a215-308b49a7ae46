@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00028276759",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028276759",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028276759",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0451522362"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780451522368"
+    },
+    {
+      "type": "LCCN",
+      "value": " 64039064 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1702572"
+    },
+    {
+      "type": "Local",
+      "value": "9911498840902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Robinson Crusoe /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Defoe, Daniel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "New American Library,"
+    ],
+    "date": "©1961.",
+    "year": 1961,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "316, [1] pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Shipwrecks",
+      "type": "topical"
+    },
+    {
+      "value": "Survival",
+      "type": "topical"
+    },
+    {
+      "value": "Survival (Title)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Signet classic"
+    },
+    {
+      "title": "Signet classic."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)890607681",
+      "Robinson Crusoe."
+    ]
+  }
+}

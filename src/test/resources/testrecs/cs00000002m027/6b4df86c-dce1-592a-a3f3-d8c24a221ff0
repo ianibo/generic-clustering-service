@@ -1,0 +1,90 @@
+{
+  "id": "marc:001:in00028268790",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028268790",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028268790",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)7496050"
+    },
+    {
+      "type": "Local",
+      "value": "9911243588202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "St. Augustine's Confessions /",
+      "type": "main"
+    },
+    {
+      "value": "Confessiones.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Augustine,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Watts, William,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "lat"
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, Mass. :",
+      "London :"
+    ],
+    "publisher": [
+      "Harvard University Press ;",
+      "Heinemann,"
+    ],
+    "date": "1970-77.",
+    "year": 1970,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Augustine,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Loeb classical library : Latin authors ;",
+      "numbering": "26-27"
+    }
+  ]
+}

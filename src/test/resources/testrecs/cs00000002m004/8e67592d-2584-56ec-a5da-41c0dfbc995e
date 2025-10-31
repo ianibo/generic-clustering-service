@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00030235551",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030235551",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030235551",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "076070225X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780760702253"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)36735583"
+    },
+    {
+      "type": "Local",
+      "value": "9910096983802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Federalist /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hamilton, Alexander,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Madison, James,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jay, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wright, Benjamin Fletcher,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Barnes & Noble Books,"
+    ],
+    "date": "1996, ©1961.",
+    "year": 1996,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xiv, 572 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Constitution (United States)",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    }
+  ]
+}

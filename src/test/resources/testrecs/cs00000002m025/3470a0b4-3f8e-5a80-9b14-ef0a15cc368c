@@ -1,0 +1,74 @@
+{
+  "id": "marc:001:in00030428227",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030428227",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030428227",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)20126846"
+    },
+    {
+      "type": "Local",
+      "value": "9910400038602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Le père Goriot.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Balzac, Honoré de,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Paris,"
+    ],
+    "publisher": [
+      "Calmann-Lévy"
+    ],
+    "date": "[1925?]",
+    "year": 1925,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "2 preliminary leaves, 346 pages",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "H. de Balzac - Oeuvres complètes"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)896623156",
+      "Père Goriot."
+    ]
+  }
+}

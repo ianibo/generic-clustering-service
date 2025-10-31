@@ -1,0 +1,90 @@
+{
+  "id": "marc:001:gsuin00004431214",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004431214",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004431214",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781406825527"
+    },
+    {
+      "type": "ISBN",
+      "value": "1406825522"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)327887711"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9930417713402952"
+    },
+    {
+      "type": "Local",
+      "value": "9930417713402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickinson, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Higginson, Thomas Wentworth,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Middlesex [England] :"
+    ],
+    "publisher": [
+      "The Echo Library,"
+    ],
+    "date": "2007.",
+    "year": 2007,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "203 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    }
+  ]
+}

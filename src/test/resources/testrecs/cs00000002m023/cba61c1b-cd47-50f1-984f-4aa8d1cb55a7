@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00029040751",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029040751",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029040751",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780517362426"
+    },
+    {
+      "type": "ISBN",
+      "value": "0517362422"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)37600215"
+    },
+    {
+      "type": "Local",
+      "value": "9911585029902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems of Emily Dickinson /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickinson, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Todd, Mabel Loomis,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Higginson, Thomas Wentworth,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Avenel, N.J. :",
+      "New York :"
+    ],
+    "publisher": [
+      "Distributed by Outlet Book Co.,",
+      "Gramercy Books ;"
+    ],
+    "date": "©1982.",
+    "year": 1982,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xxx, 256 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Dickinson, Emily,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

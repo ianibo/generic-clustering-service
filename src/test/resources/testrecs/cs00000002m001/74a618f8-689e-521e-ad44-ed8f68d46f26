@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:abacin00000233023",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000233023",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000233023",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:48Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:48Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0060133694 :"
+    },
+    {
+      "type": "ISBN",
+      "value": "0060909005 (pbk.) :"
+    },
+    {
+      "type": "LCCN",
+      "value": " 75025057 //r85"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)2239-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994975612402932"
+    },
+    {
+      "type": "Local",
+      "value": "994975612402932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Plath, Sylvia.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hughes, Ted,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st U.S. ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Harper & Row,"
+    ],
+    "date": "c1981.",
+    "year": 1981,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "351 p. ;",
+    "dimensions": "24 cm."
+  }
+}

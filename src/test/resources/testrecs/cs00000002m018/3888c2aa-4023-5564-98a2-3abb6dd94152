@@ -1,0 +1,63 @@
+{
+  "id": "marc:001:in00029272999",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029272999",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029272999",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)6119364"
+    },
+    {
+      "type": "Local",
+      "value": "9910520227302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Loveman, Robert,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Tuscaloosa, Alabama,"
+    ],
+    "publisher": [
+      "Burton,"
+    ],
+    "date": "1893.",
+    "year": 1893,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "82 pages",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

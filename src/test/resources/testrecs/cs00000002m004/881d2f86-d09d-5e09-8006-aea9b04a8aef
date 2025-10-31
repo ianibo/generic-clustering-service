@@ -1,0 +1,91 @@
+{
+  "id": "marc:001:in00029905775",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029905775",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029905775",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 50007251 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)611636"
+    },
+    {
+      "type": "Local",
+      "value": "9910094251702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "War or peace /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dulles, John Foster,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Macmillan Company,"
+    ],
+    "date": "1950.",
+    "year": 1950,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vi, 274 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1945-1955",
+      "type": "topical"
+    },
+    {
+      "value": "Diplomatic relations",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "World politics",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)559497362",
+      "War or peace."
+    ]
+  }
+}

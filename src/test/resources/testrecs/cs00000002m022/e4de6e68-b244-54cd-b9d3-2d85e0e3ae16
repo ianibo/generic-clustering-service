@@ -1,0 +1,142 @@
+{
+  "id": "marc:001:in00026572990",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026572990",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026572990",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "014044114X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140441147"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)17378541"
+    },
+    {
+      "type": "Local",
+      "value": "9910001457302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Confessions /",
+      "type": "main"
+    },
+    {
+      "value": "Confessiones.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Augustine,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Pine-Coffin, R. S.,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Harmondsworth, Middlesex, England ;",
+      "New York, N.Y., U.S.A. :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1961.",
+    "year": 1961,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "346 pages ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Algeria",
+      "type": "topical"
+    },
+    {
+      "value": "Augustine,",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Christian saints",
+      "type": "topical"
+    },
+    {
+      "value": "Hippo (Extinct city)",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary works)",
+      "type": "topical"
+    },
+    {
+      "value": "collective biographies.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics ;",
+      "numbering": "L114"
+    },
+    {
+      "title": "Penguin classics ;",
+      "numbering": "L114."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)909211456",
+      "Confessions."
+    ]
+  }
+}

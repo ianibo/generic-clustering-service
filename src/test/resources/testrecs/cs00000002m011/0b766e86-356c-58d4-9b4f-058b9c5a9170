@@ -1,0 +1,142 @@
+{
+  "id": "marc:001:in00029044603",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029044603",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029044603",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0451628012"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780451628015"
+    },
+    {
+      "type": "LCCN",
+      "value": " 56007402 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)171936"
+    },
+    {
+      "type": "Local",
+      "value": "9910606554802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Democracy in America /",
+      "type": "main"
+    },
+    {
+      "value": "De la démocratie en Amérique.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tocqueville, Alexis de,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "New American Library,"
+    ],
+    "date": "1956.",
+    "year": 1956,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "317 pages ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American national characteristics.",
+      "type": "topical"
+    },
+    {
+      "value": "Democracy",
+      "type": "topical"
+    },
+    {
+      "value": "Democracy.",
+      "type": "topical"
+    },
+    {
+      "value": "French literature",
+      "type": "topical"
+    },
+    {
+      "value": "French literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government.",
+      "type": "topical"
+    },
+    {
+      "value": "Social conditions.",
+      "type": "topical"
+    },
+    {
+      "value": "To 1865",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    },
+    {
+      "value": "democracy.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Mentor book ;",
+      "numbering": "MD161"
+    },
+    {
+      "title": "Mentor book ;",
+      "numbering": "MD161."
+    }
+  ]
+}

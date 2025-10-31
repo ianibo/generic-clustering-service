@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00029240969",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029240969",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029240969",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0312190859"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780312190859"
+    },
+    {
+      "type": "LCCN",
+      "value": " 99213856 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)41886306"
+    },
+    {
+      "type": "Local",
+      "value": "9911144601102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wilde, Oscar,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st U.S. ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "St. Martin's Press,"
+    ],
+    "date": "1998.",
+    "year": 1998,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "95 pages ;",
+    "dimensions": "16 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Bloomsbury poetry classics"
+    },
+    {
+      "title": "Bloomsbury poetry classics."
+    }
+  ]
+}

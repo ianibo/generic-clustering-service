@@ -1,0 +1,127 @@
+{
+  "id": "marc:001:in00026487436",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026487436",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026487436",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0689105835"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780689105838"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73081725 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)788095"
+    },
+    {
+      "type": "Local",
+      "value": "9910296381702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mandelʹshtam, Osip,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Brown, Clarence,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Merwin, W. S.",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "[First American edition]."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Atheneum,"
+    ],
+    "date": "1974.",
+    "year": 1974,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xviii, 100 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Mandelʹshtam, Osip,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Russian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)587294272",
+      "Selected poems."
+    ]
+  }
+}

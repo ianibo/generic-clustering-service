@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00028089827",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028089827",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028089827",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781551118956"
+    },
+    {
+      "type": "ISBN",
+      "value": "1551118955"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2010502198"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)471809815"
+    },
+    {
+      "type": "Local",
+      "value": "9910731762102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Waverley /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Howard, Susan Kubica,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Buffalo, NY :",
+      "Peterborough, Ont. ;"
+    ],
+    "publisher": [
+      "Broadview Press,"
+    ],
+    "date": "©2010.",
+    "year": 2010,
+    "countryCode": "ab "
+  },
+  "physical": {
+    "extent": "537 pages :",
+    "illustrations": "illustrations, map ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1745-1746",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Jacobite Rebellion, 1745-1746",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Broadview editions"
+    },
+    {
+      "title": "Broadview editions."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "marc:001:in00028926254",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028926254",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028926254",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0691068615"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691068619"
+    },
+    {
+      "type": "ISBN",
+      "value": "0691014914"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691014913"
+    },
+    {
+      "type": "LCCN",
+      "value": " 92010552 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)25628683"
+    },
+    {
+      "type": "Local",
+      "value": "9910490667802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Seferis, George,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Keeley, Edmund,",
+      "role": "translator,",
+      "kind": "person"
+    },
+    {
+      "name": "Sherrard, Philip,",
+      "role": "translator,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "Revised edition."
+  },
+  "publication": {
+    "place": [
+      "Princeton, N.J. :"
+    ],
+    "publisher": [
+      "Princeton University Press,"
+    ],
+    "date": "[1995]",
+    "year": 1995,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xix, 296 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Authors' annotations (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Authors' copies (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Dust jackets (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Seferis, George,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "Wrappers (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Lockert library of poetry in translation"
+    },
+    {
+      "title": "Lockert library of poetry in translation"
+    },
+    {
+      "title": "Lockert library of poetry in translation."
+    },
+    {
+      "title": "Lockert library of poetry in translation."
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "marc:001:in00029460788",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029460788",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029460788",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0714529559"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780714529554"
+    },
+    {
+      "type": "LCCN",
+      "value": " 92018637 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)26054375"
+    },
+    {
+      "type": "Local",
+      "value": "9910768644902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Green paradise : 1900-1916 /",
+      "type": "main"
+    },
+    {
+      "value": "Partir avant le jour.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Green, Julien,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Green, Julien,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Marion Boyars,"
+    ],
+    "date": "1993.",
+    "year": 1993,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "ix, 243 pages ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, American",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, French",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, French.",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiography",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Green, Julien,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Autobiography ;",
+      "numbering": "v. 1"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)643917258",
+      "Green paradise."
+    ]
+  }
+}

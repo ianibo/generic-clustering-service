@@ -1,0 +1,137 @@
+{
+  "id": "marc:001:in00028006271",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028006271",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028006271",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "LCCN",
+      "value": " 92080213 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)60102525"
+    },
+    {
+      "type": "Local",
+      "value": "9911879615502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Federalist /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hamilton, Alexander,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Madison, James,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jay, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jefferson, Thomas,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago ;",
+      "London :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "476 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Constitutional history",
+      "type": "topical"
+    },
+    {
+      "value": "Liberty.",
+      "type": "topical"
+    },
+    {
+      "value": "Sources",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "Utilitarianism.",
+      "type": "topical"
+    },
+    {
+      "value": "freedom.",
+      "type": "topical"
+    },
+    {
+      "value": "utilitarianism.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the western world ;",
+      "numbering": "40"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "40."
+    }
+  ]
+}

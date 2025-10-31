@@ -1,0 +1,152 @@
+{
+  "id": "marc:001:in00026709587",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026709587",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026709587",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "019812435X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198124351"
+    },
+    {
+      "type": "ISBN",
+      "value": "019818512X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198185123"
+    },
+    {
+      "type": "ISBN",
+      "value": "0198182759"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198182757"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73154908 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)632772"
+    },
+    {
+      "type": "Local",
+      "value": "9910810090902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Miscellanies by Henry Fielding, esq. /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Miller, Henry Knight,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Goldgar, Bertrand A.,",
+      "role": "writer of introduction,",
+      "kind": "person"
+    },
+    {
+      "name": "Amory, Hugh,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oxford :"
+    ],
+    "publisher": [
+      "Clarendon Press,"
+    ],
+    "date": "1972-1997.",
+    "year": 1972,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "3 volumes :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fielding, Henry,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Wesleyan edition of the works of Henry Fielding"
+    }
+  ]
+}

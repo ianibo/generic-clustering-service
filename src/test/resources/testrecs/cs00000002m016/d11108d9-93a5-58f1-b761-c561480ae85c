@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00027245424",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027245424",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027245424",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:33Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:33Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0571230997"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780571230990"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2006491212"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)72992324"
+    },
+    {
+      "type": "Local",
+      "value": "9910862037902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Betjeman, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Williams, Hugo,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Faber and Faber,"
+    ],
+    "date": "2006.",
+    "year": 2006,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xvii, 93 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "Poet to poet series"
+    },
+    {
+      "title": "Poet to poet series."
+    }
+  ]
+}

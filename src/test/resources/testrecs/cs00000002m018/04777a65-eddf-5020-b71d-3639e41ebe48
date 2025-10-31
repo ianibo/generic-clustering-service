@@ -1,0 +1,169 @@
+{
+  "id": "marc:001:in00027788699",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027788699",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027788699",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0815324057"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815324058"
+    },
+    {
+      "type": "LCCN",
+      "value": " 97702493 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)36625450"
+    },
+    {
+      "type": "Local",
+      "value": "9910414927602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "2 Vermont composers",
+      "type": "alternative"
+    },
+    {
+      "value": "Two Vermont composers : the collected works of Elisha West and Justin Morgan /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kroeger, Karl.",
+      "role": "edt",
+      "kind": "person"
+    },
+    {
+      "name": "West, Elisha,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Morgan, Justin,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York ;"
+    ],
+    "publisher": [
+      "Garland,"
+    ],
+    "date": "1997.",
+    "year": 1997,
+    "countryCode": "mua"
+  },
+  "physical": {
+    "extent": "1 score (xxiv, 162 pages) ;",
+    "dimensions": "29 cm.",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Anthems",
+      "type": "topical"
+    },
+    {
+      "value": "Anthems.",
+      "type": "topical"
+    },
+    {
+      "value": "Canons (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Canons, fugues, etc. (Voices)",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices, 4 parts), Unaccompanied",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices, 4 parts), Unaccompanied.",
+      "type": "topical"
+    },
+    {
+      "value": "Hymns, English",
+      "type": "topical"
+    },
+    {
+      "value": "Hymns.",
+      "type": "topical"
+    },
+    {
+      "value": "Psalms (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Scores.",
+      "type": "topical"
+    },
+    {
+      "value": "Tune books",
+      "type": "topical"
+    },
+    {
+      "value": "Tune books.",
+      "type": "topical"
+    },
+    {
+      "value": "Tune-books",
+      "type": "topical"
+    },
+    {
+      "value": "Tune-books.",
+      "type": "topical"
+    },
+    {
+      "value": "Vermont",
+      "type": "topical"
+    },
+    {
+      "value": "psalms.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Music of the new American nation ;",
+      "numbering": "v. 7"
+    },
+    {
+      "title": "Music of the new American nation ;",
+      "numbering": "v. 7."
+    }
+  ]
+}

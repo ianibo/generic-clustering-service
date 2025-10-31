@@ -1,0 +1,89 @@
+{
+  "id": "marc:001:in00027482827",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027482827",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027482827",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 60005174 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)16674789"
+    },
+    {
+      "type": "Local",
+      "value": "9910545403702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poetry and prose /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Benét, Stephen Vincent,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Holt, Rinehart and Winston,"
+    ],
+    "date": "©1960.",
+    "year": 1960,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xiv, 336 pages ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bellow, Saul.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Rinehart editions ;",
+      "numbering": "100"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)747358082",
+      "Selected poetry and prose."
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "marc:001:in00029956509",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029956509",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029956509",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)6819527"
+    },
+    {
+      "type": "Local",
+      "value": "9911648013402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "De profundis /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wilde, Oscar,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ross, Robert Baldwin,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Unicorn Press,"
+    ],
+    "date": "[1905?]",
+    "year": 1905,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "110 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Wilde, Oscar,",
+      "type": "topical"
+    }
+  ]
+}

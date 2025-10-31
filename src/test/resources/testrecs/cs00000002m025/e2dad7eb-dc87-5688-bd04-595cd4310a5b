@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00026873451",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026873451",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026873451",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0701205512"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780701205515"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)10285810"
+    },
+    {
+      "type": "Local",
+      "value": "9910157610502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cavafy, Constantine,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Savvidēs, Geōrgios P.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Hogarth,"
+    ],
+    "date": "1984.",
+    "year": 1984,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "205 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Authors' annotations (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Authors' copies (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Cavafy, Constantine,",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Greek poetry, Modern",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "Wrappers (Binding)",
+      "type": "topical"
+    }
+  ]
+}

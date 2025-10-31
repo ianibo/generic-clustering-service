@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:in00027010802",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027010802",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027010802",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 66015432 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)361310"
+    },
+    {
+      "type": "Local",
+      "value": "9910748520902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works.",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Morris, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Morris, May,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Russell & Russell,"
+    ],
+    "date": "1966, 1910-15.",
+    "year": 1966,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "24 volumes",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Grettir Ásmundarson,",
+      "type": "topical"
+    },
+    {
+      "value": "Iceland",
+      "type": "topical"
+    },
+    {
+      "value": "Iceland.",
+      "type": "topical"
+    },
+    {
+      "value": "Travel.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)570057786",
+      "Collected works."
+    ]
+  }
+}

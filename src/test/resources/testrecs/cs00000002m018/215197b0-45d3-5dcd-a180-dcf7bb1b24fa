@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00025983016",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025983016",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025983016",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0070542708"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780070542709"
+    },
+    {
+      "type": "LCCN",
+      "value": " 78007633 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3845406"
+    },
+    {
+      "type": "Local",
+      "value": "9910514287902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rukeyser, Muriel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "McGraw-Hill,"
+    ],
+    "date": "©1978.",
+    "year": 1978,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xx, 588 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647026219",
+      "Collected poems."
+    ]
+  }
+}

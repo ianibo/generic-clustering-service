@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00027192704",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027192704",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027192704",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 23018080 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)651896"
+    },
+    {
+      "type": "Local",
+      "value": "9910859787002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Trollope, Anthony,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Trollope, Henry M.",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Sadleir, Michael,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York [etc.]"
+    ],
+    "publisher": [
+      "H. Milford, Oxford university press"
+    ],
+    "date": "[1923]",
+    "year": 1923,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxiv, 335 p.",
+    "illustrations": "illus.",
+    "dimensions": "16 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Trollope, Anthony,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "World's classics ;",
+      "numbering": "239"
+    },
+    {
+      "title": "World's classics ;",
+      "numbering": "239."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609601586",
+      "Autobiography."
+    ]
+  }
+}

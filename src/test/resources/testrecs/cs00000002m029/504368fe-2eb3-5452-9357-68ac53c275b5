@@ -1,0 +1,115 @@
+{
+  "id": "marc:001:in00027920344",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027920344",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027920344",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 26026876 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4454485"
+    },
+    {
+      "type": "Local",
+      "value": "9910998628602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The bride of Lammermoor,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Williamson, John,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "A. and C. Black,"
+    ],
+    "date": "1904.",
+    "year": 1904,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "xviii, 330 pages",
+    "illustrations": "frontispiece, plates",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1689-1745",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Waverly novels, reissure Dryburgh ed.,",
+      "numbering": "v. 8"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)889526517",
+      "Bride of Lammermoor."
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "id": "marc:001:in00026053675",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026053675",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026053675",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "B6203676"
+    },
+    {
+      "type": "LCCN",
+      "value": " 61014430 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1808879"
+    },
+    {
+      "type": "Local",
+      "value": "9910437622502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bacchylides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fagles, Robert,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Bowra, C. M.",
+      "role": "writer of foreword.",
+      "kind": "person"
+    },
+    {
+      "name": "Parry, Adam,",
+      "role": "writer of introduction,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "1961.",
+    "year": 1961,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxiv, 123 pages ;",
+    "dimensions": "26 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Athletes",
+      "type": "topical"
+    },
+    {
+      "value": "Athletics",
+      "type": "topical"
+    },
+    {
+      "value": "Bacchylides",
+      "type": "topical"
+    },
+    {
+      "value": "Games",
+      "type": "topical"
+    },
+    {
+      "value": "Greece",
+      "type": "topical"
+    },
+    {
+      "value": "Laudatory poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Mythology, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Odes",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)576559122",
+      "(OCoLC)605968891",
+      "Complete poems."
+    ]
+  }
+}

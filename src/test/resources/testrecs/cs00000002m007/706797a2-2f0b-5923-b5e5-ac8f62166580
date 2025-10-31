@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:in00027445080",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027445080",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027445080",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)13986515"
+    },
+    {
+      "type": "Local",
+      "value": "9911225171602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of Sidney Lanier /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lanier, Sidney,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Athens :"
+    ],
+    "publisher": [
+      "University of Georgia Press,"
+    ],
+    "date": "1944.",
+    "year": 1944,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xli, 262 pages :",
+    "illustrations": "frontispieces ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bio-bibliography.",
+      "type": "topical"
+    },
+    {
+      "value": "Georgia",
+      "type": "topical"
+    },
+    {
+      "value": "Georgia.",
+      "type": "topical"
+    }
+  ]
+}

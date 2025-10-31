@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00029897129",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029897129",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029897129",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0525243267"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780525243267"
+    },
+    {
+      "type": "ISBN",
+      "value": "0525481648"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780525481645"
+    },
+    {
+      "type": "LCCN",
+      "value": " 84026074 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)11518348"
+    },
+    {
+      "type": "Local",
+      "value": "9911079460102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The raft /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fagan, Kathy.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Dutton,"
+    ],
+    "date": "©1985.",
+    "year": 1985,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "53 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "The National poetry series"
+    },
+    {
+      "title": "National poetry series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)560818513",
+      "Raft."
+    ]
+  }
+}

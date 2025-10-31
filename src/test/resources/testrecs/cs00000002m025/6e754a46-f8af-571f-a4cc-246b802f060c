@@ -1,0 +1,154 @@
+{
+  "id": "marc:001:in00029870827",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029870827",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029870827",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0198124937"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198124931"
+    },
+    {
+      "type": "LCCN",
+      "value": " 97006474 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)36498878"
+    },
+    {
+      "type": "Local",
+      "value": "9910116387202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The old curiosity shop /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Brennan, Elizabeth M.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford [England] :"
+    ],
+    "publisher": [
+      "Clarendon Press ;",
+      "Oxford University Press,"
+    ],
+    "date": "1997.",
+    "year": 1997,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "ciii, 638 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Antique dealers",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work.",
+      "type": "topical"
+    },
+    {
+      "value": "Gamblers",
+      "type": "topical"
+    },
+    {
+      "value": "Girls",
+      "type": "topical"
+    },
+    {
+      "value": "Grandfathers",
+      "type": "topical"
+    },
+    {
+      "value": "Grandparent and child",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Clarendon Dickens"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "marc:001:in00028349123",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028349123",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028349123",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1590170911"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781590170915"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2004014656"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)55738162"
+    },
+    {
+      "type": "Local",
+      "value": "9910025540502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems of Osip Mandelstam",
+      "type": "alternative"
+    },
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mandelʹshtam, Osip,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Brown, Clarence,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Merwin, W. S.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Mandelʹshtam, Osip,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "New York Review Books,"
+    ],
+    "date": "[2004]",
+    "year": 2004,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xviii, 167 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Mandelʹshtam, Osip,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "New York Review Books classics"
+    },
+    {
+      "title": "New York Review Books classics."
+    }
+  ]
+}

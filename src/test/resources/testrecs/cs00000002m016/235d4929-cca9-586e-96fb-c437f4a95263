@@ -1,0 +1,85 @@
+{
+  "id": "marc:001:in00026023068",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026023068",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026023068",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 37022933 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1512888"
+    },
+    {
+      "type": "Local",
+      "value": "9910189109802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tate, Allen,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York,"
+    ],
+    "publisher": [
+      "C. Scribner's Sons, Ltd.,",
+      "C. Scribner's sons;"
+    ],
+    "date": "1937.",
+    "year": 1937,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiv, 112 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609455191",
+      "Selected poems."
+    ]
+  }
+}

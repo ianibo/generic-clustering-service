@@ -1,0 +1,142 @@
+{
+  "id": "marc:001:in00029694338",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029694338",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029694338",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0811208559"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780811208550"
+    },
+    {
+      "type": "LCCN",
+      "value": " 82008305 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8587906"
+    },
+    {
+      "type": "Local",
+      "value": "9910389812702931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "NDP547"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Saint-John Perse,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Caws, Mary Ann,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "New Directions,"
+    ],
+    "date": "1982.",
+    "year": 1982,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xiii, 143 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Bilingual books.",
+      "type": "topical"
+    },
+    {
+      "value": "French language materials",
+      "type": "topical"
+    },
+    {
+      "value": "French poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Guadeloupe poetry (French)",
+      "type": "topical"
+    },
+    {
+      "value": "Lyric poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Lyric poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Saint-John Perse,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

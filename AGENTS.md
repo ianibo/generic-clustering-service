@@ -1,0 +1,88 @@
+generic-clustering-service (gcs)
+
+At a high level
+
+A tool for creating a common metadata aggregations from the widest possible array of sources to create an open and shared resource that provides
+shared identifiers for works and instances. Open data licensing is baked into the schemas to ensure that data provided can be reused and that
+ownership stays within the library community. The tool is designed for the wide GLAM sector -not just for libraries (Although that is our initial use case).
+
+Our aim is to solve the problem of clustering without creating yet another walled garden subscription service. We want to provide stable shared instance
+and work identifiers can can be used under an open data license. We want to provide these primarily as bibframe (And other semantic web) resources.
+
+As well as providing records, we will provide feaures that allows users to upload records (With a guarantee that we will not keep the data unless explicitly
+allowed to do so) and have a match to our internal systems. Bulk matching may have to be pay for as the record matching can be expensive.
+
+Technical Detail
+
+gcs is a micronaut 4 application built for JDK 21 targeting virtual threads rather than reactive paradims. It makes extensive use of modern LLM 
+technology to address the long standing problem of fuzzy matching in bibliographic data.
+
+Project: Generic Clustering Service (GCS)
+Runtime: Java 21, Micronaut 4.10+, Gradle (Kotlin DSL).
+Hard constraints:
+
+No network calls, no external AI APIs, no containers, no Docker, no Testcontainers.
+
+No Elasticsearch / OpenSearch / pgvector.
+
+All code must run locally and deterministically via pure JVM.
+
+Prefer zero extra dependencies; if unavoidable, explain and keep to small, pure-Java libs.
+
+Architecture rule: Ports & Adapters. Every external capability (embeddings, vector index, storage) is a port with at least one in-memory adapter.
+
+Deliverables per task:
+
+Code (compilable).
+
+Short README snippet or Javadoc for each public type. (Do not remove existing content from README)
+
+Minimal test that runs in ~1s, no network, deterministic.
+
+A runnable main or Micronaut controller to demo the feature.
+
+Data model (minimum):
+
+InputRecord (your canonical JSON).
+
+WorkProfile, InstanceProfile.
+
+Required ports (interfaces):
+
+EmbeddingService { float[] embed(String text); int dim(); }
+
+VectorIndex<T> { void add(String id, float[] vec, T payload); List<Neighbor<T>> topK(float[] query, int k); List<T> radius(float[] query, float threshold); }
+
+Clusterer<T> { List<Cluster<T>> cluster(List<Item<T>> items, double threshold); }
+
+Canonicalizer { String summarize(InputRecord r); }
+
+Calibration { double scoreToProb(double s); void update(double s, boolean isDup); Thresholds thresholds(); }
+
+Mandatory in-memory adapters:
+
+HashingEmbeddingService (deterministic, no network).
+
+InMemoryVectorIndex (brute-force cosine; optional HNSW later, still in-JVM).
+
+SimpleThresholdClusterer (connected-components by similarity ≥ τ).
+
+PlattCalibration (logistic fit from (score, label) stream; starts with sane defaults).
+
+JsonStore (persist JSONL to ./data, no DB).
+
+Determinism: use a fixed seed RNG.
+Quality gates: cosine similarity unit tests with golden vectors; round-trip JSON tests.
+HTTP API (Micronaut):
+
+POST /ingest InputRecord → stores record, computes embedding, returns candidate duplicates (top-k and above τ).
+
+POST /feedback {candidateId, isDup} → updates calibration.
+
+GET /cluster/{workId} → returns cluster members.
+
+GET /health → returns {"ok":true}.
+
+Non-goals: no UI, no persistence beyond local files for this phase.
+
+Output format expectations: tabs for indentation preferred; if spaces are required, use 2 spaces.

@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00027875131",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027875131",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027875131",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)9264942"
+    },
+    {
+      "type": "Local",
+      "value": "9910225792002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Faust.",
+      "type": "main"
+    },
+    {
+      "value": "Faust.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Swanwick, Anna,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "[London] :"
+    ],
+    "publisher": [
+      "[H.G. Bohn and J. Mitchell],"
+    ],
+    "date": "[1852]",
+    "year": 1852,
+    "countryCode": " c "
+  },
+  "physical": {
+    "extent": "vii, 154 pages",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microopaque"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "English drama",
+      "type": "topical"
+    },
+    {
+      "value": "English drama.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "English and American drama of the nineteenth century."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "marc:001:in00030018536",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030018536",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030018536",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0618663975"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780618663972"
+    },
+    {
+      "type": "ISBN",
+      "value": "0000000000000"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780000000002"
+    },
+    {
+      "type": "ISBN",
+      "value": "0000000000"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2006033294"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)72354332"
+    },
+    {
+      "type": "Local",
+      "value": "9911985935602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The songs of insects /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Elliott, Lang,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Hershberger, Wil.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston, Mass. :"
+    ],
+    "publisher": [
+      "Houghton Mifflin Co.,"
+    ],
+    "date": "2007.",
+    "year": 2007,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "227 pages :",
+    "illustrations": "color illustrations ;",
+    "dimensions": "21 cm +",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "East United States",
+      "type": "topical"
+    },
+    {
+      "value": "Illustrated works",
+      "type": "topical"
+    },
+    {
+      "value": "Illustrated works.",
+      "type": "topical"
+    },
+    {
+      "value": "Insect sounds",
+      "type": "topical"
+    },
+    {
+      "value": "Sound production by insects",
+      "type": "topical"
+    },
+    {
+      "value": "illustrated books.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)712507443",
+      "Songs of insects."
+    ]
+  }
+}

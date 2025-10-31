@@ -1,0 +1,136 @@
+{
+  "id": "marc:001:in00027271967",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027271967",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027271967",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780199669103"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199669104"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198736479"
+    },
+    {
+      "type": "ISBN",
+      "value": "0198736479"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2016932529"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)944160206"
+    },
+    {
+      "type": "Local",
+      "value": "9910516677402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Verity, Anthony,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Allan, William,",
+      "role": "writer of introduction and notes.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York, NY :",
+      "Oxford, United Kingdom ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "2016.",
+    "year": 2016,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "xxix, 354 pages :",
+    "illustrations": "map ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "epic literature.",
+      "type": "topical"
+    },
+    {
+      "value": "epic poems.",
+      "type": "topical"
+    }
+  ]
+}

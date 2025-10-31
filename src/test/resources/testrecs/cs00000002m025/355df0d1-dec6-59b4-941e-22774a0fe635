@@ -1,0 +1,77 @@
+{
+  "id": "marc:001:in00028626433",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028626433",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028626433",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2196128"
+    },
+    {
+      "type": "Local",
+      "value": "9922654712702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mitchell, James,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "San Francisco, Ca. :"
+    ],
+    "publisher": [
+      "Hoddypoll Press,"
+    ],
+    "date": "[1974]",
+    "year": 1974,
+    "countryCode": "cau"
+  },
+  "physical": {
+    "extent": "14 leaves ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Gay poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Gay poetry.",
+      "type": "topical"
+    }
+  ]
+}

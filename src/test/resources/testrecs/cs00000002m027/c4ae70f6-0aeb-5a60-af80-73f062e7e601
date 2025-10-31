@@ -1,0 +1,90 @@
+{
+  "id": "marc:001:in00029166794",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029166794",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029166794",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0130236942"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780130236944"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)47287927"
+    },
+    {
+      "type": "Local",
+      "value": "9911252836402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The importance of being earnest /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Widener, Sandra.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wilde, Oscar,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Upper Saddle River, N.J. :"
+    ],
+    "publisher": [
+      "Globe Fearon,"
+    ],
+    "date": "©2001.",
+    "year": 2001,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "136 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Readers for new literates.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "An adapted classic"
+    },
+    {
+      "title": "An adapted classic."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "marc:001:in00026695171",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026695171",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026695171",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)9927363"
+    },
+    {
+      "type": "Local",
+      "value": "(GSaAAS)38802-armstrongdb"
+    },
+    {
+      "type": "Local",
+      "value": "9911629752302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems of Elinor Wylie. --",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wylie, Elinor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Benét, William Rose,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Knopf,"
+    ],
+    "date": "1941.",
+    "year": 1941,
+    "countryCode": "ch "
+  },
+  "physical": {
+    "extent": "xviii, 318 p., [4] leaves of plates :",
+    "illustrations": "ill., facsim., ports. ;",
+    "dimensions": "23 cm"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "id": "marc:001:in00027297778",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027297778",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027297778",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "LCCN",
+      "value": " 55010329 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)10212401"
+    },
+    {
+      "type": "Local",
+      "value": "9911305300602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The divine comedy of Dante Alighieri /",
+      "type": "main"
+    },
+    {
+      "value": "Divina commedia.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Norton, Charles Eliot,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "[1952]",
+    "year": 1952,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "x, 163 pages :",
+    "illustrations": "illustrations, charts ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Heaven",
+      "type": "topical"
+    },
+    {
+      "value": "Heaven.",
+      "type": "topical"
+    },
+    {
+      "value": "Hell",
+      "type": "topical"
+    },
+    {
+      "value": "Hell.",
+      "type": "topical"
+    },
+    {
+      "value": "Italian literature",
+      "type": "topical"
+    },
+    {
+      "value": "Italian literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Literature, Medieval.",
+      "type": "topical"
+    },
+    {
+      "value": "Purgatory",
+      "type": "topical"
+    },
+    {
+      "value": "Purgatory.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the western world ;",
+      "numbering": "21"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "21."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)988860168",
+      "Divine comedy of Dante Alighieri."
+    ]
+  }
+}

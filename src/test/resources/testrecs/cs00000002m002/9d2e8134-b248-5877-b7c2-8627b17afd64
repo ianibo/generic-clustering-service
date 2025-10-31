@@ -1,0 +1,140 @@
+{
+  "id": "marc:001:in00027338280",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027338280",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027338280",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:33Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:33Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 44051084 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)372946"
+    },
+    {
+      "type": "Local",
+      "value": "9911932224202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Aeneid /",
+      "type": "main"
+    },
+    {
+      "value": "Aeneis.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Virgil.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Dryden, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Petrina, Carlotta,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "E.L. Hildreth & Company,",
+      "role": "printer.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Limited Editions Club,",
+      "role": "former owner.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Limited Editions Club Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Limited Editions Club,"
+    ],
+    "date": "1944.",
+    "year": 1944,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "lxviii, 397 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "31 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Aeneas",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Legends",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)891911048",
+      "Aeneid."
+    ]
+  }
+}

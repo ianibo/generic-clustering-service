@@ -1,0 +1,134 @@
+{
+  "id": "marc:001:in00026766889",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026766889",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026766889",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1931082782"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781931082785"
+    },
+    {
+      "type": "Other",
+      "value": "9781931082785"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2004061553"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)56840800"
+    },
+    {
+      "type": "Local",
+      "value": "9910420016102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Roethke, Theodore,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hirsch, Edward,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Library of America,"
+    ],
+    "date": "©2005.",
+    "year": 2005,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxv, 158 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American poets project ;",
+      "numbering": "15"
+    },
+    {
+      "title": "American poets project ;",
+      "numbering": "15."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607585308",
+      "Selected poems."
+    ]
+  }
+}

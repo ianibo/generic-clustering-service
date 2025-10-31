@@ -1,0 +1,145 @@
+{
+  "id": "marc:001:in00028221794",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028221794",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028221794",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "020528504X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780205285044"
+    },
+    {
+      "type": "ISBN",
+      "value": "0205286690"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780205286690"
+    },
+    {
+      "type": "LCCN",
+      "value": " 98025280 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)39235668"
+    },
+    {
+      "type": "Local",
+      "value": "9910518867502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Infants, children, and adolescents /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Berk, Laura E.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "3rd ed."
+  },
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Allyn and Bacon,"
+    ],
+    "date": "©1999.",
+    "year": 1999,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "1 volume (various pagings) :",
+    "illustrations": "illustrations (some color) ;",
+    "dimensions": "29 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adolescence",
+      "type": "topical"
+    },
+    {
+      "value": "Adolescence.",
+      "type": "topical"
+    },
+    {
+      "value": "Adolescent",
+      "type": "topical"
+    },
+    {
+      "value": "Child Development",
+      "type": "topical"
+    },
+    {
+      "value": "Child development",
+      "type": "topical"
+    },
+    {
+      "value": "Child development.",
+      "type": "topical"
+    },
+    {
+      "value": "Growth",
+      "type": "topical"
+    },
+    {
+      "value": "Growth.",
+      "type": "topical"
+    },
+    {
+      "value": "Infant",
+      "type": "topical"
+    },
+    {
+      "value": "Infants",
+      "type": "topical"
+    },
+    {
+      "value": "Infants.",
+      "type": "topical"
+    },
+    {
+      "value": "adolescence.",
+      "type": "topical"
+    },
+    {
+      "value": "growth.",
+      "type": "topical"
+    },
+    {
+      "value": "infants.",
+      "type": "topical"
+    }
+  ]
+}

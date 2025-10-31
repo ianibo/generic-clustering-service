@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:in00026778911",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026778911",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026778911",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0460875949"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460875943"
+    },
+    {
+      "type": "ISBN",
+      "value": "0460870890"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460870894"
+    },
+    {
+      "type": "ISBN",
+      "value": "0679443622"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679443629"
+    },
+    {
+      "type": "LCCN",
+      "value": " 95075207 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)32812571"
+    },
+    {
+      "type": "Local",
+      "value": "9911978000602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Rob Roy /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sutherland, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "Rutland, Vt. :"
+    ],
+    "publisher": [
+      "Charles E. Tuttle,",
+      "J.M. Dent ;"
+    ],
+    "date": "1995.",
+    "year": 1995,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxxviii, 510 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Rob Roy,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library"
+    },
+    {
+      "title": "Everyman's library."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:mgsuin00000265002",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "mgsuin00000265002",
+    "sourceRecordUri": "https://catalog.example.org/record/mgsuin00000265002",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0807607878 :"
+    },
+    {
+      "type": "LCCN",
+      "value": " 75007958"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1884858"
+    },
+    {
+      "type": "Local",
+      "value": "(Voyager)245554-middlegadb-Voyager"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_MGA)992455544602955"
+    },
+    {
+      "type": "Local",
+      "value": "992455544602955"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Melville /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Miller, Edwin Haviland.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "G. Braziller,"
+    ],
+    "date": "c1975.",
+    "year": 1975,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "382 p., [4] leaves of plates :",
+    "illustrations": "ill. ;",
+    "dimensions": "25 cm."
+  },
+  "subjects": [
+    {
+      "value": "Melville, Herman,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Venture book"
+    }
+  ]
+}

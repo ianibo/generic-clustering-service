@@ -1,0 +1,130 @@
+{
+  "id": "marc:001:in00027047332",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027047332",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027047332",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "LCCN",
+      "value": " 55010318 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6132211"
+    },
+    {
+      "type": "Local",
+      "value": "9910848803902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The works of Aristotle /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aristotle,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Ross, W. D.",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica, Inc., William Benton, Publisher"
+    ],
+    "date": "[1952]",
+    "year": 1952,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Greek literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy, Ancient.",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy.",
+      "type": "topical"
+    },
+    {
+      "value": "philosophy.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western World ;",
+      "numbering": "8-9"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "8-9."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)797970193",
+      "Works of Aristotle."
+    ]
+  }
+}

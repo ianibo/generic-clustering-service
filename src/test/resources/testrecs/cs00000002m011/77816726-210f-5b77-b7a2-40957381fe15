@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00025921889",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025921889",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025921889",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2061488"
+    },
+    {
+      "type": "Local",
+      "value": "9910225527102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Confessions of St. Augustine :",
+      "type": "alternative"
+    },
+    {
+      "value": "The confessions of Saint Augustine /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Augustine,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pusey, E. B.",
+      "role": "trl",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Pocket Books,"
+    ],
+    "date": "1952, ©1951.",
+    "year": 1952,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xiv, 301 pages ;",
+    "dimensions": "17 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Augustine,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Cardinal edition ;",
+      "numbering": "C-27"
+    }
+  ]
+}

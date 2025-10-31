@@ -1,0 +1,152 @@
+{
+  "id": "marc:001:in00029788496",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029788496",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029788496",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140430016"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140430011"
+    },
+    {
+      "type": "ISBN",
+      "value": "0517415119"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780517415115"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)14084402"
+    },
+    {
+      "type": "Local",
+      "value": "9910912967002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Wuthering Heights /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Daiches, David,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Harmondsworth, Eng. ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1985.",
+    "year": 1985,
+    "countryCode": "j b"
+  },
+  "physical": {
+    "extent": "373 pages :",
+    "illustrations": "genealogical table ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Heathcliff",
+      "type": "topical"
+    },
+    {
+      "value": "Heathlands",
+      "type": "topical"
+    },
+    {
+      "value": "Heathlands.",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Man-woman relationships",
+      "type": "topical"
+    },
+    {
+      "value": "Man-woman relationships.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Social conflict",
+      "type": "topical"
+    },
+    {
+      "value": "Social conflict.",
+      "type": "topical"
+    },
+    {
+      "value": "Yorkshire (England)",
+      "type": "topical"
+    }
+  ]
+}

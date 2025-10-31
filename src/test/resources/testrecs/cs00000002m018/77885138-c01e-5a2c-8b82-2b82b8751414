@@ -1,0 +1,83 @@
+{
+  "id": "marc:001:gsuin00004431966",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004431966",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004431966",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 36027338 "
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)3077082-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)944616"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9930770823402952"
+    },
+    {
+      "type": "Local",
+      "value": "9930770823402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The way of all flesh,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Butler, Samuel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "H. Milford, Oxford University Press"
+    ],
+    "date": "[1936]",
+    "year": 1936,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "421 pages",
+    "dimensions": "16 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "World's classics"
+    },
+    {
+      "title": "World's classics."
+    }
+  ]
+}

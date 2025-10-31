@@ -1,0 +1,125 @@
+{
+  "id": "marc:001:in00029508908",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029508908",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029508908",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0802027172"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802027177"
+    },
+    {
+      "type": "ISBN",
+      "value": "0415048788"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780415048781"
+    },
+    {
+      "type": "LCCN",
+      "value": " 92247513 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)20691671"
+    },
+    {
+      "type": "Local",
+      "value": "9910881786402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Writings on India /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Robson, John M.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Moir, Martin.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Moir, Zawahir.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "Toronto :"
+    ],
+    "publisher": [
+      "Routledge,",
+      "University of Toronto Press ;"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": "ah "
+  },
+  "physical": {
+    "extent": "lvii, 336 pages :",
+    "illustrations": "illustrations, facsimiles ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1765-1947",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "India",
+      "type": "topical"
+    },
+    {
+      "value": "Sources",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Collected works of John Stuart Mill ;",
+      "numbering": "v. 30"
+    }
+  ]
+}

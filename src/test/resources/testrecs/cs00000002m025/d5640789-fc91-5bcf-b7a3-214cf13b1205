@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00029251736",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029251736",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029251736",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0252027809"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780252027802"
+    },
+    {
+      "type": "ISBN",
+      "value": "0252070917"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780252070914"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2002000255"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)48817274"
+    },
+    {
+      "type": "Local",
+      "value": "9910207265202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "X equals",
+      "type": "alternative"
+    },
+    {
+      "value": "X = : poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Berg, Stephen,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Urbana :"
+    ],
+    "publisher": [
+      "University of Illinois Press,"
+    ],
+    "date": "©2002.",
+    "year": 2002,
+    "countryCode": " s0"
+  },
+  "physical": {
+    "extent": "62 pages ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "2000-2099",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Illinois poetry series"
+    },
+    {
+      "title": "Illinois poetry series."
+    }
+  ]
+}

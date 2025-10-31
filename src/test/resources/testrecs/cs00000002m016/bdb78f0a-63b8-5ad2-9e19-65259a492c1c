@@ -1,0 +1,72 @@
+{
+  "id": "marc:001:in00026827720",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026827720",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026827720",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1852352566"
+    },
+    {
+      "type": "ISBN",
+      "value": "1852352558"
+    },
+    {
+      "type": "Local",
+      "value": "ocm42913479"
+    },
+    {
+      "type": "Local",
+      "value": "(GStG)613448-gasouthdb"
+    },
+    {
+      "type": "Local",
+      "value": "9910851345802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mahon, Derek,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oldcastle [Ireland] :"
+    ],
+    "publisher": [
+      "Gallery,"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "288 p. ;",
+    "dimensions": "24 cm"
+  }
+}

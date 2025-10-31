@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00028930638",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028930638",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028930638",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780809016037"
+    },
+    {
+      "type": "ISBN",
+      "value": "0809016036"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780613025041"
+    },
+    {
+      "type": "ISBN",
+      "value": "0613025040"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1001320651"
+    },
+    {
+      "type": "Local",
+      "value": "9921944049402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories /",
+      "type": "main"
+    },
+    {
+      "value": "Short stories.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hughes, Langston,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Harper, Donna Sullivan.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st pbk. ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Hill and Wang,"
+    ],
+    "date": "1997, ©1996.",
+    "year": 1997,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xix, 299 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "African Americans",
+      "type": "topical"
+    },
+    {
+      "value": "African Americans.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories, American",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories.",
+      "type": "topical"
+    }
+  ]
+}

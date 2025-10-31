@@ -1,0 +1,81 @@
+{
+  "id": "marc:001:in00027551158",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027551158",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027551158",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0520012984 :"
+    },
+    {
+      "type": "LCCN",
+      "value": " 48009157"
+    },
+    {
+      "type": "Local",
+      "value": "ocm24496942"
+    },
+    {
+      "type": "Local",
+      "value": "(ZHY)76565-daltondb"
+    },
+    {
+      "type": "Local",
+      "value": "9911552379302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Verlaine, Paul,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "MacIntyre, C. F.",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "Berkeley :"
+    ],
+    "publisher": [
+      "Univ. of California Press,"
+    ],
+    "date": "1948.",
+    "year": 1948,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xx, 228 p. ;",
+    "dimensions": "19 cm"
+  }
+}

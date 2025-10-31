@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00028044319",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028044319",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028044319",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1883689317"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781883689315"
+    },
+    {
+      "type": "ISBN",
+      "value": "1883689309"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781883689308"
+    },
+    {
+      "type": "LCCN",
+      "value": " 95040300 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)33079083"
+    },
+    {
+      "type": "Local",
+      "value": "9910504929802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pettet, Simon,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Jersey City, N.J. :"
+    ],
+    "publisher": [
+      "Talisman House,"
+    ],
+    "date": "[1995]",
+    "year": 1995,
+    "countryCode": "nju"
+  },
+  "physical": {
+    "extent": "x, 110 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

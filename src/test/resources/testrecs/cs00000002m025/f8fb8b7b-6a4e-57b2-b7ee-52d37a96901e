@@ -1,0 +1,104 @@
+{
+  "id": "marc:001:in00026821980",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026821980",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026821980",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)34641549"
+    },
+    {
+      "type": "Local",
+      "value": "9910343482102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wordsworth, William,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Trenaman, Geoffrey,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Snake River Press,",
+      "role": "publisher,",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Brighton, East Sussex] :"
+    ],
+    "publisher": [
+      "Snake River Press,"
+    ],
+    "date": "1987.",
+    "year": 1987,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "31 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "34 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Embossed stamps (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fine books",
+      "type": "topical"
+    },
+    {
+      "value": "Fine books.",
+      "type": "topical"
+    },
+    {
+      "value": "Poems.",
+      "type": "topical"
+    },
+    {
+      "value": "Private presses",
+      "type": "topical"
+    },
+    {
+      "value": "Typefaces (Type evidence)",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00029909395",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029909395",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029909395",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)32297155"
+    },
+    {
+      "type": "Local",
+      "value": "9911981793402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Great books of the Western world /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Adler, Mortimer J.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Encyclopaedia Britannica, Inc.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "edition": {
+    "statement": "2nd ed."
+  },
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "1991, ©1990.",
+    "year": 1991,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "60 volumes ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Anthologies",
+      "type": "topical"
+    },
+    {
+      "value": "Anthologies.",
+      "type": "topical"
+    },
+    {
+      "value": "Index",
+      "type": "topical"
+    },
+    {
+      "value": "Indexes.",
+      "type": "topical"
+    },
+    {
+      "value": "indexes (reference sources)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world"
+    },
+    {
+      "title": "Great books of the Western world."
+    }
+  ]
+}

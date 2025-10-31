@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:in00027165644",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027165644",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027165644",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0912516208"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780912516202"
+    },
+    {
+      "type": "LCCN",
+      "value": " 75044269 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1976826"
+    },
+    {
+      "type": "Local",
+      "value": "9910202991202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Welch, Lew,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Snyder, Gary,",
+      "role": "writer of preface.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Bolinas, California :"
+    ],
+    "publisher": [
+      "Grey Fox Press,"
+    ],
+    "date": "1976.",
+    "year": 1976,
+    "countryCode": "cau"
+  },
+  "physical": {
+    "extent": "94 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Beats (Persons)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

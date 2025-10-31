@@ -1,0 +1,72 @@
+{
+  "id": "marc:001:in00028361927",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028361927",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028361927",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 05027009 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)13408580"
+    },
+    {
+      "type": "Local",
+      "value": "9910855718802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Leveson-Gower, George,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "W. Heinemann,"
+    ],
+    "date": "1902.",
+    "year": 1902,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiii, 204 ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647051867",
+      "Poems by George Leveson Gower."
+    ]
+  }
+}

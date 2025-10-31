@@ -1,0 +1,153 @@
+{
+  "id": "marc:001:in00028356220",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028356220",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028356220",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0802027687"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802027689"
+    },
+    {
+      "type": "ISBN",
+      "value": "041506399X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780415063999"
+    },
+    {
+      "type": "ISBN",
+      "value": "0802034616"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802034618"
+    },
+    {
+      "type": "LCCN",
+      "value": " 92146362 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)27188303"
+    },
+    {
+      "type": "Local",
+      "value": "9910864922002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Additional letters",
+      "type": "alternative"
+    },
+    {
+      "value": "Additional letters of John Stuart Mill /",
+      "type": "main"
+    },
+    {
+      "value": "Correspondence.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Filipiuk, Marion.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Laine, Michael.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Robson, John M.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Buffalo :",
+      "London :",
+      "Toronto ;"
+    ],
+    "publisher": [
+      "Routledge,",
+      "University of Toronto Press ;"
+    ],
+    "date": "©1991.",
+    "year": 1991,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xlii, 325 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Mill, John Stuart,",
+      "type": "topical"
+    },
+    {
+      "value": "Personal correspondence",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophers",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary genre)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Collected works of John Stuart Mill ;",
+      "numbering": "v. 32"
+    }
+  ]
+}

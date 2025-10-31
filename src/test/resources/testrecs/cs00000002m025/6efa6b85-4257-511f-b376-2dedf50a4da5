@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00028617650",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028617650",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028617650",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "D06019124X"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5502756"
+    },
+    {
+      "type": "Local",
+      "value": "9910513919202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rossetti, Christina Georgina,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Harrison, Florence,",
+      "role": "illustrator,",
+      "kind": "person"
+    },
+    {
+      "name": "Meynell, Alice,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    },
+    {
+      "name": "Dana Estes & Company,",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Dana Estes & Co.,"
+    ],
+    "date": "MCMX [1910]",
+    "year": 1910,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "xxiv, 369 pages, 70 unnumbered leaves of plates :",
+    "illustrations": "illustrations (36 color) ;",
+    "dimensions": "27 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

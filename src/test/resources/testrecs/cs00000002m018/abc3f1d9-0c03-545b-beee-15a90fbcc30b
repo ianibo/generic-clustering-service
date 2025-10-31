@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00027663896",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027663896",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027663896",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0060931957"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780060931957"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)45056316"
+    },
+    {
+      "type": "Local",
+      "value": "9910646504102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey of Homer /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lattimore, Richmond,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st Perennial Classics ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Harper Perennial,"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "x, 374 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Perennial classics"
+    },
+    {
+      "title": "Perennial classic."
+    }
+  ]
+}

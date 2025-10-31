@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:abacin00000240692",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000240692",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000240692",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140103589"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87008774 //r93"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)2048-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994975565802932"
+    },
+    {
+      "type": "Local",
+      "value": "994975565802932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Paradise /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Barthelme, Donald.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, N.Y., U.S.A. :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1987.",
+    "year": 1987,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "208 p. ;",
+    "dimensions": "20 cm."
+  },
+  "subjects": [
+    {
+      "value": "City and town life",
+      "type": "topical"
+    }
+  ]
+}

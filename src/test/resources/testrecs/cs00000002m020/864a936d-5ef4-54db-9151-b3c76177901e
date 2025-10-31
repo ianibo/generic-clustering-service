@@ -1,0 +1,154 @@
+{
+  "id": "marc:001:in00029981024",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029981024",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029981024",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "LCCN",
+      "value": " 92080213 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)810776365"
+    },
+    {
+      "type": "Local",
+      "value": "9911844455002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Berenice",
+      "type": "alternative"
+    },
+    {
+      "value": "Critique of The school for wives",
+      "type": "alternative"
+    },
+    {
+      "value": "Don Juan",
+      "type": "alternative"
+    },
+    {
+      "value": "Miser",
+      "type": "alternative"
+    },
+    {
+      "value": "Phaedra",
+      "type": "alternative"
+    },
+    {
+      "value": "Tartuffe",
+      "type": "alternative"
+    },
+    {
+      "value": "Would-be gentleman",
+      "type": "alternative"
+    },
+    {
+      "value": "Would-be invalid",
+      "type": "alternative"
+    },
+    {
+      "value": "The school for wives ; The critique of The school for wives ; Tartuffe ; Don Juan ; The miser ; The would-be gentleman ; The would-be invalid ; Berenice ; Phaedra /",
+      "type": "main"
+    },
+    {
+      "value": "Plays.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Molière,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Racine, Jean,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Racine, Jean,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago ;",
+      "London :"
+    ],
+    "publisher": [
+      "Encyclopaedia Britannica,"
+    ],
+    "date": "1990.",
+    "year": 1990,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xi, 367 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1600-1699",
+      "type": "topical"
+    },
+    {
+      "value": "French drama",
+      "type": "topical"
+    },
+    {
+      "value": "French drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the western world ;",
+      "numbering": "31"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "31."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "marc:001:in00030461928",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030461928",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030461928",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 64000028"
+    },
+    {
+      "type": "Local",
+      "value": "ocm03154212"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)416616-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "9910642249802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Confessions.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Augustine,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pilkington, J. G.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Heritage Press"
+    ],
+    "date": "[1963]",
+    "year": 1963,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "xxx, 296 p.",
+    "illustrations": "20 col. plates.",
+    "dimensions": "27 cm"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "id": "marc:001:in00026810635",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026810635",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026810635",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 31017194 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)218068"
+    },
+    {
+      "type": "Local",
+      "value": "9910011032402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Catullus,",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Catullus, Gaius Valerius.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Gregory, Horace,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Catullus, Gaius Valerius.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Covici-Friede,"
+    ],
+    "date": "1931.",
+    "year": 1931,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "ix, 351 pages",
+    "illustrations": "frontispiece, illustrations plates",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Catullus, Gaius Valerius",
+      "type": "topical"
+    },
+    {
+      "value": "Catullus, Gaius Valerius.",
+      "type": "topical"
+    },
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Elegiac poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Elegiac poetry, Latin.",
+      "type": "topical"
+    },
+    {
+      "value": "Epigrams, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Epigrams, Latin.",
+      "type": "topical"
+    },
+    {
+      "value": "Love poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Love poetry, Latin.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)605665269",
+      "Poems of Catullus."
+    ]
+  }
+}

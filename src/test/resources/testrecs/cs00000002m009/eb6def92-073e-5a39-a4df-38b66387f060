@@ -1,0 +1,133 @@
+{
+  "id": "marc:001:in00029951338",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029951338",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029951338",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781598530834"
+    },
+    {
+      "type": "ISBN",
+      "value": "1598530836"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2010924276"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)824777076"
+    },
+    {
+      "type": "Local",
+      "value": "9910510248802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Countee Cullen",
+      "type": "alternative"
+    },
+    {
+      "value": "Countee Cullen, collected poems",
+      "type": "alternative"
+    },
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cullen, Countee,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jackson, Major,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "Library of America,"
+    ],
+    "date": "©2013.",
+    "year": 2013,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xxxv, 298 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "African Americans",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American poets project ;",
+      "numbering": "32"
+    },
+    {
+      "title": "American poets project ;",
+      "numbering": "32."
+    }
+  ]
+}

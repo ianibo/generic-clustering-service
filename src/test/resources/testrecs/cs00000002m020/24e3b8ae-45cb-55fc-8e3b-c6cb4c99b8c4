@@ -1,0 +1,126 @@
+{
+  "id": "marc:001:in00028276871",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028276871",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028276871",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0316184136"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780316184137"
+    },
+    {
+      "type": "ISBN",
+      "value": "0329027654"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780329027650"
+    },
+    {
+      "type": "LCCN",
+      "value": " 97219964 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)38557156"
+    },
+    {
+      "type": "Local",
+      "value": "9911836104002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Emily Dickinson",
+      "type": "alternative"
+    },
+    {
+      "value": "The complete poems of Emily Dickinson /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickinson, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Johnson, Thomas Herbert.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Back Bay Books, Little, Brown and Co.,"
+    ],
+    "date": "[1997]",
+    "year": 1997,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "xiii, 770 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

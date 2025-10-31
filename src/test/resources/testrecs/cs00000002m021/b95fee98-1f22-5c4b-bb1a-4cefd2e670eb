@@ -1,0 +1,80 @@
+{
+  "id": "marc:001:in00030164565",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030164565",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030164565",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)8380466"
+    },
+    {
+      "type": "Local",
+      "value": "9911093529002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little Dorrit /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Browne, Hablot Knight,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Bradbury and Evans,"
+    ],
+    "date": "1857.",
+    "year": 1857,
+    "countryCode": "f b"
+  },
+  "physical": {
+    "extent": "[v]-xiv, 625 pages :",
+    "illustrations": "frontispiece, plates ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "series": [
+    {
+      "title": "Library of English literature ;",
+      "numbering": "LEL 10681."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 06026438"
+    ]
+  }
+}

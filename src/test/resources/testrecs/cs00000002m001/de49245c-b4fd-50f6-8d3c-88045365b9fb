@@ -1,0 +1,134 @@
+{
+  "id": "marc:001:in00028482652",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028482652",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028482652",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 2023657331"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)305377"
+    },
+    {
+      "type": "Local",
+      "value": "9912111847702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The history of Tom Jones : a foundling /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fielding, Henry,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Sherburn, George,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    },
+    {
+      "name": "Gorey, Edward,",
+      "role": "cover designer.",
+      "kind": "person"
+    },
+    {
+      "name": "Glen Emil Gorey Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Vintage Books, a division of Random House,"
+    ],
+    "date": "1950.",
+    "year": 1950,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xvi, 883 pages ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings",
+      "type": "topical"
+    },
+    {
+      "value": "Humorous fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Identity (Psychology)",
+      "type": "topical"
+    },
+    {
+      "value": "London (England)",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Picaresque literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Young men",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Vintage book ;",
+      "numbering": "A-130"
+    }
+  ]
+}

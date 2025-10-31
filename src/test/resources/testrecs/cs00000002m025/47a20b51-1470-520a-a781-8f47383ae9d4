@@ -1,0 +1,139 @@
+{
+  "id": "marc:001:in00029984166",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029984166",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029984166",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1852352566"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781852352561"
+    },
+    {
+      "type": "ISBN",
+      "value": "1852352558"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781852352554"
+    },
+    {
+      "type": "ISBN",
+      "value": "1852352620"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781852352622"
+    },
+    {
+      "type": "LCCN",
+      "value": " 00270211 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)43378619"
+    },
+    {
+      "type": "Local",
+      "value": "9910202171902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mahon, Derek,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oldcastle, County Meath, Ireland :"
+    ],
+    "publisher": [
+      "Gallery Books,"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "288 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Irish poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Irish poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Gallery books"
+    },
+    {
+      "title": "Gallery books."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)680282113",
+      "Collected poems."
+    ]
+  }
+}

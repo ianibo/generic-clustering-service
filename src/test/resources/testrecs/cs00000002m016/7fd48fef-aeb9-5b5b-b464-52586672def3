@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00027139174",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027139174",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027139174",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300072953"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300072952"
+    },
+    {
+      "type": "LCCN",
+      "value": " 97026557 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)37254389"
+    },
+    {
+      "type": "Local",
+      "value": "9910836726702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Letters and personal writings /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Claghorn, George S.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "1998.",
+    "year": 1998,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xxiv, 854 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Congregational churches",
+      "type": "topical"
+    },
+    {
+      "value": "Edwards, Jonathan,",
+      "type": "topical"
+    },
+    {
+      "value": "New England",
+      "type": "topical"
+    },
+    {
+      "value": "Personal correspondence",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The works of Jonathan Edwards ;",
+      "numbering": "v. 16"
+    }
+  ]
+}

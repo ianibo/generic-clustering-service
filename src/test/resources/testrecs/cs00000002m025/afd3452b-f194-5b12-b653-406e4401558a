@@ -1,0 +1,104 @@
+{
+  "id": "marc:001:in00029709855",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029709855",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029709855",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1565630890"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781565630895"
+    },
+    {
+      "type": "LCCN",
+      "value": " 00053907 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)45263989"
+    },
+    {
+      "type": "Local",
+      "value": "9910492916302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Biblia Hebraica Leningradensia",
+      "type": "alternative"
+    },
+    {
+      "value": "[Torah Neviʼim u-Khetuvim] = Biblia Hebraica Leningradensia : prepared according to the vocalization, accents, and masora of Aaron ben Moses ben Asher in the Leningrad Codex /",
+      "type": "main"
+    },
+    {
+      "value": "Bible.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ben-Asher, Aaron ben Moses,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Dotan, Aron,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "heb"
+  ],
+  "publication": {
+    "place": [
+      "Peabody, MA :"
+    ],
+    "publisher": [
+      "Hendrickson Publishers,"
+    ],
+    "date": "©2001.",
+    "year": 2001,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxv, 1264 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bible.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)744718546",
+      "[Torah Neviʼim u-Khetuvim]."
+    ]
+  }
+}

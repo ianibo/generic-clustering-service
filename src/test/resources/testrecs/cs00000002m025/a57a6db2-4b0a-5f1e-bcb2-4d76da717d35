@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00027183541",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027183541",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027183541",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0226064581"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780226064581"
+    },
+    {
+      "type": "ISBN",
+      "value": "0226064603"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780226064604"
+    },
+    {
+      "type": "LCCN",
+      "value": " 95010350 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)32167120"
+    },
+    {
+      "type": "Local",
+      "value": "9910380181602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New and selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bonnefoy, Yves,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Naughton, John T.,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Rudolf, Anthony,",
+      "role": "editor",
+      "kind": "person"
+    },
+    {
+      "name": "Bonnefoy, Yves.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bonnefoy, Yves.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fra",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "University of Chicago Press,"
+    ],
+    "date": "1995.",
+    "year": 1995,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxv, 216 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bonnefoy, Yves",
+      "type": "topical"
+    },
+    {
+      "value": "French language materials",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00029081459",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029081459",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029081459",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)11060322"
+    },
+    {
+      "type": "Local",
+      "value": "9910788549802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Quentin Durward.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York,"
+    ],
+    "publisher": [
+      "Dent;",
+      "Dutton"
+    ],
+    "date": "[1947]",
+    "year": 1947,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xii, 474 pages",
+    "dimensions": "17 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1400-1499",
+      "type": "topical"
+    },
+    {
+      "value": "Charles,",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "France.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Louis",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library. Fiction",
+      "numbering": "no. 140"
+    },
+    {
+      "title": "Everyman's library.",
+      "numbering": "no. 140."
+    }
+  ]
+}

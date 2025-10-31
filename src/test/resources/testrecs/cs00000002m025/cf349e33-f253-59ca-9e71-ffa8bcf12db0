@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00027903053",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027903053",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027903053",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0836942124"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780836942125"
+    },
+    {
+      "type": "LCCN",
+      "value": " 72005898 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)363585"
+    },
+    {
+      "type": "Local",
+      "value": "9910197723702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dumas, Alexandre,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Freeport, N.Y.,"
+    ],
+    "publisher": [
+      "Books for Libraries Press"
+    ],
+    "date": "[1972]",
+    "year": 1972,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "1003 pages",
+    "illustrations": "portrait",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dumas, Alexandre,",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "France.",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Short story index reprint series"
+    }
+  ]
+}

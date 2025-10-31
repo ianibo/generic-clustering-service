@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00028700509",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028700509",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028700509",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 46015427 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1810174"
+    },
+    {
+      "type": "Local",
+      "value": "9910437659002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pudney, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Roethke, Theodore,",
+      "role": "former owner.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "John Lane The Bodley Head,"
+    ],
+    "date": "[1946]",
+    "year": 1946,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "48 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Association copies (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "War poetry",
+      "type": "topical"
+    },
+    {
+      "value": "War poetry, English",
+      "type": "topical"
+    },
+    {
+      "value": "War poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "World War, 1939-1945",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609555075",
+      "Selected poems."
+    ]
+  }
+}

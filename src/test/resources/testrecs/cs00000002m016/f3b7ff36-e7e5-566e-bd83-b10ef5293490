@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:in00025782390",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025782390",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025782390",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:54Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:54Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 51002432 "
+    },
+    {
+      "type": "Local",
+      "value": "ocm00882951"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)231848-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910319235302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poetry and prose;",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Shelley, Percy Bysshe,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Modern Library"
+    ],
+    "date": "[1951]",
+    "year": 1951,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xx, 524 p.",
+    "dimensions": "19 cm."
+  },
+  "series": [
+    {
+      "title": "Modern Library college editions ;",
+      "numbering": "T50"
+    },
+    {
+      "title": "Modern Library college editions ;",
+      "numbering": "T50."
+    }
+  ]
+}

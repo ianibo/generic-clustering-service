@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:in00029105654",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029105654",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029105654",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)178997"
+    },
+    {
+      "type": "Local",
+      "value": "9910805860802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Works /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lee, Nathaniel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Stroup, Thomas B.",
+      "role": "editor,",
+      "kind": "person"
+    },
+    {
+      "name": "Cooke, Arthur L.,",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Metuchen, N.J.,"
+    ],
+    "publisher": [
+      "Scarecrow Reprint Corp.,"
+    ],
+    "date": "1968 [1954-55]",
+    "year": 1968,
+    "countryCode": "nju"
+  },
+  "physical": {
+    "extent": "2 volumes",
+    "illustrations": "facsimiles",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1600-1699",
+      "type": "topical"
+    },
+    {
+      "value": "Drama",
+      "type": "topical"
+    },
+    {
+      "value": "Drama.",
+      "type": "topical"
+    },
+    {
+      "value": "English drama",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)558541729",
+      "Works."
+    ]
+  }
+}

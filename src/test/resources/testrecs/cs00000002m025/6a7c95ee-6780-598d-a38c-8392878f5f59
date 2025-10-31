@@ -1,0 +1,166 @@
+{
+  "id": "marc:001:in00029142520",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029142520",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029142520",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "3518030531"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783518030530"
+    },
+    {
+      "type": "ISBN",
+      "value": "3518030558"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783518030554"
+    },
+    {
+      "type": "ISBN",
+      "value": "3518030582"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783518030585"
+    },
+    {
+      "type": "ISBN",
+      "value": "3518029673"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783518029671"
+    },
+    {
+      "type": "ISBN",
+      "value": "3518029681"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783518029688"
+    },
+    {
+      "type": "ISBN",
+      "value": "3518025643"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783518025642"
+    },
+    {
+      "type": "ISBN",
+      "value": "3518029657"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783518029657"
+    },
+    {
+      "type": "ISBN",
+      "value": "3518029665"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783518029664"
+    },
+    {
+      "type": "ISBN",
+      "value": "351802969X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783518029695"
+    },
+    {
+      "type": "LCCN",
+      "value": " 84228090 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)11676224"
+    },
+    {
+      "type": "Local",
+      "value": "9910451237602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Goethe edition",
+      "type": "alternative"
+    },
+    {
+      "value": "Goethe's collected works.",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "[Cambridge, Mass.] :"
+    ],
+    "publisher": [
+      "Suhrkamp/Insel Publishers Boston,"
+    ],
+    "date": "©1983-©1989.",
+    "year": 1983,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "12 volumes ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Goethe, Johann Wolfgang von,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)795311986",
+      "Goethe's collected works."
+    ]
+  }
+}

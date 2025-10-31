@@ -1,0 +1,197 @@
+{
+  "id": "marc:001:in00028519101",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028519101",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028519101",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 43018005 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)9634307"
+    },
+    {
+      "type": "Local",
+      "value": "9910057770302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Wuthering Heights /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Emily,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Eichenberg, Fritz,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Rogers, Bruce,",
+      "role": "former owner.",
+      "kind": "person"
+    },
+    {
+      "name": "Heritage Press (New York, N.Y.)",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Frederic W. Goudy Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Pforzheimer Bruce Rogers Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Random House,"
+    ],
+    "date": "1943.",
+    "year": 1943,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "xiii, 212 pages, 14 unnumbered leaves of plates :",
+    "illustrations": "illustrations ;",
+    "dimensions": "26 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "English literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Love triangles.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Rejection (Psychology)",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Rural families",
+      "type": "topical"
+    },
+    {
+      "value": "Triangles (Interpersonal relations)",
+      "type": "topical"
+    },
+    {
+      "value": "Wood engravings",
+      "type": "topical"
+    },
+    {
+      "value": "Wood engravings.",
+      "type": "topical"
+    },
+    {
+      "value": "Yorkshire (England)",
+      "type": "topical"
+    },
+    {
+      "value": "wood engravings (prints)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American Institute of Graphic Arts"
+    },
+    {
+      "title": "Keepsake (American Institute of Graphic Arts)"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609548013",
+      "Wuthering Heights."
+    ]
+  }
+}

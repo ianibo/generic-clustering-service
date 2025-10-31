@@ -1,0 +1,90 @@
+{
+  "id": "marc:001:in00027708646",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027708646",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027708646",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)13045728"
+    },
+    {
+      "type": "Local",
+      "value": "9910396310302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gulliver's travels.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "publisher": [
+      "Collier,"
+    ],
+    "date": "1903.",
+    "year": 1903,
+    "countryCode": "j 0"
+  },
+  "physical": {
+    "extent": "384 pages",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Gulliver, Lemuel",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Library for young people"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)589923297",
+      "(OCoLC)609013106",
+      "Gulliver's travels."
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00026593932",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026593932",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026593932",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "x280344561"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)10595208"
+    },
+    {
+      "type": "Local",
+      "value": "9910311012402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Henley, William Ernest,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "D. Nutt,"
+    ],
+    "date": "1898.",
+    "year": 1898,
+    "countryCode": "cf "
+  },
+  "physical": {
+    "extent": "xiii, [1], 255, [1] pages, 1 unnumbered leaf of plates :",
+    "illustrations": "portrait ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647587674",
+      "Poems."
+    ]
+  }
+}

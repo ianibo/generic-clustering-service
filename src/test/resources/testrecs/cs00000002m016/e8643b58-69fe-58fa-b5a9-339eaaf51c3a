@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00028789833",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028789833",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028789833",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)3918676"
+    },
+    {
+      "type": "Local",
+      "value": "9910707873202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Histories",
+      "type": "alternative"
+    },
+    {
+      "value": "The annals and the histories /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tacitus, Cornelius.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Church, Alfred John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Brodribb, William Jackson,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lloyd-Jones, Hugh,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Tacitus, Cornelius.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Twayne Publishers,"
+    ],
+    "date": "[1964]",
+    "year": 1964,
+    "countryCode": "bj "
+  },
+  "physical": {
+    "extent": "xlvii, 524 pages :",
+    "illustrations": "genealogical tables, folded map ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "30 B.C.-96 A.D",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Rome",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Great histories."
+    }
+  ]
+}

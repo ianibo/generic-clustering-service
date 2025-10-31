@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00029031311",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029031311",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029031311",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0534389937"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780534389932"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003108099"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)54778283"
+    },
+    {
+      "type": "Local",
+      "value": "9910208435302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Numerical mathematics and computing /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cheney, E. W.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kincaid, David",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "5th ed."
+  },
+  "publication": {
+    "place": [
+      "Belmont, CA :"
+    ],
+    "publisher": [
+      "Thomson-Brooks/Cole,"
+    ],
+    "date": "©2004.",
+    "year": 2004,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xviii, 817 pages :",
+    "illustrations": "illustrations (some color) ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Numerical analysis",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654157631",
+      "Numerical mathematics and computing."
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00027498644",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027498644",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027498644",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 37027280 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)964304"
+    },
+    {
+      "type": "Local",
+      "value": "9910071823502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems of Edwin Arlington Robinson.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Robinson, Edwin Arlington,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Macmillan Co.,"
+    ],
+    "date": "1937.",
+    "year": 1937,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "xii, 1498 pages :",
+    "illustrations": "frontispiece (portrait) ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)590316351",
+      "Collected poems of Edwin Arlington Robinson."
+    ]
+  }
+}

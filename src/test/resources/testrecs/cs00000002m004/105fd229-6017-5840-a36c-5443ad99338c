@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:in00028307771",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028307771",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028307771",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)6169996"
+    },
+    {
+      "type": "Local",
+      "value": "9910016836902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gulliver's travels. /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Corbino, Jon,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Garden City, N.Y. :"
+    ],
+    "publisher": [
+      "Garden City Publishing Company,"
+    ],
+    "date": "1948.",
+    "year": 1948,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "v-x, 308 pages :",
+    "illustrations": "illustrations (some color) ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fantasy fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Satire.",
+      "type": "topical"
+    },
+    {
+      "value": "Toleration",
+      "type": "topical"
+    },
+    {
+      "value": "Toleration.",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages and travels",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages and travels.",
+      "type": "topical"
+    }
+  ]
+}

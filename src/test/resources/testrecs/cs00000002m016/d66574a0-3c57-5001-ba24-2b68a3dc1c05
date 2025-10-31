@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:gsouin00003032364",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsouin00003032364",
+    "sourceRecordUri": "https://catalog.example.org/record/gsouin00003032364",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1035096869"
+    },
+    {
+      "type": "Local",
+      "value": "(CaSfKAN)kan3119571"
+    },
+    {
+      "type": "Local",
+      "value": "9916148282202950"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "3119571"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Salle, Jerome,",
+      "role": "filmmaker",
+      "kind": "person"
+    },
+    {
+      "name": "Samuel Goldwyn Films (Firm),",
+      "role": "dst",
+      "kind": "corporate"
+    },
+    {
+      "name": "Kanopy (Firm),",
+      "role": "dst",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "publisher": [
+      "Samuel Goldwyn Films,"
+    ],
+    "date": "2016.",
+    "year": 2016,
+    "countryCode": "cau"
+  },
+  "physical": {
+    "extent": "1 online resource (streaming video file) (124 minutes):",
+    "illustrations": "digital, .flv file, sound",
+    "contentType": "two-dimensional moving image",
+    "mediaType": "computer",
+    "carrierType": "online resource"
+  },
+  "subjects": [
+    {
+      "value": "European/Baltic Studies",
+      "type": "topical"
+    },
+    {
+      "value": "Feature films. ",
+      "type": "topical"
+    },
+    {
+      "value": "Foreign language films",
+      "type": "topical"
+    },
+    {
+      "value": "Motion pictures",
+      "type": "topical"
+    }
+  ]
+}

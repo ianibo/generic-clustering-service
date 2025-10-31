@@ -1,0 +1,138 @@
+{
+  "id": "marc:001:in00028609113",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028609113",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028609113",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780395979747"
+    },
+    {
+      "type": "ISBN",
+      "value": "0395979749"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780544105140"
+    },
+    {
+      "type": "ISBN",
+      "value": "0544105141"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781484414200"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781489806543"
+    },
+    {
+      "type": "ISBN",
+      "value": "1484414209"
+    },
+    {
+      "type": "ISBN",
+      "value": "1489806547"
+    },
+    {
+      "type": "LCCN",
+      "value": " 99025272 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)41108622"
+    },
+    {
+      "type": "Local",
+      "value": "9910428226402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The sign painter /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Say, Allen,",
+      "role": "author,",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston, Mass. :"
+    ],
+    "publisher": [
+      "Houghton Mifflin,"
+    ],
+    "date": "2000.",
+    "year": 2000,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "32 pages :",
+    "illustrations": "color illustrations ;",
+    "dimensions": "23 x 28 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Artists",
+      "type": "topical"
+    },
+    {
+      "value": "Choice (Psychology)",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works",
+      "type": "topical"
+    },
+    {
+      "value": "Picture books",
+      "type": "topical"
+    },
+    {
+      "value": "Picture books for children.",
+      "type": "topical"
+    },
+    {
+      "value": "Picture books.",
+      "type": "topical"
+    },
+    {
+      "value": "Signs and signboards",
+      "type": "topical"
+    },
+    {
+      "value": "picture books.",
+      "type": "topical"
+    }
+  ]
+}

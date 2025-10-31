@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00030117578",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030117578",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030117578",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 07023869 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4781239"
+    },
+    {
+      "type": "Local",
+      "value": "9910281826902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Crabbe, George,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ward, Adolphus William,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cambridge,"
+    ],
+    "publisher": [
+      "The University Press,"
+    ],
+    "date": "1905-07.",
+    "year": 1905,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "3 volumes",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1899",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Cambridge English classics"
+    },
+    {
+      "title": "Cambridge English classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)557997042",
+      "Poems."
+    ]
+  }
+}

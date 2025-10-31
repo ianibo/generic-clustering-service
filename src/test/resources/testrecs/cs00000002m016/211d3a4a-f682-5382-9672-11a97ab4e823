@@ -1,0 +1,229 @@
+{
+  "id": "marc:001:in00028064565",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028064565",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028064565",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0815321694"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815321699"
+    },
+    {
+      "type": "ISBN",
+      "value": "081532779X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815327790"
+    },
+    {
+      "type": "ISBN",
+      "value": "0815321708"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815321705"
+    },
+    {
+      "type": "ISBN",
+      "value": "0815323980"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815323983"
+    },
+    {
+      "type": "ISBN",
+      "value": "0815324278"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815324270"
+    },
+    {
+      "type": "ISBN",
+      "value": "0815323018"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815323013"
+    },
+    {
+      "type": "ISBN",
+      "value": "0815324057"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815324058"
+    },
+    {
+      "type": "ISBN",
+      "value": "0815321716"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815321712"
+    },
+    {
+      "type": "ISBN",
+      "value": "0815324065"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815324065"
+    },
+    {
+      "type": "ISBN",
+      "value": "0815324073"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815324072"
+    },
+    {
+      "type": "ISBN",
+      "value": "0815324081"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815324089"
+    },
+    {
+      "type": "ISBN",
+      "value": "081532409X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815324096"
+    },
+    {
+      "type": "ISBN",
+      "value": "0815324286"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815324287"
+    },
+    {
+      "type": "ISBN",
+      "value": "0815324103"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815324102"
+    },
+    {
+      "type": "ISBN",
+      "value": "0815324111"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815324119"
+    },
+    {
+      "type": "LCCN",
+      "value": " 97702536 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)37199623"
+    },
+    {
+      "type": "Local",
+      "value": "9910793321402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Music of the new American nation : sacred music from 1780 to 1820 : a Garland series /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kroeger, Karl.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York] :"
+    ],
+    "publisher": [
+      "Garland,"
+    ],
+    "date": "[1995]-1999.",
+    "year": 1995,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "1 score (15 volumes) ;",
+    "dimensions": "29 cm",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700 - 1899",
+      "type": "topical"
+    },
+    {
+      "value": "Canons, fugues, etc. (Vocal)",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices), Unaccompanied",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices), Unaccompanied.",
+      "type": "topical"
+    },
+    {
+      "value": "Hymns, English",
+      "type": "topical"
+    },
+    {
+      "value": "Hymns.",
+      "type": "topical"
+    },
+    {
+      "value": "Psalms (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred vocal music",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "psalms.",
+      "type": "topical"
+    }
+  ]
+}

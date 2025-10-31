@@ -1,0 +1,139 @@
+{
+  "id": "marc:001:in00026636254",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026636254",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026636254",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1582790337"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781582790336"
+    },
+    {
+      "type": "ISBN",
+      "value": "1582790450"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781582790459"
+    },
+    {
+      "type": "LCCN",
+      "value": " 00699921 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)44699670"
+    },
+    {
+      "type": "Local",
+      "value": "9911281550202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Wuthering Heights /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Emily,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Tarrant, Percy,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Naples, Fla.] :"
+    ],
+    "publisher": [
+      "Trident Press International,"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": "flu"
+  },
+  "physical": {
+    "extent": "355 pages, 14 unnumbered leaves of plates :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Rejection (Psychology)",
+      "type": "topical"
+    },
+    {
+      "value": "Rural families",
+      "type": "topical"
+    },
+    {
+      "value": "Triangles (Interpersonal relations)",
+      "type": "topical"
+    },
+    {
+      "value": "Yorkshire (England)",
+      "type": "topical"
+    }
+  ]
+}

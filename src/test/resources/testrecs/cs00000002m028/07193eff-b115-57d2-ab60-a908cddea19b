@@ -1,0 +1,63 @@
+{
+  "id": "marc:001:in00030272323",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030272323",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030272323",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1700791"
+    },
+    {
+      "type": "Local",
+      "value": "9910938028002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of Sidney Lanier.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lanier, Sidney,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "N.Y.,"
+    ],
+    "publisher": [
+      "Scribner,"
+    ],
+    "date": "1929.",
+    "year": 1929,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "256 pages",
+    "illustrations": "portrait",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

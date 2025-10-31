@@ -1,0 +1,74 @@
+{
+  "id": "marc:001:in00027192360",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027192360",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027192360",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)11095461"
+    },
+    {
+      "type": "Local",
+      "value": "9911125330002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bierce, Ambrose,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Gordian Press,"
+    ],
+    "date": "1909-66.",
+    "year": 1909,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "12 volumes",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "series": [
+    {
+      "title": "Library of American civilization ;",
+      "numbering": "LAC 23349-54."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894743034",
+      "Collected works."
+    ]
+  }
+}

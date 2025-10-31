@@ -1,0 +1,102 @@
+{
+  "id": "marc:001:in00026690068",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026690068",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026690068",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0899663710"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780899663715"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)16162205"
+    },
+    {
+      "type": "Local",
+      "value": "9911071197202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "A tale of two cities. /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cutchogue, N.Y. :"
+    ],
+    "publisher": [
+      "Buccaneer Books,"
+    ],
+    "date": "©1987.",
+    "year": 1987,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "260 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1789-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Epic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "France.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    }
+  ]
+}

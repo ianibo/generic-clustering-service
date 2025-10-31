@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00027319215",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027319215",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027319215",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1598530062"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781598530063"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2006048657"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)71146530"
+    },
+    {
+      "type": "Local",
+      "value": "9910519602202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Koch, Kenneth,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Padgett, Ron,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York] :"
+    ],
+    "publisher": [
+      "Library of America,"
+    ],
+    "date": "©2007.",
+    "year": 2007,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xxxii, 190 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American poets project ;",
+      "numbering": "24"
+    },
+    {
+      "title": "American poets project ;",
+      "numbering": "24."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)595388780",
+      "(OCoLC)608168730",
+      "Selected poems."
+    ]
+  }
+}

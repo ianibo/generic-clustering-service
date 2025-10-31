@@ -1,0 +1,90 @@
+{
+  "id": "marc:001:ghcin00000143026",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ghcin00000143026",
+    "sourceRecordUri": "https://catalog.example.org/record/ghcin00000143026",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 78515717"
+    },
+    {
+      "type": "Local",
+      "value": "(Voyager)6270-fcdb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_FLOYD)9962703702946"
+    },
+    {
+      "type": "Local",
+      "value": "9962703702946"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Life of Johnson;",
+      "type": "main"
+    },
+    {
+      "value": "Life of Samuel Johnson",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Boswell, James,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Chapman, R. W.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York,"
+    ],
+    "publisher": [
+      "Oxford U.P.,"
+    ],
+    "date": "1953.",
+    "year": 1953,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxiv, 1492 p.",
+    "dimensions": "21 cm."
+  },
+  "subjects": [
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford paperbacks,",
+      "numbering": "204"
+    }
+  ]
+}

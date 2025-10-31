@@ -1,0 +1,215 @@
+{
+  "id": "marc:001:in00026235375",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026235375",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026235375",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 30030772 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)273406"
+    },
+    {
+      "type": "Local",
+      "value": "9910438701302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Whale",
+      "type": "alternative"
+    },
+    {
+      "value": "Moby Dick; or, The whale /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Kent, Rockwell,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Random House (Firm),",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Random House,"
+    ],
+    "date": "1930.",
+    "year": 1930,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xxxi, 1 unnumbered page, 822 pages, 3 unnumbered leaves :",
+    "illustrations": "illustrations ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Action and adventure fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Action and adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab,",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Illustrated works",
+      "type": "topical"
+    },
+    {
+      "value": "Illustrated works.",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction, American",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Sea fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories, American",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling in literature",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling ships",
+      "type": "topical"
+    },
+    {
+      "value": "illustrated books.",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    },
+    {
+      "value": "rare books.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Modern Library"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)574855868",
+      "(OCoLC)608374816",
+      "Moby Dick."
+    ]
+  }
+}

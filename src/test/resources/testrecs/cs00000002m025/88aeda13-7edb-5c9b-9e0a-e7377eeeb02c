@@ -1,0 +1,133 @@
+{
+  "id": "marc:001:in00028027542",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028027542",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028027542",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0845076302"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780845076309"
+    },
+    {
+      "type": "LCCN",
+      "value": " 95752383 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)31885310"
+    },
+    {
+      "type": "Local",
+      "value": "9910143665702931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "0845076302"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Richard, Etienne,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Gustafson, Bruce,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Richard, Pierre,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Richard, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Broude Trust,"
+    ],
+    "date": "©1994.",
+    "year": 1994,
+    "countryCode": "dfz"
+  },
+  "physical": {
+    "extent": "xix pages, 49 pages of music :",
+    "illustrations": "facsimile ;",
+    "dimensions": "31 cm.",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dance music",
+      "type": "topical"
+    },
+    {
+      "value": "Dance music.",
+      "type": "topical"
+    },
+    {
+      "value": "Keyboard instrument music",
+      "type": "topical"
+    },
+    {
+      "value": "Keyboard instrument music.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The art of the keyboard ;",
+      "numbering": "3"
+    },
+    {
+      "title": "Art of the keyboard ;",
+      "numbering": "3."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)639423853",
+      "Collected works."
+    ]
+  }
+}

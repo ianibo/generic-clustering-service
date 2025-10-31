@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:in00030200676",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030200676",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030200676",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0391035967"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780391035966"
+    },
+    {
+      "type": "ISBN",
+      "value": "0391035975"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780391035973"
+    },
+    {
+      "type": "LCCN",
+      "value": " 88013034 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)18136836"
+    },
+    {
+      "type": "Local",
+      "value": "9910365782302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gulliver's travels /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tippett, Brian,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Atlantic Highlands, NJ :"
+    ],
+    "publisher": [
+      "Humanities Press International,"
+    ],
+    "date": "1989.",
+    "year": 1989,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "99 pages ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Gulliver's travels (Swift, Jonathan)",
+      "type": "topical"
+    },
+    {
+      "value": "Imaginary societies in literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Satire, English",
+      "type": "topical"
+    },
+    {
+      "value": "Satire, English.",
+      "type": "topical"
+    },
+    {
+      "value": "Swift, Jonathan,",
+      "type": "topical"
+    },
+    {
+      "value": "Travelers in literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Critics debate"
+    },
+    {
+      "title": "Critics debate."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:ungin00000552191",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ungin00000552191",
+    "sourceRecordUri": "https://catalog.example.org/record/ungin00000552191",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "ocm08063488"
+    },
+    {
+      "type": "Local",
+      "value": "(GStG)623491-gasouthdb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_UNG)993947183702960"
+    },
+    {
+      "type": "Local",
+      "value": "993947183702960"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Muller, Herbert J.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Bantam Books,"
+    ],
+    "date": "1960, c1958.",
+    "year": 1960,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "398 p. :",
+    "illustrations": "ill. ;",
+    "dimensions": "18 cm."
+  },
+  "subjects": [
+    {
+      "value": "Homer.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Bantam classic"
+    },
+    {
+      "title": "Bantam classic."
+    }
+  ]
+}

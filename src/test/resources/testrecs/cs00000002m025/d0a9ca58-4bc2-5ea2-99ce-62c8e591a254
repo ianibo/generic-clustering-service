@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00027380172",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027380172",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027380172",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0802051464"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802051462"
+    },
+    {
+      "type": "LCCN",
+      "value": "nuc65068750 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5278215"
+    },
+    {
+      "type": "Local",
+      "value": "9910027581102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Principles of political economy : with some of their applications to social philosophy /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Robson, John M.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Toronto :"
+    ],
+    "publisher": [
+      "University of Toronto Press,"
+    ],
+    "date": "©1965.",
+    "year": 1965,
+    "countryCode": "fh "
+  },
+  "physical": {
+    "extent": "2 volumes (xciv, 1166 pages), [1] leaf of plates :",
+    "illustrations": "facsimiles ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Economics.",
+      "type": "topical"
+    },
+    {
+      "value": "economics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Collected works of John Stuart Mill ;",
+      "numbering": "v. 2-3"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)893942600",
+      "Principles of political economy."
+    ]
+  }
+}

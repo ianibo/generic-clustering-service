@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:in00027769814",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027769814",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027769814",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780875653525"
+    },
+    {
+      "type": "ISBN",
+      "value": "0875653529"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2007011511"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)104870146"
+    },
+    {
+      "type": "Local",
+      "value": "(GUA)3373576"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)3373576-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910109851802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Grace and gumption",
+      "type": "alternative"
+    },
+    {
+      "value": "Grace & gumption : stories of Fort Worth women /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sherrod, Katie.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Fort Worth, Tex. :"
+    ],
+    "publisher": [
+      "TCU Press,"
+    ],
+    "date": "c2007.",
+    "year": 2007,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xiv, 308 p. :",
+    "illustrations": "ill. ;",
+    "dimensions": "29 cm"
+  },
+  "subjects": [
+    {
+      "value": "Biography.",
+      "type": "topical"
+    },
+    {
+      "value": "Women",
+      "type": "topical"
+    }
+  ]
+}

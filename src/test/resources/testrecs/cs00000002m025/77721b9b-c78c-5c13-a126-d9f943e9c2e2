@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00029032780",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029032780",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029032780",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)16118847"
+    },
+    {
+      "type": "Local",
+      "value": "9916325344402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Odyssey",
+      "type": "alternative"
+    },
+    {
+      "value": "The Odyssey of Homer /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Lattimore, Richmond,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "First Harper Torchbook edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Harper & Row,"
+    ],
+    "date": "1968",
+    "year": 1968,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "x, 374 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Harper torchbooks ;",
+      "numbering": "TB 1389"
+    },
+    {
+      "title": "Harper torchbooks ;",
+      "numbering": "1389."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)646965220",
+      "Odyssey of Homer."
+    ]
+  }
+}

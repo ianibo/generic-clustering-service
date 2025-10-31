@@ -1,0 +1,86 @@
+{
+  "id": "marc:001:in00028568728",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028568728",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028568728",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0590023195"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780590023191"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)45688581"
+    },
+    {
+      "type": "Local",
+      "value": "9911060695002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "A Drop of Water : a book of science and wonder /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wick, Walter.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Scholastic,"
+    ],
+    "date": "1998, ©1997.",
+    "year": 1998,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "40 pages :",
+    "illustrations": "color illustrations ;",
+    "dimensions": "29 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "Water",
+      "type": "topical"
+    },
+    {
+      "value": "Water.",
+      "type": "topical"
+    }
+  ]
+}

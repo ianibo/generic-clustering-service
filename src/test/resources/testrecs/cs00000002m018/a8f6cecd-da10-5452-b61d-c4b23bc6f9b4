@@ -1,0 +1,120 @@
+{
+  "id": "marc:001:in00028593701",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028593701",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028593701",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140430717"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140430714"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)20365129"
+    },
+    {
+      "type": "Local",
+      "value": "9910249498302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Waverley /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hook, Andrew,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York, N.Y., U.S.A. :"
+    ],
+    "publisher": [
+      "Penguin ;",
+      "Viking Penguin,"
+    ],
+    "date": "1985, ©1972.",
+    "year": 1985,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "608 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Jacobite Rebellion, 1745-1746",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "War stories.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

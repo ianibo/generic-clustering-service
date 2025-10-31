@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:gsuin00004420658",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004420658",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004420658",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140437304"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)42701160"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)1089705-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9910897053402952"
+    },
+    {
+      "type": "Local",
+      "value": "9910897053402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "A tale of two cities /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Maxwell, Richard,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin,"
+    ],
+    "date": "2000.",
+    "year": 2000,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "li, 481 p. :",
+    "illustrations": "ill. ;",
+    "dimensions": "20 cm."
+  },
+  "subjects": [
+    {
+      "value": "City and town life",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

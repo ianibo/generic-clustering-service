@@ -1,0 +1,115 @@
+{
+  "id": "marc:001:clsuin00000330439",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "clsuin00000330439",
+    "sourceRecordUri": "https://catalog.example.org/record/clsuin00000330439",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0130422983"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2001053144"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)ocm"
+    },
+    {
+      "type": "Local",
+      "value": "(GMorC)89312-claytondb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_CLAYTON)99893123502937"
+    },
+    {
+      "type": "Local",
+      "value": "99893123502937"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anatomy and physiology for emergency care",
+      "type": "alternative"
+    },
+    {
+      "value": "Anatomy & physiology for emergency care /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Martini, Frederic.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bartholomew, Edwin F.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bledsoe, Bryan E.,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ober, William C.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Martini, Frederic.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Upper Saddle River, N.J. :"
+    ],
+    "publisher": [
+      "Prentice Hall,"
+    ],
+    "date": "c2002.",
+    "year": 2002,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "1 v. (various pagings) :",
+    "illustrations": "col. ill. ;",
+    "dimensions": "29 cm"
+  },
+  "subjects": [
+    {
+      "value": "Emergency medical services.",
+      "type": "topical"
+    },
+    {
+      "value": "Human anatomy.",
+      "type": "topical"
+    },
+    {
+      "value": "Human physiology.",
+      "type": "topical"
+    }
+  ]
+}

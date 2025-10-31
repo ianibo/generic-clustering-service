@@ -1,0 +1,63 @@
+{
+  "id": "marc:001:in00029312910",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029312910",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029312910",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)13996227"
+    },
+    {
+      "type": "Local",
+      "value": "9911646337002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Nelson, Albert W.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Place of publication not identified]"
+    ],
+    "publisher": [
+      "Creative Graphics by Lander,"
+    ],
+    "date": "1966.",
+    "year": 1966,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "27 pages",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

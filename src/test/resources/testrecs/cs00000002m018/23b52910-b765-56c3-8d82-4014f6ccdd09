@@ -1,0 +1,72 @@
+{
+  "id": "marc:001:gsuin00004494087",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004494087",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004494087",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "13020105"
+    },
+    {
+      "type": "Local",
+      "value": "ocm01594096"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)353967-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)993357763402952"
+    },
+    {
+      "type": "Local",
+      "value": "993357763402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Loveman, Robert,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia,"
+    ],
+    "publisher": [
+      "J.B. Lippincott company,"
+    ],
+    "date": "1897.",
+    "year": 1897,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "100 p.",
+    "dimensions": "20 cm"
+  }
+}

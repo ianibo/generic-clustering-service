@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:in00026802691",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026802691",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026802691",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0691017697"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691017693"
+    },
+    {
+      "type": "LCCN",
+      "value": " 70126833 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1238398"
+    },
+    {
+      "type": "Local",
+      "value": "9911080495902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "On the Iliad /",
+      "type": "main"
+    },
+    {
+      "value": "De l'Iliade.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bespaloff, Rachel,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "McCarthy, Mary,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Broch, Hermann,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    },
+    {
+      "name": "Bespaloff, Rachel.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Princeton, N.J."
+    ],
+    "publisher": [
+      "Princeton University Press,"
+    ],
+    "date": "1970.",
+    "year": 1970,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "126 pages",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Homer.",
+      "type": "topical"
+    },
+    {
+      "value": "Iliad (Homer)",
+      "type": "topical"
+    },
+    {
+      "value": "Literary criticism.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Bollingen series,",
+      "numbering": "no. 9"
+    },
+    {
+      "title": "Bollingen series,",
+      "numbering": "no. 9"
+    },
+    {
+      "title": "Bollingen series ;",
+      "numbering": "no. 9."
+    },
+    {
+      "title": "Bollingen series ;",
+      "numbering": "no. 9."
+    }
+  ]
+}

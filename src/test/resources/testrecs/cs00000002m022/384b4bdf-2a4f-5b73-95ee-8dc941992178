@@ -1,0 +1,123 @@
+{
+  "id": "marc:001:in00026747327",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026747327",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026747327",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 67018512 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1294158"
+    },
+    {
+      "type": "Local",
+      "value": "9911216663202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of Samuel Taylor Coleridge.",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Coleridge, Samuel Taylor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Deutsch, Babette,",
+      "role": "compiler.",
+      "kind": "person"
+    },
+    {
+      "name": "Hnizdovsky, Jacques,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Crowell"
+    ],
+    "date": "[1967]",
+    "year": 1967,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "x, 139 pages",
+    "illustrations": "illustrations",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Children's poetry, English",
+      "type": "topical"
+    },
+    {
+      "value": "Children's poetry, English.",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "collective biographies.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Crowell poets."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)891461665",
+      "Poems of Samuel Taylor Coleridge."
+    ]
+  }
+}

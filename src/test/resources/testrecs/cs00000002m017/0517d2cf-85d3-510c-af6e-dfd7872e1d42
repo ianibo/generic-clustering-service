@@ -1,0 +1,145 @@
+{
+  "id": "marc:001:in00027047364",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027047364",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027047364",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "ISBN",
+      "value": "085229476X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852294765"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)910596"
+    },
+    {
+      "type": "Local",
+      "value": "9910848812702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The great conversation : the substance of a liberal education /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hutchins, Robert Maynard,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopaedia Britannica,"
+    ],
+    "date": "[1952]",
+    "year": 1952,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxvii, 131 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Canon (Literature)",
+      "type": "topical"
+    },
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Education, Humanistic",
+      "type": "topical"
+    },
+    {
+      "value": "Education, Humanistic.",
+      "type": "topical"
+    },
+    {
+      "value": "Great books of the Western world",
+      "type": "topical"
+    },
+    {
+      "value": "Guidebook",
+      "type": "topical"
+    },
+    {
+      "value": "Guidebooks",
+      "type": "topical"
+    },
+    {
+      "value": "Guidebooks.",
+      "type": "topical"
+    },
+    {
+      "value": "Humanities",
+      "type": "topical"
+    },
+    {
+      "value": "Humanities.",
+      "type": "topical"
+    },
+    {
+      "value": "humanities.",
+      "type": "topical"
+    },
+    {
+      "value": "travel guidebooks.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 1"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 1."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1287974714",
+      "Great conversation."
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:in00029344214",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029344214",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029344214",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)290115"
+    },
+    {
+      "type": "Local",
+      "value": "9911041090902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Alfred, Lord Tennyson.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tennyson, Alfred Tennyson,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Roslyn, N.Y.,"
+    ],
+    "publisher": [
+      "Black's Readers Service"
+    ],
+    "date": "[©1932]",
+    "year": 1932,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "ix, 308 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Patriotic poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Black's readers service"
+    },
+    {
+      "title": "Black's readers service"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1474011122",
+      "Poems of Alfred, Lord Tennyson."
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "id": "marc:001:in00027047361",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027047361",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027047361",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "LCCN",
+      "value": " 55010360 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)10177502"
+    },
+    {
+      "type": "Local",
+      "value": "9910848812302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The major works of Sigmund Freud /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Freud, Sigmund,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hutchins, Robert Maynard,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Encyclopaedia Britannica, Inc.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "University of Chicago.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "William Bento / Encyclopaedia Britannica,"
+    ],
+    "date": "[1952]",
+    "year": 1952,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "vi, 884 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Collected Work",
+      "type": "topical"
+    },
+    {
+      "value": "Psychoanalysis",
+      "type": "topical"
+    },
+    {
+      "value": "Psychoanalysis.",
+      "type": "topical"
+    },
+    {
+      "value": "psychoanalysis.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western World ;",
+      "numbering": "54"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "54."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894752587",
+      "Major works of Sigmund Freud."
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "marc:001:in00029253157",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029253157",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029253157",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2721894"
+    },
+    {
+      "type": "Local",
+      "value": "(GSaAAS)20051-armstrongdb"
+    },
+    {
+      "type": "Local",
+      "value": "9911636702302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of John Keats;",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Keats, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Allott, Miriam Farris.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[London]",
+      "[New York]"
+    ],
+    "publisher": [
+      "Longman;",
+      "Norton"
+    ],
+    "date": "[1972, c1970]",
+    "year": 1972,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "772 p.",
+    "illustrations": "illus.",
+    "dimensions": "22 cm."
+  },
+  "series": [
+    {
+      "title": "Annotated English poets"
+    }
+  ]
+}

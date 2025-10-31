@@ -1,0 +1,115 @@
+{
+  "id": "marc:001:in00027072674",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027072674",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027072674",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781619253933"
+    },
+    {
+      "type": "ISBN",
+      "value": "1619253933"
+    },
+    {
+      "type": "Other",
+      "value": "99959071412"
+    },
+    {
+      "type": "Other",
+      "value": "40023776962"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2014430999"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)874838845"
+    },
+    {
+      "type": "Local",
+      "value": "9910502908002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "War and peace /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cooke, Brett,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Amenia, NY :",
+      "Ipswich, Massachusetts :"
+    ],
+    "publisher": [
+      "Grey House Publishing,",
+      "Salem Press, a division of EBSCO Information Services, Inc. ;"
+    ],
+    "date": "[2014]",
+    "year": 2014,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "xii, 271 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Realism in literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Tolstoy, Leo,",
+      "type": "topical"
+    },
+    {
+      "value": "Voĭna i mir (Tolstoy, Leo, graf)",
+      "type": "topical"
+    },
+    {
+      "value": "War in literature.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Critical insights"
+    },
+    {
+      "title": "Critical insights."
+    }
+  ]
+}

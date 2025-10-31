@@ -1,0 +1,127 @@
+{
+  "id": "marc:001:in00026854528",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026854528",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026854528",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)4865530"
+    },
+    {
+      "type": "Local",
+      "value": "9911129922202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey of Homer /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pope, Alexander,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Fenton, Elijah,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Broome, William,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Rivington, Charles,",
+      "role": "printer.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Printed by Charles Rivington, for T. Osborne, C. Hitch and L. Hawes, John Rivington, R. Baldwin, W. Johnston, J. Richardson, S. Crowder, P. Davey and B. Law, T. Longman, T. Caslon, T. Field, T. Pote, H. Woodgate and S. Brooks, S. Baker, and T. Payne,"
+    ],
+    "date": "MDCCLX. [1760]",
+    "year": 1760,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "5 v. ;",
+    "dimensions": "22 cm (8vo)",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Gauffered edges (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Morocco bindings (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus (Greek mythology)",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Poems",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)794814133",
+      "Odyssey of Homer."
+    ]
+  }
+}

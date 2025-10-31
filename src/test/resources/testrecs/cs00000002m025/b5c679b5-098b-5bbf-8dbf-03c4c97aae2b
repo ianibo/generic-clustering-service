@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00025859723",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025859723",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025859723",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0856356247"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780856356247"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)15197600"
+    },
+    {
+      "type": "Local",
+      "value": "9910282084402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Winchilsea, Anne Kingsmill Finch,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Thompson, Denys,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Manchester :"
+    ],
+    "publisher": [
+      "Fyfield,"
+    ],
+    "date": "1987.",
+    "year": 1987,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "90 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)568502154",
+      "Selected poems."
+    ]
+  }
+}

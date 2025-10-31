@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:in00030024069",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030024069",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030024069",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0944657079"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780944657072"
+    },
+    {
+      "type": "ISBN",
+      "value": "0944657087"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780944657089"
+    },
+    {
+      "type": "LCCN",
+      "value": " 89061087 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)21297426"
+    },
+    {
+      "type": "Local",
+      "value": "9910045278502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Perez, Rolando.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "St. James, N.Y. :"
+    ],
+    "publisher": [
+      "Brook House Press,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "125 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fables.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)555482845",
+      "Odyssey."
+    ]
+  }
+}

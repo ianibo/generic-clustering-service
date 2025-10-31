@@ -1,0 +1,207 @@
+{
+  "id": "marc:001:in00029597921",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029597921",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029597921",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781561454907"
+    },
+    {
+      "type": "ISBN",
+      "value": "1561454907"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781451737363"
+    },
+    {
+      "type": "ISBN",
+      "value": "145173736X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780329763961"
+    },
+    {
+      "type": "ISBN",
+      "value": "0329763962"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780605954755"
+    },
+    {
+      "type": "ISBN",
+      "value": "0605954755"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2008055968"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)294998755"
+    },
+    {
+      "type": "Local",
+      "value": "9910061247502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Fourteen cows for America",
+      "type": "alternative"
+    },
+    {
+      "value": "14 cows for America /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Deedy, Carmen Agra,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Naiyomah, Wilson Kimeli,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Gonzalez, Thomas,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "Atlanta, Ga. :"
+    ],
+    "publisher": [
+      "Peachtree Publishers,"
+    ],
+    "date": "©2009.",
+    "year": 2009,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "32 unnumbered pages :",
+    "illustrations": "color illustrations ;",
+    "dimensions": "26 x 31 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "2001",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Cattle.",
+      "type": "topical"
+    },
+    {
+      "value": "Cows",
+      "type": "topical"
+    },
+    {
+      "value": "Gifts",
+      "type": "topical"
+    },
+    {
+      "value": "Gifts.",
+      "type": "topical"
+    },
+    {
+      "value": "International relations",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works",
+      "type": "topical"
+    },
+    {
+      "value": "Kenya",
+      "type": "topical"
+    },
+    {
+      "value": "Kenya.",
+      "type": "topical"
+    },
+    {
+      "value": "Literature",
+      "type": "topical"
+    },
+    {
+      "value": "Literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Maasai (African people)",
+      "type": "topical"
+    },
+    {
+      "value": "Naiyomah, Wilson Kimeli",
+      "type": "topical"
+    },
+    {
+      "value": "Naiyomah, Wilson Kimeli.",
+      "type": "topical"
+    },
+    {
+      "value": "Picture books",
+      "type": "topical"
+    },
+    {
+      "value": "Picture books for children.",
+      "type": "topical"
+    },
+    {
+      "value": "Picture books.",
+      "type": "topical"
+    },
+    {
+      "value": "September 11 Terrorist Attacks, 2001",
+      "type": "topical"
+    },
+    {
+      "value": "September 11 Terrorist Attacks, 2001.",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "picture books.",
+      "type": "topical"
+    }
+  ]
+}

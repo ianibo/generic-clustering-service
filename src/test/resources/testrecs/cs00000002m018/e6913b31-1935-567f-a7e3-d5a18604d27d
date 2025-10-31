@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:gsuin00004439407",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004439407",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004439407",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 43051332"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)568782"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)3052803-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9930528033402952"
+    },
+    {
+      "type": "Local",
+      "value": "9930528033402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The history of Tom Jones, a foundling,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Chappell, Warren,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York]"
+    ],
+    "publisher": [
+      "The Modern Library"
+    ],
+    "date": "[1943].",
+    "year": 1943,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "xxiii, 861 p., 1 l.",
+    "illustrations": "col. front., plates (part col.)",
+    "dimensions": "19 cm"
+  }
+}

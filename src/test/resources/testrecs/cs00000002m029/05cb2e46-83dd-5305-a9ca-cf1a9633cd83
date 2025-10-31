@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:in00026523422",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026523422",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026523422",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)14944743"
+    },
+    {
+      "type": "Local",
+      "value": "9911051322902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Corbet, Richard,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bennett, J. A. W.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Trevor-Roper, H. R.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oxford :"
+    ],
+    "publisher": [
+      "Clarendon Press,"
+    ],
+    "date": "1955.",
+    "year": 1955,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "lxv, [1], 177 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Library of English literature ;",
+      "numbering": "LEL 10365."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 55014700"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00026889970",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026889970",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026889970",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:33Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:33Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140400311"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140400311"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4405374"
+    },
+    {
+      "type": "Local",
+      "value": "9912093859002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Hippocratic writings /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hippocrates.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lloyd, G. E. R.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Chadwick, John,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1978.",
+    "year": 1978,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "380 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "History, Ancient",
+      "type": "topical"
+    },
+    {
+      "value": "Medicine, Greek and Roman.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Pelican classics"
+    },
+    {
+      "title": "Pelican classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC)mrg78504102"
+    ]
+  }
+}

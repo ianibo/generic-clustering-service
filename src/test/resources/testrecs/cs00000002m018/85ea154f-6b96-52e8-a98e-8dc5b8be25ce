@@ -1,0 +1,175 @@
+{
+  "id": "marc:001:in00029156935",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029156935",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029156935",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0195039645"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780195039641"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780195147209"
+    },
+    {
+      "type": "ISBN",
+      "value": "0195039726"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780195039726"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780195147216"
+    },
+    {
+      "type": "ISBN",
+      "value": "0195147219"
+    },
+    {
+      "type": "ISBN",
+      "value": "0195072553"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780195072556"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780195147223"
+    },
+    {
+      "type": "ISBN",
+      "value": "0195147227"
+    },
+    {
+      "type": "ISBN",
+      "value": "0198500734"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198500735"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199689613"
+    },
+    {
+      "type": "ISBN",
+      "value": "019968961X"
+    },
+    {
+      "type": "ISBN",
+      "value": "0198500750"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198500759"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199689620"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199689628"
+    },
+    {
+      "type": "ISBN",
+      "value": "0195147200"
+    },
+    {
+      "type": "LCCN",
+      "value": " 85015501 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)12371326"
+    },
+    {
+      "type": "Local",
+      "value": "9910054127902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gödel, Kurt,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Feferman, Solomon,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "ger"
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford"
+    ],
+    "publisher": [
+      "Clarendon Press ;",
+      "Oxford University Press,"
+    ],
+    "date": "1986-2003.",
+    "year": 1986,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "5 volumes :",
+    "illustrations": "portrait ;",
+    "dimensions": "24-25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Logic, Symbolic and mathematical.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)624470889",
+      "Collected works."
+    ]
+  }
+}

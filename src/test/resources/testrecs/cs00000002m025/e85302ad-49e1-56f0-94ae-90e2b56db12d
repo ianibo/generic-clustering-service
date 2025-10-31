@@ -1,0 +1,82 @@
+{
+  "id": "marc:001:in00028925211",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028925211",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028925211",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1399075"
+    },
+    {
+      "type": "Local",
+      "value": "9910478951302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Samuel Taylor Coleridge.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Coleridge, Samuel Taylor,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Oxford Univ. Pr."
+    ],
+    "date": "[1907]",
+    "year": 1907,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "391 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "World's classics"
+    },
+    {
+      "title": "World's classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654690642",
+      "Poems of Samuel Taylor Coleridge."
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00027460179",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027460179",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027460179",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1852244267"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781852244262"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)39284888"
+    },
+    {
+      "type": "Local",
+      "value": "9910474375102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, David,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Newcastle upon Tyne :"
+    ],
+    "publisher": [
+      "Bloodaxe Books,"
+    ],
+    "date": "1998.",
+    "year": 1998,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "160 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Country life",
+      "type": "topical"
+    },
+    {
+      "value": "Country life.",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)606286188",
+      "(OCoLC)608590712",
+      "Selected poems."
+    ]
+  }
+}

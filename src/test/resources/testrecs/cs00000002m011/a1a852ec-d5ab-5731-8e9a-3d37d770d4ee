@@ -1,0 +1,166 @@
+{
+  "id": "marc:001:in00030025918",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030025918",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030025918",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "023110720X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780231107204"
+    },
+    {
+      "type": "ISBN",
+      "value": "0748605800"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780748605804"
+    },
+    {
+      "type": "LCCN",
+      "value": " 97006313 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)36387303"
+    },
+    {
+      "type": "Local",
+      "value": "9910007309202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Redgauntlet /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wood, G. A. M.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hewitt, David,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :",
+      "New York :"
+    ],
+    "publisher": [
+      "Columbia University Press,",
+      "University Press ;"
+    ],
+    "date": "1997.",
+    "year": 1997,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "xvi, 540 pages :",
+    "illustrations": "maps ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Biographical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Charles Edward,",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Jacobites",
+      "type": "topical"
+    },
+    {
+      "value": "Jacobites.",
+      "type": "topical"
+    },
+    {
+      "value": "Law students",
+      "type": "topical"
+    },
+    {
+      "value": "Law students.",
+      "type": "topical"
+    },
+    {
+      "value": "Princes",
+      "type": "topical"
+    },
+    {
+      "value": "Princes.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Edinburgh edition of the Waverley novels ;",
+      "numbering": "17"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1375040365",
+      "Redgauntlet."
+    ]
+  }
+}

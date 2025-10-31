@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00026260327",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026260327",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026260327",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0802055982"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802055989"
+    },
+    {
+      "type": "ISBN",
+      "value": "0802064698"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802064691"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)9901442"
+    },
+    {
+      "type": "Local",
+      "value": "9910298249002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Klein, A. M.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Steinberg, M. W.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "Toronto ;"
+    ],
+    "publisher": [
+      "University of Toronto Press,"
+    ],
+    "date": "©1983.",
+    "year": 1983,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "xxv, 338 pages :",
+    "illustrations": "1 portrait ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories, Canadian",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories, Canadian.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Collected works of A.M. Klein"
+    },
+    {
+      "title": "Collected works of A.M. Klein."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)558415414",
+      "Short stories."
+    ]
+  }
+}

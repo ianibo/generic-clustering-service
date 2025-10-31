@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:in00026680490",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026680490",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026680490",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 09003440 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3754501"
+    },
+    {
+      "type": "Local",
+      "value": "9910409122702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The history of Don Quixote of the Mancha,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cervantes Saavedra, Miguel de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Shelton, Thomas,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Fitzmaurice-Kelly, James,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "D. Nutt,"
+    ],
+    "date": "1896.",
+    "year": 1896,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "4 volumes",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Dalziel Brothers",
+      "type": "topical"
+    },
+    {
+      "value": "Dalziel Brothers.",
+      "type": "topical"
+    },
+    {
+      "value": "Evans, Frederick H.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Picaresque literature.",
+      "type": "topical"
+    },
+    {
+      "value": "platinum prints.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Tudor translations ... XIII-XVI"
+    },
+    {
+      "title": "Tudor translations ;",
+      "numbering": "XIII-XVI."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)586975388",
+      "History of Don Quixote of the Mancha."
+    ]
+  }
+}

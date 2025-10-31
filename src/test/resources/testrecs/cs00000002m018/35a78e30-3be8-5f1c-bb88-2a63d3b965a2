@@ -1,0 +1,125 @@
+{
+  "id": "marc:001:in00028841251",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028841251",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028841251",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781101875223"
+    },
+    {
+      "type": "ISBN",
+      "value": "1101875224"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781101875308"
+    },
+    {
+      "type": "ISBN",
+      "value": "1101875305"
+    },
+    {
+      "type": "Other",
+      "value": "40025352173"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2015022038"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)910826882"
+    },
+    {
+      "type": "Local",
+      "value": "9910321595102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Updike, John.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Carduff, Christopher,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Alfred A. Knopf,"
+    ],
+    "date": "2015.",
+    "year": 2015,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxvi, 287 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900 - 1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

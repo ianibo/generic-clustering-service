@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00029067510",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029067510",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029067510",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)5793381"
+    },
+    {
+      "type": "Local",
+      "value": "9910946700602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Moby-Dick : or, the whale /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mansfield, Luther S.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Vincent, Howard P.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Hendricks House,"
+    ],
+    "date": "1962, ©1952.",
+    "year": 1962,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "lii, 851 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Ahab,",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab, Captain (Fictitious character)",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains.",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whales.",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling ships",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling ships.",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "His complete works"
+    }
+  ]
+}

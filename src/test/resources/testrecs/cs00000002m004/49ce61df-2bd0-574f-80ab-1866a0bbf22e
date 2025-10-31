@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00028704384",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028704384",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028704384",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)5663208"
+    },
+    {
+      "type": "Local",
+      "value": "9910060050402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad of Homer, done into English prose,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lang, Andrew,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Leaf, Walter,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Myers, Ernest,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "Rev. ed."
+  },
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1911.",
+    "year": 1911,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vii, 506 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Achilles",
+      "type": "topical"
+    },
+    {
+      "value": "Classical Greek epic.",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)613037642",
+      "Iliad of Homer, done into English prose."
+    ]
+  }
+}

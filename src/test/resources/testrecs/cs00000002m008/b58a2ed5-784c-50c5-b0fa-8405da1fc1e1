@@ -1,0 +1,141 @@
+{
+  "id": "marc:001:in00027994838",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027994838",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027994838",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:48Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:48Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 55010351 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)919170"
+    },
+    {
+      "type": "Local",
+      "value": "9910930348202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Elements of chemistry /",
+      "type": "main"
+    },
+    {
+      "value": "Traité élémentaire de chimie.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lavoisier, Antoine Laurent,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kerr, Robert,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Freeman, Alexander,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Fourier, Jean-Baptiste-Joseph,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Faraday, Michael,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "[1955, ©1952]",
+    "year": 1955,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "xii, 898 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Chemistry",
+      "type": "topical"
+    },
+    {
+      "value": "Chemistry.",
+      "type": "topical"
+    },
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Electricity",
+      "type": "topical"
+    },
+    {
+      "value": "Electricity.",
+      "type": "topical"
+    },
+    {
+      "value": "Heat",
+      "type": "topical"
+    },
+    {
+      "value": "Heat.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 45"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 45."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756454881",
+      "Elements of chemistry."
+    ]
+  }
+}

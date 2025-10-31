@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:in00029696769",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029696769",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029696769",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0521441722"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780521441728"
+    },
+    {
+      "type": "ISBN",
+      "value": "052144697X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780521446976"
+    },
+    {
+      "type": "LCCN",
+      "value": " 00031286 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)46685781"
+    },
+    {
+      "type": "Local",
+      "value": "9910489100902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Political writings /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Augustine,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Atkins, E. M.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Dodaro, Robert,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, U.K. ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Cambridge University Press,"
+    ],
+    "date": "2001.",
+    "year": 2001,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "l, 299 pages :",
+    "illustrations": "map ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Christianity and politics",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Cambridge texts in the history of political thought"
+    },
+    {
+      "title": "Cambridge texts in the history of political thought."
+    }
+  ]
+}

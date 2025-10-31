@@ -1,0 +1,151 @@
+{
+  "id": "marc:001:in00027344451",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027344451",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027344451",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0393006549"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780393006544"
+    },
+    {
+      "type": "LCCN",
+      "value": " 72007062 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)531516"
+    },
+    {
+      "type": "Local",
+      "value": "9910268067902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Catullus /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Catullus, Gaius Valerius.",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Gregory, Horace,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "W.W. Norton & Company, Inc.,"
+    ],
+    "date": "1972.",
+    "year": 1972,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxiv, 184 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Catullus, Gaius Valerius",
+      "type": "topical"
+    },
+    {
+      "value": "Elegiac poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Epigrams",
+      "type": "topical"
+    },
+    {
+      "value": "Epigrams, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Epigrams.",
+      "type": "topical"
+    },
+    {
+      "value": "Love poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Love poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Love poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Rome",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "epigrams.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Norton library ;",
+      "numbering": "N654."
+    },
+    {
+      "title": "Norton library ;",
+      "numbering": "N654."
+    }
+  ]
+}

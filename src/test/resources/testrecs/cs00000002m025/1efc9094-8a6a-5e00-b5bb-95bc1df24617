@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00030330170",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030330170",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030330170",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)21478956"
+    },
+    {
+      "type": "Local",
+      "value": "9910118151802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The spirit of laws /",
+      "type": "main"
+    },
+    {
+      "value": "De l'esprit des lois.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Montesquieu, Charles de Secondat,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :"
+    ],
+    "publisher": [
+      "Printed by T. Ruddiman,"
+    ],
+    "date": "1793.",
+    "year": 1793,
+    "countryCode": " ab"
+  },
+  "physical": {
+    "extent": "2 volumes",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Jurisprudence",
+      "type": "topical"
+    },
+    {
+      "value": "Jurisprudence.",
+      "type": "topical"
+    },
+    {
+      "value": "Law",
+      "type": "topical"
+    },
+    {
+      "value": "Political science.",
+      "type": "topical"
+    },
+    {
+      "value": "Prize books (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "State, The.",
+      "type": "topical"
+    },
+    {
+      "value": "law (discipline)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Goldsmiths'-Kress library of economic literature ;",
+      "numbering": "no. 15876."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)656702778",
+      "Spirit of laws."
+    ]
+  }
+}

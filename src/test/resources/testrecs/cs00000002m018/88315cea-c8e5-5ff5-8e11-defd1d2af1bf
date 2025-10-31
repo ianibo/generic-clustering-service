@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00029598379",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029598379",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029598379",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0670835757"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780670835751"
+    },
+    {
+      "type": "ISBN",
+      "value": "1852350628"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781852350628"
+    },
+    {
+      "type": "LCCN",
+      "value": " 91118111 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)23060488"
+    },
+    {
+      "type": "Local",
+      "value": "9910092171202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mahon, Derek,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London, England ;",
+      "New York, N.Y., USA :",
+      "Oldcastle, County Meath, Ireland :"
+    ],
+    "publisher": [
+      "Gallery in association with Oxford University Press,",
+      "Viking ;"
+    ],
+    "date": "1991.",
+    "year": 1991,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "194 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Ireland",
+      "type": "topical"
+    },
+    {
+      "value": "Ireland.",
+      "type": "topical"
+    },
+    {
+      "value": "Irish poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)556695407",
+      "Selected poems."
+    ]
+  }
+}

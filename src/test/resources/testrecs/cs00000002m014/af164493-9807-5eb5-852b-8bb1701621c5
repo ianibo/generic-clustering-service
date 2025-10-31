@@ -1,0 +1,187 @@
+{
+  "id": "marc:001:in00029295840",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029295840",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029295840",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1402714580"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781402714580"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780147514011"
+    },
+    {
+      "type": "ISBN",
+      "value": "0147514010"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780553212754"
+    },
+    {
+      "type": "ISBN",
+      "value": "0553212753"
+    },
+    {
+      "type": "Other",
+      "value": "9781402714580"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2004015669"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)55887559"
+    },
+    {
+      "type": "Local",
+      "value": "9911732779202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "McKowen, Scott,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Sterling Publishing,"
+    ],
+    "date": "2004.",
+    "year": 2004,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "vii, 525 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Families",
+      "type": "topical"
+    },
+    {
+      "value": "Families.",
+      "type": "topical"
+    },
+    {
+      "value": "Family life",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "March family (Fictional characters)",
+      "type": "topical"
+    },
+    {
+      "value": "New England",
+      "type": "topical"
+    },
+    {
+      "value": "New England.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Sisters",
+      "type": "topical"
+    },
+    {
+      "value": "Sisters.",
+      "type": "topical"
+    },
+    {
+      "value": "Young adult fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Young adult works.",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Sterling classics"
+    },
+    {
+      "title": "Sterling classics."
+    }
+  ]
+}

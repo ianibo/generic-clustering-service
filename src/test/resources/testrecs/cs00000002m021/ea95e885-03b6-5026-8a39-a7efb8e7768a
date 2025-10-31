@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00030380194",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030380194",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030380194",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 33015476 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1748448"
+    },
+    {
+      "type": "Local",
+      "value": "9910334562802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "On teaching English",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Seely, Howard Francis,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cincinnati",
+      "New York,"
+    ],
+    "publisher": [
+      "American Book Co."
+    ],
+    "date": "[©1933]",
+    "year": 1933,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xix, 391 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English language",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American education series"
+    },
+    {
+      "title": "American education series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)580972729",
+      "On teaching English."
+    ]
+  }
+}

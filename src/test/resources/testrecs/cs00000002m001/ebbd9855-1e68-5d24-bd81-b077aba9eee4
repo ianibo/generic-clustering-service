@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:abacin00000235425",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000235425",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000235425",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0809035413 (alk. paper)"
+    },
+    {
+      "type": "ISBN",
+      "value": "0809086581"
+    },
+    {
+      "type": "LCCN",
+      "value": " 95019554"
+    },
+    {
+      "type": "Local",
+      "value": "(DLC) 95019554"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)24978-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994975787202932"
+    },
+    {
+      "type": "Local",
+      "value": "994975787202932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories /",
+      "type": "main"
+    },
+    {
+      "value": "Short stories.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hughes, Langston,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Harper, Donna Sullivan.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Hill and Wang,"
+    ],
+    "date": "c1996.",
+    "year": 1996,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xix, 299 p. ;",
+    "dimensions": "24 cm."
+  },
+  "subjects": [
+    {
+      "value": "African Americans",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories, American",
+      "type": "topical"
+    }
+  ]
+}

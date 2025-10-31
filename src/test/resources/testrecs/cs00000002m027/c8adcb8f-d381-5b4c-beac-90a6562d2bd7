@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00029597101",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029597101",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029597101",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0819530557"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780819530554"
+    },
+    {
+      "type": "LCCN",
+      "value": " 65021076 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1386602"
+    },
+    {
+      "type": "Local",
+      "value": "9910072660502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Davies, W. H.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sitwell, Osbert,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    },
+    {
+      "name": "George, Daniel,",
+      "role": "writer of foreword.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "[1st American ed.]."
+  },
+  "publication": {
+    "place": [
+      "Middletown, Conn.,"
+    ],
+    "publisher": [
+      "Wesleyan University Press"
+    ],
+    "date": "[1965, ©1963]",
+    "year": 1965,
+    "countryCode": "ctu"
+  },
+  "physical": {
+    "extent": "xxiv, 23-616 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)576363879",
+      "Complete poems."
+    ]
+  }
+}

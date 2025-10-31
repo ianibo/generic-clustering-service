@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:in00027013970",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027013970",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027013970",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 24011825 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8661970"
+    },
+    {
+      "type": "Local",
+      "value": "9910407202002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Osgood, Frances Sargent,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Darley, ----",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Osgood, Samuel Stillman.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cairns Collection of American Women Writers.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia,"
+    ],
+    "publisher": [
+      "Carey and Hart,"
+    ],
+    "date": "1850.",
+    "year": 1850,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "1 preliminary leaf, 466 pages",
+    "illustrations": "frontispiece (portrait) 10 plates",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654395861",
+      "Poems."
+    ]
+  }
+}

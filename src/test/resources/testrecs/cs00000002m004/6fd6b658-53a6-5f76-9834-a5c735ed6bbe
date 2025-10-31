@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:in00030482344",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030482344",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030482344",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 04013827 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)174761"
+    },
+    {
+      "type": "Local",
+      "value": "9910037682802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of Sidney Lanier,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lanier, Sidney,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lanier, Mrs. Mary Day,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Ward, William Hayes,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "C. Scribner's Sons,"
+    ],
+    "date": "1884.",
+    "year": 1884,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "xli, [1], 252 pages",
+    "illustrations": "frontispiece (portrait)",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}
