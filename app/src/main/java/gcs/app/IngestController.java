@@ -2,15 +2,11 @@ package gcs.app;
 
 import gcs.core.Canonicalizer;
 import gcs.core.EmbeddingService;
-import gcs.core.InMemoryVectorIndex;
 import gcs.core.InputRecord;
-import gcs.core.HashingEmbeddingService;
-import gcs.core.SimpleCanonicalizer;
 import gcs.core.VectorIndex;
 import io.micronaut.http.annotation.Body;
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Post;
-import jakarta.inject.Singleton;
 
 import java.util.List;
 
@@ -34,20 +30,5 @@ public class IngestController {
         List<VectorIndex.Neighbor<InputRecord>> neighbors = vectorIndex.topK(embedding, 5);
         vectorIndex.add(record.id(), embedding, record);
         return neighbors;
-    }
-
-    @Singleton
-    public EmbeddingService embeddingService() {
-        return new HashingEmbeddingService();
-    }
-
-    @Singleton
-    public VectorIndex<InputRecord> vectorIndex() {
-        return new InMemoryVectorIndex<>();
-    }
-
-    @Singleton
-    public Canonicalizer canonicalizer() {
-        return new SimpleCanonicalizer();
     }
 }

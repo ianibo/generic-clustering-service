@@ -27,6 +27,12 @@ public final class CosineSimilarity {
             norm1 += v1[i] * v1[i];
             norm2 += v2[i] * v2[i];
         }
-        return dotProduct / (Math.sqrt(norm1) * Math.sqrt(norm2));
+
+        double denominator = Math.sqrt(norm1) * Math.sqrt(norm2);
+        if (denominator == 0.0) {
+            return norm1 == norm2 ? 1.0 : 0.0;
+        }
+
+        return dotProduct / denominator;
     }
 }
