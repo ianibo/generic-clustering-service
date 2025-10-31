@@ -13,7 +13,6 @@ dependencies {
 	annotationProcessor("org.projectlombok:lombok")
 
 	implementation("io.micronaut.serde:micronaut-serde-api")
-	implementation("com.sangupta:murmur:1.0.0")
 
 	// JSON runtime (pick one; Jackson is common)
 	implementation("io.micronaut.serde:micronaut-serde-jackson")
