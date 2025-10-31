@@ -11,22 +11,22 @@ public record InputRecord(
     Provenance provenance,
     String domain,
     LicenseDeclaration licenseDeclaration,
-    List<Identifier> identifiers,
-    List<Title> titles,
-    List<Contributor> contributors,
-    List<String> languages,
-    Edition edition,
+    @Nullable List<Identifier> identifiers,
+    @Nullable List<Title> titles,
+    @Nullable List<Contributor> contributors,
+    @Nullable List<String> languages,
+    @Nullable Edition edition,
     Publication publication,
     Physical physical,
-    List<Subject> subjects,
-    List<Series> series,
-    Relations relations,
-    List<Classification> classification,
-    List<Note> notes,
-    Rights rights,
-    Admin admin,
-    Media media,
-    Ext ext
+    @Nullable List<Subject> subjects,
+    @Nullable List<Series> series,
+    @Nullable Relations relations,
+    @Nullable List<Classification> classification,
+    @Nullable List<Note> notes,
+    @Nullable Rights rights,
+    @Nullable Admin admin,
+    @Nullable Media media,
+    @Nullable Ext ext
 ) {
     @Serdeable
     public record Provenance(
@@ -36,7 +36,7 @@ public record InputRecord(
         String sourceRecordUri,
         String originalFormat,
         OffsetDateTime harvestedAt,
-        String metadataLicense
+        @Nullable String metadataLicense
     ) {}
 
     @Serdeable
@@ -65,7 +65,7 @@ public record InputRecord(
     public record Title(
         String value,
         String type,
-        String language
+        @Nullable String language
     ) {}
 
     @Serdeable
@@ -87,7 +87,7 @@ public record InputRecord(
         List<String> place,
         List<String> publisher,
         String date,
-        int year,
+        @Nullable Integer year,
         String countryCode
     ) {}
 
@@ -98,18 +98,20 @@ public record InputRecord(
         String contentType,
         String mediaType,
         String carrierType,
-        String format
+        @Nullable String format
     ) {}
 
     @Serdeable
     public record Subject(
         String value,
-        String scheme,
-        String type
+        @Nullable String scheme,
+        @Nullable String type
     ) {}
 
     @Serdeable
-    public record Series() {}
+    public record Series(
+        String title
+    ) {}
 
     @Serdeable
     public record Relations(
@@ -147,16 +149,19 @@ public record InputRecord(
     ) {}
 
     @Serdeable
-    public record Media() {} // Empty object in example
+    public record Media(
+        @Nullable String url,
+        @Nullable String contentType
+    ) {}
 
     @Serdeable
     public record Ext(
-        SourceHints sourceHints
+        @Nullable SourceHints sourceHints
     ) {}
 
     @Serdeable
     public record SourceHints(
-        List<String> titleTokens,
-        String nameTitlePair
+        @Nullable List<String> titleTokens,
+        @Nullable String nameTitlePair
     ) {}
 }
