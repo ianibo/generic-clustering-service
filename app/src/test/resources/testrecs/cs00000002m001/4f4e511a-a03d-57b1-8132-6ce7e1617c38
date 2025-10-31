@@ -1,0 +1,75 @@
+{
+  "id": "marc:001:abacin00000232302",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000232302",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000232302",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 61009194 /L/r87"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)575-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994976713702932"
+    },
+    {
+      "type": "Local",
+      "value": "994976713702932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems.",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Graves, Robert,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "[1st ed. in the U.S.A.]"
+  },
+  "publication": {
+    "place": [
+      "Garden City, N.Y.,"
+    ],
+    "publisher": [
+      "Doubleday,"
+    ],
+    "date": "1961.",
+    "year": 1961,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "358 p.",
+    "dimensions": "22 cm."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:abacin00000234817",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000234817",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000234817",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0020518609 (pbk.)"
+    },
+    {
+      "type": "LCCN",
+      "value": " 86026333"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)1616-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994975136602932"
+    },
+    {
+      "type": "Local",
+      "value": "994975136602932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The short stories of Ernest Hemingway.",
+      "type": "main"
+    },
+    {
+      "value": "Short stories.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hemingway, Ernest,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st Scribner classic/Collier ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Collier Books,"
+    ],
+    "date": "1986, c1966.",
+    "year": 1986,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "viii, 499 p. ;",
+    "dimensions": "19 cm."
+  },
+  "series": [
+    {
+      "title": "A Scribner classic"
+    }
+  ]
+}

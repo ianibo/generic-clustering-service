@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00027272943",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027272943",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027272943",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "080490135X :"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780804901352"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7914474"
+    },
+    {
+      "type": "Local",
+      "value": "9911938819602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Tom Jones",
+      "type": "alternative"
+    },
+    {
+      "value": "The history of Tom Jones : a foundling /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Airmont Pub. Co.,"
+    ],
+    "date": "©1967.",
+    "year": 1967,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "734 pages ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "English fiction",
+      "type": "topical"
+    },
+    {
+      "value": "English fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "An Airmont classic"
+    }
+  ]
+}

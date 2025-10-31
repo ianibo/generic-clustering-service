@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00027219921",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027219921",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027219921",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 56014263 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2867098"
+    },
+    {
+      "type": "Local",
+      "value": "9911907611902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Nardi, Marcia.",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Alan Swallow (Firm : Denver, Colo.),",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Denver :"
+    ],
+    "publisher": [
+      "Alan Swallow,"
+    ],
+    "date": "1956.",
+    "year": 1956,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "48 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "New poetry series ;",
+      "numbering": "16."
+    },
+    {
+      "title": "New poetry series (Swallow Press) ;",
+      "numbering": "16."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)570299905",
+      "Poems."
+    ]
+  }
+}

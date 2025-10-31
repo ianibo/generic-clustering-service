@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:asuin00000488425",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "asuin00000488425",
+    "sourceRecordUri": "https://catalog.example.org/record/asuin00000488425",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "978014044570 :"
+    },
+    {
+      "type": "LCCN",
+      "value": " 82188249"
+    },
+    {
+      "type": "Local",
+      "value": "(ZIU)105335"
+    },
+    {
+      "type": "Local",
+      "value": "(GAlDC)105335-dartondb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_ALBANY)991053353702933"
+    },
+    {
+      "type": "Local",
+      "value": "991053353702933"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Capital : a critique of political economy /",
+      "type": "main"
+    },
+    {
+      "value": "Kapital.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marx, Karl,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fowkes, Ben.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fernbach, David.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "Penguin Books in association with New Left Review,"
+    ],
+    "date": "<1981-1990 >",
+    "year": 1981,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "v. 3 ;",
+    "dimensions": "20 cm."
+  },
+  "subjects": [
+    {
+      "value": "Capital.",
+      "type": "topical"
+    },
+    {
+      "value": "Economics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "v. 3: The Pelican Marx library"
+    },
+    {
+      "title": "Penguin classics."
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "marc:001:in00026056123",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026056123",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026056123",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 62018384 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)582001"
+    },
+    {
+      "type": "Local",
+      "value": "9910139088402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fraser, Betty.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fadiman, Clifton,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "[1962]",
+    "year": 1962,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "575 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Family life",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "March family (Fictitious characters)",
+      "type": "topical"
+    },
+    {
+      "value": "Mothers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "New England",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Sisters",
+      "type": "topical"
+    },
+    {
+      "value": "Young women",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Macmillan classics ;",
+      "numbering": "1"
+    },
+    {
+      "title": "Macmillan classics ;",
+      "numbering": "1."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756479094",
+      "Little women."
+    ]
+  }
+}

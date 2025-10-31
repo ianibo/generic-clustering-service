@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:abacin00000232872",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000232872",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000232872",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0393044262"
+    },
+    {
+      "type": "ISBN",
+      "value": "0393092143 (pbk.)"
+    },
+    {
+      "type": "LCCN",
+      "value": " 75037792 //r954"
+    },
+    {
+      "type": "Local",
+      "value": "(DLC) 75037792 //r954"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)25250-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994975940002932"
+    },
+    {
+      "type": "Local",
+      "value": "994975940002932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Brothers Karamazov : the Constance Garnett translation revised by Ralph E. Matlaw : backgrounds and sources, essays in criticism /",
+      "type": "main"
+    },
+    {
+      "value": "Bratʹi︠a︡ Karamazovy.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance Black,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Matlaw, Ralph E.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "engrus"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Norton,"
+    ],
+    "date": "c1976.",
+    "year": 1976,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xviii, 887 p. ;",
+    "dimensions": "22 cm."
+  },
+  "subjects": [
+    {
+      "value": "Brothers",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Dostoyevsky, Fyodor,",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and sons",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Norton critical edition"
+    }
+  ]
+}

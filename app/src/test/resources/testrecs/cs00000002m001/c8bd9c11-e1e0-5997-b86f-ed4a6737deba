@@ -1,0 +1,135 @@
+{
+  "id": "marc:001:in00030152384",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030152384",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030152384",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1591940680"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781591940685"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2006926041"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)191028763"
+    },
+    {
+      "type": "Local",
+      "value": "9911226915302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Robinson Crusoe /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Defoe, Daniel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kelley, Jonathan.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "West Berlin, N.J. :"
+    ],
+    "publisher": [
+      "Townsend Library,"
+    ],
+    "date": "©2007.",
+    "year": 2007,
+    "countryCode": "a c"
+  },
+  "physical": {
+    "extent": "260 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Children's stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Crusoe, Robinson",
+      "type": "topical"
+    },
+    {
+      "value": "Crusoe, Robinson (Fictitious character)",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "High interest-low vocabulary books.",
+      "type": "topical"
+    },
+    {
+      "value": "Islands",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works",
+      "type": "topical"
+    },
+    {
+      "value": "Shipwrecks",
+      "type": "topical"
+    },
+    {
+      "value": "Survival",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Townsend library"
+    },
+    {
+      "title": "Townsend Library."
+    }
+  ]
+}

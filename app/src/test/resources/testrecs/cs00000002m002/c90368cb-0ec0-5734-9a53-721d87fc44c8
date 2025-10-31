@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:in00027171588",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027171588",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027171588",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0571057063"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780571057061"
+    },
+    {
+      "type": "LCCN",
+      "value": "a 56003454 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8014333"
+    },
+    {
+      "type": "Local",
+      "value": "9911938856402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Eliot, T. S.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Faber and Faber,"
+    ],
+    "date": "1954.",
+    "year": 1954,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "127 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)805922710",
+      "Selected poems."
+    ]
+  }
+}

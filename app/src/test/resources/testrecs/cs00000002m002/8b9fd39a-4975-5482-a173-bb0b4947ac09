@@ -1,0 +1,72 @@
+{
+  "id": "marc:001:in00029836098",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029836098",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029836098",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 33007712 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5261769"
+    },
+    {
+      "type": "Local",
+      "value": "9911950261502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems of Henry Wadsworth Longfellow.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Longfellow, Henry Wadsworth,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "W.J. Black, Inc."
+    ],
+    "date": "[©1932]",
+    "year": 1932,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vi pages, 2 leaves, 307 pages",
+    "dimensions": "16 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "[The companion classics]"
+    }
+  ]
+}

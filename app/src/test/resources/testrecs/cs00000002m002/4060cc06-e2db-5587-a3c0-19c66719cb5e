@@ -1,0 +1,90 @@
+{
+  "id": "marc:001:in00028584699",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028584699",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028584699",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0811467708"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780811467704"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)25907529"
+    },
+    {
+      "type": "Local",
+      "value": "9911915127402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Arkansas /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thompson, Kathleen.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Austin, TX :"
+    ],
+    "publisher": [
+      "Raintree Steck-Vaughn Library,"
+    ],
+    "date": "©1991.",
+    "year": 1991,
+    "countryCode": "ab "
+  },
+  "physical": {
+    "extent": "48 pages :",
+    "illustrations": "illustrations (some color), maps ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Arkansas",
+      "type": "topical"
+    },
+    {
+      "value": "Arkansas.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Portrait of America"
+    },
+    {
+      "title": "Portrait of America."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:asuin00000481879",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "asuin00000481879",
+    "sourceRecordUri": "https://catalog.example.org/record/asuin00000481879",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0375406247"
+    },
+    {
+      "type": "ISBN",
+      "value": "0375706046 (pbk.)"
+    },
+    {
+      "type": "LCCN",
+      "value": " 98051913"
+    },
+    {
+      "type": "Local",
+      "value": "(DLC) 98051913"
+    },
+    {
+      "type": "Local",
+      "value": "4509376"
+    },
+    {
+      "type": "Local",
+      "value": "(ZIU)104498"
+    },
+    {
+      "type": "Local",
+      "value": "(GAlDC)104498-dartondb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_ALBANY)991044983702933"
+    },
+    {
+      "type": "Local",
+      "value": "991044983702933"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Lives of the poets /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Schmidt, Michael,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st American ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Distributed by Random House,",
+      "Knopf :"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xii, 975 p. ;",
+    "dimensions": "25 cm."
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English-speaking countries",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, English",
+      "type": "topical"
+    }
+  ]
+}

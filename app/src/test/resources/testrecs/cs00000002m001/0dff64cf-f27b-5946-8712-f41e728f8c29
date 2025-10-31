@@ -1,0 +1,143 @@
+{
+  "id": "marc:001:in00030181553",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030181553",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030181553",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "039432675X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780394326757"
+    },
+    {
+      "type": "ISBN",
+      "value": "0075542730"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780075542735"
+    },
+    {
+      "type": "LCCN",
+      "value": " 80024544 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6862089"
+    },
+    {
+      "type": "Local",
+      "value": "9911943393602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Democracy in America /",
+      "type": "main"
+    },
+    {
+      "value": "De la démocratie en Amérique.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tocqueville, Alexis de,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Bender, Thomas,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "First edition"
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "[1981]",
+    "year": 1981,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "lxi, 603 pages :",
+    "illustrations": "map ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Democracy",
+      "type": "topical"
+    },
+    {
+      "value": "Democracy.",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government.",
+      "type": "topical"
+    },
+    {
+      "value": "Social conditions.",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    },
+    {
+      "value": "democracy.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Modern Library college editions"
+    },
+    {
+      "title": "Modern Library college editions."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)645845448",
+      "Democracy in America."
+    ]
+  }
+}

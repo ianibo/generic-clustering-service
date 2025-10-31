@@ -1,0 +1,115 @@
+{
+  "id": "marc:001:in00029106427",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029106427",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029106427",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0252069218"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780252069215"
+    },
+    {
+      "type": "LCCN",
+      "value": " 00038639 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)45087681"
+    },
+    {
+      "type": "Local",
+      "value": "9911968627302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Poe, Edgar Allan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mabbott, Thomas Ollive,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Poe, Edgar Allan,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st Illinois paperback."
+  },
+  "publication": {
+    "place": [
+      "Urbana :"
+    ],
+    "publisher": [
+      "University of Illinois Press,"
+    ],
+    "date": "2000.",
+    "year": 2000,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "xxx, 627 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy poetry, American",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy poetry, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy poetry.",
+      "type": "topical"
+    }
+  ]
+}

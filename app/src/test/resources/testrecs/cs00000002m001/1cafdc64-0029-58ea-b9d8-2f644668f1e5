@@ -1,0 +1,76 @@
+{
+  "id": "marc:001:abacin00000238268",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000238268",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000238268",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(GBaB)9230-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994978194702932"
+    },
+    {
+      "type": "Local",
+      "value": "994978194702932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little Dorrit /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York :"
+    ],
+    "publisher": [
+      "Dent ;",
+      "Dutton,"
+    ],
+    "date": "1908.",
+    "year": 1908,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xiv, 784 p. ;",
+    "dimensions": "19 cm."
+  },
+  "subjects": [
+    {
+      "value": "Debt, Imprisonment for",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    }
+  ]
+}

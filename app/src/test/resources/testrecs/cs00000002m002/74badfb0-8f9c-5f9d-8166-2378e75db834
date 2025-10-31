@@ -1,0 +1,76 @@
+{
+  "id": "marc:001:asuin00000490789",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "asuin00000490789",
+    "sourceRecordUri": "https://catalog.example.org/record/asuin00000490789",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0517072440 :"
+    },
+    {
+      "type": "LCCN",
+      "value": " 91028981"
+    },
+    {
+      "type": "Local",
+      "value": "(GAlDC)5733-dartondb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_ALBANY)9957333702933"
+    },
+    {
+      "type": "Local",
+      "value": "9957333702933"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The selected poems of Carl Sandburg.",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sandburg, Carl,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Distributed by Outlet Book Co.,",
+      "Gramercy Books :"
+    ],
+    "date": "1991.",
+    "year": 1991,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "p. cm."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "marc:001:abacin00000242668",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000242668",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000242668",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "081301252X (cloth)"
+    },
+    {
+      "type": "ISBN",
+      "value": "0813012538 (paper)"
+    },
+    {
+      "type": "LCCN",
+      "value": " 93030649"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)5391-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994976763402932"
+    },
+    {
+      "type": "Local",
+      "value": "994976763402932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rawlings, Marjorie Kinnan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Tarr, Rodger L.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Gainesville :"
+    ],
+    "publisher": [
+      "University Press of Florida,"
+    ],
+    "date": "c1994.",
+    "year": 1994,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "x, 376 p. ;",
+    "dimensions": "23 cm."
+  }
+}

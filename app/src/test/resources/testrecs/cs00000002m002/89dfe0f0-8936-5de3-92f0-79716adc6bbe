@@ -1,0 +1,131 @@
+{
+  "id": "marc:001:in00026790592",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026790592",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026790592",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 60042184 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3106453"
+    },
+    {
+      "type": "Local",
+      "value": "9911935448802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Wuthering Heights.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Emily,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Washington Square Press"
+    ],
+    "date": "[1960]",
+    "year": 1960,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xix, 408 pages",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings.",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Love triangles.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Rejection (Psychology)",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Rural families",
+      "type": "topical"
+    },
+    {
+      "value": "Rural families.",
+      "type": "topical"
+    },
+    {
+      "value": "Triangles (Interpersonal relations)",
+      "type": "topical"
+    },
+    {
+      "value": "Yorkshire (England)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Washington Square Press book,",
+      "numbering": "W-120"
+    }
+  ]
+}

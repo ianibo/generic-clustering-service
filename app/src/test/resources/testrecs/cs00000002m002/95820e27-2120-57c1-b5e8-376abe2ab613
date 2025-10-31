@@ -1,0 +1,87 @@
+{
+  "id": "marc:001:asuin00000485397",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "asuin00000485397",
+    "sourceRecordUri": "https://catalog.example.org/record/asuin00000485397",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0940450666 (v. 1 : alk. paper)"
+    },
+    {
+      "type": "ISBN",
+      "value": "0940450674 (v. 2 : alk. paper)"
+    },
+    {
+      "type": "LCCN",
+      "value": " 91060540 //r92"
+    },
+    {
+      "type": "Local",
+      "value": "(GAlDC)46585-dartondb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_ALBANY)99465853702933"
+    },
+    {
+      "type": "Local",
+      "value": "99465853702933"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wright, Richard,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "Distributed in the U.S. and Canada by Viking Press,",
+      "Library of America :"
+    ],
+    "date": "c1991.",
+    "year": 1991,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "2 v. ;",
+    "dimensions": "21 cm."
+  },
+  "subjects": [
+    {
+      "value": "African Americans.",
+      "type": "topical"
+    }
+  ]
+}

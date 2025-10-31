@@ -1,0 +1,86 @@
+{
+  "id": "marc:001:in00029297546",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029297546",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029297546",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)6324334"
+    },
+    {
+      "type": "Local",
+      "value": "9911943336202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The history of Tom Jones, a foundling /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Chappell, Warren,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York] :"
+    ],
+    "publisher": [
+      "A.S. Barnes,"
+    ],
+    "date": "©1943.",
+    "year": 1943,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "xxiv, 885 pages, 28 unnumbered leaves of plates :",
+    "illustrations": "illustrations (some color) ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Chappell, Warren,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Illustrated modern library"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)988069422",
+      "History of Tom Jones, a foundling."
+    ]
+  }
+}

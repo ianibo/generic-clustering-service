@@ -1,0 +1,155 @@
+{
+  "id": "marc:001:in00027456169",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027456169",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027456169",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "159308045X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781593080457"
+    },
+    {
+      "type": "ISBN",
+      "value": "1593083521"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781593083526"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2004100523"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)56605025"
+    },
+    {
+      "type": "Local",
+      "value": "9910765417302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The brothers Karamazov /",
+      "type": "main"
+    },
+    {
+      "value": "Bratʹi︠a︡ Karamazovy.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jaanus, Maire.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Barnes & Noble,"
+    ],
+    "date": "2004.",
+    "year": 2004,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxx, 720 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1533-1917",
+      "type": "topical"
+    },
+    {
+      "value": "Brothers",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Father-son relationship",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and sons",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Barnes & Noble classics"
+    },
+    {
+      "title": "Barnes & Noble classics."
+    }
+  ]
+}

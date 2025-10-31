@@ -1,0 +1,151 @@
+{
+  "id": "marc:001:in00027823717",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027823717",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027823717",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0517399903"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780517399903"
+    },
+    {
+      "type": "LCCN",
+      "value": " 82015542 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)9131800"
+    },
+    {
+      "type": "Local",
+      "value": "9911918094902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crime and punishment /",
+      "type": "main"
+    },
+    {
+      "value": "Prestuplenie i nakazanie.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Magarshack, David.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Distributed by Crown Publishers,",
+      "Greenwich House :"
+    ],
+    "date": "1982.",
+    "year": 1982,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "558 pages, 11 unnumbered pages of plates :",
+    "illustrations": "illustrations ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Murder",
+      "type": "topical"
+    },
+    {
+      "value": "Mystery",
+      "type": "topical"
+    },
+    {
+      "value": "Mystery fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Russia (Federation)",
+      "type": "topical"
+    },
+    {
+      "value": "Saint Petersburg (Russia)",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Greenwich House classics library"
+    },
+    {
+      "title": "Greenwich House classics library."
+    }
+  ]
+}

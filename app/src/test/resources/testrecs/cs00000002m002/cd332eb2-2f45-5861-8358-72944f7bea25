@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00026219602",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026219602",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026219602",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)319743"
+    },
+    {
+      "type": "Local",
+      "value": "9911908708802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anna Karenina.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York"
+    ],
+    "publisher": [
+      "Grolier Inc."
+    ],
+    "date": "[1969?]",
+    "year": 1969,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xii, 1329 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1533-1917",
+      "type": "topical"
+    },
+    {
+      "value": "Adultery",
+      "type": "topical"
+    },
+    {
+      "value": "Adultery.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Russia.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "World's great classics"
+    }
+  ]
+}

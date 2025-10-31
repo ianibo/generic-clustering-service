@@ -1,0 +1,271 @@
+{
+  "id": "marc:001:in00028679015",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028679015",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028679015",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)33192822"
+    },
+    {
+      "type": "Local",
+      "value": "9912110841902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rodway, Stella,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Frenaye, Frances,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Borchardt, Anne,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Podwal, Mark H.,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Becker, Stephen D.,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Edelman, Lily,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Marion,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Kozodoy, Neal,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Marion.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wiesel, Elie,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "[New Rochelle, N.Y.?] :"
+    ],
+    "publisher": [
+      "Bibliophile Library, Gerecor Ltd.,"
+    ],
+    "date": "[1985]-",
+    "year": 1985,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "20 volumes :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1939-1945",
+      "type": "topical"
+    },
+    {
+      "value": "Aggada.",
+      "type": "topical"
+    },
+    {
+      "value": "Bible.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Hasidism",
+      "type": "topical"
+    },
+    {
+      "value": "Hasidism.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Holocaust survivors",
+      "type": "topical"
+    },
+    {
+      "value": "Holocaust survivors.",
+      "type": "topical"
+    },
+    {
+      "value": "Holocaust, Jewish (1939-1945)",
+      "type": "topical"
+    },
+    {
+      "value": "Jews in Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Legends.",
+      "type": "topical"
+    },
+    {
+      "value": "Midrash",
+      "type": "topical"
+    },
+    {
+      "value": "Midrash.",
+      "type": "topical"
+    },
+    {
+      "value": "Personal narratives",
+      "type": "topical"
+    },
+    {
+      "value": "Wiesel, Elie,",
+      "type": "topical"
+    },
+    {
+      "value": "World War, 1939-1945",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "marc:001:in00025927056",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025927056",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025927056",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 51002439 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)683960"
+    },
+    {
+      "type": "Local",
+      "value": "9910258027602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poetry;",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Byron, George Gordon Byron,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Modern Library"
+    ],
+    "date": "[1951]",
+    "year": 1951,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxi, 645 pages",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Marchand, Leslie A.,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Modern Library college editions ;",
+      "numbering": "T44"
+    },
+    {
+      "title": "Modern Library college editions ;",
+      "numbering": "T44."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647073270",
+      "Selected poetry."
+    ]
+  }
+}

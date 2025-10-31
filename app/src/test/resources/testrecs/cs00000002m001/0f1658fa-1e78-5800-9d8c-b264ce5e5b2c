@@ -1,0 +1,141 @@
+{
+  "id": "marc:001:in00026814314",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026814314",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026814314",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0292724020"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780292724020"
+    },
+    {
+      "type": "ISBN",
+      "value": "0292724012"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780292724013"
+    },
+    {
+      "type": "LCCN",
+      "value": " 71038575 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)445935"
+    },
+    {
+      "type": "Local",
+      "value": "9910555306402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pessoa, Fernando,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rickard, Peter,",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Austin :"
+    ],
+    "publisher": [
+      "University of Texas Press,"
+    ],
+    "date": "[1972]",
+    "year": 1972,
+    "countryCode": "txu"
+  },
+  "physical": {
+    "extent": "xii, 189 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Pessoa, Fernando,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Portuguese poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Edinburgh bilingual library ;",
+      "numbering": "4"
+    },
+    {
+      "title": "Edinburgh bilingual library ;",
+      "numbering": "4."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)569612269",
+      "Selected poems."
+    ]
+  }
+}

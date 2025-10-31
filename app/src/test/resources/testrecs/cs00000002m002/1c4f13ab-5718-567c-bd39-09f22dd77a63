@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00026255533",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026255533",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026255533",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0689111177"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780689111174"
+    },
+    {
+      "type": "ISBN",
+      "value": "0689111185"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780689111181"
+    },
+    {
+      "type": "LCCN",
+      "value": " 80068135 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7429862"
+    },
+    {
+      "type": "Local",
+      "value": "9910252272502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hine, Daryl,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First Atheneum edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Atheneum,"
+    ],
+    "date": "1981.",
+    "year": 1981,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "128 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Canadian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Canadian poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)563092090",
+      "Selected poems."
+    ]
+  }
+}

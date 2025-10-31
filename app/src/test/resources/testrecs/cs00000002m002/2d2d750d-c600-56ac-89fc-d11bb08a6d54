@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00028817907",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028817907",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028817907",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:54Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:54Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0753453304"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780753453308"
+    },
+    {
+      "type": "ISBN",
+      "value": "0753453215"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780753453216"
+    },
+    {
+      "type": "LCCN",
+      "value": " 00030442 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)44502114"
+    },
+    {
+      "type": "Local",
+      "value": "9911911468102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "McCarty, Nick,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ambrus, Victor G.,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Kingfisher,"
+    ],
+    "date": "2000.",
+    "year": 2000,
+    "countryCode": "a c"
+  },
+  "physical": {
+    "extent": "95 pages :",
+    "illustrations": "color illustrations ;",
+    "dimensions": "29 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "Literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Mythology, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War.",
+      "type": "topical"
+    }
+  ]
+}

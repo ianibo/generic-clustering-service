@@ -1,0 +1,126 @@
+{
+  "id": "marc:001:in00030248507",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030248507",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030248507",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0717200019"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780717200016"
+    },
+    {
+      "type": "LCCN",
+      "value": " 78119753 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)13593539"
+    },
+    {
+      "type": "Local",
+      "value": "9911949935402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The prince /",
+      "type": "main"
+    },
+    {
+      "value": "Principe.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Machiavelli, Niccolò,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Castiglione, Baldassarre,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Grolier,"
+    ],
+    "date": "[1978?]",
+    "year": 1978,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xv, 512 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Courtesy.",
+      "type": "topical"
+    },
+    {
+      "value": "Courts and courtiers.",
+      "type": "topical"
+    },
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Political ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science",
+      "type": "topical"
+    },
+    {
+      "value": "Political science.",
+      "type": "topical"
+    },
+    {
+      "value": "courtiers.",
+      "type": "topical"
+    },
+    {
+      "value": "courts (social groups)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "World's great classics"
+    }
+  ]
+}

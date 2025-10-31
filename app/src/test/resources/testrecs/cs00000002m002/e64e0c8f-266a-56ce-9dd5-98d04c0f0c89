@@ -1,0 +1,133 @@
+{
+  "id": "marc:001:in00027098648",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027098648",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027098648",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)611401"
+    },
+    {
+      "type": "Local",
+      "value": "9911347839402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Vanity fair : a novel without a hero /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thackeray, William Makepeace,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "Harcourt, Brace & World,"
+    ],
+    "date": "[1962]",
+    "year": 1962,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "566 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1815",
+      "type": "topical"
+    },
+    {
+      "value": "Belgium",
+      "type": "topical"
+    },
+    {
+      "value": "British",
+      "type": "topical"
+    },
+    {
+      "value": "British.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Europe.",
+      "type": "topical"
+    },
+    {
+      "value": "Female friendship",
+      "type": "topical"
+    },
+    {
+      "value": "Female friendship.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Married women",
+      "type": "topical"
+    },
+    {
+      "value": "Married women.",
+      "type": "topical"
+    },
+    {
+      "value": "Social classes",
+      "type": "topical"
+    },
+    {
+      "value": "Social classes.",
+      "type": "topical"
+    },
+    {
+      "value": "Waterloo, Battle of, Waterloo, Belgium, 1815",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Harcourt library of English and American classics"
+    },
+    {
+      "title": "Harcourt library of English and American classics."
+    }
+  ]
+}

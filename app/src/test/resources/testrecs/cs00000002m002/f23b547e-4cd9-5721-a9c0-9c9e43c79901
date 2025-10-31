@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:asuin00000485982",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "asuin00000485982",
+    "sourceRecordUri": "https://catalog.example.org/record/asuin00000485982",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0375702172"
+    },
+    {
+      "type": "LCCN",
+      "value": " 97031896 //r98"
+    },
+    {
+      "type": "Local",
+      "value": "(GAlDC)52529-dartondb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_ALBANY)99525293702933"
+    },
+    {
+      "type": "Local",
+      "value": "99525293702933"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Paradise /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Morrison, Toni.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st large print ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Random House Large Print in association with Alfred A. Knopf,"
+    ],
+    "date": "1998.",
+    "year": 1998,
+    "countryCode": " d "
+  },
+  "physical": {
+    "extent": "453 p. (large print) ;",
+    "dimensions": "24 cm."
+  },
+  "subjects": [
+    {
+      "value": "Afro-Americans",
+      "type": "topical"
+    },
+    {
+      "value": "Communal living",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Large type books.",
+      "type": "topical"
+    },
+    {
+      "value": "Oklahoma",
+      "type": "topical"
+    },
+    {
+      "value": "Women",
+      "type": "topical"
+    }
+  ]
+}

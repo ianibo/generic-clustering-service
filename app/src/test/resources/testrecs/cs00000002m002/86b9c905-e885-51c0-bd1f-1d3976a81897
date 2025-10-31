@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:in00029433275",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029433275",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029433275",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0486410234"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780486410234"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780439101363"
+    },
+    {
+      "type": "ISBN",
+      "value": "0439101360"
+    },
+    {
+      "type": "LCCN",
+      "value": " 99048534 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)42649599"
+    },
+    {
+      "type": "Local",
+      "value": "9911922325902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Mineola, NY :"
+    ],
+    "publisher": [
+      "Dover Publications,"
+    ],
+    "date": "2000.",
+    "year": 2000,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "v, 549 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Families",
+      "type": "topical"
+    },
+    {
+      "value": "Families.",
+      "type": "topical"
+    },
+    {
+      "value": "Family life",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "New England",
+      "type": "topical"
+    },
+    {
+      "value": "New England.",
+      "type": "topical"
+    },
+    {
+      "value": "Sisters",
+      "type": "topical"
+    },
+    {
+      "value": "Sisters.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Dover juvenile classics"
+    },
+    {
+      "title": "Dover juvenile classics."
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "id": "marc:001:in00026802192",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026802192",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026802192",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300008481"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300008487"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300009666"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300009668"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300011989"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300011982"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300014376"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300014372"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300019459"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300019452"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300022824"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300022827"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300030044"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300030045"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300040202"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300040203"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300041551"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300041552"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300051360"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300051360"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300053525"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300053524"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300058977"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300058970"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300060599"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300060591"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300068417"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300068412"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300071981"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300071986"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300072953"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300072952"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300078404"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300078404"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300083300"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300083309"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300087144"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300087147"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300091745"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300091748"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300095058"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300095050"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300095724"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300095722"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300101023"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300101027"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300109313"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300109318"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300115390"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300133943"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300115393"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300133944"
+    },
+    {
+      "type": "LCCN",
+      "value": " 57002336 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6030935"
+    },
+    {
+      "type": "Local",
+      "value": "9910001168702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The works of Jonathan Edwards /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Miller, Perry,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "1957-<2008>",
+    "year": 1957,
+    "countryCode": "ctu"
+  },
+  "physical": {
+    "extent": "26 volumes (volumes 24 in 2 parts) :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Christian ethics",
+      "type": "topical"
+    },
+    {
+      "value": "Congregational churches",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy, American",
+      "type": "topical"
+    },
+    {
+      "value": "Theology, Doctrinal",
+      "type": "topical"
+    },
+    {
+      "value": "Theology, Doctrinal.",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The works of Jonathan Edwards"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)604582053",
+      "(OCoLC)607709278",
+      "Works of Jonathan Edwards."
+    ]
+  }
+}

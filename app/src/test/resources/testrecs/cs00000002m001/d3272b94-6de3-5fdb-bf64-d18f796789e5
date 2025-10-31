@@ -1,0 +1,83 @@
+{
+  "id": "marc:001:abacin00000232179",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000232179",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000232179",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0818002220 :"
+    },
+    {
+      "type": "LCCN",
+      "value": " 72086739"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)11315-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994974380402932"
+    },
+    {
+      "type": "Local",
+      "value": "994974380402932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wright, Frank Lloyd,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Horizon Press,"
+    ],
+    "date": "c1977.",
+    "year": 1977,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "620 p., [20] leaves of plates :",
+    "illustrations": "ill. ;",
+    "dimensions": "24 cm."
+  },
+  "subjects": [
+    {
+      "value": "Architects",
+      "type": "topical"
+    },
+    {
+      "value": "Wright, Frank Lloyd,",
+      "type": "topical"
+    }
+  ]
+}

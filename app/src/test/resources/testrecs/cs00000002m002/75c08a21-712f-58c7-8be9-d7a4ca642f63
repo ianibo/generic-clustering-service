@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00030417735",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030417735",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030417735",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1882425189"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781882425181"
+    },
+    {
+      "type": "ISBN",
+      "value": "1882425197"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781882425198"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)53039515"
+    },
+    {
+      "type": "Local",
+      "value": "9910101188902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stevens, C. J.,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "Phillips, Me. :"
+    ],
+    "publisher": [
+      "John Wade,"
+    ],
+    "date": "©2002.",
+    "year": 2002,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "222 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Maine.",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American.",
+      "type": "topical"
+    }
+  ]
+}
