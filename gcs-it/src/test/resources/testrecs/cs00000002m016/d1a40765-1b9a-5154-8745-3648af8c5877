@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:in00028534942",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028534942",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028534942",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0571210155"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780571210152"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2004426765"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)53709940"
+    },
+    {
+      "type": "Local",
+      "value": "9910426241402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Graham, W. S.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Francis, Matthew,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Faber and Faber,"
+    ],
+    "date": "2004.",
+    "year": 2004,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxiv, 387 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

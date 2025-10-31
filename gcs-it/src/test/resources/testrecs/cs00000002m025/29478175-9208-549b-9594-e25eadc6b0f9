@@ -1,0 +1,104 @@
+{
+  "id": "marc:001:in00028277487",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028277487",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028277487",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0674991885"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780674991880"
+    },
+    {
+      "type": "ISBN",
+      "value": "0434991708"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780434991709"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7013502"
+    },
+    {
+      "type": "Local",
+      "value": "9910158671602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Murray, A. T.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "gre"
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, Mass. :"
+    ],
+    "publisher": [
+      "Harvard University Press,"
+    ],
+    "date": "1967-71.",
+    "year": 1967,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Loeb classical library. [Greek authors] ;",
+      "numbering": "170-171"
+    },
+    {
+      "title": "Loeb classical library ;",
+      "numbering": "170-171."
+    }
+  ]
+}

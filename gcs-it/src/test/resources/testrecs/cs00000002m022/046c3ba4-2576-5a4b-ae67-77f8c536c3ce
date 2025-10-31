@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00029199174",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029199174",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029199174",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0030854903"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780030854903"
+    },
+    {
+      "type": "ISBN",
+      "value": "0030524202"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780030524202"
+    },
+    {
+      "type": "LCCN",
+      "value": " 65019348 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)360841"
+    },
+    {
+      "type": "Local",
+      "value": "9910003086902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Housman, A. E.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Holt, Rinehart and Winston,"
+    ],
+    "date": "[1965]",
+    "year": 1965,
+    "countryCode": "c j"
+  },
+  "physical": {
+    "extent": "254 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Holt paperback"
+    },
+    {
+      "title": "Holt paperback."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)561273971",
+      "Collected poems."
+    ]
+  }
+}

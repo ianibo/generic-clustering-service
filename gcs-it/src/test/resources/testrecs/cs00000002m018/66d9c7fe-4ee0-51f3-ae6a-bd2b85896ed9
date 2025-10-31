@@ -1,0 +1,134 @@
+{
+  "id": "marc:001:in00028261551",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028261551",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028261551",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0691098875"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691098876"
+    },
+    {
+      "type": "LCCN",
+      "value": " 68057090 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)112114"
+    },
+    {
+      "type": "Local",
+      "value": "9910647643302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Purgatorio /",
+      "type": "main"
+    },
+    {
+      "value": "Purgatorio.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Singleton, Charles S.",
+      "role": "translator,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "[Princeton, N.J.]"
+    ],
+    "publisher": [
+      "Princeton University Press"
+    ],
+    "date": "[1973]",
+    "year": 1973,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "2 volumes (850, [1] pages)",
+    "illustrations": "illustrations",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Italian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Purgatory",
+      "type": "topical"
+    },
+    {
+      "value": "To 1400",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "His The divine comedy,",
+      "numbering": "v. 2"
+    },
+    {
+      "title": "His The divine comedy,",
+      "numbering": "v. 2"
+    },
+    {
+      "title": "Bollingen series ;",
+      "numbering": "80."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)805925046",
+      "Purgatorio."
+    ]
+  }
+}

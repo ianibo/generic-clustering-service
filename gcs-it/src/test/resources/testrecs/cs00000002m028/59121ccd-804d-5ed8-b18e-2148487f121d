@@ -1,0 +1,201 @@
+{
+  "id": "marc:001:in00028947370",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028947370",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028947370",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 63005499 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)806750"
+    },
+    {
+      "type": "Local",
+      "value": "9910433878502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of Prudentius",
+      "type": "alternative"
+    },
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Prudentius,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Eagan, M. Clement",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Prudentius,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Prudentius,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Prudentius,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Prudentius,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Prudentius,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Prudentius,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Prudentius,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Washington :"
+    ],
+    "publisher": [
+      "Catholic University of American Press,"
+    ],
+    "date": "1962-1965.",
+    "year": 1962,
+    "countryCode": "dcu"
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "30-600",
+      "type": "topical"
+    },
+    {
+      "value": "Apologetics",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Hymns",
+      "type": "topical"
+    },
+    {
+      "value": "Hymns, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Hymns.",
+      "type": "topical"
+    },
+    {
+      "value": "Musical texts",
+      "type": "topical"
+    },
+    {
+      "value": "Musical texts.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Religious poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Religious poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Theology",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Fathers of the Church, a new translation ;",
+      "numbering": "v. 43, 52"
+    },
+    {
+      "title": "Fathers of the church ;",
+      "numbering": "v. 43."
+    },
+    {
+      "title": "Fathers of the church ;",
+      "numbering": "v. 43."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1370995391",
+      "Poems",
+      "Poems of Prudentius."
+    ]
+  }
+}

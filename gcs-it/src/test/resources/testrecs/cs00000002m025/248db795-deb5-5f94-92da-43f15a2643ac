@@ -1,0 +1,131 @@
+{
+  "id": "marc:001:in00029138427",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029138427",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029138427",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 80513883 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6719092"
+    },
+    {
+      "type": "Local",
+      "value": "9910177778702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Catullus /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Catullus, Gaius Valerius.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Martin, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "McLeish, Kenneth,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Abattoir Editions.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "[Omaha] :"
+    ],
+    "publisher": [
+      "Abattoir Editions, University of Nebraska at Omaha,"
+    ],
+    "date": "1979.",
+    "year": 1979,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "102 pages ;",
+    "dimensions": "26 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Catullus, Gaius Valerius",
+      "type": "topical"
+    },
+    {
+      "value": "Elegiac poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Epigrams, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Love poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Rome",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

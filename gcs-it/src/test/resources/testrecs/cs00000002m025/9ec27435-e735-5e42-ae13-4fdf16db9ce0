@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00028927766",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028927766",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028927766",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "a 41004265 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3084684"
+    },
+    {
+      "type": "Local",
+      "value": "9910273096502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tiller, Terence,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hogarth Press,",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Hogarth Press,"
+    ],
+    "date": "1941.",
+    "year": 1941,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "63 pages",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "New Hogarth library ;",
+      "numbering": "v. 5"
+    },
+    {
+      "title": "New Hogarth library ;",
+      "numbering": "v. 5."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)643723467",
+      "Poems."
+    ]
+  }
+}

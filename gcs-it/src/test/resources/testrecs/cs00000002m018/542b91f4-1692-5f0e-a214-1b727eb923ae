@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00028489438",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028489438",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028489438",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0192812882"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192812889"
+    },
+    {
+      "type": "LCCN",
+      "value": " 80049864 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6602847"
+    },
+    {
+      "type": "Local",
+      "value": "9910004672902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected poems of Edward Thomas /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thomas, Edward,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Thomas, R. George,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1981.",
+    "year": 1981,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxvi, 198 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Thomas, Edward,",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford paperbacks."
+    },
+    {
+      "title": "Oxford paperbacks."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00026100115",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026100115",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026100115",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)7639982"
+    },
+    {
+      "type": "Local",
+      "value": "9910496813002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Riley, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Longville, Tim.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Wirksworth, Derbyshire :"
+    ],
+    "publisher": [
+      "Grosseteste,"
+    ],
+    "date": "1980.",
+    "year": 1980,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "xi, 515 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)644166668",
+      "Collected works."
+    ]
+  }
+}

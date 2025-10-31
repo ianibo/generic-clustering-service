@@ -1,0 +1,104 @@
+{
+  "id": "marc:001:in00027652994",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027652994",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027652994",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 55012627 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2064886"
+    },
+    {
+      "type": "Local",
+      "value": "9911403492802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Samuel Johnson /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Joyce, Michael,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Longmans, Green and Co,"
+    ],
+    "date": "1955.",
+    "year": 1955,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "171 pages, 2 unnumbered leaves of plates ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, English",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Men and books"
+    },
+    {
+      "title": "Men and books."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)562413665",
+      "Samuel Johnson."
+    ]
+  }
+}

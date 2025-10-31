@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:in00026630953",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026630953",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026630953",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140430717"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140430714"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)52628611"
+    },
+    {
+      "type": "Local",
+      "value": "(GKJ)551974"
+    },
+    {
+      "type": "Local",
+      "value": "(GaKeSu)468921-ksudb-Voyager"
+    },
+    {
+      "type": "Local",
+      "value": "9911151708102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Waverley /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Penguin,"
+    ],
+    "date": "[1985]",
+    "year": 1985,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "608 p. ;",
+    "dimensions": "20 cm."
+  },
+  "subjects": [
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Jacobite Rebellion, 1745-1746",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "marc:001:in00026934311",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026934311",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026934311",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)288227"
+    },
+    {
+      "type": "Local",
+      "value": "9910786633502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ingelow, Jean,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Roberts Bros.,"
+    ],
+    "date": "1864.",
+    "year": 1864,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "256 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Publishers' advertisements",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)657145999",
+      "Poems."
+    ]
+  }
+}

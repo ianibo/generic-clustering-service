@@ -1,0 +1,123 @@
+{
+  "id": "marc:001:in00026999475",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026999475",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026999475",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:54Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:54Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300075529"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)43181677"
+    },
+    {
+      "type": "Local",
+      "value": "(GAC)88970"
+    },
+    {
+      "type": "Local",
+      "value": "(GSaAAS)88970-armstrongdb"
+    },
+    {
+      "type": "Local",
+      "value": "9911645140602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Bacchylides : complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bacchylides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fagles, Robert.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Parry, Adam,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "New ed."
+  },
+  "publication": {
+    "place": [
+      "London :",
+      "New Haven;"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "1998.",
+    "year": 1998,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxvi, 123 p. ;",
+    "dimensions": "21 cm"
+  },
+  "subjects": [
+    {
+      "value": "Athletics",
+      "type": "topical"
+    },
+    {
+      "value": "Bacchylides",
+      "type": "topical"
+    },
+    {
+      "value": "Games",
+      "type": "topical"
+    },
+    {
+      "value": "Laudatory poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Odes",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations into English.",
+      "type": "topical"
+    }
+  ]
+}

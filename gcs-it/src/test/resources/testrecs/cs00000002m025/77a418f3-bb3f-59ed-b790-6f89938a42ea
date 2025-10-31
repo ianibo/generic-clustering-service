@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:in00027633097",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027633097",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027633097",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0869752715"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780869752715"
+    },
+    {
+      "type": "LCCN",
+      "value": " 86128880 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)13861176"
+    },
+    {
+      "type": "Local",
+      "value": "9910487266002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "H.I.E. Dhlomo collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dhlomo, H. I. E.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Visser, Nick.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Couzens, Tim.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Johannesburg :"
+    ],
+    "publisher": [
+      "Ravan Press,"
+    ],
+    "date": "1985.",
+    "year": 1985,
+    "countryCode": "b 0"
+  },
+  "physical": {
+    "extent": "xvii, 500 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "South African literature (English)",
+      "type": "topical"
+    }
+  ]
+}

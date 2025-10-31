@@ -1,0 +1,144 @@
+{
+  "id": "marc:001:in00026820651",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026820651",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026820651",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0717806227"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780717806225"
+    },
+    {
+      "type": "ISBN",
+      "value": "0717806324"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780717806324"
+    },
+    {
+      "type": "ISBN",
+      "value": "0717806235"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780717806232"
+    },
+    {
+      "type": "ISBN",
+      "value": "0717806332"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780717806331"
+    },
+    {
+      "type": "LCCN",
+      "value": " 67019754 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)702293"
+    },
+    {
+      "type": "Local",
+      "value": "9910029551102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Capital : a critique of political economy /",
+      "type": "main"
+    },
+    {
+      "value": "Kapital.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marx, Karl,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Engels, Friedrich,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "International Publishers,"
+    ],
+    "date": "1967.",
+    "year": 1967,
+    "countryCode": "h b"
+  },
+  "physical": {
+    "extent": "3 volumes :",
+    "illustrations": "facsimiles ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Capital.",
+      "type": "topical"
+    },
+    {
+      "value": "Economics",
+      "type": "topical"
+    },
+    {
+      "value": "Economics.",
+      "type": "topical"
+    },
+    {
+      "value": "economics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "New world paperbacks"
+    },
+    {
+      "title": "New World paperback."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)579736662",
+      "Capital."
+    ]
+  }
+}

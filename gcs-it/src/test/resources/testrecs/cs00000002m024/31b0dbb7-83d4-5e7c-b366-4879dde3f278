@@ -1,0 +1,64 @@
+{
+  "id": "marc:001:sgscin00000240419",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "sgscin00000240419",
+    "sourceRecordUri": "https://catalog.example.org/record/sgscin00000240419",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(GaDgSGS)10577-southgadb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_SGC)99105774202957"
+    },
+    {
+      "type": "Local",
+      "value": "99105774202957"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems [of] Andrew Marvell /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marvell, Andrew,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin Books"
+    ],
+    "date": "[1972].",
+    "year": 1972,
+    "countryCode": "0 0"
+  },
+  "physical": {
+    "extent": "314 p. ;",
+    "dimensions": "18 cm."
+  }
+}

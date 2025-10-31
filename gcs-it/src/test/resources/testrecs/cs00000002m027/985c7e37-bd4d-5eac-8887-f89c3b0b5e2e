@@ -1,0 +1,146 @@
+{
+  "id": "marc:001:in00026838581",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026838581",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026838581",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:54Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:54Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1593081324"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781593081324"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)56997246"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gulliver's travels /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Seidel, Michael,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, NY :"
+    ],
+    "publisher": [
+      "Barnes & Noble,"
+    ],
+    "date": "©2003.",
+    "year": 2003,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxxi, 317 pages ;",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Gulliver, Lemuel",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Romans.",
+      "type": "topical"
+    },
+    {
+      "value": "Satire",
+      "type": "topical"
+    },
+    {
+      "value": "Satire.",
+      "type": "topical"
+    },
+    {
+      "value": "Satires (Littérature)",
+      "type": "topical"
+    },
+    {
+      "value": "Satirical literature",
+      "type": "topical"
+    },
+    {
+      "value": "Satirical literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Travelers",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    },
+    {
+      "value": "satire (artistic device)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Barnes & Noble classics"
+    },
+    {
+      "title": "Barnes & Noble classics."
+    }
+  ]
+}

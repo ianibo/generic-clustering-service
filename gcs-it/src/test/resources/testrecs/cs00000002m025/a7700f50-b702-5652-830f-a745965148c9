@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00028789580",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028789580",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028789580",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 08007854 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1111108"
+    },
+    {
+      "type": "Local",
+      "value": "9910145411502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Political writings.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cobden, Richard,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York,"
+    ],
+    "publisher": [
+      "Appleton,",
+      "Ridgway;"
+    ],
+    "date": "1867.",
+    "year": 1867,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "2 volumes",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1837-1901",
+      "type": "topical"
+    },
+    {
+      "value": "Autographs (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)692268980",
+      "Political writings."
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00029453188",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029453188",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029453188",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)4144149"
+    },
+    {
+      "type": "Local",
+      "value": "9910289051802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Inferno /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Strindberg, August,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sandbach, Mary,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Lucas, F. L.",
+      "role": "writer of introduction.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Hutchinson,"
+    ],
+    "date": "1962.",
+    "year": 1962,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "176 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Strindberg, August,",
+      "type": "topical"
+    },
+    {
+      "value": "Swedish fiction",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary genre)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)551716958",
+      "Inferno."
+    ]
+  }
+}

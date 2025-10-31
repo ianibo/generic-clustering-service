@@ -1,0 +1,144 @@
+{
+  "id": "marc:001:in00028384190",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028384190",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028384190",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0521294290"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780521294294"
+    },
+    {
+      "type": "ISBN",
+      "value": "0521222680"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780521222686"
+    },
+    {
+      "type": "ISBN",
+      "value": "0521222699"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780521222693"
+    },
+    {
+      "type": "ISBN",
+      "value": "1108551211"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781108551212"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781108426862"
+    },
+    {
+      "type": "ISBN",
+      "value": "1108426867"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2012286377"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)842366313"
+    },
+    {
+      "type": "Local",
+      "value": "9910242133702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lawrence, D. H.",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Pollnitz, Christopher,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, UK :"
+    ],
+    "publisher": [
+      "Cambridge University Press,"
+    ],
+    "date": "2013-2018.",
+    "year": 2013,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "3 volumes (1963 pages) :",
+    "illustrations": "illustrations, facsimiles ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Lawrence, D. H.",
+      "type": "topical"
+    },
+    {
+      "value": "Literary criticism.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Cambridge edition of the works of D.H. Lawrence"
+    }
+  ]
+}

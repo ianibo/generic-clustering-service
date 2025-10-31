@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00028548781",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028548781",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028548781",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0838313787"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780838313787"
+    },
+    {
+      "type": "LCCN",
+      "value": " 75184647 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)215803"
+    },
+    {
+      "type": "Local",
+      "value": "9910794606902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Bibliography of Oscar Wilde /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mason, Stuart,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Haskell House Publishers,"
+    ],
+    "date": "1972.",
+    "year": 1972,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "2 volumes (xxxii, 605 pages) :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bibliographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Wilde, Oscar,",
+      "type": "topical"
+    },
+    {
+      "value": "bibliographies.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)988328424",
+      "Bibliography of Oscar Wilde"
+    ]
+  }
+}

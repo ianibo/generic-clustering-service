@@ -1,0 +1,158 @@
+{
+  "id": "marc:001:in00026493835",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026493835",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026493835",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 90222448 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)22859444"
+    },
+    {
+      "type": "Local",
+      "value": "9911804577402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The provincial letters ; Pensées ; Scientific treatises /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pascal, Blaise,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "M'Crie, Thomas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Trotter, W. F.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Scofield, Richard.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "2nd ed."
+  },
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica, Inc.,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vi, 487 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Apologetic writings",
+      "type": "topical"
+    },
+    {
+      "value": "Apologetic writings.",
+      "type": "topical"
+    },
+    {
+      "value": "Apologetics",
+      "type": "topical"
+    },
+    {
+      "value": "Catholic Church",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "Jansenists",
+      "type": "topical"
+    },
+    {
+      "value": "Jesuits",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics",
+      "type": "topical"
+    },
+    {
+      "value": "Physics",
+      "type": "topical"
+    },
+    {
+      "value": "Port-Royal des Champs (Abbey)",
+      "type": "topical"
+    },
+    {
+      "value": "Theology, Doctrinal",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "30"
+    },
+    {
+      "title": "Great books of the Western world (1990) ;",
+      "numbering": "30."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1035524960",
+      "Provincial letters ; Pensées ; Scientific treatises."
+    ]
+  }
+}

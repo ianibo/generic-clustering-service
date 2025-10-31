@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:in00030321547",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030321547",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030321547",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0836952766"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780836952766"
+    },
+    {
+      "type": "LCCN",
+      "value": " 79114871 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)74373"
+    },
+    {
+      "type": "Local",
+      "value": "9910596262802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography.",
+      "type": "main"
+    },
+    {
+      "value": "Contributo alla critica di me stesso.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Croce, Benedetto,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Freeport, N.Y.,"
+    ],
+    "publisher": [
+      "Books for Libraries Press"
+    ],
+    "date": "[1970]",
+    "year": 1970,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "116 pages",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Croce, Benedetto,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1086306757",
+      "Autobiography."
+    ]
+  }
+}

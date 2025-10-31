@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00027181987",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027181987",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027181987",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 06036382 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1984286"
+    },
+    {
+      "type": "Local",
+      "value": "9911101945202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "A tale of two cities /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Browne, Hablot Knight,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Chapman and Hall,"
+    ],
+    "date": "MDCCCLIX [1859]",
+    "year": 1859,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "viii, 2 unnumbered pages, 254 pages, 16 unnumbered leaves of plates :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1789 - 1799",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    },
+    {
+      "value": "octavo.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)799660632",
+      "Tale of two cities."
+    ]
+  }
+}

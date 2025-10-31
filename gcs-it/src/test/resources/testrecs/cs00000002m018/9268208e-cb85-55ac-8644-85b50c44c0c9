@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00029193605",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029193605",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029193605",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0252028597"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780252028595"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003001345"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)51544021"
+    },
+    {
+      "type": "Local",
+      "value": "9910197072002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gordon, Don,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Whitehead, Fred.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Urbana :"
+    ],
+    "publisher": [
+      "University of Illinois Press,"
+    ],
+    "date": "©2004.",
+    "year": 2004,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xii, 277 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The American poetry recovery series"
+    },
+    {
+      "title": "American poetry recovery series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607030914",
+      "Collected poems."
+    ]
+  }
+}

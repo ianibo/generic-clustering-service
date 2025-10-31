@@ -1,0 +1,80 @@
+{
+  "id": "marc:001:in00027962201",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027962201",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027962201",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)16911448"
+    },
+    {
+      "type": "Local",
+      "value": "9910342481002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Allen, Elizabeth Akers,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Ticknor and Fields,"
+    ],
+    "date": "1866.",
+    "year": 1866,
+    "countryCode": " a "
+  },
+  "physical": {
+    "extent": "vi, 251 pages ;",
+    "dimensions": "15 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 13010760",
+      "(OCoLC)875213573",
+      "Poems."
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "marc:001:in00027624330",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027624330",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027624330",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 62053287"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2636359"
+    },
+    {
+      "type": "Local",
+      "value": "(Voyager)254419-regentsdb"
+    },
+    {
+      "type": "Local",
+      "value": "9910020827302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fitzgerald, Robert,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Garden City, N. Y.,"
+    ],
+    "publisher": [
+      "Anchor Books"
+    ],
+    "date": "[1963]",
+    "year": 1963,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "506 p.",
+    "illustrations": "illus.",
+    "dimensions": "19 cm."
+  },
+  "series": [
+    {
+      "title": "A Doubleday anchor book, A333"
+    }
+  ]
+}

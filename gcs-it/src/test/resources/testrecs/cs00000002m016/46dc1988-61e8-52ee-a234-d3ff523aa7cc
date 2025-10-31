@@ -1,0 +1,79 @@
+{
+  "id": "marc:001:in00028617148",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028617148",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028617148",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0719565464"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780719565465"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)52531247"
+    },
+    {
+      "type": "Local",
+      "value": "9910880213202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Betjeman, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Birkenhead, Frederick Winston Furneaux Smith,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "New ed."
+  },
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "John Murray,"
+    ],
+    "date": "2003.",
+    "year": 2003,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "448 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00028434416",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028434416",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028434416",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)40011736"
+    },
+    {
+      "type": "Local",
+      "value": "9910716852802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cowper, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Newton, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Amherst, N.H. :"
+    ],
+    "publisher": [
+      "Printed by Joseph Cushing, sold by him,"
+    ],
+    "date": "1808.",
+    "year": 1808,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "3 volumes, 3 unnumbered leaves of plates :",
+    "illustrations": "illustrations",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Early American imprints.",
+      "numbering": "no. 14789."
+    }
+  ]
+}

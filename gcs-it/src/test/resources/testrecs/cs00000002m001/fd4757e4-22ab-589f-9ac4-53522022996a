@@ -1,0 +1,68 @@
+{
+  "id": "marc:001:abacin00000233661",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000233661",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000233661",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 67031053"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)685-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994976799102932"
+    },
+    {
+      "type": "Local",
+      "value": "994976799102932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected poems of Edith Sitwell.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sitwell, Edith,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Vanguard Press"
+    ],
+    "date": "[c1968]",
+    "year": 1968,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "L, 472 p.",
+    "dimensions": "25 cm."
+  }
+}

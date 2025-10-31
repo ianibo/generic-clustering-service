@@ -1,0 +1,63 @@
+{
+  "id": "marc:001:in00028078228",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028078228",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028078228",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)13442903"
+    },
+    {
+      "type": "Local",
+      "value": "9911435719102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sassoon, Siegfried,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "W. Heinemann Ltd."
+    ],
+    "date": "[1938]",
+    "year": 1938,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "vii, 75 pages",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

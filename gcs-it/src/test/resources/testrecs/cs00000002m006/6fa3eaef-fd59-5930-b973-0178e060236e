@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00026493828",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026493828",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026493828",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "LCCN",
+      "value": " 90222458 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)22859464"
+    },
+    {
+      "type": "Local",
+      "value": "9911804540602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Adam Smith",
+      "type": "alternative"
+    },
+    {
+      "value": "An inquiry into the nature and causes of the wealth of nations /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Smith, Adam,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "2nd ed."
+  },
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica, Inc.,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "viii, 515 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Economics",
+      "type": "topical"
+    },
+    {
+      "value": "Economics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "36"
+    },
+    {
+      "title": "Great books of the Western world (1990) ;",
+      "numbering": "36."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894887580",
+      "Inquiry into the nature and causes of the wealth of nations."
+    ]
+  }
+}

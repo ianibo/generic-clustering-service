@@ -1,0 +1,134 @@
+{
+  "id": "marc:001:in00028585956",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028585956",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028585956",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781597072489"
+    },
+    {
+      "type": "ISBN",
+      "value": "1597072486"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)654318432"
+    },
+    {
+      "type": "Local",
+      "value": "9911874751802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Ivanhoe /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Harris, Mark Wayne,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lago, Ray.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Papercutz,"
+    ],
+    "date": "©2011, ©1991.",
+    "year": 2011,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "1 volume (unpaged) :",
+    "illustrations": "chiefly color illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1189-1199",
+      "type": "topical"
+    },
+    {
+      "value": "Comic books, strips, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Comics (Graphic works)",
+      "type": "topical"
+    },
+    {
+      "value": "Graphic novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood.",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Classics illustrated ;",
+      "numbering": "#13"
+    },
+    {
+      "title": "Classics illustrated (Papercutz (Firm)) ;",
+      "numbering": "#13."
+    }
+  ]
+}

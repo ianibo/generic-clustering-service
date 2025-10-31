@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00026746700",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026746700",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026746700",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300091745"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300091748"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2002028069"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)50347945"
+    },
+    {
+      "type": "Local",
+      "value": "9910483580102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The miscellanies : entries nos. 833-1152 /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pauw, Amy Plantinga.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven, CT :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "2002.",
+    "year": 2002,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xi, 569 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Congregational churches",
+      "type": "topical"
+    },
+    {
+      "value": "Edwards, Jonathan,",
+      "type": "topical"
+    },
+    {
+      "value": "Theology, Doctrinal.",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The works of Jonathan Edwards ;",
+      "numbering": "v. 20"
+    },
+    {
+      "title": "Edwards, Jonathan,",
+      "numbering": "v. 20."
+    }
+  ]
+}

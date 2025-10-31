@@ -1,0 +1,82 @@
+{
+  "id": "marc:001:gsuin00004468485",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004468485",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004468485",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "ocm01182355"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)303952-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)993039523402952"
+    },
+    {
+      "type": "Local",
+      "value": "993039523402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The brothers Karamazov.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "rus"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1948.",
+    "year": 1948,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "viii, 821 p.",
+    "dimensions": "19 cm."
+  },
+  "series": [
+    {
+      "title": "The novels of Fyodor Dostoevsky."
+    }
+  ]
+}

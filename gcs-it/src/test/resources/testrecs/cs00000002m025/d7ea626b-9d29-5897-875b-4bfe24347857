@@ -1,0 +1,69 @@
+{
+  "id": "marc:001:in00027230830",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027230830",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027230830",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)8400440"
+    },
+    {
+      "type": "Local",
+      "value": "9910414807502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The life of Samuel Johnson, LL. D. /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hawkins, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Jonathan Cape,"
+    ],
+    "date": "[1962]",
+    "year": 1962,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "341 pages :",
+    "illustrations": "illustrations",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    }
+  ]
+}

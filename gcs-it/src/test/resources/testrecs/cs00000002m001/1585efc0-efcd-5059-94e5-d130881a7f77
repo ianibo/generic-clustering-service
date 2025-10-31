@@ -1,0 +1,86 @@
+{
+  "id": "marc:001:abacin00000241977",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000241977",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000241977",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 46004476"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)4973-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994976618102932"
+    },
+    {
+      "type": "Local",
+      "value": "994976618102932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The divine comedy /",
+      "type": "main"
+    },
+    {
+      "value": "Divina commedia.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cary, Henry Francis,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Romano, Umberto,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "engita"
+  ],
+  "publication": {
+    "place": [
+      "Garden City, N. Y. :"
+    ],
+    "publisher": [
+      "Doubleday & company,"
+    ],
+    "date": "1947, c1946.",
+    "year": 1947,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "475 p. :",
+    "illustrations": "ill., col. plates (part double) ;",
+    "dimensions": "22 cm."
+  }
+}

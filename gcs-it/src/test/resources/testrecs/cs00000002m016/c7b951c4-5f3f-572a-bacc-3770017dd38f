@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00028345560",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028345560",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028345560",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)4523805"
+    },
+    {
+      "type": "Local",
+      "value": "9910410909502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Robinson Crusoe.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Defoe, Daniel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York,"
+    ],
+    "publisher": [
+      "Dent;",
+      "Dutton"
+    ],
+    "date": "[1966]",
+    "year": 1966,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "vi, 245 pages",
+    "illustrations": "illustrations (some color)",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Castaways",
+      "type": "topical"
+    },
+    {
+      "value": "Castaways.",
+      "type": "topical"
+    },
+    {
+      "value": "Children's literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Crusoe, Robinson",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Islands",
+      "type": "topical"
+    },
+    {
+      "value": "Islands.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "Shipwrecks",
+      "type": "topical"
+    },
+    {
+      "value": "Shipwrecks.",
+      "type": "topical"
+    },
+    {
+      "value": "Survival after airplane accidents, shipwrecks, etc.",
+      "type": "topical"
+    }
+  ]
+}

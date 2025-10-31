@@ -1,0 +1,142 @@
+{
+  "id": "marc:001:in00027882283",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027882283",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027882283",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0394607260"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780394607269"
+    },
+    {
+      "type": "LCCN",
+      "value": " 36017882 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)783523"
+    },
+    {
+      "type": "Local",
+      "value": "9910003649102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Critique of political economy",
+      "type": "alternative"
+    },
+    {
+      "value": "Capital : a critique of political economy /",
+      "type": "main"
+    },
+    {
+      "value": "Kapital.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marx, Karl,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Moore, Samuel,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Aveling, Edward B.,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Engels, Friedrich,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Untermann, Gerhard Ernest,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "The Modern Library,"
+    ],
+    "date": "[1906]",
+    "year": 1906,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "869 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Capital.",
+      "type": "topical"
+    },
+    {
+      "value": "Economics",
+      "type": "topical"
+    },
+    {
+      "value": "Economics.",
+      "type": "topical"
+    },
+    {
+      "value": "capital (economic concept)",
+      "type": "topical"
+    },
+    {
+      "value": "economics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The modern library of the world's best books"
+    },
+    {
+      "title": "Modern library of the world's best books."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654841439",
+      "Capital."
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:in00027471860",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027471860",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027471860",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)16575921"
+    },
+    {
+      "type": "Local",
+      "value": "9910395043002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The antiquary.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia,"
+    ],
+    "publisher": [
+      "J.B. Lippincott & Co.,"
+    ],
+    "date": "1879.",
+    "year": 1879,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "2 volumes in 1.",
+    "illustrations": "frontispiece, plate",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Antiquarians",
+      "type": "topical"
+    },
+    {
+      "value": "Antiquarians.",
+      "type": "topical"
+    },
+    {
+      "value": "Beggars",
+      "type": "topical"
+    },
+    {
+      "value": "Beggars.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Waverley novels"
+    }
+  ]
+}

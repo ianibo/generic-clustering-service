@@ -1,0 +1,91 @@
+{
+  "id": "marc:001:abacin00000241456",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000241456",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000241456",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0670616710"
+    },
+    {
+      "type": "LCCN",
+      "value": " 74006851 //r922"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)322-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994976396402932"
+    },
+    {
+      "type": "Local",
+      "value": "994976396402932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Samuel Johnson /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wain, John.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Viking Press,"
+    ],
+    "date": "1975, c1974.",
+    "year": 1975,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "388 p., [8] leaves of plates :",
+    "illustrations": "ill. ;",
+    "dimensions": "25 cm."
+  },
+  "subjects": [
+    {
+      "value": "Authors, English",
+      "type": "topical"
+    },
+    {
+      "value": "Critics",
+      "type": "topical"
+    },
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    },
+    {
+      "value": "Lexicographers",
+      "type": "topical"
+    }
+  ]
+}

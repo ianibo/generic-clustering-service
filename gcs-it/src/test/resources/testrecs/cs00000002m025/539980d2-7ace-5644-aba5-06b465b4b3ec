@@ -1,0 +1,74 @@
+{
+  "id": "marc:001:in00027271583",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027271583",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027271583",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)27184619"
+    },
+    {
+      "type": "Local",
+      "value": "9910489282202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Street, James H.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Dial Press,"
+    ],
+    "date": "1945.",
+    "year": 1945,
+    "countryCode": " a "
+  },
+  "physical": {
+    "extent": "314 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "series": [
+    {
+      "title": "SOLINET/ASERL Cooperative Microfilming Project (NEH PS-20317) ;",
+      "numbering": "SOL MN02802.05 GUA."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)603903"
+    ]
+  }
+}

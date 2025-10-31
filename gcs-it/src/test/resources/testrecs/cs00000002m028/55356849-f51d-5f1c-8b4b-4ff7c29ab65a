@@ -1,0 +1,65 @@
+{
+  "id": "marc:001:in00030028518",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030028518",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030028518",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 38006920 "
+    },
+    {
+      "type": "Local",
+      "value": "ocm00281015"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)82345-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910271020302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems [of] E.E. Cummings.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cummings, E. E.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "publisher": [
+      "Harcourt, Brace and company"
+    ],
+    "date": "[c1963]",
+    "year": 1963,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "315 p.",
+    "dimensions": "22 cm"
+  }
+}

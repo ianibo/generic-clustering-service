@@ -1,0 +1,127 @@
+{
+  "id": "marc:001:in00029136885",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029136885",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029136885",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)7407649"
+    },
+    {
+      "type": "Local",
+      "value": "9910792326802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Vanity fair. A novel without a hero /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thackeray, William Makepeace,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st American ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Harper & Bros.,"
+    ],
+    "date": "1848.",
+    "year": 1848,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "332 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1815",
+      "type": "topical"
+    },
+    {
+      "value": "Belgium",
+      "type": "topical"
+    },
+    {
+      "value": "British",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Europe",
+      "type": "topical"
+    },
+    {
+      "value": "Female friendship",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Married women",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Printed wrappers (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Social classes",
+      "type": "topical"
+    },
+    {
+      "value": "Waterloo, Battle of, Waterloo, Belgium, 1815",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)656783972",
+      "Vanity fair."
+    ]
+  }
+}

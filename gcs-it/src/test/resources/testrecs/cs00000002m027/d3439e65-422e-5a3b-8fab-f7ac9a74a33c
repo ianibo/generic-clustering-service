@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00028748937",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028748937",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028748937",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300106726"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300106725"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2004060114"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)57285994"
+    },
+    {
+      "type": "Local",
+      "value": "9911246047202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Johnson on the English language /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Johnson, Samuel,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Kolb, Gwin J.,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "DeMaria, Robert,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New Haven ;"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "2005.",
+    "year": 2005,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xlviii, 506 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dictionary of the English language (Johnson, Samuel)",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Early works to 1800.",
+      "type": "topical"
+    },
+    {
+      "value": "English language",
+      "type": "topical"
+    },
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    },
+    {
+      "value": "Lexicology",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Yale edition of the works of Samuel Johnson ;",
+      "numbering": "volume XVIII"
+    }
+  ]
+}

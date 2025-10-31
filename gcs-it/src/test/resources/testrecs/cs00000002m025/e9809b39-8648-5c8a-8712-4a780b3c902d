@@ -1,0 +1,115 @@
+{
+  "id": "marc:001:in00028628765",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028628765",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028628765",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780875653594"
+    },
+    {
+      "type": "ISBN",
+      "value": "0875653596"
+    },
+    {
+      "type": "ISBN",
+      "value": "0875653529"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780875653525"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2007034188"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)165958385"
+    },
+    {
+      "type": "Local",
+      "value": "9910123838102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New and selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fromholz, Steven.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Fort Worth, Tex. :"
+    ],
+    "publisher": [
+      "TCU Press,"
+    ],
+    "date": "©2007.",
+    "year": 2007,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "viii, 74 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Texas",
+      "type": "topical"
+    },
+    {
+      "value": "Texas.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "TCU Texas poets laureate series"
+    },
+    {
+      "title": "TCU Texas poets laureate series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)608499694",
+      "New and selected poems."
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:in00026801036",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026801036",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026801036",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0715406876"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780715406878"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)17916709"
+    },
+    {
+      "type": "Local",
+      "value": "9910572752302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jones, Bobi,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Clancy, Joseph P.,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Swansea :"
+    ],
+    "publisher": [
+      "Christopher Davies,"
+    ],
+    "date": "©1987.",
+    "year": 1987,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "289 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "Welsh poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Welsh poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)987862404",
+      "Selected poems."
+    ]
+  }
+}

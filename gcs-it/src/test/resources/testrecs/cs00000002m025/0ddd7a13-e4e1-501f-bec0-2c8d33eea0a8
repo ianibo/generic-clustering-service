@@ -1,0 +1,137 @@
+{
+  "id": "marc:001:in00030175280",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030175280",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030175280",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140420649"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140420647"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)38554060"
+    },
+    {
+      "type": "Local",
+      "value": "9910435942602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rimbaud, Arthur,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Bernard, Oliver,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Rimbaud, Arthur,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "Harmondsworth, Middlesex, England :",
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin Books ;",
+      "Penguin Books USA,"
+    ],
+    "date": "1997.",
+    "year": 1997,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxii, 351 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Correspondence",
+      "type": "topical"
+    },
+    {
+      "value": "Correspondence.",
+      "type": "topical"
+    },
+    {
+      "value": "Personal correspondence",
+      "type": "topical"
+    },
+    {
+      "value": "Personal correspondence.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Rimbaud, Arthur,",
+      "type": "topical"
+    },
+    {
+      "value": "personal correspondence.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

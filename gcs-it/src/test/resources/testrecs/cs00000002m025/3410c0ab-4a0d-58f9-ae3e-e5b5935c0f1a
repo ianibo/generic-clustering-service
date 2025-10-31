@@ -1,0 +1,132 @@
+{
+  "id": "marc:001:in00030489464",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030489464",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030489464",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0521343941"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780521343947"
+    },
+    {
+      "type": "ISBN",
+      "value": "0521348668"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780521348669"
+    },
+    {
+      "type": "LCCN",
+      "value": " 90001857 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)21442255"
+    },
+    {
+      "type": "Local",
+      "value": "9910232912902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Political writings /",
+      "type": "main"
+    },
+    {
+      "value": "Tenure of kings and magistrates",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Milton, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Dzelzainis, Martin.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Gruzelier, Claire.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Milton, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Cambridge ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Cambridge University Press,"
+    ],
+    "date": "1991.",
+    "year": 1991,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxiii, 279 pages ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Divine right of kings.",
+      "type": "topical"
+    },
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science",
+      "type": "topical"
+    },
+    {
+      "value": "Political science.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Cambridge texts in the history of political thought"
+    },
+    {
+      "title": "Cambridge texts in the history of political thought."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00026502398",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026502398",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026502398",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0764111485"
+    },
+    {
+      "type": "LCCN",
+      "value": " 99025635"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)41142985"
+    },
+    {
+      "type": "Local",
+      "value": "(ZHY)141262"
+    },
+    {
+      "type": "Local",
+      "value": "(ZHY)141262-daltondb"
+    },
+    {
+      "type": "Local",
+      "value": "9911555335602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Wuthering Heights /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Seely, Elizabeth,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Hauppauge, N.Y. :"
+    ],
+    "publisher": [
+      "Barron's,"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": "a d"
+  },
+  "physical": {
+    "extent": "xiv, 354 p. :",
+    "illustrations": "ill. ;",
+    "dimensions": "24 cm."
+  },
+  "subjects": [
+    {
+      "value": "Country life",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Yorkshire (England)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Barron's classic novels"
+    },
+    {
+      "title": "Barron's classic novels."
+    }
+  ]
+}

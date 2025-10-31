@@ -1,0 +1,126 @@
+{
+  "id": "marc:001:in00027121780",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027121780",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027121780",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 65008801 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3133831"
+    },
+    {
+      "type": "Local",
+      "value": "9910730413302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Histories",
+      "type": "alternative"
+    },
+    {
+      "value": "The Annals and the Histories /",
+      "type": "main"
+    },
+    {
+      "value": "Annales.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tacitus, Cornelius.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Church, Alfred John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Brodribb, William Jackson,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lloyd-Jones, Hugh,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Tacitus, Cornelius.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Twayne Publishers,"
+    ],
+    "date": "[1965]",
+    "year": 1965,
+    "countryCode": "abj"
+  },
+  "physical": {
+    "extent": "xlvii, 524 pages :",
+    "illustrations": "genealogical tables, folded map ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "30 B.C.-96 A.D",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Rome",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Great histories ;",
+      "numbering": "7"
+    },
+    {
+      "title": "Great histories."
+    }
+  ]
+}

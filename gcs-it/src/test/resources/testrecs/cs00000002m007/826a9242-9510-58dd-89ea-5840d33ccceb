@@ -1,0 +1,85 @@
+{
+  "id": "marc:001:in00027965953",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027965953",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027965953",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)13664129"
+    },
+    {
+      "type": "Local",
+      "value": "9911184181202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anna Karénina; a novel,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Maude, Louise,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Maude, Aylmer,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Oxford University Press"
+    ],
+    "date": "[1961]",
+    "year": 1961,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "2 volumes in 1",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "The world's classics,",
+      "numbering": "210"
+    },
+    {
+      "title": "World's classics ;",
+      "numbering": "210."
+    }
+  ]
+}

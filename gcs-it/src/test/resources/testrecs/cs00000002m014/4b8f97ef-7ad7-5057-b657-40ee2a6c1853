@@ -1,0 +1,130 @@
+{
+  "id": "marc:001:in00029870580",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029870580",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029870580",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781554535958"
+    },
+    {
+      "type": "ISBN",
+      "value": "1554535956"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780545881845"
+    },
+    {
+      "type": "ISBN",
+      "value": "0545881846"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2023287367"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)637439548"
+    },
+    {
+      "type": "Local",
+      "value": "9911893911302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "If the world were a village : a book about the world's people /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Smith, David J.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Armstrong, Shelagh,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "2nd ed."
+  },
+  "publication": {
+    "place": [
+      "Toronto :"
+    ],
+    "publisher": [
+      "Kids Can Press,"
+    ],
+    "date": "©2011.",
+    "year": 2011,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "32 pages :",
+    "illustrations": "color illustrations ;",
+    "dimensions": "32 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Human geography",
+      "type": "topical"
+    },
+    {
+      "value": "Human geography.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "Literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Picture book for children.",
+      "type": "topical"
+    },
+    {
+      "value": "Population",
+      "type": "topical"
+    },
+    {
+      "value": "Population.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "CitizenKid"
+    },
+    {
+      "title": "CitizenKid."
+    }
+  ]
+}

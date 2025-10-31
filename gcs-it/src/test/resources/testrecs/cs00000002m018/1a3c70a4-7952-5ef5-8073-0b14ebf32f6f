@@ -1,0 +1,83 @@
+{
+  "id": "marc:001:gsuin00004527071",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004527071",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004527071",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:54Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:54Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "ocm04758959"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)463153-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)994631533402952"
+    },
+    {
+      "type": "Local",
+      "value": "994631533402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hopkins, Gerard Manley,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bridges, Robert,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Williams, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "2d ed. with an appendix of additional poems, and a critical introd. /",
+    "number": "by Charles Williams."
+  },
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "[1943]",
+    "year": 1943,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xvi, 159 p. ;",
+    "dimensions": "17 cm"
+  }
+}

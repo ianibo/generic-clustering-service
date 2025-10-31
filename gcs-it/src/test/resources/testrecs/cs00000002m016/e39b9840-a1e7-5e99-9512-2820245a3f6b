@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00028827660",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028827660",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028827660",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)12013256"
+    },
+    {
+      "type": "Local",
+      "value": "9910793977002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Redgauntlet.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :",
+      "London :"
+    ],
+    "publisher": [
+      "Cadell ;",
+      "Whittaker,"
+    ],
+    "date": "1832.",
+    "year": 1832,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "frontispiece ;",
+    "dimensions": "17 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Charles Edward,",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Jacobites",
+      "type": "topical"
+    },
+    {
+      "value": "Jacobites.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "His Waverley novels,",
+      "numbering": "v. 35-36"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1296507545",
+      "Redgauntlet."
+    ]
+  }
+}

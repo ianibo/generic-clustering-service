@@ -1,6 +1,6 @@
 rootProject.name="GenericClusterService"
 
-include("core", "app", "examples")
+include("core", "app", "examples", "gcs-it")
 
 pluginManagement {
   plugins {
@@ -8,6 +8,7 @@ pluginManagement {
     id("com.gradleup.shadow") version "8.3.7"
     id("io.micronaut.library") version "4.6.1"
     id("io.micronaut.aot") version "4.6.1"
+    id("io.micronaut.test-resources") version "4.6.1"
     id("org.asciidoctor.jvm.convert") version "3.3.2"
   }
 }

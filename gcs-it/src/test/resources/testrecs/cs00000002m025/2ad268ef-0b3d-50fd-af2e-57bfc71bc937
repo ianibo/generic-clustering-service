@@ -1,0 +1,89 @@
+{
+  "id": "marc:001:in00026916513",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026916513",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026916513",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)5579502"
+    },
+    {
+      "type": "Local",
+      "value": "9910525142602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Capital; a critique of political economy.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marx, Karl,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Engels, Friedrich,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Moscow,"
+    ],
+    "publisher": [
+      "Foreign Languages Pub. House,"
+    ],
+    "date": "1959.",
+    "year": 1959,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "3 volumes",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Capital.",
+      "type": "topical"
+    },
+    {
+      "value": "Economics",
+      "type": "topical"
+    },
+    {
+      "value": "Economics.",
+      "type": "topical"
+    },
+    {
+      "value": "economics.",
+      "type": "topical"
+    }
+  ]
+}

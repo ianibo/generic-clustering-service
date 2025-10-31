@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00030223374",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030223374",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030223374",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1843432242"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781843432241"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)60560759"
+    },
+    {
+      "type": "Local",
+      "value": "9910269158402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ross, Alan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hughes, David,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Harvill Press,"
+    ],
+    "date": "2005.",
+    "year": 2005,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xi, 289 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Interpersonal relations",
+      "type": "topical"
+    },
+    {
+      "value": "Interpersonal relations.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "World politics",
+      "type": "topical"
+    },
+    {
+      "value": "World politics.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607731399",
+      "Poems."
+    ]
+  }
+}

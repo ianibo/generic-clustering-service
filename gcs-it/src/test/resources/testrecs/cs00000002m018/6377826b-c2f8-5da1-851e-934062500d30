@@ -1,0 +1,89 @@
+{
+  "id": "marc:001:in00029112648",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029112648",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029112648",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 35029200 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)366559"
+    },
+    {
+      "type": "Local",
+      "value": "9910565621702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "AE,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Macmillan Co.,"
+    ],
+    "date": "1935.",
+    "year": 1935,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiii, 197, [1] pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Mysticism",
+      "type": "topical"
+    },
+    {
+      "value": "Mysticism.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Religious poetry, Irish.",
+      "type": "topical"
+    },
+    {
+      "value": "Religious poetry.",
+      "type": "topical"
+    }
+  ]
+}

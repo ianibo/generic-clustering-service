@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00027024035",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027024035",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027024035",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 21013049 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2566709"
+    },
+    {
+      "type": "Local",
+      "value": "9910920640202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bryant, William Cullen,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Foster, Myles Birket,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Fenn, Harry,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Fredericks, Alfred,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "D. Appleton and Company"
+    ],
+    "date": "[1876]",
+    "year": 1876,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "x, [3]-501 pages",
+    "illustrations": "frontispiece (portrait) illustrations",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Gold blocked bindings",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894224758",
+      "Poems."
+    ]
+  }
+}

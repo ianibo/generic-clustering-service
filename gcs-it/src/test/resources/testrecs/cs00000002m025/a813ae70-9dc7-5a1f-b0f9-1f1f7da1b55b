@@ -1,0 +1,135 @@
+{
+  "id": "marc:001:in00027090906",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027090906",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027090906",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0521442095"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780521442091"
+    },
+    {
+      "type": "ISBN",
+      "value": "0521447291"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780521447294"
+    },
+    {
+      "type": "LCCN",
+      "value": " 94002385 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)29754970"
+    },
+    {
+      "type": "Local",
+      "value": "9910257570002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Political writings /",
+      "type": "main"
+    },
+    {
+      "value": "Prose works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "James I,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sommerville, J. P.,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cambridge [England] ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Cambridge University Press,"
+    ],
+    "date": "1994.",
+    "year": 1994,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xliv, 329 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1603-1625",
+      "type": "topical"
+    },
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science",
+      "type": "topical"
+    },
+    {
+      "value": "Political science.",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government.",
+      "type": "topical"
+    },
+    {
+      "value": "Sources.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Cambridge texts in the history of political thought"
+    },
+    {
+      "title": "Cambridge texts in the history of political thought."
+    }
+  ]
+}

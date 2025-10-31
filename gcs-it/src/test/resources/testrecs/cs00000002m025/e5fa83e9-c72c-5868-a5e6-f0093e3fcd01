@@ -1,0 +1,90 @@
+{
+  "id": "marc:001:in00027477047",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027477047",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027477047",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0904984796"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780904984798"
+    },
+    {
+      "type": "ISBN",
+      "value": "090498480X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780904984804"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)12155431"
+    },
+    {
+      "type": "Local",
+      "value": "9910305419902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kavanagh, Patrick,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kavanagh, Peter.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Newbridge, Ireland :"
+    ],
+    "publisher": [
+      "Goldsmith Press,"
+    ],
+    "date": "1984.",
+    "year": 1984,
+    "countryCode": "ie "
+  },
+  "physical": {
+    "extent": "xix, 415 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    }
+  ]
+}

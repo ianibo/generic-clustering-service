@@ -1,0 +1,143 @@
+{
+  "id": "marc:001:in00029271712",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029271712",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029271712",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)53225593"
+    },
+    {
+      "type": "Local",
+      "value": "9911011392702931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "FFH 11482"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The prince /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Minor, Dale.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sutherland, Donald,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Center for the Book.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Discovery Networks.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Cronkite Ward Company.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Discovery Channel (Firm)",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Summer Productions.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Films for the Humanities (Firm)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Princeton, N.J. :"
+    ],
+    "publisher": [
+      "Films for the Humanities & Sciences,"
+    ],
+    "date": "[©2003], ©2001.",
+    "year": 2003,
+    "countryCode": "052"
+  },
+  "physical": {
+    "extent": "1 videocassette (VHS) (52 min.) :",
+    "illustrations": "sound, color with black and white sequences ;",
+    "dimensions": "4 3/4 in.",
+    "contentType": "two-dimensional moving image",
+    "mediaType": "video",
+    "carrierType": "videocassette"
+  },
+  "subjects": [
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Machiavelli, Niccolò,",
+      "type": "topical"
+    },
+    {
+      "value": "Political ethics",
+      "type": "topical"
+    },
+    {
+      "value": "Political ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science",
+      "type": "topical"
+    },
+    {
+      "value": "Principe (Machiavelli, Niccolò)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books"
+    },
+    {
+      "title": "Great books"
+    },
+    {
+      "title": "Discovery Channel University."
+    },
+    {
+      "title": "Discovery Channel University."
+    }
+  ]
+}

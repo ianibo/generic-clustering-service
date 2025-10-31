@@ -1,0 +1,135 @@
+{
+  "id": "marc:001:in00027067168",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027067168",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027067168",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "3518029673"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783518029671"
+    },
+    {
+      "type": "LCCN",
+      "value": " 85026172 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)12804860"
+    },
+    {
+      "type": "Local",
+      "value": "9910213789602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "From my life /",
+      "type": "main"
+    },
+    {
+      "value": "Aus meinem Leben.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sammons, Jeffrey L.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Saine, Thomas P.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Heitner, Robert R.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Suhrkamp Publishers New York,"
+    ],
+    "date": "©1987.",
+    "year": 1987,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, German",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, German.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Goethe, Johann Wolfgang von,",
+      "type": "topical"
+    },
+    {
+      "value": "collective biographies.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Goethe's collected works ;",
+      "numbering": "v. 4-5"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1181969296",
+      "From my life."
+    ]
+  }
+}

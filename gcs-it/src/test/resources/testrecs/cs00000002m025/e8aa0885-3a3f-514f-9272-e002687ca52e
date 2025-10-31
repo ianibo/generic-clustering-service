@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:ugain00013752295",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ugain00013752295",
+    "sourceRecordUri": "https://catalog.example.org/record/ugain00013752295",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)21000490"
+    },
+    {
+      "type": "Local",
+      "value": "(GUA)996799"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)3901424-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "(EXLNZ-01GALI_NETWORK)9910193611202931"
+    },
+    {
+      "type": "Local",
+      "value": "999967993902959"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of Sidney Lanier,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lanier, Sidney,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lanier, Mary Day,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Ward, William Hayes,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Digital Library of Georgia.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "University of Georgia.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "edition": {
+    "statement": "New ed."
+  },
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "C. Scribner's Sons,"
+    ],
+    "date": "1901.",
+    "year": 1901,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "1 p. ., [iii]-xli, [1], 260 p.",
+    "illustrations": "front. (port.)",
+    "dimensions": "22 cm"
+  }
+}

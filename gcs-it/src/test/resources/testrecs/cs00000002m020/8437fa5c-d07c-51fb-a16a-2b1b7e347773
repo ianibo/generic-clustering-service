@@ -1,0 +1,141 @@
+{
+  "id": "marc:001:in00027130452",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027130452",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027130452",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1887178767"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781887178761"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781582435244"
+    },
+    {
+      "type": "ISBN",
+      "value": "1582435243"
+    },
+    {
+      "type": "LCCN",
+      "value": " 97047734 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)38113443"
+    },
+    {
+      "type": "Local",
+      "value": "9911555347402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Samuel Johnson /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bate, Walter Jackson,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First Counterpoint paperback edition."
+  },
+  "publication": {
+    "place": [
+      "Washington :"
+    ],
+    "publisher": [
+      "Counterpoint,"
+    ],
+    "date": "[1998]",
+    "year": 1998,
+    "countryCode": "dcu"
+  },
+  "physical": {
+    "extent": "xxii, 646 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, English",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, English.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "Intellectual life.",
+      "type": "topical"
+    },
+    {
+      "value": "Intellectuals",
+      "type": "topical"
+    },
+    {
+      "value": "Intellectuals.",
+      "type": "topical"
+    },
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    },
+    {
+      "value": "Lexicographers",
+      "type": "topical"
+    },
+    {
+      "value": "Lexicographers.",
+      "type": "topical"
+    },
+    {
+      "value": "collective biographies.",
+      "type": "topical"
+    }
+  ]
+}

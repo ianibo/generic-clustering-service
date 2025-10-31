@@ -1,0 +1,81 @@
+{
+  "id": "marc:001:in00027193495",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027193495",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027193495",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)4851354"
+    },
+    {
+      "type": "Local",
+      "value": "9910189955802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Nicholson, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "James, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Longman, Brown, Green and Longmans,"
+    ],
+    "date": "1844.",
+    "year": 1844,
+    "countryCode": "cf "
+  },
+  "physical": {
+    "extent": "xliii, 204 pages, 1 unnumbered leaf of plates :",
+    "illustrations": "portrait ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Nicholson, John,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)648283769",
+      "Poems."
+    ]
+  }
+}

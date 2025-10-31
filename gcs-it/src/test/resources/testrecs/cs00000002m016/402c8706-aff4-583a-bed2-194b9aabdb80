@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00026818554",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026818554",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026818554",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2066486"
+    },
+    {
+      "type": "Local",
+      "value": "9910884039502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Democracy in America,",
+      "type": "main"
+    },
+    {
+      "value": "De la démocratie en Amérique.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tocqueville, Alexis de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Reeve, Henry,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cambridge,"
+    ],
+    "publisher": [
+      "Sever & Francis,"
+    ],
+    "date": "1863.",
+    "year": 1863,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "2 volumes",
+    "illustrations": "frontispieces (portraits)",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Democracy.",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government.",
+      "type": "topical"
+    },
+    {
+      "value": "Social conditions.",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)793564312",
+      "Democracy in America."
+    ]
+  }
+}

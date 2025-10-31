@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00029855082",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029855082",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029855082",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0439236207"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780439236201"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)326877892"
+    },
+    {
+      "type": "Local",
+      "value": "9911614592202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gulliver's travels /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cunliffe, Marcus.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Signet Classic,"
+    ],
+    "date": "1960.",
+    "year": 1960,
+    "countryCode": "ah "
+  },
+  "physical": {
+    "extent": "xx, 319 pages :",
+    "illustrations": "illustrations, facsimile ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Gulliver, Lemuel",
+      "type": "topical"
+    },
+    {
+      "value": "Political satire, English.",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Scholastic junior classics"
+    },
+    {
+      "title": "Scholastic junior classics."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": "marc:001:in00025888170",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025888170",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025888170",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 55010357 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)918470"
+    },
+    {
+      "type": "Local",
+      "value": "9910920409802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "War and peace.",
+      "type": "main"
+    },
+    {
+      "value": "Voĭna i mir.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Maude, Louise,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Maude, Aylmer,",
+      "role": "joint tr.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago,"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica"
+    ],
+    "date": "[1955, ©1952]",
+    "year": 1955,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "xvi, 696 pages",
+    "illustrations": "maps",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1825",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Literature",
+      "type": "topical"
+    },
+    {
+      "value": "Literature, Modern",
+      "type": "topical"
+    },
+    {
+      "value": "Literature, Modern.",
+      "type": "topical"
+    },
+    {
+      "value": "Literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Military campaigns",
+      "type": "topical"
+    },
+    {
+      "value": "Napoleonic Wars, 1800-1815",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "War stories",
+      "type": "topical"
+    },
+    {
+      "value": "War stories.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western World,",
+      "numbering": "v. 51"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 51."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756459834",
+      "War and peace."
+    ]
+  }
+}

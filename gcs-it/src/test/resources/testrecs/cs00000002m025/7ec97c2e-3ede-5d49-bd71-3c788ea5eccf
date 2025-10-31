@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00029072888",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029072888",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029072888",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)4735105"
+    },
+    {
+      "type": "Local",
+      "value": "9910218029202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Moby Dick : or, The whale /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Oxford,"
+    ],
+    "date": "1952, 1958 printing.",
+    "year": 1952,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxviii, 582 pages ;",
+    "dimensions": "15 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Ahab,",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab, Captain (Fictitious character)",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling ships",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The World's classics ;",
+      "numbering": "225"
+    },
+    {
+      "title": "World's classics ;",
+      "numbering": "225."
+    }
+  ]
+}

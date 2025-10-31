@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:in00029363928",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029363928",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029363928",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1931082774"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781931082778"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2004061551"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)56840796"
+    },
+    {
+      "type": "Local",
+      "value": "9910241927402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lazarus, Emma,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hollander, John,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Cairns Collection of American Women Writers.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Library of America,"
+    ],
+    "date": "[2005]",
+    "year": 2005,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxiv, 151 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American poets project ;",
+      "numbering": "16"
+    },
+    {
+      "title": "American poets project ;",
+      "numbering": "16."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607559287",
+      "(OCoLC)608687519",
+      "Selected poems."
+    ]
+  }
+}

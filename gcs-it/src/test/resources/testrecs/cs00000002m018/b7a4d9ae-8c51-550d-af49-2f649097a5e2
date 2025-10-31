@@ -1,0 +1,72 @@
+{
+  "id": "marc:001:gsuin00005858673",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00005858673",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00005858673",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)606706236"
+    },
+    {
+      "type": "Local",
+      "value": "9935051690502952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cleveland, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[London] :"
+    ],
+    "publisher": [
+      "[publisher not identified],"
+    ],
+    "date": "1656.",
+    "year": 1656,
+    "countryCode": "c o"
+  },
+  "physical": {
+    "extent": "1 online resource ([5], 107, 8 pages) :",
+    "illustrations": "portrait",
+    "contentType": "text",
+    "mediaType": "computer",
+    "carrierType": "online resource"
+  },
+  "series": [
+    {
+      "title": "Early English books online."
+    }
+  ]
+}

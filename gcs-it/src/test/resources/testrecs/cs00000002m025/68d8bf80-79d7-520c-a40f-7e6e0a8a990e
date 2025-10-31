@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00029992367",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029992367",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029992367",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "nuc87719412 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)15461041"
+    },
+    {
+      "type": "Local",
+      "value": "9910119712402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Rob Roy /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia :"
+    ],
+    "publisher": [
+      "M. Thomas,"
+    ],
+    "date": "1818",
+    "year": 1818,
+    "countryCode": " c "
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microopaque"
+  },
+  "subjects": [
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Rob Roy,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Early American imprints.",
+      "numbering": "no. 45661."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 43036662"
+    ]
+  }
+}

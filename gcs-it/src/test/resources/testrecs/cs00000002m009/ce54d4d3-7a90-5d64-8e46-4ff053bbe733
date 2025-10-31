@@ -1,0 +1,140 @@
+{
+  "id": "marc:001:in00027093916",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027093916",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027093916",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780804169882"
+    },
+    {
+      "type": "ISBN",
+      "value": "0804169888"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2014469890"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)872586763"
+    },
+    {
+      "type": "Local",
+      "value": "9923477613802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Paradise /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Morrison, Toni,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First Vintage International edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Vintage International,"
+    ],
+    "date": "2014.",
+    "year": 2014,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xvii, 318 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "African Americans",
+      "type": "topical"
+    },
+    {
+      "value": "Colorism",
+      "type": "topical"
+    },
+    {
+      "value": "Communal living",
+      "type": "topical"
+    },
+    {
+      "value": "Conflict of generations",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Magic realist fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Magic realist fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Male domination (Social structure)",
+      "type": "topical"
+    },
+    {
+      "value": "Oklahoma",
+      "type": "topical"
+    },
+    {
+      "value": "Small cities",
+      "type": "topical"
+    },
+    {
+      "value": "Women",
+      "type": "topical"
+    }
+  ]
+}

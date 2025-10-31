@@ -1,0 +1,106 @@
+{
+  "id": "marc:001:in00028101038",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028101038",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028101038",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0892810831"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780892810833"
+    },
+    {
+      "type": "ISBN",
+      "value": "0940262193"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780940262195"
+    },
+    {
+      "type": "LCCN",
+      "value": " 88009133 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)17805621"
+    },
+    {
+      "type": "Local",
+      "value": "9910496285002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Raine, Kathleen,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Great Barrington, MA :"
+    ],
+    "publisher": [
+      "Distributed to the Book trade in the U.S. by Harper & Row,",
+      "Inner Traditions :"
+    ],
+    "date": "©1988.",
+    "year": 1988,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "157 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

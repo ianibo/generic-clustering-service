@@ -1,0 +1,83 @@
+{
+  "id": "marc:001:in00030328529",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030328529",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030328529",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)274632"
+    },
+    {
+      "type": "Local",
+      "value": "9910450501502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickinson, Emily,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "[1st Modern Library ed.]."
+  },
+  "publication": {
+    "publisher": [
+      "Modern Library"
+    ],
+    "date": "[1924]",
+    "year": 1924,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "231 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Aiken, Conrad,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Modern library of the world's best books [25]"
+    },
+    {
+      "title": "Modern library of the world's best books ;",
+      "numbering": "25."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894772103",
+      "Selected poems."
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00027488565",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027488565",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027488565",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0252027485"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780252027482"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2001006450"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)48263669"
+    },
+    {
+      "type": "Local",
+      "value": "9910277646902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Williams, William Carlos,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wright-Peterson, Virginia M.,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    },
+    {
+      "name": "Poets Laureate Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Urbana :"
+    ],
+    "publisher": [
+      "University of Illinois Press,"
+    ],
+    "date": "©2002.",
+    "year": 2002,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "xxix, 32 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Williams, William Carlos,",
+      "type": "topical"
+    }
+  ]
+}

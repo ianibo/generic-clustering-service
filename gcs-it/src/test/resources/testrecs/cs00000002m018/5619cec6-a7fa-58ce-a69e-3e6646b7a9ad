@@ -1,0 +1,143 @@
+{
+  "id": "marc:001:in00028202633",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028202633",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028202633",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1883689058"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781883689056"
+    },
+    {
+      "type": "ISBN",
+      "value": "188368904X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781883689049"
+    },
+    {
+      "type": "LCCN",
+      "value": " 93049854 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)29636502"
+    },
+    {
+      "type": "Local",
+      "value": "9910755224702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Jack Spicer's detective novel",
+      "type": "alternative"
+    },
+    {
+      "value": "The Tower of Babel.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Spicer, Jack,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Hoboken, New Jersey :"
+    ],
+    "publisher": [
+      "Talisman House, Publishers,"
+    ],
+    "date": "[1994]",
+    "year": 1994,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "169 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Authors",
+      "type": "topical"
+    },
+    {
+      "value": "California",
+      "type": "topical"
+    },
+    {
+      "value": "Detective and mystery fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Detective and mystery fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Gay fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Gay fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Gay men",
+      "type": "topical"
+    },
+    {
+      "value": "Mystery and detective fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Mystery fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "San Francisco (Calif.)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)646927240",
+      "Tower of Babel."
+    ]
+  }
+}

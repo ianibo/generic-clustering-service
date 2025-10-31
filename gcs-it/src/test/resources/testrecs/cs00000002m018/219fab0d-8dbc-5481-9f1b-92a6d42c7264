@@ -1,0 +1,67 @@
+{
+  "id": "marc:001:gsuin00004521779",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004521779",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004521779",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1877252"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)993522703402952"
+    },
+    {
+      "type": "Local",
+      "value": "993522703402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Drummond, William,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Printed by W.H. and are to be sold in the Company of Stationers,"
+    ],
+    "date": "1656.",
+    "year": 1656,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "208 pages",
+    "illustrations": "front",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  }
+}

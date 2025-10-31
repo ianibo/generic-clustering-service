@@ -1,0 +1,148 @@
+{
+  "id": "marc:001:in00029957130",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029957130",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029957130",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780140436587"
+    },
+    {
+      "type": "ISBN",
+      "value": "0140436588"
+    },
+    {
+      "type": "LCCN",
+      "value": " 00709683 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)43719721"
+    },
+    {
+      "type": "Local",
+      "value": "9910138015202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Ivanhoe /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Tulloch, Graham,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "2000.",
+    "year": 2000,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xlv, 496 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1189-1199",
+      "type": "topical"
+    },
+    {
+      "value": "Anglo-Saxons",
+      "type": "topical"
+    },
+    {
+      "value": "Anglo-Saxons.",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Ivanhoe",
+      "type": "topical"
+    },
+    {
+      "value": "Jews",
+      "type": "topical"
+    },
+    {
+      "value": "Jews.",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood.",
+      "type": "topical"
+    },
+    {
+      "value": "Middle Ages",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

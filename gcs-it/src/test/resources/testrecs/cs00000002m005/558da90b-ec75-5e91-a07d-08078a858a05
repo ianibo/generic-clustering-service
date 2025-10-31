@@ -1,0 +1,193 @@
+{
+  "id": "marc:001:in00027229044",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027229044",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027229044",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "027616050502"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)16668402"
+    },
+    {
+      "type": "Local",
+      "value": "9910115935602931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "M300505"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anna Karenina /",
+      "type": "main"
+    },
+    {
+      "value": "Anna Karenina (Motion picture : 1935)",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Selznick, David O.,",
+      "role": "pro",
+      "kind": "person"
+    },
+    {
+      "name": "Brown, Clarence,",
+      "role": "drt",
+      "kind": "person"
+    },
+    {
+      "name": "Dane, Clemence.",
+      "role": "sce",
+      "kind": "person"
+    },
+    {
+      "name": "Viertel, Salka.",
+      "role": "sce",
+      "kind": "person"
+    },
+    {
+      "name": "Behrman, S. N.",
+      "role": "adp",
+      "kind": "person"
+    },
+    {
+      "name": "Garbo, Greta,",
+      "role": "act",
+      "kind": "person"
+    },
+    {
+      "name": "March, Fredric,",
+      "role": "act",
+      "kind": "person"
+    },
+    {
+      "name": "Bartholomew, Freddie,",
+      "role": "act",
+      "kind": "person"
+    },
+    {
+      "name": "O'Sullivan, Maureen,",
+      "role": "act",
+      "kind": "person"
+    },
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Metro-Goldwyn-Mayer.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "MGM/UA Home Video (Firm)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Culver City, CA :"
+    ],
+    "publisher": [
+      "MGM/UA Home Video,"
+    ],
+    "date": "[1987]",
+    "year": 1987,
+    "countryCode": "cau"
+  },
+  "physical": {
+    "extent": "1 videocassette (96 min.) :",
+    "illustrations": "sound, black and white ;",
+    "dimensions": "1/2 in.",
+    "contentType": "two-dimensional moving image",
+    "mediaType": "video",
+    "carrierType": "videocassette"
+  },
+  "subjects": [
+    {
+      "value": "1533-1917",
+      "type": "topical"
+    },
+    {
+      "value": "Adultery",
+      "type": "topical"
+    },
+    {
+      "value": "Drama",
+      "type": "topical"
+    },
+    {
+      "value": "Feature films",
+      "type": "topical"
+    },
+    {
+      "value": "Feature films.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction films",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction films.",
+      "type": "topical"
+    },
+    {
+      "value": "Film adaptations",
+      "type": "topical"
+    },
+    {
+      "value": "Film adaptations.",
+      "type": "topical"
+    },
+    {
+      "value": "Karenina, Anna",
+      "type": "topical"
+    },
+    {
+      "value": "Man-woman relationships",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "MGM/UA great books on video"
+    },
+    {
+      "title": "MGM/UA great books on video."
+    }
+  ]
+}

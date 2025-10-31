@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00026061211",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026061211",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026061211",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 47004265 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)918521"
+    },
+    {
+      "type": "Local",
+      "value": "9910092932102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crime and punishment,",
+      "type": "main"
+    },
+    {
+      "value": "Prestuplenie i nakazanie.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Cleveland,",
+      "New York,"
+    ],
+    "publisher": [
+      "The World Publishing Company"
+    ],
+    "date": "[1947]",
+    "year": 1947,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "499 pages",
+    "illustrations": "illustrations, plates",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Homicide",
+      "type": "topical"
+    },
+    {
+      "value": "Murder",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia (Federation)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Living library"
+    },
+    {
+      "title": "Living library (Cleveland, Ohio)"
+    }
+  ]
+}

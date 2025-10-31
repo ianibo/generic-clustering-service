@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:ghcin00000144576",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ghcin00000144576",
+    "sourceRecordUri": "https://catalog.example.org/record/ghcin00000144576",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 77368200"
+    },
+    {
+      "type": "Local",
+      "value": "(Voyager)23930-fcdb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_FLOYD)99239303702946"
+    },
+    {
+      "type": "Local",
+      "value": "99239303702946"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The prince,",
+      "type": "main"
+    },
+    {
+      "value": "Principe.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Machiavelli, Niccolò,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ricci, Luigi,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Vincent, Eric Reginald Pearce,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "engita"
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Oxford,"
+    ],
+    "date": "1935.",
+    "year": 1935,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "119 p.",
+    "dimensions": "16 cm. (Half-title: The world's classics, XLIII)"
+  },
+  "subjects": [
+    {
+      "value": "Political ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science.",
+      "type": "topical"
+    }
+  ]
+}

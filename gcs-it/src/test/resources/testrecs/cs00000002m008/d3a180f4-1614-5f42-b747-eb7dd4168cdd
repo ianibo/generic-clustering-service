@@ -1,0 +1,140 @@
+{
+  "id": "marc:001:in00029126030",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029126030",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029126030",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 47004265 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)387678"
+    },
+    {
+      "type": "Local",
+      "value": "9911515394202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crime and punishment /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Gikow, Ruth,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Kazin, Alfred,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Cleveland,"
+    ],
+    "publisher": [
+      "Fine Editions Press"
+    ],
+    "date": "[1947]",
+    "year": 1947,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "499 pages",
+    "illustrations": "illustrations, plates",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Good and evil",
+      "type": "topical"
+    },
+    {
+      "value": "Murder",
+      "type": "topical"
+    },
+    {
+      "value": "Mystery fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Prostitutes",
+      "type": "topical"
+    },
+    {
+      "value": "Russia (Federation)",
+      "type": "topical"
+    },
+    {
+      "value": "Russian fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Saint Petersburg (Russia)",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ]
+}

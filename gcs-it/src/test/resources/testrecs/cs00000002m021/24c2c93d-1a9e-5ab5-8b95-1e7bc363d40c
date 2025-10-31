@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00027049976",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027049976",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027049976",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1942109"
+    },
+    {
+      "type": "Local",
+      "value": "9911133183002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The works of John Ruskin.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ruskin, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "J.B. Alden,"
+    ],
+    "date": "1885.",
+    "year": 1885,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "639 pages in various pagings :",
+    "illustrations": "illustrations ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Architecture",
+      "type": "topical"
+    },
+    {
+      "value": "Architecture.",
+      "type": "topical"
+    },
+    {
+      "value": "Painting",
+      "type": "topical"
+    },
+    {
+      "value": "Painting.",
+      "type": "topical"
+    },
+    {
+      "value": "Paintings",
+      "type": "topical"
+    },
+    {
+      "value": "Pre-Raphaelite.",
+      "type": "topical"
+    },
+    {
+      "value": "Pre-Raphaelitism",
+      "type": "topical"
+    },
+    {
+      "value": "Pre-Raphaelitism.",
+      "type": "topical"
+    },
+    {
+      "value": "architecture (discipline)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894099288",
+      "Works of John Ruskin."
+    ]
+  }
+}

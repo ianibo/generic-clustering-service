@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:gsuin00004427784",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004427784",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004427784",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 74169251 "
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)3081728-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1336695"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9930817283402952"
+    },
+    {
+      "type": "Local",
+      "value": "9930817283402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Inferno /",
+      "type": "main"
+    },
+    {
+      "value": "Inferno.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Singleton, Charles S.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "ita"
+  ],
+  "publication": {
+    "place": [
+      "[Princeton, N.J.] :"
+    ],
+    "publisher": [
+      "Princeton University Press,"
+    ],
+    "date": "©1970.",
+    "year": 1970,
+    "countryCode": "ab "
+  },
+  "physical": {
+    "extent": "2 volumes (683 pages) :",
+    "illustrations": "illustrations, maps ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Hell",
+      "type": "topical"
+    },
+    {
+      "value": "Hell.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Bollingen series ;",
+      "numbering": "80"
+    },
+    {
+      "title": "Bollingen series ;",
+      "numbering": "80"
+    },
+    {
+      "title": "Bollingen series ;",
+      "numbering": "80."
+    }
+  ]
+}

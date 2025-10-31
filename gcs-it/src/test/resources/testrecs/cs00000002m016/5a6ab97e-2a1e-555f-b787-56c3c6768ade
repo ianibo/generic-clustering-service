@@ -1,0 +1,143 @@
+{
+  "id": "marc:001:in00028964627",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028964627",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028964627",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "x260240728"
+    },
+    {
+      "type": "Other",
+      "value": "x281457408"
+    },
+    {
+      "type": "LCCN",
+      "value": " 47006540 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1368045615"
+    },
+    {
+      "type": "Local",
+      "value": "9910803594602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Moby Dick; or, The whale;",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Thorp, Willard,",
+      "role": "ed.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1947.",
+    "year": 1947,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxxi, 532 p.",
+    "illustrations": "illus., port., map (on lining papers)",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adventure stories",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab,",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab, Captain (Fictitious character)",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling ships",
+      "type": "topical"
+    }
+  ]
+}

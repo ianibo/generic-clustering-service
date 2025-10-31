@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:in00030482367",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030482367",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030482367",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 66029122 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2655891"
+    },
+    {
+      "type": "Local",
+      "value": "9910037685402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Works.",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Byron, George Gordon Byron,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Coleridge, Ernest Hartley,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Prothero, Rowland E.",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "A new, rev. and enl. ed.,",
+    "number": "with illus."
+  },
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Octagon Books,"
+    ],
+    "date": "1966.",
+    "year": 1966,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "13 volumes",
+    "illustrations": "illustrations, portraits",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Byron, George Gordon Byron,",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Personal correspondence.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756433458",
+      "Works."
+    ]
+  }
+}

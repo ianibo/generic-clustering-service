@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:in00029563310",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029563310",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029563310",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)3625667"
+    },
+    {
+      "type": "Local",
+      "value": "9910273044002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The rambler.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Johnson, Samuel,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Payne, John,",
+      "role": "bookseller.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Printed for J. Payne, at Pope's Head, in Pater-Noster-Row,"
+    ],
+    "date": "M.DCC.LII. [1752]",
+    "year": 1752,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "6 volumes ;",
+    "dimensions": "17 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1727-1760",
+      "type": "topical"
+    },
+    {
+      "value": "English essays",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Periodicals",
+      "type": "topical"
+    },
+    {
+      "value": "Periodicals.",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government",
+      "type": "topical"
+    }
+  ]
+}

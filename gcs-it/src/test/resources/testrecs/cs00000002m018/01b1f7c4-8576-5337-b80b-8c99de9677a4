@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00026555921",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026555921",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026555921",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 65021417 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)274893"
+    },
+    {
+      "type": "Local",
+      "value": "9910611639802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of Edgar Allan Poe /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Poe, Edgar Allan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Macdonald, Dwight,",
+      "role": "selector.",
+      "kind": "person"
+    },
+    {
+      "name": "Raskin, Ellen,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Thomas Y. Crowell Company,"
+    ],
+    "date": "[1965]",
+    "year": 1965,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "169 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy poetry, American",
+      "type": "topical"
+    },
+    {
+      "value": "Poe, Edgar Allan,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)987956847",
+      "Poems of Edgar Allan Poe"
+    ]
+  }
+}

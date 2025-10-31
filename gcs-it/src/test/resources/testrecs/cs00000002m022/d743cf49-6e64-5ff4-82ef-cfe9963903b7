@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00027616455",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027616455",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027616455",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)22550933"
+    },
+    {
+      "type": "Local",
+      "value": "9911370893202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The spirit of the laws",
+      "type": "main"
+    },
+    {
+      "value": "De l'esprit des lois.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Montesquieu, Charles de Secondat,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Nugent, Thomas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Neumann, Franz L.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Hafner Pub. Co.,"
+    ],
+    "date": "[1965, ©1949]",
+    "year": 1965,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "2 volumes in 1.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Jurisprudence",
+      "type": "topical"
+    },
+    {
+      "value": "Jurisprudence.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science.",
+      "type": "topical"
+    },
+    {
+      "value": "law (discipline)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Hafner library of classics,",
+      "numbering": "9"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "id": "marc:001:in00027232726",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027232726",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027232726",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0840769032"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780840769039"
+    },
+    {
+      "type": "ISBN",
+      "value": "0840768168"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780840768162"
+    },
+    {
+      "type": "LCCN",
+      "value": " 91016884 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1052744238"
+    },
+    {
+      "type": "Local",
+      "value": "9910882919802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The red badge of courage : and other selected stories /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Crane, Stephen,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Crane, Stephen,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Crane, Stephen,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Crane, Stephen,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Crane, Stephen,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Crane, Stephen,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Crane, Stephen,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Crane, Stephen,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Crane, Stephen,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Crane, Stephen,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Crane, Stephen,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Crane, Stephen,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Nashville, TN :"
+    ],
+    "publisher": [
+      "Thomas Nelson,"
+    ],
+    "date": "[1991]",
+    "year": 1991,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "350 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1861-1865",
+      "type": "topical"
+    },
+    {
+      "value": "Boats and boating",
+      "type": "topical"
+    },
+    {
+      "value": "Boats and boating.",
+      "type": "topical"
+    },
+    {
+      "value": "Brides",
+      "type": "topical"
+    },
+    {
+      "value": "Brides.",
+      "type": "topical"
+    },
+    {
+      "value": "Chancellorsville, Battle of, Chancellorsville, Va., 1863",
+      "type": "topical"
+    },
+    {
+      "value": "Courage",
+      "type": "topical"
+    },
+    {
+      "value": "Courage.",
+      "type": "topical"
+    },
+    {
+      "value": "Death",
+      "type": "topical"
+    },
+    {
+      "value": "Death.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Frontier and pioneer life",
+      "type": "topical"
+    },
+    {
+      "value": "Frontier and pioneer life.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Hotels",
+      "type": "topical"
+    },
+    {
+      "value": "Hotels.",
+      "type": "topical"
+    },
+    {
+      "value": "Men",
+      "type": "topical"
+    },
+    {
+      "value": "Men.",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Survival",
+      "type": "topical"
+    },
+    {
+      "value": "Survival.",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    },
+    {
+      "value": "Virginia",
+      "type": "topical"
+    },
+    {
+      "value": "War stories.",
+      "type": "topical"
+    },
+    {
+      "value": "short stories.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The collectors library of classics"
+    },
+    {
+      "title": "Collectors library of classics."
+    }
+  ]
+}

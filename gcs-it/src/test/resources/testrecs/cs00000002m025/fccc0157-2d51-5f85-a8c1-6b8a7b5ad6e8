@@ -1,0 +1,141 @@
+{
+  "id": "marc:001:in00025819861",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025819861",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025819861",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0192510193"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192510198"
+    },
+    {
+      "type": "ISBN",
+      "value": "0192815423"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192815422"
+    },
+    {
+      "type": "LCCN",
+      "value": " 80040163 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6447496"
+    },
+    {
+      "type": "Local",
+      "value": "9910242666202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Shewring, Walter,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1980.",
+    "year": 1980,
+    "countryCode": "b 0"
+  },
+  "physical": {
+    "extent": "xx, 349 pages :",
+    "illustrations": "maps ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "epic literature.",
+      "type": "topical"
+    },
+    {
+      "value": "epic poems.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "World's classics"
+    },
+    {
+      "title": "World's classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)608275937",
+      "Odyssey."
+    ]
+  }
+}

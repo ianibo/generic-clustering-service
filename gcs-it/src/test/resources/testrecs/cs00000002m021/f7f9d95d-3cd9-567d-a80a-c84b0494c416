@@ -1,0 +1,115 @@
+{
+  "id": "marc:001:in00029559071",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029559071",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029559071",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780820329956"
+    },
+    {
+      "type": "ISBN",
+      "value": "0820329959"
+    },
+    {
+      "type": "Other",
+      "value": "99934337607"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2008037775"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)244481745"
+    },
+    {
+      "type": "Local",
+      "value": "9910365701702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The life of Samuel Johnson, LL. D. /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hawkins, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Brack, O M,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Athens :"
+    ],
+    "publisher": [
+      "University of Georgia Press,"
+    ],
+    "date": "©2009.",
+    "year": 2009,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xxxiv, 554 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, English",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    },
+    {
+      "value": "Lexicographers",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00026622242",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026622242",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026622242",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0717200019"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780717200016"
+    },
+    {
+      "type": "LCCN",
+      "value": " 78119753 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)11026655"
+    },
+    {
+      "type": "Local",
+      "value": "9912068244802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Robinson Crusoe /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Defoe, Daniel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Danbury, Conn. :"
+    ],
+    "publisher": [
+      "Grolier Enterprises Corp.,"
+    ],
+    "date": "[1978?]",
+    "year": 1978,
+    "countryCode": " j "
+  },
+  "physical": {
+    "extent": "xvi, 308 ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated"
+  },
+  "subjects": [
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Crusoe, Robinson(Fictitious character)",
+      "type": "topical"
+    },
+    {
+      "value": "Island",
+      "type": "topical"
+    },
+    {
+      "value": "Large type books.",
+      "type": "topical"
+    },
+    {
+      "value": "Robinsonades.",
+      "type": "topical"
+    },
+    {
+      "value": "Shipwrecks",
+      "type": "topical"
+    },
+    {
+      "value": "True adventure stories.",
+      "type": "topical"
+    },
+    {
+      "value": "large print books.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The World's great classics"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:ugain00010172698",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ugain00010172698",
+    "sourceRecordUri": "https://catalog.example.org/record/ugain00010172698",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0856462373"
+    },
+    {
+      "type": "LCCN",
+      "value": " 97205615"
+    },
+    {
+      "type": "Local",
+      "value": "ocm36443826"
+    },
+    {
+      "type": "Local",
+      "value": "(GUA)1844612"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)1844612-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_UGA)9918446123902959"
+    },
+    {
+      "type": "Local",
+      "value": "9918446123902959"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Popa, Vasko.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pennington, Anne,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jones, Francis R.,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Anvil Press Poetry,"
+    ],
+    "date": "1997, c1988.",
+    "year": 1997,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xxxi, 429 p. ;",
+    "dimensions": "23 cm"
+  },
+  "subjects": [
+    {
+      "value": "Popa, Vasko",
+      "type": "topical"
+    }
+  ]
+}

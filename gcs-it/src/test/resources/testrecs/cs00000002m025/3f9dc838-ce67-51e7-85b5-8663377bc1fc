@@ -1,0 +1,143 @@
+{
+  "id": "marc:001:in00028117027",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028117027",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028117027",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 61006900 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)877818"
+    },
+    {
+      "type": "Local",
+      "value": "9910083604702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography of Carl Schurz.",
+      "type": "alternative"
+    },
+    {
+      "value": "Autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Schurz, Carl,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Andrews, Wayne.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Nevins, Allan,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    },
+    {
+      "name": "Frank and Virginia Williams Collection of Lincolniana (Mississippi State University. Libraries)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Scribner"
+    ],
+    "date": "[1961]",
+    "year": 1961,
+    "countryCode": "b 0"
+  },
+  "physical": {
+    "extent": "331 pages :",
+    "illustrations": "map ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1857-1865",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiography",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Legislators",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government",
+      "type": "topical"
+    },
+    {
+      "value": "Schurz, Carl,",
+      "type": "topical"
+    },
+    {
+      "value": "Statesmen",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary works)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)644248933",
+      "Autobiography."
+    ]
+  }
+}

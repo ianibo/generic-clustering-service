@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00029036387",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029036387",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029036387",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 60011055 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)284253"
+    },
+    {
+      "type": "Local",
+      "value": "9910031969102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Freneau, Philip Morin,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Hafner Pub. Co."
+    ],
+    "date": "[1960, ©1929]",
+    "year": 1960,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "425 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Freneau, Philip,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American authors series",
+      "numbering": "no. 19"
+    },
+    {
+      "title": "American authors series",
+      "numbering": "no. 19"
+    },
+    {
+      "title": "World classics in large print.",
+      "numbering": "no. 19."
+    },
+    {
+      "title": "World classics in large print.",
+      "numbering": "no. 19."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609602263",
+      "Poems."
+    ]
+  }
+}

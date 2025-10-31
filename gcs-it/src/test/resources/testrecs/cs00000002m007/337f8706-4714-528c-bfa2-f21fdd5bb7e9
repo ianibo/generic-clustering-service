@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:in00028354198",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028354198",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028354198",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0811209164"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780811209168"
+    },
+    {
+      "type": "ISBN",
+      "value": "0811209172"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780811209175"
+    },
+    {
+      "type": "LCCN",
+      "value": " 84009972 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)10778574"
+    },
+    {
+      "type": "Local",
+      "value": "9910653867502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rexroth, Kenneth,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Morrow, Bradford,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "New Directions Publishing Corporation,"
+    ],
+    "date": "1984.",
+    "year": 1984,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxii, 152 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "New Directions paperbook ;",
+      "numbering": "581"
+    },
+    {
+      "title": "New Directions paperbook ;",
+      "numbering": "581."
+    }
+  ]
+}

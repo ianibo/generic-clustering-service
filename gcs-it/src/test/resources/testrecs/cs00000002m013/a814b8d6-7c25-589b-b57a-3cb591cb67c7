@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00027513781",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027513781",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027513781",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0192834053"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192834058"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)43159986"
+    },
+    {
+      "type": "Local",
+      "value": "9919713008102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad /",
+      "type": "main"
+    },
+    {
+      "value": "Iliad.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fitzgerald, Robert,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Oxford :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1998.",
+    "year": 1998,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xviii, 466, [4] pages of maps :",
+    "illustrations": "maps ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Achilles",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford world's classics (Oxford University Press)"
+    },
+    {
+      "title": "Oxford world's classics (Oxford University Press)"
+    }
+  ]
+}

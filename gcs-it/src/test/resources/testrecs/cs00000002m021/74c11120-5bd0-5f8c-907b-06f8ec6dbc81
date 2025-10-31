@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00027725880",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027725880",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027725880",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0316184136"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780316184137"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)37760320"
+    },
+    {
+      "type": "Local",
+      "value": "9911115766602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems of Emily Dickinson /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickinson, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Johnson, Thomas Herbert,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First paperback edition."
+  },
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Bay Bay Books, an imprint of Little, Brown, and Company,"
+    ],
+    "date": "1961.",
+    "year": 1961,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "xiii, 770 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Dickinson, Emily,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

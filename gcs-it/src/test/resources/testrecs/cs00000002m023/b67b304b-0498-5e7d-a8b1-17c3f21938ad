@@ -1,0 +1,73 @@
+{
+  "id": "marc:001:in00025949920",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025949920",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025949920",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:48Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:48Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)28315913"
+    },
+    {
+      "type": "Local",
+      "value": "9911605265602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad of Homer /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Buckley, Theodore Alois,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "G. Bell & Sons,"
+    ],
+    "date": "1879.",
+    "year": 1879,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "466 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "Bohn's classical library"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "marc:001:in00026427377",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026427377",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026427377",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780312369828"
+    },
+    {
+      "type": "ISBN",
+      "value": "0312369824"
+    },
+    {
+      "type": "ISBN",
+      "value": "0374465363"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780374465360"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781439554111"
+    },
+    {
+      "type": "ISBN",
+      "value": "1439554110"
+    },
+    {
+      "type": "ISBN",
+      "value": "0374365342"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780374365349"
+    },
+    {
+      "type": "LCCN",
+      "value": " 69020374 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)13394"
+    },
+    {
+      "type": "Local",
+      "value": "9910339503802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The search for delicious /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Babbitt, Natalie.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Farrar, Straus and Giroux,"
+    ],
+    "date": "©1969.",
+    "year": 1969,
+    "countryCode": "ab "
+  },
+  "physical": {
+    "extent": "167 pages :",
+    "illustrations": "illustrations, maps ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Action and adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Children's stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Encyclopedias and dictionaries",
+      "type": "topical"
+    },
+    {
+      "value": "Encyclopedias and dictionaries.",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "Messengers",
+      "type": "topical"
+    },
+    {
+      "value": "Messengers.",
+      "type": "topical"
+    },
+    {
+      "value": "Public opinion",
+      "type": "topical"
+    },
+    {
+      "value": "Vocabulary",
+      "type": "topical"
+    },
+    {
+      "value": "Vocabulary.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "An Ariel book"
+    },
+    {
+      "title": "Ariel book (New York, N.Y.)"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)590153297",
+      "(OCoLC)608207316",
+      "Search for delicious."
+    ]
+  }
+}

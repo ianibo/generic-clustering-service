@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00029472798",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029472798",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029472798",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1089817"
+    },
+    {
+      "type": "Local",
+      "value": "9910609923502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Music before 1400",
+      "type": "alternative"
+    },
+    {
+      "value": "Examples of music before 1400 /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gleason, Harold,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Guillaume,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Adam,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bernart,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Guillaume,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Landini, Francesco,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Appleton-Century-Crofts,"
+    ],
+    "date": "[1942]",
+    "year": 1942,
+    "countryCode": "uul"
+  },
+  "physical": {
+    "extent": "1 score (xi, 117 pages) ;",
+    "dimensions": "31 cm",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "500-1400",
+      "type": "topical"
+    },
+    {
+      "value": "Medieval music.",
+      "type": "topical"
+    },
+    {
+      "value": "Music",
+      "type": "topical"
+    },
+    {
+      "value": "Vocal music",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Eastman School of Music publication ;",
+      "numbering": "no. 10"
+    },
+    {
+      "title": "Eastman School of Music series."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "marc:001:in00029067557",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029067557",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029067557",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140423745"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140423747"
+    },
+    {
+      "type": "ISBN",
+      "value": "0140445498"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140445497"
+    },
+    {
+      "type": "LCCN",
+      "value": " 91226188 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)25548059"
+    },
+    {
+      "type": "Local",
+      "value": "9910957724602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Clough, Arthur Hugh,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "McCue, Jim.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London, England ;",
+      "New York, N.Y., USA :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1991.",
+    "year": 1991,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxi, 258 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

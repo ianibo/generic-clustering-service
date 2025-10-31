@@ -1,0 +1,68 @@
+{
+  "id": "marc:001:in00028612067",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028612067",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028612067",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)852281"
+    },
+    {
+      "type": "Local",
+      "value": "9911274002102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lindsay, Vachel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "Rev. ed.,",
+    "number": "with illustrations by the author."
+  },
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1939.",
+    "year": 1939,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "lxii, 464 pages",
+    "illustrations": "illustrations",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

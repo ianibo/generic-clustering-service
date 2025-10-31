@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00030423034",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030423034",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030423034",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140440127"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140440126"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7711611"
+    },
+    {
+      "type": "Local",
+      "value": "9910435960402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Faust.",
+      "type": "main"
+    },
+    {
+      "value": "Faust.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Wayne, Philip",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Baltimore, Maryland :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1949.",
+    "year": 1949,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "197 pages ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Faust,",
+      "type": "topical"
+    },
+    {
+      "value": "German drama.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "marc:001:in00028625894",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028625894",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028625894",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 62005150 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3114298"
+    },
+    {
+      "type": "Local",
+      "value": "9910966939402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Imitation of Christ",
+      "type": "alternative"
+    },
+    {
+      "value": "Confessions,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Augustine,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Thomas,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Collier"
+    ],
+    "date": "[1961, ©1937]",
+    "year": 1961,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "364 pages",
+    "illustrations": "frontispiece",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Thomas,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Harvard classics ;",
+      "numbering": "7."
+    }
+  ]
+}

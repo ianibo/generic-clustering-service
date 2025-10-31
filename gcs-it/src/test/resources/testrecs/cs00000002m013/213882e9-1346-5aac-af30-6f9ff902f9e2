@@ -1,0 +1,169 @@
+{
+  "id": "marc:001:in00029344306",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029344306",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029344306",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780451531360"
+    },
+    {
+      "type": "ISBN",
+      "value": "0451531361"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780847963645"
+    },
+    {
+      "type": "ISBN",
+      "value": "0847963640"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2010284271"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)435703723"
+    },
+    {
+      "type": "Local",
+      "value": "9911455237002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Ivanhoe : a romance /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Signet Classics,"
+    ],
+    "date": "©2009.",
+    "year": 2009,
+    "countryCode": " bd"
+  },
+  "physical": {
+    "extent": "xiii, 512 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1189-1199",
+      "type": "topical"
+    },
+    {
+      "value": "Anglo-Saxons",
+      "type": "topical"
+    },
+    {
+      "value": "Anglo-Saxons.",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Ivanhoe",
+      "type": "topical"
+    },
+    {
+      "value": "Jews",
+      "type": "topical"
+    },
+    {
+      "value": "Jews.",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood.",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Normans",
+      "type": "topical"
+    },
+    {
+      "value": "Normans.",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Triangles (Interpersonal relations)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Signet Classic."
+    },
+    {
+      "title": "Signet Classic."
+    }
+  ]
+}

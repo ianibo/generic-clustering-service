@@ -1,0 +1,188 @@
+{
+  "id": "marc:001:in00030439520",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030439520",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030439520",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:33Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:33Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0142437247"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780142437247"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780810119116"
+    },
+    {
+      "type": "ISBN",
+      "value": "0810119110"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003272426"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)51669461"
+    },
+    {
+      "type": "Local",
+      "value": "9910351898002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Moby-Dick",
+      "type": "alternative"
+    },
+    {
+      "value": "Whale",
+      "type": "alternative"
+    },
+    {
+      "value": "Moby-Dick, or, The whale /",
+      "type": "main"
+    },
+    {
+      "value": "Moby Dick",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Delbanco, Andrew,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    },
+    {
+      "name": "Quirk, Tom,",
+      "role": "annotator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "2003.",
+    "year": 2003,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "li, 654 pages :",
+    "illustrations": "illustrations, maps ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Action and adventure fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Action and adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab,",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sailors",
+      "type": "topical"
+    },
+    {
+      "value": "Sea fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Sea fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains",
+      "type": "topical"
+    },
+    {
+      "value": "Shipwrecks",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling ships",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "marc:001:in00029274245",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029274245",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029274245",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781551115559"
+    },
+    {
+      "type": "ISBN",
+      "value": "1551115557"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)75087588"
+    },
+    {
+      "type": "Local",
+      "value": "9910114907202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Martineau, Harriet,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Peterson, Linda H.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Peterborough, Ont. :"
+    ],
+    "publisher": [
+      "Broadview Press,"
+    ],
+    "date": "©2007.",
+    "year": 2007,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "741 pages :",
+    "illustrations": "illustrations, portraits ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiography",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Martineau, Harriet,",
+      "type": "topical"
+    },
+    {
+      "value": "Women authors, English",
+      "type": "topical"
+    },
+    {
+      "value": "Women intellectuals",
+      "type": "topical"
+    },
+    {
+      "value": "Women social reformers",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary genre)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Nineteenth-century British autobiographies"
+    },
+    {
+      "title": "Nineteenth-century British autobiographies."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607094703",
+      "(OCoLC)608173177",
+      "Autobiography."
+    ]
+  }
+}

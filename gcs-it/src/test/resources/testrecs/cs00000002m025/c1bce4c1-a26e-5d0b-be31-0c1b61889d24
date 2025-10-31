@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:in00025918572",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025918572",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025918572",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0714539953"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780714539959"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87012125 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)15793358"
+    },
+    {
+      "type": "Local",
+      "value": "9910311900002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Éluard, Paul,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Bowen, Gilbert,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York :"
+    ],
+    "publisher": [
+      "Calder ;",
+      "Riverrun Press,"
+    ],
+    "date": "[1988]",
+    "year": 1988,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "157 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Éluard, Paul,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Calderbook ;",
+      "numbering": "CB435"
+    },
+    {
+      "title": "Calderbook ;",
+      "numbering": "CB435."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)646932668",
+      "Selected poems."
+    ]
+  }
+}

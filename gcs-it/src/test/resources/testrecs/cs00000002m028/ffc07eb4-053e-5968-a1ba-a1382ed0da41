@@ -1,0 +1,62 @@
+{
+  "id": "marc:001:in00026532215",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026532215",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026532215",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)5953626"
+    },
+    {
+      "type": "Local",
+      "value": "9910906338902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Masters, Edgar Lee,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1925.",
+    "year": 1925,
+    "countryCode": "miu"
+  },
+  "physical": {
+    "extent": "xii, 411 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "microform"
+  }
+}

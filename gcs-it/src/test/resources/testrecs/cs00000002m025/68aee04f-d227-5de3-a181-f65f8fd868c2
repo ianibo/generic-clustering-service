@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00029750503",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029750503",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029750503",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0207181306"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780207181306"
+    },
+    {
+      "type": "LCCN",
+      "value": " 94110250 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)31060830"
+    },
+    {
+      "type": "Local",
+      "value": "9910464809702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New and selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dutton, Geoffrey,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Sydney, NSW, Australia :"
+    ],
+    "publisher": [
+      "Angus & Robertson, an imprint of HarperCollinsPublishers,"
+    ],
+    "date": "1993.",
+    "year": 1993,
+    "countryCode": "at "
+  },
+  "physical": {
+    "extent": "xii, 232 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Australian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Australian poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

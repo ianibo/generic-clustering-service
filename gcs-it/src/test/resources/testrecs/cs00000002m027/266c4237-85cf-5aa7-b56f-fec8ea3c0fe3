@@ -1,0 +1,104 @@
+{
+  "id": "marc:001:ungin00000557186",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ungin00000557186",
+    "sourceRecordUri": "https://catalog.example.org/record/ungin00000557186",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140430091"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)31903874"
+    },
+    {
+      "type": "Local",
+      "value": "(GDahN)416142-northgadb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_UNG)994161423702960"
+    },
+    {
+      "type": "Local",
+      "value": "994161423702960"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Tom Jones",
+      "type": "alternative"
+    },
+    {
+      "value": "The history of Tom Jones /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mutter, R. P. C.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Harmondsworth :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1979.",
+    "year": 1979,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "911 p. ;",
+    "dimensions": "18 cm."
+  },
+  "subjects": [
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Humorous fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Young men",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    }
+  ]
+}

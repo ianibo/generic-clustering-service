@@ -1,0 +1,327 @@
+{
+  "id": "marc:001:in00027442489",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027442489",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027442489",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1593752318"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781593752316"
+    },
+    {
+      "type": "Other",
+      "value": "783421331792"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)56953480"
+    },
+    {
+      "type": "Local",
+      "value": "9911623529902931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "WG33179"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anna Karenina /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cubitt, Allan,",
+      "role": "screenwriter,",
+      "kind": "person"
+    },
+    {
+      "name": "Bird, Matthew,",
+      "role": "film producer.",
+      "kind": "person"
+    },
+    {
+      "name": "Blair, David,",
+      "role": "film director.",
+      "kind": "person"
+    },
+    {
+      "name": "Faber, George,",
+      "role": "film producer.",
+      "kind": "person"
+    },
+    {
+      "name": "Pattinson, Charles,",
+      "role": "film producer.",
+      "kind": "person"
+    },
+    {
+      "name": "Harrison, Suzan,",
+      "role": "film producer.",
+      "kind": "person"
+    },
+    {
+      "name": "Ashley, Steven,",
+      "role": "film producer.",
+      "kind": "person"
+    },
+    {
+      "name": "Eaton, Rebecca,",
+      "role": "film producer.",
+      "kind": "person"
+    },
+    {
+      "name": "McCrory, Helen,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "McKidd, Kevin,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Henshall, Douglas,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Strong, Mark,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Root, Amanda,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Rhys, Paul,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Baeza, Paloma,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Cruttenden, Abigail,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Kestelman, Sara,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Dillane, Stephen,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Baker, Russell,",
+      "role": "host.",
+      "kind": "person"
+    },
+    {
+      "name": "Osadowski, Jacek,",
+      "role": "set designer.",
+      "kind": "person"
+    },
+    {
+      "name": "Padlewski, Tomasz,",
+      "role": "art director.",
+      "kind": "person"
+    },
+    {
+      "name": "Ebbutt, Rosalind,",
+      "role": "costume designer.",
+      "kind": "person"
+    },
+    {
+      "name": "Keane, John",
+      "role": "composer (expression)",
+      "kind": "person"
+    },
+    {
+      "name": "Harris, Rob,",
+      "role": "production designer.",
+      "kind": "person"
+    },
+    {
+      "name": "Day, Mark,",
+      "role": "editor of moving image work.",
+      "kind": "person"
+    },
+    {
+      "name": "Parker, Frances,",
+      "role": "editor of moving image work.",
+      "kind": "person"
+    },
+    {
+      "name": "Lenczewski, Ryszard,",
+      "role": "director of photography.",
+      "kind": "person"
+    },
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Company Television (Firm)",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Channel Four (Great Britain)",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "WGBH (Television station : Boston, Mass.)",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "WGBH Educational Foundation.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Public Broadcasting Service (U.S.)",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "WGBH Video (Firm)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Boston, Massachusetts] :"
+    ],
+    "publisher": [
+      "WGBH Boston Video,"
+    ],
+    "date": "[2004]",
+    "year": 2004,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "2 videodiscs (approximately 240 min.) :",
+    "illustrations": "sound, color ;",
+    "dimensions": "4 3/4 in.",
+    "contentType": "two-dimensional moving image",
+    "mediaType": "video",
+    "carrierType": "videodisc"
+  },
+  "subjects": [
+    {
+      "value": "1801-1917",
+      "type": "topical"
+    },
+    {
+      "value": "Adultery",
+      "type": "topical"
+    },
+    {
+      "value": "Drama",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction television programs",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction television programs.",
+      "type": "topical"
+    },
+    {
+      "value": "Foreign television programs.",
+      "type": "topical"
+    },
+    {
+      "value": "Marriage",
+      "type": "topical"
+    },
+    {
+      "value": "Marriage.",
+      "type": "topical"
+    },
+    {
+      "value": "Mothers and sons",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Social conditions",
+      "type": "topical"
+    },
+    {
+      "value": "Social values",
+      "type": "topical"
+    },
+    {
+      "value": "Suicide",
+      "type": "topical"
+    },
+    {
+      "value": "Television mini-series",
+      "type": "topical"
+    },
+    {
+      "value": "Television mini-series.",
+      "type": "topical"
+    },
+    {
+      "value": "Television programs",
+      "type": "topical"
+    },
+    {
+      "value": "Television programs.",
+      "type": "topical"
+    },
+    {
+      "value": "Video recordings for the hearing impaired.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Masterpiece theatre"
+    },
+    {
+      "title": "Masterpiece theatre (Television program)"
+    }
+  ]
+}

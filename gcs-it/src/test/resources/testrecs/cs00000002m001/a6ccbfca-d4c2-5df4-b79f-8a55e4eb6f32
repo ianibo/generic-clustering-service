@@ -1,0 +1,138 @@
+{
+  "id": "marc:001:in00027407032",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027407032",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027407032",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140430253"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140430257"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)16151365"
+    },
+    {
+      "type": "Local",
+      "value": "9910938110902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little Dorrit /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Holloway, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Browne, Hablot Knight,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Harmondsworth, Middlesex :",
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "Penguin Books ;",
+      "Viking Penguin,"
+    ],
+    "date": "1985.",
+    "year": 1985,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "912 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Debt, Imprisonment for",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "London (England)",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Marshalsea Prison (Southwark, London, England)",
+      "type": "topical"
+    },
+    {
+      "value": "Social conditions",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

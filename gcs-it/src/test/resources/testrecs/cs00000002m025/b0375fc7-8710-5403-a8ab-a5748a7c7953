@@ -1,0 +1,102 @@
+{
+  "id": "marc:001:in00025968482",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025968482",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025968482",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 62001958 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)176910"
+    },
+    {
+      "type": "Local",
+      "value": "9910254778602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The teaching of English : papers /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Quirk, Randolph,",
+      "role": "author,",
+      "kind": "person"
+    },
+    {
+      "name": "Warburg, Jeremy,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Trim, J. L. M.",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Smith, A. H.",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1964.",
+    "year": 1964,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "163 pages",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English language",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Language and language learning"
+    },
+    {
+      "title": "Language and language learning."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)603640504",
+      "Teaching of English."
+    ]
+  }
+}

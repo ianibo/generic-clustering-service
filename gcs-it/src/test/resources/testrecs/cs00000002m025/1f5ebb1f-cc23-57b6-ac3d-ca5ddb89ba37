@@ -1,0 +1,149 @@
+{
+  "id": "marc:001:in00029655606",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029655606",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029655606",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0060287195"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780060287191"
+    },
+    {
+      "type": "ISBN",
+      "value": "0060287276"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780060287276"
+    },
+    {
+      "type": "ISBN",
+      "value": "0064462366"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780064462365"
+    },
+    {
+      "type": "ISBN",
+      "value": "1415623309"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781415623305"
+    },
+    {
+      "type": "ISBN",
+      "value": "0329430297"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780329430290"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781417727353"
+    },
+    {
+      "type": "ISBN",
+      "value": "1417727357"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781613837436"
+    },
+    {
+      "type": "ISBN",
+      "value": "1613837437"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2001026476"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)47081236"
+    },
+    {
+      "type": "Local",
+      "value": "9910224682102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Ah, music! /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aliki.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "[New York] :"
+    ],
+    "publisher": [
+      "HarperCollins,"
+    ],
+    "date": "©2003.",
+    "year": 2003,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "47 pages :",
+    "illustrations": "color illustrations ;",
+    "dimensions": "32 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Instructional and educational works.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "Music",
+      "type": "topical"
+    },
+    {
+      "value": "Music.",
+      "type": "topical"
+    }
+  ]
+}

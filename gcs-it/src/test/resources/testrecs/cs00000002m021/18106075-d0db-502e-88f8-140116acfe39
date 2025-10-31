@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00027358701",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027358701",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027358701",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 25018498 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1201998"
+    },
+    {
+      "type": "Local",
+      "value": "9910321371002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Masters, Edgar Lee,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "International Mark Twain Society Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "The Macmillan Company,"
+    ],
+    "date": "1925.",
+    "year": 1925,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xii, 411 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)568103671",
+      "Selected poems."
+    ]
+  }
+}

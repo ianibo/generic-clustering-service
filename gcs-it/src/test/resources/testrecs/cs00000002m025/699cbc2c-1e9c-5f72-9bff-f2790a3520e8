@@ -1,0 +1,87 @@
+{
+  "id": "marc:001:in00028932483",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028932483",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028932483",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)26610070"
+    },
+    {
+      "type": "Local",
+      "value": "9910348251602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Whittier, John Greenleaf,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia :"
+    ],
+    "publisher": [
+      "J. Healy,"
+    ],
+    "date": "1838.",
+    "year": 1838,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "vi, 180 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Slavery",
+      "type": "topical"
+    },
+    {
+      "value": "Slavery.",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Selected Americana from Sabin's Dictionary of books relating to America, from its discovery to the present time ;",
+      "numbering": "5426-5428."
+    }
+  ]
+}

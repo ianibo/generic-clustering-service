@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00026491191",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026491191",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026491191",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 60014236 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)291090"
+    },
+    {
+      "type": "Local",
+      "value": "9910372581202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New and selected poems",
+      "type": "alternative"
+    },
+    {
+      "value": "New & selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Nemerov, Howard,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "University of Chicago Press,"
+    ],
+    "date": "1960.",
+    "year": 1960,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vi, 115 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Annotations (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)570926244",
+      "New & selected poems."
+    ]
+  }
+}

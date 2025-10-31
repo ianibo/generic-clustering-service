@@ -1,0 +1,165 @@
+{
+  "id": "marc:001:in00029981047",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029981047",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029981047",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "LCCN",
+      "value": " 90080213 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)68132473"
+    },
+    {
+      "type": "Local",
+      "value": "9911844469402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Beast in the jungle",
+      "type": "alternative"
+    },
+    {
+      "value": "Death in Venice",
+      "type": "alternative"
+    },
+    {
+      "value": "Heart of darkness",
+      "type": "alternative"
+    },
+    {
+      "value": "Lost lady",
+      "type": "alternative"
+    },
+    {
+      "value": "Portrait of the artist as a young man",
+      "type": "alternative"
+    },
+    {
+      "value": "Saint Joan",
+      "type": "alternative"
+    },
+    {
+      "value": "Six characters in search of an author",
+      "type": "alternative"
+    },
+    {
+      "value": "Swann in love",
+      "type": "alternative"
+    },
+    {
+      "value": "Uncle Vanya",
+      "type": "alternative"
+    },
+    {
+      "value": "Imaginative literature : selections from the twentieth century.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "James, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Shaw, Bernard,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "conrad, Joseph,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Čechov, Anton",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pirandello, Luigi,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Proust, Marcel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cather, Willa,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mann, Thomas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Joyce, James,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "2nd ed."
+  },
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopaedia Britannica,"
+    ],
+    "date": "1990.",
+    "year": 1990,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "2 v. ;",
+    "dimensions": "24 cm."
+  },
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "59-60"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "59-60"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "59."
+    }
+  ]
+}

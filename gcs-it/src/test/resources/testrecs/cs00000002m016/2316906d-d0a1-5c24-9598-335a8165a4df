@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00027999100",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027999100",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027999100",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 04019616 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)791446588"
+    },
+    {
+      "type": "Local",
+      "value": "9910868741802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Phillips, Stephen,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Oliver Wendell Holmes Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "edition": {
+    "statement": "13th ed."
+  },
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "John Lane, Bodley Head,"
+    ],
+    "date": "1902.",
+    "year": 1902,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "ix, 108 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Publishers' advertisements.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)656874653",
+      "Poems."
+    ]
+  }
+}

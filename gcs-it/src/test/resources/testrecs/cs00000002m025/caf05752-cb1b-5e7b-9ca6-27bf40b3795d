@@ -1,0 +1,87 @@
+{
+  "id": "marc:001:in00029735173",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029735173",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029735173",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)15442407"
+    },
+    {
+      "type": "Local",
+      "value": "9910213917302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Byron, George Gordon Byron,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Thomas Kirk and Thomas R. Mercein,"
+    ],
+    "date": "1817",
+    "year": 1817,
+    "countryCode": " c "
+  },
+  "physical": {
+    "extent": "79, 64, 24 pages ;",
+    "dimensions": "17 x 10 pages",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microopaque"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Early American imprints.",
+      "numbering": "no. 40372."
+    }
+  ]
+}

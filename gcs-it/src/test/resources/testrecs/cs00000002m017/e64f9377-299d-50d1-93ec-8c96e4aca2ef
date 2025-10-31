@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:in00029927453",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029927453",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029927453",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2384558"
+    },
+    {
+      "type": "Local",
+      "value": "9911294244802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rieu, E. V.",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Baltimore, Md.,"
+    ],
+    "publisher": [
+      "Penguin Books"
+    ],
+    "date": "[1961]",
+    "year": 1961,
+    "countryCode": "mdu"
+  },
+  "physical": {
+    "extent": "365 pages",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

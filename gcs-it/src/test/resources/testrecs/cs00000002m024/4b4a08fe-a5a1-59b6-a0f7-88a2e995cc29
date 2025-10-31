@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:in00028775256",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028775256",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028775256",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)10776718"
+    },
+    {
+      "type": "Local",
+      "value": "9911698852502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Toronto]"
+    ],
+    "publisher": [
+      "[University of Toronto Press],"
+    ],
+    "date": "[1965-]",
+    "year": 1965,
+    "countryCode": "onc"
+  },
+  "physical": {
+    "extent": "volumes",
+    "illustrations": "illustrations",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Philosophy.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science.",
+      "type": "topical"
+    },
+    {
+      "value": "philosophy.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "marc:001:in00027863551",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027863551",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027863551",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)28978058"
+    },
+    {
+      "type": "Local",
+      "value": "9910168256402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of Sidney Lanier /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lanier, Sidney,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lanier, Mary Day.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ward, William Hayes,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "New ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Charles Schribner's Sons,"
+    ],
+    "date": "1925.",
+    "year": 1925,
+    "countryCode": "cf "
+  },
+  "physical": {
+    "extent": "xli, [1], 262 pages, 1 unnumbered leaf of plates :",
+    "illustrations": "portrait ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

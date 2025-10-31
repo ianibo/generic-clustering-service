@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00028980512",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028980512",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028980512",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0416476104"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780416476101"
+    },
+    {
+      "type": "ISBN",
+      "value": "0416278701"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780416278705"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6583560"
+    },
+    {
+      "type": "Local",
+      "value": "9912049581902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Shakespeare, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Prince, F. T.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Methuen,"
+    ],
+    "date": "1969, ©1960.",
+    "year": 1969,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xlvi, 201 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "SHAKESPEARE, William.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Arden edition of the works of William Shakespeare"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1136989034",
+      "Poems."
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "marc:001:in00026013672",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026013672",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026013672",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0674705599"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780674705593"
+    },
+    {
+      "type": "ISBN",
+      "value": "0674705556"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780674705555"
+    },
+    {
+      "type": "LCCN",
+      "value": " 81004194 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7553746"
+    },
+    {
+      "type": "Local",
+      "value": "9910214026202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The principles of psychology /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "James, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Burkhardt, Frederick,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bowers, Fredson.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Skrupskelis, Kęstutis,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, Mass. :"
+    ],
+    "publisher": [
+      "Harvard University Press,"
+    ],
+    "date": "1981.",
+    "year": 1981,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "3 volumes (lxviii, 1740 pages) :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Psychology",
+      "type": "topical"
+    },
+    {
+      "value": "Psychology.",
+      "type": "topical"
+    },
+    {
+      "value": "psychology.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Works of William James"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)558512720",
+      "(OCoLC)607671959",
+      "Principles of psychology."
+    ]
+  }
+}

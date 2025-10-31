@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00027941085",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027941085",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027941085",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781932416909"
+    },
+    {
+      "type": "ISBN",
+      "value": "1932416900"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)176988749"
+    },
+    {
+      "type": "Local",
+      "value": "9910757953502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Arkansas /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brandon, John",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "San Francisco :"
+    ],
+    "publisher": [
+      "McSweeney's Books,"
+    ],
+    "date": "©2008.",
+    "year": 2008,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "230 pages ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Arkansas",
+      "type": "topical"
+    },
+    {
+      "value": "Arkansas.",
+      "type": "topical"
+    },
+    {
+      "value": "Drug traffic",
+      "type": "topical"
+    },
+    {
+      "value": "Drug traffic.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Southern States",
+      "type": "topical"
+    },
+    {
+      "value": "Southern States.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "McSweeney's rectangulars"
+    },
+    {
+      "title": "McSweeney's rectangulars."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)567933077",
+      "Arkansas."
+    ]
+  }
+}

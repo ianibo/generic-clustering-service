@@ -1,0 +1,106 @@
+{
+  "id": "marc:001:in00026248331",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026248331",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026248331",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0689110162"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780689110160"
+    },
+    {
+      "type": "LCCN",
+      "value": " 79052416 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5749130"
+    },
+    {
+      "type": "Local",
+      "value": "9910288375902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Justice, Donald,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Atheneum,"
+    ],
+    "date": "[1979]",
+    "year": 1979,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "ix, 137 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)568763479",
+      "Selected poems."
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00029014465",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029014465",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029014465",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781906570071"
+    },
+    {
+      "type": "ISBN",
+      "value": "1906570078"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781904614647"
+    },
+    {
+      "type": "ISBN",
+      "value": "1904614647"
+    },
+    {
+      "type": "Other",
+      "value": "60002171556"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)990314620"
+    },
+    {
+      "type": "Local",
+      "value": "9914077670502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rodenbach, Georges,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Stone, William,",
+      "role": "editor,",
+      "kind": "person"
+    },
+    {
+      "name": "Hanks, Olivia,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "Todmorden :"
+    ],
+    "publisher": [
+      "Arc Publications,"
+    ],
+    "date": "[2017]",
+    "year": 2017,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "110 pages :",
+    "illustrations": "illustrations, portraits ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Rodenbach, Georges,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ]
+}

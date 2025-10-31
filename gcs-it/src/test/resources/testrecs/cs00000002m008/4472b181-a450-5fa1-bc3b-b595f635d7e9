@@ -1,0 +1,155 @@
+{
+  "id": "marc:001:in00026198753",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026198753",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026198753",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "ISBN",
+      "value": "0195050266"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780195050264"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)12761651"
+    },
+    {
+      "type": "Local",
+      "value": "9910848759102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Leviathan",
+      "type": "alternative"
+    },
+    {
+      "value": "Matter, form, and power of a commonwealth, ecclesiastical and civil",
+      "type": "alternative"
+    },
+    {
+      "value": "The prince /",
+      "type": "main"
+    },
+    {
+      "value": "Principe.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Machiavelli, Niccolò,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Marriott, W. K.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Fuller, Nelle,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Hobbes, Thomas,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "[1952]",
+    "year": 1952,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "xi, 283 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Essays.",
+      "type": "topical"
+    },
+    {
+      "value": "Literature, Modern",
+      "type": "topical"
+    },
+    {
+      "value": "Political ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science",
+      "type": "topical"
+    },
+    {
+      "value": "Political science.",
+      "type": "topical"
+    },
+    {
+      "value": "State, The.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western World ;",
+      "numbering": "v. 23"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 23."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)988153460",
+      "Prince"
+    ]
+  }
+}

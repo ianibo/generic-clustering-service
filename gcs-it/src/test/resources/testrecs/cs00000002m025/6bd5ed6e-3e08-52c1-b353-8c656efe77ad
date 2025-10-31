@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00029586106",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029586106",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029586106",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780374258603"
+    },
+    {
+      "type": "ISBN",
+      "value": "0374258600"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780374533168"
+    },
+    {
+      "type": "ISBN",
+      "value": "0374533164"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2010044668"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)676064999"
+    },
+    {
+      "type": "Local",
+      "value": "9910278722302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Robert Pinsky, selected poems",
+      "type": "alternative"
+    },
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pinsky, Robert.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Farrar, Straus and Giroux,"
+    ],
+    "date": "2011.",
+    "year": 2011,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "209 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

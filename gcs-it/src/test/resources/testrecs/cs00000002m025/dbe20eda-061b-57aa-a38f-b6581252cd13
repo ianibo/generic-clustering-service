@@ -1,0 +1,131 @@
+{
+  "id": "marc:001:in00030284757",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030284757",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030284757",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)793925313"
+    },
+    {
+      "type": "Local",
+      "value": "9910329347402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad of Homer /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Lang, Andrew,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Leaf, Walter,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Myers, Ernest,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York :"
+    ],
+    "publisher": [
+      "Macmillan ;",
+      "St. Martin's,"
+    ],
+    "date": "1965.",
+    "year": 1965,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vi, 454 pages ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Achilles",
+      "type": "topical"
+    },
+    {
+      "value": "Achilles (Greek mythology)",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Homer",
+      "type": "topical"
+    },
+    {
+      "value": "Homer.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Globe Edition."
+    }
+  ]
+}

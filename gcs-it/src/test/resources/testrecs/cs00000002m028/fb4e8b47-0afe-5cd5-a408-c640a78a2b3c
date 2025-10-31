@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:in00027447823",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027447823",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027447823",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "014058661X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140586619"
+    },
+    {
+      "type": "LCCN",
+      "value": " 93137076 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)28548839"
+    },
+    {
+      "type": "Local",
+      "value": "9910913572702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poetry /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wordsworth, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Roe, Nicholas.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1992.",
+    "year": 1992,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xx, 311 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Penguin poetry library"
+    },
+    {
+      "title": "Penguin poetry library."
+    }
+  ]
+}

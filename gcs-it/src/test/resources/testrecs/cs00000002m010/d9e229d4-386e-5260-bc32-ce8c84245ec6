@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00029047713",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029047713",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029047713",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)11542683"
+    },
+    {
+      "type": "Local",
+      "value": "9911661637602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Van Abbé, S.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York,"
+    ],
+    "publisher": [
+      "Dent;",
+      "Dutton"
+    ],
+    "date": "[1948]",
+    "year": 1948,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "xi, 303 pages",
+    "illustrations": "illustrations",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "March family (Fictitious characters)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Children's illustrated classics"
+    },
+    {
+      "title": "Children's illustrated classics."
+    }
+  ]
+}

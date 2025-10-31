@@ -1,0 +1,104 @@
+{
+  "id": "marc:001:in00027086386",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027086386",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027086386",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0394604482"
+    },
+    {
+      "type": "Local",
+      "value": "ocm24033868"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)27090-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "9912114515302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anna Karenina /",
+      "type": "main"
+    },
+    {
+      "value": "Anna Karenina.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kent, Leonard J.,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Berberova, N.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "c1965.",
+    "year": 1965,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxiii, 855 p. ;",
+    "dimensions": "21 cm"
+  },
+  "subjects": [
+    {
+      "value": "Adultery",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    }
+  ]
+}

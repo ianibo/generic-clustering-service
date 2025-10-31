@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:in00028686011",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028686011",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028686011",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 67021247 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1349221"
+    },
+    {
+      "type": "Local",
+      "value": "9910027571102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New and selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Garrigue, Jean,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York :"
+    ],
+    "publisher": [
+      "Collier-Macmillan Limited,",
+      "The Macmillan Company ;"
+    ],
+    "date": "©1967.",
+    "year": 1967,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vii, 168 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Indiana",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)564044181",
+      "(OCoLC)576570566",
+      "New and selected poems."
+    ]
+  }
+}

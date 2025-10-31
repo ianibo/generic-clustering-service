@@ -1,0 +1,71 @@
+{
+  "id": "marc:001:abacin00000234264",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000234264",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000234264",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 60011646"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)1191-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994974645102932"
+    },
+    {
+      "type": "Local",
+      "value": "994974645102932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickinson, Emily,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "[1st ed.]"
+  },
+  "publication": {
+    "place": [
+      "Boston,"
+    ],
+    "publisher": [
+      "Little, Brown"
+    ],
+    "date": "[1960]",
+    "year": 1960,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiii, 770 p.",
+    "dimensions": "24 cm."
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:in00027185144",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027185144",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027185144",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780199537617"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199537615"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)236119857"
+    },
+    {
+      "type": "Local",
+      "value": "9910709803702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The major works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pope, Alexander,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rogers, Pat,",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oxford :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "2008.",
+    "year": 2008,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xxix, 737 pages :",
+    "illustrations": "map ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English literature.",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford world's classics"
+    },
+    {
+      "title": "Oxford world's classics (Oxford University Press)"
+    }
+  ]
+}

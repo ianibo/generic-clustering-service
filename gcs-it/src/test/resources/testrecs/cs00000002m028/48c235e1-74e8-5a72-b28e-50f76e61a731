@@ -1,0 +1,125 @@
+{
+  "id": "marc:001:in00026831797",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026831797",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026831797",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1853995940"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781853995941"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)41960879"
+    },
+    {
+      "type": "Local",
+      "value": "9910405960802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Vallejo, César,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hart, Stephen.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "spa"
+  ],
+  "publication": {
+    "place": [
+      "Bristol :"
+    ],
+    "publisher": [
+      "Bristol Classical,"
+    ],
+    "date": "2000.",
+    "year": 2000,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxiv, 96 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Poems (Vallejo, César)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Vallejo, César,",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "BCP Spanish texts series"
+    },
+    {
+      "title": "Spanish texts series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)606095867",
+      "(OCoLC)606556466",
+      "Selected poems."
+    ]
+  }
+}

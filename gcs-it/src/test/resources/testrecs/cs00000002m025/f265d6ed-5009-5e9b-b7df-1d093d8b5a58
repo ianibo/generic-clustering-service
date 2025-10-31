@@ -1,0 +1,82 @@
+{
+  "id": "marc:001:in00027393304",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027393304",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027393304",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)15443479"
+    },
+    {
+      "type": "Local",
+      "value": "9910523183802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad of Homer /",
+      "type": "main"
+    },
+    {
+      "value": "Iliad.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pope, Alexander,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Baltimore [Md.] :"
+    ],
+    "publisher": [
+      "F. Lucas, Jun. :",
+      "N.G. Maxwell,"
+    ],
+    "date": "1819",
+    "year": 1819,
+    "countryCode": "a c"
+  },
+  "physical": {
+    "extent": "2 volumes (312; 302 pages) :",
+    "illustrations": "illustrations",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microopaque"
+  },
+  "series": [
+    {
+      "title": "Early American imprints.",
+      "numbering": "no. 48266."
+    }
+  ]
+}

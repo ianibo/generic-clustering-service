@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:in00030394171",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030394171",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030394171",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)40027627"
+    },
+    {
+      "type": "Local",
+      "value": "9910771660202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Camões, Luís de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Strangford, Percy Clinton Sydney Smythe,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia :"
+    ],
+    "publisher": [
+      "H. Maxwell,"
+    ],
+    "date": "1805.",
+    "year": 1805,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "129 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "subjects": [
+    {
+      "value": "1500-1700",
+      "type": "topical"
+    },
+    {
+      "value": "Camões, Luís de,",
+      "type": "topical"
+    },
+    {
+      "value": "Poems",
+      "type": "topical"
+    },
+    {
+      "value": "Portuguese poetry",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Early American imprints.",
+      "numbering": "no. 8127."
+    }
+  ]
+}

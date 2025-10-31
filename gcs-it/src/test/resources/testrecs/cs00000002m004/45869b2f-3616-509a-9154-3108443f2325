@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00026993182",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026993182",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026993182",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140422617"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140422610"
+    },
+    {
+      "type": "LCCN",
+      "value": " 89193732 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)16595501"
+    },
+    {
+      "type": "Local",
+      "value": "9910033636302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rogers, Pat,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Harmondsworth :"
+    ],
+    "publisher": [
+      "New York :",
+      "Penguin,"
+    ],
+    "date": "1983.",
+    "year": 1983,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "956 pages :",
+    "illustrations": "1 map ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1500-1799",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin English poets"
+    },
+    {
+      "title": "Penguin English poets."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)564800331",
+      "Jonathan Swift."
+    ]
+  }
+}

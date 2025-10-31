@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00028995854",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028995854",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028995854",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 20014067 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)285630"
+    },
+    {
+      "type": "Local",
+      "value": "9910031955402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Henley, William Ernest,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Charles Scribner's Sons,"
+    ],
+    "date": "1919.",
+    "year": 1919,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xv, 274 pages :",
+    "illustrations": "frontpiece ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)568731821",
+      "Poems."
+    ]
+  }
+}

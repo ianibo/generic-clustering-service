@@ -1,0 +1,104 @@
+{
+  "id": "marc:001:in00029215667",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029215667",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029215667",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 00006895 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4916412"
+    },
+    {
+      "type": "Local",
+      "value": "9910841741102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Robinson Crusoe.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Defoe, Daniel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Dial Press,"
+    ],
+    "date": "1931 [1900]",
+    "year": 1931,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "2 pages 1., 538 pages",
+    "illustrations": "color frontispiece",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adventure stories",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Crusoe, Robinson",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Imaginary voyages.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Shipwreck survival",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607763550",
+      "Robinson Crusoe."
+    ]
+  }
+}

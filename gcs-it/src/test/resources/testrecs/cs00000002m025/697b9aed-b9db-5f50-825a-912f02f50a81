@@ -1,0 +1,71 @@
+{
+  "id": "marc:001:in00026800573",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026800573",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026800573",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0571176593"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780571176595"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)34118118"
+    },
+    {
+      "type": "Local",
+      "value": "9910487880502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Graham, W. S.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Faber,"
+    ],
+    "date": "1996.",
+    "year": 1996,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "122 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "id": "marc:001:in00028267922",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028267922",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028267922",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0707307481"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780707307480"
+    },
+    {
+      "type": "LCCN",
+      "value": " 97100905 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)38917008"
+    },
+    {
+      "type": "Local",
+      "value": "9910521104602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "MacDonald, Alexander,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Thomson, Derick S.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "gla"
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :"
+    ],
+    "publisher": [
+      "Published by Scottish Academic Press for the Scottish Gaelic Texts Society,"
+    ],
+    "date": "1996.",
+    "year": 1996,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "223 pages :",
+    "illustrations": "map ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Jacobites",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Scottish Gaelic texts. New series ;",
+      "numbering": "v. 1"
+    },
+    {
+      "title": "Scottish Gaelic texts.",
+      "numbering": "v. 1."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647315923",
+      "Selected poems."
+    ]
+  }
+}

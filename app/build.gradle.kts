@@ -2,7 +2,6 @@ plugins {
 	id("com.gradleup.shadow")
 	id("io.micronaut.application")
 	id("io.micronaut.aot")
-	`jvm-test-suite`
 }
 
 version = "0.1"

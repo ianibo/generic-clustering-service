@@ -1,0 +1,81 @@
+{
+  "id": "marc:001:in00028464467",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028464467",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028464467",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0404538452"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780404538453"
+    },
+    {
+      "type": "LCCN",
+      "value": " 71144751 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)347826"
+    },
+    {
+      "type": "Local",
+      "value": "9910258244402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Murray, Joan,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York],"
+    ],
+    "publisher": [
+      "[AMS Press],"
+    ],
+    "date": "[1971]",
+    "year": 1971,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "143 pages",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "Yale series of younger poets ;",
+      "numbering": "45."
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "id": "marc:001:in00026635079",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026635079",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026635079",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0815308558"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815308553"
+    },
+    {
+      "type": "LCCN",
+      "value": " 92044436 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)27223557"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected works /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bertini, Henri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bertini, Henri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bertini, Henri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bertini, Henri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bertini, Henri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bertini, Henri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bertini, Henri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Döhler, Théodore,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Döhler, Théodore,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Döhler, Théodore,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Döhler, Théodore,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Döhler, Théodore,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Döhler, Théodore,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Döhler, Théodore,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Döhler, Théodore,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Döhler, Théodore,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Döhler, Théodore,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Döhler, Théodore,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Döhler, Théodore,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Döhler, Théodore,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Döhler, Théodore,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Garland,"
+    ],
+    "date": "1993.",
+    "year": 1993,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "1 score (xii, 381 pages) ;",
+    "dimensions": "29 cm.",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Art music.",
+      "type": "topical"
+    },
+    {
+      "value": "Ballades (Instrumental music)",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasias (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "Music",
+      "type": "topical"
+    },
+    {
+      "value": "Musique notée.",
+      "type": "topical"
+    },
+    {
+      "value": "Nocturnes (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Notated music",
+      "type": "topical"
+    },
+    {
+      "value": "Piano music",
+      "type": "topical"
+    },
+    {
+      "value": "Piano music.",
+      "type": "topical"
+    },
+    {
+      "value": "Scores.",
+      "type": "topical"
+    },
+    {
+      "value": "Songs without words (Instrumental music)",
+      "type": "topical"
+    },
+    {
+      "value": "Tarantellas (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Variations (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Waltzes (Music)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Piano music of the Parisian virtuosos 1810-1860 ;",
+      "numbering": "v. 9"
+    },
+    {
+      "title": "Piano music of the Parisian virtuosos 1810-1860 ;",
+      "numbering": "v. 9."
+    }
+  ]
+}

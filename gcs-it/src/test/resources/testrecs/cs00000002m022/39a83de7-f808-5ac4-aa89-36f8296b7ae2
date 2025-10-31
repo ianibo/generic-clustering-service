@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:in00026350634",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026350634",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026350634",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "LCCN",
+      "value": " 90080213 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)22863183"
+    },
+    {
+      "type": "Local",
+      "value": "9910646485802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Great books",
+      "type": "alternative"
+    },
+    {
+      "value": "Great books of the Western world /",
+      "type": "main"
+    },
+    {
+      "value": "Great books of the Western world (1990)",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Adler, Mortimer J.",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Fadiman, Clifton,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Goetz, Philip W.,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Encyclopaedia Britannica, Inc.,",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "Second edition."
+  },
+  "publication": {
+    "place": [
+      "Chicago [Illinois] :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica, Inc.,"
+    ],
+    "date": "[1990]",
+    "year": 1990,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "61 volumes :",
+    "illustrations": "illustrations, maps ;",
+    "dimensions": "24 cm and 24 x 31 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Anthologies",
+      "type": "topical"
+    },
+    {
+      "value": "Anthologies.",
+      "type": "topical"
+    },
+    {
+      "value": "Indexes",
+      "type": "topical"
+    },
+    {
+      "value": "anthologies.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)709431373",
+      "Great books of the Western world."
+    ]
+  }
+}

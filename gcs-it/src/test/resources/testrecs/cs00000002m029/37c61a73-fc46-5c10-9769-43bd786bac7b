@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00028770575",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028770575",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028770575",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780199687596"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199687595"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2014959631"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)945120976"
+    },
+    {
+      "type": "Local",
+      "value": "9911022391902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Apollinaire, Guillaume,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Sorrell, Martin,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "New York, NY :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "2015.",
+    "year": 2015,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxiv, 281 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Apollinaire, Guillaume,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford world's classics (owc)"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "marc:001:in00028236425",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028236425",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028236425",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "006011987X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780060119874"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73004151 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)667027"
+    },
+    {
+      "type": "Local",
+      "value": "9910003030402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The inferno",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hoyle, Fred,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hoyle, Geoffrey,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "[1st U.S. ed.]."
+  },
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Harper & Row"
+    ],
+    "date": "[1973]",
+    "year": 1973,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "184 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Astronomy",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Physicists",
+      "type": "topical"
+    },
+    {
+      "value": "Quasar",
+      "type": "topical"
+    },
+    {
+      "value": "Science fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1084600898",
+      "Inferno."
+    ]
+  }
+}

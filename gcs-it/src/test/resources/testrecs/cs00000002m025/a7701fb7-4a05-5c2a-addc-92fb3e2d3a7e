@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00029190915",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029190915",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029190915",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2564336"
+    },
+    {
+      "type": "Local",
+      "value": "9910389581402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Butler, Elizabeth",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Houghton Mifflin,"
+    ],
+    "date": "[1923?]",
+    "year": 1923,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "335 pages :",
+    "illustrations": "plates ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Artists",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiography",
+      "type": "topical"
+    },
+    {
+      "value": "Butler, Elizabeth",
+      "type": "topical"
+    },
+    {
+      "value": "Personal correspondence",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary works)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)657151865",
+      "Autobiography."
+    ]
+  }
+}

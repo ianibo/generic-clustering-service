@@ -1,0 +1,83 @@
+{
+  "id": "marc:001:in00026093823",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026093823",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026093823",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 62003826 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)290281"
+    },
+    {
+      "type": "Local",
+      "value": "9910372621002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tate, Allen,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Scribner,"
+    ],
+    "date": "1960.",
+    "year": 1960,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "224 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609455214",
+      "Poems."
+    ]
+  }
+}

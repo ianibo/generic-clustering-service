@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00029864015",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029864015",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029864015",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0451528123"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780451528124"
+    },
+    {
+      "type": "LCCN",
+      "value": " 56007402 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)47905556"
+    },
+    {
+      "type": "Local",
+      "value": "9911084977602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Democracy in America /",
+      "type": "main"
+    },
+    {
+      "value": "De la démocratie en Amérique.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tocqueville, Alexis de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Heffner, Richard D.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "Signet Classic,"
+    ],
+    "date": "2001.",
+    "year": 2001,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "317 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Democracy",
+      "type": "topical"
+    },
+    {
+      "value": "Democracy.",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government.",
+      "type": "topical"
+    },
+    {
+      "value": "Social conditions.",
+      "type": "topical"
+    },
+    {
+      "value": "To 1865",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    }
+  ]
+}

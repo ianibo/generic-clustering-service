@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:in00027768667",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027768667",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027768667",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0856354139"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780856354137"
+    },
+    {
+      "type": "ISBN",
+      "value": "0904790223"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780904790221"
+    },
+    {
+      "type": "LCCN",
+      "value": " 82222795 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)9506030"
+    },
+    {
+      "type": "Local",
+      "value": "9910143813902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cotton, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Robinson, Ken,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Ashington, Northumberland :",
+      "Manchester [Lancashire] :"
+    ],
+    "publisher": [
+      "Carcanet New Press ;",
+      "Mid Northumberland Arts Group,"
+    ],
+    "date": "©1983.",
+    "year": 1983,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "136 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1500-1700",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Fyfield books"
+    },
+    {
+      "title": "Fyfield books."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)561123435",
+      "Selected poems."
+    ]
+  }
+}

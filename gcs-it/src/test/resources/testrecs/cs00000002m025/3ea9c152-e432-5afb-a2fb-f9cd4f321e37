@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00029397576",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029397576",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029397576",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)21767038"
+    },
+    {
+      "type": "Local",
+      "value": "9910428366602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Repertorium totius summe auree domini Antonini archipresulis florentini",
+      "type": "alternative"
+    },
+    {
+      "value": "Summa theologica.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Antoninus,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Molitor, Johannes,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Lyons] :"
+    ],
+    "publisher": [
+      "J. Clein,"
+    ],
+    "date": "[1516]",
+    "year": 1516,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "2 volumes in 1 ;",
+    "dimensions": "32 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Catholic Church",
+      "type": "topical"
+    },
+    {
+      "value": "Catholic Church.",
+      "type": "topical"
+    },
+    {
+      "value": "Theology, Doctrinal.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Goldsmiths'-Kress library of economic literature ;",
+      "numbering": "no. 13.1-1 suppl."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:in00029572460",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029572460",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029572460",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 63000455 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)366161"
+    },
+    {
+      "type": "Local",
+      "value": "9910706794402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Smith, A. J. M.",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Toronto :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1962.",
+    "year": 1962,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "1 volume (unpaged) ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Canadian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Canadian poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)579810944",
+      "Collected poems."
+    ]
+  }
+}

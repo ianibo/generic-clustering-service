@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00028463465",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028463465",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028463465",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1558909478"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781558909472"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)27214263"
+    },
+    {
+      "type": "Local",
+      "value": "9911625029002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Dead Poets Society /",
+      "type": "main"
+    },
+    {
+      "value": "Dead Poets Society (Motion picture)",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Weir, Peter,",
+      "role": "drt",
+      "kind": "person"
+    },
+    {
+      "name": "Williams, Robin,",
+      "role": "act",
+      "kind": "person"
+    },
+    {
+      "name": "Touchstone Pictures.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Silver Screen Partners IV.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "DVS Home Video.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Boston, Mass] :"
+    ],
+    "publisher": [
+      "DVS Home Video,"
+    ],
+    "date": "[1992]",
+    "year": 1992,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "1 videocassette (128 min.) :",
+    "illustrations": "sound, color ;",
+    "dimensions": "1/2 in.",
+    "contentType": "two-dimensional moving image",
+    "mediaType": "video",
+    "carrierType": "videocassette"
+  },
+  "subjects": [
+    {
+      "value": "Drama",
+      "type": "topical"
+    },
+    {
+      "value": "Drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Teacher-student relationships",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "marc:001:in00026688625",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026688625",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026688625",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0672609711"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780672609718"
+    },
+    {
+      "type": "LCCN",
+      "value": " 64016178 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2678690"
+    },
+    {
+      "type": "Local",
+      "value": "9911267049602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Moby-Dick : or, The whale /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Indianapolis :"
+    ],
+    "publisher": [
+      "Bobbs-Merrill,"
+    ],
+    "date": "1964.",
+    "year": 1964,
+    "countryCode": "ab "
+  },
+  "physical": {
+    "extent": "xlv, 730 pages :",
+    "illustrations": "illustrations, maps ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Action and adventure fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Action and adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab,",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab, Captain (Fictitious character)",
+      "type": "topical"
+    },
+    {
+      "value": "Allegories.",
+      "type": "topical"
+    },
+    {
+      "value": "American Literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Melville, Herman, 1819-1891. Moby Dick.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Sea fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories, American",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whales in literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling in literature.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Library of literature, 5"
+    },
+    {
+      "title": "Library of literature ;",
+      "numbering": "5."
+    }
+  ]
+}

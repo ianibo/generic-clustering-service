@@ -1,0 +1,90 @@
+{
+  "id": "marc:001:in00029941572",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029941572",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029941572",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)7628203"
+    },
+    {
+      "type": "Local",
+      "value": "9911625361002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Waverley /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "Century library ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Century Co.,"
+    ],
+    "date": "1910.",
+    "year": 1910,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "488 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1745-1746",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Jacobite Rebellion, 1745-1746",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Waverley novels"
+    }
+  ]
+}

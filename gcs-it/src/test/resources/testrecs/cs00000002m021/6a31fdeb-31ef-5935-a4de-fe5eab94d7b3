@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00027981244",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027981244",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027981244",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0691036586"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691036588"
+    },
+    {
+      "type": "ISBN",
+      "value": "0691037973"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691037974"
+    },
+    {
+      "type": "LCCN",
+      "value": " 93048845 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)45202235"
+    },
+    {
+      "type": "Local",
+      "value": "9910736105702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Middleton, Christopher,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hamburger, Michael.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "ger"
+  ],
+  "publication": {
+    "place": [
+      "Princeton, N.J. :"
+    ],
+    "publisher": [
+      "Princeton University Press,"
+    ],
+    "date": "1994.",
+    "year": 1994,
+    "countryCode": "nju"
+  },
+  "physical": {
+    "extent": "xxix, 298 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Goethe, Johann Wolfgang von,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ]
+}

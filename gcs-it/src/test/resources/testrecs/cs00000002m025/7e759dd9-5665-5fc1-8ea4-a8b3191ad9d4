@@ -1,0 +1,149 @@
+{
+  "id": "marc:001:in00029430121",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029430121",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029430121",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0394605195"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780394605197"
+    },
+    {
+      "type": "LCCN",
+      "value": " 84025513 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)11469279"
+    },
+    {
+      "type": "Local",
+      "value": "9910236499802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Tom Jones /",
+      "type": "main"
+    },
+    {
+      "value": "History of Tom Jones",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bowers, Fredson.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st Modern Library ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "1985.",
+    "year": 1985,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "982 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings.",
+      "type": "topical"
+    },
+    {
+      "value": "Humorous fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Humorous stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Identity (Psychology)",
+      "type": "topical"
+    },
+    {
+      "value": "Jones, Tom",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Picaresque fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Young men",
+      "type": "topical"
+    },
+    {
+      "value": "Young men.",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ]
+}

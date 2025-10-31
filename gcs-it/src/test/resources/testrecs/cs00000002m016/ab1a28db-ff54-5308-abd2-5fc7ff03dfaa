@@ -1,0 +1,141 @@
+{
+  "id": "marc:001:in00025960281",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025960281",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025960281",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 29000807 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)395259"
+    },
+    {
+      "type": "Local",
+      "value": "9910831581502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The brothers Karamazov,",
+      "type": "main"
+    },
+    {
+      "value": "Bratʹi︠a︡ Karamazovy.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1928.",
+    "year": 1928,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xii, 838 pages",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1533-1917",
+      "type": "topical"
+    },
+    {
+      "value": "Brothers",
+      "type": "topical"
+    },
+    {
+      "value": "Brothers.",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and sons",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and sons.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Frères",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    },
+    {
+      "value": "Pères et fils",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Russia.",
+      "type": "topical"
+    },
+    {
+      "value": "Russie",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The novels of Fyodor Dostoevsky,",
+      "numbering": "v. 1"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)987879174",
+      "Brothers Karamazov."
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "marc:001:in00029969913",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029969913",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029969913",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 67012418 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1841705"
+    },
+    {
+      "type": "Local",
+      "value": "9910365253902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Warren, James Edward,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston,"
+    ],
+    "publisher": [
+      "Branden Press"
+    ],
+    "date": "[1967]",
+    "year": 1967,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "74 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

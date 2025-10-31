@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00028675792",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028675792",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028675792",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)5068328"
+    },
+    {
+      "type": "Local",
+      "value": "9910111697602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "On the nature of things /",
+      "type": "main"
+    },
+    {
+      "value": "De rerum natura.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lucretius Carus, Titus.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Munro, H. A. J.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Doubleday,"
+    ],
+    "date": "[1963?]",
+    "year": 1963,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "197 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Didactic poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic poetry, Latin.",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy, Ancient",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy, Ancient.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Doubleday Dolphin book ;",
+      "numbering": "C80"
+    },
+    {
+      "title": "A Doubleday Dolphin book ;",
+      "numbering": "C80"
+    },
+    {
+      "title": "Dolphin book ;",
+      "numbering": "C80."
+    },
+    {
+      "title": "Dolphin book ;",
+      "numbering": "C80."
+    }
+  ]
+}

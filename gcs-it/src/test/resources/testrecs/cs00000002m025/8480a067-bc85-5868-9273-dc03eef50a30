@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00027918697",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027918697",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027918697",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300101023"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300101027"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003020330"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)53091775"
+    },
+    {
+      "type": "Local",
+      "value": "9910123255702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The miscellanies : entry nos. 1153-1360 /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sweeney, Douglas A.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "2004.",
+    "year": 2004,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xii, 764 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Congregational churches",
+      "type": "topical"
+    },
+    {
+      "value": "Congregationalism",
+      "type": "topical"
+    },
+    {
+      "value": "Congregationalism.",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Theology, Doctrinal",
+      "type": "topical"
+    },
+    {
+      "value": "Theology, Doctrinal.",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The works of Jonathan Edwards ;",
+      "numbering": "v. 23"
+    }
+  ]
+}

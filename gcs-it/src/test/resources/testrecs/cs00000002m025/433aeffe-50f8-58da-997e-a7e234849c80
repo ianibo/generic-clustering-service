@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00026977911",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026977911",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026977911",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)65744631"
+    },
+    {
+      "type": "Local",
+      "value": "9915162098602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The monastery /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :"
+    ],
+    "publisher": [
+      "A. & C. Black,"
+    ],
+    "date": "1871.",
+    "year": 1871,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "443 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1561-1587",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Waverly novels. Centenary edition ;",
+      "numbering": "v. 10"
+    }
+  ]
+}

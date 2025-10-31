@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:in00027136490",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027136490",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027136490",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0486203816"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780486203812"
+    },
+    {
+      "type": "ISBN",
+      "value": "0486203824"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780486203829"
+    },
+    {
+      "type": "LCCN",
+      "value": " 50007801 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)14651273"
+    },
+    {
+      "type": "Local",
+      "value": "9910764496402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The principles of psychology.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "James, William,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "Authorized ed."
+  },
+  "publication": {
+    "place": [
+      "[New York]"
+    ],
+    "publisher": [
+      "Dover"
+    ],
+    "date": "[1950, ©1918]",
+    "year": 1950,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "2 volumes",
+    "illustrations": "illustrations.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Psychology",
+      "type": "topical"
+    },
+    {
+      "value": "Psychology.",
+      "type": "topical"
+    },
+    {
+      "value": "psychology.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Dover books on philosophy and psychology"
+    },
+    {
+      "title": "Dover books on philosophy and psychology."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)992752000",
+      "Principles of psychology."
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "marc:001:in00027282528",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027282528",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027282528",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 43000166 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1632342"
+    },
+    {
+      "type": "Local",
+      "value": "9910203230002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Eddie and the archangel Mike /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Benefield, Barry,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Reynal & Hitchcock,"
+    ],
+    "date": "©1943.",
+    "year": 1943,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "310 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Authors, American",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "New York (State)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)612929234",
+      "Eddie and the archangel Mike."
+    ]
+  }
+}

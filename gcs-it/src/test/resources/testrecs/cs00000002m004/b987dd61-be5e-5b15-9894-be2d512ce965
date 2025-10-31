@@ -1,0 +1,80 @@
+{
+  "id": "marc:001:in00026563365",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026563365",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026563365",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:33Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:33Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2038750"
+    },
+    {
+      "type": "Local",
+      "value": "9910079484502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Divine comedy of Dante Alighieri;",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Longfellow, Henry Wadsworth,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Welch, Charles,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London, New York,"
+    ],
+    "publisher": [
+      "Chesterfield Society"
+    ],
+    "date": "[©1909]",
+    "year": 1909,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "4 volumes frontispiece",
+    "illustrations": "plates",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dante Alighieri,",
+      "type": "topical"
+    }
+  ]
+}

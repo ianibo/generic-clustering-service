@@ -1,0 +1,144 @@
+{
+  "id": "marc:001:in00030377094",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030377094",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030377094",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780763633707"
+    },
+    {
+      "type": "ISBN",
+      "value": "0763633704"
+    },
+    {
+      "type": "ISBN",
+      "value": "0763675008"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780763675004"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2006049055"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)70668889"
+    },
+    {
+      "type": "Local",
+      "value": "9910372222502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The museum book : a guide to strange and wonderful collections /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mark, Jan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Holland, Richard,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st U.S. ed."
+  },
+  "publication": {
+    "place": [
+      "Cambridge, Mass. :"
+    ],
+    "publisher": [
+      "Candlewick Press,"
+    ],
+    "date": "2007.",
+    "year": 2007,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "51 pages :",
+    "illustrations": "illustrations (chiefly color) ;",
+    "dimensions": "31 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Children's books.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Illustrated case bindings.",
+      "type": "topical"
+    },
+    {
+      "value": "Illustrated endpapers.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "Museums",
+      "type": "topical"
+    },
+    {
+      "value": "Museums.",
+      "type": "topical"
+    },
+    {
+      "value": "Paper case bindings.",
+      "type": "topical"
+    },
+    {
+      "value": "Picture books.",
+      "type": "topical"
+    },
+    {
+      "value": "book jackets.",
+      "type": "topical"
+    },
+    {
+      "value": "picture books.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894934324",
+      "Museum book."
+    ]
+  }
+}

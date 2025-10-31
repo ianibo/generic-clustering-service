@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00030027282",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030027282",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030027282",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780132220941"
+    },
+    {
+      "type": "ISBN",
+      "value": "0132220946"
+    },
+    {
+      "type": "ISBN",
+      "value": "0000000000000"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780000000002"
+    },
+    {
+      "type": "ISBN",
+      "value": "0000000000"
+    },
+    {
+      "type": "Other",
+      "value": "9780132220941"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2006004226"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)63692701"
+    },
+    {
+      "type": "Local",
+      "value": "9911307709302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Precalculus essentials /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Blitzer, Robert,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "Second edition."
+  },
+  "publication": {
+    "place": [
+      "Upper Saddle River, N.J. :"
+    ],
+    "publisher": [
+      "Pearson Education,"
+    ],
+    "date": "2007.",
+    "year": 2007,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "1 volume (various pagings) :",
+    "illustrations": "illustrations (some color) ;",
+    "dimensions": "29 cm +",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Algebra",
+      "type": "topical"
+    },
+    {
+      "value": "Algebra.",
+      "type": "topical"
+    },
+    {
+      "value": "Textbooks.",
+      "type": "topical"
+    }
+  ]
+}

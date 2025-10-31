@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:in00030332446",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030332446",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030332446",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)12013707"
+    },
+    {
+      "type": "Local",
+      "value": "9910794005402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Maiden of the mist",
+      "type": "alternative"
+    },
+    {
+      "value": "Anne of Geierstein.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :",
+      "London :"
+    ],
+    "publisher": [
+      "Cadell ;",
+      "Whittaker,"
+    ],
+    "date": "1833.",
+    "year": 1833,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "frontispieces ;",
+    "dimensions": "17 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1461-1483",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "France.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "His Waverley novels,",
+      "numbering": "v. 44-45"
+    }
+  ]
+}

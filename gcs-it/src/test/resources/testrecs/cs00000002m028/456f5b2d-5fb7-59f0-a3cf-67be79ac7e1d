@@ -1,0 +1,135 @@
+{
+  "id": "marc:001:in00027564853",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027564853",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027564853",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 46001204 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3000196"
+    },
+    {
+      "type": "Local",
+      "value": "9910957982802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of John Greenleaf Whittier /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Whittier, John Greenleaf,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Untermeyer, Louis,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Holden, R. J.",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Aldus Printers,",
+      "role": "printer.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Limited Editions Club,",
+      "role": "former owner.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Limited Editions Club Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Limited Editions Club,"
+    ],
+    "date": "1945.",
+    "year": 1945,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "xx, 333 pages :",
+    "illustrations": "illustrations, portrait ;",
+    "dimensions": "28 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Conduct of life",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Typefaces (Type evidence)",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

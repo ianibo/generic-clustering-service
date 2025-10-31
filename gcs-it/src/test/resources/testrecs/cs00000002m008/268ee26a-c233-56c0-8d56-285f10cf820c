@@ -1,0 +1,144 @@
+{
+  "id": "marc:001:in00028245881",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028245881",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028245881",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 55010344 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2415138"
+    },
+    {
+      "type": "Local",
+      "value": "9910985589202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The history of Tom Jones : a foundling /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fielding, Henry,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopaedia Britannica,"
+    ],
+    "date": "[1955]",
+    "year": 1955,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "xv, 405 pages ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Action and adventure fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Action and adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings",
+      "type": "topical"
+    },
+    {
+      "value": "Humorous fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Humorous fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Identity (Psychology)",
+      "type": "topical"
+    },
+    {
+      "value": "Literature",
+      "type": "topical"
+    },
+    {
+      "value": "Literature, Modern",
+      "type": "topical"
+    },
+    {
+      "value": "Literature, Modern.",
+      "type": "topical"
+    },
+    {
+      "value": "Literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Young men",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western World, v. 37"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "37."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1020503538",
+      "History of Tom Jones."
+    ]
+  }
+}

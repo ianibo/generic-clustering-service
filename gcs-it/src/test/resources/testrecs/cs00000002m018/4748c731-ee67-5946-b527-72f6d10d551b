@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00026823332",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026823332",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026823332",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 06540611 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)13837508"
+    },
+    {
+      "type": "Local",
+      "value": "9910773660402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad,",
+      "type": "main"
+    },
+    {
+      "value": "Iliad.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Murray, A. T.",
+      "role": "translator",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "grc"
+  ],
+  "publication": {
+    "place": [
+      "Cambridge,",
+      "London,"
+    ],
+    "publisher": [
+      "Harvard Univ. Press,",
+      "W. Heinemann;"
+    ],
+    "date": "1946-1947.",
+    "year": 1946,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "2 volumes",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "The Loeb classical library"
+    },
+    {
+      "title": "Loeb classical library."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)987877752",
+      "Iliad."
+    ]
+  }
+}

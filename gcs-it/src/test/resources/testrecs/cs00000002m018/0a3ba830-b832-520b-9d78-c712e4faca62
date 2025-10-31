@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00028375024",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028375024",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028375024",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 23003033 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1658351"
+    },
+    {
+      "type": "Local",
+      "value": "9910584372702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The works of William Makepeace Thackeray,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thackeray, William Makepeace,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ritchie, Anne Thackeray,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pyle, Howard,",
+      "role": "illus.",
+      "kind": "person"
+    },
+    {
+      "name": "Cruikshank, George,",
+      "role": "illus.",
+      "kind": "person"
+    },
+    {
+      "name": "Millais, John Everett,",
+      "role": "illus.",
+      "kind": "person"
+    },
+    {
+      "name": "Du Maurier, George,",
+      "role": "illus.",
+      "kind": "person"
+    },
+    {
+      "name": "Walker, Frederick,",
+      "role": "illus.",
+      "kind": "person"
+    },
+    {
+      "name": "Doyle, Richard,",
+      "role": "illus.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York and London,"
+    ],
+    "publisher": [
+      "Harper & brothers"
+    ],
+    "date": "[1910-11]",
+    "year": 1910,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "26 v.",
+    "illustrations": "fronts. (part col.) illus., plates, ports., facsims.",
+    "dimensions": "26 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)569552508",
+      "Works of William Makepeace Thackeray."
+    ]
+  }
+}

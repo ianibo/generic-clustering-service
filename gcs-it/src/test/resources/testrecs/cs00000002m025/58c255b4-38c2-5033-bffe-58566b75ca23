@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00030065586",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030065586",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030065586",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0198710534"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198710530"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73169375 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)708233"
+    },
+    {
+      "type": "Local",
+      "value": "9910252092802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sidney, Philip,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oxford :"
+    ],
+    "publisher": [
+      "Clarendon Press,"
+    ],
+    "date": "1973.",
+    "year": 1973,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxii, 228 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford paperback English texts"
+    },
+    {
+      "title": "Oxford paperback English texts."
+    }
+  ]
+}

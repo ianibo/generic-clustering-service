@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00030174471",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030174471",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030174471",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:48Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:48Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0486408760"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780486408767"
+    },
+    {
+      "type": "LCCN",
+      "value": " 99025505 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)41070833"
+    },
+    {
+      "type": "Local",
+      "value": "9911682150902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "McKay, Claude,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sherman, Joan R.,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Mineola, N.Y. :"
+    ],
+    "publisher": [
+      "Dover Publications,"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xi, 52 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Jamaica",
+      "type": "topical"
+    },
+    {
+      "value": "Jamaica.",
+      "type": "topical"
+    },
+    {
+      "value": "Jamaican Americans",
+      "type": "topical"
+    },
+    {
+      "value": "Jamaican Americans.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Dover thrift editions"
+    },
+    {
+      "title": "Dover thrift editions."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "marc:001:in00027062681",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027062681",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027062681",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 33011730 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)670350"
+    },
+    {
+      "type": "Local",
+      "value": "9911111245602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The mind of Poe : and other studies /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Campbell, Killis,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, Mass. :"
+    ],
+    "publisher": [
+      "Harvard University Press,"
+    ],
+    "date": "1933.",
+    "year": 1933,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "237 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poe, Edgar Allan,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)987963121",
+      "Mind of Poe."
+    ]
+  }
+}

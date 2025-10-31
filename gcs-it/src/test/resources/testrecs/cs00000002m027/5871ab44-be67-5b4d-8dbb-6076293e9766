@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:in00027784216",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027784216",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027784216",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 54009972 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)358187"
+    },
+    {
+      "type": "Local",
+      "value": "9911262233202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poetry /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Browning, Robert,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Knickerbocker, K. L.",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "1954, [1951]",
+    "year": 1954,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxvii, 729 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Publishers' advertisements.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Modern library of the world's best books ;",
+      "numbering": "198"
+    },
+    {
+      "title": "Modern library of the world's best books ;",
+      "numbering": "198."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609538718",
+      "Selected poetry."
+    ]
+  }
+}

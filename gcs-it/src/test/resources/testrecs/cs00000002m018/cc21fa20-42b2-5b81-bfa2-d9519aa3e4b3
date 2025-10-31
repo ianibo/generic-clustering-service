@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:gsuin00005770017",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00005770017",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00005770017",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:54Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:54Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781624667848"
+    },
+    {
+      "type": "ISBN",
+      "value": "1624667848"
+    },
+    {
+      "type": "Other",
+      "value": "99994834364"
+    },
+    {
+      "type": "Local",
+      "value": "ybp16062042"
+    },
+    {
+      "type": "Local",
+      "value": "(NhCcYBP)ebc5717437"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9934524536402952"
+    },
+    {
+      "type": "Local",
+      "value": "9934524536402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Confessions /",
+      "type": "main"
+    },
+    {
+      "value": "Confessiones.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Augustine,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Williams, Thomas,",
+      "role": "translator,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Indianapolis, Indiana :"
+    ],
+    "publisher": [
+      "Hackett Publishing Company, "
+    ],
+    "date": "[2019]",
+    "year": 2019,
+    "countryCode": "inu"
+  },
+  "physical": {
+    "extent": "1 online resource.",
+    "contentType": "text",
+    "mediaType": "computer",
+    "carrierType": "online resource"
+  },
+  "subjects": [
+    {
+      "value": "Augustine,",
+      "type": "topical"
+    },
+    {
+      "value": "Christian saints",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 2018041366",
+      "1624667821",
+      "162466783X",
+      "9781624667824",
+      "9781624667831"
+    ]
+  }
+}

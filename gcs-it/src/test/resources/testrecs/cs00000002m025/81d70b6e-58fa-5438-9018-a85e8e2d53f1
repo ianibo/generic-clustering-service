@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00025888938",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025888938",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025888938",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 47030560 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)716461"
+    },
+    {
+      "type": "Local",
+      "value": "9910211804902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Trollope, Anthony,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Booth, Bradford Allen,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Berkeley,"
+    ],
+    "publisher": [
+      "University of California Press,"
+    ],
+    "date": "1947.",
+    "year": 1947,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxii, 312 pages",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Trollope, Anthony,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609945620",
+      "Autobiography."
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "marc:001:in00029119698",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029119698",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029119698",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "8400068807"
+    },
+    {
+      "type": "ISBN",
+      "value": "9788400068806"
+    },
+    {
+      "type": "ISBN",
+      "value": "9788437602202"
+    },
+    {
+      "type": "ISBN",
+      "value": "8437602203"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)20521337"
+    },
+    {
+      "type": "Local",
+      "value": "9910344080102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Paradiso /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lezama Lima, José.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Vitier, Cintio,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1a ed."
+  },
+  "publication": {
+    "place": [
+      "Nanterre, France :"
+    ],
+    "publisher": [
+      "ALLCA XX,"
+    ],
+    "date": "1988.",
+    "year": 1988,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "xl, 762 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Cuban fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Cuban fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Lezama Lima, José.",
+      "type": "topical"
+    },
+    {
+      "value": "Paradiso (Lezama Lima, José)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Colección Archivos ;",
+      "numbering": "3"
+    },
+    {
+      "title": "Colección Archivos ;",
+      "numbering": "3."
+    }
+  ]
+}

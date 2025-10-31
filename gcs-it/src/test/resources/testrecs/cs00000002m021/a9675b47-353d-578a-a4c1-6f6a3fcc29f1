@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00027173365",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027173365",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027173365",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2489932"
+    },
+    {
+      "type": "Local",
+      "value": "9911115595502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Rob Roy /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "James Eastburn and Co.,"
+    ],
+    "date": "1818.",
+    "year": 1818,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Binders' tickets (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Bookplates (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Leather bindings (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Lettering pieces (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Marbled edges (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Marbled papers (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Rob Roy,",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00028626682",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028626682",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028626682",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780875656892"
+    },
+    {
+      "type": "ISBN",
+      "value": "0875656897"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2018010260"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1027732813"
+    },
+    {
+      "type": "Local",
+      "value": "9915510174202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New and selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tafolla, Carmen,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "spa"
+  ],
+  "publication": {
+    "place": [
+      "Fort Worth, Texas :"
+    ],
+    "publisher": [
+      "TCU Press,"
+    ],
+    "date": "[2018]",
+    "year": 2018,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "83 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "TCU Texas poet laureate series"
+    },
+    {
+      "title": "TCU Texas poets laureate series."
+    }
+  ]
+}

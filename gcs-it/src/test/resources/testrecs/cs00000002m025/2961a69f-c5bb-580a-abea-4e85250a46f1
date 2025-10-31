@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00026850688",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026850688",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026850688",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)11814856"
+    },
+    {
+      "type": "Local",
+      "value": "9910192459102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Percival, James Gates,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "C. Wiley,"
+    ],
+    "date": "1823.",
+    "year": 1823,
+    "countryCode": " a "
+  },
+  "physical": {
+    "extent": "396 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American poetry, 1609-1900.",
+      "numbering": "no. 1772."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 24017850"
+    ]
+  }
+}

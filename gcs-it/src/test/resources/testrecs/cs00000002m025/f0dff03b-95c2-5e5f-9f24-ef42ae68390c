@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00029803665",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029803665",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029803665",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1857540972"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781857540970"
+    },
+    {
+      "type": "LCCN",
+      "value": " 95139674 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)30973875"
+    },
+    {
+      "type": "Local",
+      "value": "9910362512002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Feinstein, Elaine.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Manchester :"
+    ],
+    "publisher": [
+      "Carcanet,"
+    ],
+    "date": "1994.",
+    "year": 1994,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "viii, 165 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Jewish women",
+      "type": "topical"
+    },
+    {
+      "value": "Jews",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

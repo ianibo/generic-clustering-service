@@ -1,0 +1,170 @@
+{
+  "id": "marc:001:in00028877026",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028877026",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028877026",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:33Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:33Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0404088317"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780404088316"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73003125 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)849626"
+    },
+    {
+      "type": "Local",
+      "value": "9910538660402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Jane Eyre.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Charlotte,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York],"
+    ],
+    "publisher": [
+      "[AMS Press],"
+    ],
+    "date": "[1973]",
+    "year": 1973,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxxv, 555 pages",
+    "illustrations": "illustrations",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "Charity-schools",
+      "type": "topical"
+    },
+    {
+      "value": "Charity-schools.",
+      "type": "topical"
+    },
+    {
+      "value": "Country homes",
+      "type": "topical"
+    },
+    {
+      "value": "Country homes.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Governesses",
+      "type": "topical"
+    },
+    {
+      "value": "Governesses.",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Married people",
+      "type": "topical"
+    },
+    {
+      "value": "Married people.",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill women",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill women.",
+      "type": "topical"
+    },
+    {
+      "value": "Orphans",
+      "type": "topical"
+    },
+    {
+      "value": "Orphans.",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Social Life and Customs",
+      "type": "topical"
+    },
+    {
+      "value": "Young women",
+      "type": "topical"
+    },
+    {
+      "value": "Young women.",
+      "type": "topical"
+    }
+  ]
+}

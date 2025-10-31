@@ -1,0 +1,123 @@
+{
+  "id": "marc:001:gsuin00004477135",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004477135",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004477135",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0801882672"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780801882678"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)62586553"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9930239493402952"
+    },
+    {
+      "type": "Local",
+      "value": "9930239493402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "McCrorie, Edward.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Martin, Richard P.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Baltimore :"
+    ],
+    "publisher": [
+      "Johns Hopkins University Press,"
+    ],
+    "date": "©2005, ©2004.",
+    "year": 2005,
+    "countryCode": "mdu"
+  },
+  "physical": {
+    "extent": "xlviii, 418 pages ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations into English.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Johns Hopkins new translations from antiquity"
+    },
+    {
+      "title": "Johns Hopkins new translations from antiquity."
+    }
+  ]
+}

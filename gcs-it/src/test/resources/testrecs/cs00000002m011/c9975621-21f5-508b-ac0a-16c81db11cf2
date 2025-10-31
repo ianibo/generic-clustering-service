@@ -1,0 +1,136 @@
+{
+  "id": "marc:001:in00025940349",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025940349",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025940349",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0938626663"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780938626664"
+    },
+    {
+      "type": "ISBN",
+      "value": "0938626671"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780938626671"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87019245 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)16682260"
+    },
+    {
+      "type": "Local",
+      "value": "9910116902602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected Poems of John Gould Fletcher /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fletcher, John Gould,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Carpenter, Lucas.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rudolph, Leighton.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Fayetteville :"
+    ],
+    "publisher": [
+      "University of Arkansas Press,"
+    ],
+    "date": "1988.",
+    "year": 1988,
+    "countryCode": "cf "
+  },
+  "physical": {
+    "extent": "xi, 340 pages, 1 unnumbered leaf of plates :",
+    "illustrations": "portrait ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry, Modern",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The John Gould Fletcher series ;",
+      "numbering": "v. 1"
+    },
+    {
+      "title": "John Gould Fletcher series ;",
+      "numbering": "v. 1."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)578376844",
+      "Selected poems of John Gould Fletcher."
+    ]
+  }
+}

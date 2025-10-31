@@ -1,0 +1,155 @@
+{
+  "id": "marc:001:in00028843126",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028843126",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028843126",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0192833839"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192833839"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199536368"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199536368"
+    },
+    {
+      "type": "LCCN",
+      "value": " 99163023 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)40117086"
+    },
+    {
+      "type": "Local",
+      "value": "9910973503102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crime and punishment /",
+      "type": "main"
+    },
+    {
+      "value": "Prestuplenie i nakazanie.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Coulson, Jessie,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Peace, Richard,",
+      "role": "author of notes,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Oxford University Press, Inc.,"
+    ],
+    "date": "©1998.",
+    "year": 1998,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "xxvii, 537 pages :",
+    "illustrations": "map ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Detective and mystery fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Detective and mystery stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Murder",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford world's classics"
+    },
+    {
+      "title": "Oxford world's classics (Oxford University Press)"
+    }
+  ]
+}

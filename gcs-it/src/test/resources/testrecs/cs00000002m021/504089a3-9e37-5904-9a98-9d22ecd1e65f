@@ -1,0 +1,148 @@
+{
+  "id": "marc:001:in00026942143",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026942143",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026942143",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 42039469 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)38981912"
+    },
+    {
+      "type": "Local",
+      "value": "9910278808402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The fortunes of Nigel /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Archibald Constable & Co.,",
+      "role": "publisher.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Hurst, Robinson, and Co.,",
+      "role": "publisher.",
+      "kind": "corporate"
+    },
+    {
+      "name": "James Ballantyne and Co.,",
+      "role": "printer.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :",
+      "London :"
+    ],
+    "publisher": [
+      "Hurst, Robinson, and Co.,",
+      "Printed for Archibald Constable and Co. ;"
+    ],
+    "date": "1822",
+    "year": 1822,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "3 volumes ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1600-1699",
+      "type": "topical"
+    },
+    {
+      "value": "Bookplates (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "James",
+      "type": "topical"
+    },
+    {
+      "value": "London (England)",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Scots",
+      "type": "topical"
+    },
+    {
+      "value": "Scots.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647563584",
+      "Fortunes of Nigel."
+    ]
+  }
+}

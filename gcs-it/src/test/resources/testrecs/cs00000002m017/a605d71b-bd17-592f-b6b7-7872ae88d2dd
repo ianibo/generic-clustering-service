@@ -1,0 +1,91 @@
+{
+  "id": "marc:001:in00029022634",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029022634",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029022634",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0856352411"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780856352416"
+    },
+    {
+      "type": "LCCN",
+      "value": " 78317055 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4319738"
+    },
+    {
+      "type": "Local",
+      "value": "9911321771902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New & selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Richards, I. A.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Manchester :"
+    ],
+    "publisher": [
+      "Carcanet New Press,"
+    ],
+    "date": "1978.",
+    "year": 1978,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "124 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)558207890",
+      "New & selected poems."
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "id": "marc:001:in00028191400",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028191400",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028191400",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "LCCN",
+      "value": " 55010351 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)12767959"
+    },
+    {
+      "type": "Local",
+      "value": "9910848831302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Elements of chemistry /",
+      "type": "main"
+    },
+    {
+      "value": "Traité élémentaire de chimie.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lavoisier, Antoine Laurent,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fourier, Jean-Baptiste-Joseph,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lavoisier, Antoine Laurent,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Faraday, Michael,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "[1952]",
+    "year": 1952,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xii, 898 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Chemistry",
+      "type": "topical"
+    },
+    {
+      "value": "Chemistry.",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Electricity",
+      "type": "topical"
+    },
+    {
+      "value": "Electricity.",
+      "type": "topical"
+    },
+    {
+      "value": "Heat.",
+      "type": "topical"
+    },
+    {
+      "value": "Hot Temperature",
+      "type": "topical"
+    },
+    {
+      "value": "Physics.",
+      "type": "topical"
+    },
+    {
+      "value": "Thermodynamics",
+      "type": "topical"
+    },
+    {
+      "value": "Thermodynamics.",
+      "type": "topical"
+    },
+    {
+      "value": "chemistry.",
+      "type": "topical"
+    },
+    {
+      "value": "electricity.",
+      "type": "topical"
+    },
+    {
+      "value": "heat.",
+      "type": "topical"
+    },
+    {
+      "value": "thermodynamics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western World ;",
+      "numbering": "v. 45"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 45."
+    }
+  ]
+}

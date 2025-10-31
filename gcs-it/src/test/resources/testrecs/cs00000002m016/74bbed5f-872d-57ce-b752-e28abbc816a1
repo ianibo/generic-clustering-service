@@ -1,0 +1,76 @@
+{
+  "id": "marc:001:in00026476602",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026476602",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026476602",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)33284631"
+    },
+    {
+      "type": "Local",
+      "value": "9910868508502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Lovel the widower",
+      "type": "alternative"
+    },
+    {
+      "value": "Vanity fair : a novel without a hero /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thackeray, William Makepeace,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "Illustrated cabinet ed."
+  },
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Estes and Lauriat,"
+    ],
+    "date": "[1912]",
+    "year": 1912,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "illustrations ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "Thackeray's works"
+    }
+  ]
+}

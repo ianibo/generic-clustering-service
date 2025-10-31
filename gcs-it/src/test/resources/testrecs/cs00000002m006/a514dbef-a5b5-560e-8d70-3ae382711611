@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00028269743",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028269743",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028269743",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0812557360"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780812557367"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)36041077"
+    },
+    {
+      "type": "Local",
+      "value": "9911817940702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Robinson Crusoe /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Defoe, Daniel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Tom Doherty Associates Book,"
+    ],
+    "date": "©1996.",
+    "year": 1996,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "340 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adventure stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Castaways",
+      "type": "topical"
+    },
+    {
+      "value": "Castaways.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Islands",
+      "type": "topical"
+    },
+    {
+      "value": "Islands.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "marc:001:in00030440798",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030440798",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030440798",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 55010321 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)911183"
+    },
+    {
+      "type": "Local",
+      "value": "9910930304602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "On the nature of things",
+      "type": "alternative"
+    },
+    {
+      "value": "Lucretius: On the nature of things ; and, The Discourses of Epictetus ; and, The Meditations of Marcus Aurelius.",
+      "type": "main"
+    },
+    {
+      "value": "De rerum natura.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lucretius Carus, Titus.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Munro, H. A. J.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Long, George,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Marcus Aurelius,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Epictetus.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "[1955]",
+    "year": 1955,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "xi, 310 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Didactic poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy, Ancient",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy, Ancient.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 12"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 12."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756461920",
+      "Lucretius: On the nature of things."
+    ]
+  }
+}

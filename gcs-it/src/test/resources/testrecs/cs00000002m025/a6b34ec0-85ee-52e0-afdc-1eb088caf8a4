@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00026327133",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026327133",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026327133",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "043624442X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780436244421"
+    },
+    {
+      "type": "LCCN",
+      "value": " 84102579 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)10819764"
+    },
+    {
+      "type": "Local",
+      "value": "9910361850002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lerner, Laurence.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Secker & Warburg,"
+    ],
+    "date": "1984.",
+    "year": 1984,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "125 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)613208761",
+      "Selected poems."
+    ]
+  }
+}

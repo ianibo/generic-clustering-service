@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00029273169",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029273169",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029273169",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 05000749 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)931224017"
+    },
+    {
+      "type": "Local",
+      "value": "9910542596802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "A tale of two cities /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1902.",
+    "year": 1902,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "xxv, 324 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1789-1799",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Executions and executioners",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "French fiction",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Lookalikes",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ]
+}

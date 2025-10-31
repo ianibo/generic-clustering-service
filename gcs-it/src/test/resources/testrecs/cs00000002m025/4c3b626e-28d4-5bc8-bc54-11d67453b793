@@ -1,0 +1,190 @@
+{
+  "id": "marc:001:in00027683425",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027683425",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027683425",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0679405453"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679405450"
+    },
+    {
+      "type": "LCCN",
+      "value": " 91053011 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)24065589"
+    },
+    {
+      "type": "Local",
+      "value": "9910418736202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gulliver's travels /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rogers, Pat,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Distributed by Random House,",
+      "Knopf :"
+    ],
+    "date": "[1991]",
+    "year": 1991,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "xlv, 318 pages :",
+    "illustrations": "maps ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Action and adventure fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Action and adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Allegories.",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "English fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fantastic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Satire",
+      "type": "topical"
+    },
+    {
+      "value": "Satire.",
+      "type": "topical"
+    },
+    {
+      "value": "Shipwreck survival",
+      "type": "topical"
+    },
+    {
+      "value": "Travelers",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary",
+      "type": "topical"
+    },
+    {
+      "value": "Wit and Humor as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library ;",
+      "numbering": "26"
+    },
+    {
+      "title": "Everyman's library (Alfred A. Knopf, Inc.) ;",
+      "numbering": "26."
+    }
+  ]
+}

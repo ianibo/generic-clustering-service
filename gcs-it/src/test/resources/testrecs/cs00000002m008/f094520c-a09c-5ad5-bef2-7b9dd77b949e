@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:in00029184608",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029184608",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029184608",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781598530193"
+    },
+    {
+      "type": "ISBN",
+      "value": "1598530194"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2007941727"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)213813694"
+    },
+    {
+      "type": "Local",
+      "value": "9910235072602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stevenson, Anne,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Motion, Andrew,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York] :"
+    ],
+    "publisher": [
+      "Library of America,"
+    ],
+    "date": "©2008.",
+    "year": 2008,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "xxii, 205 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Personal correspondence",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Stevenson, Anne,",
+      "type": "topical"
+    },
+    {
+      "value": "Women poets, American",
+      "type": "topical"
+    },
+    {
+      "value": "Women poets, American.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American poets project ;",
+      "numbering": "26"
+    },
+    {
+      "title": "American poets project ;",
+      "numbering": "26."
+    }
+  ]
+}

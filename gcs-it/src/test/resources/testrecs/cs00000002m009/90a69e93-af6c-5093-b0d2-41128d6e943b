@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00026425079",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026425079",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026425079",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0822308673"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780822308676"
+    },
+    {
+      "type": "LCCN",
+      "value": " 88018897 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)18049183"
+    },
+    {
+      "type": "Local",
+      "value": "9910189421102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "On Melville /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Budd, Louis J.,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Cady, Edwin Harrison,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Durham :"
+    ],
+    "publisher": [
+      "Duke University Press,"
+    ],
+    "date": "1988.",
+    "year": 1988,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "x, 277 pages ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Authors, American",
+      "type": "topical"
+    },
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Melville, Herman,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Best from American literature"
+    },
+    {
+      "title": "Best from American literature."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)572510427",
+      "On Melville."
+    ]
+  }
+}

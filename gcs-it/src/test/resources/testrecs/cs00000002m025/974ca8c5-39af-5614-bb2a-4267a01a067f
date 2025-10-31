@@ -1,0 +1,182 @@
+{
+  "id": "marc:001:in00028025882",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028025882",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028025882",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0714529559"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780714529554"
+    },
+    {
+      "type": "ISBN",
+      "value": "0714529699"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780714529691"
+    },
+    {
+      "type": "ISBN",
+      "value": "0714529877"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780714529875"
+    },
+    {
+      "type": "ISBN",
+      "value": "0714530026"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780714530024"
+    },
+    {
+      "type": "LCCN",
+      "value": " 94007999 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)29966561"
+    },
+    {
+      "type": "Local",
+      "value": "9910325531702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Green, Julien,",
+      "role": "author,",
+      "kind": "person"
+    },
+    {
+      "name": "Green, Anne,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Cameron, Euan",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Green, Julien,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Green, Julien,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Green, Julien,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Green, Julien,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Marion Boyars,"
+    ],
+    "date": "[1993]-1996.",
+    "year": 1993,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "4 volumes (ix, 243; 207; 285; 288 pages) ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, American",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, French",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, French.",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "France.",
+      "type": "topical"
+    },
+    {
+      "value": "Gay authors",
+      "type": "topical"
+    },
+    {
+      "value": "Gay authors.",
+      "type": "topical"
+    },
+    {
+      "value": "Green, Julien,",
+      "type": "topical"
+    },
+    {
+      "value": "collective biographies.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00026940214",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026940214",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026940214",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0192840800"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192840806"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199538416"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199538417"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2002727712"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)51222128"
+    },
+    {
+      "type": "Local",
+      "value": "9921992758902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Sir Philip Sidney, the major works",
+      "type": "alternative"
+    },
+    {
+      "value": "The major works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sidney, Philip,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Duncan-Jones, Katherine.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "2002.",
+    "year": 2002,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xxiii, 416 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Pastoral poetry, English.",
+      "type": "topical"
+    },
+    {
+      "value": "Sonnets, English.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford world's classics"
+    },
+    {
+      "title": "Oxford world's classics (Oxford University Press)"
+    }
+  ]
+}

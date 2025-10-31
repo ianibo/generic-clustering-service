@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00028777425",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028777425",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028777425",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)848974"
+    },
+    {
+      "type": "Local",
+      "value": "9910394294302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems of Robert Frost.",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Frost, Robert,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Ulmann, Doris,",
+      "role": "photographer.",
+      "kind": "person"
+    },
+    {
+      "name": "Halcyon House,",
+      "role": "publisher.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Blue Ribbon Books,",
+      "role": "distributor.",
+      "kind": "corporate"
+    }
+  ],
+  "edition": {
+    "statement": "Halcyon House ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Halcyon House,"
+    ],
+    "date": "[1939]",
+    "year": 1939,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "5-436 pages :",
+    "illustrations": "frontispiece (portrait) ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Libraries",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Thompson, Lawrance,",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)623280539",
+      "Collected poems of Robert Frost."
+    ]
+  }
+}

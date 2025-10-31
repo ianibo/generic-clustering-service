@@ -1,0 +1,127 @@
+{
+  "id": "marc:001:in00028817509",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028817509",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028817509",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 51000382 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1920957"
+    },
+    {
+      "type": "Local",
+      "value": "9910277411102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems;",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Catullus, Gaius Valerius.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aiken, William Appleton,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "[1st ed.]."
+  },
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Dutton,"
+    ],
+    "date": "1950.",
+    "year": 1950,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "viii, 248 pages",
+    "illustrations": "frontispiece",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Catullus, Gaius Valerius",
+      "type": "topical"
+    },
+    {
+      "value": "Catullus, Gaius Valerius.",
+      "type": "topical"
+    },
+    {
+      "value": "Epigrams, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Epigrams, Latin.",
+      "type": "topical"
+    },
+    {
+      "value": "Love poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Love poetry, Latin.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Rome",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)579069791",
+      "Poems."
+    ]
+  }
+}

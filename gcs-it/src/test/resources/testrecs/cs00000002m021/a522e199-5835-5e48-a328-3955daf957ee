@@ -1,0 +1,132 @@
+{
+  "id": "marc:001:in00026390828",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026390828",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026390828",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 48005399 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)190776"
+    },
+    {
+      "type": "Local",
+      "value": "9910284755502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "On the Iliad /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bespaloff, Rachel.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "McCarthy, Mary,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Broch, Hermann,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    },
+    {
+      "name": "Bollingen Foundation Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "[New York] :"
+    ],
+    "publisher": [
+      "Pantheon Books,"
+    ],
+    "date": "[1948, ©1947]",
+    "year": 1948,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "126 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Achilles",
+      "type": "topical"
+    },
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Homer.",
+      "type": "topical"
+    },
+    {
+      "value": "Iliad (Homer)",
+      "type": "topical"
+    },
+    {
+      "value": "Literature.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Bollingen series ;",
+      "numbering": "9"
+    },
+    {
+      "title": "Bollingen series ;",
+      "numbering": "9."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)580637613",
+      "(OCoLC)609734289",
+      "On the Iliad."
+    ]
+  }
+}

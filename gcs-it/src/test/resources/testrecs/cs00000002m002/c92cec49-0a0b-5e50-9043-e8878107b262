@@ -1,0 +1,77 @@
+{
+  "id": "marc:001:asuin00000481228",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "asuin00000481228",
+    "sourceRecordUri": "https://catalog.example.org/record/asuin00000481228",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0396068596"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73179155 //r902"
+    },
+    {
+      "type": "Local",
+      "value": "(GAlDC)21053-dartondb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_ALBANY)99210533702933"
+    },
+    {
+      "type": "Local",
+      "value": "99210533702933"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Christie, Agatha,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Christie, Agatha,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Dodd, Mead,"
+    ],
+    "date": "1973.",
+    "year": 1973,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "124 p.",
+    "dimensions": "21 cm."
+  }
+}

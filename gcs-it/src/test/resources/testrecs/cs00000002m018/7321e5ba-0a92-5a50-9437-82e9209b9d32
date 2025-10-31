@@ -1,0 +1,135 @@
+{
+  "id": "marc:001:in00029777525",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029777525",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029777525",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1593080093"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781593080099"
+    },
+    {
+      "type": "ISBN",
+      "value": "1593081677"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781593081676"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2004100772"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)52533846"
+    },
+    {
+      "type": "Local",
+      "value": "9910724008702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The odyssey /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Squillace, Robert,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Palmer, G. H.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Barnes & Noble,"
+    ],
+    "date": "©2003.",
+    "year": 2003,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "xxxix, 339 pages :",
+    "illustrations": "map ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Mythology, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus (Greek mythology)",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Barnes & Noble classics"
+    },
+    {
+      "title": "Barnes & Noble classics."
+    }
+  ]
+}

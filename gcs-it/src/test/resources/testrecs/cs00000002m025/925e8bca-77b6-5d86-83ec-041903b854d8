@@ -1,0 +1,91 @@
+{
+  "id": "marc:001:in00030256397",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030256397",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030256397",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 19012751 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1238325"
+    },
+    {
+      "type": "Local",
+      "value": "9910258864602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The dialogues of Plato,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Plato.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jowett, Benjamin,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Oxford,"
+    ],
+    "publisher": [
+      "Clarendon Press,"
+    ],
+    "date": "1871.",
+    "year": 1871,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "4 volumes",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dialogues (Plato)",
+      "type": "topical"
+    },
+    {
+      "value": "Plato.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609294036",
+      "Dialogues of Plato."
+    ]
+  }
+}

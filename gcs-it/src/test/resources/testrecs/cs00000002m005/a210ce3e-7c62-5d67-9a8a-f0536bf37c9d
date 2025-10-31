@@ -1,0 +1,126 @@
+{
+  "id": "marc:001:in00026056485",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026056485",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026056485",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0819552542"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780819552549"
+    },
+    {
+      "type": "ISBN",
+      "value": "0819552984"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780819552983"
+    },
+    {
+      "type": "LCCN",
+      "value": " 71184366 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)568071"
+    },
+    {
+      "type": "Local",
+      "value": "9910528858002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Miscellanies by Henry Fielding, esq. /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Miller, Henry Knight,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Goldgar, Bertrand A.,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Amory, Hugh,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st American ed."
+  },
+  "publication": {
+    "place": [
+      "[Middletown, Conn.] :"
+    ],
+    "publisher": [
+      "Wesleyan University Press,"
+    ],
+    "date": "1972-<1997>",
+    "year": 1972,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "volumes <1, 3> ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Algebraic topology",
+      "type": "topical"
+    },
+    {
+      "value": "Algebraic topology.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Wesleyan edition of the works of Henry Fielding"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756450679",
+      "Miscellanies by Henry Fielding, esq."
+    ]
+  }
+}

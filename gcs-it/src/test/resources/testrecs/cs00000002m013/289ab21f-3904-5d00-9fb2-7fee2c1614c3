@@ -1,0 +1,141 @@
+{
+  "id": "marc:001:in00029434138",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029434138",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029434138",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1930116101"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781930116108"
+    },
+    {
+      "type": "ISBN",
+      "value": "193011611X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781930116115"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781930116122"
+    },
+    {
+      "type": "ISBN",
+      "value": "1930116128"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781930116139"
+    },
+    {
+      "type": "ISBN",
+      "value": "1930116136"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781930116160"
+    },
+    {
+      "type": "ISBN",
+      "value": "1930116160"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781930116177"
+    },
+    {
+      "type": "ISBN",
+      "value": "1930116179"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)225884535"
+    },
+    {
+      "type": "Local",
+      "value": "9910182025802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Locke, Edward,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Canton, MA :"
+    ],
+    "publisher": [
+      "Harlequinade Press,"
+    ],
+    "date": "2007-",
+    "year": 2007,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "volumes ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

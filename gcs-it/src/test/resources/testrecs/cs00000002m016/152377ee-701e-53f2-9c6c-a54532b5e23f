@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00029065689",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029065689",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029065689",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780307262974"
+    },
+    {
+      "type": "ISBN",
+      "value": "0307262979"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2007020741"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)131069900"
+    },
+    {
+      "type": "Local",
+      "value": "9910499947802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Strand, Mark,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Alfred A. Knopf,"
+    ],
+    "date": "2007.",
+    "year": 2007,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xi, 267 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Authors' autographs (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American",
+      "type": "topical"
+    },
+    {
+      "value": "Proofs (Printing)",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607648432",
+      "(OCoLC)608340487",
+      "New selected poems."
+    ]
+  }
+}

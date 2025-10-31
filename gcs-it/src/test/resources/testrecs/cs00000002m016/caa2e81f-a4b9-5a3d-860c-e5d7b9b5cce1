@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00027338332",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027338332",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027338332",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0865970122"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780865970120"
+    },
+    {
+      "type": "LCCN",
+      "value": " 81023693 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8171048"
+    },
+    {
+      "type": "Local",
+      "value": "9910637139902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The theory of moral sentiments /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Smith, Adam,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Raphael, D. D.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Macfie, A. L.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Indianapolis :"
+    ],
+    "publisher": [
+      "Liberty Classics,"
+    ],
+    "date": "1982, ©1976.",
+    "year": 1982,
+    "countryCode": "inu"
+  },
+  "physical": {
+    "extent": "x, 412 pages ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Ethics",
+      "type": "topical"
+    },
+    {
+      "value": "ethics (philosophy)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Glasgow edition of the works and correspondence of Adam Smith ;",
+      "numbering": "1"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)741995284",
+      "Theory of moral sentiments."
+    ]
+  }
+}

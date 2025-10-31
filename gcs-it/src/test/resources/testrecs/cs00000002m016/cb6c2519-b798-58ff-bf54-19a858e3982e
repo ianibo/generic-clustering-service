@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00025970926",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025970926",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025970926",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0192826166"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192826169"
+    },
+    {
+      "type": "LCCN",
+      "value": " 93022683 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)28183786"
+    },
+    {
+      "type": "Local",
+      "value": "9910354311402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Faust.",
+      "type": "main"
+    },
+    {
+      "value": "Faust.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Luke, David,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford [England] ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1994.",
+    "year": 1994,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "lxxxiv, 304 pages :",
+    "illustrations": "map ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Goethe, Johann Wolfgang von,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The World's classics"
+    },
+    {
+      "title": "World's classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)988565277",
+      "Faust. Part two."
+    ]
+  }
+}

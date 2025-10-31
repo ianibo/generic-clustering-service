@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00029143013",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029143013",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029143013",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)10052946"
+    },
+    {
+      "type": "Local",
+      "value": "9910048861802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems by Emily Dickinson /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickinson, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bianchi, Martha Dickinson,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Hampson, Alfred Leete,",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston [Mass.] :"
+    ],
+    "publisher": [
+      "Little, Brown,"
+    ],
+    "date": "©1957.",
+    "year": 1957,
+    "countryCode": "h 0"
+  },
+  "physical": {
+    "extent": "xi, 484 pages :",
+    "illustrations": "facsimile ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    }
+  ]
+}

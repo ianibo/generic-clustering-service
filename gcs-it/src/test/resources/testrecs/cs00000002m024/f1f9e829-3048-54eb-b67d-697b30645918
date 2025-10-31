@@ -1,0 +1,87 @@
+{
+  "id": "marc:001:in00027651367",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027651367",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027651367",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)9702113"
+    },
+    {
+      "type": "Local",
+      "value": "9911708029402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crime and punishment",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gibian, George,",
+      "role": "compiler.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Norton,"
+    ],
+    "date": "©1964.",
+    "year": 1964,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "viii, 688 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dostoyevsky, Fyodor,",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Norton critical edition"
+    },
+    {
+      "title": "Norton critical edition."
+    }
+  ]
+}

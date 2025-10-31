@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00025841787",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025841787",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025841787",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 60053360 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)282799"
+    },
+    {
+      "type": "Local",
+      "value": "9910271016502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dugan, Alan.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fitts, Dudley,",
+      "role": "writer of foreword.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven,"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "1961.",
+    "year": 1961,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "62 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Yale series of younger poets,",
+      "numbering": "v. 57"
+    },
+    {
+      "title": "The Yale series of younger poets,",
+      "numbering": "v. 57"
+    },
+    {
+      "title": "Yale series of younger poets ;",
+      "numbering": "v. 57."
+    },
+    {
+      "title": "Yale series of younger poets ;",
+      "numbering": "v. 57."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)568703984",
+      "Poems."
+    ]
+  }
+}

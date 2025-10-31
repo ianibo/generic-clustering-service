@@ -1,0 +1,86 @@
+{
+  "id": "marc:001:in00027325587",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027325587",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027325587",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 30006086 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1499204"
+    },
+    {
+      "type": "Local",
+      "value": "9910026580702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Percy, William Alexander,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New Haven,"
+    ],
+    "publisher": [
+      "H. Milford,",
+      "Oxford University Press,",
+      "Yale University press;"
+    ],
+    "date": "1930.",
+    "year": 1930,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiii, 255 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Yale University Press.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)701699337",
+      "Selected poems."
+    ]
+  }
+}

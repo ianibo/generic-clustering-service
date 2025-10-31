@@ -1,0 +1,155 @@
+{
+  "id": "marc:001:in00027102573",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027102573",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027102573",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1402523254"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781402523250"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781665012348"
+    },
+    {
+      "type": "ISBN",
+      "value": "166501234X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781664784277"
+    },
+    {
+      "type": "ISBN",
+      "value": "1664784276"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)55475623"
+    },
+    {
+      "type": "Local",
+      "value": "9910593557102931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "C1780"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Palmer, George Herbert,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Dietz, Norman,",
+      "role": "narrator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Prince Frederick, MD :"
+    ],
+    "publisher": [
+      "Recorded Books,"
+    ],
+    "date": "[1989]",
+    "year": 1989,
+    "countryCode": "nnn"
+  },
+  "physical": {
+    "extent": "11 audio discs (12.5 hr.) :",
+    "illustrations": "digital ;",
+    "dimensions": "4 3/4 in.",
+    "contentType": "spoken word",
+    "mediaType": "audio",
+    "carrierType": "audio disc"
+  },
+  "subjects": [
+    {
+      "value": "Audiobooks",
+      "type": "topical"
+    },
+    {
+      "value": "Audiobooks.",
+      "type": "topical"
+    },
+    {
+      "value": "Compact discs.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Talking books.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "epic poetry.",
+      "type": "topical"
+    }
+  ]
+}

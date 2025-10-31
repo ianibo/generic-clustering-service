@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00025975982",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025975982",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025975982",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 68025548 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)47776"
+    },
+    {
+      "type": "Local",
+      "value": "9910404268702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Reverdy, Pierre,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Rexroth, Kenneth,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "New Directions Publishing,",
+      "role": "publisher.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Stinehour Press,",
+      "role": "printer.",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "New Directions Publishing Corporation,"
+    ],
+    "date": "[1969]",
+    "year": 1969,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xiii, 78 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Reverdy, Pierre,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)578878266",
+      "Selected poems."
+    ]
+  }
+}

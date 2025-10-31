@@ -1,0 +1,121 @@
+{
+  "id": "marc:001:in00027099162",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027099162",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027099162",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 46040980 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1135910506"
+    },
+    {
+      "type": "Local",
+      "value": "9911120288002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems",
+      "type": "alternative"
+    },
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Huxley, Aldous,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Blackwell, Basil,",
+      "role": "publisher.",
+      "kind": "person"
+    },
+    {
+      "name": "Vincent Works (Firm),",
+      "role": "printer.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oxford :"
+    ],
+    "publisher": [
+      "Basil Blackwell,"
+    ],
+    "date": "1925.",
+    "year": 1925,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "63, [1] pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poems",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654933216",
+      "Selected poems."
+    ]
+  }
+}

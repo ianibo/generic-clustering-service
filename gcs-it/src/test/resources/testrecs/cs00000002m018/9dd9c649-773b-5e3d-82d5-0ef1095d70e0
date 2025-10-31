@@ -1,0 +1,79 @@
+{
+  "id": "marc:001:in00028942222",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028942222",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028942222",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)40024343"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems, from the Portuguese of Luis de Camoens : with remarks on his life and writings, notes, &c. &c. /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Camões, Luís de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Strangford, Percy Clinton Sydney Smythe,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Baltimore [Md.] :"
+    ],
+    "publisher": [
+      "Coale & Thomas,"
+    ],
+    "date": "1808",
+    "year": 1808,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "129 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "subjects": [
+    {
+      "value": "Portuguese poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Early American imprints.",
+      "numbering": "no. 14630."
+    }
+  ]
+}

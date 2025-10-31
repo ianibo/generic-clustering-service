@@ -1,0 +1,175 @@
+{
+  "id": "marc:001:in00028006272",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028006272",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028006272",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)28064711"
+    },
+    {
+      "type": "Local",
+      "value": "9911879619302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gilbert, Galileo, Harvey",
+      "type": "alternative"
+    },
+    {
+      "value": "On the loadstone and magnetic bodies /",
+      "type": "main"
+    },
+    {
+      "value": "De magnete.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gilbert, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mottelay, Paul Fleury,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Crew, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Salvio, Alfonso de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Galilei, Galileo,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Harvey, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Harvey, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Harvey, William,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago ;",
+      "London :"
+    ],
+    "publisher": [
+      "Encyclopaedia Britannica,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xiii, 496 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Blood",
+      "type": "topical"
+    },
+    {
+      "value": "Blood Circulation",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Embryology",
+      "type": "topical"
+    },
+    {
+      "value": "Magnetism",
+      "type": "topical"
+    },
+    {
+      "value": "Magnetism.",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics",
+      "type": "topical"
+    },
+    {
+      "value": "Mechanics",
+      "type": "topical"
+    },
+    {
+      "value": "Physics",
+      "type": "topical"
+    },
+    {
+      "value": "Reproduction",
+      "type": "topical"
+    },
+    {
+      "value": "magnetism.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the western world ;",
+      "numbering": "26"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "26."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "marc:001:in00028022418",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028022418",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028022418",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780307593351"
+    },
+    {
+      "type": "ISBN",
+      "value": "0307593355"
+    },
+    {
+      "type": "Other",
+      "value": "40021084685"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2011051275"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)745979758"
+    },
+    {
+      "type": "Local",
+      "value": "9910125703702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Nabokov, Vladimir Vladimirovich,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Karshan, Thomas,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Nabokov, Dmitri,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Nabokov, Vladimir Vladimirovich,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Nabokov, Vladimir Vladimirovich,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Alfred A. Knopf,"
+    ],
+    "date": "2012.",
+    "year": 2012,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxix, 203 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Russian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Russian poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

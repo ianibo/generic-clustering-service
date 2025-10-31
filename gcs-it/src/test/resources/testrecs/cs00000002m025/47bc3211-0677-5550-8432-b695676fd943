@@ -1,0 +1,69 @@
+{
+  "id": "marc:001:in00029688513",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029688513",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029688513",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)50612278"
+    },
+    {
+      "type": "Local",
+      "value": "(GUA)3042696"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)3042696-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910371305302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems of Robert Frost.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Frost, Robert,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Holt, Rinehart and Winston,"
+    ],
+    "date": "1949, 1964 printing.",
+    "year": 1949,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxi, 666 p. :",
+    "illustrations": "ill., port. ;",
+    "dimensions": "22 cm"
+  }
+}

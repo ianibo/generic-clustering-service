@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00026133261",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026133261",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026133261",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 49004761 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5107407"
+    },
+    {
+      "type": "Local",
+      "value": "9911605909202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Keats, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Murry, John Middleton,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "P. Nevill"
+    ],
+    "date": "[1948]",
+    "year": 1948,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "305 pages",
+    "illustrations": "illustrations",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609776691",
+      "Poems."
+    ]
+  }
+}

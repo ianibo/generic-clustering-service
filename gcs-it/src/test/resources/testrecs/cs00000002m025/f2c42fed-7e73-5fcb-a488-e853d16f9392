@@ -1,0 +1,90 @@
+{
+  "id": "marc:001:in00029091553",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029091553",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029091553",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)3008415"
+    },
+    {
+      "type": "Local",
+      "value": "9910285946202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Yeats, W. B.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "T. Fisher Unwin,"
+    ],
+    "date": "1908.",
+    "year": 1908,
+    "countryCode": "cf "
+  },
+  "physical": {
+    "extent": "xiii, 301, [1] pages, 1 unnumbered leaf of plates :",
+    "illustrations": "frontispiece (portrait) ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Gold tooled bindings (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Markings (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Yeats, W. B.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

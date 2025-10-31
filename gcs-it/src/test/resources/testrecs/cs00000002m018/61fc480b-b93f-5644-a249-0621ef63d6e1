@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00027702529",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027702529",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027702529",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1406582557"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781406582550"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)460116168"
+    },
+    {
+      "type": "Local",
+      "value": "9910662905902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Gloucester, England?] :"
+    ],
+    "publisher": [
+      "Dodo Press,"
+    ],
+    "date": "[2007?]",
+    "year": 2007,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "163 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Mill, John Stuart,",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophers",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary works)",
+      "type": "topical"
+    }
+  ]
+}

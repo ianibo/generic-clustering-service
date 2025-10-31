@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00029960881",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029960881",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029960881",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0312096895"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780312096892"
+    },
+    {
+      "type": "LCCN",
+      "value": " 93014830 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)27769892"
+    },
+    {
+      "type": "Local",
+      "value": "9910006027102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Wuthering Heights : Emily Brontë /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stoneman, Patsy.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "St. Martin's Press,"
+    ],
+    "date": "1993.",
+    "year": 1993,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "ix, 222 pages ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Brontë, Emily,",
+      "type": "topical"
+    },
+    {
+      "value": "Wuthering Heights (Brontë, Emily)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "New casebooks"
+    },
+    {
+      "title": "New casebooks."
+    }
+  ]
+}

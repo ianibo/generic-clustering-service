@@ -1,0 +1,89 @@
+{
+  "id": "marc:001:in00026051052",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026051052",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026051052",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 64012110 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)271263"
+    },
+    {
+      "type": "Local",
+      "value": "9910438751102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Crane, Stephen,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Crowell,"
+    ],
+    "date": "[1964].",
+    "year": 1964,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xvi, 61 pages",
+    "illustrations": "illustrations",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)575659577",
+      "(OCoLC)607810696",
+      "Poems."
+    ]
+  }
+}

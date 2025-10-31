@@ -1,0 +1,185 @@
+{
+  "id": "marc:001:in00030379883",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030379883",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030379883",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0486406512"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780486406510"
+    },
+    {
+      "type": "LCCN",
+      "value": " 98052971 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)40395977"
+    },
+    {
+      "type": "Local",
+      "value": "9910769803702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "A tale of two cities /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Mineola, N.Y. :"
+    ],
+    "publisher": [
+      "Dover Publications,"
+    ],
+    "date": "©1999.",
+    "year": 1999,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vi, 293 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Executions and executioners",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "French",
+      "type": "topical"
+    },
+    {
+      "value": "French fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction, English.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "London (England)",
+      "type": "topical"
+    },
+    {
+      "value": "Lookalikes",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Paris (France)",
+      "type": "topical"
+    },
+    {
+      "value": "Political refugees",
+      "type": "topical"
+    },
+    {
+      "value": "War fiction",
+      "type": "topical"
+    },
+    {
+      "value": "War fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "War stories, English",
+      "type": "topical"
+    },
+    {
+      "value": "War stories, English.",
+      "type": "topical"
+    },
+    {
+      "value": "War stories.",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Dover thrift editions"
+    },
+    {
+      "title": "Dover thrift editions."
+    }
+  ]
+}

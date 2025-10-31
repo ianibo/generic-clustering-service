@@ -1,0 +1,90 @@
+{
+  "id": "marc:001:in00030338802",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030338802",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030338802",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)15568684"
+    },
+    {
+      "type": "Local",
+      "value": "9910134656502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Guyon, Jeanne Marie Bouvier de La Motte,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cowper, William,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Burlington, N.J. :"
+    ],
+    "publisher": [
+      "D. Allinson, Lexicon Press,"
+    ],
+    "date": "1815.",
+    "year": 1815,
+    "countryCode": " c "
+  },
+  "physical": {
+    "extent": "100 pages",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microopaque"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Early American imprints.",
+      "numbering": "no. 34836."
+    }
+  ]
+}

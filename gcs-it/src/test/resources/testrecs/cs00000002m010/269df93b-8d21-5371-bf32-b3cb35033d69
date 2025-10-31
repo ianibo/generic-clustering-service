@@ -1,0 +1,83 @@
+{
+  "id": "marc:001:in00027409085",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027409085",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027409085",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 27011085 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)394509"
+    },
+    {
+      "type": "Local",
+      "value": "9911654102002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "De la Mare, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "H. Holt and Co."
+    ],
+    "date": "[©1927]",
+    "year": 1927,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "ix, 120 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)610419054",
+      "Selected poems."
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "marc:001:in00030422302",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030422302",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030422302",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)47978094"
+    },
+    {
+      "type": "Local",
+      "value": "9910589267202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "On organization /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stalin, Joseph,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Arlington, Va., U.S.A. :"
+    ],
+    "publisher": [
+      "Asia Books & Periodicals,"
+    ],
+    "date": "[between 1975 and 1990]",
+    "year": 1975,
+    "countryCode": "vau"
+  },
+  "physical": {
+    "extent": "56 pages ;",
+    "dimensions": "16 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Vsesoi︠u︡znai︠a︡ kommunisticheskai︠a︡ partii︠a︡ (bolʹshevikov)",
+      "type": "topical"
+    },
+    {
+      "value": "Vsesoi︠u︡znai︠a︡ kommunisticheskai︠a︡ partii︠a︡ (bolʹshevikov) (1925-1952)",
+      "type": "topical"
+    }
+  ]
+}

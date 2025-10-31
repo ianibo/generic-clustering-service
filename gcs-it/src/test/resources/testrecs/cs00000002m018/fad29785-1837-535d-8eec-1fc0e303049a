@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00030202594",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030202594",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030202594",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)5802800"
+    },
+    {
+      "type": "Local",
+      "value": "9910756663002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wyatt, Thomas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Muir, Kenneth,",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cambridge,"
+    ],
+    "publisher": [
+      "Harvard University Press"
+    ],
+    "date": "[1950]",
+    "year": 1950,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "298 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1500-1700",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Wyatt, Thomas,",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The muses library"
+    },
+    {
+      "title": "Muses' library."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894773733",
+      "Collected poems."
+    ]
+  }
+}

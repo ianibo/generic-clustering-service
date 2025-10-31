@@ -1,0 +1,127 @@
+{
+  "id": "marc:001:in00030072442",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030072442",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030072442",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 25027464 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3248481"
+    },
+    {
+      "type": "Local",
+      "value": "9911644357102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The old curiosity shop /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia :"
+    ],
+    "publisher": [
+      "Macrae, Smith Co.,"
+    ],
+    "date": "[1925]",
+    "year": 1925,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "1 preliminaryleaf pages, pages v-vii, 1 leaf, 618 pages :",
+    "illustrations": "color frontispiece, illustrations ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Antique dealers",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Gamblers",
+      "type": "topical"
+    },
+    {
+      "value": "Girls",
+      "type": "topical"
+    },
+    {
+      "value": "Grandfathers",
+      "type": "topical"
+    },
+    {
+      "value": "Grandparent and child",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Rittenhouse classics"
+    }
+  ]
+}

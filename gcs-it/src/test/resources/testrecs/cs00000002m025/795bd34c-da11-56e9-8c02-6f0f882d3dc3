@@ -1,0 +1,80 @@
+{
+  "id": "marc:001:in00026615803",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026615803",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026615803",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)11899661"
+    },
+    {
+      "type": "Local",
+      "value": "9910491950902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of William B. Tappan.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tappan, William B.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia :"
+    ],
+    "publisher": [
+      "Henry Perkings, etc.,"
+    ],
+    "date": "1834.",
+    "year": 1834,
+    "countryCode": "c a"
+  },
+  "physical": {
+    "extent": "360 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "16 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American poetry, 1609-1900.",
+      "numbering": "no. 2297."
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "id": "marc:001:in00029685753",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029685753",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029685753",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0815321708"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815321705"
+    },
+    {
+      "type": "LCCN",
+      "value": " 95032688 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)32854616"
+    },
+    {
+      "type": "Local",
+      "value": "9910283240202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "3 New York composers",
+      "type": "alternative"
+    },
+    {
+      "value": "Three New York composers : the collected works of Lewis Edson, Lewis Edson Jr., and Nathaniel Billings /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kroeger, Karl.",
+      "role": "edt",
+      "kind": "person"
+    },
+    {
+      "name": "Edson, Lewis,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Edson, Lewis,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Billings, Nathaniel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Garland Pub.,"
+    ],
+    "date": "1995.",
+    "year": 1995,
+    "countryCode": "mua"
+  },
+  "physical": {
+    "extent": "1 score (xxiv, 148 pages) ;",
+    "dimensions": "29 cm.",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Anthems",
+      "type": "topical"
+    },
+    {
+      "value": "Anthems.",
+      "type": "topical"
+    },
+    {
+      "value": "Canons (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Canons, fugues, etc. (Voices (4))",
+      "type": "topical"
+    },
+    {
+      "value": "Canons, fugues, etc. (Voices)",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices, 4 parts), Unaccompanied",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices, 4 parts), Unaccompanied.",
+      "type": "topical"
+    },
+    {
+      "value": "Hymns, English",
+      "type": "topical"
+    },
+    {
+      "value": "Hymns.",
+      "type": "topical"
+    },
+    {
+      "value": "New York (State)",
+      "type": "topical"
+    },
+    {
+      "value": "Psalms (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred music.",
+      "type": "topical"
+    },
+    {
+      "value": "Scores.",
+      "type": "topical"
+    },
+    {
+      "value": "Tune books",
+      "type": "topical"
+    },
+    {
+      "value": "Tune books.",
+      "type": "topical"
+    },
+    {
+      "value": "Tune-books",
+      "type": "topical"
+    },
+    {
+      "value": "Tune-books.",
+      "type": "topical"
+    },
+    {
+      "value": "psalms.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Music of the new American nation ;",
+      "numbering": "v. 3"
+    },
+    {
+      "title": "Music of the new American nation ;",
+      "numbering": "v. 3."
+    }
+  ]
+}

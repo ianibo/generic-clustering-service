@@ -1,0 +1,121 @@
+{
+  "id": "marc:001:in00029019944",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029019944",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029019944",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1853268372"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781853268373"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)34848178"
+    },
+    {
+      "type": "Local",
+      "value": "9911341439702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Wuthering Heights /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Emily,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Ware, Hertfordshire :"
+    ],
+    "publisher": [
+      "Wordsworth Classics,"
+    ],
+    "date": "1994, ©1992.",
+    "year": 1994,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "249 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "English fiction",
+      "type": "topical"
+    },
+    {
+      "value": "English fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Rejection (Psychology)",
+      "type": "topical"
+    },
+    {
+      "value": "Rural families",
+      "type": "topical"
+    },
+    {
+      "value": "Triangles (Interpersonal relationships)",
+      "type": "topical"
+    },
+    {
+      "value": "Yorkshire (England)",
+      "type": "topical"
+    }
+  ]
+}

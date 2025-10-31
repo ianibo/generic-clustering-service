@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00025801916",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025801916",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025801916",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0802055354"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802055354"
+    },
+    {
+      "type": "LCCN",
+      "value": " 83107902 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)9071613"
+    },
+    {
+      "type": "Local",
+      "value": "9910003872202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brome, Alexander,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Dubinski, Roman R.",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Buffalo :",
+      "Toronto ;"
+    ],
+    "publisher": [
+      "University of Toronto Press,"
+    ],
+    "date": "©1982.",
+    "year": 1982,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Brome, Alexander,",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)561418621",
+      "(OCoLC)610576454",
+      "Poems."
+    ]
+  }
+}

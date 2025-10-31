@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00025981423",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025981423",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025981423",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 66004956 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)530212"
+    },
+    {
+      "type": "Local",
+      "value": "9910356199802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "King, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Crum, Margaret,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oxford,"
+    ],
+    "publisher": [
+      "Clarendon Press,"
+    ],
+    "date": "1965.",
+    "year": 1965,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xiii, 264 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1600-1699",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "King, Henry,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Religious poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)566017488",
+      "Poems."
+    ]
+  }
+}

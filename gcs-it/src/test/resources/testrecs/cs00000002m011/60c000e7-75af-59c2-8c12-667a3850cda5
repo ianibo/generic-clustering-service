@@ -1,0 +1,148 @@
+{
+  "id": "marc:001:in00030361749",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030361749",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030361749",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0826214347"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780826214348"
+    },
+    {
+      "type": "LCCN",
+      "value": " 00066601 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)52446627"
+    },
+    {
+      "type": "Local",
+      "value": "9911394051102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography : I wonder as I wander /",
+      "type": "main"
+    },
+    {
+      "value": "I wonder as I wander",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hughes, Langston,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "McLaren, Joseph.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Columbia :"
+    ],
+    "publisher": [
+      "University of Missouri Press,"
+    ],
+    "date": "©2003.",
+    "year": 2003,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xvi, 426 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "African American poets",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Harlem (New York, N.Y.)",
+      "type": "topical"
+    },
+    {
+      "value": "Harlem Renaissance",
+      "type": "topical"
+    },
+    {
+      "value": "Harlem Renaissance.",
+      "type": "topical"
+    },
+    {
+      "value": "Hughes, Langston,",
+      "type": "topical"
+    },
+    {
+      "value": "Intellectual life",
+      "type": "topical"
+    },
+    {
+      "value": "New York (State)",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary works)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The collected works of Langston Hughes ;",
+      "numbering": "vol. 14"
+    }
+  ]
+}

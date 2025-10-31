@@ -1,0 +1,86 @@
+{
+  "id": "marc:001:in00030054519",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030054519",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030054519",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781847772527"
+    },
+    {
+      "type": "ISBN",
+      "value": "1847772528"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)870980533"
+    },
+    {
+      "type": "Local",
+      "value": "9910378649602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kavanagh, P. J.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mahon, Derek,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Manchester :"
+    ],
+    "publisher": [
+      "Carcanet,"
+    ],
+    "date": "2014.",
+    "year": 2014,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "viii, 159 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry, Modern.",
+      "type": "topical"
+    }
+  ]
+}

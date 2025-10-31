@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:in00030426896",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030426896",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030426896",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 13011818 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6566556"
+    },
+    {
+      "type": "Local",
+      "value": "9910888266102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Johnson, Lionel,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Horne, Herbert P.",
+      "role": "book designer.",
+      "kind": "person"
+    },
+    {
+      "name": "Chiswick Press,",
+      "role": "printer.",
+      "kind": "corporate"
+    },
+    {
+      "name": "E. Mathews (Firm),",
+      "role": "issuing body.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Copeland and Day,",
+      "role": "issuing body.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :",
+      "London :"
+    ],
+    "publisher": [
+      "Copeland & Day,",
+      "Elkin Mathews ;"
+    ],
+    "date": "1895.",
+    "year": 1895,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xi, 115 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Bookplates (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Printing in multiple colours (Printing)",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)608023478",
+      "Poems."
+    ]
+  }
+}

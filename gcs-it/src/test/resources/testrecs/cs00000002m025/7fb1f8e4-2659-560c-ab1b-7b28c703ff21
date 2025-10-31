@@ -1,0 +1,160 @@
+{
+  "id": "marc:001:in00027709911",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027709911",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027709911",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140436561"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140436563"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2001276363"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)44153346"
+    },
+    {
+      "type": "Local",
+      "value": "9910249505902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The bride of Lammermoor /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Alexander, J. H.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sutherland, Kathryn.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "2000.",
+    "year": 2000,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "lii, 346 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1689-1745",
+      "type": "topical"
+    },
+    {
+      "value": "Arranged marriage",
+      "type": "topical"
+    },
+    {
+      "value": "Arranged marriage.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Revenge",
+      "type": "topical"
+    },
+    {
+      "value": "Revenge.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    },
+    {
+      "value": "Swindlers and swindling",
+      "type": "topical"
+    },
+    {
+      "value": "Swindlers and swindling.",
+      "type": "topical"
+    },
+    {
+      "value": "Women murderers",
+      "type": "topical"
+    },
+    {
+      "value": "Women murderers.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

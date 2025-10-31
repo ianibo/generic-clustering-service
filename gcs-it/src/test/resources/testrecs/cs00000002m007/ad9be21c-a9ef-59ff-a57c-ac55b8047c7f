@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00026574182",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026574182",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026574182",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)56221628"
+    },
+    {
+      "type": "Local",
+      "value": "9911224138302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crime and punishment /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Simmons, Ernest J.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Random House,"
+    ],
+    "date": "©1950.",
+    "year": 1950,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xix, 531 pages ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Mystery fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Modern library of the world's best books"
+    },
+    {
+      "title": "Modern library of the world's best books."
+    }
+  ]
+}

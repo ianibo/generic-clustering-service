@@ -1,0 +1,85 @@
+{
+  "id": "marc:001:in00026547439",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026547439",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026547439",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)3372594"
+    },
+    {
+      "type": "Local",
+      "value": "9910104044602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anna Karénina /",
+      "type": "main"
+    },
+    {
+      "value": "Anna Karenina.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Crowell,"
+    ],
+    "date": "1899.",
+    "year": 1899,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "3 volumes in 2 :",
+    "illustrations": "frontispiece ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "The complete works of Lyof N. Tolstoi"
+    },
+    {
+      "title": "Complete works of Lyof N. Tolstoi."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)551619003",
+      "Anna Karénina."
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00026910691",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026910691",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026910691",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0819540315"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780819540317"
+    },
+    {
+      "type": "ISBN",
+      "value": "0819560227"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780819560223"
+    },
+    {
+      "type": "LCCN",
+      "value": " 70142727 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)124287"
+    },
+    {
+      "type": "Local",
+      "value": "9910011545302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wright, James,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First edition"
+  },
+  "publication": {
+    "place": [
+      "Middletown, Conn. :"
+    ],
+    "publisher": [
+      "Wesleyan University Press,"
+    ],
+    "date": "[1971]",
+    "year": 1971,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiii, 215 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ]
+}

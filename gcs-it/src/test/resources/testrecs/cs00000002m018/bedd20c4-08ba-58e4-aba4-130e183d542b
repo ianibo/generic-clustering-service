@@ -1,0 +1,62 @@
+{
+  "id": "marc:001:gsuin00005865936",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00005865936",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00005865936",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)606674437"
+    },
+    {
+      "type": "Local",
+      "value": "9935050703402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tate, Nahum,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Printed by T.M. for Benj. Tooke ...,"
+    ],
+    "date": "1677.",
+    "year": 1677,
+    "countryCode": " o "
+  },
+  "physical": {
+    "extent": "1 online resource ([15], 133 pages)",
+    "contentType": "text",
+    "mediaType": "computer",
+    "carrierType": "online resource"
+  }
+}

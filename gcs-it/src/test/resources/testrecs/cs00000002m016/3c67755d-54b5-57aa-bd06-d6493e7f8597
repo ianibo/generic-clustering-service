@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00028229246",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028229246",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028229246",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780571268818"
+    },
+    {
+      "type": "ISBN",
+      "value": "0571268811"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2011379098"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)678882377"
+    },
+    {
+      "type": "Local",
+      "value": "9910857367302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Imlah, Mick.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ford, Mark.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hollinghurst, Alan.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Faber and Faber,"
+    ],
+    "date": "2010.",
+    "year": 2010,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxiii, 141 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

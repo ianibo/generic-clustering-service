@@ -1,0 +1,133 @@
+{
+  "id": "marc:001:in00030445009",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030445009",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030445009",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0030084954"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780030084959"
+    },
+    {
+      "type": "LCCN",
+      "value": " 48011522 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)35105898"
+    },
+    {
+      "type": "Local",
+      "value": "9910776244802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The way of all flesh /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Butler, Samuel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Rinehart,"
+    ],
+    "date": "1948.",
+    "year": 1948,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "399 pages ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "Children of clergy",
+      "type": "topical"
+    },
+    {
+      "value": "Conflict of generations",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Middle class",
+      "type": "topical"
+    },
+    {
+      "value": "Parent and child",
+      "type": "topical"
+    },
+    {
+      "value": "Young men",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Rinehart editions ;",
+      "numbering": "7"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609479797",
+      "Way of all flesh."
+    ]
+  }
+}

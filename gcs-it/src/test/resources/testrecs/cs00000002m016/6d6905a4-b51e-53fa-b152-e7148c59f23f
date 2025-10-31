@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00029627175",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029627175",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029627175",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)12013082"
+    },
+    {
+      "type": "Local",
+      "value": "9910794052402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The fortunes of Nigel.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :",
+      "London :"
+    ],
+    "publisher": [
+      "R. Cadell ;",
+      "Whittaker,"
+    ],
+    "date": "1831.",
+    "year": 1831,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "frontispieces ;",
+    "dimensions": "17 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1603-1625",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "His Waverley novels,",
+      "numbering": "v. 26-27"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)952707132",
+      "Fortunes of Nigel."
+    ]
+  }
+}

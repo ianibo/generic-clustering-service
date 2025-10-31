@@ -1,0 +1,75 @@
+{
+  "id": "marc:001:in00027503200",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027503200",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027503200",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 41013574"
+    },
+    {
+      "type": "Local",
+      "value": "ocm22133994"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)688091-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "9910600851802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Eric Gill, autobiography.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gill, Eric,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Devin-Adair Co.,"
+    ],
+    "date": "1941.",
+    "year": 1941,
+    "countryCode": "acf"
+  },
+  "physical": {
+    "extent": "300 p. :",
+    "illustrations": "ill., plates, ports. ;",
+    "dimensions": "22 cm"
+  },
+  "subjects": [
+    {
+      "value": "Gill, Eric,",
+      "type": "topical"
+    }
+  ]
+}

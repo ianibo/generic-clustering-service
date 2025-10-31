@@ -1,0 +1,140 @@
+{
+  "id": "marc:001:in00027591436",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027591436",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027591436",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:48Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:48Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "LCCN",
+      "value": " 90080213 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)23136294"
+    },
+    {
+      "type": "Local",
+      "value": "9911809552802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Lavoisier, Faraday",
+      "type": "alternative"
+    },
+    {
+      "value": "Elements of chemistry /",
+      "type": "main"
+    },
+    {
+      "value": "Traité élémentaire de chimie.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lavoisier, Antoine Laurent,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kerr, Robert,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Faraday, Michael,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "2nd ed."
+  },
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xii, 806 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Chemistry",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Electric power",
+      "type": "topical"
+    },
+    {
+      "value": "Electric power.",
+      "type": "topical"
+    },
+    {
+      "value": "Electricity",
+      "type": "topical"
+    },
+    {
+      "value": "Electricity.",
+      "type": "topical"
+    },
+    {
+      "value": "electricity.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "42"
+    },
+    {
+      "title": "Great books of the Western world (1990) ;",
+      "numbering": "42."
+    }
+  ]
+}

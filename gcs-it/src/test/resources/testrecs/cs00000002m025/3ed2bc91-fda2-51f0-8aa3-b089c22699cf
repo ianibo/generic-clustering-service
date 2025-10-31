@@ -1,0 +1,74 @@
+{
+  "id": "marc:001:in00026769038",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026769038",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026769038",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)26882154"
+    },
+    {
+      "type": "Local",
+      "value": "9910427725802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Porter, Jacob.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Hartford :"
+    ],
+    "publisher": [
+      "Printed by Peter B. Gleason and Co.,"
+    ],
+    "date": "1818.",
+    "year": 1818,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "27 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "series": [
+    {
+      "title": "Selected Americana from Sabin's Dictionary of books relating to America, from its discovery to the present time ;",
+      "numbering": "6276."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 44048967"
+    ]
+  }
+}

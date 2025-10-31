@@ -1,0 +1,143 @@
+{
+  "id": "marc:001:in00027972801",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027972801",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027972801",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780199537488"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199537488"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199231959"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199231958"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2009290352"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)226280235"
+    },
+    {
+      "type": "Local",
+      "value": "9911486608402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Aeneid /",
+      "type": "main"
+    },
+    {
+      "value": "Aeneis.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Virgil.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ahl, Frederick,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "2008.",
+    "year": 2008,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "lvii, 468 pages :",
+    "illustrations": "maps ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Aeneas",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Latin.",
+      "type": "topical"
+    },
+    {
+      "value": "Legends",
+      "type": "topical"
+    },
+    {
+      "value": "Legends.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford world's classics"
+    },
+    {
+      "title": "Oxford world's classics (Oxford University Press)"
+    }
+  ]
+}

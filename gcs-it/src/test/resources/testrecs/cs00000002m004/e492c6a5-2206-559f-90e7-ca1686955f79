@@ -1,0 +1,102 @@
+{
+  "id": "marc:001:in00029706939",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029706939",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029706939",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "091639039X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780916390396"
+    },
+    {
+      "type": "ISBN",
+      "value": "0916390381"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780916390389"
+    },
+    {
+      "type": "LCCN",
+      "value": " 89051504 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)21341795"
+    },
+    {
+      "type": "Local",
+      "value": "9910006037402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems",
+      "type": "alternative"
+    },
+    {
+      "value": "Selected poems of Louis MacNeice /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "MacNeice, Louis,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Longley, Michael,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Winston-Salem, N.C. :"
+    ],
+    "publisher": [
+      "Wake Forest University Press,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxiii, 160 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)681279022",
+      "Selected poems of Louis MacNeice."
+    ]
+  }
+}

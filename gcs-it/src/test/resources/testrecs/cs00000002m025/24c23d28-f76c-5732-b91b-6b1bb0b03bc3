@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00025773606",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025773606",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025773606",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "x760888263"
+    },
+    {
+      "type": "LCCN",
+      "value": " 57059297 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3188244"
+    },
+    {
+      "type": "Local",
+      "value": "9910397277402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rossetti, Dante Gabriel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "J.M. Dent"
+    ],
+    "date": "[1957]",
+    "year": 1957,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxiv, 328 pages",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Collections.",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library. Poetry and drama, 627"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)571304469",
+      "(OCoLC)609341727",
+      "Poems."
+    ]
+  }
+}

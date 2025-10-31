@@ -1,0 +1,73 @@
+{
+  "id": "marc:001:in00027608763",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027608763",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027608763",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)67415451"
+    },
+    {
+      "type": "Local",
+      "value": "9910615580902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Works.",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ibsen, Henrik,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Willey Book Co.; printed by arrangement with C. Scribner's Sons"
+    ],
+    "date": "[©1911-12]",
+    "year": 1911,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "6 volumes",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)907698707",
+      "Works."
+    ]
+  }
+}

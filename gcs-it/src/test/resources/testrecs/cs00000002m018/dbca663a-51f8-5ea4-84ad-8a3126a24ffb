@@ -1,0 +1,69 @@
+{
+  "id": "marc:001:in00029247289",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029247289",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029247289",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:54Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:54Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "ocm11520464"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)593636-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "9910706612202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The way of all flesh /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Butler, Samuel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Streatfeild, R. A.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Pub. for the Classics Club by Walter J. Black,"
+    ],
+    "date": "[1942?]",
+    "year": 1942,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "389 p. :",
+    "dimensions": "19 cm"
+  }
+}

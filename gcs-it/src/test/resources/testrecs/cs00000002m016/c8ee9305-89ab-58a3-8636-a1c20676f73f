@@ -1,0 +1,67 @@
+{
+  "id": "marc:001:in00029637889",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029637889",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029637889",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)560552918"
+    },
+    {
+      "type": "Local",
+      "value": "9924940113702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The decline and fall of the Roman Empire /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gibbon, Edward,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "New ed."
+  },
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "A. Strahan; and T. Cadell,"
+    ],
+    "date": "1789.",
+    "year": 1789,
+    "countryCode": "bc "
+  },
+  "physical": {
+    "extent": "6 volumes :",
+    "illustrations": "map, portrait ;",
+    "dimensions": "30 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

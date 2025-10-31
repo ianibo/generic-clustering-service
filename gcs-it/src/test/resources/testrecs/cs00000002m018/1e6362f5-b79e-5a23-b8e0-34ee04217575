@@ -1,0 +1,74 @@
+{
+  "id": "marc:001:in00029920179",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029920179",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029920179",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)3497236"
+    },
+    {
+      "type": "Local",
+      "value": "9910764131702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems of Elinor Wylie /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wylie, Elinor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Benét, William Rose,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Knopf,"
+    ],
+    "date": "1945.",
+    "year": 1945,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "xviii, 318 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "Borzoi books"
+    }
+  ]
+}

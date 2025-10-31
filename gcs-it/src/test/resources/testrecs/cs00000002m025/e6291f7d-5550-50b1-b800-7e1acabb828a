@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:in00029978796",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029978796",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029978796",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0460038303"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460038300"
+    },
+    {
+      "type": "ISBN",
+      "value": "0460012991"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460012997"
+    },
+    {
+      "type": "LCCN",
+      "value": " 78858984 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)208518"
+    },
+    {
+      "type": "Local",
+      "value": "9910129148302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thomas, Dylan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jones, Daniel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Dent,"
+    ],
+    "date": "1971.",
+    "year": 1971,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xix, 291 pages",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ]
+}

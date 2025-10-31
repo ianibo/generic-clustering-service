@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:in00029637795",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029637795",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029637795",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0224611844"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780224611848"
+    },
+    {
+      "type": "LCCN",
+      "value": " 63006025 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2191714"
+    },
+    {
+      "type": "Local",
+      "value": "9910776283602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Davies, W. H.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "J. Cape"
+    ],
+    "date": "[1963]",
+    "year": 1963,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "616 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609579575",
+      "Complete poems."
+    ]
+  }
+}

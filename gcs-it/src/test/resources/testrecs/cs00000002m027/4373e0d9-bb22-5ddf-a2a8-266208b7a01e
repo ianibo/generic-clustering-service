@@ -1,0 +1,148 @@
+{
+  "id": "marc:001:in00026444534",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026444534",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026444534",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 49004418 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3054812"
+    },
+    {
+      "type": "Local",
+      "value": "9910146749102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The confessions of Saint Augustine,",
+      "type": "main"
+    },
+    {
+      "value": "Confessiones.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Augustine,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pusey, E. B.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Modern Library"
+    ],
+    "date": "[1949]",
+    "year": 1949,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiv, 338 pages",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Algeria",
+      "type": "topical"
+    },
+    {
+      "value": "Augustine,",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biography",
+      "type": "topical"
+    },
+    {
+      "value": "Bishops",
+      "type": "topical"
+    },
+    {
+      "value": "Christian saints",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Faith development",
+      "type": "topical"
+    },
+    {
+      "value": "Grace (Theology)",
+      "type": "topical"
+    },
+    {
+      "value": "Praise of God",
+      "type": "topical"
+    },
+    {
+      "value": "Transcendence of God",
+      "type": "topical"
+    },
+    {
+      "value": "collective biographies.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Modern library of the world's best books [263]"
+    },
+    {
+      "title": "Modern library of the world's best books ;",
+      "numbering": "263."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647636217",
+      "Confessions of Saint Augustine."
+    ]
+  }
+}

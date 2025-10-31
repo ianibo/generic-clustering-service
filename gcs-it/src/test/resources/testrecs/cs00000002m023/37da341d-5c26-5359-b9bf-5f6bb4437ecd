@@ -1,0 +1,86 @@
+{
+  "id": "marc:001:in00025820098",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025820098",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025820098",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)28786169"
+    },
+    {
+      "type": "Local",
+      "value": "9911605301602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected works.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Coleridge, Samuel Taylor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cobern, Kathleen,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Winer, Bart,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[London,",
+      "[Princeton, N.J.]"
+    ],
+    "publisher": [
+      "Princeton University Press",
+      "Routledge and K. Paul],"
+    ],
+    "date": "1969-",
+    "year": 1969,
+    "countryCode": "nju"
+  },
+  "physical": {
+    "extent": "volumes in",
+    "illustrations": "portraits",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "Bollingen series,",
+      "numbering": "75"
+    },
+    {
+      "title": "Bollingen series ;",
+      "numbering": "75."
+    }
+  ]
+}

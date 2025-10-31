@@ -1,0 +1,146 @@
+{
+  "id": "marc:001:in00027050013",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027050013",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027050013",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 47003186 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1748184"
+    },
+    {
+      "type": "Local",
+      "value": "9911133215802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of William Cullen Bryant /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bryant, William Cullen,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Untermeyer, Louis,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Nason, Thomas W.",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Dothard, Robert L.,",
+      "role": "printer.",
+      "kind": "person"
+    },
+    {
+      "name": "E.L. Hildreth & Company,",
+      "role": "printer.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Limited Editions Club,",
+      "role": "former owner.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Limited Editions Club Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Limited Editions Club,"
+    ],
+    "date": "1947.",
+    "year": 1947,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "xix, 298 pages :",
+    "illustrations": "illustrations, portrait ;",
+    "dimensions": "28 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Romanticism",
+      "type": "topical"
+    },
+    {
+      "value": "Romanticism.",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)755236515",
+      "Poems of William Cullen Bryant."
+    ]
+  }
+}

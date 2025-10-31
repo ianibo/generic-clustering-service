@@ -1,0 +1,65 @@
+{
+  "id": "marc:001:in00030153347",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030153347",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030153347",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 58010967"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)640013843"
+    },
+    {
+      "type": "Local",
+      "value": "9919324785402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hughes, Langston,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Knopf,"
+    ],
+    "date": "1970 [c1959]",
+    "year": 1970,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "297 p.",
+    "illustrations": "illus.",
+    "dimensions": "25 cm."
+  }
+}

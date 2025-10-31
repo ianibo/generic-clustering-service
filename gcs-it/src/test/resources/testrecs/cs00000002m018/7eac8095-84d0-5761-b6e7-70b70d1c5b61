@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:gsuin00004530964",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004530964",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004530964",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "020528504X"
+    },
+    {
+      "type": "LCCN",
+      "value": " 98025280"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)ocm"
+    },
+    {
+      "type": "Local",
+      "value": "(GSU)881121"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)881121-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)998811213402952"
+    },
+    {
+      "type": "Local",
+      "value": "998811213402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Infants, children, and adolescents /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Berk, Laura E.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "3rd ed."
+  },
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Allyn and Bacon,"
+    ],
+    "date": "c1999.",
+    "year": 1999,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "1 v. (various pagings) :",
+    "illustrations": "ill. (some col.) ;",
+    "dimensions": "29 cm."
+  },
+  "subjects": [
+    {
+      "value": "Adolescence.",
+      "type": "topical"
+    },
+    {
+      "value": "Child development.",
+      "type": "topical"
+    },
+    {
+      "value": "Infants",
+      "type": "topical"
+    }
+  ]
+}

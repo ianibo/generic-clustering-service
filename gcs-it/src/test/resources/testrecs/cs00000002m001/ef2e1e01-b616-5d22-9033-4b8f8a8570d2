@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:abacin00000233618",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000233618",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000233618",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)ocm"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)81264-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994977675302932"
+    },
+    {
+      "type": "Local",
+      "value": "994977675302932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "First Belizean book of old patriotic songs",
+      "type": "alternative"
+    },
+    {
+      "value": "First Belize book of old patriotic songs /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Young, Colville N.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Young, Lynn R.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Belize City, Belize, C.A. :"
+    ],
+    "publisher": [
+      "Ludwig Productions,"
+    ],
+    "date": "c2008.",
+    "year": 2008,
+    "countryCode": "ag "
+  },
+  "physical": {
+    "extent": "iv, 27 p. :",
+    "illustrations": "ill., music ;",
+    "dimensions": "31 cm."
+  },
+  "subjects": [
+    {
+      "value": "Patriotic music",
+      "type": "topical"
+    }
+  ]
+}

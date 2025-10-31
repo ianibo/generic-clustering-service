@@ -1,0 +1,161 @@
+{
+  "id": "marc:001:in00028394632",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028394632",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028394632",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0393042375"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780393042375"
+    },
+    {
+      "type": "ISBN",
+      "value": "0393096726"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780393096729"
+    },
+    {
+      "type": "LCCN",
+      "value": " 66011308 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)649417"
+    },
+    {
+      "type": "Local",
+      "value": "9910401756802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "War and peace /",
+      "type": "main"
+    },
+    {
+      "value": "Voĭna i mir.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Gibian, George.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "[1st ed.]."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "W.W. Norton,"
+    ],
+    "date": "1966.",
+    "year": 1966,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "xix, 1484 pages :",
+    "illustrations": "maps ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1825",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Military campaigns",
+      "type": "topical"
+    },
+    {
+      "value": "Napoleon",
+      "type": "topical"
+    },
+    {
+      "value": "Napoleonic Wars, 1800-1815",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "War fiction",
+      "type": "topical"
+    },
+    {
+      "value": "War fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "War stories",
+      "type": "topical"
+    },
+    {
+      "value": "War stories.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Norton critical edition"
+    },
+    {
+      "title": "Norton critical edition."
+    }
+  ]
+}

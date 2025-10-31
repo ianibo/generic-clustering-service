@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00027150826",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027150826",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027150826",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 52012607 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3136528"
+    },
+    {
+      "type": "Local",
+      "value": "9911621353202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poetry and prose;",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marvell, Andrew,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Harrap"
+    ],
+    "date": "[1952]",
+    "year": 1952,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "246 pages",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Marvell, Andrew",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Life, literature, and thought library"
+    },
+    {
+      "title": "Life, literature, and thought library."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)568360442",
+      "(OCoLC)575208220",
+      "Selected poetry and prose."
+    ]
+  }
+}

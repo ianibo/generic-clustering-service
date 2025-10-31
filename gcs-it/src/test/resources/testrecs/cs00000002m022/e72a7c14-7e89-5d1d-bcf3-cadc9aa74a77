@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00027901717",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027901717",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027901717",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780374126568"
+    },
+    {
+      "type": "ISBN",
+      "value": "0374126569"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780374532369"
+    },
+    {
+      "type": "ISBN",
+      "value": "0374532362"
+    },
+    {
+      "type": "Other",
+      "value": "99942815236"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2010038535"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)650212658"
+    },
+    {
+      "type": "Local",
+      "value": "9910152195702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bishop, Elizabeth,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Farrar, Straus and Giroux,"
+    ],
+    "date": "2011.",
+    "year": 2011,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xiv, 352 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1085906581",
+      "Poems."
+    ]
+  }
+}

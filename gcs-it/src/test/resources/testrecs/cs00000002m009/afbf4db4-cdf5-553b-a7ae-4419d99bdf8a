@@ -1,0 +1,66 @@
+{
+  "id": "marc:001:in00026758942",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026758942",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026758942",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)33365547"
+    },
+    {
+      "type": "Local",
+      "value": "9912097373202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Don Quixote",
+      "type": "alternative"
+    },
+    {
+      "value": "The history of Don Quixote de la Mancha.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cervantes Saavedra, Miguel de,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "M. Doolady,"
+    ],
+    "date": "1867.",
+    "year": 1867,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "viii, 424 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

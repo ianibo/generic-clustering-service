@@ -1,0 +1,132 @@
+{
+  "id": "marc:001:in00029013321",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029013321",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029013321",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0836935438"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780836935431"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73122710 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)93375"
+    },
+    {
+      "type": "Local",
+      "value": "9910244386702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories.",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gautier, Théophile,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Freeport, N.Y.,"
+    ],
+    "publisher": [
+      "Books for Libraries Press"
+    ],
+    "date": "[1970]",
+    "year": 1970,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xx, 288 pages",
+    "illustrations": "portrait",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "Gautier, Théophile,",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Short story index reprint series"
+    },
+    {
+      "title": "Short story index reprint series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654650184",
+      "Short stories."
+    ]
+  }
+}

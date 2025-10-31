@@ -1,0 +1,75 @@
+{
+  "id": "marc:001:in00028306166",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028306166",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028306166",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1430797"
+    },
+    {
+      "type": "Local",
+      "value": "9910309458302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Miscellanies ...",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aubrey, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Printed for Edward Castle,"
+    ],
+    "date": "1696.",
+    "year": 1696,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "178 pages",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Superstition.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)758986520",
+      "Miscellanies ."
+    ]
+  }
+}

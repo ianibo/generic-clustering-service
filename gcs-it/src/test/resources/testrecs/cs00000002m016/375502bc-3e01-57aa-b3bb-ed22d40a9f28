@@ -1,0 +1,132 @@
+{
+  "id": "marc:001:in00026627210",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026627210",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026627210",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "041503793X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780415037938"
+    },
+    {
+      "type": "ISBN",
+      "value": "0415037913"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780415037914"
+    },
+    {
+      "type": "ISBN",
+      "value": "0415037921"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780415037921"
+    },
+    {
+      "type": "ISBN",
+      "value": "0802026931"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802026934"
+    },
+    {
+      "type": "LCCN",
+      "value": " 89169614 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)20964790"
+    },
+    {
+      "type": "Local",
+      "value": "9910805614302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Public and parliamentary speeches /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Robson, John M.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kinzer, Bruce L.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "Toronto :"
+    ],
+    "publisher": [
+      "Routledge,",
+      "University of Toronto Press ;"
+    ],
+    "date": "©1988.",
+    "year": 1988,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophers",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophers.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Collected works of John Stuart Mill ;",
+      "numbering": "vol. 28-29"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00029669870",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029669870",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029669870",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0691098557"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691098555"
+    },
+    {
+      "type": "LCCN",
+      "value": " 68057090 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8081209"
+    },
+    {
+      "type": "Local",
+      "value": "9911637252702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Inferno /",
+      "type": "main"
+    },
+    {
+      "value": "Inferno.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Singleton, Charles S.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Princeton, N.J. :"
+    ],
+    "publisher": [
+      "Princeton University Press,"
+    ],
+    "date": "1977, ©1970.",
+    "year": 1977,
+    "countryCode": "nju"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "illustrations, maps ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Hell",
+      "type": "topical"
+    },
+    {
+      "value": "Hell.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The divine comedy of Dante Alighieri ;",
+      "numbering": "pt. 1"
+    },
+    {
+      "title": "The divine comedy of Dante Alighieri ;",
+      "numbering": "pt. 1"
+    },
+    {
+      "title": "Bollingen series ;",
+      "numbering": "no. 80."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00029939899",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029939899",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029939899",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 11023287 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2007792"
+    },
+    {
+      "type": "Local",
+      "value": "9910355354602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cawein, Madison Julius,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Howells, William Dean,",
+      "role": "writer of foreword.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, [NY] :"
+    ],
+    "publisher": [
+      "The Macmillan Company,"
+    ],
+    "date": "1911.",
+    "year": 1911,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xix, 298 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, American",
+      "type": "topical"
+    },
+    {
+      "value": "Kentucky",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)587015785",
+      "(OCoLC)613847181",
+      "Poems."
+    ]
+  }
+}

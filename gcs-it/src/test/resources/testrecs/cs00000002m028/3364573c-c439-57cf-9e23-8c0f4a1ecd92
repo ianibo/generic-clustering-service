@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00026734081",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026734081",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026734081",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0375401407"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780375401404"
+    },
+    {
+      "type": "LCCN",
+      "value": " 99047105 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)42454101"
+    },
+    {
+      "type": "Local",
+      "value": "9910938369602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Michaels, Anne,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First United States Edition"
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Alfred A. Knopf,"
+    ],
+    "date": "2000.",
+    "year": 2000,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "ix, 195 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607408868",
+      "Poems."
+    ]
+  }
+}

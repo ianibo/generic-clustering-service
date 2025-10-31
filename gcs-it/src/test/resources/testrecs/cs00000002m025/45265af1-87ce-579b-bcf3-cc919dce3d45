@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00029722726",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029722726",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029722726",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300097344"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300097344"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2002110777"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)52468848"
+    },
+    {
+      "type": "Local",
+      "value": "9910319552702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The praise of folly /",
+      "type": "main"
+    },
+    {
+      "value": "Moriae encomium.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Erasmus, Desiderius,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Miller, Clarence H.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "2nd ed."
+  },
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "2003.",
+    "year": 2003,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xxxiv, 198 pages :",
+    "illustrations": "2 illustrations ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Folly",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Yale Nota bene"
+    },
+    {
+      "title": "Yale Nota bene."
+    }
+  ]
+}

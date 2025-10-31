@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:ungin00000555704",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ungin00000555704",
+    "sourceRecordUri": "https://catalog.example.org/record/ungin00000555704",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140440518"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140440515"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)29908006"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_UNG)994136393702960"
+    },
+    {
+      "type": "Local",
+      "value": "994136393702960"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Aeneid /",
+      "type": "main"
+    },
+    {
+      "value": "Aeneis.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Virgil.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Knight, W. F. Jackson",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "Rev. ed."
+  },
+  "publication": {
+    "place": [
+      "London, England ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin.,"
+    ],
+    "date": "1958.",
+    "year": 1958,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "361 pages :",
+    "illustrations": "maps ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Aeneas",
+      "type": "topical"
+    },
+    {
+      "value": "Folklore",
+      "type": "topical"
+    },
+    {
+      "value": "Legends",
+      "type": "topical"
+    },
+    {
+      "value": "Legends.",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

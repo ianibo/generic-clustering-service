@@ -1,0 +1,132 @@
+{
+  "id": "marc:001:in00030217426",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030217426",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030217426",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)11534185"
+    },
+    {
+      "type": "Local",
+      "value": "9910082109002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Moby Dick",
+      "type": "alternative"
+    },
+    {
+      "value": "Moby Dick, or, The whale /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Thorp, Willard,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Franklin Library (Pa.),",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Franklin Center, Pennsylvania :"
+    ],
+    "publisher": [
+      "Franklin Library,"
+    ],
+    "date": "[1979]",
+    "year": 1979,
+    "countryCode": "pau"
+  },
+  "physical": {
+    "extent": "xvi, 527 pages, 32 pages of plates :",
+    "illustrations": "color illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Ahab,",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling ships",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ]
+}

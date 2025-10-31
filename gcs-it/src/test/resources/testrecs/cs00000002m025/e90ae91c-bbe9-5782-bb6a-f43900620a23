@@ -1,0 +1,146 @@
+{
+  "id": "marc:001:in00029104164",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029104164",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029104164",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1555429440"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781555429447"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87646993 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)17398538"
+    },
+    {
+      "type": "Local",
+      "value": "9910091753202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Improving mental health services : what the social sciences can tell us /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mechanic, David,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "San Francisco ;"
+    ],
+    "publisher": [
+      "Jossey-Bass,"
+    ],
+    "date": "1987.",
+    "year": 1987,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "137 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Community Mental Health Services",
+      "type": "topical"
+    },
+    {
+      "value": "Community mental health services",
+      "type": "topical"
+    },
+    {
+      "value": "Community mental health services.",
+      "type": "topical"
+    },
+    {
+      "value": "Health Policy",
+      "type": "topical"
+    },
+    {
+      "value": "Medical policy",
+      "type": "topical"
+    },
+    {
+      "value": "Medical policy.",
+      "type": "topical"
+    },
+    {
+      "value": "Mental Health Services",
+      "type": "topical"
+    },
+    {
+      "value": "Mental health policy",
+      "type": "topical"
+    },
+    {
+      "value": "Mental health services",
+      "type": "topical"
+    },
+    {
+      "value": "Mental health services.",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "New directions for mental health services,",
+      "numbering": "no. 36"
+    },
+    {
+      "title": "New directions for mental health services,",
+      "numbering": "no. 36"
+    },
+    {
+      "title": "New directions for mental health services ;",
+      "numbering": "no. 36."
+    },
+    {
+      "title": "New directions for mental health services ;",
+      "numbering": "no. 36."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)568721382",
+      "Improving mental health services."
+    ]
+  }
+}

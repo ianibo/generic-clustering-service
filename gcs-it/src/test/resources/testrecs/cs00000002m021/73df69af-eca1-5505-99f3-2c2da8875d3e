@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00030124611",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030124611",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030124611",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 26000858 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3086758"
+    },
+    {
+      "type": "Local",
+      "value": "9911153862502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Holmes, Oliver Wendell,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "Boston :",
+      "New York :"
+    ],
+    "publisher": [
+      "George Dearborn and Company,",
+      "Otis, Broaders and Company ;"
+    ],
+    "date": "1836",
+    "year": 1836,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiv, 163 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Literature, Modern",
+      "type": "topical"
+    },
+    {
+      "value": "Medicine in Literature",
+      "type": "topical"
+    },
+    {
+      "value": "Medicine in literature",
+      "type": "topical"
+    },
+    {
+      "value": "Medicine in literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Paper binding labels (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Publishers' cloth bindings (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

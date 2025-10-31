@@ -1,0 +1,199 @@
+{
+  "id": "marc:001:in00025816262",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025816262",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025816262",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0845075098"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780845075098"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780854075102"
+    },
+    {
+      "type": "ISBN",
+      "value": "0854075100"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780854075119"
+    },
+    {
+      "type": "ISBN",
+      "value": "0854075119"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780854075126"
+    },
+    {
+      "type": "ISBN",
+      "value": "0854075127"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780854075133"
+    },
+    {
+      "type": "ISBN",
+      "value": "0854075135"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780845075142"
+    },
+    {
+      "type": "ISBN",
+      "value": "0845075144"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780854075157"
+    },
+    {
+      "type": "ISBN",
+      "value": "0854075151"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780854075164"
+    },
+    {
+      "type": "ISBN",
+      "value": "085407516X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780854075171"
+    },
+    {
+      "type": "ISBN",
+      "value": "0854075178"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780854075188"
+    },
+    {
+      "type": "ISBN",
+      "value": "0854075186"
+    },
+    {
+      "type": "LCCN",
+      "value": " 88753581 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)16797469"
+    },
+    {
+      "type": "Local",
+      "value": "9910346254702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Buxtehude, Dietrich,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "ger"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Broude Trust,"
+    ],
+    "date": "1987-2018.",
+    "year": 1987,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "1 score (volumes <9-18; in 12>) :",
+    "illustrations": "facsimiles ;",
+    "dimensions": "36 cm",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Art music",
+      "type": "topical"
+    },
+    {
+      "value": "Art music.",
+      "type": "topical"
+    },
+    {
+      "value": "Music",
+      "type": "topical"
+    },
+    {
+      "value": "Music.",
+      "type": "topical"
+    },
+    {
+      "value": "Scores",
+      "type": "topical"
+    },
+    {
+      "value": "Scores.",
+      "type": "topical"
+    },
+    {
+      "value": "Songs.",
+      "type": "topical"
+    },
+    {
+      "value": "Vocal music.",
+      "type": "topical"
+    },
+    {
+      "value": "music (discipline)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)635649653",
+      "Collected works."
+    ]
+  }
+}

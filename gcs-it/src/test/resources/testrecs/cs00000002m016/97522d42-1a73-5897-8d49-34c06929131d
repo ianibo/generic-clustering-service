@@ -1,0 +1,145 @@
+{
+  "id": "marc:001:in00027832098",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027832098",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027832098",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780140275360"
+    },
+    {
+      "type": "ISBN",
+      "value": "0140275363"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780670835102"
+    },
+    {
+      "type": "ISBN",
+      "value": "0670835102"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)66394447"
+    },
+    {
+      "type": "Local",
+      "value": "9910005015602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad /",
+      "type": "main"
+    },
+    {
+      "value": "Iliad.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Fagles, Robert,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Knox, Bernard,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York, New York :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1998.",
+    "year": 1998,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xvi, 683 pages :",
+    "illustrations": "maps, genealogical table ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Achilles",
+      "type": "topical"
+    },
+    {
+      "value": "Achilles (Greek mythology)",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Homer",
+      "type": "topical"
+    },
+    {
+      "value": "Homer.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics deluxe edition"
+    },
+    {
+      "title": "Penguin classics deluxe edition."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1311565937",
+      "Iliad"
+    ]
+  }
+}

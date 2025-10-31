@@ -1,0 +1,145 @@
+{
+  "id": "marc:001:in00029530497",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029530497",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029530497",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2135732"
+    },
+    {
+      "type": "Local",
+      "value": "9910065034002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The prince /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Machiavelli, Niccolò,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Thompson, N. H.,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Edman, Irwin,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    },
+    {
+      "name": "Heritage Press (New York, N.Y.),",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Heritage Press,"
+    ],
+    "date": "©1954.",
+    "year": 1954,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "185 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Italy",
+      "type": "topical"
+    },
+    {
+      "value": "Kings and rulers",
+      "type": "topical"
+    },
+    {
+      "value": "Kings and rulers.",
+      "type": "topical"
+    },
+    {
+      "value": "Political ethics",
+      "type": "topical"
+    },
+    {
+      "value": "Political ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science",
+      "type": "topical"
+    },
+    {
+      "value": "Power (Social sciences)",
+      "type": "topical"
+    },
+    {
+      "value": "Republicanism",
+      "type": "topical"
+    },
+    {
+      "value": "Republicanism.",
+      "type": "topical"
+    },
+    {
+      "value": "kings (people)",
+      "type": "topical"
+    },
+    {
+      "value": "royalties (compensation)",
+      "type": "topical"
+    },
+    {
+      "value": "rulers (people)",
+      "type": "topical"
+    },
+    {
+      "value": "tsars.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1103288273",
+      "Prince."
+    ]
+  }
+}

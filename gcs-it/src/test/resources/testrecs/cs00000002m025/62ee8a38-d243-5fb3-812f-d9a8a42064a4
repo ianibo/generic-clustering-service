@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00030349608",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030349608",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030349608",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1856195511"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781856195515"
+    },
+    {
+      "type": "LCCN",
+      "value": " 96122632 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)35526392"
+    },
+    {
+      "type": "Local",
+      "value": "9910179975502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mole, John,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Sinclair-Stevenson,"
+    ],
+    "date": "1995.",
+    "year": 1995,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "x, 198 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)604129353",
+      "(OCoLC)609357729",
+      "Selected poems."
+    ]
+  }
+}

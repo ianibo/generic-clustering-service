@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00027824344",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027824344",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027824344",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0552644242"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780552644242"
+    },
+    {
+      "type": "ISBN",
+      "value": "0553210378"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780553210378"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)16205144"
+    },
+    {
+      "type": "Local",
+      "value": "9910272511602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The brothers Karamazov /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "MacAndrew, Andrew R.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "Toronto ;"
+    ],
+    "publisher": [
+      "Bantam,"
+    ],
+    "date": "1970.",
+    "year": 1970,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xx, 936 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Didactic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "English fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Family life",
+      "type": "topical"
+    },
+    {
+      "value": "Russian fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Russian fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Bantam classic"
+    },
+    {
+      "title": "Bantam classic."
+    }
+  ]
+}

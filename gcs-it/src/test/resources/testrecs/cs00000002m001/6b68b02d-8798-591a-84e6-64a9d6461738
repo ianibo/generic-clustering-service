@@ -1,0 +1,87 @@
+{
+  "id": "marc:001:in00026032576",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026032576",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026032576",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)8063488"
+    },
+    {
+      "type": "Local",
+      "value": "9910832746402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Troy: The Bible of Greece",
+      "type": "alternative"
+    },
+    {
+      "value": "The Iliad /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Muller, Herbert J.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Bantam Books,"
+    ],
+    "date": "1960, ©1958.",
+    "year": 1960,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "398 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Homer.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Bantam Classic."
+    },
+    {
+      "title": "Bantam classic."
+    }
+  ]
+}

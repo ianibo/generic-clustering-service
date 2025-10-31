@@ -1,0 +1,87 @@
+{
+  "id": "marc:001:in00028509195",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028509195",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028509195",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)8804255"
+    },
+    {
+      "type": "Local",
+      "value": "9910818568902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rogers, Samuel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York :"
+    ],
+    "publisher": [
+      "E.P. Dutton,",
+      "G. Routledge ;"
+    ],
+    "date": "[1890?]",
+    "year": 1890,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "318 pages ;",
+    "dimensions": "14 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Routledge's pocket library"
+    },
+    {
+      "title": "Routledge's pocket library."
+    }
+  ]
+}

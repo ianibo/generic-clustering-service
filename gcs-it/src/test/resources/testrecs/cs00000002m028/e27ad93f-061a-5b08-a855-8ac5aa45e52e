@@ -1,0 +1,141 @@
+{
+  "id": "marc:001:in00028751354",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028751354",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028751354",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140441808"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140441802"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73425222 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)17521880"
+    },
+    {
+      "type": "Local",
+      "value": "9910061854202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Catullus /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Catullus, Gaius Valerius,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Whigham, Peter,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1966.",
+    "year": 1966,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "246 pages ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Catullus, Gaius Valerius",
+      "type": "topical"
+    },
+    {
+      "value": "Catullus, Gaius Valerius.",
+      "type": "topical"
+    },
+    {
+      "value": "Epigrams, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Love poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Man-woman relationships",
+      "type": "topical"
+    },
+    {
+      "value": "Man-woman relationships.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

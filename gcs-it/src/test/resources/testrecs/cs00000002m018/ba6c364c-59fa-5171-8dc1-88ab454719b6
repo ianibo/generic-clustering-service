@@ -1,0 +1,154 @@
+{
+  "id": "marc:001:gsuin00004525770",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004525770",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004525770",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781586174163"
+    },
+    {
+      "type": "ISBN",
+      "value": "1586174169"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2010931806"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)706505916"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9921848493402952"
+    },
+    {
+      "type": "Local",
+      "value": "9921848493402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Moby-Dick /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Reichardt, Mary R.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "San Francisco :"
+    ],
+    "publisher": [
+      "Ignatius Press,"
+    ],
+    "date": "©2011.",
+    "year": 2011,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xx, 706 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure stories, American",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure stories, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab,",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling ships",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Ignatius criticsl editions"
+    },
+    {
+      "title": "Ignatius critical editions."
+    }
+  ]
+}

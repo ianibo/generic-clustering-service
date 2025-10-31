@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00026768266",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026768266",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026768266",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 47003186 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)818540"
+    },
+    {
+      "type": "Local",
+      "value": "9910091158702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of William Cullen Bryant /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bryant, William Cullen,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Untermeyer, Louis,",
+      "role": "selector,",
+      "kind": "person"
+    },
+    {
+      "name": "Nason, Thomas W.",
+      "role": "engraver.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Heritage Press,"
+    ],
+    "date": "[1947]",
+    "year": 1947,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xix, 298 pages :",
+    "illustrations": "illustrations, portrait ;",
+    "dimensions": "26 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American poets, edited by Louis Untermeyer for the Heritage Press"
+    },
+    {
+      "title": "American poets (Heritage Press (New York, N.Y.))"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756461984",
+      "Poems of William Cullen Bryant."
+    ]
+  }
+}

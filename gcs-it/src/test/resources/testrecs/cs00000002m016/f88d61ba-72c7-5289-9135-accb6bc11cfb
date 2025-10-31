@@ -1,0 +1,121 @@
+{
+  "id": "marc:001:in00028790629",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028790629",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028790629",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780980205527"
+    },
+    {
+      "type": "ISBN",
+      "value": "0980205522"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)495780236"
+    },
+    {
+      "type": "Local",
+      "value": "9910800238402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Moby Dick /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hoffmann, Jens,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "CCA Wattis Institute for Contemporary Arts.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "San Francisco :"
+    ],
+    "publisher": [
+      "CCA Wattis Institute for Contemporary Arts ;",
+      "Distribution, DAP/Distributed Art Publishers,"
+    ],
+    "date": "©2009.",
+    "year": 2009,
+    "countryCode": "ab "
+  },
+  "physical": {
+    "extent": "135 pages :",
+    "illustrations": "illustrations (some color), folded map ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-2099",
+      "type": "topical"
+    },
+    {
+      "value": "Art",
+      "type": "topical"
+    },
+    {
+      "value": "Art, Modern",
+      "type": "topical"
+    },
+    {
+      "value": "Artists' books",
+      "type": "topical"
+    },
+    {
+      "value": "Artists' books.",
+      "type": "topical"
+    },
+    {
+      "value": "Exhibition catalogs",
+      "type": "topical"
+    },
+    {
+      "value": "Exhibition catalogs.",
+      "type": "topical"
+    },
+    {
+      "value": "Moby Dick",
+      "type": "topical"
+    },
+    {
+      "value": "artists' books (books)",
+      "type": "topical"
+    },
+    {
+      "value": "exhibition catalogs.",
+      "type": "topical"
+    }
+  ]
+}

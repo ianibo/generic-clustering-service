@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:abacin00000238564",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000238564",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000238564",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0460001736 (hardback)"
+    },
+    {
+      "type": "ISBN",
+      "value": "0460011731 (pbk.)"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)9229-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994978181002932"
+    },
+    {
+      "type": "Local",
+      "value": "994978181002932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The old curiosity shop /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York :"
+    ],
+    "publisher": [
+      "Dent ;",
+      "Dutton,"
+    ],
+    "date": "1907.",
+    "year": 1907,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xvi, 541 p. ;",
+    "dimensions": "19 cm."
+  },
+  "subjects": [
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Gambling",
+      "type": "topical"
+    }
+  ]
+}

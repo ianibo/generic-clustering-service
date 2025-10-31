@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00028914600",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028914600",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028914600",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)12087891"
+    },
+    {
+      "type": "Local",
+      "value": "9911322518902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The decline and fall of the Roman Empire /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gibbon, Edward,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "[1954?]",
+    "year": 1954,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "3 volumes ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "30 B.C.-476 A.D",
+      "type": "topical"
+    },
+    {
+      "value": "Byzantine Empire",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Rome",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Modern library of the world's best books"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)858249105",
+      "Decline and fall of the Roman Empire."
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "marc:001:in00027491971",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027491971",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027491971",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0872204855"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780872204850"
+    },
+    {
+      "type": "ISBN",
+      "value": "0872204847"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780872204843"
+    },
+    {
+      "type": "LCCN",
+      "value": " 99054175 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)42862092"
+    },
+    {
+      "type": "Local",
+      "value": "9910123973102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Odyssey /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lombardo, Stanley,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Murnaghan, Sheila,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Indianapolis :"
+    ],
+    "publisher": [
+      "Hackett Pub. Co.,"
+    ],
+    "date": "©2000.",
+    "year": 2000,
+    "countryCode": "ab "
+  },
+  "physical": {
+    "extent": "lxiv, 414 pages :",
+    "illustrations": "illustrations, map ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1249186104",
+      "Odyssey."
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "id": "marc:001:in00028686066",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028686066",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028686066",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300022824"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300022827"
+    },
+    {
+      "type": "LCCN",
+      "value": " 78026663 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4492792"
+    },
+    {
+      "type": "Local",
+      "value": "9910382332402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Scientific and philosophical writings /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Anderson, Wallace Earl,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "1980.",
+    "year": 1980,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "viii, 433 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy.",
+      "type": "topical"
+    },
+    {
+      "value": "Science",
+      "type": "topical"
+    },
+    {
+      "value": "Science.",
+      "type": "topical"
+    },
+    {
+      "value": "philosophy.",
+      "type": "topical"
+    },
+    {
+      "value": "sciences (philosophy)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Works of Jonathan Edwards ;",
+      "numbering": "v. 6"
+    }
+  ]
+}

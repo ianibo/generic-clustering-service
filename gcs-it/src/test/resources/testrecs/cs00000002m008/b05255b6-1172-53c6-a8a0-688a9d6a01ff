@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00027817839",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027817839",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027817839",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)961234"
+    },
+    {
+      "type": "Local",
+      "value": "9911512035602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crime and punishment,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Bantam Books"
+    ],
+    "date": "[1971]",
+    "year": 1971,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "472 pages",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Detective and mystery stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia (Federation)",
+      "type": "topical"
+    },
+    {
+      "value": "Saint Petersburg (Russia)",
+      "type": "topical"
+    }
+  ]
+}

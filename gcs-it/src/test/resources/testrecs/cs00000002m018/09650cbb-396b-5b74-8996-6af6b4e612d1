@@ -1,0 +1,115 @@
+{
+  "id": "marc:001:in00029472489",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029472489",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029472489",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0679602119"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679602118"
+    },
+    {
+      "type": "Other",
+      "value": "090129015504"
+    },
+    {
+      "type": "LCCN",
+      "value": " 96017278 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)34618094"
+    },
+    {
+      "type": "Local",
+      "value": "9910196799802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The paradiso /",
+      "type": "main"
+    },
+    {
+      "value": "Paradiso.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ciardi, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "1996.",
+    "year": 1996,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "363 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Heaven",
+      "type": "topical"
+    },
+    {
+      "value": "Heaven.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607905415",
+      "Paradiso."
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "marc:001:in00028896176",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028896176",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028896176",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "LCCN",
+      "value": " 55010348 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)15364335"
+    },
+    {
+      "type": "Local",
+      "value": "9910848777002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Critique of judgement",
+      "type": "alternative"
+    },
+    {
+      "value": "Critique of practical reason",
+      "type": "alternative"
+    },
+    {
+      "value": "The critique of pure reason : the critique of practical reason and other ethical treatises : The critique of judgement /",
+      "type": "main"
+    },
+    {
+      "value": "Kritik der reinen Vernunft.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kant, Immanuel,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Meiklejohn, J. M. D.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Abbott, Thomas Kingsmill,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Meredith, James Creed,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Hastie, W.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Kant, Immanuel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kant, Immanuel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "[1952]",
+    "year": 1952,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "xi, 613 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Philosophy",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy.",
+      "type": "topical"
+    },
+    {
+      "value": "philosophy.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western World ;",
+      "numbering": "v. 42"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 42."
+    }
+  ]
+}

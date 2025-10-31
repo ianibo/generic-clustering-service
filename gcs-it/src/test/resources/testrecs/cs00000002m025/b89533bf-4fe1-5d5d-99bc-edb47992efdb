@@ -1,0 +1,73 @@
+{
+  "id": "marc:001:in00028453903",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028453903",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028453903",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2572341"
+    },
+    {
+      "type": "Local",
+      "value": "9910152715502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Image o' God and other poems",
+      "type": "alternative"
+    },
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Corrie, Joe.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Glasgow :"
+    ],
+    "publisher": [
+      "Forward Pub. Co.,"
+    ],
+    "date": "[1928?]",
+    "year": 1928,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "47 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1378567598",
+      "Poems."
+    ]
+  }
+}

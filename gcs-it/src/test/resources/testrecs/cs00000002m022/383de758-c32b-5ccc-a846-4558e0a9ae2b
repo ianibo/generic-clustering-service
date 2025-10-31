@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00029264443",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029264443",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029264443",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0670235059"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780670235056"
+    },
+    {
+      "type": "LCCN",
+      "value": " 80013586 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6196290"
+    },
+    {
+      "type": "Local",
+      "value": "9910737349002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems of Marianne Moore.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Moore, Marianne,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Macmillan Company,",
+      "role": "publisher.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Viking Press,",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "The Macmillan Company :",
+      "The Viking Press,"
+    ],
+    "date": "[1981]",
+    "year": 1981,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiv, 305 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)562899025",
+      "Complete poems of Marianne Moore."
+    ]
+  }
+}

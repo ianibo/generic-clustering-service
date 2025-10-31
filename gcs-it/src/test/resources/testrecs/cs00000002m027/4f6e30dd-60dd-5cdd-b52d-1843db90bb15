@@ -1,0 +1,134 @@
+{
+  "id": "marc:001:in00028875655",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028875655",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028875655",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 68054577 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2281"
+    },
+    {
+      "type": "Local",
+      "value": "9910484925102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Inferno /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Gilbert, Allan H.,",
+      "role": "translator,",
+      "kind": "person"
+    },
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "ita"
+  ],
+  "publication": {
+    "place": [
+      "Durham, N.C. :"
+    ],
+    "publisher": [
+      "Duke University Press,"
+    ],
+    "date": "1969.",
+    "year": 1969,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xlvi, 373 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bilingual books",
+      "type": "topical"
+    },
+    {
+      "value": "Bilingual books.",
+      "type": "topical"
+    },
+    {
+      "value": "Dante Alighieri,",
+      "type": "topical"
+    },
+    {
+      "value": "Hell",
+      "type": "topical"
+    },
+    {
+      "value": "Italian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Prose poems.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "prose poems.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)575789585",
+      "Inferno."
+    ]
+  }
+}

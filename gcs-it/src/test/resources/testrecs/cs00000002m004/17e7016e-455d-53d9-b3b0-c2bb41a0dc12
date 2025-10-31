@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00029752403",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029752403",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029752403",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 49017847 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1523405"
+    },
+    {
+      "type": "Local",
+      "value": "9910068013102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bowes-Lyon, Lilian Helen,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "J. Cape"
+    ],
+    "date": "[1948]",
+    "year": 1948,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "191 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bowes-Lyon, Lilian Helen,",
+      "type": "topical"
+    },
+    {
+      "value": "Dust jackets (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Endpapers (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Price (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Publishers' cloth bindings (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)560570924",
+      "Collected poems."
+    ]
+  }
+}

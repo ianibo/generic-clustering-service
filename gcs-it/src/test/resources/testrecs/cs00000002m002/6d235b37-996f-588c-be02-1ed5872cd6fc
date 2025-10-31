@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00027960083",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027960083",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027960083",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)11473329"
+    },
+    {
+      "type": "Local",
+      "value": "9910590841902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Wuthering Heights /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Gettmann, Royal A.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Eichenberg, Fritz,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "1978.",
+    "year": 1978,
+    "countryCode": "aj "
+  },
+  "physical": {
+    "extent": "xxxii, 400 pages :",
+    "illustrations": "illustrations, genealogical table ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Man-woman relationships",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Yorkshire (England)",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ]
+}

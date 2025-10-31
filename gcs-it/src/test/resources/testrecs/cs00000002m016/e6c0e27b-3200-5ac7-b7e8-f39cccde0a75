@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:in00026562282",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026562282",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026562282",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "B5710915"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)359884"
+    },
+    {
+      "type": "Local",
+      "value": "9911646141602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hopkins, Gerard Manley,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bridges, Robert,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Gardner, W. H.",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "3d (English) ed. (1st American ed.)."
+  },
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Oxford University Press"
+    ],
+    "date": "[©1948]",
+    "year": 1948,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "307 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)891653389",
+      "Poems."
+    ]
+  }
+}

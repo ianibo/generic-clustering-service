@@ -1,0 +1,102 @@
+{
+  "id": "marc:001:in00026978135",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026978135",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026978135",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0906887763"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780906887769"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)50614865"
+    },
+    {
+      "type": "Local",
+      "value": "9910182201302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Larkin, Philip.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pinter, Harold,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Warwick :"
+    ],
+    "publisher": [
+      "Greville,"
+    ],
+    "date": "2002.",
+    "year": 2002,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "23 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Greville Press pamphlets"
+    },
+    {
+      "title": "Greville Press pamphlets."
+    }
+  ]
+}

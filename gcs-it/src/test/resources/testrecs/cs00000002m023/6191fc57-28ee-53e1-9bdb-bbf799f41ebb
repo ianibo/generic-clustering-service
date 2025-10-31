@@ -1,0 +1,177 @@
+{
+  "id": "marc:001:in00028043141",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028043141",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028043141",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0679600841"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679600848"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780375760648"
+    },
+    {
+      "type": "ISBN",
+      "value": "0375760644"
+    },
+    {
+      "type": "ISBN",
+      "value": "039460475X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780394604756"
+    },
+    {
+      "type": "LCCN",
+      "value": " 93038836 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)29259373"
+    },
+    {
+      "type": "Local",
+      "value": "9910705622802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "War and peace /",
+      "type": "main"
+    },
+    {
+      "value": "Voĭna i mir.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "The Modern Library,"
+    ],
+    "date": "1994.",
+    "year": 1994,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vii, 1386 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1825",
+      "type": "topical"
+    },
+    {
+      "value": "Europe",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Military campaigns",
+      "type": "topical"
+    },
+    {
+      "value": "Napoleon",
+      "type": "topical"
+    },
+    {
+      "value": "Napoleonic Wars, 1800-1815",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "War fiction",
+      "type": "topical"
+    },
+    {
+      "value": "War fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "War stories",
+      "type": "topical"
+    },
+    {
+      "value": "War stories.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Modern library giants"
+    },
+    {
+      "title": "Modern Library giants."
+    }
+  ]
+}

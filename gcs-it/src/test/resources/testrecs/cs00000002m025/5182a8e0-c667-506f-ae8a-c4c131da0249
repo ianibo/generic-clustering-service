@@ -1,0 +1,143 @@
+{
+  "id": "marc:001:in00028403544",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028403544",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028403544",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9264171916"
+    },
+    {
+      "type": "ISBN",
+      "value": "9789264171916"
+    },
+    {
+      "type": "LCCN",
+      "value": " 04096036 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)44131504"
+    },
+    {
+      "type": "Local",
+      "value": "9910235152602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Frameworks to measure sustainable development : an OECD expert workshop /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Organisation for Economic Co-operation and Development.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "OECD Expert Workshop on Sustainable Development Indicators",
+      "role": "contributor",
+      "kind": "meeting"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Paris :"
+    ],
+    "publisher": [
+      "Organisation for Economic Co-operation and Development,"
+    ],
+    "date": "2000.",
+    "year": 2000,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "164 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "27 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Conference papers and proceedings",
+      "type": "topical"
+    },
+    {
+      "value": "Economic indicators",
+      "type": "topical"
+    },
+    {
+      "value": "Economic indicators.",
+      "type": "topical"
+    },
+    {
+      "value": "Environmental indicators",
+      "type": "topical"
+    },
+    {
+      "value": "Environmental indicators.",
+      "type": "topical"
+    },
+    {
+      "value": "Social indicators",
+      "type": "topical"
+    },
+    {
+      "value": "Social indicators.",
+      "type": "topical"
+    },
+    {
+      "value": "Sustainable development",
+      "type": "topical"
+    },
+    {
+      "value": "Sustainable development.",
+      "type": "topical"
+    },
+    {
+      "value": "sustainable development.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "OECD proceedings"
+    },
+    {
+      "title": "OECD proceedings"
+    },
+    {
+      "title": "OECD proceedings."
+    },
+    {
+      "title": "OECD proceedings."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1518426778",
+      "Frameworks to measure sustainable development"
+    ]
+  }
+}

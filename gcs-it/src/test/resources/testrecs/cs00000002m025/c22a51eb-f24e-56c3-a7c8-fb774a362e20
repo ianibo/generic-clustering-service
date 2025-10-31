@@ -1,0 +1,75 @@
+{
+  "id": "marc:001:in00030340021",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030340021",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030340021",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)6636409"
+    },
+    {
+      "type": "Local",
+      "value": "9910439098702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dowson, Ernest Christopher,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Longaker, John Mark,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia,"
+    ],
+    "publisher": [
+      "University of Pennsylvania Press"
+    ],
+    "date": "[©1962]",
+    "year": 1962,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "263 pages ;",
+    "illustrations": "illustrations ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ]
+}

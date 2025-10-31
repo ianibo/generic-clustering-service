@@ -1,0 +1,140 @@
+{
+  "id": "marc:001:in00029336725",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029336725",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029336725",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780141394657"
+    },
+    {
+      "type": "ISBN",
+      "value": "014139465X"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2016297231"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)897778859"
+    },
+    {
+      "type": "Local",
+      "value": "9915040325402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Rieu, E. V.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Jones, P. V.",
+      "role": "translator,",
+      "kind": "person"
+    },
+    {
+      "name": "Rieu, D. C. H.",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Penguin Classics,"
+    ],
+    "date": "2014.",
+    "year": 2014,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "lxxxv, 462 pages :",
+    "illustrations": "maps ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Achilles",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Publishers' cloth bindings (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

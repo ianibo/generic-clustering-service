@@ -1,0 +1,151 @@
+{
+  "id": "marc:001:in00029475006",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029475006",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029475006",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0448060191"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780448060194"
+    },
+    {
+      "type": "LCCN",
+      "value": " 47001594 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1012927"
+    },
+    {
+      "type": "Local",
+      "value": "9911820038002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Jambor, Louis,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Grosset & Dunlap,"
+    ],
+    "date": "[1947]",
+    "year": 1947,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "643 pages, 8 leaves of plates :",
+    "illustrations": "color illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Families",
+      "type": "topical"
+    },
+    {
+      "value": "Family life",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works",
+      "type": "topical"
+    },
+    {
+      "value": "March family (Fictitious characters)",
+      "type": "topical"
+    },
+    {
+      "value": "New England",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Publishers' advertisements.",
+      "type": "topical"
+    },
+    {
+      "value": "Sisters",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Illustrated junior library"
+    },
+    {
+      "title": "Illustrated junior library."
+    }
+  ]
+}

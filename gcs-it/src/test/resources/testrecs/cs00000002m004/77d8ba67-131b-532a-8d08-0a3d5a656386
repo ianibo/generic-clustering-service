@@ -1,0 +1,186 @@
+{
+  "id": "marc:001:in00028660896",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028660896",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028660896",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 43018004 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)355987"
+    },
+    {
+      "type": "Local",
+      "value": "9910000229302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Jane Eyre /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Charlotte,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Eichenberg, Fritz,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Rogers, Bruce,",
+      "role": "former owner.",
+      "kind": "person"
+    },
+    {
+      "name": "Heritage Press (New York, N.Y.)",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Pforzheimer Bruce Rogers Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Random House,"
+    ],
+    "date": "1943.",
+    "year": 1943,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "343 pages, 17 unnumbered leaves of plates :",
+    "illustrations": "illustrations ;",
+    "dimensions": "26 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bildungsromans",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "Charity-schools",
+      "type": "topical"
+    },
+    {
+      "value": "Coming of age",
+      "type": "topical"
+    },
+    {
+      "value": "Country homes",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Eyre, Jane",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Governesses",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Married people",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill women",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Orphans",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Typefaces (Type evidence)",
+      "type": "topical"
+    },
+    {
+      "value": "Wood engravings",
+      "type": "topical"
+    },
+    {
+      "value": "Young women",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American Institute of Graphic Arts. Keepsake ;",
+      "numbering": "no. 74 1n"
+    },
+    {
+      "title": "Keepsake (American Institute of Graphic Arts) ;",
+      "numbering": "no. 74."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654982822",
+      "Jane Eyre."
+    ]
+  }
+}

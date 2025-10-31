@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00029797522",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029797522",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029797522",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300083300"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300083309"
+    },
+    {
+      "type": "LCCN",
+      "value": " 99058552 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)42888110"
+    },
+    {
+      "type": "Local",
+      "value": "9910429842002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The \"miscellanies\" : entry nos. 501-832 /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Chamberlain, Ava.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "2000.",
+    "year": 2000,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xi, 578 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Theology, Doctrinal.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The works of Jonathan Edwards ;",
+      "numbering": "v. 18"
+    }
+  ]
+}

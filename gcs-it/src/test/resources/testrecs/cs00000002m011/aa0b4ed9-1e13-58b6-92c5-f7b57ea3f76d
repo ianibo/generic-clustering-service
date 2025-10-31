@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00026775267",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026775267",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026775267",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 12032428 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1395177"
+    },
+    {
+      "type": "Local",
+      "value": "9911424099702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The works of John C. Calhoun /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Calhoun, John C.",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Crallé, Richard K.",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Johnson, A. S.,",
+      "role": "printer.",
+      "kind": "person"
+    },
+    {
+      "name": "South Carolina. General Assembly.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "D. Appleton and Company,",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York] :"
+    ],
+    "publisher": [
+      "[D. Appleton and Co.],"
+    ],
+    "date": "1851-[1856]",
+    "year": 1851,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "6 volumes ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1815-1861",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)697050978",
+      "Works of John C. Calhoun."
+    ]
+  }
+}

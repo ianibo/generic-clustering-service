@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:in00029451739",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029451739",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029451739",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0517072440"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780517072448"
+    },
+    {
+      "type": "LCCN",
+      "value": " 91028981 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)43812537"
+    },
+    {
+      "type": "Local",
+      "value": "9910574359602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sandburg, Carl,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Avenel, NJ :",
+      "New York :"
+    ],
+    "publisher": [
+      "Distributed by Random House Value Pub.,",
+      "Gramercy Books ;"
+    ],
+    "date": "1992.",
+    "year": 1992,
+    "countryCode": " g "
+  },
+  "physical": {
+    "extent": "192 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Blank verse.",
+      "type": "topical"
+    },
+    {
+      "value": "Collections.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Sandburg, Carl",
+      "type": "topical"
+    },
+    {
+      "value": "War poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Library of Classic Poets"
+    },
+    {
+      "title": "Library of classic poets."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)760139168",
+      "Selected poems."
+    ]
+  }
+}

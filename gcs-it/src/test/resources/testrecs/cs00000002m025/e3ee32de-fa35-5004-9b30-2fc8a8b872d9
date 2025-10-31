@@ -1,0 +1,123 @@
+{
+  "id": "marc:001:in00029021442",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029021442",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029021442",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0206615019"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780206615017"
+    },
+    {
+      "type": "LCCN",
+      "value": " 68116123 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)463958"
+    },
+    {
+      "type": "Local",
+      "value": "9910390099902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Amichai, Yehuda.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wevill, Assia,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Cape Goliard Press.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Cape Goliard,"
+    ],
+    "date": "©1968.",
+    "year": 1968,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "30 unnumbered pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Amichai, Yehuda",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647568258",
+      "Selected poems."
+    ]
+  }
+}

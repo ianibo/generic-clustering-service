@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00030464669",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030464669",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030464669",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9024725038"
+    },
+    {
+      "type": "ISBN",
+      "value": "9789024725038"
+    },
+    {
+      "type": "ISBN",
+      "value": "9024723426"
+    },
+    {
+      "type": "ISBN",
+      "value": "9789024723423"
+    },
+    {
+      "type": "LCCN",
+      "value": " 82002180 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8195791"
+    },
+    {
+      "type": "Local",
+      "value": "9910366235102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "General introduction to a pure phenomenology /",
+      "type": "main"
+    },
+    {
+      "value": "Allgemeine Einführung in die reine Phänomenologie.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Husserl, Edmund,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kersten, Fred,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Boston :",
+      "Hingham, MA, USA :",
+      "The Hague ;"
+    ],
+    "publisher": [
+      "Distributors for the U.S. and Canada, Kluwer Boston,",
+      "M. Nijhoff ;"
+    ],
+    "date": "1982.",
+    "year": 1982,
+    "countryCode": "001"
+  },
+  "physical": {
+    "extent": "xxiii, 401 pages ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Phenomenology",
+      "type": "topical"
+    },
+    {
+      "value": "Phenomenology.",
+      "type": "topical"
+    },
+    {
+      "value": "phenomenology.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Ideas pertaining to a pure phenomenology and to a phenomenological philosophy ;",
+      "numbering": "1st bk."
+    },
+    {
+      "title": "Ideas pertaining to a pure phenomenology and to a phenomenological philosophy ;",
+      "numbering": "1st bk."
+    }
+  ]
+}

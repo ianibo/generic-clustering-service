@@ -1,0 +1,115 @@
+{
+  "id": "marc:001:in00027157292",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027157292",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027157292",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140446249"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140446241"
+    },
+    {
+      "type": "LCCN",
+      "value": " 96150838 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)35701361"
+    },
+    {
+      "type": "Local",
+      "value": "9910961493702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Baudelaire, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Clark, Carol",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "London, England ;",
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "Penguin,"
+    ],
+    "date": "1995.",
+    "year": 1995,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxvii, 229 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Baudelaire, Charles,",
+      "type": "topical"
+    },
+    {
+      "value": "Bilingual books",
+      "type": "topical"
+    },
+    {
+      "value": "French poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00027099088",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027099088",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027099088",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300095058"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300095050"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2002004084"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)49355920"
+    },
+    {
+      "type": "Local",
+      "value": "9910297344302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Writings on the Trinity, grace, and faith /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lee, Sang Hyun,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "2003.",
+    "year": 2003,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xii, 566 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Faith",
+      "type": "topical"
+    },
+    {
+      "value": "Faith.",
+      "type": "topical"
+    },
+    {
+      "value": "Grace (Theology)",
+      "type": "topical"
+    },
+    {
+      "value": "Trinity",
+      "type": "topical"
+    },
+    {
+      "value": "Trinity.",
+      "type": "topical"
+    },
+    {
+      "value": "faith.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The works of Jonathan Edwards ;",
+      "numbering": "v. 21"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "marc:001:in00030265250",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030265250",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030265250",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "023110572X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780231105729"
+    },
+    {
+      "type": "ISBN",
+      "value": "0748605711"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780748605712"
+    },
+    {
+      "type": "LCCN",
+      "value": " 96143055 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)35033835"
+    },
+    {
+      "type": "Local",
+      "value": "9910143024102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The bride of Lammermoor /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Alexander, J. H.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :",
+      "New York :"
+    ],
+    "publisher": [
+      "Columbia University Press,",
+      "Edinburgh University Press ;"
+    ],
+    "date": "©1995.",
+    "year": 1995,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xvi, 398 pages ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1689-1745",
+      "type": "topical"
+    },
+    {
+      "value": "Arranged marriage",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Women murderers",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Edinburgh edition of the Waverly novels ;",
+      "numbering": "v. 7a"
+    }
+  ]
+}

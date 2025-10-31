@@ -1,0 +1,130 @@
+{
+  "id": "marc:001:in00027494890",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027494890",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027494890",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)8013148"
+    },
+    {
+      "type": "Local",
+      "value": "9910740792502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Moby-Dick; or, The whale,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Dodd, Mead,"
+    ],
+    "date": "1922.",
+    "year": 1922,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "539 pages",
+    "illustrations": "color frontispiece, color plates",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Action and adventure fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Action and adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab,",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Human-animal relationships",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill",
+      "type": "topical"
+    },
+    {
+      "value": "Moby Dick (Fictitious character)",
+      "type": "topical"
+    },
+    {
+      "value": "New England",
+      "type": "topical"
+    },
+    {
+      "value": "Obsessive-compulsive disorder",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains",
+      "type": "topical"
+    },
+    {
+      "value": "Whalers (Persons)",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling ships",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "marc:001:in00029503516",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029503516",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029503516",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780199536054"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199536058"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2008274601"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)233813822"
+    },
+    {
+      "type": "Local",
+      "value": "9911475471402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "War and peace /",
+      "type": "main"
+    },
+    {
+      "value": "Voĭna i mir.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Maude, Louise,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Maude, Aylmer,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Gifford, Henry,",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "2008.",
+    "year": 2008,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "1344 pages :",
+    "illustrations": "maps ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1825",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Military campaigns.",
+      "type": "topical"
+    },
+    {
+      "value": "Napoleonic Wars, 1800-1815",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Russia.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford world's classics"
+    },
+    {
+      "title": "Oxford world's classics (Oxford University Press)"
+    }
+  ]
+}

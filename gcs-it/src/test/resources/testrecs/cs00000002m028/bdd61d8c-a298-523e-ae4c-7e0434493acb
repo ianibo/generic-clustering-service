@@ -1,0 +1,167 @@
+{
+  "id": "marc:001:in00028184028",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028184028",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028184028",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780804169127"
+    },
+    {
+      "type": "ISBN",
+      "value": "0804169128"
+    },
+    {
+      "type": "LCCN",
+      "value": " 32035908 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1223335"
+    },
+    {
+      "type": "Local",
+      "value": "9910003423102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The divine comedy of Dante Alighieri /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Carlyle, John Aitken,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Wicksteed, Philip H.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Okey, Thomas,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Grandgent, C. H.",
+      "role": "writer of introduction.",
+      "kind": "person"
+    },
+    {
+      "name": "Eidesheim, Julie,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Oelsner, Herman,",
+      "role": "writer of added commentary.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "The Modern Library,"
+    ],
+    "date": "[©1932]",
+    "year": 1932,
+    "countryCode": "ab "
+  },
+  "physical": {
+    "extent": "xiii pages, 2 leaves, 3-601, [1] pages :",
+    "illustrations": "illustrations (including maps) diagrams ;",
+    "dimensions": "17 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dante Alighieri,",
+      "type": "topical"
+    },
+    {
+      "value": "Divina commedia (Dante Alighieri)",
+      "type": "topical"
+    },
+    {
+      "value": "Hell",
+      "type": "topical"
+    },
+    {
+      "value": "Italian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Italian poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Paradise",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Publishers' advertisements.",
+      "type": "topical"
+    },
+    {
+      "value": "Purgatory",
+      "type": "topical"
+    },
+    {
+      "value": "To 1400",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The modern library of the world's best books"
+    },
+    {
+      "title": "Modern library of the world's best books."
+    }
+  ]
+}

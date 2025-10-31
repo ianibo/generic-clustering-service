@@ -1,0 +1,139 @@
+{
+  "id": "marc:001:in00030363422",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030363422",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030363422",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0394489381"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780394489384"
+    },
+    {
+      "type": "ISBN",
+      "value": "0394489403"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780394489407"
+    },
+    {
+      "type": "ISBN",
+      "value": "039448939X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780394489391"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73020559 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)13385204"
+    },
+    {
+      "type": "Local",
+      "value": "9911944403502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Political writings /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marx, Karl,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Random House,"
+    ],
+    "date": "1973-1974.",
+    "year": 1973,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "3 volumes ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Europe",
+      "type": "topical"
+    },
+    {
+      "value": "Europe.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Socialism.",
+      "type": "topical"
+    },
+    {
+      "value": "World politics",
+      "type": "topical"
+    },
+    {
+      "value": "World politics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Mark Library"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)646917387",
+      "Political writings."
+    ]
+  }
+}

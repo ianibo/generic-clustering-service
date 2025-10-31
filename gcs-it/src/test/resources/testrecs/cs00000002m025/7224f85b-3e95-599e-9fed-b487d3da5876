@@ -1,0 +1,138 @@
+{
+  "id": "marc:001:in00028612422",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028612422",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028612422",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 50012464 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)41892138"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems of Robert Frost /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Frost, Robert,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Nason, Thomas W.",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Rogers, Bruce,",
+      "role": "former owner.",
+      "kind": "person"
+    },
+    {
+      "name": "Rogers, Bruce,",
+      "role": "printer.",
+      "kind": "person"
+    },
+    {
+      "name": "Marchbanks Press,",
+      "role": "printer.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Limited Editions Club,",
+      "role": "publisher.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Limited Editions Club,",
+      "role": "former owner.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Pforzheimer Bruce Rogers Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Limited Editions Club Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Limited Editions Club,"
+    ],
+    "date": "1950.",
+    "year": 1950,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "2 volumes (xliv, 607 pages) :",
+    "illustrations": "illustrations ;",
+    "dimensions": "29 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Autographs (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "marc:001:in00029959405",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029959405",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029959405",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781848377257"
+    },
+    {
+      "type": "ISBN",
+      "value": "1848377258"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781841939438"
+    },
+    {
+      "type": "ISBN",
+      "value": "1841939439"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781848377431"
+    },
+    {
+      "type": "ISBN",
+      "value": "1848377436"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)700218713"
+    },
+    {
+      "type": "Local",
+      "value": "9923072965702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The prince /",
+      "type": "main"
+    },
+    {
+      "value": "Principe.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Machiavelli, Niccolò,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Rooney, Anne,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Arcturus,"
+    ],
+    "date": "2010.",
+    "year": 2010,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "128 pages :",
+    "illustrations": "color illustrations ;",
+    "dimensions": "26 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1500-1599",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Italian literature",
+      "type": "topical"
+    },
+    {
+      "value": "Political ethics",
+      "type": "topical"
+    },
+    {
+      "value": "Political ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "marc:001:in00028232821",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028232821",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028232821",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140445706 :"
+    },
+    {
+      "type": "LCCN",
+      "value": " 92023876 "
+    },
+    {
+      "type": "Local",
+      "value": "ocm26130412"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)1358171-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910425583802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Telling tales : new one-act plays /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lane, Eric.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, N.Y., U.S.A. :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1993.",
+    "year": 1993,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xii, 417 p. ;",
+    "dimensions": "21 cm"
+  },
+  "subjects": [
+    {
+      "value": "One-act plays, American.",
+      "type": "topical"
+    },
+    {
+      "value": "One-act plays, English.",
+      "type": "topical"
+    }
+  ]
+}

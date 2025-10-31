@@ -1,0 +1,153 @@
+{
+  "id": "marc:001:in00027612596",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027612596",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027612596",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0262100266"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780262100267"
+    },
+    {
+      "type": "ISBN",
+      "value": "0521251133"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780521251136"
+    },
+    {
+      "type": "ISBN",
+      "value": "0521272114"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780521272117"
+    },
+    {
+      "type": "LCCN",
+      "value": " 82010055 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8533085"
+    },
+    {
+      "type": "Local",
+      "value": "9910337158802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Dialogues /",
+      "type": "main"
+    },
+    {
+      "value": "Besedy.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jakobson, Roman,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Pomorska, Krystyna,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Halle, Morris,",
+      "role": "author of foreword.",
+      "kind": "person"
+    },
+    {
+      "name": "Hubert, Christian,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, Massachusetts :"
+    ],
+    "publisher": [
+      "The MIT Press,"
+    ],
+    "date": "[1983]",
+    "year": 1983,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "xii, 186 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Interviews.",
+      "type": "topical"
+    },
+    {
+      "value": "Jakobson, Roman,",
+      "type": "topical"
+    },
+    {
+      "value": "Linguistics",
+      "type": "topical"
+    },
+    {
+      "value": "Linguistics.",
+      "type": "topical"
+    },
+    {
+      "value": "Linguists",
+      "type": "topical"
+    },
+    {
+      "value": "Linguists.",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    },
+    {
+      "value": "linguistics.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)804452777",
+      "Dialogues."
+    ]
+  }
+}

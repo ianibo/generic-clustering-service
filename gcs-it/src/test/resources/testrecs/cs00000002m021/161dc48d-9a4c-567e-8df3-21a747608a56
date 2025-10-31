@@ -1,0 +1,151 @@
+{
+  "id": "marc:001:in00027083073",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027083073",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027083073",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0679728252"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679728252"
+    },
+    {
+      "type": "ISBN",
+      "value": "0679728260"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679728269"
+    },
+    {
+      "type": "LCCN",
+      "value": " 89040517 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)21518902"
+    },
+    {
+      "type": "Local",
+      "value": "9911147040502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Democracy in America /",
+      "type": "main"
+    },
+    {
+      "value": "De la démocratie en Amérique.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tocqueville, Alexis de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Reeve, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bowen, Francis,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bradley, Phillips,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Boorstin, Daniel J.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Daniel J. Boorstin Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Vintage Books,"
+    ],
+    "date": "1990.",
+    "year": 1990,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Democracy",
+      "type": "topical"
+    },
+    {
+      "value": "Democracy.",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government",
+      "type": "topical"
+    },
+    {
+      "value": "Social conditions",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Vintage classics"
+    },
+    {
+      "title": "Vintage classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1039549604",
+      "Democracy in America."
+    ]
+  }
+}

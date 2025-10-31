@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00030217864",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030217864",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030217864",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0671601296"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780671601294"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780671776800"
+    },
+    {
+      "type": "ISBN",
+      "value": "0671776800"
+    },
+    {
+      "type": "LCCN",
+      "value": " 91012897 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)23462105"
+    },
+    {
+      "type": "Local",
+      "value": "9911031370202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Paradise /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "McNaught, Judith.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Pocket Books,"
+    ],
+    "date": "©1991.",
+    "year": 1991,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "489 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Consolidation and merger of corporations",
+      "type": "topical"
+    },
+    {
+      "value": "Department stores",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Romantic suspense fiction.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)755136993",
+      "Paradise."
+    ]
+  }
+}

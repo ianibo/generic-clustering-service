@@ -1,0 +1,106 @@
+{
+  "id": "marc:001:in00028040249",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028040249",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028040249",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0198118341"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198118343"
+    },
+    {
+      "type": "LCCN",
+      "value": " 62052433 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)213779249"
+    },
+    {
+      "type": "Local",
+      "value": "9910878418002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Sir Philip Sidney /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sidney, Philip,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ringler, William A.,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oxford :"
+    ],
+    "publisher": [
+      "Clarendon Press,"
+    ],
+    "date": "1962.",
+    "year": 1962,
+    "countryCode": "ach"
+  },
+  "physical": {
+    "extent": "lxx, 578 pages :",
+    "illustrations": "portrait, diagram, facsimile ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1500-1700",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford English texts"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647371915",
+      "Poems of Sir Philip Sidney."
+    ]
+  }
+}

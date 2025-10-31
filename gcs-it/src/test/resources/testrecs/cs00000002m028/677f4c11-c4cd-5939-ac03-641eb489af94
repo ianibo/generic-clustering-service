@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00027264680",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027264680",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027264680",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 59013410 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1181171"
+    },
+    {
+      "type": "Local",
+      "value": "9910288715102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pasternak, Boris Leonidovich,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Kayden, Eugene M.",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Ann Arbor, Michigan :"
+    ],
+    "publisher": [
+      "The University of Michigan Press,"
+    ],
+    "date": "1959.",
+    "year": 1959,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "194 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Israel.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Russian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Russian poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)578230522",
+      "(OCoLC)605586746",
+      "Poems."
+    ]
+  }
+}

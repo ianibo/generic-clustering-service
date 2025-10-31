@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00027477622",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027477622",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027477622",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "LCCN",
+      "value": " 90080213 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)946613069"
+    },
+    {
+      "type": "Local",
+      "value": "9916320853302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Great conversation / a reader's guide to great books of the western world.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Adler, Mortimer Jerome.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopaedia Britannica International,"
+    ],
+    "date": "1990.",
+    "year": 1990,
+    "countryCode": " bo"
+  },
+  "physical": {
+    "extent": "100 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Authors, European.",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Bibliographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Books",
+      "type": "topical"
+    },
+    {
+      "value": "Books.",
+      "type": "topical"
+    },
+    {
+      "value": "Reference books",
+      "type": "topical"
+    },
+    {
+      "value": "Reference books.",
+      "type": "topical"
+    },
+    {
+      "value": "Reviews.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world (1990)"
+    },
+    {
+      "title": "Great books of the Western world (1990)"
+    }
+  ]
+}

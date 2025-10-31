@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00029026152",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029026152",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029026152",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)13588665"
+    },
+    {
+      "type": "Local",
+      "value": "9910852141802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Ivanhoe; a romance,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "A. & C. Black,"
+    ],
+    "date": "1893.",
+    "year": 1893,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "xxix, 472 pages",
+    "illustrations": "frontispiece, plates",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1189-1199",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Waverley novels ;",
+      "numbering": "v. 9"
+    }
+  ]
+}

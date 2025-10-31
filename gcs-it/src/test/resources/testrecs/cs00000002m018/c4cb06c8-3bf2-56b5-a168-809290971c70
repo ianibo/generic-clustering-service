@@ -1,0 +1,80 @@
+{
+  "id": "marc:001:in00026961673",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026961673",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026961673",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0841476373"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780841476370"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73013596 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)698712"
+    },
+    {
+      "type": "Local",
+      "value": "9910632086002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Skelton, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hughes, Richard,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Folcroft, Pa.]"
+    ],
+    "publisher": [
+      "Folcroft Library Editions,"
+    ],
+    "date": "1973.",
+    "year": 1973,
+    "countryCode": "pau"
+  },
+  "physical": {
+    "extent": "xvi, 208 pages",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

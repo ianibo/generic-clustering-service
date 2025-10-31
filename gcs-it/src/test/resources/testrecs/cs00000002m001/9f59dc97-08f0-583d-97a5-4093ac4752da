@@ -1,0 +1,127 @@
+{
+  "id": "marc:001:in00027051738",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027051738",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027051738",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 66008714 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1961833"
+    },
+    {
+      "type": "Local",
+      "value": "9912111526402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Catullus, Gaius Valerius.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Whigham, Peter,",
+      "role": "ed. and tr.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Baltimore,"
+    ],
+    "publisher": [
+      "Penguin Books"
+    ],
+    "date": "[1966]",
+    "year": 1966,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "246 pages",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Catullus, Gaius Valerius",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Elegiac poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Epigrams, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Love poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Rome",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654116015",
+      "Poems."
+    ]
+  }
+}

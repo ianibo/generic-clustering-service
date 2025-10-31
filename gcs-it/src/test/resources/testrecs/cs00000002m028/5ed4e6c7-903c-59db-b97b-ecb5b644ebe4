@@ -1,0 +1,77 @@
+{
+  "id": "marc:001:in00026629906",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026629906",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026629906",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "ocm39909860"
+    },
+    {
+      "type": "Local",
+      "value": "(GCarrWG)386859-suwgdb"
+    },
+    {
+      "type": "Local",
+      "value": "9910908266302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "English essays from Sir Philip Sidney to Macaulay /",
+      "type": "main"
+    }
+  ],
+  "edition": {
+    "statement": "Registered ed., Deluxe ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "P.F. Collier and Son,"
+    ],
+    "date": "1969, c1937.",
+    "year": 1969,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "401 p., [1] leaf of plates :",
+    "illustrations": "ill. ;",
+    "dimensions": "22 cm."
+  },
+  "subjects": [
+    {
+      "value": "English essays.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Harvard classics ;",
+      "numbering": "vol. 27, editied by Charles W. Eliot"
+    },
+    {
+      "title": "Harvard classics ;",
+      "numbering": "vol. 27, editied by Charles W. Eliot."
+    }
+  ]
+}

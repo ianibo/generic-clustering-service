@@ -1,0 +1,131 @@
+{
+  "id": "marc:001:in00029013799",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029013799",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029013799",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0819124702"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780819124708"
+    },
+    {
+      "type": "ISBN",
+      "value": "0819124710"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780819124715"
+    },
+    {
+      "type": "LCCN",
+      "value": " 82045154 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8533173"
+    },
+    {
+      "type": "Local",
+      "value": "9910776569002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "War and peace /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thomas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lynchburg College.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Washington, D.C.] :"
+    ],
+    "publisher": [
+      "University Press of America,"
+    ],
+    "date": "[©1982]",
+    "year": 1982,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xii, 635 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Peace",
+      "type": "topical"
+    },
+    {
+      "value": "Peace.",
+      "type": "topical"
+    },
+    {
+      "value": "War",
+      "type": "topical"
+    },
+    {
+      "value": "War.",
+      "type": "topical"
+    },
+    {
+      "value": "armed conflicts.",
+      "type": "topical"
+    },
+    {
+      "value": "wars.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Classical selections on great issues ;",
+      "numbering": "series 1, v. 5"
+    },
+    {
+      "title": "Classical selections on great issues ;",
+      "numbering": "series 1, v. 5."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)987858717",
+      "War and peace."
+    ]
+  }
+}

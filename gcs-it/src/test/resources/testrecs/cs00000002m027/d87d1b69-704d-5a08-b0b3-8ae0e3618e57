@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:in00029052621",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029052621",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029052621",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781513264967"
+    },
+    {
+      "type": "ISBN",
+      "value": "1513264966"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781513220703"
+    },
+    {
+      "type": "ISBN",
+      "value": "1513220705"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1222798349"
+    },
+    {
+      "type": "Local",
+      "value": "9924847118402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anna Karenina /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Portland :"
+    ],
+    "publisher": [
+      "Mint Editions,"
+    ],
+    "date": "2020.",
+    "year": 2020,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "946 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Karenina, Anna",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Russia.",
+      "type": "topical"
+    },
+    {
+      "value": "Social conditions.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Mint Editions (Literary Fiction)"
+    }
+  ]
+}

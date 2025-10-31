@@ -1,0 +1,161 @@
+{
+  "id": "marc:001:in00028965955",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028965955",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028965955",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "081532409X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780815324096"
+    },
+    {
+      "type": "LCCN",
+      "value": " 98701406 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)38209667"
+    },
+    {
+      "type": "Local",
+      "value": "9910209130302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected works of Samuel Holyoke and Jacob Kimball.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Eskew, Harry.",
+      "role": "edt",
+      "kind": "person"
+    },
+    {
+      "name": "Kroeger, Karl.",
+      "role": "edt",
+      "kind": "person"
+    },
+    {
+      "name": "Holyoke, Samuel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kimball, Jacob,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Garland,"
+    ],
+    "date": "1998.",
+    "year": 1998,
+    "countryCode": "mua"
+  },
+  "physical": {
+    "extent": "1 score (xxvi, 230 pages) ;",
+    "dimensions": "29 cm.",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Anthems",
+      "type": "topical"
+    },
+    {
+      "value": "Anthems.",
+      "type": "topical"
+    },
+    {
+      "value": "Canons (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Canons, fugues, etc. (Voices)",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices) with orchestra",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices, 3 parts), Unaccompanied.",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices, 4 parts), Unaccompanied",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices, 4 parts), Unaccompanied.",
+      "type": "topical"
+    },
+    {
+      "value": "Hymns, English",
+      "type": "topical"
+    },
+    {
+      "value": "Hymns.",
+      "type": "topical"
+    },
+    {
+      "value": "Massachusetts",
+      "type": "topical"
+    },
+    {
+      "value": "Psalms (Music)",
+      "type": "topical"
+    },
+    {
+      "value": "Scores.",
+      "type": "topical"
+    },
+    {
+      "value": "psalms.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Music of the new American nation ;",
+      "numbering": "v. 12"
+    },
+    {
+      "title": "Music of the new American nation ;",
+      "numbering": "v. 12."
+    }
+  ]
+}

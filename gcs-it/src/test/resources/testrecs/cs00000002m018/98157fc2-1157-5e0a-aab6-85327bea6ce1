@@ -1,0 +1,179 @@
+{
+  "id": "marc:001:gsuin00004433026",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004433026",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004433026",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "764315766098"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)53473290"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9930186323402952"
+    },
+    {
+      "type": "Local",
+      "value": "9930186323402952"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "19766-9"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anna Karenina /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Coleman, Basil.",
+      "role": "drt",
+      "kind": "person"
+    },
+    {
+      "name": "Pagett, Nicola.",
+      "role": "act",
+      "kind": "person"
+    },
+    {
+      "name": "Porter, Eric,",
+      "role": "act",
+      "kind": "person"
+    },
+    {
+      "name": "Wilson, Stuart,",
+      "role": "act",
+      "kind": "person"
+    },
+    {
+      "name": "Swann, Robert,",
+      "role": "act",
+      "kind": "person"
+    },
+    {
+      "name": "Woolley, Christopher.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wright, Bill.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "British Broadcasting Corporation.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Time-Life Films.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Time-Life Video.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Alexandria, VA :"
+    ],
+    "publisher": [
+      "Time-Life Video,"
+    ],
+    "date": "[2003]",
+    "year": 2003,
+    "countryCode": "vau"
+  },
+  "physical": {
+    "extent": "3 videodiscs (approximately 550 min.) :",
+    "illustrations": "sound, color ;",
+    "dimensions": "4 3/4 in.",
+    "contentType": "two-dimensional moving image",
+    "mediaType": "video",
+    "carrierType": "videodisc"
+  },
+  "subjects": [
+    {
+      "value": "1801-1917",
+      "type": "topical"
+    },
+    {
+      "value": "Adultery",
+      "type": "topical"
+    },
+    {
+      "value": "Drama",
+      "type": "topical"
+    },
+    {
+      "value": "Karenina, Anna",
+      "type": "topical"
+    },
+    {
+      "value": "Mothers and sons",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Social conditions",
+      "type": "topical"
+    },
+    {
+      "value": "Suicide",
+      "type": "topical"
+    },
+    {
+      "value": "Television adaptations",
+      "type": "topical"
+    },
+    {
+      "value": "Television mini-series",
+      "type": "topical"
+    },
+    {
+      "value": "Television mini-series.",
+      "type": "topical"
+    },
+    {
+      "value": "Tolstoy, Leo,",
+      "type": "topical"
+    }
+  ]
+}

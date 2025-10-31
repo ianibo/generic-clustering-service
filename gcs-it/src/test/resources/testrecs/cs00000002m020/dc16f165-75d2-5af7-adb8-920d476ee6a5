@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:in00026742249",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026742249",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026742249",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0226500373"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780226500379"
+    },
+    {
+      "type": "ISBN",
+      "value": "0226500381"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780226500386"
+    },
+    {
+      "type": "LCCN",
+      "value": " 85002536 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)11623750"
+    },
+    {
+      "type": "Local",
+      "value": "9910308007902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The prince /",
+      "type": "main"
+    },
+    {
+      "value": "Principe.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Machiavelli, Niccolò,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Mansfield, Harvey C.,",
+      "role": "translator,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "University of Chicago Press,"
+    ],
+    "date": "1985.",
+    "year": 1985,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxvii, 124 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Classical literature",
+      "type": "topical"
+    },
+    {
+      "value": "Classical literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Literature, Ancient",
+      "type": "topical"
+    },
+    {
+      "value": "Literature, Ancient.",
+      "type": "topical"
+    },
+    {
+      "value": "Political ethics",
+      "type": "topical"
+    },
+    {
+      "value": "Political ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science",
+      "type": "topical"
+    }
+  ]
+}

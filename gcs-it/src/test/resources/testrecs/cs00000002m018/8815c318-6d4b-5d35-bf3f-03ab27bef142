@@ -1,0 +1,120 @@
+{
+  "id": "marc:001:in00028572400",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028572400",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028572400",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 28004071 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2178056"
+    },
+    {
+      "type": "Local",
+      "value": "9910064149702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dumas, Alexandre,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rouben Mamoulian Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "W.J. Black"
+    ],
+    "date": "[©1927]",
+    "year": 1927,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "1003 pages",
+    "illustrations": "portrait",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dumas, Alexandre,",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories, French",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "rare books.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)988014113",
+      "Short stories."
+    ]
+  }
+}

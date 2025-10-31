@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00027903934",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027903934",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027903934",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781854595720"
+    },
+    {
+      "type": "ISBN",
+      "value": "1854595725"
+    },
+    {
+      "type": "Other",
+      "value": "9781854595720"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2008428668"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)176833350"
+    },
+    {
+      "type": "Local",
+      "value": "9911143176602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "War and peace /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edmundson, Helen,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Nick Hern,"
+    ],
+    "date": "2008.",
+    "year": 2008,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "210 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1801-1917",
+      "type": "topical"
+    },
+    {
+      "value": "Drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical drama.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Russia.",
+      "type": "topical"
+    },
+    {
+      "value": "Social conditions",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Shared experience"
+    },
+    {
+      "title": "Shared experience."
+    }
+  ]
+}

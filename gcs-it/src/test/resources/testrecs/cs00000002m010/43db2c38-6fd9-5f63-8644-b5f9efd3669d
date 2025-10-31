@@ -1,0 +1,91 @@
+{
+  "id": "marc:001:in00030192775",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030192775",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030192775",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 62005856 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1911405"
+    },
+    {
+      "type": "Local",
+      "value": "9911660404102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories I /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alwin, Virginia,",
+      "role": "compiler.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1961.",
+    "year": 1961,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "284 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Short stories.",
+      "type": "topical"
+    },
+    {
+      "value": "short stories.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Literary heritage."
+    },
+    {
+      "title": "Literary heritage."
+    },
+    {
+      "title": "Literary heritage."
+    },
+    {
+      "title": "Literary heritage."
+    }
+  ]
+}

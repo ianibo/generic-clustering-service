@@ -1,0 +1,123 @@
+{
+  "id": "marc:001:in00027409748",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027409748",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027409748",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0802055729"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802055729"
+    },
+    {
+      "type": "ISBN",
+      "value": "0710092776"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780710092779"
+    },
+    {
+      "type": "LCCN",
+      "value": " 82219613 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8745804"
+    },
+    {
+      "type": "Local",
+      "value": "9910840506602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Essays on England, Ireland, and the empire /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Robson, John M.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Buffalo :",
+      "London :",
+      "Toronto ;"
+    ],
+    "publisher": [
+      "Routledge & K. Paul,",
+      "University of Toronto Press ;"
+    ],
+    "date": "©1982.",
+    "year": 1982,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "lxvi, 677 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "Ireland",
+      "type": "topical"
+    },
+    {
+      "value": "Ireland.",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Collected works of John Stuart Mill ;",
+      "numbering": "v. 6"
+    }
+  ]
+}

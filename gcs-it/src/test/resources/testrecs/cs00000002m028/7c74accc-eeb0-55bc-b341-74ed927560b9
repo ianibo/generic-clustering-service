@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00025792386",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025792386",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025792386",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0887707084"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780887707087"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73174349 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)639852"
+    },
+    {
+      "type": "Local",
+      "value": "9910287201902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Reaney, James.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Toronto,"
+    ],
+    "publisher": [
+      "New Press,"
+    ],
+    "date": "©1972.",
+    "year": 1972,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xviii, 283 pages",
+    "dimensions": "26 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Canadian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Canadian poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)643549553",
+      "Poems."
+    ]
+  }
+}

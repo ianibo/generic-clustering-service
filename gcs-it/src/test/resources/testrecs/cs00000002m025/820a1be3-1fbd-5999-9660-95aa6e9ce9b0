@@ -1,0 +1,77 @@
+{
+  "id": "marc:001:in00026876830",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026876830",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026876830",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)22296955"
+    },
+    {
+      "type": "Local",
+      "value": "9910237621802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "[Works].",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Shakespeare, William,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New Haven,"
+    ],
+    "publisher": [
+      "H. Milford, Oxford University Press,",
+      "Yale University Press;"
+    ],
+    "date": "1917-1940.",
+    "year": 1917,
+    "countryCode": "ctu"
+  },
+  "physical": {
+    "extent": "40 volumes",
+    "illustrations": "plates, portraits, maps, facsimiles, tables",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "Yale Shakespeare"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1302712239",
+      "[Works]"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00028619069",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028619069",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028619069",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0714510637"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780714510637"
+    },
+    {
+      "type": "ISBN",
+      "value": "0714510823 pbk"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780714510828 pbk"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)16300234"
+    },
+    {
+      "type": "Local",
+      "value": "9910884640602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography /",
+      "type": "main"
+    },
+    {
+      "value": "Chroniques de ma vie.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stravinsky, Igor,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Calder and Boyars,"
+    ],
+    "date": "1975.",
+    "year": 1975,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xi, 180 pages, 4 pages of plates :",
+    "illustrations": "portraits ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Composers",
+      "type": "topical"
+    },
+    {
+      "value": "Composers.",
+      "type": "topical"
+    },
+    {
+      "value": "Stravinsky, Igor,",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    }
+  ]
+}

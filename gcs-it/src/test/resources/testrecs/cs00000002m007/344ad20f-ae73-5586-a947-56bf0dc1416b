@@ -1,0 +1,121 @@
+{
+  "id": "marc:001:in00029510349",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029510349",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029510349",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 52006994 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)550083"
+    },
+    {
+      "type": "Local",
+      "value": "9910552809802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Whale",
+      "type": "alternative"
+    },
+    {
+      "value": "Moby-Dick, or, The whale /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Hendricks House,"
+    ],
+    "date": "1962.",
+    "year": 1962,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "lii, 857 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab,",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab, Captain (Fictitious character)",
+      "type": "topical"
+    },
+    {
+      "value": "Allegories.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whales.",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling.",
+      "type": "topical"
+    }
+  ]
+}

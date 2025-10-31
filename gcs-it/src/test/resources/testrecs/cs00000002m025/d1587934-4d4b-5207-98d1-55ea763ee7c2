@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00025841825",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025841825",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025841825",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:33Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:33Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0701203420"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780701203429"
+    },
+    {
+      "type": "LCCN",
+      "value": " 72175002 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)281357"
+    },
+    {
+      "type": "Local",
+      "value": "9910271027302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cavafy, Constantine,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mavrogordato, John,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Warner, Rex,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Hogarth Press,"
+    ],
+    "date": "1971.",
+    "year": 1971,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "5 preliminary leaves, 199 pages",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Cavafy, Constantine,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)555229209",
+      "Poems."
+    ]
+  }
+}

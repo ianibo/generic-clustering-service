@@ -1,0 +1,82 @@
+{
+  "id": "marc:001:ugain00010158941",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ugain00010158941",
+    "sourceRecordUri": "https://catalog.example.org/record/ugain00010158941",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "ocm04021469"
+    },
+    {
+      "type": "Local",
+      "value": "(GUA)582731"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)582731-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_UGA)995827313902959"
+    },
+    {
+      "type": "Local",
+      "value": "995827313902959"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of Coleridge /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Coleridge, Samuel Taylor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Symons, Arthur,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Methuen,"
+    ],
+    "date": "1905.",
+    "year": 1905,
+    "countryCode": "b 0"
+  },
+  "physical": {
+    "extent": "1, 223 p., [1] leaf of plates :",
+    "illustrations": "port. ;",
+    "dimensions": "18 cm"
+  }
+}

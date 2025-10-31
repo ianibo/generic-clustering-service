@@ -1,0 +1,106 @@
+{
+  "id": "marc:001:in00030445020",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030445020",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030445020",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 54002888 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2127031"
+    },
+    {
+      "type": "Local",
+      "value": "9910776247602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Faust. Part one.",
+      "type": "main"
+    },
+    {
+      "value": "Faust.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Morgan, Bayard Quincy,",
+      "role": "ed. and tr.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Liberal Arts Press"
+    ],
+    "date": "[1954]",
+    "year": 1954,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiv, 127 pages",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Library of liberal arts,",
+      "numbering": "no. 33"
+    },
+    {
+      "title": "Library of liberal arts ;",
+      "numbering": "33."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)590780319",
+      "(OCoLC)612198897",
+      "Faust. Part one."
+    ]
+  }
+}

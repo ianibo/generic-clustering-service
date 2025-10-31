@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00027967055",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027967055",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027967055",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0747518629"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780747518624"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)32365563"
+    },
+    {
+      "type": "Local",
+      "value": "9910145172002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pope, Alexander,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hamilton, Ian,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Bloomsbury Pub.,"
+    ],
+    "date": "1994.",
+    "year": 1994,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "117 pages ;",
+    "dimensions": "16 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "Bloomsbury poetry classics"
+    },
+    {
+      "title": "Bloomsbury poetry classics."
+    }
+  ]
+}

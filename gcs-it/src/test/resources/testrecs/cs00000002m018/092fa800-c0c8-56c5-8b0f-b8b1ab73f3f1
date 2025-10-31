@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00026906289",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026906289",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026906289",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0460000438"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460000437"
+    },
+    {
+      "type": "ISBN",
+      "value": "0460010433"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460010436"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2381795"
+    },
+    {
+      "type": "Local",
+      "value": "9910778945602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Coleridge, Samuel Taylor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Beer, John B.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York :"
+    ],
+    "publisher": [
+      "Dent ;",
+      "Dutton,"
+    ],
+    "date": "1974, ©1973.",
+    "year": 1974,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xxxvi, 371 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no 43"
+    },
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no 43"
+    },
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no 43."
+    },
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no 43."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)903702643",
+      "Poems."
+    ]
+  }
+}

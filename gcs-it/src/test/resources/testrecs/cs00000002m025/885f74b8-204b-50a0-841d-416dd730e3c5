@@ -1,0 +1,69 @@
+{
+  "id": "marc:001:in00026958599",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026958599",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026958599",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)12261360"
+    },
+    {
+      "type": "Local",
+      "value": "9910212865302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gould, Theodore A.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "[publisher not identified],"
+    ],
+    "date": "[1846?]",
+    "year": 1846,
+    "countryCode": " a "
+  },
+  "physical": {
+    "extent": "74 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "series": [
+    {
+      "title": "American poetry, 1609-1900.",
+      "numbering": "no. 968."
+    }
+  ]
+}

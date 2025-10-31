@@ -1,0 +1,132 @@
+{
+  "id": "marc:001:in00026023184",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026023184",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026023184",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0856354155"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780856354151"
+    },
+    {
+      "type": "LCCN",
+      "value": " 82185805 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)9311417"
+    },
+    {
+      "type": "Local",
+      "value": "9910507009602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "John Gower's poetry",
+      "type": "alternative"
+    },
+    {
+      "value": "Selected poetry /",
+      "type": "main"
+    },
+    {
+      "value": "Confessio amantis.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gower, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Weinberg, Carole.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "enm"
+  ],
+  "publication": {
+    "place": [
+      "Manchester :"
+    ],
+    "publisher": [
+      "Carcanet,"
+    ],
+    "date": "1983.",
+    "year": 1983,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "184 pages ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Christian ethics",
+      "type": "topical"
+    },
+    {
+      "value": "Christian ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "Christian poetry, English (Middle)",
+      "type": "topical"
+    },
+    {
+      "value": "Courtly love",
+      "type": "topical"
+    },
+    {
+      "value": "Courtly love.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Fyfield books"
+    },
+    {
+      "title": "Fyfield books."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)560371913",
+      "Selected poetry."
+    ]
+  }
+}

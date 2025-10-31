@@ -1,0 +1,89 @@
+{
+  "id": "marc:001:in00027084428",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027084428",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027084428",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)11687372"
+    },
+    {
+      "type": "Local",
+      "value": "9911148359502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Harper, Frances Ellen Watkins,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Freeport, N.Y. :"
+    ],
+    "publisher": [
+      "Books for Libraries Press,"
+    ],
+    "date": "1970.",
+    "year": 1970,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "vi, 90 pages",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "subjects": [
+    {
+      "value": "African American women",
+      "type": "topical"
+    },
+    {
+      "value": "African American women.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Black heritage library collection"
+    },
+    {
+      "title": "Black heritage library collection.",
+      "numbering": "LAC 13452."
+    },
+    {
+      "title": "Black heritage library collection.",
+      "numbering": "LAC 13452."
+    }
+  ]
+}

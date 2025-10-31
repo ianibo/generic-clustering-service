@@ -1,0 +1,167 @@
+{
+  "id": "marc:001:in00028202172",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028202172",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028202172",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0393972836"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780393972832"
+    },
+    {
+      "type": "Other",
+      "value": "9780393972832"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2001042716"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)47183528"
+    },
+    {
+      "type": "Local",
+      "value": "9910238206102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Moby-Dick /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Parker, Hershel,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Hayford, Harrison,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "Second edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Norton,"
+    ],
+    "date": "[2002]",
+    "year": 2002,
+    "countryCode": "ab "
+  },
+  "physical": {
+    "extent": "xv, 726 pages :",
+    "illustrations": "illustrations, maps ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab,",
+      "type": "topical"
+    },
+    {
+      "value": "Allegories.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Melville, Herman,",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill",
+      "type": "topical"
+    },
+    {
+      "value": "Moby Dick (Melville, Herman)",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling ships",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Norton critical edition"
+    },
+    {
+      "title": "Norton critical edition."
+    }
+  ]
+}

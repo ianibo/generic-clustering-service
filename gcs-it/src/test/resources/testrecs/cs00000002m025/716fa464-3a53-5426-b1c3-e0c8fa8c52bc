@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:in00028247310",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028247310",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028247310",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140424512"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140424515"
+    },
+    {
+      "type": "Other",
+      "value": "99810064188"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)59264377"
+    },
+    {
+      "type": "Local",
+      "value": "9910125881002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Walt Whitman : the complete poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Whitman, Walt,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Murphy, Francis.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Penguin,"
+    ],
+    "date": "2004.",
+    "year": 2004,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "912 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

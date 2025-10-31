@@ -1,0 +1,306 @@
+{
+  "id": "marc:001:in00026278384",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026278384",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026278384",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0788853643"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780788853647"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781558908871"
+    },
+    {
+      "type": "ISBN",
+      "value": "1558908870"
+    },
+    {
+      "type": "Other",
+      "value": "786936239911"
+    },
+    {
+      "type": "gtin-14",
+      "value": "00786936239911"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)63135044"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "35171"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Dead Poets Society /",
+      "type": "main"
+    },
+    {
+      "value": "Dead Poets Society (Motion picture)",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Weir, Peter,",
+      "role": "film director.",
+      "kind": "person"
+    },
+    {
+      "name": "Haft, Steven,",
+      "role": "film producer.",
+      "kind": "person"
+    },
+    {
+      "name": "Witt, Paul Junger,",
+      "role": "film producer.",
+      "kind": "person"
+    },
+    {
+      "name": "Thomas, Tony,",
+      "role": "film producer.",
+      "kind": "person"
+    },
+    {
+      "name": "Schulman, Tom,",
+      "role": "screenwriter.",
+      "kind": "person"
+    },
+    {
+      "name": "Williams, Robin,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Leonard, Robert Sean,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Hawke, Ethan,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Charles, Josh,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Hansen, Gale,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Kussman, Dylan,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Ruggiero, Allelon,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Waterston, James,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Powers, Alexandra,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Lloyd, Norman,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Smith, Kurtwood,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Martin, George,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Pownall, Leon,",
+      "role": "actor.",
+      "kind": "person"
+    },
+    {
+      "name": "Jarre, Maurice,",
+      "role": "composer (expression)",
+      "kind": "person"
+    },
+    {
+      "name": "Seale, John,",
+      "role": "cinematographer.",
+      "kind": "person"
+    },
+    {
+      "name": "Anderson, William,",
+      "role": "editor of moving image work.",
+      "kind": "person"
+    },
+    {
+      "name": "Touchstone Pictures,",
+      "role": "presenter.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Silver Screen Partners IV,",
+      "role": "film production company.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Witt-Thomas Productions,",
+      "role": "film production company.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Touchstone Home Entertainment (Firm),",
+      "role": "publisher.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Buena Vista Home Entertainment (Firm),",
+      "role": "distributor.",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "edition": {
+    "statement": "Special edition."
+  },
+  "publication": {
+    "place": [
+      "[Burbank, CA] :"
+    ],
+    "publisher": [
+      "Touchstone Home Entertainment,"
+    ],
+    "date": "2006.",
+    "year": 2006,
+    "countryCode": "cau"
+  },
+  "physical": {
+    "extent": "1 videodisc (approximately 129 min.) :",
+    "illustrations": "sound, color ;",
+    "dimensions": "4 3/4 in.",
+    "contentType": "two-dimensional moving image",
+    "mediaType": "video",
+    "carrierType": "videodisc"
+  },
+  "subjects": [
+    {
+      "value": "Boarding school students",
+      "type": "topical"
+    },
+    {
+      "value": "Boarding schools",
+      "type": "topical"
+    },
+    {
+      "value": "DVD-Video discs.",
+      "type": "topical"
+    },
+    {
+      "value": "Drama",
+      "type": "topical"
+    },
+    {
+      "value": "English teachers",
+      "type": "topical"
+    },
+    {
+      "value": "Feature films",
+      "type": "topical"
+    },
+    {
+      "value": "Feature films.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction films",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction films.",
+      "type": "topical"
+    },
+    {
+      "value": "Films de fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "French language materials",
+      "type": "topical"
+    },
+    {
+      "value": "Private schools",
+      "type": "topical"
+    },
+    {
+      "value": "Teacher-student relationship",
+      "type": "topical"
+    },
+    {
+      "value": "Teacher-student relationships",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "Video recordings for the hearing impaired",
+      "type": "topical"
+    },
+    {
+      "value": "Video recordings for the hearing impaired.",
+      "type": "topical"
+    },
+    {
+      "value": "Vidéos pour personnes ayant une déficience auditive.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Hartwick classic film leadership case"
+    },
+    {
+      "title": "Hartwick classic film leadership case."
+    }
+  ]
+}

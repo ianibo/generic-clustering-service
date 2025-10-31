@@ -1,0 +1,89 @@
+{
+  "id": "marc:001:in00026712617",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026712617",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026712617",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0573633371"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780573633379"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2007540846"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)76954224"
+    },
+    {
+      "type": "Local",
+      "value": "9910672977302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Purgatorio /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dorfman, Ariel.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Samuel French, Inc.,"
+    ],
+    "date": "©2006.",
+    "year": 2006,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "49 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Purgatory",
+      "type": "topical"
+    },
+    {
+      "value": "Purgatory.",
+      "type": "topical"
+    }
+  ]
+}

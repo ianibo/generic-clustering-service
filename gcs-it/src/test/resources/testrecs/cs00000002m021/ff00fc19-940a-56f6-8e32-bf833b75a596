@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00030457408",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030457408",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030457408",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)11201014"
+    },
+    {
+      "type": "Local",
+      "value": "9911120243402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The works of John C. Calhoun.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Calhoun, John C.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Crallé, Richard K.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "South Carolina. General Assembly.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "D. Appleton and Co.,"
+    ],
+    "date": "1851-56.",
+    "year": 1851,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "6 volumes",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "subjects": [
+    {
+      "value": "1811-1860",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Library of American civilization ;",
+      "numbering": "LAC 20324-29."
+    }
+  ]
+}

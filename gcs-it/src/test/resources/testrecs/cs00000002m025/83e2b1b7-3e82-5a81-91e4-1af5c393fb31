@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00027313685",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027313685",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027313685",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0195402510"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780195402513"
+    },
+    {
+      "type": "LCCN",
+      "value": " 76372571 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2322255"
+    },
+    {
+      "type": "Local",
+      "value": "9910378980202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Atwood, Margaret,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Toronto :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1976.",
+    "year": 1976,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "240 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Canadian poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)568043683",
+      "Selected poems."
+    ]
+  }
+}

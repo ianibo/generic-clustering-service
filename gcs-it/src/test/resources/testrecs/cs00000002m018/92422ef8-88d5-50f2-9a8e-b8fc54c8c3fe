@@ -1,0 +1,85 @@
+{
+  "id": "marc:001:in00027861631",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027861631",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027861631",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 28008888 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6519639"
+    },
+    {
+      "type": "Local",
+      "value": "9910659979402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rossetti, Dante Gabriel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "J.W. Lovell Company"
+    ],
+    "date": "[©1883]",
+    "year": 1883,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "305 pages",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bookplates (Provenance).",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Lovell's library,",
+      "numbering": "vol. 6, no. 329"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)655095362",
+      "Poems."
+    ]
+  }
+}

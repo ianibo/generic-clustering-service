@@ -1,0 +1,121 @@
+{
+  "id": "marc:001:in00028349826",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028349826",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028349826",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 59007541 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)280185"
+    },
+    {
+      "type": "Local",
+      "value": "9910533585202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Melville /",
+      "type": "main"
+    },
+    {
+      "value": "Melville par lui-méme.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mayoux, Jean-Jacques,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Ashbery, John,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Grove Press,"
+    ],
+    "date": "[1960]",
+    "year": 1960,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "190 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biography",
+      "type": "topical"
+    },
+    {
+      "value": "Melville, Herman,",
+      "type": "topical"
+    },
+    {
+      "value": "Novelists, American",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Evergreen profile book 9"
+    },
+    {
+      "title": "Evergreen profile book ;",
+      "numbering": "9."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647595753",
+      "Melville."
+    ]
+  }
+}

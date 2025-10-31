@@ -1,0 +1,131 @@
+{
+  "id": "marc:001:in00028645327",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028645327",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028645327",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0500930058"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780500930052"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2004102816"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)57371944"
+    },
+    {
+      "type": "Local",
+      "value": "9911612365602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Steiner, Barbara,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Yang, Jun,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "Thames & Hudson,"
+    ],
+    "date": "2004.",
+    "year": 2004,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "207 pages :",
+    "illustrations": "illustrations (some color) ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Art, Modern",
+      "type": "topical"
+    },
+    {
+      "value": "Art, Modern.",
+      "type": "topical"
+    },
+    {
+      "value": "Catalog",
+      "type": "topical"
+    },
+    {
+      "value": "Catalogs.",
+      "type": "topical"
+    },
+    {
+      "value": "Identity (Psychology) in art",
+      "type": "topical"
+    },
+    {
+      "value": "Identity (Psychology) in art.",
+      "type": "topical"
+    },
+    {
+      "value": "Self (Philosophy) in art",
+      "type": "topical"
+    },
+    {
+      "value": "Self (Philosophy) in art.",
+      "type": "topical"
+    },
+    {
+      "value": "catalogs (documents)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Art works"
+    },
+    {
+      "title": "Art works."
+    }
+  ]
+}

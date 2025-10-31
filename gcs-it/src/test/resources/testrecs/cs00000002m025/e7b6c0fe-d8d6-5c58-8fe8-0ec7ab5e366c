@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:in00029061702",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029061702",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029061702",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)3377506"
+    },
+    {
+      "type": "Local",
+      "value": "9910246941302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Analects of Confucius /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Confucius.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Waley, Arthur,",
+      "role": "ed. and tr.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Random House,"
+    ],
+    "date": "©1938.",
+    "year": 1938,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "257 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "China.",
+      "type": "topical"
+    },
+    {
+      "value": "Ethics",
+      "type": "topical"
+    },
+    {
+      "value": "Ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy, Chinese.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Modern library paperbacks"
+    }
+  ]
+}

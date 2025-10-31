@@ -1,0 +1,138 @@
+{
+  "id": "marc:001:in00027375179",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027375179",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027375179",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)762139"
+    },
+    {
+      "type": "Local",
+      "value": "9910684427202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An inquiry into the nature and causes of the wealth of nations /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Smith, Adam,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Strahan, William,",
+      "role": "bookseller.",
+      "kind": "person"
+    },
+    {
+      "name": "Cadell, T.",
+      "role": "bookseller.",
+      "kind": "person"
+    },
+    {
+      "name": "Thordarson Collection.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Printed for W. Strahan and T. Cadell, in the Strand,"
+    ],
+    "date": "MDCCLXXVI [1776]",
+    "year": 1776,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "2 volumes ([12], 510; [4], 587, [1] pages) ;",
+    "dimensions": "30 cm (4to)",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Booksellers' advertisements.",
+      "type": "topical"
+    },
+    {
+      "value": "Capitalism",
+      "type": "topical"
+    },
+    {
+      "value": "Capitalism.",
+      "type": "topical"
+    },
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Economics",
+      "type": "topical"
+    },
+    {
+      "value": "Economics.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "International economic relations",
+      "type": "topical"
+    },
+    {
+      "value": "International economic relations.",
+      "type": "topical"
+    },
+    {
+      "value": "Poverty",
+      "type": "topical"
+    },
+    {
+      "value": "Poverty.",
+      "type": "topical"
+    },
+    {
+      "value": "Wealth",
+      "type": "topical"
+    },
+    {
+      "value": "Wealth.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)889644937",
+      "Inquiry into the nature and causes of the wealth of nations."
+    ]
+  }
+}

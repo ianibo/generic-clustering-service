@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:ugain00010213361",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ugain00010213361",
+    "sourceRecordUri": "https://catalog.example.org/record/ugain00010213361",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300121563"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300121568"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2008930384"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)173167261"
+    },
+    {
+      "type": "Local",
+      "value": "(GUA)3671626"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)3671626-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_UGA)9936716263902959"
+    },
+    {
+      "type": "Local",
+      "value": "9936716263902959"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hill, Geoffrey.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "2009.",
+    "year": 2009,
+    "countryCode": "ctu"
+  },
+  "physical": {
+    "extent": "276 p. ;",
+    "dimensions": "25 cm"
+  }
+}

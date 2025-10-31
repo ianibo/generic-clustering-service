@@ -1,0 +1,115 @@
+{
+  "id": "marc:001:in00026639229",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026639229",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026639229",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140186573"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140186574"
+    },
+    {
+      "type": "LCCN",
+      "value": " 64011226 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)29875721"
+    },
+    {
+      "type": "Local",
+      "value": "9910422515202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lawrence, D. H.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pinto, Vivian de Sola,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Roberts, Warren,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1993, ©1971.",
+    "year": 1993,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "1079 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

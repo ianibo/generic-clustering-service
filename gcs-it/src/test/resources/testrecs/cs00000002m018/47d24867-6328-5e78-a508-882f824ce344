@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00029866203",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029866203",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029866203",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0856353019"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780856353017"
+    },
+    {
+      "type": "LCCN",
+      "value": " 81126189 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7734104"
+    },
+    {
+      "type": "Local",
+      "value": "9910153522102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Henryson, Robert,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Barron, W. R. J.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Manchester [Greater Manchester] :"
+    ],
+    "publisher": [
+      "Carcanet,"
+    ],
+    "date": "1981.",
+    "year": 1981,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "125 pages ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Scottish poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Scottish poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "To 1700",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Fyfield books"
+    },
+    {
+      "title": "Fyfield books."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)563068231",
+      "Selected poems."
+    ]
+  }
+}

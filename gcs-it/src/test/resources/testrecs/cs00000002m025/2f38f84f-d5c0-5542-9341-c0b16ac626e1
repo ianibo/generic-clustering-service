@@ -1,0 +1,67 @@
+{
+  "id": "marc:001:in00026632368",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026632368",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026632368",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)11678692"
+    },
+    {
+      "type": "Local",
+      "value": "9910266359902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Benfield, Lowell Vance.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Place of publication not identified] :"
+    ],
+    "publisher": [
+      "L.V. Benfield,"
+    ],
+    "date": "©1982.",
+    "year": 1982,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "[14], 159 pages ;",
+    "dimensions": "28 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "id": "marc:001:in00030161397",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030161397",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030161397",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0374528373"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780374528379"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2002022757"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)49225953"
+    },
+    {
+      "type": "Local",
+      "value": "9910042789602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The brothers Karamazov : a novel in four parts with epilogue /",
+      "type": "main"
+    },
+    {
+      "value": "Bratʹi︠a︡ Karamazovy.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pevear, Richard,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Volokhonsky, Larissa,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "Farrar, Straus and Giroux paperback edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Farrar, Straus and Giroux,"
+    ],
+    "date": "[2002]",
+    "year": 2002,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xx, 796 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1533-1917",
+      "type": "topical"
+    },
+    {
+      "value": "Brothers",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Father-son relationship",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and sons",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Russian fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Russian fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Russian literature",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "id": "marc:001:in00027047392",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027047392",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027047392",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "LCCN",
+      "value": " 55010354 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)37551439"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Whale",
+      "type": "alternative"
+    },
+    {
+      "value": "Moby Dick, or, The whale /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopaedia Britannica,"
+    ],
+    "date": "©1952.",
+    "year": 1952,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xx, 420 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab,",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab, Captain (Fictitious character)",
+      "type": "topical"
+    },
+    {
+      "value": "Animal",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Jugendbuch.",
+      "type": "topical"
+    },
+    {
+      "value": "Literature",
+      "type": "topical"
+    },
+    {
+      "value": "Literature, Modern.",
+      "type": "topical"
+    },
+    {
+      "value": "Literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Mensch",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Rache",
+      "type": "topical"
+    },
+    {
+      "value": "Romans.",
+      "type": "topical"
+    },
+    {
+      "value": "Schiffsbesatzung",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Seeschifffahrt",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains.",
+      "type": "topical"
+    },
+    {
+      "value": "Tod",
+      "type": "topical"
+    },
+    {
+      "value": "Walfang",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whales.",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling ships",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling ships.",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 48"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 48."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)758503074",
+      "Moby Dick, or, The whale."
+    ]
+  }
+}

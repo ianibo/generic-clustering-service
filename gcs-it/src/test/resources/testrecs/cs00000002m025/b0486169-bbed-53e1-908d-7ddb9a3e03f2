@@ -1,0 +1,72 @@
+{
+  "id": "marc:001:in00030381345",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030381345",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030381345",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2359120"
+    },
+    {
+      "type": "Local",
+      "value": "9910131308302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Reznikoff, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cooney, Seamus.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Santa Barbara, Calif. :"
+    ],
+    "publisher": [
+      "Black Sparrow Press,"
+    ],
+    "date": "1976.",
+    "year": 1976,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

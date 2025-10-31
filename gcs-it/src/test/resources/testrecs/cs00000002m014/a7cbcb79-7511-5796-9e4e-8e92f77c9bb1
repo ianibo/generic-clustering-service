@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00029071059",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029071059",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029071059",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0374529655"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780374529659"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)61173626"
+    },
+    {
+      "type": "Local",
+      "value": "9910039493902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hughes, Ted,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Keegan, Paul,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st American paperback edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Farrar, Straus and Giroux,"
+    ],
+    "date": "2005.",
+    "year": 2005,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xli, 1333 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "marc:001:in00030077859",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030077859",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030077859",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 09016924 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1827189"
+    },
+    {
+      "type": "Local",
+      "value": "9911330263202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Divine comedy of Dante Alighieri;",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Longfellow, Henry Wadsworth,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Welsh, Charles,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Davoe Press"
+    ],
+    "date": "[1909]",
+    "year": 1909,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "4 volumes",
+    "illustrations": "frontispiece, plates",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dante Alighieri,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)807005572",
+      "Divine comedy of Dante Alighieri."
+    ]
+  }
+}

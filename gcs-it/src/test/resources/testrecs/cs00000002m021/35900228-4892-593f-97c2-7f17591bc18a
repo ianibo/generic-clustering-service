@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00026835621",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026835621",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026835621",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 68015109 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)425585"
+    },
+    {
+      "type": "Local",
+      "value": "9911069133702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Calhoun, John C.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Crallé, Richard K.",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York],"
+    ],
+    "publisher": [
+      "[Russell & Russell],"
+    ],
+    "date": "[1968]",
+    "year": 1968,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "6 volumes",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1815-1861",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government",
+      "type": "topical"
+    },
+    {
+      "value": "Statesmen",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)613235785",
+      "Works."
+    ]
+  }
+}

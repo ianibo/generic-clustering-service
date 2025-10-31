@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00027767926",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027767926",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027767926",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)4388435"
+    },
+    {
+      "type": "Local",
+      "value": "9911258044102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "A tale of two cities,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston,",
+      "New York,"
+    ],
+    "publisher": [
+      "Houghton, Mifflin Co.,"
+    ],
+    "date": "1931[c1894]",
+    "year": 1931,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "vi, 373 pages",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1789 - 1799",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "France.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Riverside library"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)988186266",
+      "Tale of two cities."
+    ]
+  }
+}

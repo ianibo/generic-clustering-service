@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00026785056",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026785056",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026785056",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "3518030558"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783518030554"
+    },
+    {
+      "type": "ISBN",
+      "value": "069103656X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691036564"
+    },
+    {
+      "type": "LCCN",
+      "value": " 82016999 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8847156"
+    },
+    {
+      "type": "Local",
+      "value": "9910297195102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Faust I & II /",
+      "type": "main"
+    },
+    {
+      "value": "Faust.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Atkins, Stuart,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "engger"
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, MA :"
+    ],
+    "publisher": [
+      "Suhrkamp/Insel Publishers Boston,"
+    ],
+    "date": "©1984.",
+    "year": 1984,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "x, 329 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Faust,",
+      "type": "topical"
+    },
+    {
+      "value": "Plays (Performed works).",
+      "type": "topical"
+    },
+    {
+      "value": "Tragedies.",
+      "type": "topical"
+    },
+    {
+      "value": "scripts (documents)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Goethe edition ;",
+      "numbering": "v. 2"
+    }
+  ]
+}

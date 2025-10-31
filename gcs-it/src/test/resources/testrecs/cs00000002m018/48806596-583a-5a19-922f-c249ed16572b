@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00028439732",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028439732",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028439732",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780375711985"
+    },
+    {
+      "type": "ISBN",
+      "value": "0375711988"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2010032374"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)646113534"
+    },
+    {
+      "type": "Local",
+      "value": "9910461269902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hecht, Anthony,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "McClatchy, J. D.,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Alfred A. Knopf,"
+    ],
+    "date": "2011.",
+    "year": 2011,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xiv, 272 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1085906583",
+      "Selected poems."
+    ]
+  }
+}

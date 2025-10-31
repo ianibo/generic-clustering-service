@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00030184698",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030184698",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030184698",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780875657226"
+    },
+    {
+      "type": "ISBN",
+      "value": "0875657222"
+    },
+    {
+      "type": "Other",
+      "value": "40029305715"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2019002921"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1084629272"
+    },
+    {
+      "type": "Local",
+      "value": "9918796800202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New and selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Reposa, Carol Coffee,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Fort Worth, Texas :"
+    ],
+    "publisher": [
+      "TCU Press,"
+    ],
+    "date": "[2019]",
+    "year": 2019,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "86 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "TCU Texas poet laureate series"
+    },
+    {
+      "title": "TCU Texas poets laureate series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 2019004872",
+      "9780875657233",
+      "New and selected poems."
+    ]
+  }
+}

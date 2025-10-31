@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:in00029804083",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029804083",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029804083",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0048000027"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780048000026"
+    },
+    {
+      "type": "LCCN",
+      "value": " 79040291 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5917833"
+    },
+    {
+      "type": "Local",
+      "value": "9910086555802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Robinson Crusoe /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rogers, Pat,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :",
+      "London ;"
+    ],
+    "publisher": [
+      "G. Allen & Unwin,"
+    ],
+    "date": "1979.",
+    "year": 1979,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xv, 182 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adventure stories, English",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure stories, English.",
+      "type": "topical"
+    },
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Defoe, Daniel,",
+      "type": "topical"
+    },
+    {
+      "value": "Islands in literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Robinson Crusoe (Defoe, Daniel)",
+      "type": "topical"
+    },
+    {
+      "value": "Shipwreck survival in literature.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Unwin critical library"
+    },
+    {
+      "title": "Unwin critical library."
+    }
+  ]
+}

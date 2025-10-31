@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00027996291",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027996291",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027996291",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140424512"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140424515"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781448776139"
+    },
+    {
+      "type": "ISBN",
+      "value": "1448776139"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)60779702"
+    },
+    {
+      "type": "Local",
+      "value": "9910594411402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Whitman, Walt,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Murphy, Francis.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "2004.",
+    "year": 2004,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xlviii, 38-896 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

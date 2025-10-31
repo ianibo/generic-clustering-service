@@ -1,0 +1,79 @@
+{
+  "id": "marc:001:in00028250708",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028250708",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028250708",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)4763937"
+    },
+    {
+      "type": "Local",
+      "value": "9910139325302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of S.T. Coleridge.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Coleridge, Samuel Taylor,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "William Pickering,"
+    ],
+    "date": "1844.",
+    "year": 1844,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xvi, 372 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Ink stamps",
+      "type": "topical"
+    },
+    {
+      "value": "poems.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)952574577",
+      "Poems of S.T. Coleridge."
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:ssuin00000434915",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ssuin00000434915",
+    "sourceRecordUri": "https://catalog.example.org/record/ssuin00000434915",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 51008883 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1416819"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_SSU)99119364102956"
+    },
+    {
+      "type": "Local",
+      "value": "99119364102956"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Robinson Crusoe;",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Defoe, Daniel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Brown, Verne B.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago,"
+    ],
+    "publisher": [
+      "Scott, Foresman"
+    ],
+    "date": "[1951]",
+    "year": 1951,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "303 pages",
+    "illustrations": "illustrations",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Crusoe, Robinson (Fictitious character)",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "Shipwreck survival",
+      "type": "topical"
+    },
+    {
+      "value": "Shipwreck survival.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)990255488",
+      "Robinson Crusoe."
+    ]
+  }
+}

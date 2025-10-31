@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00029671393",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029671393",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029671393",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1402015461"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781402015465"
+    },
+    {
+      "type": "ISBN",
+      "value": "1402016034"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781402016035"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003059353"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)52858552"
+    },
+    {
+      "type": "Local",
+      "value": "9910378746102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Philosophy of arithmetic : psychological and logical investigations : with supplementary texts from 1887-1901 /",
+      "type": "main"
+    },
+    {
+      "value": "Philosophie der Arithmetik.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Husserl, Edmund,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Willard, Dallas,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Boston :",
+      "Dordrecht ;"
+    ],
+    "publisher": [
+      "Kluwer Academic Publishers,"
+    ],
+    "date": "©2003.",
+    "year": 2003,
+    "countryCode": "b 0"
+  },
+  "physical": {
+    "extent": "lxiv, 513 pages ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Arithmetic.",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics",
+      "type": "topical"
+    },
+    {
+      "value": "Number concept.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Edmund Husserl collected works ;",
+      "numbering": "v. 10"
+    }
+  ]
+}

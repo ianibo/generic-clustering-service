@@ -1,0 +1,83 @@
+{
+  "id": "marc:001:in00028308595",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028308595",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028308595",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "x260391963"
+    },
+    {
+      "type": "LCCN",
+      "value": " 32034371 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2098299"
+    },
+    {
+      "type": "Local",
+      "value": "9910331003702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jackson, Laura (Riding),",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Cassell,"
+    ],
+    "date": "1938.",
+    "year": 1938,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "xxviii, 477 pages, 10 leaves of plates ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1467937971",
+      "Collected poems."
+    ]
+  }
+}

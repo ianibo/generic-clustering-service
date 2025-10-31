@@ -1,0 +1,159 @@
+{
+  "id": "marc:001:in00028678325",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028678325",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028678325",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 55010356 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3805953"
+    },
+    {
+      "type": "Local",
+      "value": "9911308646302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Manifesto of the Communist Party",
+      "type": "alternative"
+    },
+    {
+      "value": "Capital /",
+      "type": "main"
+    },
+    {
+      "value": "Kapital.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marx, Karl,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Engels, Friedrich,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Moore, Samuel,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Marx, Karl,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "[1955, ©1952]",
+    "year": 1955,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "xi, 434 pages ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Capital",
+      "type": "topical"
+    },
+    {
+      "value": "Capital.",
+      "type": "topical"
+    },
+    {
+      "value": "Capitalism",
+      "type": "topical"
+    },
+    {
+      "value": "Capitalism.",
+      "type": "topical"
+    },
+    {
+      "value": "Economics",
+      "type": "topical"
+    },
+    {
+      "value": "Economics.",
+      "type": "topical"
+    },
+    {
+      "value": "Socialism",
+      "type": "topical"
+    },
+    {
+      "value": "Socialism.",
+      "type": "topical"
+    },
+    {
+      "value": "capital (economic concept)",
+      "type": "topical"
+    },
+    {
+      "value": "capitalism.",
+      "type": "topical"
+    },
+    {
+      "value": "economics.",
+      "type": "topical"
+    },
+    {
+      "value": "socialism.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 50"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 50."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756447905",
+      "Capital."
+    ]
+  }
+}

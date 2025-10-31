@@ -1,0 +1,141 @@
+{
+  "id": "marc:001:in00026819879",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026819879",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026819879",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 46006847 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1446098"
+    },
+    {
+      "type": "Local",
+      "value": "9910752129302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Meg, Jo, Beth, and Amy",
+      "type": "alternative"
+    },
+    {
+      "value": "Little women ; or Meg, Jo, Beth, and Amy /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Becker, May Lamberton,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    },
+    {
+      "name": "Van Stockum, Hilda,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cleveland ;",
+      "New York :"
+    ],
+    "publisher": [
+      "The World Publishing Company,"
+    ],
+    "date": "[1946]",
+    "year": 1946,
+    "countryCode": "ohu"
+  },
+  "physical": {
+    "extent": "537 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographical fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Family life",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works",
+      "type": "topical"
+    },
+    {
+      "value": "March family (Fictitious characters)",
+      "type": "topical"
+    },
+    {
+      "value": "New England",
+      "type": "topical"
+    },
+    {
+      "value": "Sisters",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Rainbow classics"
+    },
+    {
+      "title": "Rainbow classics."
+    }
+  ]
+}

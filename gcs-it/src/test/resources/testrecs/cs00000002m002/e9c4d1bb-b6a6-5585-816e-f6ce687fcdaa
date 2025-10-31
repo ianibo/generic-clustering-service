@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:asuin00000482648",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "asuin00000482648",
+    "sourceRecordUri": "https://catalog.example.org/record/asuin00000482648",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781561381142"
+    },
+    {
+      "type": "Local",
+      "value": "nL33014"
+    },
+    {
+      "type": "Local",
+      "value": "83847"
+    },
+    {
+      "type": "Local",
+      "value": "(ZIU)122320"
+    },
+    {
+      "type": "Local",
+      "value": "(GAlDC)122320-dartondb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_ALBANY)991223203702933"
+    },
+    {
+      "type": "Local",
+      "value": "991223203702933"
+    }
+  ],
+  "titles": [
+    {
+      "value": "A tale of two cities /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia, Pa. :"
+    ],
+    "publisher": [
+      "Courage Books,"
+    ],
+    "date": "c1992.",
+    "year": 1992,
+    "countryCode": "pau"
+  },
+  "physical": {
+    "extent": "272 p. ;",
+    "dimensions": "22 cm."
+  },
+  "subjects": [
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "London (England)",
+      "type": "topical"
+    },
+    {
+      "value": "Paris (France)",
+      "type": "topical"
+    },
+    {
+      "value": "War stories.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 91058650"
+    ]
+  }
+}

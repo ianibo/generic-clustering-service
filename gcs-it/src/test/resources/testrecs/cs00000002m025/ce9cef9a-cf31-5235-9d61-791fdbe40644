@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:in00029857314",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029857314",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029857314",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)13660177"
+    },
+    {
+      "type": "Local",
+      "value": "9910307130002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Service, Robert W.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "T. Fisher Unwin,"
+    ],
+    "date": "1917.",
+    "year": 1917,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "31 pages ;",
+    "dimensions": "15 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Authors, Canadian",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, Canadian.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biography",
+      "type": "topical"
+    },
+    {
+      "value": "Service, Robert W.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1314910083",
+      "Selected poems."
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "id": "marc:001:in00029879568",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029879568",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029879568",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1555428533"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781555428532"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87646993 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)20750204"
+    },
+    {
+      "type": "Local",
+      "value": "9910518970702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Oregon experience",
+      "type": "alternative"
+    },
+    {
+      "value": "State-university collaboration : the Oregon experience /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bloom, Joseph D.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "San Francisco :"
+    ],
+    "publisher": [
+      "Jossey-Bass,"
+    ],
+    "date": "©1989.",
+    "year": 1989,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "127 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Community Mental Health Services",
+      "type": "topical"
+    },
+    {
+      "value": "Community Psychiatry",
+      "type": "topical"
+    },
+    {
+      "value": "Community mental health services",
+      "type": "topical"
+    },
+    {
+      "value": "Community psychiatry",
+      "type": "topical"
+    },
+    {
+      "value": "Delivery of Health Care",
+      "type": "topical"
+    },
+    {
+      "value": "Government",
+      "type": "topical"
+    },
+    {
+      "value": "Interinstitutional Relations",
+      "type": "topical"
+    },
+    {
+      "value": "Internship and Residency",
+      "type": "topical"
+    },
+    {
+      "value": "Medical cooperation",
+      "type": "topical"
+    },
+    {
+      "value": "Mental health services",
+      "type": "topical"
+    },
+    {
+      "value": "Oregon",
+      "type": "topical"
+    },
+    {
+      "value": "Psychiatry",
+      "type": "topical"
+    },
+    {
+      "value": "Public health administration",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "University cooperation",
+      "type": "topical"
+    },
+    {
+      "value": "governments (administrative bodies)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "New directions for mental health services,",
+      "numbering": "no. 44 (Winter 1989)"
+    },
+    {
+      "title": "New directions for mental health services,",
+      "numbering": "no. 44 (Winter 1989)"
+    },
+    {
+      "title": "New directions for mental health services ;",
+      "numbering": "no. 44."
+    },
+    {
+      "title": "New directions for mental health services ;",
+      "numbering": "no. 44."
+    }
+  ]
+}

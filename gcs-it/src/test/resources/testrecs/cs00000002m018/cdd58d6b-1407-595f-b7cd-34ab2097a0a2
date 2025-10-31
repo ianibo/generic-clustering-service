@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00029022004",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029022004",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029022004",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)24045614"
+    },
+    {
+      "type": "Local",
+      "value": "9910243419702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "St. Augustine's Confessions /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Augustine,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Watts, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rouse, W. H. D.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, MA :",
+      "London :"
+    ],
+    "publisher": [
+      "Harvard University Press ;",
+      "W. Heinemann,"
+    ],
+    "date": "1946, 1912.",
+    "year": 1946,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Augustine,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Loeb classical library"
+    },
+    {
+      "title": "Loeb classical library."
+    }
+  ]
+}

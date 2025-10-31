@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00028479028",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028479028",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028479028",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 65003796 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2430326"
+    },
+    {
+      "type": "Local",
+      "value": "9911403291402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "War and peace.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "World Confederation of Organizations of the Teaching Profession.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Silva-Vigier, Anil de,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Simson, Otto von,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "London]"
+    ],
+    "publisher": [
+      "Educational Productions"
+    ],
+    "date": "[©1964]",
+    "year": 1964,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "64 pages",
+    "illustrations": "illustrations (some color)",
+    "dimensions": "32 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Peace in art",
+      "type": "topical"
+    },
+    {
+      "value": "Peace in art.",
+      "type": "topical"
+    },
+    {
+      "value": "War in art",
+      "type": "topical"
+    },
+    {
+      "value": "War in art.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Man through his art,",
+      "numbering": "v. 1"
+    },
+    {
+      "title": "Man through his art ;",
+      "numbering": "v. 1."
+    }
+  ]
+}

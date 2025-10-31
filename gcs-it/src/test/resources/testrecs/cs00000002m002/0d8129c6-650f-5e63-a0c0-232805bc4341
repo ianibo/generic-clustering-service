@@ -1,0 +1,178 @@
+{
+  "id": "marc:001:in00025834751",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025834751",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025834751",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780199219445"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199219443"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199219360"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199219362"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199219377"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199219370"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199219384"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199219389"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199219391"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199219397"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199219407"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199219400"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199219414"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199219419"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2010926298"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)680642461"
+    },
+    {
+      "type": "Local",
+      "value": "9911922331802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Roger Penrose, Collected works",
+      "type": "alternative"
+    },
+    {
+      "value": "Collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Penrose, Roger.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oxford :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "2011.",
+    "year": 2011,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "6 volumes :",
+    "illustrations": "illustrations, portraits ;",
+    "dimensions": "26 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Mathematical physics.",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics.",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy.",
+      "type": "topical"
+    },
+    {
+      "value": "Physics",
+      "type": "topical"
+    },
+    {
+      "value": "Physics.",
+      "type": "topical"
+    },
+    {
+      "value": "philosophy.",
+      "type": "topical"
+    },
+    {
+      "value": "physics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford science publications"
+    },
+    {
+      "title": "Oxford science publications."
+    }
+  ]
+}

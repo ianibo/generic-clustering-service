@@ -1,0 +1,123 @@
+{
+  "id": "marc:001:in00030269547",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030269547",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030269547",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0151652066"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780151652068"
+    },
+    {
+      "type": "ISBN",
+      "value": "0151652058"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780151652051"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87018175 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)17106566"
+    },
+    {
+      "type": "Local",
+      "value": "9910050175802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New and collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wilbur, Richard,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "San Diego :"
+    ],
+    "publisher": [
+      "Harcourt Brace Jovanovich,"
+    ],
+    "date": "[1988]",
+    "year": 1988,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xv, 393 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poems",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)568723826",
+      "(OCoLC)608413586",
+      "New and collected poems."
+    ]
+  }
+}

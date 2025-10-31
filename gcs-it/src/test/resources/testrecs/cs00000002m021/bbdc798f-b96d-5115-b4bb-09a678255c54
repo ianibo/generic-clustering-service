@@ -1,0 +1,126 @@
+{
+  "id": "marc:001:in00025748603",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025748603",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025748603",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "025202026X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780252020261"
+    },
+    {
+      "type": "LCCN",
+      "value": " 92042324 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)27144618"
+    },
+    {
+      "type": "Local",
+      "value": "9910160745702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rolfe, Edwin,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Nelson, Cary,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Hendricks, Jefferson,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Urbana :"
+    ],
+    "publisher": [
+      "University of Illinois Press,"
+    ],
+    "date": "©1993.",
+    "year": 1993,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xiv, 337 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Protest poetry, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Radicalism in literature.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The American poetry recovery series"
+    },
+    {
+      "title": "American poetry recovery series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)621525000",
+      "Collected poems."
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "id": "marc:001:in00029566914",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029566914",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029566914",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)43893188"
+    },
+    {
+      "type": "Local",
+      "value": "9911134754102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Addison, Steele, Swift, Defoe, Johnson and others",
+      "type": "alternative"
+    },
+    {
+      "value": "English essays from Sir Philip Sidney to Macaulay : with introductions and notes.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sidney, Philip,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jonson, Ben,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cowley, Abraham,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Addison, Joseph,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Steele, Richard,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Defoe, Daniel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Johnson, Samuel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hume, David,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Smith, Sydney,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Coleridge, Samuel Taylor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hazlitt, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hunt, Leigh,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lamb, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "De Quincey, Thomas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Shelley, Percy Bysshe,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Macaulay, Thomas Babington Macaulay,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "Registered ed. ; Deluxe ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Collier,"
+    ],
+    "date": "©1937.",
+    "year": 1937,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "401 pages, 1 unnumbered leaf of plates ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English essays.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Harvard classics ;",
+      "numbering": "v. [27]"
+    },
+    {
+      "title": "Harvard classics ;",
+      "numbering": "v. 27."
+    }
+  ]
+}

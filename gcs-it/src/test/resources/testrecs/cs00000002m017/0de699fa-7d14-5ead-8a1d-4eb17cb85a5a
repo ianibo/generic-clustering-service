@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00026727518",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026727518",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026727518",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)7934202"
+    },
+    {
+      "type": "Local",
+      "value": "9911292214602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gargantua and Pantagruel /",
+      "type": "main"
+    },
+    {
+      "value": "Gargantua et Pantagruel.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rabelais, François,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York,"
+    ],
+    "publisher": [
+      "Dent;",
+      "Dutton"
+    ],
+    "date": "[1954?]",
+    "year": 1954,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Gargantua (Legendary character)",
+      "type": "topical"
+    },
+    {
+      "value": "Giants (Folklore)",
+      "type": "topical"
+    },
+    {
+      "value": "Rabelais, Francois,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library,",
+      "numbering": "826-827. Romance"
+    },
+    {
+      "title": "Everyman's library ;",
+      "numbering": "826-827. Romance."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)555315569",
+      "(OCoLC)586642544",
+      "(OCoLC)609249832",
+      "Gargantua and Pantagruel."
+    ]
+  }
+}

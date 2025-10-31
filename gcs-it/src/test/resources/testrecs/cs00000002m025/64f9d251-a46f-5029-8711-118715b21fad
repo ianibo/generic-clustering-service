@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00028513732",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028513732",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028513732",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780748605903"
+    },
+    {
+      "type": "ISBN",
+      "value": "0748605908"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780748614912"
+    },
+    {
+      "type": "ISBN",
+      "value": "0748614915"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)820526735"
+    },
+    {
+      "type": "Local",
+      "value": "9910218714302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Introductions and notes from the Magnum Opus /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Alexander, J. H.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Garside, Peter.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lamont, Claire,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :"
+    ],
+    "publisher": [
+      "Edinburgh University Press,"
+    ],
+    "date": "©2012.",
+    "year": 2012,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Scott, Walter,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Edinburgh edition of the Waverley novels ;",
+      "numbering": "25a-b"
+    }
+  ]
+}

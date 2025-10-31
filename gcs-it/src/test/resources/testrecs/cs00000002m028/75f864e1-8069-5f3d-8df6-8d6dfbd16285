@@ -1,0 +1,125 @@
+{
+  "id": "marc:001:in00025975106",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025975106",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025975106",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780231141642"
+    },
+    {
+      "type": "ISBN",
+      "value": "0231141645"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780231141659"
+    },
+    {
+      "type": "ISBN",
+      "value": "0231141653"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2007005401"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)82368059"
+    },
+    {
+      "type": "Local",
+      "value": "9910117205402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The analects of Confucius /",
+      "type": "main"
+    },
+    {
+      "value": "Lun yü.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Confucius,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Watson, Burton,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Columbia University Press,"
+    ],
+    "date": "©2007.",
+    "year": 2007,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "162 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Confucius",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Translations from the Asian classics"
+    },
+    {
+      "title": "Translations from the Asian classics"
+    },
+    {
+      "title": "Translations from the Asian classics."
+    },
+    {
+      "title": "Translations from the Asian classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)608213171",
+      "Analects of Confucius."
+    ]
+  }
+}

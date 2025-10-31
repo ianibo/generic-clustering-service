@@ -1,0 +1,132 @@
+{
+  "id": "marc:001:in00029469965",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029469965",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029469965",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)26201390"
+    },
+    {
+      "type": "Local",
+      "value": "9912052995702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Manifesto of the Communist Party",
+      "type": "alternative"
+    },
+    {
+      "value": "Capital /",
+      "type": "main"
+    },
+    {
+      "value": "Kapital.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marx, Karl,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Engels, Friedrich,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Moore, Samuel.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Marx, Karl,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "2nd ed."
+  },
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopaedia Britannica,"
+    ],
+    "date": "1990.",
+    "year": 1990,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xi, 434 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Capital.",
+      "type": "topical"
+    },
+    {
+      "value": "Economics",
+      "type": "topical"
+    },
+    {
+      "value": "Economics.",
+      "type": "topical"
+    },
+    {
+      "value": "Socialism.",
+      "type": "topical"
+    },
+    {
+      "value": "economics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "50"
+    },
+    {
+      "title": "Great books of the Western world (1990) ;",
+      "numbering": "50."
+    }
+  ]
+}

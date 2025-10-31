@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00028181637",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028181637",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028181637",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0679402578"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679402572"
+    },
+    {
+      "type": "LCCN",
+      "value": " 90052904 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)23217625"
+    },
+    {
+      "type": "Local",
+      "value": "9910143903302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ransom, John Crowe,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "3rd ed., rev. and enl."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Distributed by Random House,",
+      "Knopf :"
+    ],
+    "date": "1991.",
+    "year": 1991,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "viii, 159 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    }
+  ]
+}

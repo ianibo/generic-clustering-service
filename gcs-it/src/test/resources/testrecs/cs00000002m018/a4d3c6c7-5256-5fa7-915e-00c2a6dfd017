@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:in00026888348",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026888348",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026888348",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:48Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:48Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)761022"
+    },
+    {
+      "type": "Local",
+      "value": "9910684464802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gambler",
+      "type": "alternative"
+    },
+    {
+      "value": "Victorian son",
+      "type": "alternative"
+    },
+    {
+      "value": "An autobiography.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cloete, Stuart,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Collins,"
+    ],
+    "date": "1972-",
+    "year": 1972,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "volumes",
+    "illustrations": "illustrations, portraits",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Cloete, Stuart,",
+      "type": "topical"
+    }
+  ]
+}

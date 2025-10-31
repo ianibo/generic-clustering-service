@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00025776726",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025776726",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025776726",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0198281897"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198281894"
+    },
+    {
+      "type": "LCCN",
+      "value": " 76381617 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2895896"
+    },
+    {
+      "type": "Local",
+      "value": "9910274010602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The theory of moral sentiments /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Smith, Adam,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford [Oxfordshire] :"
+    ],
+    "publisher": [
+      "Clarendon Press ;",
+      "Oxford University Press,"
+    ],
+    "date": "1976.",
+    "year": 1976,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "x, 412 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Ethics",
+      "type": "topical"
+    },
+    {
+      "value": "Ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "ethics (philosophy)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Glasgow edition of the works and correspondence of Adam Smith ;",
+      "numbering": "1"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)988735325",
+      "Theory of moral sentiments."
+    ]
+  }
+}

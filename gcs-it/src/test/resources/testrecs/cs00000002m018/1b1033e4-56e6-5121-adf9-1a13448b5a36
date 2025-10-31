@@ -1,0 +1,151 @@
+{
+  "id": "marc:001:in00027699894",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027699894",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027699894",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0691064059"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691064055"
+    },
+    {
+      "type": "ISBN",
+      "value": "0691013624"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691013626"
+    },
+    {
+      "type": "LCCN",
+      "value": " 79084017 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4907758"
+    },
+    {
+      "type": "Local",
+      "value": "9910239434002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sikelianos, Angelos,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Keeley, Edmund,",
+      "role": "translator,",
+      "kind": "person"
+    },
+    {
+      "name": "Sherrard, Philip,",
+      "role": "translator,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "gre"
+  ],
+  "publication": {
+    "place": [
+      "Princeton, New Jersey :"
+    ],
+    "publisher": [
+      "Princeton University Press,"
+    ],
+    "date": "[1979]",
+    "year": 1979,
+    "countryCode": "nju"
+  },
+  "physical": {
+    "extent": "xx, 150 pages ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Authors' annotations (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Authors' copies (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Dust jackets (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Greek poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Sikelianos, Angelos,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "Wrappers (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Lockert library of poetry in translation"
+    },
+    {
+      "title": "Lockert library of poetry in translation."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00028002679",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028002679",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028002679",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0899670431"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780899670430"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)27030397"
+    },
+    {
+      "type": "Local",
+      "value": "9911421710402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Ivanhoe /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cutchogue, N.Y. :"
+    ],
+    "publisher": [
+      "Buccaneer Books,"
+    ],
+    "date": "©1976.",
+    "year": 1976,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "449 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1189-1199",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood",
+      "type": "topical"
+    },
+    {
+      "value": "Middle Ages",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ]
+}

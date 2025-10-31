@@ -1,0 +1,127 @@
+{
+  "id": "marc:001:in00028367115",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028367115",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028367115",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 04014036 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)925824"
+    },
+    {
+      "type": "Local",
+      "value": "9910820539502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Divine comedy of Dante Alighieri /",
+      "type": "main"
+    },
+    {
+      "value": "Divina commedia.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Longfellow, Henry Wadsworth,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Whitman, Sarah,",
+      "role": "binding designer.",
+      "kind": "person"
+    },
+    {
+      "name": "Houghton, Mifflin and Company,",
+      "role": "publisher.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Riverside Press (Cambridge, Mass.),",
+      "role": "printer.",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Boston ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Houghton, Mifflin and Company,"
+    ],
+    "date": "[1895]",
+    "year": 1895,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "viii, 760 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Heaven",
+      "type": "topical"
+    },
+    {
+      "value": "Hell",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Purgatory",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)902884340",
+      "Divine comedy of Dante Alighieri."
+    ]
+  }
+}

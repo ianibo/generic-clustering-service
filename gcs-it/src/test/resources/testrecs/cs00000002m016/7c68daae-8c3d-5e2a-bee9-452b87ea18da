@@ -1,0 +1,177 @@
+{
+  "id": "marc:001:in00029654471",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029654471",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029654471",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 63018862 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5063566"
+    },
+    {
+      "type": "Local",
+      "value": "9910804182502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The piazza tales /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Russell & Russell,"
+    ],
+    "date": "1963.",
+    "year": 1963,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "271 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bell towers",
+      "type": "topical"
+    },
+    {
+      "value": "Bell towers.",
+      "type": "topical"
+    },
+    {
+      "value": "Desire",
+      "type": "topical"
+    },
+    {
+      "value": "Desire.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Galapagos Islands",
+      "type": "topical"
+    },
+    {
+      "value": "Galapagos Islands.",
+      "type": "topical"
+    },
+    {
+      "value": "Gothic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Problem employees",
+      "type": "topical"
+    },
+    {
+      "value": "Problem employees.",
+      "type": "topical"
+    },
+    {
+      "value": "Sales personnel",
+      "type": "topical"
+    },
+    {
+      "value": "Sales personnel.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains.",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Travel.",
+      "type": "topical"
+    },
+    {
+      "value": "short stories.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Works. Standard ed. ;",
+      "numbering": "10"
+    }
+  ]
+}

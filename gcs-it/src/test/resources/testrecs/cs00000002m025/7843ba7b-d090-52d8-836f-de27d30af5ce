@@ -1,0 +1,70 @@
+{
+  "id": "marc:001:in00028841383",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028841383",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028841383",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 52042040 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5955887"
+    },
+    {
+      "type": "Local",
+      "value": "9910128571202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "McAllister, Elva Sinclair.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "Atlanta,"
+    ],
+    "publisher": [
+      "Parks Print. Co."
+    ],
+    "date": "[1952]",
+    "year": 1952,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "148 pages",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "marc:001:abacin00000234489",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000234489",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000234489",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0026329409"
+    },
+    {
+      "type": "LCCN",
+      "value": " 83017567"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)2325-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994975750402932"
+    },
+    {
+      "type": "Local",
+      "value": "994975750402932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Yeats, W. B.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Finneran, Richard J.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "New ed. /",
+    "number": "edited by Richard J. Finneran."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "c1983.",
+    "year": 1983,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxv, 747 p. ;",
+    "dimensions": "22 cm."
+  }
+}

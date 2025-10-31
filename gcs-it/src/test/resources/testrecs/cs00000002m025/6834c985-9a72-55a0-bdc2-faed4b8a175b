@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00029254383",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029254383",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029254383",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1857548426"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781857548426"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2006386465"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)61529317"
+    },
+    {
+      "type": "Local",
+      "value": "9910215475502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Roberts, Lynette,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "McGuinness, Patrick.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Manchester :"
+    ],
+    "publisher": [
+      "Carcanet,"
+    ],
+    "date": "2005.",
+    "year": 2005,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "xxxix, 152 pages :",
+    "illustrations": "1 illustration, 1 portrait ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607731640",
+      "Collected poems."
+    ]
+  }
+}

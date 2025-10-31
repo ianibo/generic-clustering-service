@@ -1,0 +1,83 @@
+{
+  "id": "marc:001:ghcin00000144600",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ghcin00000144600",
+    "sourceRecordUri": "https://catalog.example.org/record/ghcin00000144600",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0818002220 :"
+    },
+    {
+      "type": "LCCN",
+      "value": " 72086739"
+    },
+    {
+      "type": "Local",
+      "value": "(Voyager)25853-fcdb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_FLOYD)99258533702946"
+    },
+    {
+      "type": "Local",
+      "value": "99258533702946"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wright, Frank Lloyd,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Duell, Sloan and Pearce,"
+    ],
+    "date": "c1943.",
+    "year": 1943,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "620 p., [20] leaves of plates :",
+    "illustrations": "ill. ;",
+    "dimensions": "24 cm."
+  },
+  "subjects": [
+    {
+      "value": "Architects",
+      "type": "topical"
+    },
+    {
+      "value": "Wright, Frank Lloyd,",
+      "type": "topical"
+    }
+  ]
+}

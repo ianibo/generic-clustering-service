@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:in00025864494",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025864494",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025864494",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0670247650"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780670247653"
+    },
+    {
+      "type": "LCCN",
+      "value": " 66015905 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)218163"
+    },
+    {
+      "type": "Local",
+      "value": "9910005981502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The crime of punishment /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Menninger, Karl A.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Viking Press,"
+    ],
+    "date": "1968.",
+    "year": 1968,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xii, 305 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Criminal Psychology",
+      "type": "topical"
+    },
+    {
+      "value": "Criminal psychology",
+      "type": "topical"
+    },
+    {
+      "value": "Criminal psychology.",
+      "type": "topical"
+    },
+    {
+      "value": "Prison psychology",
+      "type": "topical"
+    },
+    {
+      "value": "Prison psychology.",
+      "type": "topical"
+    },
+    {
+      "value": "Prison violence",
+      "type": "topical"
+    },
+    {
+      "value": "Prison violence.",
+      "type": "topical"
+    },
+    {
+      "value": "Punishment",
+      "type": "topical"
+    },
+    {
+      "value": "Punishment (Psychology)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "[The Isaac Ray award lectures ;",
+      "numbering": "1963-66]"
+    },
+    {
+      "title": "Isaac Ray award lectures ;",
+      "numbering": "1963-66."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)573152452",
+      "Crime of punishment."
+    ]
+  }
+}

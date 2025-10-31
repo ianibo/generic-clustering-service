@@ -1,0 +1,159 @@
+{
+  "id": "marc:001:in00027913095",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027913095",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027913095",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 55010355 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)918415"
+    },
+    {
+      "type": "Local",
+      "value": "9910976914302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Descent of man",
+      "type": "alternative"
+    },
+    {
+      "value": "The origin of species by means of natural selection ; The descent of man and selection in relation to sex /",
+      "type": "main"
+    },
+    {
+      "value": "On the origin of species",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Darwin, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Darwin, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "[1955, ©1952]",
+    "year": 1955,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "x, 659 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biological Evolution",
+      "type": "topical"
+    },
+    {
+      "value": "Evolution",
+      "type": "topical"
+    },
+    {
+      "value": "Evolution (Biology)",
+      "type": "topical"
+    },
+    {
+      "value": "Evolution.",
+      "type": "topical"
+    },
+    {
+      "value": "Genetics",
+      "type": "topical"
+    },
+    {
+      "value": "Great books of the Western world",
+      "type": "topical"
+    },
+    {
+      "value": "Great books of the Western world.",
+      "type": "topical"
+    },
+    {
+      "value": "Heredity",
+      "type": "topical"
+    },
+    {
+      "value": "Heredity.",
+      "type": "topical"
+    },
+    {
+      "value": "Hominidae",
+      "type": "topical"
+    },
+    {
+      "value": "Human beings",
+      "type": "topical"
+    },
+    {
+      "value": "Natural selection",
+      "type": "topical"
+    },
+    {
+      "value": "Natural selection.",
+      "type": "topical"
+    },
+    {
+      "value": "Selection (Genetics)",
+      "type": "topical"
+    },
+    {
+      "value": "evolution.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western World ;",
+      "numbering": "v. 49"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 49."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)594940767",
+      "Origin of species by means of natural selection."
+    ]
+  }
+}

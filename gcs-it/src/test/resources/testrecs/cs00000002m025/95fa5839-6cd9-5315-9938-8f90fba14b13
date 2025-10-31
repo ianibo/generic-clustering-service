@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00029584371",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029584371",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029584371",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781857548471"
+    },
+    {
+      "type": "ISBN",
+      "value": "1857548477"
+    },
+    {
+      "type": "Other",
+      "value": "9781857548471"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2006462580"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)65204009"
+    },
+    {
+      "type": "Local",
+      "value": "9910482108902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Watkins, Vernon Phillips,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ramsbotham, Richard,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Manchester :"
+    ],
+    "publisher": [
+      "Carcanet,"
+    ],
+    "date": "2006.",
+    "year": 2006,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxvii, 113 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Fyfield books"
+    },
+    {
+      "title": "Fyfield books."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607837627",
+      "New selected poems."
+    ]
+  }
+}

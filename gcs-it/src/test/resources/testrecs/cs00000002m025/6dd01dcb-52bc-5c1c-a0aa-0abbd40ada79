@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:in00027319170",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027319170",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027319170",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140424571"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140424577"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)57527820"
+    },
+    {
+      "type": "Local",
+      "value": "9910519594902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marvell, Andrew,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Donno, Elizabeth Story,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin,"
+    ],
+    "date": "©2005.",
+    "year": 2005,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xxxiv, 314 pages ;",
+    "dimensions": "20 x 13 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1500-1700",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

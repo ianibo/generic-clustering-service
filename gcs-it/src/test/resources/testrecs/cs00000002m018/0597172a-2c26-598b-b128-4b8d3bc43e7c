@@ -1,0 +1,102 @@
+{
+  "id": "marc:001:in00028727950",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028727950",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028727950",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0631016600"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780631016601"
+    },
+    {
+      "type": "ISBN",
+      "value": "0809308002"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780809308002"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)31388721"
+    },
+    {
+      "type": "Local",
+      "value": "9910625002702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mörike, Eduard,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Thomas, Lionel.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "ger"
+  ],
+  "publication": {
+    "place": [
+      "Oxford :"
+    ],
+    "publisher": [
+      "B. Blackwell,"
+    ],
+    "date": "1979",
+    "year": 1979,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xxxv, 116 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "German poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Blackwell's German texts"
+    },
+    {
+      "title": "Blackwell's German texts."
+    }
+  ]
+}

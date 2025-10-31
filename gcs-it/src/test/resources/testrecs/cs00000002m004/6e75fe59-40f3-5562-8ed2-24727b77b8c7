@@ -1,0 +1,123 @@
+{
+  "id": "marc:001:in00028449637",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028449637",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028449637",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "3487048957"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783487048956"
+    },
+    {
+      "type": "ISBN",
+      "value": "3487048965"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783487048963"
+    },
+    {
+      "type": "LCCN",
+      "value": " 74165694 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)948369"
+    },
+    {
+      "type": "Local",
+      "value": "9910066226002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The works.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Foote, Samuel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bee, Jon,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Hildesheim,",
+      "New York,"
+    ],
+    "publisher": [
+      "G. Olms,"
+    ],
+    "date": "1974.",
+    "year": 1974,
+    "countryCode": "gw "
+  },
+  "physical": {
+    "extent": "3 volumes in 2.",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Dramatists, English",
+      "type": "topical"
+    },
+    {
+      "value": "Dramatists, English.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Anglistica & Americana,",
+      "numbering": "145"
+    },
+    {
+      "title": "Anglistica & Americana ;",
+      "numbering": "145."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756444478",
+      "Works."
+    ]
+  }
+}

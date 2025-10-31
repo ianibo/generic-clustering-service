@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00027805892",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027805892",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027805892",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1376225"
+    },
+    {
+      "type": "Local",
+      "value": "9910799187502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thomson, James,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bayne, William,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Walter Scott"
+    ],
+    "date": "[1900]",
+    "year": 1900,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxxviii, 286 pages",
+    "dimensions": "15 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Illustrated works",
+      "type": "topical"
+    },
+    {
+      "value": "Illustrated works.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Romanticism",
+      "type": "topical"
+    },
+    {
+      "value": "illustrated books.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Canterbury poets."
+    },
+    {
+      "title": "Canterbury poets."
+    }
+  ]
+}

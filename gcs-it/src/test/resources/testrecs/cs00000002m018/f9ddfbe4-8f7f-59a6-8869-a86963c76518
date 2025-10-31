@@ -1,0 +1,86 @@
+{
+  "id": "marc:001:in00029388703",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029388703",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029388703",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "a 63005063 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)358722"
+    },
+    {
+      "type": "Local",
+      "value": "9910692013802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gibbon, Edward,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Oxford University Press"
+    ],
+    "date": "[1962]",
+    "year": 1962,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "339 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Gibbon, Edward,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The World's classics,",
+      "numbering": "139"
+    },
+    {
+      "title": "World's classics ;",
+      "numbering": "139."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00030075990",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030075990",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030075990",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 03019512 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1328813"
+    },
+    {
+      "type": "Local",
+      "value": "9910309410302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Chronicles of the Canongate /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Cadell and Co.,",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :"
+    ],
+    "publisher": [
+      "Printed for Cadell and Co. ;",
+      "Simpkin and Marshall, London,"
+    ],
+    "date": "1827.",
+    "year": 1827,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "2 volumes",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Library copies (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scots",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)819028192",
+      "Chronicles of the Canongate."
+    ]
+  }
+}

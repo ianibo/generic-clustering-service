@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00029130209",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029130209",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029130209",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 48007510 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)368535"
+    },
+    {
+      "type": "Local",
+      "value": "9910094797902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Watkins, Vernon Phillips,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Norfolk, Conn. :"
+    ],
+    "publisher": [
+      "New Directions,"
+    ],
+    "date": "1948.",
+    "year": 1948,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "92 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Irish poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Irish poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Thomas, Dylan,",
+      "type": "topical"
+    },
+    {
+      "value": "Welsh poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Welsh poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Yeats, W. B.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "New Directions book"
+    },
+    {
+      "title": "New Directions book."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)575680742",
+      "(OCoLC)608972307",
+      "Selected poems."
+    ]
+  }
+}

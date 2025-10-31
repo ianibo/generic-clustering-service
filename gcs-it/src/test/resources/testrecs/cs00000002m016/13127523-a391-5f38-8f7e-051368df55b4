@@ -1,0 +1,69 @@
+{
+  "id": "marc:001:in00027181777",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027181777",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027181777",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)10227336"
+    },
+    {
+      "type": "Local",
+      "value": "9910869661702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The old curiosity shop /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Sheldon and Co.,"
+    ],
+    "date": "1863, ©1861.",
+    "year": 1863,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "3 volumes :",
+    "illustrations": "illustrations ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "Works of Charles Dickens"
+    }
+  ]
+}

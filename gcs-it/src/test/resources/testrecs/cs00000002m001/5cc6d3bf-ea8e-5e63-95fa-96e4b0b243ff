@@ -1,0 +1,83 @@
+{
+  "id": "marc:001:abacin00000240408",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "abacin00000240408",
+    "sourceRecordUri": "https://catalog.example.org/record/abacin00000240408",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0396075169"
+    },
+    {
+      "type": "LCCN",
+      "value": " 77011689 //r84"
+    },
+    {
+      "type": "Local",
+      "value": "(GBaB)2395-baindb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_BALDWIN)994975865402932"
+    },
+    {
+      "type": "Local",
+      "value": "994975865402932"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Christie, Agatha,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Dodd, Mead,"
+    ],
+    "date": "c1977.",
+    "year": 1977,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "xiii, 529 p., [8] leaves of plates :",
+    "illustrations": "ill. ;",
+    "dimensions": "25 cm."
+  },
+  "subjects": [
+    {
+      "value": "Authors, English",
+      "type": "topical"
+    },
+    {
+      "value": "Christie, Agatha,",
+      "type": "topical"
+    }
+  ]
+}

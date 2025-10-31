@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:asuin00000484044",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "asuin00000484044",
+    "sourceRecordUri": "https://catalog.example.org/record/asuin00000484044",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1593080506 (pbk.)"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003106733"
+    },
+    {
+      "type": "Local",
+      "value": "13192019"
+    },
+    {
+      "type": "Local",
+      "value": "(DLC) 2003106733"
+    },
+    {
+      "type": "Local",
+      "value": "(ZIU)106187"
+    },
+    {
+      "type": "Local",
+      "value": "(GAlDC)106187-dartondb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_ALBANY)991061873702933"
+    },
+    {
+      "type": "Local",
+      "value": "991061873702933"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected poems of Emily Dickinson /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickinson, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wetzsteon, Rachel.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Barnes & Noble Classics,"
+    ],
+    "date": "c2003.",
+    "year": 2003,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxv, 361 p. ;",
+    "dimensions": "21 cm."
+  }
+}

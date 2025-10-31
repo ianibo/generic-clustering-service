@@ -1,0 +1,89 @@
+{
+  "id": "marc:001:in00028654342",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028654342",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028654342",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0912946024"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780912946023"
+    },
+    {
+      "type": "LCCN",
+      "value": " 72096853 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)668229"
+    },
+    {
+      "type": "Local",
+      "value": "9910302592702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fowles, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York]"
+    ],
+    "publisher": [
+      "Ecco Press"
+    ],
+    "date": "[1973]",
+    "year": 1973,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xi, 116 pages",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

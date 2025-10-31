@@ -1,0 +1,183 @@
+{
+  "id": "marc:001:in00028191390",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028191390",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028191390",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "LCCN",
+      "value": " 04155081 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)18902194"
+    },
+    {
+      "type": "Local",
+      "value": "9910848827802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The thirteen books of Euclid's elements ; the works of Archimedes, including The Methods ; On conic sections /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Euclid.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Heath, Thomas Little,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Taliaferro, R. Catesby",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "D'Ooge, Martin Luther,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Archimedes.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Apollonius,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Nicomachus,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "©1952.",
+    "year": 1952,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xi, 848 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Arithmetic",
+      "type": "topical"
+    },
+    {
+      "value": "Civilization",
+      "type": "topical"
+    },
+    {
+      "value": "Civilization.",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Geometry",
+      "type": "topical"
+    },
+    {
+      "value": "Geometry.",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics.",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy.",
+      "type": "topical"
+    },
+    {
+      "value": "civilization.",
+      "type": "topical"
+    },
+    {
+      "value": "philosophy.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 11"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 11."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)760959023",
+      "Thirteen books of Euclid's elements ; The works of Archimedes, including The Methods ; On conic sections."
+    ]
+  }
+}

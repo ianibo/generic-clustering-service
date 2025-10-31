@@ -1,0 +1,163 @@
+{
+  "id": "marc:001:in00028827547",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028827547",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028827547",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 31028164 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)321087"
+    },
+    {
+      "type": "Local",
+      "value": "9910575662502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "War and peace : a novel /",
+      "type": "main"
+    },
+    {
+      "value": "Voĭna i mir.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Rouben Mamoulian Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "First Modern library edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "1931.",
+    "year": 1931,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "1146 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Works.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Military campaigns",
+      "type": "topical"
+    },
+    {
+      "value": "Napoleonic Wars, 1800-1815",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Russian fiction",
+      "type": "topical"
+    },
+    {
+      "value": "War stories.",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Modern library of the world's best books"
+    },
+    {
+      "title": "Modern library of the world's best books."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)551709445",
+      "War and peace."
+    ]
+  }
+}

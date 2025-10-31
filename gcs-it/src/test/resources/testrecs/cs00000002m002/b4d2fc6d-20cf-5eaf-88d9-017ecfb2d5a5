@@ -1,0 +1,179 @@
+{
+  "id": "marc:001:in00026144694",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026144694",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026144694",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0520027124"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780520027121"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73094441 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6196429"
+    },
+    {
+      "type": "Local",
+      "value": "9910206503002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Inferno /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Mandelbaum, Allen,",
+      "role": "translator,",
+      "kind": "person"
+    },
+    {
+      "name": "Moser, Barry,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "ita"
+  ],
+  "publication": {
+    "place": [
+      "Berkeley ;",
+      "London :",
+      "Los Angeles ;"
+    ],
+    "publisher": [
+      "University of California Press,"
+    ],
+    "date": "[1980]",
+    "year": 1980,
+    "countryCode": "cau"
+  },
+  "physical": {
+    "extent": "xxiv, 307 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "29 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dante Alighieri,",
+      "type": "topical"
+    },
+    {
+      "value": "Divina commedia (Dante Alighieri)",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Heaven",
+      "type": "topical"
+    },
+    {
+      "value": "Hell",
+      "type": "topical"
+    },
+    {
+      "value": "Italian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Paradise",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Purgatory",
+      "type": "topical"
+    },
+    {
+      "value": "To 1400",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The divine comedy of Dante Alighieri ;",
+      "numbering": "pt. 1"
+    },
+    {
+      "title": "The divine comedy of Dante Alighieri ;",
+      "numbering": "pt. 1"
+    },
+    {
+      "title": "California Dante."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756459957",
+      "Inferno."
+    ]
+  }
+}

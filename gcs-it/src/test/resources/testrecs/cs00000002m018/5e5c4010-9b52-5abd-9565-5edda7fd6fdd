@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:in00030083614",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030083614",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030083614",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781906601355"
+    },
+    {
+      "type": "ISBN",
+      "value": "1906601356"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781906601362"
+    },
+    {
+      "type": "ISBN",
+      "value": "1906601364"
+    },
+    {
+      "type": "ISBN",
+      "value": "1906604363"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781906604363"
+    },
+    {
+      "type": "ISBN",
+      "value": "1906601372"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781906601379"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2012494588"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)760292005"
+    },
+    {
+      "type": "Local",
+      "value": "9910755927702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fowles, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Hexham, Northumberland :"
+    ],
+    "publisher": [
+      "Flambard Press,"
+    ],
+    "date": "2012.",
+    "year": 2012,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "151 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

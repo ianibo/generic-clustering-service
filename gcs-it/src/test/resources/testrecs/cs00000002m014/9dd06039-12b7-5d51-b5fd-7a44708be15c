@@ -1,0 +1,142 @@
+{
+  "id": "marc:001:in00028011812",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028011812",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028011812",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1593082193"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781593082192"
+    },
+    {
+      "type": "ISBN",
+      "value": "1593083718"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781593083717"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)70071010"
+    },
+    {
+      "type": "Local",
+      "value": "9911887559102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Purgatorio /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Longfellow, Henry Wadsworth,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bondanella, Peter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bondanella, Julia Conaway.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Doré, Gustave,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Barnes & Noble Classics,"
+    ],
+    "date": "2005.",
+    "year": 2005,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "lxv, 363 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dante Alighieri,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Purgatorio (Dante Alighieri)",
+      "type": "topical"
+    },
+    {
+      "value": "Purgatory",
+      "type": "topical"
+    },
+    {
+      "value": "Purgatory in literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Purgatory.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Barnes & Noble classics"
+    },
+    {
+      "title": "Barnes & Noble classics."
+    }
+  ]
+}

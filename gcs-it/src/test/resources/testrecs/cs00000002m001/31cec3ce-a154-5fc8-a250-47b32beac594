@@ -1,0 +1,125 @@
+{
+  "id": "marc:001:in00029382631",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029382631",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029382631",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 56003004 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)679014"
+    },
+    {
+      "type": "Local",
+      "value": "9911143684002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of Robert Browning /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Browning, Robert,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Smalley, Donald A.,",
+      "role": "selector,",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Houghton Mifflin,"
+    ],
+    "date": "[©1956]",
+    "year": 1956,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxii, 543 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Browning, Robert,",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Poems (Browning, Robert)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Riverside editions ;",
+      "numbering": "B3"
+    },
+    {
+      "title": "Riverside editions."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)745532176",
+      "Poems of Robert Browning."
+    ]
+  }
+}

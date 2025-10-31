@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:in00026346135",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026346135",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026346135",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0691062854"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691062853"
+    },
+    {
+      "type": "ISBN",
+      "value": "0691013195"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691013190"
+    },
+    {
+      "type": "LCCN",
+      "value": " 74027874 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1964829"
+    },
+    {
+      "type": "Local",
+      "value": "9910407331602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Andersen, Benny,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Taylor, Alexander,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "dan",
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Princeton, N.J. :"
+    ],
+    "publisher": [
+      "Princeton University Press,"
+    ],
+    "date": "[1975]",
+    "year": 1975,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxi, 141 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Andersen, Benny",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Lockert library of poetry in translation"
+    },
+    {
+      "title": "Lockert library of poetry in translation."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)586060045",
+      "Selected poems."
+    ]
+  }
+}

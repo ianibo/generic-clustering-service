@@ -1,0 +1,159 @@
+{
+  "id": "marc:001:in00027591448",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027591448",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027591448",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)23203521"
+    },
+    {
+      "type": "Local",
+      "value": "9911809568302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "20th century philosophy and religion",
+      "type": "alternative"
+    },
+    {
+      "value": "Twentieth century philosophy and religion",
+      "type": "alternative"
+    },
+    {
+      "value": "William James, Henri Bergson, John Dewey, Alfred North Whitehead, Bertrand Russell, Martin Heidegger, Ludwig Wittgenstein, Karl Barth",
+      "type": "alternative"
+    },
+    {
+      "value": "Philosophy and religion : selections from the twentieth century.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hulme, T. E.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "James, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bergson, Henri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Dewey, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Whitehead, Alfred North,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Russell, Bertrand,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Heidegger, Martin,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wittgenstein, Ludwig,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Barth, Karl,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "2nd ed."
+  },
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xviii, 552 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Christianity",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy, Modern",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "55"
+    },
+    {
+      "title": "Great books of the Western world (1990) ;",
+      "numbering": "55."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)777332188",
+      "William James, Henri Bergson, John Dewey, Alfred North Whitehead, Bertrand Russell, Martin Heidegger, Ludwig Wittgenstein, Karl Barth."
+    ]
+  }
+}

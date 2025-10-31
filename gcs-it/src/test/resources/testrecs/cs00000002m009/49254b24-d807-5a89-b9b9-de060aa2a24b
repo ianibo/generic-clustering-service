@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00027774428",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027774428",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027774428",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1731700873"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781731700872"
+    },
+    {
+      "type": "ISBN",
+      "value": "1731700881"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781731700889"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1076509372"
+    },
+    {
+      "type": "Local",
+      "value": "9924433018402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Analects /",
+      "type": "main"
+    },
+    {
+      "value": "Lun yü.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Confucius.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "[Place of publication not identified] :"
+    ],
+    "publisher": [
+      "Simon & Brown,"
+    ],
+    "date": "2012.",
+    "year": 2012,
+    "countryCode": "r 0"
+  },
+  "physical": {
+    "extent": "98 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Confucius.",
+      "type": "topical"
+    },
+    {
+      "value": "Ethics",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy, Chinese.",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy.",
+      "type": "topical"
+    },
+    {
+      "value": "philosophy.",
+      "type": "topical"
+    }
+  ]
+}

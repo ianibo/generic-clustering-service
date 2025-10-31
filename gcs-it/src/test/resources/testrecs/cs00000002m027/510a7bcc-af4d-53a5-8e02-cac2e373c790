@@ -1,0 +1,74 @@
+{
+  "id": "marc:001:in00030128111",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030128111",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030128111",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)542092"
+    },
+    {
+      "type": "Local",
+      "value": "(GDahN)415145-northgadb"
+    },
+    {
+      "type": "Local",
+      "value": "9911273666202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Valéry, Paul,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York]"
+    ],
+    "publisher": [
+      "Pantheon Books"
+    ],
+    "date": "[1956-",
+    "year": 1956,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "v.",
+    "dimensions": "21 cm."
+  },
+  "series": [
+    {
+      "title": "Bollingen series ;",
+      "numbering": "45"
+    },
+    {
+      "title": "Bollingen series ;",
+      "numbering": "45."
+    }
+  ]
+}

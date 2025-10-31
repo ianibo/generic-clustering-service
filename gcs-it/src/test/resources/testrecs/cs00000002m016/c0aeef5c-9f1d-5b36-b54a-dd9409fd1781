@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00027629416",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027629416",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027629416",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0413764605"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780413764607"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)47777460"
+    },
+    {
+      "type": "Local",
+      "value": "9910861208802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Soyinka, Wole.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Soyinka, Wole.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Soyinka, Wole.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Soyinka, Wole.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Methuen,"
+    ],
+    "date": "2001.",
+    "year": 2001,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "257 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)606786187",
+      "Selected poems."
+    ]
+  }
+}

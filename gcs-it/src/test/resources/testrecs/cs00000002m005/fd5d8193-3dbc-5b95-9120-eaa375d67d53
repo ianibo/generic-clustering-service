@@ -1,0 +1,138 @@
+{
+  "id": "marc:001:in00030439223",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030439223",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030439223",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "LCCN",
+      "value": " 55010333 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)912349"
+    },
+    {
+      "type": "Local",
+      "value": "9910970941702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The essays of Michel Eyquem de Montaigne /",
+      "type": "main"
+    },
+    {
+      "value": "Essais.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Montaigne, Michel de,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Cotton, Charles,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Hazlitt, William Carew,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "[1955]",
+    "year": 1955,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "viii, 543 pages ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Essay",
+      "type": "topical"
+    },
+    {
+      "value": "Essays.",
+      "type": "topical"
+    },
+    {
+      "value": "French essays",
+      "type": "topical"
+    },
+    {
+      "value": "French essays.",
+      "type": "topical"
+    },
+    {
+      "value": "Literature",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "essays.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 25"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 25."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756440799",
+      "Essays."
+    ]
+  }
+}

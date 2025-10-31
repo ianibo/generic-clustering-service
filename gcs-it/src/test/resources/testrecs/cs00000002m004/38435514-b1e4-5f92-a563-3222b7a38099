@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00027516176",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027516176",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027516176",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 66014559 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1856259"
+    },
+    {
+      "type": "Local",
+      "value": "9910047693902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anna Karenina",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York"
+    ],
+    "publisher": [
+      "Dodd, Mead"
+    ],
+    "date": "1966.",
+    "year": 1966,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "x, 897 pages",
+    "illustrations": "illustrations, portraits",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1533-1917",
+      "type": "topical"
+    },
+    {
+      "value": "Adultery",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Karenina, Anna",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Social conditions",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great illustrated classics: Titan editions"
+    }
+  ]
+}

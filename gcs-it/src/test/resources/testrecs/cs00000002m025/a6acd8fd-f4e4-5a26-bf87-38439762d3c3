@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00028345035",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028345035",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028345035",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "019824343X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198243434"
+    },
+    {
+      "type": "ISBN",
+      "value": "9786610809783"
+    },
+    {
+      "type": "ISBN",
+      "value": "661080978X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780191680687"
+    },
+    {
+      "type": "ISBN",
+      "value": "0191680680"
+    },
+    {
+      "type": "uri",
+      "value": "http://catalogue.bnf.fr/ark:/12148/cb353813458"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73524213 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)105645"
+    },
+    {
+      "type": "Local",
+      "value": "9910222768402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The freedom of the will /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lucas, J. R.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oxford,"
+    ],
+    "publisher": [
+      "Clarendon P.,"
+    ],
+    "date": "1970.",
+    "year": 1970,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "viii, 181 pages",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Free will and determinism.",
+      "type": "topical"
+    },
+    {
+      "value": "Personal Autonomy",
+      "type": "topical"
+    }
+  ]
+}

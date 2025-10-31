@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00028773718",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028773718",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028773718",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0871406519"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780871406514"
+    },
+    {
+      "type": "ISBN",
+      "value": "0871401592"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780871401595"
+    },
+    {
+      "type": "LCCN",
+      "value": " 96142645 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)34188239"
+    },
+    {
+      "type": "Local",
+      "value": "9910389003002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hayden, Robert,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Glaysher, Frederick,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "[Rev. ed.]."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Liveright,"
+    ],
+    "date": "1996.",
+    "year": 1996,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxiv, 205 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "African American poets",
+      "type": "topical"
+    },
+    {
+      "value": "African American poets.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ]
+}

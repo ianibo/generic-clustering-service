@@ -1,0 +1,123 @@
+{
+  "id": "marc:001:in00027643747",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027643747",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027643747",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781551119793"
+    },
+    {
+      "type": "ISBN",
+      "value": "155111979X"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2012374910"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)760370522"
+    },
+    {
+      "type": "Local",
+      "value": "9910501704502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gulliver's travels /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ingram, Allan.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Buffalo, N.Y. :",
+      "Peterborough, Ont. ;"
+    ],
+    "publisher": [
+      "Broadview Editions,"
+    ],
+    "date": "2012.",
+    "year": 2012,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "454 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Travelers",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Broadview editions"
+    },
+    {
+      "title": "Broadview editions."
+    }
+  ]
+}

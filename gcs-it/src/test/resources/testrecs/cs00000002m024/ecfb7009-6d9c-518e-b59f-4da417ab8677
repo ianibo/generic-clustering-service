@@ -1,0 +1,151 @@
+{
+  "id": "marc:001:in00025864531",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025864531",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025864531",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "LCCN",
+      "value": " 55010342 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)917329"
+    },
+    {
+      "type": "Local",
+      "value": "9911306917302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "A letter concerning toleration. Concerning civil government, second essay. An essay concerning human understanding. /",
+      "type": "main"
+    },
+    {
+      "value": "Epistola de tolerantia.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Locke, John,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Popple, William,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Locke, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Locke, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Berkeley, George,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hume, David,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "[1955]",
+    "year": 1955,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "x, 509 pages ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Knowledge, Theory of",
+      "type": "topical"
+    },
+    {
+      "value": "Literature - Collections.",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy.",
+      "type": "topical"
+    },
+    {
+      "value": "Toleration",
+      "type": "topical"
+    },
+    {
+      "value": "Toleration.",
+      "type": "topical"
+    },
+    {
+      "value": "philosophy.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western World ;",
+      "numbering": "v. 35"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 35."
+    }
+  ]
+}

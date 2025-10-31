@@ -1,0 +1,85 @@
+{
+  "id": "marc:001:in00028314047",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028314047",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028314047",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781434327963"
+    },
+    {
+      "type": "ISBN",
+      "value": "1434327965"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)178047773"
+    },
+    {
+      "type": "Local",
+      "value": "9910662956202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The crime of punishment /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Menninger, Karl A.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Bloomington, IN :"
+    ],
+    "publisher": [
+      "AuthorHouse,"
+    ],
+    "date": "2007.",
+    "year": 2007,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxi, 371 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Criminal psychology.",
+      "type": "topical"
+    },
+    {
+      "value": "Prison psychology.",
+      "type": "topical"
+    },
+    {
+      "value": "Prison violence.",
+      "type": "topical"
+    }
+  ]
+}

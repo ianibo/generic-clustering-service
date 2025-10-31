@@ -1,0 +1,140 @@
+{
+  "id": "marc:001:in00029291045",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029291045",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029291045",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0198150415"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198150411"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198835080"
+    },
+    {
+      "type": "ISBN",
+      "value": "0198835086"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199572076"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199572070"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198866862"
+    },
+    {
+      "type": "ISBN",
+      "value": "0198866860"
+    },
+    {
+      "type": "LCCN",
+      "value": " 99088853 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)43036875"
+    },
+    {
+      "type": "Local",
+      "value": "9910254577702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "On poems /",
+      "type": "main"
+    },
+    {
+      "value": "On poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Philodemus,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Janko, Richard,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "grc"
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford [England] ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "2000-",
+    "year": 2000,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "volumes :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetics",
+      "type": "topical"
+    },
+    {
+      "value": "Poetics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Philodemus--the aesthetic works ;",
+      "numbering": "v. 1"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)872654837",
+      "On poems."
+    ]
+  }
+}

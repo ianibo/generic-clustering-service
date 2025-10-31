@@ -1,0 +1,127 @@
+{
+  "id": "marc:001:in00027228837",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027228837",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027228837",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)27138458"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Faust : a tragedy /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Raphael, Alice,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Delacroix, Eugène,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Heritage Press,"
+    ],
+    "date": "[1932, ©1930]",
+    "year": 1932,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xix, 1 leaf, 183 pages :",
+    "illustrations": "frontispiece (portrait) plates ;",
+    "dimensions": "26 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Devil",
+      "type": "topical"
+    },
+    {
+      "value": "Faust",
+      "type": "topical"
+    },
+    {
+      "value": "Faust (Goethe, Johann Wolfgang von)",
+      "type": "topical"
+    },
+    {
+      "value": "German drama",
+      "type": "topical"
+    },
+    {
+      "value": "German drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Goethe, Johann Wolfgang von,",
+      "type": "topical"
+    },
+    {
+      "value": "Illustrated works",
+      "type": "topical"
+    },
+    {
+      "value": "Magicians",
+      "type": "topical"
+    },
+    {
+      "value": "Pleasure",
+      "type": "topical"
+    },
+    {
+      "value": "Printmakers",
+      "type": "topical"
+    },
+    {
+      "value": "Success",
+      "type": "topical"
+    }
+  ]
+}

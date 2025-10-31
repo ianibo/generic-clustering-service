@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00026353338",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026353338",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026353338",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:48Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:48Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 64011565 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)527916"
+    },
+    {
+      "type": "Local",
+      "value": "9910359324402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Principles of psychology.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Deese, James,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston,"
+    ],
+    "publisher": [
+      "Allyn and Bacon,"
+    ],
+    "date": "1964.",
+    "year": 1964,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "xi, 489 pages",
+    "illustrations": "illustrations, portraits, diagrams",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Psychology",
+      "type": "topical"
+    },
+    {
+      "value": "Psychology.",
+      "type": "topical"
+    },
+    {
+      "value": "psychology.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609470757",
+      "Principles of psychology."
+    ]
+  }
+}

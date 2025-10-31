@@ -1,0 +1,85 @@
+{
+  "id": "marc:001:in00030255268",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030255268",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030255268",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)9000940"
+    },
+    {
+      "type": "Local",
+      "value": "9911409177202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Crabbe, George,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Cassell & Co.,"
+    ],
+    "date": "1886.",
+    "year": 1886,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "192 pages ;",
+    "dimensions": "15 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Publishers' bindings (Binding)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Cassell's national library"
+    },
+    {
+      "title": "Cassell's national library ;",
+      "numbering": "20."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)778193073",
+      "Poems."
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "id": "marc:001:in00029866687",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029866687",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029866687",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780385547932"
+    },
+    {
+      "type": "ISBN",
+      "value": "0385547935"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780385548410"
+    },
+    {
+      "type": "ISBN",
+      "value": "0385548419"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2021943460"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1290393447"
+    }
+  ],
+  "titles": [
+    {
+      "value": "To paradise /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Yanagihara, Hanya,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Doubleday,"
+    ],
+    "date": "[2022]",
+    "year": 2022,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "708 pages :",
+    "illustrations": "maps ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Alternative histories (Fiction)",
+      "type": "topical"
+    },
+    {
+      "value": "American Dream",
+      "type": "topical"
+    },
+    {
+      "value": "Dystopian fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Dystopian fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Dystopias.",
+      "type": "topical"
+    },
+    {
+      "value": "Endpapers (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "FICTION / Asian American.",
+      "type": "topical"
+    },
+    {
+      "value": "FICTION / Dystopian.",
+      "type": "topical"
+    },
+    {
+      "value": "FICTION / Literary.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Gay fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Gay men",
+      "type": "topical"
+    },
+    {
+      "value": "Gay men.",
+      "type": "topical"
+    },
+    {
+      "value": "LGBTQ+ fiction",
+      "type": "topical"
+    },
+    {
+      "value": "LGBTQ+ people.",
+      "type": "topical"
+    },
+    {
+      "value": "Men.",
+      "type": "topical"
+    },
+    {
+      "value": "New York (N.Y.)",
+      "type": "topical"
+    },
+    {
+      "value": "New York (State)",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Race relations",
+      "type": "topical"
+    },
+    {
+      "value": "Romans.",
+      "type": "topical"
+    },
+    {
+      "value": "Sexual minorities.",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    }
+  ]
+}

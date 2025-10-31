@@ -1,0 +1,201 @@
+{
+  "id": "marc:001:in00028349863",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028349863",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028349863",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1574924494"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781574924497"
+    },
+    {
+      "type": "ISBN",
+      "value": "1574925431"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781574925432"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)37497955"
+    },
+    {
+      "type": "Local",
+      "value": "9910533606702931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "VHS 75303"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The odyssey /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mikhalkov-Konchalovskiĭ, Andreĭ.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Solimine, Chris.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lovell, Dyson.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Assante, Armand,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Scacchi, Greta.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rossellini, Isabella.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kozlov, Sergeĭ,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ellis, Michael,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Artemʹev, Ėduard.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hallmark Entertainment, Inc.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "American Zoetrope (Firm)",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Hallmark Home Entertainment (Firm)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Los Angeles, CA :"
+    ],
+    "publisher": [
+      "Hallmark Home Entertainment,"
+    ],
+    "date": "©1997.",
+    "year": 1997,
+    "countryCode": "165"
+  },
+  "physical": {
+    "extent": "1 videocassette (approximately 165 min.) :",
+    "illustrations": "sound, color ;",
+    "dimensions": "1/2 in.",
+    "contentType": "two-dimensional moving image",
+    "mediaType": "video",
+    "carrierType": "videocassette"
+  },
+  "subjects": [
+    {
+      "value": "Feature films",
+      "type": "topical"
+    },
+    {
+      "value": "Feature films.",
+      "type": "topical"
+    },
+    {
+      "value": "Films for hard of hearing people.",
+      "type": "topical"
+    },
+    {
+      "value": "Motion Pictures as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Mythology, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Mythology, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus (Greek mythology)",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Television adaptations",
+      "type": "topical"
+    },
+    {
+      "value": "Television adaptations.",
+      "type": "topical"
+    },
+    {
+      "value": "Television mini-series.",
+      "type": "topical"
+    },
+    {
+      "value": "Video recordings for the hearing impaired",
+      "type": "topical"
+    },
+    {
+      "value": "Video recordings for the hearing impaired.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00027638387",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027638387",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027638387",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 49017469 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)363247"
+    },
+    {
+      "type": "Local",
+      "value": "9911109718502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Trollope, Anthony,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Trollope, Henry M.",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Sadleir, Michael,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Oxford Univ. Press,"
+    ],
+    "date": "[1961]",
+    "year": 1961,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "318 pages",
+    "dimensions": "16 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Novelists, English",
+      "type": "topical"
+    },
+    {
+      "value": "Trollope, Anthony,",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary works)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The World's classics,",
+      "numbering": "239"
+    },
+    {
+      "title": "World's classics ;",
+      "numbering": "239."
+    }
+  ]
+}

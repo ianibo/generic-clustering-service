@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:asuin00000487208",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "asuin00000487208",
+    "sourceRecordUri": "https://catalog.example.org/record/asuin00000487208",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0395294754 :"
+    },
+    {
+      "type": "LCCN",
+      "value": " 81002482"
+    },
+    {
+      "type": "Local",
+      "value": "4678227"
+    },
+    {
+      "type": "Local",
+      "value": "(DLC) 81002482"
+    },
+    {
+      "type": "Local",
+      "value": "(ZIU)104693"
+    },
+    {
+      "type": "Local",
+      "value": "(GAlDC)104693-dartondb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_ALBANY)991046933702933"
+    },
+    {
+      "type": "Local",
+      "value": "991046933702933"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sexton, Anne,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Houghton Mifflin,"
+    ],
+    "date": "1981.",
+    "year": 1981,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxxiv, 622 p. ;",
+    "dimensions": "22 cm."
+  }
+}

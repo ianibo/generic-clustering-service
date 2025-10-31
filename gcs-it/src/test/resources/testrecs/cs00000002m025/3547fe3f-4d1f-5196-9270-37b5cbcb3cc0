@@ -1,0 +1,139 @@
+{
+  "id": "marc:001:in00030153208",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030153208",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030153208",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0802043356"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802043351"
+    },
+    {
+      "type": "ISBN",
+      "value": "080208155X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802081551"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781442679719"
+    },
+    {
+      "type": "ISBN",
+      "value": "1442679719"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2001280486"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)43284181"
+    },
+    {
+      "type": "Local",
+      "value": "9910355253502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pratt, E. J.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Djwa, Sandra,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Keith, W. J.,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Pollock, Zailig,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Buffalo :",
+      "Toronto ;"
+    ],
+    "publisher": [
+      "University of Toronto Press,"
+    ],
+    "date": "©2000.",
+    "year": 2000,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxi, 239 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Canada",
+      "type": "topical"
+    },
+    {
+      "value": "Canadian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)706072989",
+      "Selected poems."
+    ]
+  }
+}

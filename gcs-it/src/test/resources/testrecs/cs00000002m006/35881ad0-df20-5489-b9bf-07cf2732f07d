@@ -1,0 +1,172 @@
+{
+  "id": "marc:001:in00026493847",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026493847",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026493847",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)23151555"
+    },
+    {
+      "type": "Local",
+      "value": "9911809584802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The school for wives ; The critique of the School for wives ; Tartuffe ; Don Juan ; The miser ; The would-be gentleman ; The would-be invalid /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Molière,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Molière,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Molière,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Molière,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Molière,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Molière,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Molière,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Molière,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Racine, Jean,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Racine, Jean,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "2nd ed."
+  },
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xi, 367 pages ;",
+    "dimensions": "14 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1600-1699",
+      "type": "topical"
+    },
+    {
+      "value": "Bérénice (Racine, Jean)",
+      "type": "topical"
+    },
+    {
+      "value": "French drama",
+      "type": "topical"
+    },
+    {
+      "value": "Molière,",
+      "type": "topical"
+    },
+    {
+      "value": "Phèdre (Racine, Jean)",
+      "type": "topical"
+    },
+    {
+      "value": "Racine, Jean,",
+      "type": "topical"
+    },
+    {
+      "value": "Works (Molière)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "31"
+    },
+    {
+      "title": "Great books of the Western world (1990) ;",
+      "numbering": "31."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1035525369",
+      "School for wives ; The critique of the School for wives ; Tartuffe ; Don Juan ; The miser ; The would-be gentleman ; The would-be invalid."
+    ]
+  }
+}

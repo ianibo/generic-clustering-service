@@ -1,0 +1,121 @@
+{
+  "id": "marc:001:ghcin00000143184",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ghcin00000143184",
+    "sourceRecordUri": "https://catalog.example.org/record/ghcin00000143184",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0684846454"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780684846453"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)37679124"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_FLOYD)994545357702946"
+    },
+    {
+      "type": "Local",
+      "value": "994545357702946"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The confessions of Saint Augustine /",
+      "type": "main"
+    },
+    {
+      "value": "Confessiones.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Augustine,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pusey, E. B.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Simon & Schuster,"
+    ],
+    "date": "1997.",
+    "year": 1997,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "255 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Algeria",
+      "type": "topical"
+    },
+    {
+      "value": "Augustine,",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Christian saints",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary works)",
+      "type": "topical"
+    }
+  ]
+}

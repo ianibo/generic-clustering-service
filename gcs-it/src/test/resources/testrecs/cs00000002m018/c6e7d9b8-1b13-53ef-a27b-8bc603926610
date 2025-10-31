@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00030051987",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030051987",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030051987",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0805207570"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780805207576"
+    },
+    {
+      "type": "LCCN",
+      "value": " 83015397 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)9828054"
+    },
+    {
+      "type": "Local",
+      "value": "9910324852202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Quasimodo, Salvatore,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bevan, Jack.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "1st American ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Schocken Books,"
+    ],
+    "date": "1984.",
+    "year": 1984,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "246 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Quasimodo, Salvatore,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ]
+}

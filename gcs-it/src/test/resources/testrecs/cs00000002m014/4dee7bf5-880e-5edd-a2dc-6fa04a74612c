@@ -1,0 +1,145 @@
+{
+  "id": "marc:001:in00027648150",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027648150",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027648150",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0679417184"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679417187"
+    },
+    {
+      "type": "LCCN",
+      "value": " 92052916 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2159474"
+    },
+    {
+      "type": "Local",
+      "value": "9911277118702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The way of all flesh /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Butler, Samuel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Furbank, P. N.",
+      "role": "writer of introduction.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Distributed by Random House,",
+      "Knopf :"
+    ],
+    "date": "©1992.",
+    "year": 1992,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxvii, 374 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Children of clergy",
+      "type": "topical"
+    },
+    {
+      "value": "Conflict of generations",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "English fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Middle class",
+      "type": "topical"
+    },
+    {
+      "value": "Parent and child",
+      "type": "topical"
+    },
+    {
+      "value": "Social classes",
+      "type": "topical"
+    },
+    {
+      "value": "Young men",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library ;",
+      "numbering": "118"
+    },
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no. 118."
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "marc:001:in00028680108",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028680108",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028680108",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0060241020"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780060241025"
+    },
+    {
+      "type": "ISBN",
+      "value": "0064402053"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780064402057"
+    },
+    {
+      "type": "ISBN",
+      "value": "0060241012"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780060241018"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)25185824"
+    },
+    {
+      "type": "Local",
+      "value": "9910056155602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Sarah, plain and tall /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "MacLachlan, Patricia,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st Harper Trophy ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "HarperTrophy,"
+    ],
+    "date": "1987.",
+    "year": 1987,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "58 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Frontier and pioneer life",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works",
+      "type": "topical"
+    },
+    {
+      "value": "Mail order brides",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Stepmothers",
+      "type": "topical"
+    },
+    {
+      "value": "Witting family (Fictitious characters)",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Sarah, Plain and Tall Saga."
+    },
+    {
+      "title": "Sarah, Plain and Tall Saga."
+    }
+  ]
+}

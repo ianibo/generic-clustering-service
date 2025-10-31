@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00027902056",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027902056",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027902056",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 47000442 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1372262"
+    },
+    {
+      "type": "Local",
+      "value": "9911089662802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The life of Samuel Johnson /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Boswell, James,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Chadsey, Charles P.,",
+      "role": "editor,",
+      "kind": "person"
+    },
+    {
+      "name": "Ross, Gordon,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Garden City, N.Y.,"
+    ],
+    "publisher": [
+      "Doubleday and Company, Inc.,"
+    ],
+    "date": "1946.",
+    "year": 1946,
+    "countryCode": "acf"
+  },
+  "physical": {
+    "extent": "5 preliminary leaves, 3-631 pages",
+    "illustrations": "illustrations, color plates, color portraits",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biography",
+      "type": "topical"
+    },
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, English",
+      "type": "topical"
+    },
+    {
+      "value": "collective biographies.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)988236944",
+      "Life of Samuel Johnson."
+    ]
+  }
+}

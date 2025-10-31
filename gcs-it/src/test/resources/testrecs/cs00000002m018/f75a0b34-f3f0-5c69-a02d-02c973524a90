@@ -1,0 +1,127 @@
+{
+  "id": "marc:001:gsuin00004412123",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004412123",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004412123",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "019280426X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192804266"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199535699"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199535698"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2005271655"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)58599929"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9914814873402952"
+    },
+    {
+      "type": "Local",
+      "value": "9914814873402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The prince /",
+      "type": "main"
+    },
+    {
+      "value": "Principe.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Machiavelli, Niccolò,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bondanella, Peter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "©2005.",
+    "year": 2005,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "li, 133 pages :",
+    "illustrations": "map ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Political ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science",
+      "type": "topical"
+    },
+    {
+      "value": "Political science.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford world's classics"
+    },
+    {
+      "title": "Oxford world's classics (Oxford University Press)"
+    }
+  ]
+}

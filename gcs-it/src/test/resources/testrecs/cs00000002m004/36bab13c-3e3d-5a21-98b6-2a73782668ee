@@ -1,0 +1,74 @@
+{
+  "id": "marc:001:in00027331272",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027331272",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027331272",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 98094012 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)40643020"
+    },
+    {
+      "type": "Local",
+      "value": "9910100862602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickey, R. P.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "Ranchos de Taos, NM (P.O. Box 87, Ranchos de Taos 87557-0087) :"
+    ],
+    "publisher": [
+      "21st Century Press,"
+    ],
+    "date": "©1999.",
+    "year": 1999,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "724 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

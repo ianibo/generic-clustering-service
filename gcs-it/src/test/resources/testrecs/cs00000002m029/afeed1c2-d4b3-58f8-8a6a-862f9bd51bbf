@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00027311850",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027311850",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027311850",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0520075285"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780520075283"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780520212329"
+    },
+    {
+      "type": "ISBN",
+      "value": "0520212320"
+    },
+    {
+      "type": "LCCN",
+      "value": " 92023838 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)26159909"
+    },
+    {
+      "type": "Local",
+      "value": "9910528896602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Olson, Charles,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Creeley, Robert,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Berkeley :"
+    ],
+    "publisher": [
+      "University of California Press,"
+    ],
+    "date": "©1993.",
+    "year": 1993,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xx, 225 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

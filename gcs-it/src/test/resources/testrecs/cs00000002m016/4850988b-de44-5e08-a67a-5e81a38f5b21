@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:in00029603281",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029603281",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029603281",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1427292"
+    },
+    {
+      "type": "Local",
+      "value": "9910843951702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The history of Tom Jones, a foundling,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Battestin, Martin C.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bowers, Fredson.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oxford,"
+    ],
+    "publisher": [
+      "Clarendon Press,"
+    ],
+    "date": "1974.",
+    "year": 1974,
+    "countryCode": "bf "
+  },
+  "physical": {
+    "extent": "2 volumes (lxxxiv, 1080 pages)",
+    "illustrations": "map, plates",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction in English.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Wesleyan edition of the works of Henry Fielding"
+    },
+    {
+      "title": "Wesleyan edition of the works of Henry Fielding."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)812187244",
+      "History of Tom Jones, a foundling."
+    ]
+  }
+}

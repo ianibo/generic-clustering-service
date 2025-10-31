@@ -1,0 +1,81 @@
+{
+  "id": "marc:001:gsuin00004422844",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004422844",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004422844",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "ocm02460809"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)386443-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)993864433402952"
+    },
+    {
+      "type": "Local",
+      "value": "993864433402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anna Karenina : a novel /",
+      "type": "main"
+    },
+    {
+      "value": "Anna Karenina.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "rus"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "[1950]",
+    "year": 1950,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xviii, 950 p. ;",
+    "dimensions": "19 cm."
+  },
+  "series": [
+    {
+      "title": "The Modern Library of the world's best books"
+    }
+  ]
+}

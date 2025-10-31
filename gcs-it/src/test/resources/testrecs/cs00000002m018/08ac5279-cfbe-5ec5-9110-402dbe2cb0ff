@@ -1,0 +1,138 @@
+{
+  "id": "marc:001:in00027643264",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027643264",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027643264",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0819552984"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780819552983"
+    },
+    {
+      "type": "ISBN",
+      "value": "0819563056"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780819563057"
+    },
+    {
+      "type": "ISBN",
+      "value": "0819552992"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780819552990"
+    },
+    {
+      "type": "LCCN",
+      "value": " 96032405 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)35128161"
+    },
+    {
+      "type": "Local",
+      "value": "9910343900402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Domesticating passions : Rousseau, woman, and nation /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fermon, Nicole,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Hanover :"
+    ],
+    "publisher": [
+      "University Press of New England,",
+      "Wesleyan University Press :"
+    ],
+    "date": "©1997.",
+    "year": 1997,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xiii, 231 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Economic development",
+      "type": "topical"
+    },
+    {
+      "value": "Economic development.",
+      "type": "topical"
+    },
+    {
+      "value": "Education",
+      "type": "topical"
+    },
+    {
+      "value": "Education.",
+      "type": "topical"
+    },
+    {
+      "value": "Families",
+      "type": "topical"
+    },
+    {
+      "value": "Families.",
+      "type": "topical"
+    },
+    {
+      "value": "Feminist theory",
+      "type": "topical"
+    },
+    {
+      "value": "Feminist theory.",
+      "type": "topical"
+    },
+    {
+      "value": "Rousseau, Jean-Jacques,",
+      "type": "topical"
+    },
+    {
+      "value": "economic development.",
+      "type": "topical"
+    },
+    {
+      "value": "education.",
+      "type": "topical"
+    }
+  ]
+}

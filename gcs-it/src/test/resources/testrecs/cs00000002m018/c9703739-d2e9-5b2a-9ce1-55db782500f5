@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00030248754",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030248754",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030248754",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)3993364"
+    },
+    {
+      "type": "Local",
+      "value": "9910671176102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aiken, Conrad,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cleveland :"
+    ],
+    "publisher": [
+      "World Pub.,"
+    ],
+    "date": "1964.",
+    "year": 1964,
+    "countryCode": "ohu"
+  },
+  "physical": {
+    "extent": "vii, 274 pages ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Meridian Books ;",
+      "numbering": "M177"
+    },
+    {
+      "title": "Meridian books ;",
+      "numbering": "M177."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894774586",
+      "Selected poems."
+    ]
+  }
+}

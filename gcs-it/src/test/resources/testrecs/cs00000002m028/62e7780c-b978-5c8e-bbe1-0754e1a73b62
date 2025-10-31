@@ -1,0 +1,157 @@
+{
+  "id": "marc:001:in00030440767",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030440767",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030440767",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 55010322 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)910480"
+    },
+    {
+      "type": "Local",
+      "value": "9910930284502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Virgil,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Rhoades, James,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago,"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica"
+    ],
+    "date": "[1955, ©1952]",
+    "year": 1955,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "vii, 379 pages",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Aeneas",
+      "type": "topical"
+    },
+    {
+      "value": "Agriculture",
+      "type": "topical"
+    },
+    {
+      "value": "Country life",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Legends",
+      "type": "topical"
+    },
+    {
+      "value": "Pastoral poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Pastoral poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "Virgil",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "13"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "13."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756460409",
+      "Poems."
+    ]
+  }
+}

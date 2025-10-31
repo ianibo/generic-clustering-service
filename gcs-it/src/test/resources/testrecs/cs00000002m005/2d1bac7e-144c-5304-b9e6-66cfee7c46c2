@@ -1,0 +1,180 @@
+{
+  "id": "marc:001:in00026288758",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026288758",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026288758",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300032269"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300032260"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300044887"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300044881"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300048742"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300048742"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300056990"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300056990"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300063431"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300063431"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300074387"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300074383"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300077292"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300077297"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300066163"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300066166"
+    },
+    {
+      "type": "LCCN",
+      "value": " 84017349 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)11069013"
+    },
+    {
+      "type": "Local",
+      "value": "9910244622502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The dialogues of Plato /",
+      "type": "main"
+    },
+    {
+      "value": "Dialogues.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Plato,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Allen, Reginald E.,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "[1984]-[1997]",
+    "year": 1984,
+    "countryCode": "ctu"
+  },
+  "physical": {
+    "extent": "4 volumes :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dialogues (Literature)",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy.",
+      "type": "topical"
+    },
+    {
+      "value": "Plato",
+      "type": "topical"
+    },
+    {
+      "value": "Plato.",
+      "type": "topical"
+    },
+    {
+      "value": "dialogues.",
+      "type": "topical"
+    },
+    {
+      "value": "philosophy.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)624899517",
+      "Dialogues of Plato."
+    ]
+  }
+}

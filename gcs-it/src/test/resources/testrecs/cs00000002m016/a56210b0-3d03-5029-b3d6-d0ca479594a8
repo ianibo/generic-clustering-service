@@ -1,0 +1,85 @@
+{
+  "id": "marc:001:in00028375214",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028375214",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028375214",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 15007577 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5761358"
+    },
+    {
+      "type": "Local",
+      "value": "9910871001002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Maeterlinck, Maurice,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Miall, Bernard,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Dodd, Mead and Company,"
+    ],
+    "date": "1915.",
+    "year": 1915,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "131 pages",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Spencer, Anne,",
+      "type": "topical"
+    }
+  ]
+}

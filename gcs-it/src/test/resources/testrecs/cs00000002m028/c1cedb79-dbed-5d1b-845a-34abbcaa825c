@@ -1,0 +1,81 @@
+{
+  "id": "marc:001:in00028990886",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028990886",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028990886",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)13429034"
+    },
+    {
+      "type": "Local",
+      "value": "9910904000602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad of Homer /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pope, Alexander,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia :"
+    ],
+    "publisher": [
+      "R.W. Pomeroy,"
+    ],
+    "date": "1839.",
+    "year": 1839,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "illustrations ;",
+    "dimensions": "12 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Homer.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)867280131",
+      "Iliad of Homer."
+    ]
+  }
+}

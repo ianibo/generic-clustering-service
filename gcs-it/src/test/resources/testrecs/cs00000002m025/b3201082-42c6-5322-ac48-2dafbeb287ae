@@ -1,0 +1,64 @@
+{
+  "id": "marc:001:in00028840060",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028840060",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028840060",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)13566053"
+    },
+    {
+      "type": "Local",
+      "value": "9910351357302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems by William Cullen Bryant /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bryant, William Cullen,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Appleton,"
+    ],
+    "date": "1858.",
+    "year": 1858,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "xi, [4], 343 pages :",
+    "illustrations": "portrait, illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  }
+}

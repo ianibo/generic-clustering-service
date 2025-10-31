@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00026135337",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026135337",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026135337",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0299068749"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780299068745"
+    },
+    {
+      "type": "ISBN",
+      "value": "0299068846"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780299068844"
+    },
+    {
+      "type": "LCCN",
+      "value": " 75012216 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2071258"
+    },
+    {
+      "type": "Local",
+      "value": "9910127011502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Faust /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Heffner, R.-M. S.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rehder, Helmut,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Twaddell, W. F.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "ger"
+  ],
+  "publication": {
+    "place": [
+      "Madison :"
+    ],
+    "publisher": [
+      "University of Wisconsin Press,"
+    ],
+    "date": "1975, ©1955.",
+    "year": 1975,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Faust,",
+      "type": "topical"
+    },
+    {
+      "value": "Tragedies (Drama)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)653055279",
+      "Faust."
+    ]
+  }
+}

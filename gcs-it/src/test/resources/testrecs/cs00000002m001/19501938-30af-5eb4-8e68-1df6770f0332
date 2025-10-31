@@ -1,0 +1,141 @@
+{
+  "id": "marc:001:in00026630528",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026630528",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026630528",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780866119863"
+    },
+    {
+      "type": "ISBN",
+      "value": "0866119868"
+    },
+    {
+      "type": "ISBN",
+      "value": "0759398798"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780759398795"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)31774238"
+    },
+    {
+      "type": "Local",
+      "value": "9912108599202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Ivanhoe /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Vogel, Malvina G.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "Baronet Books,"
+    ],
+    "date": "©1994.",
+    "year": 1994,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "238 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1189-1199",
+      "type": "topical"
+    },
+    {
+      "value": "Action and adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood.",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great illustrated classics ;",
+      "numbering": "E224-35"
+    },
+    {
+      "title": "Great illustrated classics ;",
+      "numbering": "E224-35."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00027446086",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027446086",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027446086",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 57014630 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2479104"
+    },
+    {
+      "type": "Local",
+      "value": "9910663056402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography / John Stuart Mill /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Liberal Arts Press,"
+    ],
+    "date": "1957.",
+    "year": 1957,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "201 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiography",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biography",
+      "type": "topical"
+    },
+    {
+      "value": "Mill, John Stuart,",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary works)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Library of liberal arts ;",
+      "numbering": "91"
+    },
+    {
+      "title": "Library of liberal arts ;",
+      "numbering": "91."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654658954",
+      "Autobiography / John Stuart Mill."
+    ]
+  }
+}

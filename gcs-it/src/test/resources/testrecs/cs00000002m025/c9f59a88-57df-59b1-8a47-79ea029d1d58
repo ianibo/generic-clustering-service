@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00028232381",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028232381",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028232381",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "370520971X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783705209718"
+    },
+    {
+      "type": "LCCN",
+      "value": " 98173990 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)37420437"
+    },
+    {
+      "type": "Local",
+      "value": "9910341804802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Miller, David,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oxford, OX :",
+      "Salzburg, Austria :"
+    ],
+    "publisher": [
+      "Distributed by Drake International Services,",
+      "University of Salzburg ;"
+    ],
+    "date": "1997.",
+    "year": 1997,
+    "countryCode": "b 0"
+  },
+  "physical": {
+    "extent": "xxii, 109 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Salzburg studies in English literature. Poetic drama & poetic theory ;",
+      "numbering": "155"
+    },
+    {
+      "title": "Salzburg studies in English literature.",
+      "numbering": "155."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)644313004",
+      "Collected poems."
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "marc:001:in00028983829",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028983829",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028983829",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0393018199"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780393018196"
+    },
+    {
+      "type": "LCCN",
+      "value": " 83008334 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)9575131"
+    },
+    {
+      "type": "Local",
+      "value": "9910366402602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pasternak, Boris Leonidovich,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Stallworthy, Jon,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "France, Peter,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "1st American ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "W.W. Norton,"
+    ],
+    "date": "1983.",
+    "year": 1983,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "160 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Pasternak, Boris Leonidovich,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Russian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

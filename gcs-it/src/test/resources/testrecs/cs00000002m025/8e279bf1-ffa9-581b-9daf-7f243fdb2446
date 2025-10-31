@@ -1,0 +1,169 @@
+{
+  "id": "marc:001:ugain00010191179",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ugain00010191179",
+    "sourceRecordUri": "https://catalog.example.org/record/ugain00010191179",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "019254506X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192545060"
+    },
+    {
+      "type": "LCCN",
+      "value": "a 53009909 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2308011"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_UGA)994474723902959"
+    },
+    {
+      "type": "Local",
+      "value": "994474723902959"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The old curiosity shop.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York,"
+    ],
+    "publisher": [
+      "Oxford University Press"
+    ],
+    "date": "[1951]",
+    "year": 1951,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xv, 555 pages",
+    "illustrations": "illustrations",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Antique dealers",
+      "type": "topical"
+    },
+    {
+      "value": "Antique dealers.",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "English fiction",
+      "type": "topical"
+    },
+    {
+      "value": "English fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Gamblers",
+      "type": "topical"
+    },
+    {
+      "value": "Gamblers.",
+      "type": "topical"
+    },
+    {
+      "value": "Girls",
+      "type": "topical"
+    },
+    {
+      "value": "Girls.",
+      "type": "topical"
+    },
+    {
+      "value": "Grandfathers",
+      "type": "topical"
+    },
+    {
+      "value": "Grandfathers.",
+      "type": "topical"
+    },
+    {
+      "value": "Grandparent and child",
+      "type": "topical"
+    },
+    {
+      "value": "Grandparent and child.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Oxford illustrated Dickens"
+    },
+    {
+      "title": "Oxford illustrated Dickens."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)557798798",
+      "Old curiosity shop."
+    ]
+  }
+}

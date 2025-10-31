@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00030449907",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030449907",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030449907",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300060599"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300060591"
+    },
+    {
+      "type": "LCCN",
+      "value": " 57002336 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)32027023"
+    },
+    {
+      "type": "Local",
+      "value": "9910852799002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The \"Miscellanies\" /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Schafer, Thomas A.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "1994-",
+    "year": 1994,
+    "countryCode": "ctu"
+  },
+  "physical": {
+    "extent": "volumes :",
+    "illustrations": "illustrations, facsimiles ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Theology",
+      "type": "topical"
+    },
+    {
+      "value": "Theology.",
+      "type": "topical"
+    },
+    {
+      "value": "Trivia and miscellanea.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The works of Jonathan Edwards ;",
+      "numbering": "v. 13"
+    }
+  ]
+}

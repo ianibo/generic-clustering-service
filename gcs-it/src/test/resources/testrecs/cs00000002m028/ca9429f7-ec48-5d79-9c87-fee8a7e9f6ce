@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00028231270",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028231270",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028231270",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140438114"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140438116"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)31360202"
+    },
+    {
+      "type": "Local",
+      "value": "9910938446102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Trollope, Anthony,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1993.",
+    "year": 1993,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xii, 335 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Novelists, English",
+      "type": "topical"
+    },
+    {
+      "value": "Novelists, English.",
+      "type": "topical"
+    },
+    {
+      "value": "Trollope, Anthony,",
+      "type": "topical"
+    },
+    {
+      "value": "collective biographies.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Penguin Trollope ;",
+      "numbering": "53"
+    }
+  ]
+}

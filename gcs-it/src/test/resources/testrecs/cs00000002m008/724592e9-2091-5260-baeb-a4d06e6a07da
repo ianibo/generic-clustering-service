@@ -1,0 +1,136 @@
+{
+  "id": "marc:001:in00028348399",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028348399",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028348399",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0517221160"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780517221167"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2002023304"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)49259981"
+    },
+    {
+      "type": "Local",
+      "value": "9911524736902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Smith, Jessie Willcox,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Merrill, Frank T.,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Gramercy Books,"
+    ],
+    "date": "2002.",
+    "year": 2002,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "viii, 388 pages :",
+    "illustrations": "illustrations (some color) ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Families",
+      "type": "topical"
+    },
+    {
+      "value": "Family life",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works",
+      "type": "topical"
+    },
+    {
+      "value": "New England",
+      "type": "topical"
+    },
+    {
+      "value": "Sisters",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Illustrated children's library"
+    },
+    {
+      "title": "Illustrated children's library."
+    }
+  ]
+}

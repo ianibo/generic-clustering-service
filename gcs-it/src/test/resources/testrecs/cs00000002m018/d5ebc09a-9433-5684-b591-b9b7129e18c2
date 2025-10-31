@@ -1,0 +1,125 @@
+{
+  "id": "marc:001:in00027015394",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027015394",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027015394",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 46004902 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1281103"
+    },
+    {
+      "type": "Local",
+      "value": "9910095587402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The moonstone /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collins, Wilkie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sharp, William,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Garden City, New York :"
+    ],
+    "publisher": [
+      "Doubleday & Company, Inc.,"
+    ],
+    "date": "1946.",
+    "year": 1946,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "3 preliminary leaves, [3]-444 pages :",
+    "illustrations": "illustrations, color plates ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "East Indians",
+      "type": "topical"
+    },
+    {
+      "value": "East Indians.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Jewelry theft",
+      "type": "topical"
+    },
+    {
+      "value": "Jewelry theft.",
+      "type": "topical"
+    },
+    {
+      "value": "Mystery fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Police",
+      "type": "topical"
+    },
+    {
+      "value": "Police.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)575137066",
+      "Moonstone."
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "id": "marc:001:in00029091629",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029091629",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029091629",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140447946"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140447941"
+    },
+    {
+      "type": "ISBN",
+      "value": "0140444440"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140444445"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003277884"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)50937881"
+    },
+    {
+      "type": "Local",
+      "value": "9910197027602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad /",
+      "type": "main"
+    },
+    {
+      "value": "Iliad.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rieu, E. V.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jones, P. V.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rieu, D. C. H.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "2003.",
+    "year": 2003,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "lxxxv, 462 pages :",
+    "illustrations": "maps ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Achilles",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Greek mythology",
+      "type": "topical"
+    },
+    {
+      "value": "Greeks",
+      "type": "topical"
+    },
+    {
+      "value": "Mythology, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War",
+      "type": "topical"
+    },
+    {
+      "value": "Troy (Extinct city)",
+      "type": "topical"
+    },
+    {
+      "value": "Turkey",
+      "type": "topical"
+    },
+    {
+      "value": "epic poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)606988644",
+      "Iliad."
+    ]
+  }
+}

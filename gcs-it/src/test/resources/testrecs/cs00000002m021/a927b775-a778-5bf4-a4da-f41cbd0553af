@@ -1,0 +1,85 @@
+{
+  "id": "marc:001:in00029515676",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029515676",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029515676",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)270995031"
+    },
+    {
+      "type": "Local",
+      "value": "(GaKeSu)583570-ksudb-Voyager"
+    },
+    {
+      "type": "Local",
+      "value": "9911102204602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The works of Lord Byron.",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Byron, George Gordon Byron,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Davison, Thomas,",
+      "role": "printer.",
+      "kind": "person"
+    },
+    {
+      "name": "John Murray (Firm),",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "John Murray, Albermarle Street,"
+    ],
+    "date": "1819",
+    "year": 1819,
+    "countryCode": "cf "
+  },
+  "physical": {
+    "extent": "3 v. :",
+    "illustrations": "port. ;",
+    "dimensions": "22 cm"
+  },
+  "subjects": [
+    {
+      "value": "Poems",
+      "type": "topical"
+    }
+  ]
+}

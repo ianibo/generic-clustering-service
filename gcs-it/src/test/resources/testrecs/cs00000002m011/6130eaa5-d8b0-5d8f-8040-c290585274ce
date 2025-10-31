@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00026030026",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026030026",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026030026",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 51012264 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2205387"
+    },
+    {
+      "type": "Local",
+      "value": "9910394983902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rukeyser, Muriel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York]"
+    ],
+    "publisher": [
+      "[New Directions],"
+    ],
+    "date": "[1951]",
+    "year": 1951,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "111 pages",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The New classics series"
+    },
+    {
+      "title": "New classics (New Directions Publishing Corp.)"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)575980239",
+      "Selected poems."
+    ]
+  }
+}

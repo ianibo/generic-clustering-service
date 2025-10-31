@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:in00027164539",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027164539",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027164539",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)16282322"
+    },
+    {
+      "type": "Local",
+      "value": "9911223794402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little Dorrit /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Houghton Mifflin,"
+    ],
+    "date": "1894.",
+    "year": 1894,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "illustrations ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "The writings of Charles Dickens ;",
+      "numbering": "v. 18-19"
+    },
+    {
+      "title": "The writings of Charles Dickens ;",
+      "numbering": "v. 18-19"
+    },
+    {
+      "title": "Writings of Charles Dickens ;",
+      "numbering": "v. 18-19."
+    }
+  ]
+}

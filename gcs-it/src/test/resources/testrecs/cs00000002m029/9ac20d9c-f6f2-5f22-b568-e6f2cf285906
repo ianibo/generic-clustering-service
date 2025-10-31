@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00027993898",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027993898",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027993898",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0375412042"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780375412042"
+    },
+    {
+      "type": "LCCN",
+      "value": " 00053460 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)45314981"
+    },
+    {
+      "type": "Local",
+      "value": "9910743728502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Analects /",
+      "type": "main"
+    },
+    {
+      "value": "Lun yu.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Confucius.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Waley, Arthur.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Knopf,"
+    ],
+    "date": "2000.",
+    "year": 2000,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxxi, 257 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "China.",
+      "type": "topical"
+    },
+    {
+      "value": "Ethics",
+      "type": "topical"
+    },
+    {
+      "value": "Ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy, Chinese.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library ;",
+      "numbering": "184"
+    },
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no. 184."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)606569511",
+      "(OCoLC)606994221",
+      "Analects."
+    ]
+  }
+}

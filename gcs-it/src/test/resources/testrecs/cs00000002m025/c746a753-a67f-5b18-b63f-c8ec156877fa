@@ -1,0 +1,132 @@
+{
+  "id": "marc:001:ugain00010185722",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ugain00010185722",
+    "sourceRecordUri": "https://catalog.example.org/record/ugain00010185722",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0192817795"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192817792"
+    },
+    {
+      "type": "LCCN",
+      "value": " 90040827 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)21971748"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_UGA)9911870843902959"
+    },
+    {
+      "type": "Local",
+      "value": "9911870843902959"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Confessions /",
+      "type": "main"
+    },
+    {
+      "value": "Confessiones.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Augustine,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Chadwick, Henry,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1991.",
+    "year": 1991,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxviii, 311 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Algeria",
+      "type": "topical"
+    },
+    {
+      "value": "Augustine,",
+      "type": "topical"
+    },
+    {
+      "value": "Biography.",
+      "type": "topical"
+    },
+    {
+      "value": "Bishops.",
+      "type": "topical"
+    },
+    {
+      "value": "Catholic Church",
+      "type": "topical"
+    },
+    {
+      "value": "Catholic Church.",
+      "type": "topical"
+    },
+    {
+      "value": "Christian saints",
+      "type": "topical"
+    },
+    {
+      "value": "Christian saints.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)645776689",
+      "Confessions."
+    ]
+  }
+}

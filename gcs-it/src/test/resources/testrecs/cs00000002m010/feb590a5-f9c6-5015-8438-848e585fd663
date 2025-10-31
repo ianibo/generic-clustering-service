@@ -1,0 +1,135 @@
+{
+  "id": "marc:001:in00028619475",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028619475",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028619475",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0792803841"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780792803843"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)24295306"
+    },
+    {
+      "type": "Local",
+      "value": "9910762662802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women /",
+      "type": "main"
+    },
+    {
+      "value": "Little women (Motion picture : 1933)",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cukor, George,",
+      "role": "drt",
+      "kind": "person"
+    },
+    {
+      "name": "Hepburn, Katharine,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bennett, Joan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "RKO Radio Pictures.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "MGM/UA Home Video (Firm)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, NY :"
+    ],
+    "publisher": [
+      "MGM/UA Home Video,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "1 videocassette (116 min.) :",
+    "illustrations": "sound, black and white ;",
+    "dimensions": "1/2 in.",
+    "contentType": "two-dimensional moving image",
+    "mediaType": "video",
+    "carrierType": "videocassette"
+  },
+  "subjects": [
+    {
+      "value": "Feature films",
+      "type": "topical"
+    },
+    {
+      "value": "Feature films.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction films",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction films.",
+      "type": "topical"
+    },
+    {
+      "value": "Film adaptations",
+      "type": "topical"
+    },
+    {
+      "value": "Film adaptations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Classic collection"
+    },
+    {
+      "title": "Classic collection."
+    }
+  ]
+}

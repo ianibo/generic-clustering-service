@@ -1,0 +1,121 @@
+{
+  "id": "marc:001:in00029914646",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029914646",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029914646",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1555427758"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781555427757"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87646993 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)24788329"
+    },
+    {
+      "type": "Local",
+      "value": "9911005776202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Treating victims of child sexual abuse /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Briere, John,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "San Francisco :"
+    ],
+    "publisher": [
+      "Jossey-Bass,"
+    ],
+    "date": "©1992.",
+    "year": 1992,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "105 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adult child sexual abuse victims",
+      "type": "topical"
+    },
+    {
+      "value": "Child Abuse, Sexual",
+      "type": "topical"
+    },
+    {
+      "value": "Incest victims",
+      "type": "topical"
+    },
+    {
+      "value": "Sexually abused children",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "New directions for mental health services,",
+      "numbering": "no. 51"
+    },
+    {
+      "title": "New directions for mental health services,",
+      "numbering": "no. 51"
+    },
+    {
+      "title": "New directions for mental health services ;",
+      "numbering": "no. 51."
+    },
+    {
+      "title": "New directions for mental health services ;",
+      "numbering": "no. 51."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)624309034",
+      "Treating victims of child sexual abuse."
+    ]
+  }
+}

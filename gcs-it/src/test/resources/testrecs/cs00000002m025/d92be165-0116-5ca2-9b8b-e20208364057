@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:in00028931682",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028931682",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028931682",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:48Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:48Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(GUA)4158366"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)4158366-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)ocm"
+    },
+    {
+      "type": "Local",
+      "value": "9910421973102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "In der Sache J. Robert Oppenheimer; Schauspiel /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kipphardt, Heinar,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Frankfurt am Main :"
+    ],
+    "publisher": [
+      "Suhrkamp,"
+    ],
+    "date": "1968, c1964.",
+    "year": 1968,
+    "countryCode": "gw "
+  },
+  "physical": {
+    "extent": "143 p. ;",
+    "dimensions": "19 cm"
+  },
+  "subjects": [
+    {
+      "value": "Drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Oppenheimer, J. Robert,",
+      "type": "topical"
+    }
+  ]
+}

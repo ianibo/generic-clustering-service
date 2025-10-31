@@ -1,0 +1,102 @@
+{
+  "id": "marc:001:in00027286414",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027286414",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027286414",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1068196"
+    },
+    {
+      "type": "Local",
+      "value": "9910009395702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The history of Herodotus,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Herodotus.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rawlinson, George,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Komroff, Manuel,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Tudor Pub. Co.,"
+    ],
+    "date": "1934 [©1928]",
+    "year": 1934,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "543 pages",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Greece",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "History, Ancient",
+      "type": "topical"
+    },
+    {
+      "value": "History, Ancient.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Library of living classics"
+    },
+    {
+      "title": "Library of living classics."
+    }
+  ]
+}

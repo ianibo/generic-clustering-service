@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:in00028675455",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028675455",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028675455",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 65007572 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3347909"
+    },
+    {
+      "type": "Local",
+      "value": "9911580382202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dunbar, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "MacDiarmid, Hugh,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Glasgow,"
+    ],
+    "publisher": [
+      "W. Maclellan,"
+    ],
+    "date": "1955.",
+    "year": 1955,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "62 pages",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dunbar, William,",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "marc:001:in00027276729",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027276729",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027276729",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300068255"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300068263"
+    },
+    {
+      "type": "LCCN",
+      "value": "gb 98057550"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)39678837"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)858339-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "9910660891402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Faust. Part two /",
+      "type": "main"
+    },
+    {
+      "value": "Faust.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Greenberg, Martin,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New Haven ;"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "c1998.",
+    "year": 1998,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiv, 255 p. ;",
+    "dimensions": "22 cm"
+  }
+}

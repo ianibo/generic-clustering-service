@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00027850867",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027850867",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027850867",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 57012220 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)358868"
+    },
+    {
+      "type": "Local",
+      "value": "9911412739202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Coatsworth, Elizabeth,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Guthrie, Vee,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "The Macmillan Company,"
+    ],
+    "date": "1957.",
+    "year": 1957,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "115 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Children's poetry, American",
+      "type": "topical"
+    },
+    {
+      "value": "Children's poetry, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)610590824",
+      "Poems."
+    ]
+  }
+}

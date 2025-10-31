@@ -1,0 +1,131 @@
+{
+  "id": "marc:001:in00029607422",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029607422",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029607422",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780199540037"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199540039"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)291098227"
+    },
+    {
+      "type": "Local",
+      "value": "9911670552202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Confessions /",
+      "type": "main"
+    },
+    {
+      "value": "Confessions.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rousseau, Jean-Jacques,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Scholar, Angela,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Coleman, Patrick,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "©2000.",
+    "year": 2000,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxviii, 676 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, French",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Rousseau, Jean-Jacques,",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary works)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford world's classics"
+    },
+    {
+      "title": "Oxford world's classics (Oxford University Press)"
+    }
+  ]
+}
