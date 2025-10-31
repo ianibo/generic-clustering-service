@@ -5,12 +5,19 @@ package gcs.core;
  */
 public class PlattCalibration implements Calibration {
 
+    private static final double PACCEPT = 0.98;
+    private static final double PREJECT = 0.02;
+
     private double a = -1.0;
     private double b = 0.0;
 
     @Override
     public double scoreToProb(double s) {
         return 1.0 / (1.0 + Math.exp(a * s + b));
+    }
+
+    private double probToScore(double p) {
+        return (Math.log(1.0 / p - 1.0) - b) / a;
     }
 
     @Override
@@ -25,7 +32,6 @@ public class PlattCalibration implements Calibration {
 
     @Override
     public Thresholds thresholds() {
-        // These thresholds are just examples and should be determined empirically
-        return new Thresholds(0.9, 0.1);
+        return new Thresholds(probToScore(PACCEPT), probToScore(PREJECT));
     }
 }
