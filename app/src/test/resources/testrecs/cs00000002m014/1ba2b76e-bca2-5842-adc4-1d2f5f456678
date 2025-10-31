@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00028006283",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028006283",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028006283",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)27012348"
+    },
+    {
+      "type": "Local",
+      "value": "9911879667502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The origin of species : by means of natural selection ; The descent of man : and selection in relation to sex.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Darwin, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Darwin, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "publisher": [
+      "Encyclopaedia Britannica,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "x, 659 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Evolution",
+      "type": "topical"
+    },
+    {
+      "value": "Evolution.",
+      "type": "topical"
+    },
+    {
+      "value": "Human beings",
+      "type": "topical"
+    },
+    {
+      "value": "Mating Preference, Animal",
+      "type": "topical"
+    },
+    {
+      "value": "Natural selection",
+      "type": "topical"
+    },
+    {
+      "value": "Natural selection.",
+      "type": "topical"
+    },
+    {
+      "value": "Sexual selection in animals",
+      "type": "topical"
+    },
+    {
+      "value": "Sexual selection in animals.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "49."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)594940767",
+      "Origin of species by means of natural selection."
+    ]
+  }
+}

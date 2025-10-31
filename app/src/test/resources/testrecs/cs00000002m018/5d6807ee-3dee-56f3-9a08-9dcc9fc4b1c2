@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00029290207",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029290207",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029290207",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0811212483"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780811212489"
+    },
+    {
+      "type": "LCCN",
+      "value": " 93005312 "
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)737643-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)28375112"
+    },
+    {
+      "type": "Local",
+      "value": "9910554060402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poetry /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "MacDiarmid, Hugh,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Riach, Alan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Grieve, Michael.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "New Directions Pub. Corp.,"
+    ],
+    "date": "1993.",
+    "year": 1993,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxv, 289 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "marc:001:in00027745976",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027745976",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027745976",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780007314287"
+    },
+    {
+      "type": "ISBN",
+      "value": "0007314280"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780007314669"
+    },
+    {
+      "type": "ISBN",
+      "value": "0007314663"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780008174927"
+    },
+    {
+      "type": "ISBN",
+      "value": "000817492X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780062073594"
+    },
+    {
+      "type": "ISBN",
+      "value": "0062073591"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2010474633"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)604773836"
+    },
+    {
+      "type": "Local",
+      "value": "9922657706902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Christie, Agatha,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Harper,"
+    ],
+    "date": "2010.",
+    "year": 2010,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "542 pages :",
+    "illustrations": "illustrations (some color) ;",
+    "dimensions": "24 cm +",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, English",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, English.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Christie, Agatha,",
+      "type": "topical"
+    },
+    {
+      "value": "Detective and mystery stories",
+      "type": "topical"
+    }
+  ]
+}

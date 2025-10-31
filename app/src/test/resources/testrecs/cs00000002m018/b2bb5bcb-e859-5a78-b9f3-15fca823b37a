@@ -1,0 +1,69 @@
+{
+  "id": "marc:001:in00028552728",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028552728",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028552728",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)244242"
+    },
+    {
+      "type": "Local",
+      "value": "9910533173702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Campbell, Roy,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago,"
+    ],
+    "publisher": [
+      "H. Regnery Co."
+    ],
+    "date": "[1960]",
+    "year": 1960,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "3 volumes",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1505953482",
+      "Collected poems."
+    ]
+  }
+}

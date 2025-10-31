@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:in00027166770",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027166770",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027166770",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0451628047"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780451628046"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)24572265"
+    },
+    {
+      "type": "Local",
+      "value": "9911715636302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The inferno : a verse rendering for the modern reader /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ciardi, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "MacAllister, Archibald T.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Mentor Classic,"
+    ],
+    "date": "©1954.",
+    "year": 1954,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "288 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Hell",
+      "type": "topical"
+    },
+    {
+      "value": "Hell.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ]
+}

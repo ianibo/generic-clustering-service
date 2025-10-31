@@ -1,0 +1,89 @@
+{
+  "id": "marc:001:in00027207851",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027207851",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027207851",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)3363255"
+    },
+    {
+      "type": "Local",
+      "value": "9910560199602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Arnold, Matthew,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York,"
+    ],
+    "publisher": [
+      "E.P. Dutton",
+      "J.M. Dent;"
+    ],
+    "date": "[1948]",
+    "year": 1948,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xvi, 367 pages",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Literature",
+      "type": "topical"
+    },
+    {
+      "value": "Poetics",
+      "type": "topical"
+    },
+    {
+      "value": "Poetics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no. 334"
+    },
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no. 334."
+    }
+  ]
+}

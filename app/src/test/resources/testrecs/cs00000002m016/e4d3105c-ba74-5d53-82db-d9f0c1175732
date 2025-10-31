@@ -1,0 +1,82 @@
+{
+  "id": "marc:001:in00029090173",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029090173",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029090173",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2007228"
+    },
+    {
+      "type": "Local",
+      "value": "9910797144702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems;",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sigourney, L. H.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "2d ed."
+  },
+  "publication": {
+    "place": [
+      "Philadelphia,"
+    ],
+    "publisher": [
+      "Key & Biddle,"
+    ],
+    "date": "1836.",
+    "year": 1836,
+    "countryCode": "pau"
+  },
+  "physical": {
+    "extent": "xi, 304 pages",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)653882724",
+      "Poems."
+    ]
+  }
+}

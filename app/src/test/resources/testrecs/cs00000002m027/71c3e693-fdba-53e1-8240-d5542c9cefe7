@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00028798050",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028798050",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028798050",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0701203072"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780701203078"
+    },
+    {
+      "type": "LCCN",
+      "value": " 54041959 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5297161"
+    },
+    {
+      "type": "Local",
+      "value": "9911275025002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Muir, Edwin,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "The Hogarth Press,"
+    ],
+    "date": "1954.",
+    "year": 1954,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "287 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Dust jackets",
+      "type": "topical"
+    },
+    {
+      "value": "Muir, Edwin,",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, Scottish",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, Scottish.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894383580",
+      "Autobiography."
+    ]
+  }
+}

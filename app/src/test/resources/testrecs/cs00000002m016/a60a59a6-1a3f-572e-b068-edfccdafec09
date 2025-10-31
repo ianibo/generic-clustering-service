@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00029972246",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029972246",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029972246",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781847771216"
+    },
+    {
+      "type": "ISBN",
+      "value": "1847771211"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2012518466"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)757931929"
+    },
+    {
+      "type": "Local",
+      "value": "9910429458802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fuller, Roy,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fuller, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Manchester :"
+    ],
+    "publisher": [
+      "Carcanet,"
+    ],
+    "date": "2012.",
+    "year": 2012,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xix, 232 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Collections",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry, Modern",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry, Modern.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

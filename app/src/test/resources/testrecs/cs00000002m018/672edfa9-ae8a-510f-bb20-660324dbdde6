@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00030291871",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030291871",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030291871",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0060129484"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780060129484"
+    },
+    {
+      "type": "ISBN",
+      "value": "0060129352"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780060129354"
+    },
+    {
+      "type": "ISBN",
+      "value": "0060908890"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780060908898"
+    },
+    {
+      "type": "LCCN",
+      "value": " 75006348 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2115938"
+    },
+    {
+      "type": "Local",
+      "value": "9910776195202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Millay, Edna St. Vincent,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Harper,"
+    ],
+    "date": "[1975]",
+    "year": 1975,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "738 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "TD 229"
+    },
+    {
+      "title": "TD 229."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)777753157",
+      "Collected poems."
+    ]
+  }
+}

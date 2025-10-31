@@ -1,0 +1,104 @@
+{
+  "id": "marc:001:in00027772843",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027772843",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027772843",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0702229148"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780702229145"
+    },
+    {
+      "type": "LCCN",
+      "value": " 00690598 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)45234345"
+    },
+    {
+      "type": "Local",
+      "value": "9910373041302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New and selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tsaloumas, Dimitris,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "St Lucia, Qld. :"
+    ],
+    "publisher": [
+      "University of Queensland Press,"
+    ],
+    "date": "2000.",
+    "year": 2000,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xx, 467 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "Tsaloumas, Dimitris,",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

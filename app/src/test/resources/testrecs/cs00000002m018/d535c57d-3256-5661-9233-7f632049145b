@@ -1,0 +1,131 @@
+{
+  "id": "marc:001:in00026245518",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026245518",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026245518",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0684839350"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780684839356"
+    },
+    {
+      "type": "LCCN",
+      "value": " 97023065 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)37043924"
+    },
+    {
+      "type": "Local",
+      "value": "9910695480102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Yeats, W. B.",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Finneran, Richard J.,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Charles Scribner's Sons,",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "edition": {
+    "statement": "Second edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Scribner,"
+    ],
+    "date": "1997.",
+    "year": 1997,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxix pages, 1 unnumbered page, 752 pages :",
+    "illustrations": "illustrations, music ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Collected Work",
+      "type": "topical"
+    },
+    {
+      "value": "Irish poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Irish poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The collected works of W.B. Yeats ;",
+      "numbering": "v. 1"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)605328404",
+      "Poems."
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "marc:001:in00028471270",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028471270",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028471270",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)20585123"
+    },
+    {
+      "type": "Local",
+      "value": "9910353414702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sommarsall, James.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Savannah :"
+    ],
+    "publisher": [
+      "Printed for the Author,"
+    ],
+    "date": "1853.",
+    "year": 1853,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "51 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

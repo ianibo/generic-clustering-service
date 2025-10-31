@@ -1,0 +1,121 @@
+{
+  "id": "marc:001:in00028270798",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028270798",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028270798",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0226204073"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780226204079"
+    },
+    {
+      "type": "ISBN",
+      "value": "0226204111"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780226204116"
+    },
+    {
+      "type": "LCCN",
+      "value": " 89027991 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)20491567"
+    },
+    {
+      "type": "Local",
+      "value": "9911114579402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography /",
+      "type": "main"
+    },
+    {
+      "value": "Memorii.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Eliade, Mircea,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "University of Chicago Press,"
+    ],
+    "date": "1990-",
+    "year": 1990,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "volumes <1> :",
+    "illustrations": "portrait ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiography.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Eliade, Mircea,",
+      "type": "topical"
+    },
+    {
+      "value": "Religion historians",
+      "type": "topical"
+    },
+    {
+      "value": "Religion historians.",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    }
+  ]
+}

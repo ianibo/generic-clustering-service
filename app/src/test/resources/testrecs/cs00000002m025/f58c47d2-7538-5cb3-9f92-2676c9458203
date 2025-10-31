@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00028131217",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028131217",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028131217",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0822336014"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780822336013"
+    },
+    {
+      "type": "ISBN",
+      "value": "0822336391"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780822336396"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2005005703"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)58055388"
+    },
+    {
+      "type": "Local",
+      "value": "9910470231002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Applewhite, James.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Durham, N.C. :"
+    ],
+    "publisher": [
+      "Duke University Press,"
+    ],
+    "date": "2005.",
+    "year": 2005,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xii, 171 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "North Carolina",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607577192",
+      "Selected poems."
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "marc:001:in00025853546",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025853546",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025853546",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)8603076"
+    },
+    {
+      "type": "Local",
+      "value": "9910800480002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems of Edgar Allan Poe /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Poe, Edgar Allan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Whitty, J. H.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Houghton Mifflin Co.,"
+    ],
+    "date": "©1917.",
+    "year": 1917,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "lxxxvi, 190 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poe, Edgar Allan,",
+      "type": "topical"
+    }
+  ]
+}

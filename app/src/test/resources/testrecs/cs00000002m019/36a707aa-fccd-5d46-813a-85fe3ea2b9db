@@ -1,0 +1,123 @@
+{
+  "id": "marc:001:in00029603155",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029603155",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029603155",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780674035737"
+    },
+    {
+      "type": "ISBN",
+      "value": "0674035739"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2009016472"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)318421059"
+    },
+    {
+      "type": "Local",
+      "value": "9910563667902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Federalist /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hamilton, Alexander,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Madison, James,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jay, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, Mass. :"
+    ],
+    "publisher": [
+      "Belknap Press of Harvard University Press,"
+    ],
+    "date": "2009.",
+    "year": 2009,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xlii, 601 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1783-1789",
+      "type": "topical"
+    },
+    {
+      "value": "Constitutional history",
+      "type": "topical"
+    },
+    {
+      "value": "Constitutional history.",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government",
+      "type": "topical"
+    },
+    {
+      "value": "Sources.",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The John Harvard library"
+    },
+    {
+      "title": "John Harvard library."
+    }
+  ]
+}

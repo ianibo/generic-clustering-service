@@ -1,0 +1,89 @@
+{
+  "id": "marc:001:in00027738774",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027738774",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027738774",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 31000368 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2602340"
+    },
+    {
+      "type": "Local",
+      "value": "9910039216802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Duer, Caroline,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Miller, Alice Duer,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cairns Collection of American Women Writers.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "G.H. Richmond & Co.,"
+    ],
+    "date": "1896.",
+    "year": 1896,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "62 pages",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)613229206",
+      "Poems."
+    ]
+  }
+}

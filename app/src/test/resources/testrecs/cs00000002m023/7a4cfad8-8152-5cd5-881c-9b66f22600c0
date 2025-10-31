@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00028369133",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028369133",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028369133",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)5693580"
+    },
+    {
+      "type": "Local",
+      "value": "9910605050202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Great books of the Western World. /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hutchins, Robert Maynard,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Encyclopaedia Britannica, Inc.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "University of Chicago.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopaedia Britannica,",
+      "W. Benton :"
+    ],
+    "date": "©1952.",
+    "year": 1952,
+    "countryCode": "ab "
+  },
+  "physical": {
+    "extent": "54 volumes :",
+    "illustrations": "illustrations, maps ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Collections",
+      "type": "topical"
+    },
+    {
+      "value": "Index",
+      "type": "topical"
+    },
+    {
+      "value": "Indexes",
+      "type": "topical"
+    },
+    {
+      "value": "Indexes.",
+      "type": "topical"
+    },
+    {
+      "value": "Literature",
+      "type": "topical"
+    },
+    {
+      "value": "anthologies.",
+      "type": "topical"
+    },
+    {
+      "value": "indexes (reference sources)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)592255238",
+      "(OCoLC)592540032",
+      "(OCoLC)610593805",
+      "Great books of the Western World."
+    ]
+  }
+}

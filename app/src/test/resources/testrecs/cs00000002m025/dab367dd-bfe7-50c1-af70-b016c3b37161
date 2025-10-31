@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00026457289",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026457289",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026457289",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0913398004"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780913398005"
+    },
+    {
+      "type": "LCCN",
+      "value": " 72092016 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)733799"
+    },
+    {
+      "type": "Local",
+      "value": "9910396716302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Miller, Edwin Shepard,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Columbia, Mo.,"
+    ],
+    "publisher": [
+      "Stephens College"
+    ],
+    "date": "[1972]",
+    "year": 1972,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "63 pages",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Open places poets series"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1468673380",
+      "Selected poems."
+    ]
+  }
+}

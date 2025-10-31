@@ -1,0 +1,102 @@
+{
+  "id": "marc:001:in00026851225",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026851225",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026851225",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "014043724X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140437249"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)42835589"
+    },
+    {
+      "type": "Local",
+      "value": "9910249489502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Clare, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Summerfield, Geoffrey.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Penguin,"
+    ],
+    "date": "2000, ©1990.",
+    "year": 2000,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "400 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

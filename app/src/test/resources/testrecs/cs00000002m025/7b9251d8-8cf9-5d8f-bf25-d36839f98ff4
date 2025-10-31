@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00028830673",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028830673",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028830673",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140431160"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140431162"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)14390332"
+    },
+    {
+      "type": "Local",
+      "value": "9910363500902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The life of Samuel Johnson /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Boswell, James,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Boswell, James,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hibbert, Christopher,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London, England :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1979.",
+    "year": 1979,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "375 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Authors, English",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biography",
+      "type": "topical"
+    },
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00029103210",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029103210",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029103210",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)16136760"
+    }
+  ],
+  "titles": [
+    {
+      "value": "War or peace.",
+      "type": "main"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[U.S.] :"
+    ],
+    "publisher": [
+      "[publisher not identified],"
+    ],
+    "date": "1916.",
+    "year": 1916,
+    "countryCode": "b 0"
+  },
+  "physical": {
+    "extent": "approximately 12 pages ;",
+    "dimensions": "16 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "subjects": [
+    {
+      "value": "1914-1918",
+      "type": "topical"
+    },
+    {
+      "value": "Armed Conflicts",
+      "type": "topical"
+    },
+    {
+      "value": "Peace.",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    },
+    {
+      "value": "War.",
+      "type": "topical"
+    },
+    {
+      "value": "World War, 1914-1918",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Pamphlets in American history.",
+      "numbering": "EW 574."
+    }
+  ]
+}

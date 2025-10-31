@@ -1,0 +1,125 @@
+{
+  "id": "marc:001:gsuin00005770657",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00005770657",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00005770657",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:48Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:48Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781101947340"
+    },
+    {
+      "type": "ISBN",
+      "value": "1101947349"
+    },
+    {
+      "type": "Other",
+      "value": "99991970483"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2020055684"
+    },
+    {
+      "type": "Local",
+      "value": "ybp302361422"
+    },
+    {
+      "type": "Local",
+      "value": "(DLC)ebc6686333"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9934784258502952"
+    },
+    {
+      "type": "Local",
+      "value": "9934784258502952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "All in : an autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "King, Billie Jean,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Howard, Johnette,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Vollers, Maryanne,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, New York :"
+    ],
+    "publisher": [
+      "Alfred A. Knopf, "
+    ],
+    "date": "2021.",
+    "year": 2021,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "1 online resource.",
+    "contentType": "text",
+    "mediaType": "computer",
+    "carrierType": "online resource"
+  },
+  "subjects": [
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "King, Billie Jean.",
+      "type": "topical"
+    },
+    {
+      "value": "Lesbians",
+      "type": "topical"
+    },
+    {
+      "value": "Tennis players",
+      "type": "topical"
+    },
+    {
+      "value": "Women tennis players",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 2020055683",
+      "9781101947333",
+      "All in."
+    ]
+  }
+}

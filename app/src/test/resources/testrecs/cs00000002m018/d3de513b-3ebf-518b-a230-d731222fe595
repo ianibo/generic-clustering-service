@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00028674287",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028674287",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028674287",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780143106081"
+    },
+    {
+      "type": "ISBN",
+      "value": "0143106082"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2010002570"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)430052051"
+    },
+    {
+      "type": "Local",
+      "value": "9910669756502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Parker, Dorothy,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Meade, Marion,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, New York :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "2010.",
+    "year": 2010,
+    "countryCode": " j "
+  },
+  "physical": {
+    "extent": "xxxvii, 390 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

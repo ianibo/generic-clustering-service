@@ -1,0 +1,79 @@
+{
+  "id": "marc:001:in00029280655",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029280655",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029280655",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 19016044 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)503241809"
+    },
+    {
+      "type": "Local",
+      "value": "9910504388202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey : with an English translation by A.T. Murray.",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Murray, A. T.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "grc"
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Heinemann.,"
+    ],
+    "date": "1953-1960.",
+    "year": 1953,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "2 volumes",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

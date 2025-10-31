@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00028071096",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028071096",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028071096",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0335150942"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780335150946"
+    },
+    {
+      "type": "ISBN",
+      "value": "0335150853"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780335150854"
+    },
+    {
+      "type": "LCCN",
+      "value": " 86002455 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)13183697"
+    },
+    {
+      "type": "Local",
+      "value": "9910222861402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Jane Eyre /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "King, Jeannette.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Milton Keynes, Buckinghamshire ;",
+      "Philadelphia :"
+    ],
+    "publisher": [
+      "Open University Press,"
+    ],
+    "date": "1986.",
+    "year": 1986,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "108 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Brontë, Charlotte,",
+      "type": "topical"
+    },
+    {
+      "value": "Governesses in literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Jane Eyre (Brontë, Charlotte)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Open guides to literature"
+    },
+    {
+      "title": "Open guides to literature."
+    }
+  ]
+}

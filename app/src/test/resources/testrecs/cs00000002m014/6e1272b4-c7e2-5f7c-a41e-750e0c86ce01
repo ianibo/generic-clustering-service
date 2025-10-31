@@ -1,0 +1,130 @@
+{
+  "id": "marc:001:in00029150703",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029150703",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029150703",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780199925865"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199925860"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199925872"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199925879"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199326105"
+    },
+    {
+      "type": "ISBN",
+      "value": "019932610X"
+    },
+    {
+      "type": "Other",
+      "value": "99956420663"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2013005120"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)827528881"
+    },
+    {
+      "type": "Local",
+      "value": "9911877946902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad /",
+      "type": "main"
+    },
+    {
+      "value": "Iliad.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Powell, Barry B.,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "[2014]",
+    "year": 2014,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxv, 596 pages :",
+    "illustrations": "illustrations, maps ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Achilles",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

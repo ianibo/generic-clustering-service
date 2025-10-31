@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00026182511",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026182511",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026182511",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 59014497 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)615656"
+    },
+    {
+      "type": "Local",
+      "value": "9910001571202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works.",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Von Neumann, John,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "rus"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Pergamon Press,"
+    ],
+    "date": "1961-1963.",
+    "year": 1961,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "volumes <1>",
+    "illustrations": "illustrations",
+    "dimensions": "26 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Mathematics",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Collected works"
+    },
+    {
+      "title": "Gesamtausgaben."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)568047156",
+      "Collected works."
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:in00028155389",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028155389",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028155389",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0883555034"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780883555033"
+    },
+    {
+      "type": "ISBN",
+      "value": "0883555042"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780883555040"
+    },
+    {
+      "type": "LCCN",
+      "value": " 76023889 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2597947"
+    },
+    {
+      "type": "Local",
+      "value": "9910726078402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Nekrasov, Nikolaĭ Alekseevich,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Soskice, Juliet M.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Westport, Conn. :"
+    ],
+    "publisher": [
+      "Hyperion Press,"
+    ],
+    "date": "1977.",
+    "year": 1977,
+    "countryCode": "ctu"
+  },
+  "physical": {
+    "extent": "xiv, 196 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Nekrasov, Nikolaĭ Alekseevich,",
+      "type": "topical"
+    },
+    {
+      "value": "Russian poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Classics of Russian literature"
+    },
+    {
+      "title": "Classics of Russian literature"
+    },
+    {
+      "title": "Hyperion library of world literature."
+    },
+    {
+      "title": "Hyperion library of world literature."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654369483",
+      "Poems."
+    ]
+  }
+}

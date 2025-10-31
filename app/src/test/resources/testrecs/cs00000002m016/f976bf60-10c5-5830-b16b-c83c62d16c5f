@@ -1,0 +1,86 @@
+{
+  "id": "marc:001:in00027909097",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027909097",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027909097",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0785812849"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780785812845"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)46644423"
+    },
+    {
+      "type": "Local",
+      "value": "9910788808602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickinson, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Brownell, Johanna.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edison, NJ :"
+    ],
+    "publisher": [
+      "Castle Books,"
+    ],
+    "date": "©2000.",
+    "year": 2000,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xv, 224 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    }
+  ]
+}

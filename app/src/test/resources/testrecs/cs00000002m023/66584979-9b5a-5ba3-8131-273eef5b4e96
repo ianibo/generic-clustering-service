@@ -1,0 +1,63 @@
+{
+  "id": "marc:001:in00029007620",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029007620",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029007620",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)34272940"
+    },
+    {
+      "type": "Local",
+      "value": "(GSS)141100-savstdb"
+    },
+    {
+      "type": "Local",
+      "value": "9911560038702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Arnold, Matthew,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "N.Y.,"
+    ],
+    "publisher": [
+      "P.F. Collier,"
+    ],
+    "date": "1902.",
+    "year": 1902,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "466 p."
+  }
+}

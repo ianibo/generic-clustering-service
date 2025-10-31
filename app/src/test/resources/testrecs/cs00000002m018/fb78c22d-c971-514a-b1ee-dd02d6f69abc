@@ -1,0 +1,132 @@
+{
+  "id": "marc:001:in00029851153",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029851153",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029851153",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780231085069"
+    },
+    {
+      "type": "ISBN",
+      "value": "0231085060"
+    },
+    {
+      "type": "LCCN",
+      "value": "a 45004298 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3925356"
+    },
+    {
+      "type": "Local",
+      "value": "9910671099202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography of John Stuart Mill /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Coss, John Jacob,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Columbia University Press,"
+    ],
+    "date": "1960, ©1924.",
+    "year": 1960,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vi, 240 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Mill, John Stuart,",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophers",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophers, Modern",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary works)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Columbia paperback"
+    },
+    {
+      "title": "Columbia paperback."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)712610843",
+      "Autobiography of John Stuart Mill."
+    ]
+  }
+}

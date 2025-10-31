@@ -1,0 +1,141 @@
+{
+  "id": "marc:001:in00029484567",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029484567",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029484567",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0679417257"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679417255"
+    },
+    {
+      "type": "LCCN",
+      "value": " 92052919 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)23246652"
+    },
+    {
+      "type": "Local",
+      "value": "9911111992402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little Dorrit /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Distributed by Random House,",
+      "Knopf :"
+    ],
+    "date": "[1992]",
+    "year": 1992,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xxxix, 835 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Children of prisoners",
+      "type": "topical"
+    },
+    {
+      "value": "Debt, Imprisonment for",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Inheritance and succession",
+      "type": "topical"
+    },
+    {
+      "value": "London (England)",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Marshalsea Prison (Southwark, London, England)",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library ;",
+      "numbering": "111"
+    },
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no. 111."
+    }
+  ]
+}

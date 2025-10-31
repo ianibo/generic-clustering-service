@@ -1,0 +1,102 @@
+{
+  "id": "marc:001:in00026810212",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026810212",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026810212",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 68011703 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)436812"
+    },
+    {
+      "type": "Local",
+      "value": "9910262383002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Powys, John Cowper,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "A new ed.",
+    "number": "with an introd. by J.B. Priestley and a note on writing the autobiography by R.L. Blackmore."
+  },
+  "publication": {
+    "place": [
+      "Hamilton, N.Y.,"
+    ],
+    "publisher": [
+      "Colgate University Press"
+    ],
+    "date": "[1968, ©1967]",
+    "year": 1968,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxi, 672 pages",
+    "illustrations": "portrait",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, English",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, English.",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Powys, John Cowper,",
+      "type": "topical"
+    },
+    {
+      "value": "collective biographies.",
+      "type": "topical"
+    }
+  ]
+}

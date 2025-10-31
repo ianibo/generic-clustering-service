@@ -1,0 +1,80 @@
+{
+  "id": "marc:001:in00028101850",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028101850",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028101850",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 50000063 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4684466"
+    },
+    {
+      "type": "Local",
+      "value": "9910875578802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The tree of life.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Montgomery, David Kemble,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Morehouse-Gorham,"
+    ],
+    "date": "1950.",
+    "year": 1950,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xi, 172 pages",
+    "illustrations": "frontispiece",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Sacraments",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1514334236",
+      "Tree of life."
+    ]
+  }
+}

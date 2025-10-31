@@ -1,0 +1,131 @@
+{
+  "id": "marc:001:in00029580328",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029580328",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029580328",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "a 46001972 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)331228"
+    },
+    {
+      "type": "Local",
+      "value": "9910291964602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Wuthering heights,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Davenport, Basil,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Dodd, Mead & Co.,"
+    ],
+    "date": "1944.",
+    "year": 1944,
+    "countryCode": "cf "
+  },
+  "physical": {
+    "extent": "1 preliminary leaf, 355, [1] pages",
+    "illustrations": "frontispiece, plates, portraits",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings.",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Rejection (Psychology)",
+      "type": "topical"
+    },
+    {
+      "value": "Rural families",
+      "type": "topical"
+    },
+    {
+      "value": "Rural families.",
+      "type": "topical"
+    },
+    {
+      "value": "Triangles (Interpersonal relations)",
+      "type": "topical"
+    },
+    {
+      "value": "Yorkshire (England)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great illustrated classics"
+    },
+    {
+      "title": "Great illustrated classics."
+    }
+  ]
+}

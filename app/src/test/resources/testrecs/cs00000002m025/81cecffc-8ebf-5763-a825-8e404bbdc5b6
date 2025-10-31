@@ -1,0 +1,115 @@
+{
+  "id": "marc:001:in00028183891",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028183891",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028183891",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780393652444"
+    },
+    {
+      "type": "ISBN",
+      "value": "0393652440"
+    },
+    {
+      "type": "Other",
+      "value": "40028716063"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2018028547"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1021808307"
+    },
+    {
+      "type": "Local",
+      "value": "9916067154002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bly, Robert,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "W.W. Norton & Company,"
+    ],
+    "date": "[2018]",
+    "year": 2018,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxxi, 533 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1079758783",
+      "9780393652451",
+      "Collected poems."
+    ]
+  }
+}

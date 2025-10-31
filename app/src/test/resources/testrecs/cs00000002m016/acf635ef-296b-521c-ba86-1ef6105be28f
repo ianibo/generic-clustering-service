@@ -1,0 +1,82 @@
+{
+  "id": "marc:001:in00029870151",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029870151",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029870151",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)54858940"
+    },
+    {
+      "type": "Local",
+      "value": "9910873787402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Marvin Pittman Laboratory School Rambler",
+      "type": "alternative"
+    },
+    {
+      "value": "Marvin Pittman Laboratory School yearbook",
+      "type": "alternative"
+    },
+    {
+      "value": "Marvin Pittman School Rambler",
+      "type": "alternative"
+    },
+    {
+      "value": "Rambler.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marvin Pittman Laboratory School. Business Department.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Statesboro, Ga. :"
+    ],
+    "publisher": [
+      "Marvin Pittman Laboratory School,"
+    ],
+    "date": "1964-1997.",
+    "year": 1964,
+    "countryCode": "gau"
+  },
+  "physical": {
+    "extent": "volumes :",
+    "illustrations": "illustrations, portraits ;",
+    "dimensions": "26 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Marvin Pittman Laboratory School.",
+      "type": "topical"
+    }
+  ]
+}

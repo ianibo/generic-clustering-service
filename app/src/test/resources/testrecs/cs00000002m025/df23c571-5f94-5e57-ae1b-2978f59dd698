@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00028399485",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028399485",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028399485",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780374251338"
+    },
+    {
+      "type": "ISBN",
+      "value": "0374251339"
+    },
+    {
+      "type": "Other",
+      "value": "40026934765"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2016956347"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)972286844"
+    },
+    {
+      "type": "Local",
+      "value": "9910681463102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lowell, Robert,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Peterson, Katie,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Farrar, Straus and Giroux,"
+    ],
+    "date": "2017.",
+    "year": 2017,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxiii, 243 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

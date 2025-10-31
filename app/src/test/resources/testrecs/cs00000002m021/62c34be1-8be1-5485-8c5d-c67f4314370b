@@ -1,0 +1,72 @@
+{
+  "id": "marc:001:in00027638445",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027638445",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027638445",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)368639"
+    },
+    {
+      "type": "Local",
+      "value": "9911109747002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Coleridge, Samuel Taylor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Coleridge, Ernest Hartley,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London, New York,"
+    ],
+    "publisher": [
+      "Oxford University Press"
+    ],
+    "date": "[1961]",
+    "year": 1961,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "614 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "Oxford standard authors"
+    }
+  ]
+}

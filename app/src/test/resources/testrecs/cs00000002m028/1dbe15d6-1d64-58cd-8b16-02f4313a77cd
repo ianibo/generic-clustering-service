@@ -1,0 +1,72 @@
+{
+  "id": "marc:001:in00026881779",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026881779",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026881779",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2947189"
+    },
+    {
+      "type": "Local",
+      "value": "9910970025002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poetry.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Auden, W. H.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "2d ed.",
+    "number": "Chosen for this ed. by the author."
+  },
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Vintage Books"
+    ],
+    "date": "[1970]",
+    "year": 1970,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "240 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "Vintage fiction, poetry and plays,",
+      "numbering": "v-102"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "marc:001:in00027868517",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027868517",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027868517",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0451616758"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780451616753"
+    },
+    {
+      "type": "LCCN",
+      "value": " 72130872 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)122613"
+    },
+    {
+      "type": "Local",
+      "value": "9911109820402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Paradiso /",
+      "type": "main"
+    },
+    {
+      "value": "Paradiso.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Ciardi, John,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Freccero, John,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    },
+    {
+      "name": "New American Library.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Copyright Paperback Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "New American Library,"
+    ],
+    "date": "[1970]",
+    "year": 1970,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxi, 367 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Heaven",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Mentor book ;",
+      "numbering": "MY 1036"
+    },
+    {
+      "title": "Mentor book ;",
+      "numbering": "MY 1036."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1417314994",
+      "(OCoLC)756459964",
+      "Paradiso",
+      "Paradiso."
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "id": "marc:001:in00029403653",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029403653",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029403653",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781598537468"
+    },
+    {
+      "type": "ISBN",
+      "value": "1598537466"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2022940008"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1341260869"
+    },
+    {
+      "type": "Local",
+      "value": "9923856616702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Charles Portis :",
+      "type": "alternative"
+    },
+    {
+      "value": "Portis :",
+      "type": "alternative"
+    },
+    {
+      "value": "Collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Portis, Charles,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Jennings, Jay,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Portis, Charles.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Portis, Charles.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Portis, Charles.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Portis, Charles.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Portis, Charles.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "The Library of America,"
+    ],
+    "date": "[2023]",
+    "year": 2023,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "1096 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Americans",
+      "type": "topical"
+    },
+    {
+      "value": "Americans.",
+      "type": "topical"
+    },
+    {
+      "value": "Black humor.",
+      "type": "topical"
+    },
+    {
+      "value": "Essays.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Humorous fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages and travels",
+      "type": "topical"
+    },
+    {
+      "value": "Western fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Wit and humor.",
+      "type": "topical"
+    },
+    {
+      "value": "humor.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Library of America ;",
+      "numbering": "369"
+    },
+    {
+      "title": "Library of America ;",
+      "numbering": "369."
+    }
+  ]
+}

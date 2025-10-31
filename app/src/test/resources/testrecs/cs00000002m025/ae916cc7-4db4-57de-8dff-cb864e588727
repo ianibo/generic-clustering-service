@@ -1,0 +1,130 @@
+{
+  "id": "marc:001:in00026009737",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026009737",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026009737",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 76427694 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)32053"
+    },
+    {
+      "type": "Local",
+      "value": "9910376767702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mangan, James Clarence,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kilroy, James,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Dublin :"
+    ],
+    "publisher": [
+      "Dolmen Press,"
+    ],
+    "date": "1968.",
+    "year": 1968,
+    "countryCode": "b 0"
+  },
+  "physical": {
+    "extent": "36 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiography",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Intellectual life.",
+      "type": "topical"
+    },
+    {
+      "value": "Ireland",
+      "type": "topical"
+    },
+    {
+      "value": "Ireland.",
+      "type": "topical"
+    },
+    {
+      "value": "Mangan, James Clarence,",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, Irish",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, Irish.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The New Dolmen chapbooks ;",
+      "numbering": "9"
+    },
+    {
+      "title": "New Dolmen chapbooks ;",
+      "numbering": "9."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)568716576",
+      "Autobiography."
+    ]
+  }
+}

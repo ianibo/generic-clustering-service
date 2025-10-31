@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00028762607",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028762607",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028762607",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)3449801"
+    },
+    {
+      "type": "Local",
+      "value": "9911010599602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Ivanhoe /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Weaver, Martha C.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bode, Vaughn F.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Phoenix, N.Y. :"
+    ],
+    "publisher": [
+      "Frank E. Richards,"
+    ],
+    "date": "1967.",
+    "year": 1967,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "118 pages :",
+    "illustrations": "illustrations (some color) ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Juvenile works",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories",
+      "type": "topical"
+    }
+  ]
+}

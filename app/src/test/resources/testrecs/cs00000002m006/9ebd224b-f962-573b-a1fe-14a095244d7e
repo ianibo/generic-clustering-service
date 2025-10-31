@@ -1,0 +1,81 @@
+{
+  "id": "marc:001:in00026600374",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026600374",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026600374",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1090989"
+    },
+    {
+      "type": "Local",
+      "value": "9911085190702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crime and punishment.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Roslyn, N.Y.,"
+    ],
+    "publisher": [
+      "Black's Readers Service"
+    ],
+    "date": "[©1950]",
+    "year": 1950,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xix, 531 pages",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Spirituality.",
+      "type": "topical"
+    },
+    {
+      "value": "Women",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The works of Dostoyevsky"
+    }
+  ]
+}

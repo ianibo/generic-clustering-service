@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00027122870",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027122870",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027122870",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0879232625"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780879232627"
+    },
+    {
+      "type": "LCCN",
+      "value": " 78066693 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5384970"
+    },
+    {
+      "type": "Local",
+      "value": "9910730298102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Catullus /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Catullus, Gaius Valerius,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Raphael, Frederic,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "McLeish, Kenneth,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "David R. Godine,"
+    ],
+    "date": "1979.",
+    "year": 1979,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "120 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Latin poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Latin poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)987914824",
+      "Poems of Catullus."
+    ]
+  }
+}

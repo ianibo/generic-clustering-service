@@ -1,0 +1,85 @@
+{
+  "id": "marc:001:in00029253123",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029253123",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029253123",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2924057"
+    },
+    {
+      "type": "Local",
+      "value": "9911636674402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The dialogues of Plato,",
+      "type": "main"
+    },
+    {
+      "value": "Dialogues.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Plato.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jowett, Benjamin,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Charles Scribner's Sons,"
+    ],
+    "date": "1895.",
+    "year": 1895,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "4 volumes",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Philosophy, Ancient.",
+      "type": "topical"
+    },
+    {
+      "value": "Socrates.",
+      "type": "topical"
+    }
+  ]
+}

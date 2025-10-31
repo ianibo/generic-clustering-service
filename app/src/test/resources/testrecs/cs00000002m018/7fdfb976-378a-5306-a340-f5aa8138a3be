@@ -1,0 +1,62 @@
+{
+  "id": "marc:001:gsuin00005838663",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00005838663",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00005838663",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)767411097"
+    },
+    {
+      "type": "Local",
+      "value": "9935053540302952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems, &c. /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Waller, Edmund,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[London] :"
+    ],
+    "publisher": [
+      "[Printed] for H. Herringman [and sold by] Jacob Tonson,"
+    ],
+    "date": "[1694]",
+    "year": 1694,
+    "countryCode": " o "
+  },
+  "physical": {
+    "extent": "1 online resource ([4], 299, [9], 100 pages)",
+    "contentType": "text",
+    "mediaType": "computer",
+    "carrierType": "online resource"
+  }
+}

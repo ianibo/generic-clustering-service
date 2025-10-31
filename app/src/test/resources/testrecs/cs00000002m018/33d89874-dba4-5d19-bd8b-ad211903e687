@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00027974988",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027974988",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027974988",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0937406252"
+    },
+    {
+      "type": "ISBN",
+      "value": "0937406260"
+    },
+    {
+      "type": "ISBN",
+      "value": "0937406244"
+    },
+    {
+      "type": "Local",
+      "value": "ocm11149265"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)588987-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "9910607841402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poetry & prose /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aichinger, Ilse.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Chappel, Allen H.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "Durango, Colo. :"
+    ],
+    "publisher": [
+      "Logbridge-Rhodes,"
+    ],
+    "date": "c1983.",
+    "year": 1983,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "141 p. ;",
+    "dimensions": "23 cm"
+  }
+}

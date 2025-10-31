@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00030058061",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030058061",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030058061",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)223529760"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "GSP-153"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Guitar music.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rak, Štěpán,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rak, Štěpán,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rak, Štěpán,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rak, Štěpán,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rak, Štěpán,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "San Francisco :"
+    ],
+    "publisher": [
+      "Guitar Solo Publications,"
+    ],
+    "date": "©1985.",
+    "year": 1985,
+    "countryCode": "uuu"
+  },
+  "physical": {
+    "extent": "1 score (39 pages) ;",
+    "dimensions": "31 cm",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Cello and guitar music.",
+      "type": "topical"
+    },
+    {
+      "value": "Guitar music.",
+      "type": "topical"
+    }
+  ]
+}

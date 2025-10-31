@@ -1,0 +1,102 @@
+{
+  "id": "marc:001:in00030074280",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030074280",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030074280",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)626818"
+    },
+    {
+      "type": "Local",
+      "value": "9910693874502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Robert Henryson /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Henryson, Robert,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Smith, G. Gregory",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York ;"
+    ],
+    "publisher": [
+      "Johnson Reprint Corporation,"
+    ],
+    "date": "[1968]",
+    "year": 1968,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "3 volumes :",
+    "illustrations": "facsimiles (some folded) ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Henryson, Robert,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Scottish Text Society. [Publications] ;",
+      "numbering": "55, 58, 64"
+    },
+    {
+      "title": "Scot. Text S. ;",
+      "numbering": "1st ser., 55, 58, 64."
+    }
+  ]
+}

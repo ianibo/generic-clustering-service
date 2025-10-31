@@ -1,0 +1,200 @@
+{
+  "id": "marc:001:in00028378389",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028378389",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028378389",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0385487177"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780385487177"
+    },
+    {
+      "type": "LCCN",
+      "value": " 96036796 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)35666438"
+    },
+    {
+      "type": "Local",
+      "value": "9910522926302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Jane Eyre /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Charlotte,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "New York Public Library.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "edition": {
+    "statement": "1st New York Public Library collector's ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Doubleday,"
+    ],
+    "date": "©1997.",
+    "year": 1997,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xxxi, 542 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "Charity-schools",
+      "type": "topical"
+    },
+    {
+      "value": "Charity-schools.",
+      "type": "topical"
+    },
+    {
+      "value": "Country homes",
+      "type": "topical"
+    },
+    {
+      "value": "Country homes.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Eyre, Jane",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Governesses",
+      "type": "topical"
+    },
+    {
+      "value": "Governesses.",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Married people",
+      "type": "topical"
+    },
+    {
+      "value": "Married people.",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill women",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill women.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Orphans",
+      "type": "topical"
+    },
+    {
+      "value": "Orphans.",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Young women",
+      "type": "topical"
+    },
+    {
+      "value": "Young women.",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The New York Public Library collector's edition"
+    },
+    {
+      "title": "New York Public Library collector's edition."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607899016",
+      "Jane Eyre."
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00026687082",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026687082",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026687082",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 12032603 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6827290"
+    },
+    {
+      "type": "Local",
+      "value": "9911433127702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Faust : a tragedy /",
+      "type": "main"
+    },
+    {
+      "value": "Faust.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Brooks, Charles T.",
+      "role": "editor,",
+      "kind": "person"
+    },
+    {
+      "name": "Ticknor and Fields,",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Ticknor and Fields,"
+    ],
+    "date": "MDCCCLVI [1856]",
+    "year": 1856,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "234 pages :",
+    "illustrations": "illustration ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Faust,",
+      "type": "topical"
+    },
+    {
+      "value": "Goethe, Johann Wolfgang von,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)551508865",
+      "Faust."
+    ]
+  }
+}

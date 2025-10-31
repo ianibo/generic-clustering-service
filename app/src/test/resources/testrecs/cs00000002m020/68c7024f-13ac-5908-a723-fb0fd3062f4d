@@ -1,0 +1,188 @@
+{
+  "id": "marc:001:in00029469357",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029469357",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029469357",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0060241012"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780060241018"
+    },
+    {
+      "type": "ISBN",
+      "value": "0060241020"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780060241025"
+    },
+    {
+      "type": "ISBN",
+      "value": "0064471497"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780064471497"
+    },
+    {
+      "type": "ISBN",
+      "value": "0064402053"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780064402057"
+    },
+    {
+      "type": "ISBN",
+      "value": "0808599852"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780808599852"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781413148107"
+    },
+    {
+      "type": "ISBN",
+      "value": "1413148107"
+    },
+    {
+      "type": "ISBN",
+      "value": "0862032474"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780862032470"
+    },
+    {
+      "type": "LCCN",
+      "value": " 83049481 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)11372082"
+    },
+    {
+      "type": "Local",
+      "value": "9910101195902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Sarah, plain and tall /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "MacLachlan, Patricia,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Harper & Row, Publishers,",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Harper & Row, Publishers,"
+    ],
+    "date": "[1985]",
+    "year": 1985,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "58 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Children's stories, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Frontier and pioneer life",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works",
+      "type": "topical"
+    },
+    {
+      "value": "Mail order brides",
+      "type": "topical"
+    },
+    {
+      "value": "Newbery Medal books, 1986.",
+      "type": "topical"
+    },
+    {
+      "value": "Newbery Medal.",
+      "type": "topical"
+    },
+    {
+      "value": "Stepmothers",
+      "type": "topical"
+    },
+    {
+      "value": "Witting family (Fictitious characters)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Witting family ;",
+      "numbering": "1"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "Sarah, plain and tall."
+    ]
+  }
+}

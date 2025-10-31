@@ -1,0 +1,155 @@
+{
+  "id": "marc:001:in00027503045",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027503045",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027503045",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "052156865X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780521568654"
+    },
+    {
+      "type": "LCCN",
+      "value": " 97102857 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)36307993"
+    },
+    {
+      "type": "Local",
+      "value": "9910401830202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Jane Eyre /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Charlotte,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cockcroft, Susan M.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cambridge ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Cambridge University Press,"
+    ],
+    "date": "1996.",
+    "year": 1996,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "528 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "Charity-schools",
+      "type": "topical"
+    },
+    {
+      "value": "Country homes",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Governesses",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Married people",
+      "type": "topical"
+    },
+    {
+      "value": "Mentally ill women",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Orphans",
+      "type": "topical"
+    },
+    {
+      "value": "Young women",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Cambridge literature"
+    },
+    {
+      "title": "Cambridge literature."
+    }
+  ]
+}

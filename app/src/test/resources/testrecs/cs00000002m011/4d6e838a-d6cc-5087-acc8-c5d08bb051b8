@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00027550964",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027550964",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027550964",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "080361229X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780803612297"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2004001938"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)54365173"
+    },
+    {
+      "type": "Local",
+      "value": "9911426340902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Advanced practice nursing : emphasizing common roles /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stanley, Joan M.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "2nd ed."
+  },
+  "publication": {
+    "place": [
+      "Philadelphia :"
+    ],
+    "publisher": [
+      "F.A. Davis,"
+    ],
+    "date": "©2005.",
+    "year": 2005,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxi, 424 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Midwives.",
+      "type": "topical"
+    },
+    {
+      "value": "Nurse Anesthetists",
+      "type": "topical"
+    },
+    {
+      "value": "Nurse Clinicians",
+      "type": "topical"
+    },
+    {
+      "value": "Nurse Midwives",
+      "type": "topical"
+    },
+    {
+      "value": "Nurse Practitioners",
+      "type": "topical"
+    },
+    {
+      "value": "Nurse anesthetists.",
+      "type": "topical"
+    },
+    {
+      "value": "Nurse practitioners.",
+      "type": "topical"
+    },
+    {
+      "value": "midwives.",
+      "type": "topical"
+    }
+  ]
+}

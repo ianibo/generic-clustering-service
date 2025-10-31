@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00028795637",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028795637",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028795637",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 90191515 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)22510331"
+    },
+    {
+      "type": "Local",
+      "value": "9910206357902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Purgatorio /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Giannantonio, Pompeo.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aurigemma, Marcello.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Napoli :"
+    ],
+    "publisher": [
+      "Loffredo,"
+    ],
+    "date": "[1989]",
+    "year": 1989,
+    "countryCode": "b 0"
+  },
+  "physical": {
+    "extent": "679 pages ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dante Alighieri,",
+      "type": "topical"
+    },
+    {
+      "value": "Purgatorio (Dante Alighieri)",
+      "type": "topical"
+    },
+    {
+      "value": "Purgatory in literature.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Lectura Dantis Neapolitana"
+    },
+    {
+      "title": "Lectura Dantis Neapolitana."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)551434903",
+      "Purgatorio."
+    ]
+  }
+}

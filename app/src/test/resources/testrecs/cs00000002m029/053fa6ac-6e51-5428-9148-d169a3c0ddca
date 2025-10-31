@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00026280492",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026280492",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026280492",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0026329409"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780026329408"
+    },
+    {
+      "type": "LCCN",
+      "value": " 83017567 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)9896226"
+    },
+    {
+      "type": "Local",
+      "value": "9910298214402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Yeats, W. B.",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Finneran, Richard J.,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "New edition /",
+    "number": "edited by Richard J. Finneran."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "[1983]",
+    "year": 1983,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxv, 747 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Irish poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)899750400",
+      "Poems."
+    ]
+  }
+}

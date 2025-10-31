@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00029871079",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029871079",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029871079",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 79108350 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5076633"
+    },
+    {
+      "type": "Local",
+      "value": "9910878941702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Manirujjāmāna, Mohāmmada.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Honolulu :"
+    ],
+    "publisher": [
+      "Participant Resources,"
+    ],
+    "date": "1979.",
+    "year": 1979,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "67 pages ;",
+    "dimensions": "28 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Manirujjāmāna, Mohāmmada",
+      "type": "topical"
+    },
+    {
+      "value": "Manirujjāmāna, Mohāmmada.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ]
+}

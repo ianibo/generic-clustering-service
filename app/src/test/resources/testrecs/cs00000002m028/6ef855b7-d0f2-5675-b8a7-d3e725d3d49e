@@ -1,0 +1,185 @@
+{
+  "id": "marc:001:in00027047323",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027047323",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027047323",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "LCCN",
+      "value": " 55010330 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)912816"
+    },
+    {
+      "type": "Local",
+      "value": "9910848802102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Canterbury tales",
+      "type": "alternative"
+    },
+    {
+      "value": "Troilus and Cressida and the Canterbury tales : with modern English versions of both works /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Chaucer, Geoffrey,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Skeat, Walter W.",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Krapp, George Philip,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Nicolson, J. U.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Chaucer, Geoffrey,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "enm"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopaedia Britannica,"
+    ],
+    "date": "[1952]",
+    "year": 1952,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "ix, 550 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Cressida (Fictitious character)",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Frame-stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Pilgrims and pilgrimages",
+      "type": "topical"
+    },
+    {
+      "value": "Pilgrims and pilgrimages.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Storytelling",
+      "type": "topical"
+    },
+    {
+      "value": "Storytelling.",
+      "type": "topical"
+    },
+    {
+      "value": "Troilus (Legendary character)",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War",
+      "type": "topical"
+    },
+    {
+      "value": "Troy (Extinct city)",
+      "type": "topical"
+    },
+    {
+      "value": "Turkey",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world,",
+      "numbering": "v. 22"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 22."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)761797631",
+      "Troilus and Cressida and The Canterbury tales."
+    ]
+  }
+}

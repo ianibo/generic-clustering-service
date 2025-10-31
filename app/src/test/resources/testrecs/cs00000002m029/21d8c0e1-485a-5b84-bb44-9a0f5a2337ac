@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00030209546",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030209546",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030209546",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)41602077"
+    },
+    {
+      "type": "Local",
+      "value": "9911004978502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The monastery /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :"
+    ],
+    "publisher": [
+      "Printed by T. and A. Constable for T.C. and E.C. Jack,"
+    ],
+    "date": "1901.",
+    "year": 1901,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "illustrations, portraits ;",
+    "dimensions": "27 cm",
+    "contentType": "text",
+    "mediaType": "unmediated"
+  },
+  "subjects": [
+    {
+      "value": "1500-1599",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Waverley novels ;",
+      "numbering": "v. 18-19"
+    },
+    {
+      "title": "Waverley novels ;",
+      "numbering": "v. 18-19"
+    },
+    {
+      "title": "Waverley novels ;",
+      "numbering": "v. 18-19."
+    },
+    {
+      "title": "Waverley novels ;",
+      "numbering": "v. 18-19."
+    }
+  ]
+}

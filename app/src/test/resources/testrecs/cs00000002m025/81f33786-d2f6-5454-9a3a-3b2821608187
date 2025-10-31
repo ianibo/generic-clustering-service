@@ -1,0 +1,133 @@
+{
+  "id": "marc:001:in00027215070",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027215070",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027215070",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 43034315 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1061841"
+    },
+    {
+      "type": "Local",
+      "value": "9910358564502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Whitman, Walt,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Rossetti, William Michael,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Harned, Thomas Biggs,",
+      "role": "former owner.",
+      "kind": "person"
+    },
+    {
+      "name": "Carolyn Wells Houghton Whitman Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Walt Whitman Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Charles E. Feinberg Collection of Walt Whitman (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "John Camden Hotten, Piccadilly,"
+    ],
+    "date": "1868.",
+    "year": 1868,
+    "countryCode": "cf "
+  },
+  "physical": {
+    "extent": "xii, 403 pages, 1 unnumbered page, 1 unnumbered leaf of plates :",
+    "illustrations": "1 portrait ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Annotations (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Binders' tickets (Binding)",
+      "type": "topical"
+    },
+    {
+      "value": "Booksellers' labels (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Lyric poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Publishers' advertisements",
+      "type": "topical"
+    },
+    {
+      "value": "Whitman, Walt,",
+      "type": "topical"
+    },
+    {
+      "value": "rare books.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)656635693",
+      "Poems."
+    ]
+  }
+}

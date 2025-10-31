@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00029925223",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029925223",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029925223",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)838807"
+    },
+    {
+      "type": "Local",
+      "value": "9910870844002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The history of Tom Jones, a foundling,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Place of publication not identified]"
+    ],
+    "publisher": [
+      "Mason Pub. Co.,"
+    ],
+    "date": "1931.",
+    "year": 1931,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "xxiii, 861 pages",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Young men",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)989073578",
+      "History of Tom Jones."
+    ]
+  }
+}

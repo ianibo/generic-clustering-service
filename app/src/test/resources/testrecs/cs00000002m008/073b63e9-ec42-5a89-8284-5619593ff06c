@@ -1,0 +1,120 @@
+{
+  "id": "marc:001:in00028406586",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028406586",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028406586",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0872202119"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780872202115"
+    },
+    {
+      "type": "ISBN",
+      "value": "0872202100"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780872202108"
+    },
+    {
+      "type": "LCCN",
+      "value": " 94027554 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)30811800"
+    },
+    {
+      "type": "Local",
+      "value": "9910146921502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Political writings /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Augustine,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Tkacz, Michael W.,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kries, Douglas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fortin, Ernest L.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Gunn, Roland,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Indianapolis :"
+    ],
+    "publisher": [
+      "Hackett,"
+    ],
+    "date": "[1994].",
+    "year": 1994,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxiii, 262 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Christianity and politics",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    }
+  ]
+}

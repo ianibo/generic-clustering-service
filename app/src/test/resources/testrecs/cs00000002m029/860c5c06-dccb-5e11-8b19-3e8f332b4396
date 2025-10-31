@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:in00026630064",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026630064",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026630064",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 21003911 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2992475"
+    },
+    {
+      "type": "Local",
+      "value": "9911020978902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Democracy in America,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dowd, Jerome,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oklahoma City,"
+    ],
+    "publisher": [
+      "The Harlow Publishing Company,"
+    ],
+    "date": "1921.",
+    "year": 1921,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xiii, 506 pages",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Democracy.",
+      "type": "topical"
+    },
+    {
+      "value": "National characteristics, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)561256959",
+      "Democracy in America."
+    ]
+  }
+}

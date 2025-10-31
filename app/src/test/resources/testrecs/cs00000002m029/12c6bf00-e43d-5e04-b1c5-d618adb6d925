@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00030010086",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030010086",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030010086",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781555974572"
+    },
+    {
+      "type": "ISBN",
+      "value": "1555974570"
+    },
+    {
+      "type": "Other",
+      "value": "9781555974572"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2006924338"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)76701699"
+    },
+    {
+      "type": "Local",
+      "value": "9910140523202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hull, Lynda,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Doty, Mark,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Saint Paul, Minn. :"
+    ],
+    "publisher": [
+      "Graywolf Press,"
+    ],
+    "date": "©2006.",
+    "year": 2006,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiii, 233 pages ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Graywolf re/view series"
+    },
+    {
+      "title": "Graywolf re/view series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607910921",
+      "Collected poems."
+    ]
+  }
+}

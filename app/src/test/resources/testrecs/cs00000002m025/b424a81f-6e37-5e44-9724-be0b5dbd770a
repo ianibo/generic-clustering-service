@@ -1,0 +1,160 @@
+{
+  "id": "marc:001:in00027972178",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027972178",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027972178",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0460004344"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460004343"
+    },
+    {
+      "type": "ISBN",
+      "value": "046001434X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460014342"
+    },
+    {
+      "type": "ISBN",
+      "value": "0460004751"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460004756"
+    },
+    {
+      "type": "ISBN",
+      "value": "0460014757"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460014755"
+    },
+    {
+      "type": "ISBN",
+      "value": "0460004743"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460004749"
+    },
+    {
+      "type": "LCCN",
+      "value": "a 11001529 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)17645218"
+    },
+    {
+      "type": "Local",
+      "value": "9910464130802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The decline and fall of the Roman Empire /",
+      "type": "main"
+    },
+    {
+      "value": "History of the decline and fall of the Roman Empire",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gibbon, Edward,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Smeaton, William Henry Oliphant,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York :"
+    ],
+    "publisher": [
+      "E.P. Dutton & Co.,",
+      "J.M. Dent & Sons ;"
+    ],
+    "date": "1910.",
+    "year": 1910,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "6 volumes ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Byzantine Empire",
+      "type": "topical"
+    },
+    {
+      "value": "Byzantine Empire.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Rome",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    },
+    {
+      "value": "To 527",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no. 434 (hc.) = no. 1434 (pbk.)"
+    },
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no. 434 (hc.) = no. 1434 (pbk.)"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609793273",
+      "Decline and fall of the Roman Empire."
+    ]
+  }
+}

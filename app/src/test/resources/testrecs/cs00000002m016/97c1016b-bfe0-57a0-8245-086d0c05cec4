@@ -1,0 +1,81 @@
+{
+  "id": "marc:001:in00026434217",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026434217",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026434217",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0404089305"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780404089306"
+    },
+    {
+      "type": "LCCN",
+      "value": " 77148312 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)515946"
+    },
+    {
+      "type": "Local",
+      "value": "9910494618702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Algernon Charles Swinburne.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swinburne, Algernon Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York],"
+    ],
+    "publisher": [
+      "[AMS Press],"
+    ],
+    "date": "[1972]",
+    "year": 1972,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "6 volumes",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)582139030",
+      "Poems of Algernon Charles Swinburne."
+    ]
+  }
+}

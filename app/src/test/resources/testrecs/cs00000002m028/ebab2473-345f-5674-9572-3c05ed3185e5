@@ -1,0 +1,120 @@
+{
+  "id": "marc:001:in00027589994",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027589994",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027589994",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0811205509"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780811205504"
+    },
+    {
+      "type": "ISBN",
+      "value": "0811205517"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780811205511"
+    },
+    {
+      "type": "LCCN",
+      "value": " 74008554 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)902895"
+    },
+    {
+      "type": "Local",
+      "value": "9910685385302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rexroth, Kenneth,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "New Directions Publishing Corporation,"
+    ],
+    "date": "[1974]",
+    "year": 1974,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "87 pages",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A New Directions book"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)643578689",
+      "New poems."
+    ]
+  }
+}

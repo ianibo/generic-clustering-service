@@ -1,0 +1,104 @@
+{
+  "id": "marc:001:in00027697584",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027697584",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027697584",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0394711025"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780394711027"
+    },
+    {
+      "type": "LCCN",
+      "value": " 59005907 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1041680"
+    },
+    {
+      "type": "Local",
+      "value": "9910794324302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poetry of W.H. Auden /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Auden, W. H.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "[1958]",
+    "year": 1958,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "180 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Publishers' advertisements.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Modern library of the world's best books ;",
+      "numbering": "160"
+    },
+    {
+      "title": "Modern library of the world's best books."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)988174021",
+      "Selected poetry of W.H. Auden."
+    ]
+  }
+}

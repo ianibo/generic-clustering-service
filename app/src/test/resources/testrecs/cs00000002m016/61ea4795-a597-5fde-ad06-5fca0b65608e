@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00029955949",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029955949",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029955949",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0802022839"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802022837"
+    },
+    {
+      "type": "ISBN",
+      "value": "0710000081"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780710000088"
+    },
+    {
+      "type": "LCCN",
+      "value": " 63025976 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4197996"
+    },
+    {
+      "type": "Local",
+      "value": "9910872835802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Essays on philosophy and the classics /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Robson, John M.,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Sparshott, Francis Edward,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "Toronto :"
+    ],
+    "publisher": [
+      "Routledge & K. Paul,",
+      "University of Toronto Press ;"
+    ],
+    "date": "1978.",
+    "year": 1978,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "c, 578 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Philosophy",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy.",
+      "type": "topical"
+    },
+    {
+      "value": "philosophy.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "His, Collected works ;",
+      "numbering": "v. 11"
+    }
+  ]
+}

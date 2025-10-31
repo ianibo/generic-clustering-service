@@ -1,0 +1,160 @@
+{
+  "id": "marc:001:in00029001929",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029001929",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029001929",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 12023540 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5180913"
+    },
+    {
+      "type": "Local",
+      "value": "9910278767702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems by the most deservedly admired Mrs Katherine Philips, the matchless Orinda",
+      "type": "alternative"
+    },
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Philips, Katherine,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Denham, John,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Faithorne, William,",
+      "role": "engraver.",
+      "kind": "person"
+    },
+    {
+      "name": "Newcomb, Thomas,",
+      "role": "printer.",
+      "kind": "person"
+    },
+    {
+      "name": "Herringman, Henry,",
+      "role": "bookseller.",
+      "kind": "person"
+    },
+    {
+      "name": "Corneille, Pierre,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Corneille, Pierre,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Printed by T.N. [that is, Thomas Newcomb] for Henry Herringman at the sign of the Blew Anchor in the lower walk of the New Exchange,"
+    ],
+    "date": "1678.",
+    "year": 1678,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "[36], 198, [8], 124, [2] p. :",
+    "illustrations": "portrait (engraving) ;",
+    "dimensions": "29 cm (folio)",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Drama",
+      "type": "topical"
+    },
+    {
+      "value": "Drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Horace",
+      "type": "topical"
+    },
+    {
+      "value": "Plays",
+      "type": "topical"
+    },
+    {
+      "value": "Poems",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Pompey,",
+      "type": "topical"
+    },
+    {
+      "value": "Tragedies",
+      "type": "topical"
+    },
+    {
+      "value": "Tragedies (Drama)",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "tragedies.",
+      "type": "topical"
+    }
+  ]
+}

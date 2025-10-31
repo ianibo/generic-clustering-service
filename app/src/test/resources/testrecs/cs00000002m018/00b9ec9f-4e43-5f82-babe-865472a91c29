@@ -1,0 +1,87 @@
+{
+  "id": "marc:001:in00030068021",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030068021",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030068021",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 53013044 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5638807"
+    },
+    {
+      "type": "Local",
+      "value": "9910654229102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Colum, Padraic,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Devin-Adair"
+    ],
+    "date": "[1953]",
+    "year": 1953,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vi, 214 pages",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Authors' presentation copies (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)576046375",
+      "Collected poems."
+    ]
+  }
+}

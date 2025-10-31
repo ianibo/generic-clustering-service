@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00028457530",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028457530",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028457530",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 57007304 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)514232"
+    },
+    {
+      "type": "Local",
+      "value": "9910079625902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Low, David,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Simon and Schuster,"
+    ],
+    "date": "1957 [©1956]",
+    "year": 1957,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "387 pages",
+    "illustrations": "illustrations",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Caricatures and cartoons",
+      "type": "topical"
+    },
+    {
+      "value": "Caricatures and cartoons.",
+      "type": "topical"
+    },
+    {
+      "value": "Cartoonists",
+      "type": "topical"
+    },
+    {
+      "value": "Cartoonists.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Low, David,",
+      "type": "topical"
+    },
+    {
+      "value": "New Zealand.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)972161900",
+      "Autobiography."
+    ]
+  }
+}

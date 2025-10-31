@@ -1,0 +1,144 @@
+{
+  "id": "marc:001:in00030073421",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030073421",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030073421",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0748605797"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780748605798"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2002503509"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)45350731"
+    },
+    {
+      "type": "Local",
+      "value": "9910111672502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Quentin Durward /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Alexander, J. H.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wood, G. A. M.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :"
+    ],
+    "publisher": [
+      "Edinburgh University Press,"
+    ],
+    "date": "©2001.",
+    "year": 2001,
+    "countryCode": "stk"
+  },
+  "physical": {
+    "extent": "xvi, 595 pages :",
+    "illustrations": "1 map ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1461-1483",
+      "type": "topical"
+    },
+    {
+      "value": "Charles,",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "France.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Louis",
+      "type": "topical"
+    },
+    {
+      "value": "Scots",
+      "type": "topical"
+    },
+    {
+      "value": "Scots.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Edinburgh edition of the Waverley novels ;",
+      "numbering": "v. 15"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)606564599",
+      "Quentin Durward."
+    ]
+  }
+}

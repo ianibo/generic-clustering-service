@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00029412050",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029412050",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029412050",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0691018782"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691018782"
+    },
+    {
+      "type": "LCCN",
+      "value": " 91122485 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)21129011"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Dialogues /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Valéry, Paul,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Stewart, William McCausland,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bollingen Foundation Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Princeton, N.J. :"
+    ],
+    "publisher": [
+      "Princeton University Press,"
+    ],
+    "date": "[1989], ©1956.",
+    "year": 1989,
+    "countryCode": "nju"
+  },
+  "physical": {
+    "extent": "xxvii, 195 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dialogues, French",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "Valéry, Paul,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Collected works of Paul Valéry ;",
+      "numbering": "v. 4"
+    },
+    {
+      "title": "The Collected works of Paul Valéry ;",
+      "numbering": "v. 4"
+    },
+    {
+      "title": "Bollingen series ;",
+      "numbering": "XLV, 4."
+    }
+  ]
+}

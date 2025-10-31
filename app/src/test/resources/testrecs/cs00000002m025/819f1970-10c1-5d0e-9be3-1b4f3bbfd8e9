@@ -1,0 +1,135 @@
+{
+  "id": "marc:001:in00030166774",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030166774",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030166774",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0679405690"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679405696"
+    },
+    {
+      "type": "LCCN",
+      "value": " 91052996 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)24065522"
+    },
+    {
+      "type": "Local",
+      "value": "9910418689302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The history of Tom Jones, a foundling /",
+      "type": "main"
+    },
+    {
+      "value": "History of Tom Jones",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Knopf,"
+    ],
+    "date": "©1991.",
+    "year": 1991,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxxvi, 408, 427 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings.",
+      "type": "topical"
+    },
+    {
+      "value": "Humorous fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Humorous stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Identity (Psychology)",
+      "type": "topical"
+    },
+    {
+      "value": "Young men",
+      "type": "topical"
+    },
+    {
+      "value": "Young men.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library ;",
+      "numbering": "28"
+    },
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no. 28."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "marc:001:in00028635434",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028635434",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028635434",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)7501807"
+    },
+    {
+      "type": "Local",
+      "value": "9911243609202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women",
+      "type": "alternative"
+    },
+    {
+      "value": "Little women, or, Meg, Jo, Beth, and Amy /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Little, Brown, and Co.,"
+    ],
+    "date": "1924.",
+    "year": 1924,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "532 pages, 1 unnumbered leaf of plates :",
+    "illustrations": "illustrations ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Families",
+      "type": "topical"
+    },
+    {
+      "value": "Families.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    }
+  ]
+}

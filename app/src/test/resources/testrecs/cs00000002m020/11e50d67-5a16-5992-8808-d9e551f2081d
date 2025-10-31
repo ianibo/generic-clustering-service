@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00027018245",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027018245",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027018245",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)9713614"
+    },
+    {
+      "type": "Local",
+      "value": "9911509966702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Whitman, Walt,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sandburg, Carl,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Modern Library"
+    ],
+    "date": "[©1921]",
+    "year": 1921,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "2 preliminary leaves, iii-xvi, 311 pages",
+    "dimensions": "17 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Modern library of the world's best books"
+    },
+    {
+      "title": "Modern library of the world's best books."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609555273",
+      "Poems."
+    ]
+  }
+}

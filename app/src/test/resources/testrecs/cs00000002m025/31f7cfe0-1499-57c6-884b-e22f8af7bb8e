@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00028775753",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028775753",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028775753",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)11899702"
+    },
+    {
+      "type": "Local",
+      "value": "9910491943302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bryant, William Cullen,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cambridge :"
+    ],
+    "publisher": [
+      "[publisher not identified],"
+    ],
+    "date": "1821",
+    "year": 1821,
+    "countryCode": " a "
+  },
+  "physical": {
+    "extent": "44 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American poetry, 1609-1900.",
+      "numbering": "no. 315."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 21013044"
+    ]
+  }
+}

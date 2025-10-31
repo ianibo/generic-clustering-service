@@ -1,0 +1,67 @@
+{
+  "id": "marc:001:in00028022730",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028022730",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028022730",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)11897516"
+    },
+    {
+      "type": "Local",
+      "value": "9912107648702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marvell, Andrew,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Donno, Elizabeth Story,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York] :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1978.",
+    "year": 1978,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "314 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

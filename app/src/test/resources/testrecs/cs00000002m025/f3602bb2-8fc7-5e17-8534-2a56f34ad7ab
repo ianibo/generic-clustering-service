@@ -1,0 +1,127 @@
+{
+  "id": "marc:001:in00030448778",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030448778",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030448778",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0571151965"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780571151967"
+    },
+    {
+      "type": "ISBN",
+      "value": "0374126232"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780374126230"
+    },
+    {
+      "type": "ISBN",
+      "value": "0571153860"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780571153862"
+    },
+    {
+      "type": "LCCN",
+      "value": " 90180100 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)23385993"
+    },
+    {
+      "type": "Local",
+      "value": "9910314535602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Larkin, Philip,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Thwaite, Anthony,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :",
+      "London ;"
+    ],
+    "publisher": [
+      "Marvell Press and Faber and Faber,"
+    ],
+    "date": "1988.",
+    "year": 1988,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xxvii, 330 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Larkin, Philip.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "marc:001:in00029430606",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029430606",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029430606",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 71135502 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)149685"
+    },
+    {
+      "type": "Local",
+      "value": "9910855821702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Robinson, Clara Weaver,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Murphy, Ethel Robinson,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Schenectady, N.Y.],"
+    ],
+    "publisher": [
+      "[Printed by Riedinger & Riedinger],"
+    ],
+    "date": "[1970]",
+    "year": 1970,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xiii, 231 pages",
+    "illustrations": "illustrations",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)761405406",
+      "Poems."
+    ]
+  }
+}

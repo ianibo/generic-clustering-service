@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00028564147",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028564147",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028564147",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "185326797X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781853267970"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)44447162"
+    },
+    {
+      "type": "Local",
+      "value": "9915161789102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The life of Samuel Johnson, LL. D. /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Boswell, James,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Ware, Hertfordshire [England] :"
+    ],
+    "publisher": [
+      "Wordsworth Editions,"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xx, 997 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Authors, English",
+      "type": "topical"
+    },
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    },
+    {
+      "value": "Lexicographers",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Wordsworth classics of world literature"
+    },
+    {
+      "title": "Wordsworth classics of world literature."
+    }
+  ]
+}

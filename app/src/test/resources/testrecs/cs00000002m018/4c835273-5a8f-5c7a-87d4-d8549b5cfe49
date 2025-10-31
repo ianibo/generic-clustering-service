@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:in00028539907",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028539907",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028539907",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0571139728 :"
+    },
+    {
+      "type": "LCCN",
+      "value": "gb 87002158"
+    },
+    {
+      "type": "Local",
+      "value": "ocm15282970"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)632390-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "9910749285902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Barker, George,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fraser, Robert,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :",
+      "London ;"
+    ],
+    "publisher": [
+      "Faber and Faber,"
+    ],
+    "date": "1987.",
+    "year": 1987,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxi, 838 p. ;",
+    "dimensions": "20 cm"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "marc:001:in00029208315",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029208315",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029208315",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)9734868"
+    },
+    {
+      "type": "Local",
+      "value": "9910492005302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Egan, Maurice Francis,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "C. Wildermann,"
+    ],
+    "date": "©1900.",
+    "year": 1900,
+    "countryCode": " a "
+  },
+  "physical": {
+    "extent": "3 volumes in 1 ;",
+    "dimensions": "16 cm.",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "series": [
+    {
+      "title": "The Catholic library ;",
+      "numbering": "v. 35, 45, 55"
+    },
+    {
+      "title": "The Catholic library ;",
+      "numbering": "v. 35, 45, 55."
+    },
+    {
+      "title": "The Catholic library ;",
+      "numbering": "v. 35, 45, 55."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 00003663"
+    ]
+  }
+}

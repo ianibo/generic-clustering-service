@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00026547227",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026547227",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026547227",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780199540082"
+    },
+    {
+      "type": "ISBN",
+      "value": "019954008X"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2008276788"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)195660309"
+    },
+    {
+      "type": "Local",
+      "value": "9922294955002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The major works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Anselm,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Davies, Brian,",
+      "role": "editor,",
+      "kind": "person"
+    },
+    {
+      "name": "Evans, G. R.",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "2008.",
+    "year": 2008,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xxvii, 513 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy, Medieval",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy, Medieval.",
+      "type": "topical"
+    },
+    {
+      "value": "Theology, Doctrinal",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford world's classics"
+    },
+    {
+      "title": "Oxford world's classics (Oxford University Press)"
+    }
+  ]
+}

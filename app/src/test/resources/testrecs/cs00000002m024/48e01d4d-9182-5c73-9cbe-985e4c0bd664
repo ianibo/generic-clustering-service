@@ -1,0 +1,130 @@
+{
+  "id": "marc:001:in00028594525",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028594525",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028594525",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1561380458"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781561380459"
+    },
+    {
+      "type": "ISBN",
+      "value": "0762405627"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780762405626"
+    },
+    {
+      "type": "LCCN",
+      "value": " 91071089 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)24320185"
+    },
+    {
+      "type": "Local",
+      "value": "9911731234002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickinson, Emily,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Cairns Collection of American Women Writers.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia, Pennsylvania :"
+    ],
+    "publisher": [
+      "Courage Books, an imprint of Running Press,"
+    ],
+    "date": "[1991]",
+    "year": 1991,
+    "countryCode": "pau"
+  },
+  "physical": {
+    "extent": "416 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Dickinson, Emily,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Courage classics"
+    },
+    {
+      "title": "Courage classics."
+    }
+  ]
+}

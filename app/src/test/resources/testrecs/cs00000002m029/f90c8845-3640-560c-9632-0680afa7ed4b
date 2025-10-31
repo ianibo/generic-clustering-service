@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00028212445",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028212445",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028212445",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1930630638"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781930630635"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2012954306"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)858919741"
+    },
+    {
+      "type": "Local",
+      "value": "9910808002502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Louis MacNeice collected poems",
+      "type": "alternative"
+    },
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "MacNeice, Louis,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "McDonald, Peter,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First U.S. edition."
+  },
+  "publication": {
+    "place": [
+      "Winston-Salem, NC :"
+    ],
+    "publisher": [
+      "Wake Forest University Press,"
+    ],
+    "date": "[2013]",
+    "year": 2013,
+    "countryCode": "ncu"
+  },
+  "physical": {
+    "extent": "xxxix, 836 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "MacNeice, Louis,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

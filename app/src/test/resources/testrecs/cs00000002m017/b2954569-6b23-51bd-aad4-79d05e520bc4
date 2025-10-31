@@ -1,0 +1,125 @@
+{
+  "id": "marc:001:in00027281014",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027281014",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027281014",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 65019700 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)259265"
+    },
+    {
+      "type": "Local",
+      "value": "9910032060802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems of Rolfe Humphries.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Humphries, Rolfe,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Bloomington :"
+    ],
+    "publisher": [
+      "Indiana University Press,"
+    ],
+    "date": "1965.",
+    "year": 1965,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xv, 261 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, American",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Indiana University poetry series ;",
+      "numbering": "28"
+    },
+    {
+      "title": "Indiana University poetry series ;",
+      "numbering": "28."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)561859841",
+      "Collected poems."
+    ]
+  }
+}

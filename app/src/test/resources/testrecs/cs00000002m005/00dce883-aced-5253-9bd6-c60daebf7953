@@ -1,0 +1,81 @@
+{
+  "id": "marc:001:in00025759937",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025759937",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025759937",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2415261"
+    },
+    {
+      "type": "Local",
+      "value": "(GMorC)27535-claytondb"
+    },
+    {
+      "type": "Local",
+      "value": "9911782095202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crime and punishment /",
+      "type": "main"
+    },
+    {
+      "value": "Prestuplenie i nakazanie.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York :"
+    ],
+    "publisher": [
+      "Dent :",
+      "Dutton"
+    ],
+    "date": "1963.",
+    "year": 1963,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiv, 493 p. ;",
+    "dimensions": "19 cm."
+  },
+  "series": [
+    {
+      "title": "Everyman's library"
+    },
+    {
+      "title": "Everyman's library."
+    }
+  ]
+}

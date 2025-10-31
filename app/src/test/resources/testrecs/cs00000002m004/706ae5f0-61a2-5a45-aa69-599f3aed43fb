@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00028837704",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028837704",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028837704",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 31026742 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1280977"
+    },
+    {
+      "type": "Local",
+      "value": "9910095562602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Robinson, Edwin Arlington,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Perry, Bliss,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1931.",
+    "year": 1931,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "304 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Excerpts.",
+      "type": "topical"
+    },
+    {
+      "value": "Lyric poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Maine",
+      "type": "topical"
+    },
+    {
+      "value": "Narrative poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American",
+      "type": "topical"
+    },
+    {
+      "value": "Sonnets.",
+      "type": "topical"
+    },
+    {
+      "value": "excerpts.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "sonnets.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894801981",
+      "Poems."
+    ]
+  }
+}

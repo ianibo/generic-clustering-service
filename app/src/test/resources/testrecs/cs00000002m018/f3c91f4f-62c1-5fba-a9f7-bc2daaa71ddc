@@ -1,0 +1,127 @@
+{
+  "id": "marc:001:in00028953975",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028953975",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028953975",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 50006144 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1248130"
+    },
+    {
+      "type": "Local",
+      "value": "9910760611002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The way of all flesh /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Butler, Samuel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Harper,"
+    ],
+    "date": "[1950]",
+    "year": 1950,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiv, 490 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographical fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "Children of clergy",
+      "type": "topical"
+    },
+    {
+      "value": "Conflict of generations",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Middle class",
+      "type": "topical"
+    },
+    {
+      "value": "Parent and child",
+      "type": "topical"
+    },
+    {
+      "value": "Young men",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)566008751",
+      "Way of all flesh."
+    ]
+  }
+}

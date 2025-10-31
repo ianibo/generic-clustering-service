@@ -1,0 +1,161 @@
+{
+  "id": "marc:001:in00027173087",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027173087",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027173087",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781594633171"
+    },
+    {
+      "type": "ISBN",
+      "value": "1594633177"
+    },
+    {
+      "type": "Other",
+      "value": "40023415799"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2013046176"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)861479139"
+    },
+    {
+      "type": "Local",
+      "value": "9910487590602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "In paradise /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Matthiessen, Peter.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Riverhead Books, A member of Penguin Group (USA),"
+    ],
+    "date": "2014.",
+    "year": 2014,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "246 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Abandoned children",
+      "type": "topical"
+    },
+    {
+      "value": "Auschwitz (Concentration camp)",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Family secrets",
+      "type": "topical"
+    },
+    {
+      "value": "Family secrets.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Jewish fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Jewish women",
+      "type": "topical"
+    },
+    {
+      "value": "Jewish women.",
+      "type": "topical"
+    },
+    {
+      "value": "Mothers and sons",
+      "type": "topical"
+    },
+    {
+      "value": "Nazi concentration camps",
+      "type": "topical"
+    },
+    {
+      "value": "Nazi concentration camps.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Secrecy",
+      "type": "topical"
+    },
+    {
+      "value": "Secrets",
+      "type": "topical"
+    },
+    {
+      "value": "Suicide",
+      "type": "topical"
+    },
+    {
+      "value": "Teachers",
+      "type": "topical"
+    },
+    {
+      "value": "Teachers.",
+      "type": "topical"
+    }
+  ]
+}

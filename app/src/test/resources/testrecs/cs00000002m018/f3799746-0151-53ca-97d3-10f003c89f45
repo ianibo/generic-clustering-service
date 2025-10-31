@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:gsuin00004472162",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004472162",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004472162",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "a 10000015"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4228079"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)3097821-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9930978213402952"
+    },
+    {
+      "type": "Local",
+      "value": "9930978213402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The prince,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Machiavelli, Niccolò,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Marriott, W. K.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York, E. P. Dutton & co."
+    ],
+    "publisher": [
+      "J. M. Dent & co.,;"
+    ],
+    "date": "[1908]",
+    "year": 1908,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiv, 231 p.",
+    "dimensions": "19 cm."
+  },
+  "subjects": [
+    {
+      "value": "Political ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library. Essays and belles lettres. [no. 280]"
+    }
+  ]
+}

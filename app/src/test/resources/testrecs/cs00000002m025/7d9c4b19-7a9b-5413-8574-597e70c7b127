@@ -1,0 +1,82 @@
+{
+  "id": "marc:001:in00027746445",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027746445",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027746445",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 15011600 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6232606"
+    },
+    {
+      "type": "Local",
+      "value": "9910282809502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Crabbe, George,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Carr, Robert,",
+      "role": "printer.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia :"
+    ],
+    "publisher": [
+      "Published by Bradford & Inskeep, no. 4, South Third Street,"
+    ],
+    "date": "1808.",
+    "year": 1808,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxi, [3], 235, [1] pages ;",
+    "dimensions": "19 cm (12mo)",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)656984883",
+      "Poems."
+    ]
+  }
+}

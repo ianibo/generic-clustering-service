@@ -1,0 +1,140 @@
+{
+  "id": "marc:001:in00027447736",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027447736",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027447736",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0866119671"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780866119672"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)24249256"
+    },
+    {
+      "type": "Local",
+      "value": "9911435638802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Moby Dick /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bogart, Shirley.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pablo Marcos Studio.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "Baronet Books,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "239 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adventure and adventurers",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab,",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab, Captain (Fictitious character)",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great illustrated classics"
+    },
+    {
+      "title": "Great illustrated classics."
+    }
+  ]
+}

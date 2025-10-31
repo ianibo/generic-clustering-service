@@ -1,0 +1,123 @@
+{
+  "id": "marc:001:in00029301593",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029301593",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029301593",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780140445503"
+    },
+    {
+      "type": "ISBN",
+      "value": "0140445501"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)70671477"
+    },
+    {
+      "type": "Local",
+      "value": "9910415633202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gargantua and Pantagruel /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rabelais, François,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Screech, M. A.",
+      "role": "translator,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Penguin,"
+    ],
+    "date": "2006.",
+    "year": 2006,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xlvi, 1041 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fantasy fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Gargantua (Legendary character)",
+      "type": "topical"
+    },
+    {
+      "value": "Giants.",
+      "type": "topical"
+    },
+    {
+      "value": "Picaresque fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Rabelais, François,",
+      "type": "topical"
+    },
+    {
+      "value": "Satirical literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)649205095",
+      "Gargantua and Pantagruel."
+    ]
+  }
+}

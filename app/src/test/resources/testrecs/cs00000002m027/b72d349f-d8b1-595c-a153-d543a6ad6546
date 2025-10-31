@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:in00027783251",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027783251",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027783251",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)7268984"
+    },
+    {
+      "type": "Local",
+      "value": "9911250018702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poet in New York /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "García Lorca, Federico,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Thames & Hudson,"
+    ],
+    "date": "©1955.",
+    "year": 1955,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xlvi, 192 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Gay men.",
+      "type": "topical"
+    },
+    {
+      "value": "Gay poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Gender identity.",
+      "type": "topical"
+    },
+    {
+      "value": "LGBTQ+ literature.",
+      "type": "topical"
+    },
+    {
+      "value": "LGBTQ+ people.",
+      "type": "topical"
+    },
+    {
+      "value": "LGBTQ+ poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Men.",
+      "type": "topical"
+    },
+    {
+      "value": "New York (N.Y.)",
+      "type": "topical"
+    },
+    {
+      "value": "New York (State)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry of places",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry of places.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Sexual minorities.",
+      "type": "topical"
+    },
+    {
+      "value": "Travel",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "marc:001:in00028509600",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028509600",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028509600",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)5162332"
+    },
+    {
+      "type": "Local",
+      "value": "9910278778802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Ridge's poems",
+      "type": "alternative"
+    },
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ridge, John Rollin,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Henry Payot & Company,",
+      "role": "publisher.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Edward Bosqui & Company,",
+      "role": "printer.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "San Francisco :"
+    ],
+    "publisher": [
+      "Henry Payot & Company, Publishers,"
+    ],
+    "date": "1868.",
+    "year": 1868,
+    "countryCode": "co "
+  },
+  "physical": {
+    "extent": "137, [1] pages, [1] leaf of plates :",
+    "illustrations": "portrait ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poems",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Ridge, John,",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609526692",
+      "Poems."
+    ]
+  }
+}

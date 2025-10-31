@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00027005086",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027005086",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027005086",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "8535900500"
+    },
+    {
+      "type": "ISBN",
+      "value": "9788535900507"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2001286621"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)45497190"
+    },
+    {
+      "type": "Local",
+      "value": "9910395428802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Inferno /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melo, Patrícia,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[São Paulo, Brazil] :"
+    ],
+    "publisher": [
+      "Companhia das Letras,"
+    ],
+    "date": "2000.",
+    "year": 2000,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "367 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Brazil",
+      "type": "topical"
+    },
+    {
+      "value": "Drug traffic",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Street children",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)657071125",
+      "Inferno."
+    ]
+  }
+}

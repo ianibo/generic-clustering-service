@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:in00029628686",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029628686",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029628686",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0192812475"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192812476"
+    },
+    {
+      "type": "ISBN",
+      "value": "0198246943"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198246947"
+    },
+    {
+      "type": "LCCN",
+      "value": " 79310127 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5445872"
+    },
+    {
+      "type": "Local",
+      "value": "9911493495202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collingwood, R. G.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "[1st ed.] reprinted ; with a new introduction by Stephen Toulmin."
+  },
+  "publication": {
+    "place": [
+      "Oxford :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1978.",
+    "year": 1978,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xix, 172 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Collingwood, R. G.",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophers",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophers.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)987914477",
+      "Autobiography."
+    ]
+  }
+}

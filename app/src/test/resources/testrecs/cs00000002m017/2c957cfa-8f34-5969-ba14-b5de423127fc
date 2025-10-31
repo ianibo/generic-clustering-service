@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:in00026082040",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026082040",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026082040",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 64025926 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)279702"
+    },
+    {
+      "type": "Local",
+      "value": "9910324395502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cohen, Hennig,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "[1st ed.]."
+  },
+  "publication": {
+    "place": [
+      "Carbondale,"
+    ],
+    "publisher": [
+      "Southern Illinois University Press"
+    ],
+    "date": "[1964]",
+    "year": 1964,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xvi, 259 pages",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Melville, Herman,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609889062",
+      "Selected poems."
+    ]
+  }
+}

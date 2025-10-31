@@ -1,0 +1,199 @@
+{
+  "id": "marc:001:in00029514805",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029514805",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029514805",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780674728677"
+    },
+    {
+      "type": "ISBN",
+      "value": "067472867X"
+    },
+    {
+      "type": "Other",
+      "value": "9780674728677"
+    },
+    {
+      "type": "Other",
+      "value": "40024295951"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2014011725"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)876000029"
+    },
+    {
+      "type": "Local",
+      "value": "9910357731302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Political writings /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Salutati, Coluccio,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Baldassarri, Stefano Ugo,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Bagemihl, Rolf,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Salutati, Coluccio,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, Massachusetts :"
+    ],
+    "publisher": [
+      "Harvard University Press,"
+    ],
+    "date": "2014.",
+    "year": 2014,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxv, 489 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Despotism",
+      "type": "topical"
+    },
+    {
+      "value": "Despotism.",
+      "type": "topical"
+    },
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Florence (Italy)",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Italy",
+      "type": "topical"
+    },
+    {
+      "value": "Italy.",
+      "type": "topical"
+    },
+    {
+      "value": "Personal correspondence.",
+      "type": "topical"
+    },
+    {
+      "value": "Political and social views.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science",
+      "type": "topical"
+    },
+    {
+      "value": "Political science.",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government",
+      "type": "topical"
+    },
+    {
+      "value": "Salutati, Coluccio,",
+      "type": "topical"
+    },
+    {
+      "value": "Sources.",
+      "type": "topical"
+    },
+    {
+      "value": "Statesmen",
+      "type": "topical"
+    },
+    {
+      "value": "Statesmen.",
+      "type": "topical"
+    },
+    {
+      "value": "To 1500",
+      "type": "topical"
+    },
+    {
+      "value": "letters (correspondence)",
+      "type": "topical"
+    },
+    {
+      "value": "personal correspondence.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The I Tatti Renaissance library ;",
+      "numbering": "ITRL 64"
+    },
+    {
+      "title": "I Tatti Renaissance library ;",
+      "numbering": "64."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1085908591",
+      "Political writings"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00026691264",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026691264",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026691264",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)612860"
+    },
+    {
+      "type": "Local",
+      "value": "9910460366402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Paradise /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Butler, Arthur John,",
+      "role": "ed. and tr.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "And New York :",
+      "London ;"
+    ],
+    "publisher": [
+      "Macmillan and Co.,"
+    ],
+    "date": "1891.",
+    "year": 1891,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xvi, 438 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dante Alighieri,",
+      "type": "topical"
+    },
+    {
+      "value": "Italian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Italian poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)613202216",
+      "Paradise of Dante Alighieri."
+    ]
+  }
+}

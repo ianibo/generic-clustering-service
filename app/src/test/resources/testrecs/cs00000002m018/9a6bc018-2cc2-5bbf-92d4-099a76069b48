@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00026686615",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026686615",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026686615",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0802029469"
+    },
+    {
+      "type": "ISBN",
+      "value": "0802071929"
+    },
+    {
+      "type": "LCCN",
+      "value": "gb 95072899"
+    },
+    {
+      "type": "Local",
+      "value": "ocm33207547"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)787265-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "9910731907302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Villon, François,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Villon, François,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sargent-Baur, Barbara Nelson.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "Buffalo :",
+      "Toronto ;"
+    ],
+    "publisher": [
+      "University of Toronto Press,"
+    ],
+    "date": "c1994.",
+    "year": 1994,
+    "countryCode": "ab "
+  },
+  "physical": {
+    "extent": "346 p. :",
+    "illustrations": "ill., 1 map ;",
+    "dimensions": "24 cm."
+  },
+  "subjects": [
+    {
+      "value": "French poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Villon, François,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Toronto medieval texts and translations ;",
+      "numbering": "9"
+    },
+    {
+      "title": "Toronto medieval texts and translations ;",
+      "numbering": "9."
+    }
+  ]
+}

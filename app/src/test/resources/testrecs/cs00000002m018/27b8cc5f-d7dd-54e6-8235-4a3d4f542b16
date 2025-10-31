@@ -1,0 +1,123 @@
+{
+  "id": "marc:001:in00027173218",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027173218",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027173218",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0691036578"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691036571"
+    },
+    {
+      "type": "LCCN",
+      "value": " 93027617 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)31226108"
+    },
+    {
+      "type": "Local",
+      "value": "9910632353602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Essays on art and literature /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Gearey, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "1st Princeton pbk."
+  },
+  "publication": {
+    "place": [
+      "Princeton, N.J. :"
+    ],
+    "publisher": [
+      "Princeton University Press,"
+    ],
+    "date": "1994, ©1986.",
+    "year": 1994,
+    "countryCode": "nju"
+  },
+  "physical": {
+    "extent": "viii, 268 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Aesthetics.",
+      "type": "topical"
+    },
+    {
+      "value": "Art.",
+      "type": "topical"
+    },
+    {
+      "value": "Arts.",
+      "type": "topical"
+    },
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Goethe, Johann Wolfgang von,",
+      "type": "topical"
+    },
+    {
+      "value": "Literature",
+      "type": "topical"
+    },
+    {
+      "value": "Literature.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Goethe's collected works ;",
+      "numbering": "vol. 3"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "marc:001:in00028395260",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028395260",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028395260",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 46003856 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)962750"
+    },
+    {
+      "type": "Local",
+      "value": "9911620389902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The brothers Karamazov,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Sharp, William,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "[New York]"
+    ],
+    "publisher": [
+      "Modern library"
+    ],
+    "date": "[1945]",
+    "year": 1945,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "939 pages",
+    "illustrations": "illustrations",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1533-1917",
+      "type": "topical"
+    },
+    {
+      "value": "Academic theses",
+      "type": "topical"
+    },
+    {
+      "value": "Academic theses.",
+      "type": "topical"
+    },
+    {
+      "value": "Brothers",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and sons",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Russia (Federation)",
+      "type": "topical"
+    },
+    {
+      "value": "Russian fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Russian literature",
+      "type": "topical"
+    },
+    {
+      "value": "Russian literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "dissertations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Modern library of the world's best books"
+    },
+    {
+      "title": "Modern library of the world's best books."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)649010760",
+      "Brothers Karamazov."
+    ]
+  }
+}

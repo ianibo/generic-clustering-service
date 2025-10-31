@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:in00028604454",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028604454",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028604454",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)12739864"
+    },
+    {
+      "type": "Local",
+      "value": "9910524986302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tate, Nahum,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Printed by T.M. for Benj. Tooke ...,"
+    ],
+    "date": "1677.",
+    "year": 1677,
+    "countryCode": " a "
+  },
+  "physical": {
+    "extent": "[15], 133 pages",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Early English books, 1641-1700 ;",
+      "numbering": "370:5."
+    }
+  ]
+}

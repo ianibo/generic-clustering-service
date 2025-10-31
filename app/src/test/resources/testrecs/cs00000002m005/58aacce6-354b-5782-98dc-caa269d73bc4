@@ -1,0 +1,127 @@
+{
+  "id": "marc:001:in00027997680",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027997680",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027997680",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0859673146"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780859673143"
+    },
+    {
+      "type": "ISBN",
+      "value": "0859673154"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780859673150"
+    },
+    {
+      "type": "LCCN",
+      "value": " 77352531 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2600724"
+    },
+    {
+      "type": "Local",
+      "value": "9911741499302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tennyson, Alfred Tennyson,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "New ed."
+  },
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Scolar Press,"
+    ],
+    "date": "1976.",
+    "year": 1976,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xiii, 375 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poems.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)652439977",
+      "Poems."
+    ]
+  }
+}

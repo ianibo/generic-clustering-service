@@ -1,0 +1,63 @@
+{
+  "id": "marc:001:in00029728044",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029728044",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029728044",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1462267"
+    },
+    {
+      "type": "Local",
+      "value": "9910205706602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hooley, Teresa.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "J. Cape,"
+    ],
+    "date": "[1926]",
+    "year": 1926,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "128 pages",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00027753160",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027753160",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027753160",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300011989"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300011982"
+    },
+    {
+      "type": "LCCN",
+      "value": " 72179794 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)231607"
+    },
+    {
+      "type": "Local",
+      "value": "9910194836502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Original sin /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Holbrook, Clyde A.,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "1970.",
+    "year": 1970,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xi, 448 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Sin, Original",
+      "type": "topical"
+    },
+    {
+      "value": "Sin, Original.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Works of Jonathan Edwards ;",
+      "numbering": "v. 3"
+    }
+  ]
+}

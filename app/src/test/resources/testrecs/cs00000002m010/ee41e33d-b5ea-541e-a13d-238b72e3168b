@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:in00028325584",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028325584",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028325584",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2762657"
+    },
+    {
+      "type": "Local",
+      "value": "9911654899902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Moulton, Leonard Bowdoin,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston,",
+      "New York"
+    ],
+    "publisher": [
+      "Houghton Mifflin Co."
+    ],
+    "date": "[©1915]",
+    "year": 1915,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "246 pages",
+    "illustrations": "frontispiece",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Literary collections",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories.",
+      "type": "topical"
+    },
+    {
+      "value": "short stories.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Riverside literature series"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)587426164",
+      "Short stories."
+    ]
+  }
+}

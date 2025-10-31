@@ -1,0 +1,145 @@
+{
+  "id": "marc:001:gsuin00004514749",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004514749",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004514749",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "014086430X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140864304"
+    },
+    {
+      "type": "Other",
+      "value": "9780140864304"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2007650039"
+    },
+    {
+      "type": "Local",
+      "value": "(GJG)259217"
+    },
+    {
+      "type": "Local",
+      "value": "(Voyager)309719-regentsdb"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)35766937"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)998153363402952"
+    },
+    {
+      "type": "Local",
+      "value": "998153363402952"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "86430-X"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fagles, Robert.",
+      "role": "trl",
+      "kind": "person"
+    },
+    {
+      "name": "McKellen, Ian.",
+      "role": "prf",
+      "kind": "person"
+    },
+    {
+      "name": "Knox, Bernard,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, NY :"
+    ],
+    "publisher": [
+      "Penguin Audiobooks,"
+    ],
+    "date": "℗1996.",
+    "year": 1996,
+    "countryCode": "nnn"
+  },
+  "physical": {
+    "extent": "12 audiocassettes (13 hr., 10 min.) :",
+    "illustrations": "analog, stereo, Dolby processed +",
+    "contentType": "spoken word",
+    "mediaType": "audio",
+    "carrierType": "audiocassette"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus (Greek mythology)",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin audiobooks."
+    }
+  ]
+}

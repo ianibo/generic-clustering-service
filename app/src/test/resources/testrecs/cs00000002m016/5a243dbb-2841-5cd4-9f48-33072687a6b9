@@ -1,0 +1,147 @@
+{
+  "id": "marc:001:in00028896221",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028896221",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028896221",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "LCCN",
+      "value": " 55010316 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)10115508"
+    },
+    {
+      "type": "Local",
+      "value": "9910848792002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The history of Herodotus ; the history of the Peloponnesian War /",
+      "type": "main"
+    },
+    {
+      "value": "History.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Herodotus,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Rawlinson, George,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Crawley, Richard,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Feetham, Richard,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Thucydides.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "[1952]",
+    "year": 1952,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "ix, 616 pages :",
+    "illustrations": "maps ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "431-404 B.C",
+      "type": "topical"
+    },
+    {
+      "value": "Greece",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "History, Ancient",
+      "type": "topical"
+    },
+    {
+      "value": "History, Ancient.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "LIterature",
+      "type": "topical"
+    },
+    {
+      "value": "history (discipline)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the western world ;",
+      "numbering": "6"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "6."
+    }
+  ]
+}

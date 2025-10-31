@@ -1,0 +1,146 @@
+{
+  "id": "marc:001:in00030152372",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030152372",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030152372",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "159194113X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781591941132"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2008923251"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)298858748"
+    },
+    {
+      "type": "Local",
+      "value": "9911226910502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Barsky, Lisa.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "West Berlin, NJ :"
+    ],
+    "publisher": [
+      "Townsend Press,"
+    ],
+    "date": "©2009.",
+    "year": 2009,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "345 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographical fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "March family (Fictitious characters)",
+      "type": "topical"
+    },
+    {
+      "value": "Mothers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "New England",
+      "type": "topical"
+    },
+    {
+      "value": "Readers (Adult)",
+      "type": "topical"
+    },
+    {
+      "value": "Sisters",
+      "type": "topical"
+    },
+    {
+      "value": "Young women",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Townsend library"
+    },
+    {
+      "title": "Townsend Library."
+    }
+  ]
+}

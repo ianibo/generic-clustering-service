@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00027603670",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027603670",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027603670",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:54Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:54Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)610596"
+    },
+    {
+      "type": "Local",
+      "value": "9911620911402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Emerson, Ralph Waldo,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "New and rev. ed."
+  },
+  "publication": {
+    "place": [
+      "Boston ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Houghton, Mifflin and Co.,"
+    ],
+    "date": "1883.",
+    "year": 1883,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "x, 368 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Riverside edition ... vol. 9 of Emerson's complete works"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)904217029",
+      "Poems."
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:ungin00000558247",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ungin00000558247",
+    "sourceRecordUri": "https://catalog.example.org/record/ungin00000558247",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0374316503"
+    },
+    {
+      "type": "LCCN",
+      "value": " 60012640 /L/AC/r902"
+    },
+    {
+      "type": "Local",
+      "value": "(ICrlF)06681A"
+    },
+    {
+      "type": "Local",
+      "value": "(ICrlF)fol00437092"
+    },
+    {
+      "type": "Local",
+      "value": "(GDahN)129389-northgadb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_UNG)991293893702960"
+    },
+    {
+      "type": "Local",
+      "value": "991293893702960"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The cricket in Times Square /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Selden, George,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Farrar, Straus and Giroux,"
+    ],
+    "date": "c1960.",
+    "year": 1960,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "132 p. :",
+    "illustrations": "ill. ;",
+    "dimensions": "24 cm."
+  },
+  "subjects": [
+    {
+      "value": "Cats",
+      "type": "topical"
+    },
+    {
+      "value": "Crickets",
+      "type": "topical"
+    },
+    {
+      "value": "Mice",
+      "type": "topical"
+    },
+    {
+      "value": "Newbery Honor",
+      "type": "topical"
+    }
+  ]
+}

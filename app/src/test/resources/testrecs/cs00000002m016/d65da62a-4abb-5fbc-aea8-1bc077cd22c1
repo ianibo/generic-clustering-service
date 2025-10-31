@@ -1,0 +1,73 @@
+{
+  "id": "marc:001:in00026605871",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026605871",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026605871",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)8912486"
+    },
+    {
+      "type": "Local",
+      "value": "(GStG)471704-gasouthdb"
+    },
+    {
+      "type": "Local",
+      "value": "9910818507202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tabb, John B.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston,"
+    ],
+    "publisher": [
+      "Small,"
+    ],
+    "date": "1900, ©1894.",
+    "year": 1900,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "172 pages",
+    "dimensions": "15 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647314909",
+      "Poems."
+    ]
+  }
+}

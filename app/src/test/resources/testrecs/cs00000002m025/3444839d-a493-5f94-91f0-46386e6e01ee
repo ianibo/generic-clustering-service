@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00028697896",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028697896",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028697896",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)11069653"
+    },
+    {
+      "type": "Local",
+      "value": "9910516828302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kennedy, Thomas,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Washington City :"
+    ],
+    "publisher": [
+      "Printed by Daniel Rapine, for the author,"
+    ],
+    "date": "1816.",
+    "year": 1816,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "334 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American poetry, 1609-1900.",
+      "numbering": "no. 1061."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 07018913"
+    ]
+  }
+}

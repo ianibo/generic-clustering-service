@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00028630629",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028630629",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028630629",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780871407412"
+    },
+    {
+      "type": "ISBN",
+      "value": "0871407418"
+    },
+    {
+      "type": "ISBN",
+      "value": "0871404486"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780871404480"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2013003584"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)871481969"
+    },
+    {
+      "type": "Local",
+      "value": "9911641213302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The divine comedy /",
+      "type": "main"
+    },
+    {
+      "value": "Divina commedia",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "James, Clive,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Liveright Publishing,"
+    ],
+    "date": "[2013]",
+    "year": 2013,
+    "countryCode": " e "
+  },
+  "physical": {
+    "extent": "xxx, 527 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dante Alighieri,",
+      "type": "topical"
+    },
+    {
+      "value": "Italian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Italian poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "To 1400",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ]
+}

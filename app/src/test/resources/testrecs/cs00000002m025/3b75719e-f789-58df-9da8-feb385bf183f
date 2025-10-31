@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:in00029819950",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029819950",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029819950",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0812966996"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780812966992"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2002040778"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)51059409"
+    },
+    {
+      "type": "Local",
+      "value": "9910426230202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Annals ; & The histories",
+      "type": "alternative"
+    },
+    {
+      "value": "The annals ; & the histories /",
+      "type": "main"
+    },
+    {
+      "value": "Annales.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tacitus, Cornelius.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hadas, Moses,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Tacitus, Cornelius.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "2003.",
+    "year": 2003,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxviii, 596 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "30 B.C.-96 A.D",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Rome",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    }
+  ]
+}

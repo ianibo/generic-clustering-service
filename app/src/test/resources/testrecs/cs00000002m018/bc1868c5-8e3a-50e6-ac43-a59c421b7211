@@ -1,0 +1,120 @@
+{
+  "id": "marc:001:gsuin00004484400",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004484400",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004484400",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0793947871"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780793947874"
+    },
+    {
+      "type": "ISBN",
+      "value": "0790754223"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780790754222"
+    },
+    {
+      "type": "Other",
+      "value": "794051113733"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)29604249"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)997485063402952"
+    },
+    {
+      "type": "Local",
+      "value": "997485063402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Russell, Paddy.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Constanduros, Denis.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bell, Alistair.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "British Broadcasting Corporation.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Beverly Hills, Calif.] :"
+    ],
+    "publisher": [
+      "BBC Video,",
+      "CBS/Fox Video :",
+      "FoxVideo :"
+    ],
+    "date": "1993.",
+    "year": 1993,
+    "countryCode": "cau"
+  },
+  "physical": {
+    "extent": "2 videocassettes (VHS) (205 min.) :",
+    "illustrations": "sound, color ;",
+    "dimensions": "1/2 in.",
+    "contentType": "two-dimensional moving image",
+    "mediaType": "video",
+    "carrierType": "videocassette"
+  },
+  "subjects": [
+    {
+      "value": "Feature films.",
+      "type": "topical"
+    },
+    {
+      "value": "Television adaptations.",
+      "type": "topical"
+    }
+  ]
+}

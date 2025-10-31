@@ -1,0 +1,125 @@
+{
+  "id": "marc:001:in00028315969",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028315969",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028315969",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0672523833"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780672523830"
+    },
+    {
+      "type": "LCCN",
+      "value": " 77080238 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3089104"
+    },
+    {
+      "type": "Local",
+      "value": "9911782875102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anna Karenina /",
+      "type": "main"
+    },
+    {
+      "value": "Anna Karenina.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "translator",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Indianapolis :"
+    ],
+    "publisher": [
+      "The Bobbs-Merrill Company,"
+    ],
+    "date": "[1978]",
+    "year": 1978,
+    "countryCode": "inu"
+  },
+  "physical": {
+    "extent": "870 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adultery",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Married women",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00030120654",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030120654",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030120654",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780199536887"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199536880"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2008482022"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)289096213"
+    },
+    {
+      "type": "Local",
+      "value": "9911486571702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poetry /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wordsworth, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Gill, Stephen,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Wu, Duncan,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "[2008]",
+    "year": 2008,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xviii, 252 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1500-1700",
+      "type": "topical"
+    },
+    {
+      "value": "Christian poetry, English",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford world's classics"
+    },
+    {
+      "title": "Oxford world's classics."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "marc:001:in00028980724",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028980724",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028980724",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 64055084 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1579616"
+    },
+    {
+      "type": "Local",
+      "value": "9910014636202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems.",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Flecker, James Elroy,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Published by J. Baker for the Richards Press,"
+    ],
+    "date": "©1964.",
+    "year": 1964,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "71 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)903640781",
+      "Selected poems."
+    ]
+  }
+}

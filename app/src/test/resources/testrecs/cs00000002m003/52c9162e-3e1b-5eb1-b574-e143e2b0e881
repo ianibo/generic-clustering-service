@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00028582076",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028582076",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028582076",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "048628235X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780486282350"
+    },
+    {
+      "type": "LCCN",
+      "value": " 94032905 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)30976221"
+    },
+    {
+      "type": "Local",
+      "value": "9912058401202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories /",
+      "type": "main"
+    },
+    {
+      "value": "Short stories.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wharton, Edith,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Dover,"
+    ],
+    "date": "©1994.",
+    "year": 1994,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "iv, 124 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "New York (N.Y.)",
+      "type": "topical"
+    },
+    {
+      "value": "New York (State)",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Dover thrift editions"
+    },
+    {
+      "title": "Dover thrift editions."
+    }
+  ]
+}

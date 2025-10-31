@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00030271992",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030271992",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030271992",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 62020476 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)321319"
+    },
+    {
+      "type": "Local",
+      "value": "9911082760902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Yevtushenko, Yevgeny Aleksandrovich,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Milner-Gulland, R. R.,",
+      "role": "translator,",
+      "kind": "person"
+    },
+    {
+      "name": "Levi, Peter,",
+      "role": "translator,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "E.P. Dutton & Co., Inc.,"
+    ],
+    "date": "1962.",
+    "year": 1962,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "92 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Russian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "Yevtushenko, Yevgeny Aleksandrovich,",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)580105077",
+      "Selected poems."
+    ]
+  }
+}

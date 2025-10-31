@@ -1,0 +1,130 @@
+{
+  "id": "marc:001:in00027789009",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027789009",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027789009",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0460019791"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460019798"
+    },
+    {
+      "type": "ISBN",
+      "value": "0460009796"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460009799"
+    },
+    {
+      "type": "LCCN",
+      "value": " 47006420 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3319702"
+    },
+    {
+      "type": "Local",
+      "value": "9910611606602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The moonstone /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collins, Wilkie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sayers, Dorothy L.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York :"
+    ],
+    "publisher": [
+      "E.P. Dutton & Co.,",
+      "J.M. Dent & Sons ;"
+    ],
+    "date": "1944.",
+    "year": 1944,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xviii, 430 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "Jewelry",
+      "type": "topical"
+    },
+    {
+      "value": "Jewelry.",
+      "type": "topical"
+    },
+    {
+      "value": "Mystery and detective fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Mystery fiction.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library. Fiction ;",
+      "numbering": "no. 979"
+    },
+    {
+      "title": "Everyman's library.",
+      "numbering": "no. 979."
+    }
+  ]
+}

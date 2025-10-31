@@ -1,0 +1,79 @@
+{
+  "id": "marc:001:in00027792807",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027792807",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027792807",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 25017022 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5398490"
+    },
+    {
+      "type": "Local",
+      "value": "9910457435702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hayne, Paul Hamilton,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston,"
+    ],
+    "publisher": [
+      "Ticknor and Fields,"
+    ],
+    "date": "1855.",
+    "year": 1855,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "viii, 106 pages",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)633612927",
+      "Poems."
+    ]
+  }
+}

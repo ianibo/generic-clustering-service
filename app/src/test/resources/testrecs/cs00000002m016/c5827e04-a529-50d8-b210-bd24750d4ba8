@@ -1,0 +1,66 @@
+{
+  "id": "marc:001:in00027126763",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027126763",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027126763",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1260684"
+    },
+    {
+      "type": "Local",
+      "value": "9910875654702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lindsay, Vachel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "Rev. ed. with illus. by the author."
+  },
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1931.",
+    "year": 1931,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "lxii, 464 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

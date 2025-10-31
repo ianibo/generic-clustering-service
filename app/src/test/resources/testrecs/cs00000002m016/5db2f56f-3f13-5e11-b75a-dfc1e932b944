@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00025995760",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025995760",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025995760",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0800178076 :"
+    },
+    {
+      "type": "Other",
+      "value": "4339601026"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)32850303"
+    },
+    {
+      "type": "Local",
+      "value": "(GSaAAS)72673-armstrongdb"
+    },
+    {
+      "type": "Local",
+      "value": "9911652244502931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "01026"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Columbia Pictures.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Columbia TriStar Home Video (Firm)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Culver City, Calif.] :"
+    ],
+    "publisher": [
+      "Columbia TriStar Home Video,"
+    ],
+    "date": "1995.",
+    "year": 1995,
+    "countryCode": "118"
+  },
+  "physical": {
+    "extent": "2 videodiscs (laser optical) (118 min.) :",
+    "illustrations": "sd., col. ;",
+    "dimensions": "12 in."
+  },
+  "subjects": [
+    {
+      "value": "Families in motion pictures.",
+      "type": "topical"
+    },
+    {
+      "value": "Feature films.",
+      "type": "topical"
+    },
+    {
+      "value": "Film adaptations.",
+      "type": "topical"
+    },
+    {
+      "value": "Video recordings for the hearing impaired.",
+      "type": "topical"
+    }
+  ]
+}

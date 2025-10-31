@@ -1,0 +1,142 @@
+{
+  "id": "marc:001:in00027359932",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027359932",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027359932",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781845231682"
+    },
+    {
+      "type": "ISBN",
+      "value": "1845231686"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2011489042"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)617446082"
+    },
+    {
+      "type": "Local",
+      "value": "9910219112202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marson, Una,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Donnell, Alison,",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Leeds, UK :"
+    ],
+    "publisher": [
+      "Peepal Tree,"
+    ],
+    "date": "2011.",
+    "year": 2011,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "184 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Drama",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Literature",
+      "type": "topical"
+    },
+    {
+      "value": "Marson, Una,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry, Modern",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry, Modern.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories",
+      "type": "topical"
+    },
+    {
+      "value": "Women and literature",
+      "type": "topical"
+    },
+    {
+      "value": "Women poets, Caribbean.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Caribbean modern classics, poetry"
+    },
+    {
+      "title": "Caribbean modern classics."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:in00029324435",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029324435",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029324435",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 60009250 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)359241"
+    },
+    {
+      "type": "Local",
+      "value": "9910015447302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Oldham, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Carbondale]"
+    ],
+    "publisher": [
+      "Southern Illinois University Press"
+    ],
+    "date": "[1960]",
+    "year": 1960,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "iv, 266 pages ;",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Oldham, John,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Centaur classics"
+    },
+    {
+      "title": "Centaur classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609577931",
+      "Poems."
+    ]
+  }
+}

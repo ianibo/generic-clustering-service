@@ -1,0 +1,173 @@
+{
+  "id": "marc:001:in00030231343",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030231343",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030231343",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 55007329 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2012693"
+    },
+    {
+      "type": "Local",
+      "value": "9910065381402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women",
+      "type": "alternative"
+    },
+    {
+      "value": "Meg, Jo, Beth, and Amy",
+      "type": "alternative"
+    },
+    {
+      "value": "Little women, or, Meg, Jo, Beth, and Amy /",
+      "type": "main"
+    },
+    {
+      "value": "Little women",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Cooney, Barbara,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Crowell,"
+    ],
+    "date": "[1955]",
+    "year": 1955,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "554 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographical fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "Children's stories, American",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works",
+      "type": "topical"
+    },
+    {
+      "value": "March family (Fictitious characters)",
+      "type": "topical"
+    },
+    {
+      "value": "Mothers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "New England",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Sisters",
+      "type": "topical"
+    },
+    {
+      "value": "Young women",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647046526",
+      "Little women, or, Meg, Jo, Beth, and Amy."
+    ]
+  }
+}

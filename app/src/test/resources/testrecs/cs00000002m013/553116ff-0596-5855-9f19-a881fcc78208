@@ -1,0 +1,151 @@
+{
+  "id": "marc:001:in00027951810",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027951810",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027951810",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780199552504"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199552509"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2009290677"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)231589421"
+    },
+    {
+      "type": "Local",
+      "value": "9911496742402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The bride of Lammermoor /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Robertson, Fiona.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "[2008]",
+    "year": 2008,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xlv, 460 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1689-1745",
+      "type": "topical"
+    },
+    {
+      "value": "Arranged marriage",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Revenge",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Swindlers and swindling",
+      "type": "topical"
+    },
+    {
+      "value": "Women murderers",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford's world classics"
+    },
+    {
+      "title": "Oxford world's classics (Oxford University Press)"
+    }
+  ]
+}

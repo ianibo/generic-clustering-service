@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00028157047",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028157047",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028157047",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:33Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:33Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 49008408 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1486062"
+    },
+    {
+      "type": "Local",
+      "value": "9910026653602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wood, Charles Erskine Scott,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Field, Sara Bard,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Benét, William Rose,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Vanguard Press"
+    ],
+    "date": "[1949]",
+    "year": 1949,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "xxx, 289 pages",
+    "illustrations": "portrait",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)612896763",
+      "Collected poems."
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:in00029046082",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029046082",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029046082",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0714838152"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780714838151"
+    },
+    {
+      "type": "ISBN",
+      "value": "0714838349"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780714838342"
+    },
+    {
+      "type": "LCCN",
+      "value": " 00340383 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)43948524"
+    },
+    {
+      "type": "Local",
+      "value": "9910173398202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Inferno /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Nachtwey, James.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Phaidon,"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "480 pages :",
+    "illustrations": "chiefly illustrations ;",
+    "dimensions": "38 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Documentary photographs.",
+      "type": "topical"
+    },
+    {
+      "value": "Documentary photography",
+      "type": "topical"
+    },
+    {
+      "value": "Documentary photography.",
+      "type": "topical"
+    },
+    {
+      "value": "War photography",
+      "type": "topical"
+    },
+    {
+      "value": "War photography.",
+      "type": "topical"
+    },
+    {
+      "value": "documentary photography.",
+      "type": "topical"
+    },
+    {
+      "value": "war photography.",
+      "type": "topical"
+    }
+  ]
+}

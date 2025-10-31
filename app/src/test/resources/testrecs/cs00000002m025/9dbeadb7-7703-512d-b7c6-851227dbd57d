@@ -1,0 +1,68 @@
+{
+  "id": "marc:001:in00028697894",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028697894",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028697894",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)11339208"
+    },
+    {
+      "type": "Local",
+      "value": "9910516828102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Miscellanies.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ralling, John.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia :"
+    ],
+    "publisher": [
+      "Printed for the author by John M'Culloch,"
+    ],
+    "date": "1790.",
+    "year": 1790,
+    "countryCode": " a "
+  },
+  "physical": {
+    "extent": "24 pages",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "series": [
+    {
+      "title": "American poetry, 1609-1900.",
+      "numbering": "no. 1636."
+    }
+  ]
+}

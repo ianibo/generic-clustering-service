@@ -1,0 +1,83 @@
+{
+  "id": "marc:001:ggcin00000221910",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ggcin00000221910",
+    "sourceRecordUri": "https://catalog.example.org/record/ggcin00000221910",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0679417222"
+    },
+    {
+      "type": "LCCN",
+      "value": " 92052918"
+    },
+    {
+      "type": "Local",
+      "value": "(GaLaGGC)4452-gucdb-Voyager"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GWINNETT)9944523702945"
+    },
+    {
+      "type": "Local",
+      "value": "9944523702945"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The moonstone /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collins, Wilkie,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Distributed by Random House,",
+      "Knopf :"
+    ],
+    "date": "1992.",
+    "year": 1992,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xlvi, 473 p. ;",
+    "dimensions": "21 cm."
+  },
+  "subjects": [
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "India",
+      "type": "topical"
+    }
+  ]
+}

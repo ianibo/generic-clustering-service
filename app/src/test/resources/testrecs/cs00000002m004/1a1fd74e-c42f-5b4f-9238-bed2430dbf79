@@ -1,0 +1,91 @@
+{
+  "id": "marc:001:in00028753591",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028753591",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028753591",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 02014581 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)501058"
+    },
+    {
+      "type": "Local",
+      "value": "9910046812802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Johnson, Robert Underwood,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "The Century Co.,"
+    ],
+    "date": "1902.",
+    "year": 1902,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "ix pages, 2 leaves, 270 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Indiana",
+      "type": "topical"
+    },
+    {
+      "value": "Indiana.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647597059",
+      "Poems."
+    ]
+  }
+}

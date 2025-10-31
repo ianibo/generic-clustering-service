@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00026695101",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026695101",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026695101",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1440438"
+    },
+    {
+      "type": "Local",
+      "value": "9910306155602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The tale of two cities.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kiang, Ying-cheng.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jacksonville (Fla.)",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Jacksonville University.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Jacksonville, Fla.]"
+    ],
+    "publisher": [
+      "[Jacksonville University],"
+    ],
+    "date": "[1969]",
+    "year": 1969,
+    "countryCode": "ab "
+  },
+  "physical": {
+    "extent": "1 volume (various pagings)",
+    "illustrations": "illustrations, maps",
+    "dimensions": "28 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "City planning",
+      "type": "topical"
+    },
+    {
+      "value": "Florida",
+      "type": "topical"
+    },
+    {
+      "value": "Jacksonville (Fla.)",
+      "type": "topical"
+    },
+    {
+      "value": "Saint Augustine (Fla.)",
+      "type": "topical"
+    }
+  ]
+}

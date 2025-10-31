@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00027560533",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027560533",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027560533",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)20287673"
+    },
+    {
+      "type": "Local",
+      "value": "9910946719802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crime and punishment /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fosgate, Blanchard.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Auburn, N.Y. :"
+    ],
+    "publisher": [
+      "W.J. Moses,"
+    ],
+    "date": "1866.",
+    "year": 1866,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "48 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "subjects": [
+    {
+      "value": "New York (State)",
+      "type": "topical"
+    },
+    {
+      "value": "Prisons",
+      "type": "topical"
+    },
+    {
+      "value": "Prisons.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "19th-century legal treatises ;",
+      "numbering": "no. 37238."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 10003445"
+    ]
+  }
+}

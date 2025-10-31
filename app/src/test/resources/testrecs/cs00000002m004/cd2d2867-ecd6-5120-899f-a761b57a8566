@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00029002899",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029002899",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029002899",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1700702"
+    },
+    {
+      "type": "Local",
+      "value": "9910041133602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Jane Eyre.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Charlotte,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Literary Classics, Inc."
+    ],
+    "date": "[Fwd. 1945]",
+    "year": 1945,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xii, 432 pages",
+    "illustrations": "illustrations",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Governesses",
+      "type": "topical"
+    },
+    {
+      "value": "Governesses.",
+      "type": "topical"
+    },
+    {
+      "value": "Man-woman relationships",
+      "type": "topical"
+    },
+    {
+      "value": "Man-woman relationships.",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Literary Classics Book Club"
+    }
+  ]
+}

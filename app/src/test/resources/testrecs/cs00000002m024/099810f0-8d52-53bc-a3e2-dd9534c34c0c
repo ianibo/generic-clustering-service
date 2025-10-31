@@ -1,0 +1,173 @@
+{
+  "id": "marc:001:in00030445398",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030445398",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030445398",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1561381144"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781561381142"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781582790787"
+    },
+    {
+      "type": "ISBN",
+      "value": "1582790787"
+    },
+    {
+      "type": "LCCN",
+      "value": " 91058650 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)28182647"
+    },
+    {
+      "type": "Local",
+      "value": "9911706457802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "A tale of two cities /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia, Pa. :"
+    ],
+    "publisher": [
+      "Courage Books,"
+    ],
+    "date": "©1992.",
+    "year": 1992,
+    "countryCode": "pau"
+  },
+  "physical": {
+    "extent": "272 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Executions and executioners",
+      "type": "topical"
+    },
+    {
+      "value": "Executions and executioners.",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "France.",
+      "type": "topical"
+    },
+    {
+      "value": "French fiction",
+      "type": "topical"
+    },
+    {
+      "value": "French fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "London (England)",
+      "type": "topical"
+    },
+    {
+      "value": "Lookalikes",
+      "type": "topical"
+    },
+    {
+      "value": "Lookalikes.",
+      "type": "topical"
+    },
+    {
+      "value": "Paris (France)",
+      "type": "topical"
+    },
+    {
+      "value": "War",
+      "type": "topical"
+    },
+    {
+      "value": "War fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "War stories.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Courage classics"
+    },
+    {
+      "title": "Courage classics."
+    }
+  ]
+}

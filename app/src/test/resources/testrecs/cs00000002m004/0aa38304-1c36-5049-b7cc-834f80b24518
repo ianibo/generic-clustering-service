@@ -1,0 +1,91 @@
+{
+  "id": "marc:001:in00030271559",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030271559",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030271559",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 32029406 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)191689"
+    },
+    {
+      "type": "Local",
+      "value": "9910077403802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The principles of psychology /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Spencer, Herbert,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "Authorized edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "D. Appleton and Company,"
+    ],
+    "date": "1897.",
+    "year": 1897,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "2 volumes (xii, 642 pages ; viii, 696 pages) :",
+    "illustrations": "illustrations ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Psychology",
+      "type": "topical"
+    },
+    {
+      "value": "Psychology.",
+      "type": "topical"
+    },
+    {
+      "value": "psychology.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1355137435",
+      "Principles of psychology."
+    ]
+  }
+}

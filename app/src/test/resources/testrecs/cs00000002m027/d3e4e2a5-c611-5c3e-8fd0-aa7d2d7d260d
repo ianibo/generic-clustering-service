@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00026224801",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026224801",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026224801",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 58001297 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2098622"
+    },
+    {
+      "type": "Local",
+      "value": "9910331019902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dunbar, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kinsley, James,",
+      "role": "editor,",
+      "kind": "person"
+    },
+    {
+      "name": "Lewis, C. S.",
+      "role": "contributor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oxford :"
+    ],
+    "publisher": [
+      "Clarendon Press,"
+    ],
+    "date": "1958.",
+    "year": 1958,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "xxviii, 159 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    },
+    {
+      "value": "Scottish poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Clarendon medieval and Tudor series"
+    },
+    {
+      "title": "Clarendon medieval and Tudor series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)587025429",
+      "Poems."
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00029777666",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029777666",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029777666",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 43012592 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1397170"
+    },
+    {
+      "type": "Local",
+      "value": "9910063196602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Henry Wadsworth Longfellow /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Longfellow, Henry Wadsworth,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Untermeyer, Louis,",
+      "role": "ed.",
+      "kind": "person"
+    },
+    {
+      "name": "Hanna, Boyd,",
+      "role": "illus.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "The Heritage Press,"
+    ],
+    "date": "[1943]",
+    "year": 1943,
+    "countryCode": "acf"
+  },
+  "physical": {
+    "extent": "2 pages, l., ix-xxiii, 444 pages :",
+    "illustrations": "color frontispiece (portfolio) color illustrations, color plates;",
+    "dimensions": "26 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The American poets"
+    },
+    {
+      "title": "American poets (Heritage Press (New York, N.Y.))"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)608583412",
+      "(OCoLC)624397745",
+      "Poems of Henry Wadsworth Longfellow."
+    ]
+  }
+}

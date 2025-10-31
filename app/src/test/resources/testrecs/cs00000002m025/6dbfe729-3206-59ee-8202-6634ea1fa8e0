@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00030069569",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030069569",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030069569",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "185619132X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781856191326"
+    },
+    {
+      "type": "LCCN",
+      "value": " 93241333 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)31133376"
+    },
+    {
+      "type": "Local",
+      "value": "9910439911302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poetry",
+      "type": "alternative"
+    },
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Read, Herbert,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London, England :"
+    ],
+    "publisher": [
+      "Sinclair-Stevenson,"
+    ],
+    "date": "[1994?], ©1926.",
+    "year": 1994,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "286 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

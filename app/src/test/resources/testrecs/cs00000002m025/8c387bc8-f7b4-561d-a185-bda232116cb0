@@ -1,0 +1,102 @@
+{
+  "id": "marc:001:in00025784548",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025784548",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025784548",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 29001871 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1670934"
+    },
+    {
+      "type": "Local",
+      "value": "9910107340802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "South Africa and science; a handbook prepared under the auspices of South African association for the advancement of science for the meeting of the British association in Capetown and Johannesburg, South Africa, 1929.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Crocker, H. J.,",
+      "role": "compiler.",
+      "kind": "person"
+    },
+    {
+      "name": "McCrae, John,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "South African Association for the Advancement of Science.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Johannesburg,"
+    ],
+    "publisher": [
+      "Printed for the South African Association for the advancement of Science, by Hortors,"
+    ],
+    "date": "1929.",
+    "year": 1929,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "x, 313 pages",
+    "illustrations": "illustrations",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Science",
+      "type": "topical"
+    },
+    {
+      "value": "South Africa",
+      "type": "topical"
+    },
+    {
+      "value": "South Africa.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)613163392",
+      "South Africa and science."
+    ]
+  }
+}

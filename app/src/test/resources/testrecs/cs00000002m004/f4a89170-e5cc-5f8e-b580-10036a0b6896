@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:in00027732378",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027732378",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027732378",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0601078497"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780601078493"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5302563"
+    },
+    {
+      "type": "Local",
+      "value": "9910090956602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Comic adventures of a knight and his squire",
+      "type": "alternative"
+    },
+    {
+      "value": "Don Quixote de la Mancha /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cervantes Saavedra, Miguel de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Waldman, Guido,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Calati, Maria,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Paul Hamlyn,"
+    ],
+    "date": "1969.",
+    "year": 1969,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "80 pages :",
+    "illustrations": "color illustrations ;",
+    "dimensions": "31 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood",
+      "type": "topical"
+    }
+  ]
+}

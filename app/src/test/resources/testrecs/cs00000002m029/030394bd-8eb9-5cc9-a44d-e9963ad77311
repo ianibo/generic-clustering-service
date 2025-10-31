@@ -1,0 +1,130 @@
+{
+  "id": "marc:001:in00028810806",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028810806",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028810806",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0451516036"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780451516039"
+    },
+    {
+      "type": "ISBN",
+      "value": "0451519760"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780451519764"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)10117337"
+    },
+    {
+      "type": "Local",
+      "value": "9911028410802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Pere Goriot /",
+      "type": "main"
+    },
+    {
+      "value": "Père Goriot.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Balzac, Honoré de,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "New American Library,"
+    ],
+    "date": "1981.",
+    "year": 1981,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "284 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Father-daughter relationship",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Poverty",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Signet classic ;",
+      "numbering": "CE 1976"
+    },
+    {
+      "title": "Signet classic ;",
+      "numbering": "CE 1976."
+    }
+  ]
+}

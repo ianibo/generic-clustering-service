@@ -1,0 +1,130 @@
+{
+  "id": "marc:001:in00029477683",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029477683",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029477683",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0809035413"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780809035410"
+    },
+    {
+      "type": "ISBN",
+      "value": "0809086581"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780809086580"
+    },
+    {
+      "type": "ISBN",
+      "value": "0809016036"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780809016037"
+    },
+    {
+      "type": "LCCN",
+      "value": " 95019554 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)32548335"
+    },
+    {
+      "type": "Local",
+      "value": "9910003902102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories /",
+      "type": "main"
+    },
+    {
+      "value": "Short stories.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hughes, Langston,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Harper, Donna Sullivan,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Rampersad, Arnold,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Hill and Wang,"
+    ],
+    "date": "1996.",
+    "year": 1996,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xix, 299 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "African Americans",
+      "type": "topical"
+    },
+    {
+      "value": "African Americans.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories.",
+      "type": "topical"
+    },
+    {
+      "value": "short stories.",
+      "type": "topical"
+    }
+  ]
+}

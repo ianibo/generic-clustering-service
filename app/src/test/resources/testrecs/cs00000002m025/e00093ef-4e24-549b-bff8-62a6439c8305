@@ -1,0 +1,74 @@
+{
+  "id": "marc:001:in00028613821",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028613821",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028613821",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)13548948"
+    },
+    {
+      "type": "Local",
+      "value": "9910351380102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Divine comedy of Dante Alighieri /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Longfellow, Henry Wadsworth,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Ticknor and Fields,"
+    ],
+    "date": "1867.",
+    "year": 1867,
+    "countryCode": "c a"
+  },
+  "physical": {
+    "extent": "3 volumes :",
+    "illustrations": "(portrait) ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "relations": {
+    "otherFormats": [
+      "(DLC) 16003552"
+    ]
+  }
+}

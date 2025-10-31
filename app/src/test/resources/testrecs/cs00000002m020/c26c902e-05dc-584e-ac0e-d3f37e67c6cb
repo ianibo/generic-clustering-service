@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:in00025752090",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025752090",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025752090",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0912946733"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780912946733"
+    },
+    {
+      "type": "ISBN",
+      "value": "0912946741"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780912946740"
+    },
+    {
+      "type": "LCCN",
+      "value": " 80011534 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6085439"
+    },
+    {
+      "type": "Local",
+      "value": "9910431256002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Graham, W. S.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Ecco Press,"
+    ],
+    "date": "1980, ©1979.",
+    "year": 1980,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "112 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)610448274",
+      "Selected poems."
+    ]
+  }
+}

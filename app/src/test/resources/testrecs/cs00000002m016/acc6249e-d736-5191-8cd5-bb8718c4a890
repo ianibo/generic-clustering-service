@@ -1,0 +1,91 @@
+{
+  "id": "marc:001:in00027975678",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027975678",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027975678",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0670000485"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780670000487"
+    },
+    {
+      "type": "LCCN",
+      "value": " 70116773 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)879348"
+    },
+    {
+      "type": "Local",
+      "value": "9910859577202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lawrence, D. H.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rexroth, Kenneth,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Viking Press"
+    ],
+    "date": "[1972, ©1957]",
+    "year": 1972,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "viii, 148 pages",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Viking compass book"
+    }
+  ]
+}

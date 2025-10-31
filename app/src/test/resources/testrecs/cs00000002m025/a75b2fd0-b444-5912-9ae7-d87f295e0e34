@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00029964796",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029964796",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029964796",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0571217273"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780571217274"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003363130"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)52233504"
+    },
+    {
+      "type": "Local",
+      "value": "9910511498502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The works /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Connolly, Joseph,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Faber and Faber,"
+    ],
+    "date": "2003.",
+    "year": 2003,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "421 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Inheritance and succession",
+      "type": "topical"
+    },
+    {
+      "value": "Inheritance and succession.",
+      "type": "topical"
+    },
+    {
+      "value": "London (England)",
+      "type": "topical"
+    }
+  ]
+}

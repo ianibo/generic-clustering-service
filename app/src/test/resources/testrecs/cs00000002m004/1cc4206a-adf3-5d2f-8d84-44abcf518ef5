@@ -1,0 +1,81 @@
+{
+  "id": "marc:001:in00026903294",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026903294",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026903294",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0690633653"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780690633658"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)248340577"
+    },
+    {
+      "type": "Local",
+      "value": "9910098550002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of Emily Dickinson",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickinson, Emily",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kipniss, Robert",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Plotz, Helen",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, NY"
+    ],
+    "publisher": [
+      "Crowell"
+    ],
+    "date": "1964",
+    "year": 1964,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "XVII, 157 Seiten",
+    "illustrations": "Illustrationen",
+    "contentType": "Text",
+    "mediaType": "ohne Hilfsmittel zu benutzen",
+    "carrierType": "Band"
+  }
+}

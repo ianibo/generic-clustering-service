@@ -1,0 +1,67 @@
+{
+  "id": "marc:001:in00029748337",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029748337",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029748337",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 67006727 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1093040"
+    },
+    {
+      "type": "Local",
+      "value": "9911035363702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dalton, Dorothy,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Homestead, Fla.],"
+    ],
+    "publisher": [
+      "[Olivant Press],"
+    ],
+    "date": "[1967]",
+    "year": 1967,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "57 pages",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "id": "marc:001:in00027877355",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027877355",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027877355",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0521883695"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780521883696"
+    },
+    {
+      "type": "ISBN",
+      "value": "0521710022"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780521710022"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2008298437"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)212858707"
+    },
+    {
+      "type": "Local",
+      "value": "9910235105002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Emerson :",
+      "type": "alternative"
+    },
+    {
+      "value": "Political writings /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Emerson, Ralph Waldo,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sacks, Kenneth.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, UK ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Cambridge University Press,"
+    ],
+    "date": "2008.",
+    "year": 2008,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxvi, 237 pages ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1861-1865",
+      "type": "topical"
+    },
+    {
+      "value": "Emerson, Ralph Waldo,",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Political and social views",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Cambridge texts in the history of political thought"
+    },
+    {
+      "title": "Cambridge texts in the history of political thought."
+    }
+  ]
+}

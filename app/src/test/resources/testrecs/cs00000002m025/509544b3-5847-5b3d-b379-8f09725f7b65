@@ -1,0 +1,146 @@
+{
+  "id": "marc:001:in00030144695",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030144695",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030144695",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1931082359"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781931082358"
+    },
+    {
+      "type": "Other",
+      "value": "9781931082358"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2002032126"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)50440956"
+    },
+    {
+      "type": "Local",
+      "value": "9910143713102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Edna St. Vincent Millay",
+      "type": "alternative"
+    },
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Millay, Edna St. Vincent,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "McClatchy, J. D.,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "The Library of America,"
+    ],
+    "date": "©2003.",
+    "year": 2003,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxxiii, 231 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American poets project ;",
+      "numbering": "1"
+    },
+    {
+      "title": "American poets project ;",
+      "numbering": "1."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)606934225",
+      "Selected poems."
+    ]
+  }
+}

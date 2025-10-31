@@ -1,0 +1,155 @@
+{
+  "id": "marc:001:in00029752826",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029752826",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029752826",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0394720024"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780394720029"
+    },
+    {
+      "type": "ISBN",
+      "value": "039448939X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780394489391"
+    },
+    {
+      "type": "ISBN",
+      "value": "0394720032"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780394720036"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73020560 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)797777"
+    },
+    {
+      "type": "Local",
+      "value": "9910043683702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Political writings /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marx, Karl,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fernbach, David.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Vintage Books,"
+    ],
+    "date": "1974.",
+    "year": 1974,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "3 volumes ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Europe",
+      "type": "topical"
+    },
+    {
+      "value": "Europe.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Socialism",
+      "type": "topical"
+    },
+    {
+      "value": "Socialism.",
+      "type": "topical"
+    },
+    {
+      "value": "World politics",
+      "type": "topical"
+    },
+    {
+      "value": "World politics.",
+      "type": "topical"
+    },
+    {
+      "value": "socialism.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Vintage Marx library"
+    },
+    {
+      "title": "Vintage Marx library."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)606380750",
+      "Political writings."
+    ]
+  }
+}

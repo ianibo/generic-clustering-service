@@ -1,0 +1,102 @@
+{
+  "id": "marc:001:in00028912156",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028912156",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028912156",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)18630543"
+    },
+    {
+      "type": "Local",
+      "value": "9910364945302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The monastery.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia,"
+    ],
+    "publisher": [
+      "J.B. Lippincott & Co.,"
+    ],
+    "date": "1879.",
+    "year": 1879,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "2 volumes in 1.",
+    "illustrations": "frontispiece, illustrations",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Monastic and religious life",
+      "type": "topical"
+    },
+    {
+      "value": "Monastic and religious life.",
+      "type": "topical"
+    },
+    {
+      "value": "Monks",
+      "type": "topical"
+    },
+    {
+      "value": "Monks.",
+      "type": "topical"
+    },
+    {
+      "value": "Reformation",
+      "type": "topical"
+    },
+    {
+      "value": "Reformation.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00029089790",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029089790",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029089790",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300040202"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300040203"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87029536 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)16951334"
+    },
+    {
+      "type": "Local",
+      "value": "9910524320502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Ethical writings /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ramsey, Paul,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "1989.",
+    "year": 1989,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "ix, 791 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Christian ethics",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Works of Jonathan Edwards ;",
+      "numbering": "v. 8"
+    }
+  ]
+}

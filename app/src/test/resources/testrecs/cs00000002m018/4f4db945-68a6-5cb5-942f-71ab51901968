@@ -1,0 +1,89 @@
+{
+  "id": "marc:001:in00029278217",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029278217",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029278217",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "a 55002383 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2058722"
+    },
+    {
+      "type": "Local",
+      "value": "9910633891702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Breton, Nicholas,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Liverpool,"
+    ],
+    "publisher": [
+      "University Press,"
+    ],
+    "date": "1952.",
+    "year": 1952,
+    "countryCode": "ch "
+  },
+  "physical": {
+    "extent": "clix, 229 pages",
+    "illustrations": "facsimiles, portrait",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Breton, Nicholas.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Liverpool English texts & studies"
+    },
+    {
+      "title": "Liverpool English texts and studies."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)557797797",
+      "(OCoLC)609535722",
+      "Poems."
+    ]
+  }
+}

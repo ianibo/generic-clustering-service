@@ -1,0 +1,86 @@
+{
+  "id": "marc:001:in00027168743",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027168743",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027168743",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)19282432"
+    },
+    {
+      "type": "Local",
+      "value": "(GYG)643493"
+    },
+    {
+      "type": "Local",
+      "value": "(GVaS)643493-valdostadb"
+    },
+    {
+      "type": "Local",
+      "value": "9911011745102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hardy, Thomas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ransom, John Crowe,",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st Collier Books ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1974, c1961.",
+    "year": 1974,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxxiii, 134 p. ;",
+    "dimensions": "22 cm"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ]
+}

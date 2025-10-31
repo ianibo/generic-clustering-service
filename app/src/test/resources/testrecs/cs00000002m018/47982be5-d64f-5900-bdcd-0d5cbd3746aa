@@ -1,0 +1,127 @@
+{
+  "id": "marc:001:in00027275944",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027275944",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027275944",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0865970084"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780865970083"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780865970069"
+    },
+    {
+      "type": "ISBN",
+      "value": "0865970068"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780865970076"
+    },
+    {
+      "type": "ISBN",
+      "value": "0865970076"
+    },
+    {
+      "type": "LCCN",
+      "value": " 81015578 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7811517"
+    },
+    {
+      "type": "Local",
+      "value": "9910050136102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An inquiry into the nature and causes of the wealth of nations /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Smith, Adam,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Campbell, R. H.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Skinner, Andrew S.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Indianapolis :"
+    ],
+    "publisher": [
+      "Liberty Fund,"
+    ],
+    "date": "1981, ©1976.",
+    "year": 1981,
+    "countryCode": "inu"
+  },
+  "physical": {
+    "extent": "2 volumes (viii, 1081 pages) ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Economics",
+      "type": "topical"
+    },
+    {
+      "value": "Economics.",
+      "type": "topical"
+    },
+    {
+      "value": "economics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Glasgow edition of the works and correspondence of Adam Smith ;",
+      "numbering": "2"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)747305436",
+      "Inquiry into the nature and causes of the wealth of nations."
+    ]
+  }
+}

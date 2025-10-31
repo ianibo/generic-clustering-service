@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00028756567",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028756567",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028756567",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "074860569X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780748605699"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)50101111"
+    },
+    {
+      "type": "Local",
+      "value": "9910473727002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Rob Roy /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hewitt, David,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :"
+    ],
+    "publisher": [
+      "Edinburgh University Press,"
+    ],
+    "date": "©2008.",
+    "year": 2008,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "xvi, 596 pages :",
+    "illustrations": "map ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Highlands (Scotland)",
+      "type": "topical"
+    },
+    {
+      "value": "Rob Roy,",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Edinburgh edition of the Waverley novels ;",
+      "numbering": "v. 5"
+    }
+  ]
+}

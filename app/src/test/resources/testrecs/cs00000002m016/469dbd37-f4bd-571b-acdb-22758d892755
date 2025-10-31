@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00028525448",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028525448",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028525448",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 64057521 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)768313"
+    },
+    {
+      "type": "Local",
+      "value": "9910666804502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected works.",
+      "type": "main"
+    },
+    {
+      "value": "Works",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Byrd, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fellowes, Edmund H.,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Dart, Thurston,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Brett, Philip,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Elliott, Kenneth,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Stainer & Bell; American agents: Galaxy Music Corp., New York"
+    ],
+    "date": "[1964?-]",
+    "year": 1964,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "volumes",
+    "dimensions": "26 cm",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Chamber music.",
+      "type": "topical"
+    },
+    {
+      "value": "Vocal music.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)682800401",
+      "Collected works."
+    ]
+  }
+}

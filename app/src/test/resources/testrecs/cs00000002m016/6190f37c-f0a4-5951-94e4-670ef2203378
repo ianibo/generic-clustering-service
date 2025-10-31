@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:in00028765216",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028765216",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028765216",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "a 59005628"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5223403"
+    },
+    {
+      "type": "Local",
+      "value": "(GAC)135931"
+    },
+    {
+      "type": "Local",
+      "value": "(GSaAAS)135931-armstrongdb"
+    },
+    {
+      "type": "Local",
+      "value": "9911624271802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Works,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Nash, Thomas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "McKerrow, R. B.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oxford,"
+    ],
+    "publisher": [
+      "B. Blackwell,"
+    ],
+    "date": "1958.",
+    "year": 1958,
+    "countryCode": "h 0"
+  },
+  "physical": {
+    "extent": "5 v.",
+    "illustrations": "front. (v. 5: fold. facsim.)",
+    "dimensions": "23 cm"
+  }
+}

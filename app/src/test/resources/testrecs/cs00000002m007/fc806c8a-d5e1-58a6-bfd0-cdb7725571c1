@@ -1,0 +1,115 @@
+{
+  "id": "marc:001:in00029945894",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029945894",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029945894",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2417181"
+    },
+    {
+      "type": "Local",
+      "value": "9911181738002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The spirit of laws /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Montesquieu, Charles de Secondat,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Nugent, Thomas,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "Glasgow :"
+    ],
+    "publisher": [
+      "Printed by D. Niven for J. Duncan & Son,"
+    ],
+    "date": "1793.",
+    "year": 1793,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Jurisprudence",
+      "type": "topical"
+    },
+    {
+      "value": "Jurisprudence.",
+      "type": "topical"
+    },
+    {
+      "value": "Law",
+      "type": "topical"
+    },
+    {
+      "value": "Law.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science",
+      "type": "topical"
+    },
+    {
+      "value": "Political science.",
+      "type": "topical"
+    },
+    {
+      "value": "State, The",
+      "type": "topical"
+    },
+    {
+      "value": "State, The.",
+      "type": "topical"
+    },
+    {
+      "value": "law (discipline)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)656702778",
+      "Spirit of laws."
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00026628555",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026628555",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026628555",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "nuc87721531 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2639259"
+    },
+    {
+      "type": "Local",
+      "value": "9910225968702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Salusbury, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Chester, Robert,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Brown, Carleton Fairchild,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Pub. for the Early English Text Society, by K. Paul, Trench, Trübner,"
+    ],
+    "date": "1914.",
+    "year": 1914,
+    "countryCode": "h c"
+  },
+  "physical": {
+    "extent": "2 preliminary leaves, [iii]-lxxiv, 86 pages",
+    "illustrations": "facsimile (2 folded, including frontispiece)",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microopaque"
+  },
+  "subjects": [
+    {
+      "value": "1500-1700",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Early English Text Society. Extra series,",
+      "numbering": "no. 113"
+    },
+    {
+      "title": "Early English Text Society (Series).",
+      "numbering": "113."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 15005379"
+    ]
+  }
+}

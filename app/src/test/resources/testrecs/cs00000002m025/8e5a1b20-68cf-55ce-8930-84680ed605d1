@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00028852083",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028852083",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028852083",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)22689028"
+    },
+    {
+      "type": "Local",
+      "value": "9910116050802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The confessions of Saint Augustine. /",
+      "type": "main"
+    },
+    {
+      "value": "Confessiones.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Augustine,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Symons, Arthur,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pusey, E. B.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London: :"
+    ],
+    "publisher": [
+      "Walter Scott, Paternoster Square.,"
+    ],
+    "date": "[1898]",
+    "year": 1898,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "[i-v] vi-xviii, [2, 1] 2-297, [19] p. ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Algeria",
+      "type": "topical"
+    },
+    {
+      "value": "Augustine,",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Christian saints",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Scott Library ;",
+      "numbering": "104"
+    },
+    {
+      "title": "Scott Library ;",
+      "numbering": "104."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654000551",
+      "Confessions of Saint Augustine."
+    ]
+  }
+}

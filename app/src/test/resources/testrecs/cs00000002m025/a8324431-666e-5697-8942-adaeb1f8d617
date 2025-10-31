@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00029000570",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029000570",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029000570",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)6797902"
+    },
+    {
+      "type": "Local",
+      "value": "9910494673102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The works of John C. Calhoun.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Calhoun, John C.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Crallé, Richard K.",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "South Carolina. General Assembly.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Appleton"
+    ],
+    "date": "[1851]-56.",
+    "year": 1851,
+    "countryCode": "miu"
+  },
+  "physical": {
+    "extent": "6 volumes",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "1815-1861",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American culture series ;",
+      "numbering": "239.1."
+    }
+  ]
+}

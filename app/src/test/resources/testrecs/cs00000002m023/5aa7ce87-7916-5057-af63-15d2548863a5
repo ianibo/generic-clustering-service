@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00026504888",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026504888",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026504888",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 09029960 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1835423"
+    },
+    {
+      "type": "Local",
+      "value": "9910527924302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An inquiry into the nature and causes of the wealth of nations /",
+      "type": "main"
+    },
+    {
+      "value": "Inquiry into the nature and causes of the wealth of nations",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Smith, Adam,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Bullock, Charles Jesse,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "P.F. Collier & Sons,"
+    ],
+    "date": "[1909]",
+    "year": 1909,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "590 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Economics",
+      "type": "topical"
+    },
+    {
+      "value": "Economics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The five foot shelf of books : The Harvard classics ;",
+      "numbering": "volume 10"
+    },
+    {
+      "title": "Harvard classics ;",
+      "numbering": "vol. 10."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)644547902",
+      "Inquiry into the nature and causes of the wealth of nations."
+    ]
+  }
+}

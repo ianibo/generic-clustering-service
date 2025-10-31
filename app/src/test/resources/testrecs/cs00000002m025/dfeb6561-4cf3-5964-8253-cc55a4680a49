@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:in00030496290",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030496290",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030496290",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2514237"
+    },
+    {
+      "type": "Local",
+      "value": "9910238069002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The antiquary.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh,"
+    ],
+    "publisher": [
+      "Printed by James Ballantyne and Co. for Archibald Constable and Co., Edinburgh; and Longman, Hurst, Rees, Orme, and Brown, London,"
+    ],
+    "date": "1816.",
+    "year": 1816,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "3 volumes",
+    "illustrations": "frontispieces, plates",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Nineteenth Century Collections Online: European Literature, 1790-1840: The Corvey Collection."
+    },
+    {
+      "title": "Nineteenth Century Collections Online: European Literature, 1790-1840: The Corvey Collection."
+    }
+  ]
+}

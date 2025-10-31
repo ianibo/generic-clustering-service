@@ -1,0 +1,140 @@
+{
+  "id": "marc:001:in00029783172",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029783172",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029783172",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0670835102"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780670835102"
+    },
+    {
+      "type": "ISBN",
+      "value": "0140275363"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140275360"
+    },
+    {
+      "type": "LCCN",
+      "value": " 89070695 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)20825683"
+    },
+    {
+      "type": "Local",
+      "value": "9910056227102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad /",
+      "type": "main"
+    },
+    {
+      "value": "Iliad.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Fagles, Robert,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Knox, Bernard,",
+      "role": "writer of introduction,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York, N.Y., U.S.A. :"
+    ],
+    "publisher": [
+      "Viking,"
+    ],
+    "date": "[1990]",
+    "year": 1990,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xvi, 683 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Achilles",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1085933247",
+      "Iliad."
+    ]
+  }
+}

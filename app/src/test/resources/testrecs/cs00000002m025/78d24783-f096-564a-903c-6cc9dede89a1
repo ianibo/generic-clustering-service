@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00028563622",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028563622",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028563622",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 03018787 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1037540200"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickinson, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Todd, Mabel Loomis,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Higginson, Thomas Wentworth,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kleist, Herbert,",
+      "role": "former owner.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Roberts Brothers,"
+    ],
+    "date": "1896.",
+    "year": 1896,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "viii, 200 p. ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Publishers' cloth bindings (Binding)",
+      "type": "topical"
+    }
+  ]
+}

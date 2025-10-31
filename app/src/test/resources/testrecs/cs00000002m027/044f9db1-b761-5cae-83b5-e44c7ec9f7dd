@@ -1,0 +1,148 @@
+{
+  "id": "marc:001:in00029336726",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029336726",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029336726",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780140436228"
+    },
+    {
+      "type": "ISBN",
+      "value": "0140436227"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781451733068"
+    },
+    {
+      "type": "ISBN",
+      "value": "1451733062"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)57527834"
+    },
+    {
+      "type": "Local",
+      "value": "9915040325602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The history of Tom Jones, a foundling /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Keymer, Thomas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wakely, Alice.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "[New ed.] /",
+    "number": "edited with explanatory notes by Thomas Keymer and Alice Wakely /with an introduction by Thomas Keymer."
+  },
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Penguin,"
+    ],
+    "date": "2005.",
+    "year": 2005,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "xlvii, 975 pages :",
+    "illustrations": "1 map ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings.",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    },
+    {
+      "value": "Picaresque fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Picaresque literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Young men",
+      "type": "topical"
+    },
+    {
+      "value": "Young men.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

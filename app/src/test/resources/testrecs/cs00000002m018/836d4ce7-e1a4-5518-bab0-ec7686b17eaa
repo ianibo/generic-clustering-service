@@ -1,0 +1,115 @@
+{
+  "id": "marc:001:in00027191364",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027191364",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027191364",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:54Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:54Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "D00028751X"
+    },
+    {
+      "type": "LCCN",
+      "value": " 50000063 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)359340"
+    },
+    {
+      "type": "Local",
+      "value": "9910664376102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Smart, Christopher,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Callan, N. R.,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Routledge and K. Paul"
+    ],
+    "date": "[1949]",
+    "year": 1949,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "2 volumes",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Smart, Christopher,",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Muses' library"
+    },
+    {
+      "title": "Muses' library (Routledge and Kegan Paul)"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)572816386",
+      "Collected poems."
+    ]
+  }
+}

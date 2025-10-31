@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00026318022",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026318022",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026318022",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 65008952 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)296356"
+    },
+    {
+      "type": "Local",
+      "value": "9910426509402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rilke, Rainer Maria,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "McKay, Gilbert Watt,",
+      "role": "compiler,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "ger"
+  ],
+  "publication": {
+    "place": [
+      "[London] :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "[1965]",
+    "year": 1965,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "108 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Rilke, Rainer Maria,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Clarendon German series"
+    },
+    {
+      "title": "Clarendon German series."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)593081306",
+      "Poems."
+    ]
+  }
+}

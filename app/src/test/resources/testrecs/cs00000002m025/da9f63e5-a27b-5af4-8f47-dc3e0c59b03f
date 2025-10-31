@@ -1,0 +1,155 @@
+{
+  "id": "marc:001:in00029329063",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029329063",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029329063",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "155542872X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781555428723"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87646993 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)19320220"
+    },
+    {
+      "type": "Local",
+      "value": "9910411031002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Legal implications of hospital policies and practices /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Miller, Robert D.",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "San Francisco ;"
+    ],
+    "publisher": [
+      "Jossey-Bass,"
+    ],
+    "date": "©1989.",
+    "year": 1989,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "128 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Hospitals",
+      "type": "topical"
+    },
+    {
+      "value": "Legislation, Hospital",
+      "type": "topical"
+    },
+    {
+      "value": "Malpractice",
+      "type": "topical"
+    },
+    {
+      "value": "Medical Staff, Hospital",
+      "type": "topical"
+    },
+    {
+      "value": "Medical laws and legislation",
+      "type": "topical"
+    },
+    {
+      "value": "Mental Health Services",
+      "type": "topical"
+    },
+    {
+      "value": "Physicians",
+      "type": "topical"
+    },
+    {
+      "value": "Psychiatrists",
+      "type": "topical"
+    },
+    {
+      "value": "Psychotherapists",
+      "type": "topical"
+    },
+    {
+      "value": "Sex between psychotherapist and patient",
+      "type": "topical"
+    },
+    {
+      "value": "Sex between psychotherapist and patient.",
+      "type": "topical"
+    },
+    {
+      "value": "Tort liability of hospitals",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "New directions for mental health services,",
+      "numbering": "no. 41"
+    },
+    {
+      "title": "New directions for mental health services,",
+      "numbering": "no. 41"
+    },
+    {
+      "title": "New directions for mental health services ;",
+      "numbering": "no. 41."
+    },
+    {
+      "title": "New directions for mental health services ;",
+      "numbering": "no. 41."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)762169979",
+      "Legal implications of hospital policies and practices."
+    ]
+  }
+}

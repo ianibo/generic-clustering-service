@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00026262357",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026262357",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026262357",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 62000396 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)409319"
+    },
+    {
+      "type": "Local",
+      "value": "9910291872102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works.",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lenin, Vladimir Ilʹich,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Institut marksizma-leninizma (Moscow, Russia)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Moscow :"
+    ],
+    "publisher": [
+      "Foreign Languages Pub. House,"
+    ],
+    "date": "1960-1970.",
+    "year": 1960,
+    "countryCode": "ru "
+  },
+  "physical": {
+    "extent": "45 volumes :",
+    "illustrations": "illustrations, portraits, diagrams, facsimiles ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biography",
+      "type": "topical"
+    },
+    {
+      "value": "Communism",
+      "type": "topical"
+    },
+    {
+      "value": "Communism.",
+      "type": "topical"
+    },
+    {
+      "value": "Heads of state",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Lenin, Vladimir Ilʹich,",
+      "type": "topical"
+    },
+    {
+      "value": "Soviet Union",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1420200987",
+      "Collected works."
+    ]
+  }
+}

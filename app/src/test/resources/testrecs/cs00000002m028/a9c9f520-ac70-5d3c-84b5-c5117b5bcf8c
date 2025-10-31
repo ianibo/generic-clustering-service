@@ -1,0 +1,150 @@
+{
+  "id": "marc:001:in00025803613",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025803613",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025803613",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0385508077"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780385508070"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003040255"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)51518470"
+    },
+    {
+      "type": "Local",
+      "value": "9910109905502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography /",
+      "type": "main"
+    },
+    {
+      "value": "Autobiographie.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Newton, Helmut,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Nan A. Talese/Doubleday,"
+    ],
+    "date": "©2002",
+    "year": 2002,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "289 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Australia",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiography",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Fashion photography",
+      "type": "topical"
+    },
+    {
+      "value": "Fashion photography.",
+      "type": "topical"
+    },
+    {
+      "value": "Germany",
+      "type": "topical"
+    },
+    {
+      "value": "Newton, Helmut,",
+      "type": "topical"
+    },
+    {
+      "value": "Photographers",
+      "type": "topical"
+    },
+    {
+      "value": "Photography, Erotic",
+      "type": "topical"
+    },
+    {
+      "value": "Photography, Erotic.",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary works)",
+      "type": "topical"
+    },
+    {
+      "value": "fashion photography.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)606984703",
+      "Autobiography."
+    ]
+  }
+}

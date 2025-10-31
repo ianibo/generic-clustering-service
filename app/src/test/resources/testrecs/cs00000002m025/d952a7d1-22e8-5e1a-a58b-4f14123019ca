@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:in00029733532",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029733532",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029733532",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780271082318"
+    },
+    {
+      "type": "ISBN",
+      "value": "0271082313"
+    },
+    {
+      "type": "Other",
+      "value": "40028714742"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2018032620"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1036267944"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Don Quixote of La Mancha /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stavans, Ilan,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Weil, Roberto,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Cervantes Saavedra, Miguel de,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "University Park, Pennsylvania :"
+    ],
+    "publisher": [
+      "The Pennsylvania State University Press,"
+    ],
+    "date": "[2018]",
+    "year": 2018,
+    "countryCode": "pau"
+  },
+  "physical": {
+    "extent": "vi, 124 pages :",
+    "illustrations": "color illustrations ;",
+    "dimensions": "27 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1600-1699",
+      "type": "topical"
+    },
+    {
+      "value": "Comics (Graphic works)",
+      "type": "topical"
+    },
+    {
+      "value": "Graphic novel adaptations.",
+      "type": "topical"
+    },
+    {
+      "value": "Graphic novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood.",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    },
+    {
+      "value": "Quixote,",
+      "type": "topical"
+    },
+    {
+      "value": "Spain",
+      "type": "topical"
+    },
+    {
+      "value": "Spain.",
+      "type": "topical"
+    }
+  ]
+}

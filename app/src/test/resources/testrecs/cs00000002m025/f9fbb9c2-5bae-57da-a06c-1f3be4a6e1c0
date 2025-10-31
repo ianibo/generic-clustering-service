@@ -1,0 +1,80 @@
+{
+  "id": "marc:001:in00029692175",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029692175",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029692175",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 15019740"
+    },
+    {
+      "type": "Local",
+      "value": "ocm09201483"
+    },
+    {
+      "type": "Local",
+      "value": "(GUA)800315"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)800315-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910158271302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hood, Thomas,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Wiley and Putnam,"
+    ],
+    "date": "1846.",
+    "year": 1846,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xi, 229 p. ;",
+    "dimensions": "19 cm."
+  },
+  "series": [
+    {
+      "title": "Wiley & Putnam's library of choice reading"
+    },
+    {
+      "title": "Wiley and Putnam's library of choice reading."
+    }
+  ]
+}

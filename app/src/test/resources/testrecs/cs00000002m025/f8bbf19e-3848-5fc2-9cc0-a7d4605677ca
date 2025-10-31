@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00026962466",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026962466",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026962466",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781847771339"
+    },
+    {
+      "type": "ISBN",
+      "value": "1847771335"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2012451192"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)775029745"
+    },
+    {
+      "type": "Local",
+      "value": "9910421810202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Minhinnick, Robert,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Manchester :"
+    ],
+    "publisher": [
+      "Carcanet,"
+    ],
+    "date": "©2012.",
+    "year": 2012,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vii, 188 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

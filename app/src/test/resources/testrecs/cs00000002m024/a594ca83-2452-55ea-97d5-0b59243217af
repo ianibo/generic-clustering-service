@@ -1,0 +1,159 @@
+{
+  "id": "marc:001:in00026873080",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026873080",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026873080",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 50011915 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)661188"
+    },
+    {
+      "type": "Local",
+      "value": "9911727972002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Vanity fair : a novel without a hero /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thackeray, William Makepeace,",
+      "role": "author,",
+      "kind": "person"
+    },
+    {
+      "name": "Beach, Joseph Warren,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "©1950.",
+    "year": 1950,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xxx, 730 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Belgium",
+      "type": "topical"
+    },
+    {
+      "value": "British",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "English fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Europe",
+      "type": "topical"
+    },
+    {
+      "value": "Female friendship",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Humorous stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Man-woman relationships",
+      "type": "topical"
+    },
+    {
+      "value": "Married women",
+      "type": "topical"
+    },
+    {
+      "value": "Publishers' advertisements.",
+      "type": "topical"
+    },
+    {
+      "value": "Satire",
+      "type": "topical"
+    },
+    {
+      "value": "Satire.",
+      "type": "topical"
+    },
+    {
+      "value": "Sharp, Becky",
+      "type": "topical"
+    },
+    {
+      "value": "Social classes",
+      "type": "topical"
+    },
+    {
+      "value": "Waterloo, Battle of, Waterloo, Belgium, 1815",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Modern Library college editions ;",
+      "numbering": "T33"
+    },
+    {
+      "title": "Modern Library college editions ;",
+      "numbering": "T33."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)646892182",
+      "Vanity fair."
+    ]
+  }
+}

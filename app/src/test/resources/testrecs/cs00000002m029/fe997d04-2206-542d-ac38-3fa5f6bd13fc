@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00027645490",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027645490",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027645490",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "sa 67000820 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4186291"
+    },
+    {
+      "type": "Local",
+      "value": "9910732849002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Bhagat Lakshman Singh :",
+      "type": "alternative"
+    },
+    {
+      "value": "Autobiography.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lakshman Singh,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Singh, Ganda.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "[1st ed.]."
+  },
+  "publication": {
+    "place": [
+      "Calcutta,"
+    ],
+    "publisher": [
+      "Sikh Cultural Centre"
+    ],
+    "date": "[©1965]",
+    "year": 1965,
+    "countryCode": "ch "
+  },
+  "physical": {
+    "extent": "xix, 323 pages",
+    "illustrations": "facsimiles, portraits",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "India.",
+      "type": "topical"
+    },
+    {
+      "value": "Lakshman Singh,",
+      "type": "topical"
+    },
+    {
+      "value": "Sikhs",
+      "type": "topical"
+    },
+    {
+      "value": "Sikhs.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)577163905",
+      "Autobiography."
+    ]
+  }
+}

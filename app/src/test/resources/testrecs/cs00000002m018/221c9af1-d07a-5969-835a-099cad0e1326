@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:in00026075540",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026075540",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026075540",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0816621624"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780816621620"
+    },
+    {
+      "type": "ISBN",
+      "value": "0816621632"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780816621637"
+    },
+    {
+      "type": "LCCN",
+      "value": " 93009780 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)27813397"
+    },
+    {
+      "type": "Local",
+      "value": "9910188879602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Politics of everyday fear /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Massumi, Brian.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Minneapolis :"
+    ],
+    "publisher": [
+      "University of Minnesota Press,"
+    ],
+    "date": "©1993.",
+    "year": 1993,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "x, 336 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Fear",
+      "type": "topical"
+    },
+    {
+      "value": "Fear in literature",
+      "type": "topical"
+    },
+    {
+      "value": "Fear in literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Fear.",
+      "type": "topical"
+    },
+    {
+      "value": "Horror in mass media",
+      "type": "topical"
+    },
+    {
+      "value": "Horror in mass media.",
+      "type": "topical"
+    },
+    {
+      "value": "Popular literature",
+      "type": "topical"
+    },
+    {
+      "value": "fear.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)621781113",
+      "Politics of everyday fear."
+    ]
+  }
+}

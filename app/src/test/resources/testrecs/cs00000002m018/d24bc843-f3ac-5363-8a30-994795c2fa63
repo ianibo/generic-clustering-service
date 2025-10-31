@@ -1,0 +1,83 @@
+{
+  "id": "marc:001:in00028472690",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028472690",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028472690",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 44000201 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3020574"
+    },
+    {
+      "type": "Local",
+      "value": "9910611937302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swinburne, Algernon Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1939.",
+    "year": 1939,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxi, 339 pages ;",
+    "dimensions": "16 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "The World's classics ;",
+      "numbering": "481"
+    },
+    {
+      "title": "World's classics ;",
+      "numbering": "481."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)891435380",
+      "Selected poems."
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00027439831",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027439831",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027439831",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0460019074"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460019071"
+    },
+    {
+      "type": "ISBN",
+      "value": "0460009079"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460009072"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6672438"
+    },
+    {
+      "type": "Local",
+      "value": "9911763649702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Maupassant, Guy de,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York :"
+    ],
+    "publisher": [
+      "Dent ;",
+      "Dutton,"
+    ],
+    "date": "1979.",
+    "year": 1979,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xiii, 335 pages ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "French literature",
+      "type": "topical"
+    },
+    {
+      "value": "French literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Maupassant, Guy de,",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories, French.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no. 907"
+    },
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no. 907."
+    }
+  ]
+}

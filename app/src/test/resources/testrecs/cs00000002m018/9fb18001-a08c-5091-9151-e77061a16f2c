@@ -1,0 +1,85 @@
+{
+  "id": "marc:001:in00027391883",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027391883",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027391883",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1932535004"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781932535006"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003056414"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)52514539"
+    },
+    {
+      "type": "Local",
+      "value": "9910752739402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Poch, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Washington [D.C.] :"
+    ],
+    "publisher": [
+      "Orchises Press,"
+    ],
+    "date": "2004.",
+    "year": 2004,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "60 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poets, American.",
+      "type": "topical"
+    }
+  ]
+}

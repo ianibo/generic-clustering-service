@@ -1,0 +1,163 @@
+{
+  "id": "marc:001:in00026727539",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026727539",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026727539",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "019281592X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192815927"
+    },
+    {
+      "type": "LCCN",
+      "value": " 81018975 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8032460"
+    },
+    {
+      "type": "Local",
+      "value": "9911292233102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little Dorrit /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sucksmith, Harvey Peter.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford [Oxfordshire] ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1982.",
+    "year": 1982,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xxv, 721, [1] pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Children of prisoners",
+      "type": "topical"
+    },
+    {
+      "value": "Debt, Imprisonment for",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Inheritance and succession",
+      "type": "topical"
+    },
+    {
+      "value": "London (England)",
+      "type": "topical"
+    },
+    {
+      "value": "Marshalsea Prison (Southwark, London, England)",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Serialized fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Serialized fiction.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The World's classics"
+    },
+    {
+      "title": "The World's classics"
+    },
+    {
+      "title": "World's classics."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "marc:001:in00029423752",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029423752",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029423752",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0811209504"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780811209502"
+    },
+    {
+      "type": "ISBN",
+      "value": "0811209512"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780811209519"
+    },
+    {
+      "type": "LCCN",
+      "value": " 85021477 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)12558374"
+    },
+    {
+      "type": "Local",
+      "value": "9910451045502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "McClure, Michael,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "New Directions Pub. Corp.,"
+    ],
+    "date": "1986.",
+    "year": 1986,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vii, 116 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A New directions book"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)562794199",
+      "Selected poems."
+    ]
+  }
+}

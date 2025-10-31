@@ -1,0 +1,70 @@
+{
+  "id": "marc:001:in00026974722",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026974722",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026974722",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)12127110"
+    },
+    {
+      "type": "Local",
+      "value": "9910336107802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems;",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Browning, Elizabeth Barrett,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Worthington Co.,"
+    ],
+    "date": "1889.",
+    "year": 1889,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "5 volumes",
+    "illustrations": "portrait (volumes 1)",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894218112",
+      "Poems."
+    ]
+  }
+}

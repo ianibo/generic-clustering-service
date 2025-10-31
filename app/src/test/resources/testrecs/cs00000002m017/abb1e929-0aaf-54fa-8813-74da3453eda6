@@ -1,0 +1,76 @@
+{
+  "id": "marc:001:in00028898407",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028898407",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028898407",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)5284245"
+    },
+    {
+      "type": "Local",
+      "value": "9911318911102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Works.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Roe, Edward Payson,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Collier,"
+    ],
+    "date": "1902.",
+    "year": 1902,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "18 volumes",
+    "illustrations": "illustrations",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Roe, Edward Payson,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)655443690",
+      "Works."
+    ]
+  }
+}

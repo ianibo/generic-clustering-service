@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00030160780",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030160780",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030160780",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:54Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:54Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0802019366"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802019363"
+    },
+    {
+      "type": "ISBN",
+      "value": "0802061702"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802061706"
+    },
+    {
+      "type": "ISBN",
+      "value": "0802002757"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802002754"
+    },
+    {
+      "type": "LCCN",
+      "value": " 72091689 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)647371"
+    },
+    {
+      "type": "Local",
+      "value": "9910371058602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Crawford, Isabella Valancy,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Buffalo]",
+      "[Toronto],"
+    ],
+    "publisher": [
+      "University of Toronto Press"
+    ],
+    "date": "[©1972]",
+    "year": 1972,
+    "countryCode": "onc"
+  },
+  "physical": {
+    "extent": "xxxiv, 309, xxxviii-xxxix, [1] pages",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Canadian poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Literature of Canada poetry and prose in reprint"
+    },
+    {
+      "title": "Literature of Canada poetry and prose in reprint."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654598001",
+      "Collected poems."
+    ]
+  }
+}

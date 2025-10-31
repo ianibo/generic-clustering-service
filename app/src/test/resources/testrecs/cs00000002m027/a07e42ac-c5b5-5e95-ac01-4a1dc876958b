@@ -1,0 +1,140 @@
+{
+  "id": "marc:001:in00027108150",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027108150",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027108150",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0938652001"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780938652007"
+    },
+    {
+      "type": "LCCN",
+      "value": " 80084519 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7365535"
+    },
+    {
+      "type": "Local",
+      "value": "9910002725302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mayo, E. L.",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Ray, David,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Drake University. Centennial Committee.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "Kansas City, Mo. :"
+    ],
+    "publisher": [
+      "New Letters,"
+    ],
+    "date": "1981.",
+    "year": 1981,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "268 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "New letters,",
+      "numbering": "v. 47, no. 2 & 3 (winter-spring, 1980-81)"
+    },
+    {
+      "title": "New letters,",
+      "numbering": "v. 47, no. 2 & 3 (winter-spring, 1980-81)"
+    },
+    {
+      "title": "New letters book.",
+      "numbering": "v. 47, no. 2/3."
+    },
+    {
+      "title": "New letters book.",
+      "numbering": "v. 47, no. 2/3."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)610374363",
+      "(OCoLC)610547889",
+      "Collected poems."
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "marc:001:in00030253447",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030253447",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030253447",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 04012135 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3252279"
+    },
+    {
+      "type": "Local",
+      "value": "9911212408602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Divine comedy of Dante Alighieri,",
+      "type": "main"
+    },
+    {
+      "value": "Divina commedia.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Longfellow, Henry Wadsworth,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "[Riverside ed.]."
+  },
+  "publication": {
+    "place": [
+      "Boston,",
+      "New York,"
+    ],
+    "publisher": [
+      "Houghton, Mifflin"
+    ],
+    "date": "[1900?]",
+    "year": 1900,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "3 volumes",
+    "illustrations": "frontispiece (portrait)",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1410466582",
+      "Divine comedy of Dante Alighieri."
+    ]
+  }
+}

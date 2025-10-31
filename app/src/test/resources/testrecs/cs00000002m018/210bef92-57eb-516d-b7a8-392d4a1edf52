@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00025760496",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025760496",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025760496",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0394483588"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780394483580"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73003979 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)658912"
+    },
+    {
+      "type": "Local",
+      "value": "9910499878402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goodman, Paul,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "[First edition]"
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Random House,"
+    ],
+    "date": "[1974]",
+    "year": 1974,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxx, 465 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bisexual men",
+      "type": "topical"
+    },
+    {
+      "value": "Bisexual poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Gay men",
+      "type": "topical"
+    },
+    {
+      "value": "Gay men's writings, American",
+      "type": "topical"
+    },
+    {
+      "value": "Gay men's writings, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Gay poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)707165168",
+      "Collected poems."
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "marc:001:in00027950584",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027950584",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027950584",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "a 44002719 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)279820"
+    },
+    {
+      "type": "Local",
+      "value": "9910051516602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems of Edgar Allan Poe,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Poe, Edgar Allan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Untermeyer, Louis,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Steiner-Prag, Hugo,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Heritage Press"
+    ],
+    "date": "[©1943]",
+    "year": 1943,
+    "countryCode": "cf "
+  },
+  "physical": {
+    "extent": "2 preliminary leaves, ix-xxi, 214 pages including plates",
+    "illustrations": "frontispiece (portrait)",
+    "dimensions": "26 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American poets, ed. by Louis Untermeyer"
+    },
+    {
+      "title": "American poets (Heritage Press (New York, N.Y.))"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609872306",
+      "Complete poems of Edgar Allan Poe."
+    ]
+  }
+}

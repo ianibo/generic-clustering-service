@@ -1,0 +1,170 @@
+{
+  "id": "marc:001:in00029157638",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029157638",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029157638",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0674991885"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780674991880"
+    },
+    {
+      "type": "ISBN",
+      "value": "0434991708"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780434991709"
+    },
+    {
+      "type": "ISBN",
+      "value": "0674991893"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780674991897"
+    },
+    {
+      "type": "ISBN",
+      "value": "0434991716"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780434991716"
+    },
+    {
+      "type": "LCCN",
+      "value": " 25004962 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7928758"
+    },
+    {
+      "type": "Local",
+      "value": "9910855720902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Murray, A. T.",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York,"
+    ],
+    "publisher": [
+      "G.P. Putnam's Sons,",
+      "W. Heinemann;"
+    ],
+    "date": "1924-1925.",
+    "year": 1924,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "2 volumes",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Achilles",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "epic poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Loeb classical library"
+    },
+    {
+      "title": "Loeb classical library."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)551608459",
+      "(OCoLC)579462128",
+      "(OCoLC)605727491",
+      "(OCoLC)630927939",
+      "Iliad."
+    ]
+  }
+}

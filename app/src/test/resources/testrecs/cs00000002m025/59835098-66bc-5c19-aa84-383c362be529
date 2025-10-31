@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00028531533",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028531533",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028531533",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1338218"
+    },
+    {
+      "type": "Local",
+      "value": "9910478630402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Pensées.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bourdaloue, Louis,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Lyon,"
+    ],
+    "publisher": [
+      "Perisse,"
+    ],
+    "date": "1835.",
+    "year": 1835,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "3 volumes",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Christian ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "Christian life",
+      "type": "topical"
+    },
+    {
+      "value": "Christianity",
+      "type": "topical"
+    },
+    {
+      "value": "Christianity.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "His Oeuvres"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1378562782",
+      "Pensées."
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "id": "marc:001:in00029555828",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029555828",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029555828",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0448110199"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780448110196"
+    },
+    {
+      "type": "ISBN",
+      "value": "0448032570"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780448032573"
+    },
+    {
+      "type": "ISBN",
+      "value": "0448058197"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780448058191"
+    },
+    {
+      "type": "LCCN",
+      "value": " 47001597 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)172828"
+    },
+    {
+      "type": "Local",
+      "value": "9910040626602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jambor, Louis.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cairns Collection of American Women Writers.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Grosset & Dunlap"
+    ],
+    "date": "[1947]",
+    "year": 1947,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "546 pages",
+    "illustrations": "illustrations (some color)",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Families",
+      "type": "topical"
+    },
+    {
+      "value": "Families.",
+      "type": "topical"
+    },
+    {
+      "value": "Family life",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "New England",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Nuclear families",
+      "type": "topical"
+    },
+    {
+      "value": "Nuclear families.",
+      "type": "topical"
+    },
+    {
+      "value": "Sisters",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Illustrated junior library"
+    },
+    {
+      "title": "Illustrated junior library."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)925417690",
+      "Little women."
+    ]
+  }
+}

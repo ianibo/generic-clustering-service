@@ -1,0 +1,141 @@
+{
+  "id": "marc:001:in00027684571",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027684571",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027684571",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0802023681"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802023681"
+    },
+    {
+      "type": "ISBN",
+      "value": "0710007183"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780710007186"
+    },
+    {
+      "type": "Other",
+      "value": "x280023358"
+    },
+    {
+      "type": "LCCN",
+      "value": " 81157637 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7977191"
+    },
+    {
+      "type": "Local",
+      "value": "9910856117002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography and literary essays /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Robson, John M.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Stillinger, Jack.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Buffalo :",
+      "London :",
+      "Toronto ;"
+    ],
+    "publisher": [
+      "Routledge & Kegan Paul,",
+      "University of Toronto Press ;"
+    ],
+    "date": "©1981.",
+    "year": 1981,
+    "countryCode": "fh "
+  },
+  "physical": {
+    "extent": "liv, 766 pages, 6 unnumbered pages of plates :",
+    "illustrations": "facsimiles ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiography",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "English literature",
+      "type": "topical"
+    },
+    {
+      "value": "Mill, John Stuart,",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophers",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophers.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Collected works of John Stuart Mill ;",
+      "numbering": "v. 1"
+    }
+  ]
+}

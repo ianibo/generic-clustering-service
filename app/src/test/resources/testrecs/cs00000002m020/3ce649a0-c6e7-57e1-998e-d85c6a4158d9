@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00027390809",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027390809",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027390809",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "LCCN",
+      "value": " 90222104 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)22858987"
+    },
+    {
+      "type": "Local",
+      "value": "9911804555302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The plays and sonnets /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Shakespeare, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Clark, William George,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wright, William Aldis,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "2nd ed."
+  },
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1500-1700",
+      "type": "topical"
+    },
+    {
+      "value": "English drama",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "24-25"
+    },
+    {
+      "title": "Great books of the Western world (1990) ;",
+      "numbering": "24-25."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)760035489",
+      "Plays and sonnets."
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00029812197",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029812197",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029812197",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0436592401"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780436592409"
+    },
+    {
+      "type": "ISBN",
+      "value": "043659241X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780436592416"
+    },
+    {
+      "type": "LCCN",
+      "value": " 74173804 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)990297"
+    },
+    {
+      "type": "Local",
+      "value": "9910227448302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Young, Andrew,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Secker and Warburg,"
+    ],
+    "date": "1974.",
+    "year": 1974,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "3-367 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654295646",
+      "Complete poems."
+    ]
+  }
+}

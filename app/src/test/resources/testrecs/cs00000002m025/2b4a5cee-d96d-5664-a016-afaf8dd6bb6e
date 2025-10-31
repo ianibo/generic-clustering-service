@@ -1,0 +1,121 @@
+{
+  "id": "marc:001:in00028696940",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028696940",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028696940",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781848872837"
+    },
+    {
+      "type": "ISBN",
+      "value": "1848872836"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2011487482"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)776877660"
+    },
+    {
+      "type": "Local",
+      "value": "9910360444702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Divine comedy /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Raine, Craig.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Atlantic Books,"
+    ],
+    "date": "2012.",
+    "year": 2012,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "184 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Betrayal",
+      "type": "topical"
+    },
+    {
+      "value": "Betrayal.",
+      "type": "topical"
+    },
+    {
+      "value": "Black humor (Literature)",
+      "type": "topical"
+    },
+    {
+      "value": "Black humor.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Human body",
+      "type": "topical"
+    },
+    {
+      "value": "Human body.",
+      "type": "topical"
+    },
+    {
+      "value": "Humorous fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Humorous stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Pleasure",
+      "type": "topical"
+    },
+    {
+      "value": "Pleasure.",
+      "type": "topical"
+    }
+  ]
+}

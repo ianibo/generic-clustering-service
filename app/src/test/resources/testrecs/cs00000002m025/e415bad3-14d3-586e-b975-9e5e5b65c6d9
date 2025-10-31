@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00026725514",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026725514",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026725514",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 29028934 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1358416"
+    },
+    {
+      "type": "Local",
+      "value": "9910152832202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Trench, Richard Chenevix,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Spencer, J. A.",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Redfield,"
+    ],
+    "date": "1856.",
+    "year": 1856,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "336 pages",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756460060",
+      "Poems."
+    ]
+  }
+}

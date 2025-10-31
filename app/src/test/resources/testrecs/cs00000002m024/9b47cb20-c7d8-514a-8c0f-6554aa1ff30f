@@ -1,0 +1,119 @@
+{
+  "id": "marc:001:in00030440762",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030440762",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030440762",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 55010317 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)911154"
+    },
+    {
+      "type": "Local",
+      "value": "9910930282102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Dialogues.",
+      "type": "main"
+    },
+    {
+      "value": "Dialogues.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Plato.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jowett, Benjamin,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Harward, J.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Plato.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago,"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica"
+    ],
+    "date": "[1955, ©1952]",
+    "year": 1955,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "vii, 814 pages",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Philosophy, Ancient.",
+      "type": "topical"
+    },
+    {
+      "value": "Platonists.",
+      "type": "topical"
+    },
+    {
+      "value": "Wisdom",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world,",
+      "numbering": "v. 7"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 7."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756463933",
+      "Dialogues."
+    ]
+  }
+}

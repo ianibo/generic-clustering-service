@@ -1,0 +1,68 @@
+{
+  "id": "marc:001:in00028006147",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028006147",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028006147",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)8064981"
+    },
+    {
+      "type": "Local",
+      "value": "(GBruJC)28310-coastaldb"
+    },
+    {
+      "type": "Local",
+      "value": "9911820965202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "c1964.",
+    "year": 1964,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "423 p."
+  },
+  "series": [
+    {
+      "title": "The Modern library giants"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "marc:001:in00030113585",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030113585",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030113585",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300030045"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300030044"
+    },
+    {
+      "type": "LCCN",
+      "value": " 83023445 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)10183535"
+    },
+    {
+      "type": "Local",
+      "value": "9910075263302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The life of David Brainerd /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pettit, Norman.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "1985.",
+    "year": 1985,
+    "countryCode": "abf"
+  },
+  "physical": {
+    "extent": "x, 620 pages, 1 unnumbered pages of plates :",
+    "illustrations": "illustrations, map ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biography",
+      "type": "topical"
+    },
+    {
+      "value": "Brainerd, David,",
+      "type": "topical"
+    },
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Indians of North America",
+      "type": "topical"
+    },
+    {
+      "value": "Missionaries",
+      "type": "topical"
+    },
+    {
+      "value": "Missionaries.",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Works of Jonathan Edwards ;",
+      "numbering": "v. 7"
+    }
+  ]
+}

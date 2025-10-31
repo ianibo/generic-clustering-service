@@ -1,0 +1,79 @@
+{
+  "id": "marc:001:in00028093756",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028093756",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028093756",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)13032683"
+    },
+    {
+      "type": "Local",
+      "value": "9910396352902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Osgood, Frances Sargent,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Darley.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Osgood, Samuel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia :"
+    ],
+    "publisher": [
+      "Carey and Hart,"
+    ],
+    "date": "1850.",
+    "year": 1850,
+    "countryCode": "cf "
+  },
+  "physical": {
+    "extent": "300 466 pages, 10 leaves of plates :",
+    "illustrations": "(portrait) ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "relations": {
+    "otherFormats": [
+      "(DLC) 24011825"
+    ]
+  }
+}

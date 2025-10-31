@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00029582096",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029582096",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029582096",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780875653532"
+    },
+    {
+      "type": "ISBN",
+      "value": "0875653537"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780875653525"
+    },
+    {
+      "type": "ISBN",
+      "value": "0875653529"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2007019312"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)129950978"
+    },
+    {
+      "type": "Local",
+      "value": "9910214200202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "A students' treasury of Texas poetry /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hill, Billy Bob.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Fort Worth, Tex. :"
+    ],
+    "publisher": [
+      "TCU Press,"
+    ],
+    "date": "©2007.",
+    "year": 2007,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "xi, 225 pages :",
+    "illustrations": "portraits ;",
+    "dimensions": "27 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Texas",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)760659870",
+      "Students' treasury of Texas poetry."
+    ]
+  }
+}

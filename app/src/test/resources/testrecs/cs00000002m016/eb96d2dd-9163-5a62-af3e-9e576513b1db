@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00028592973",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028592973",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028592973",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)36029411"
+    },
+    {
+      "type": "Local",
+      "value": "9910809304602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The monastery.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :"
+    ],
+    "publisher": [
+      "Printed for R. Cadell,"
+    ],
+    "date": "1830.",
+    "year": 1830,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "illustrations, plates ;",
+    "dimensions": "17 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1500-1599",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Mary,",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Waverly novels, vol. XVIII-XVIV"
+    }
+  ]
+}

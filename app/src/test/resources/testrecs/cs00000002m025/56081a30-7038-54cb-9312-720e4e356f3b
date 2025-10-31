@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00027061234",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027061234",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027061234",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0195053621"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780195053623"
+    },
+    {
+      "type": "ISBN",
+      "value": "0195050266"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780195050264"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87013275 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)15793500"
+    },
+    {
+      "type": "Local",
+      "value": "9910311873002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Ethical issues in professional life /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Callahan, Joan C.,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1988.",
+    "year": 1988,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xvii, 470 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Ethics, Professional",
+      "type": "topical"
+    },
+    {
+      "value": "Professional ethics",
+      "type": "topical"
+    },
+    {
+      "value": "Professional ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "professional ethics.",
+      "type": "topical"
+    }
+  ]
+}

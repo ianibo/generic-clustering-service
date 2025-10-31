@@ -1,0 +1,154 @@
+{
+  "id": "marc:001:in00026501983",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026501983",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026501983",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0198125119"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198125112"
+    },
+    {
+      "type": "LCCN",
+      "value": " 76378952 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2421031"
+    },
+    {
+      "type": "Local",
+      "value": "9910360958602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Wuthering Heights /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jack, Ian,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Marsden, Hilda.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oxford :"
+    ],
+    "publisher": [
+      "Clarendon Press,"
+    ],
+    "date": "1976.",
+    "year": 1976,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xxxix, 513 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings.",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Rejection (Psychology)",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Rural families",
+      "type": "topical"
+    },
+    {
+      "value": "Rural families.",
+      "type": "topical"
+    },
+    {
+      "value": "Triangles (Interpersonal relations)",
+      "type": "topical"
+    },
+    {
+      "value": "Yorkshire (England)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Clarendon edition of the novels of the Brontës"
+    },
+    {
+      "title": "Clarendon edition of the novels of the Brontës."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)567967835",
+      "Wuthering Heights."
+    ]
+  }
+}

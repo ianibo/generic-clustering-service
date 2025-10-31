@@ -1,0 +1,143 @@
+{
+  "id": "marc:001:in00027556820",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027556820",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027556820",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 44009269 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1632424"
+    },
+    {
+      "type": "Local",
+      "value": "9910014223502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Divine comedy of Dante Alighieri,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Anderson, Melville Best,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Blake, William,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "The Heritage Press,"
+    ],
+    "date": "[1944]",
+    "year": 1944,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxii, 491, [1] pages :",
+    "illustrations": "frontispiece and plates ;",
+    "dimensions": "26 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1200-1299",
+      "type": "topical"
+    },
+    {
+      "value": "Allegories.",
+      "type": "topical"
+    },
+    {
+      "value": "Future punishment",
+      "type": "topical"
+    },
+    {
+      "value": "Future punishment.",
+      "type": "topical"
+    },
+    {
+      "value": "Italian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Italian poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Sin",
+      "type": "topical"
+    },
+    {
+      "value": "Sin.",
+      "type": "topical"
+    },
+    {
+      "value": "Theology",
+      "type": "topical"
+    },
+    {
+      "value": "Theology.",
+      "type": "topical"
+    },
+    {
+      "value": "Virtue",
+      "type": "topical"
+    },
+    {
+      "value": "Virtue.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

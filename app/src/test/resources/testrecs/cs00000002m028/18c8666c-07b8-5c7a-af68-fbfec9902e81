@@ -1,0 +1,161 @@
+{
+  "id": "marc:001:in00029616826",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029616826",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029616826",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 55010349 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1431029"
+    },
+    {
+      "type": "Local",
+      "value": "9910932576802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "On liberty",
+      "type": "alternative"
+    },
+    {
+      "value": "Representative government",
+      "type": "alternative"
+    },
+    {
+      "value": "Utilitarianism",
+      "type": "alternative"
+    },
+    {
+      "value": "American state papers. The Federalist /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "United States.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "United States.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "[1955, ©1952]",
+    "year": 1955,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "476 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Constitutional history",
+      "type": "topical"
+    },
+    {
+      "value": "Constitutions",
+      "type": "topical"
+    },
+    {
+      "value": "Essay",
+      "type": "topical"
+    },
+    {
+      "value": "Essays",
+      "type": "topical"
+    },
+    {
+      "value": "Essays.",
+      "type": "topical"
+    },
+    {
+      "value": "Government",
+      "type": "topical"
+    },
+    {
+      "value": "Sources",
+      "type": "topical"
+    },
+    {
+      "value": "Sources.",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "essays.",
+      "type": "topical"
+    },
+    {
+      "value": "governments (administrative bodies)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "volume 43"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "volume 43."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756461927",
+      "American state papers."
+    ]
+  }
+}

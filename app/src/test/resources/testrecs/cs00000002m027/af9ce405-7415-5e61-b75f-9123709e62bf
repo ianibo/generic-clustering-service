@@ -1,0 +1,74 @@
+{
+  "id": "marc:001:ungin00000553279",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ungin00000553279",
+    "sourceRecordUri": "https://catalog.example.org/record/ungin00000553279",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)272162"
+    },
+    {
+      "type": "Local",
+      "value": "(GDahN)406716-northgadb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_UNG)994067163702960"
+    },
+    {
+      "type": "Local",
+      "value": "994067163702960"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hawthorne, Nathaniel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Arvin, Newton,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "publisher": [
+      "Vintage Books"
+    ],
+    "date": "[c1946]",
+    "year": 1946,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "363 p."
+  },
+  "series": [
+    {
+      "title": "A Vintage book, V-15"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "marc:001:in00028859319",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028859319",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028859319",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)44704689"
+    },
+    {
+      "type": "Local",
+      "value": "9911146212002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Rambler.",
+      "type": "main"
+    },
+    {
+      "value": "Rambler (London, England : 1750)",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Johnson, Samuel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Chapone,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Carter, Elizabeth,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Richardson, Samuel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Talbot, Catherine,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "J. Payne,"
+    ],
+    "date": "1753.",
+    "year": 1753,
+    "countryCode": "ctu"
+  },
+  "physical": {
+    "extent": "208 volumes",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1727-1760",
+      "type": "topical"
+    },
+    {
+      "value": "English essays",
+      "type": "topical"
+    },
+    {
+      "value": "English essays.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "Periodicals.",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government",
+      "type": "topical"
+    },
+    {
+      "value": "periodicals.",
+      "type": "topical"
+    }
+  ]
+}

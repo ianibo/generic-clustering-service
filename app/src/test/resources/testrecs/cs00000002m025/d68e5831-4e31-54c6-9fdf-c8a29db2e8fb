@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:in00028053687",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028053687",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028053687",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 05017323 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2673569"
+    },
+    {
+      "type": "Local",
+      "value": "9910288947202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of William Watson.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Watson, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Spender, John A.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York, [NY] :"
+    ],
+    "publisher": [
+      "J. Lane,"
+    ],
+    "date": "1905.",
+    "year": 1905,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "frontispiece (portrait) ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Annotations (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "English literature",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)574842146",
+      "Poems of William Watson."
+    ]
+  }
+}

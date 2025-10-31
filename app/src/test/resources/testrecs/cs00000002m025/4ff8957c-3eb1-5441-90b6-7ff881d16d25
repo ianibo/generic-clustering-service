@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00029759198",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029759198",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029759198",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0934977372"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780934977371"
+    },
+    {
+      "type": "LCCN",
+      "value": " 94030764 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)30894762"
+    },
+    {
+      "type": "Local",
+      "value": "9910485903202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stampa, Gaspara,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Stortoni, Laura Anna,",
+      "role": "editor,",
+      "kind": "person"
+    },
+    {
+      "name": "Lillie, Mary Prentice,",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "ita"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Italica Press,"
+    ],
+    "date": "1994.",
+    "year": 1994,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxiv, 237 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Italian language materials",
+      "type": "topical"
+    },
+    {
+      "value": "Stampa, Gaspara,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    }
+  ]
+}

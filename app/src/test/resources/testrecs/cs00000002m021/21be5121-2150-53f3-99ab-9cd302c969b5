@@ -1,0 +1,72 @@
+{
+  "id": "marc:001:in00027869595",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027869595",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027869595",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:55Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:55Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)6509644"
+    },
+    {
+      "type": "Local",
+      "value": "9911093557402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Tom Jones",
+      "type": "alternative"
+    },
+    {
+      "value": "The history of Tom Jones : a foundling /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Printed for A. Millar,"
+    ],
+    "date": "1749.",
+    "year": 1749,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "6 volumes",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "series": [
+    {
+      "title": "Library of English literature ;",
+      "numbering": "LEL 20410-12."
+    }
+  ]
+}

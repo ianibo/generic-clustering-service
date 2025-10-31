@@ -1,0 +1,150 @@
+{
+  "id": "marc:001:in00029950583",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029950583",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029950583",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780811221733"
+    },
+    {
+      "type": "ISBN",
+      "value": "0811221733"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780811237543"
+    },
+    {
+      "type": "ISBN",
+      "value": "0811237540"
+    },
+    {
+      "type": "Other",
+      "value": "40023044609"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2013022660"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)829988867"
+    },
+    {
+      "type": "Local",
+      "value": "9910350375302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems of Denise Levertov",
+      "type": "alternative"
+    },
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Levertov, Denise,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Boland, Eavan,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    },
+    {
+      "name": "Lacey, Paul A.,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Dewey, Anne Day,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "New Directions Publishing Corporation,"
+    ],
+    "date": "2013.",
+    "year": 2013,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xvi, 1063 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "New Directions Paperbook ;",
+      "numbering": "1582"
+    },
+    {
+      "title": "New Directions paperbook ;",
+      "numbering": "1582."
+    }
+  ]
+}

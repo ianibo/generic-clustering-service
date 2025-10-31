@@ -1,0 +1,182 @@
+{
+  "id": "marc:001:in00027125824",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027125824",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027125824",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0679601813"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679601814"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)34310655"
+    },
+    {
+      "type": "Local",
+      "value": "9910127528202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The brothers Karamazov /",
+      "type": "main"
+    },
+    {
+      "value": "Bratʹi︠a︡ Karamazovy.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "1996 Modern Library ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Modern Library,"
+    ],
+    "date": "[1996], ©1995.",
+    "year": 1996,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxi, 880 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1533-1917",
+      "type": "topical"
+    },
+    {
+      "value": "Brothers",
+      "type": "topical"
+    },
+    {
+      "value": "Culture",
+      "type": "topical"
+    },
+    {
+      "value": "Culture.",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and sons",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Works Publication Type",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "culture (concept)",
+      "type": "topical"
+    },
+    {
+      "value": "culture note.",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Modern library giants."
+    },
+    {
+      "title": "Modern Library giants."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)631787826",
+      "Brothers Karamazov."
+    ]
+  }
+}

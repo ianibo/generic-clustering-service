@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00029261518",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029261518",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029261518",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1383407"
+    },
+    {
+      "type": "Local",
+      "value": "9911689578202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The history of Tom Jones",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York,"
+    ],
+    "publisher": [
+      "E.P. Dutton",
+      "J.M. Dent;"
+    ],
+    "date": "[1932]",
+    "year": 1932,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "2 volumes",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "English fiction",
+      "type": "topical"
+    },
+    {
+      "value": "English fiction.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library. Fiction. [no. 355-356]"
+    }
+  ]
+}

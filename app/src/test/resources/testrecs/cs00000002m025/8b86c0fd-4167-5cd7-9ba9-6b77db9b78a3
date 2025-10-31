@@ -1,0 +1,82 @@
+{
+  "id": "marc:001:in00029811805",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029811805",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029811805",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)15462131"
+    },
+    {
+      "type": "Local",
+      "value": "9910202538102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The antiquary /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New-York :"
+    ],
+    "publisher": [
+      "James Eastburn and Co.,"
+    ],
+    "date": "1818",
+    "year": 1818,
+    "countryCode": " c "
+  },
+  "physical": {
+    "extent": "3 volumes in 2",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microopaque"
+  },
+  "subjects": [
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Early American imprints.",
+      "numbering": "no. 45652."
+    }
+  ]
+}

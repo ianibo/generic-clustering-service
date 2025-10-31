@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00026774902",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026774902",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026774902",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0856353086"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780856353086"
+    },
+    {
+      "type": "LCCN",
+      "value": " 81128174 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7999397"
+    },
+    {
+      "type": "Local",
+      "value": "9910121444502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Skelton, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hammond, Gerald,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Manchester :"
+    ],
+    "publisher": [
+      "Carcanet,"
+    ],
+    "date": "1980.",
+    "year": 1980,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "142 pages ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Fyfield books"
+    },
+    {
+      "title": "Fyfield books."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)651996351",
+      "Selected poems."
+    ]
+  }
+}

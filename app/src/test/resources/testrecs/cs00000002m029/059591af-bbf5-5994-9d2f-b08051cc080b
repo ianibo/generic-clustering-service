@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:in00025761579",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025761579",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025761579",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0902145487"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780902145481"
+    },
+    {
+      "type": "ISBN",
+      "value": "085635001X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780856350016"
+    },
+    {
+      "type": "LCCN",
+      "value": " 73179183 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)794111"
+    },
+    {
+      "type": "Local",
+      "value": "9910420602402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Confessions of a hooligan : fifty poems /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Esenin, Sergeĭ Aleksandrovich,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Thurley, Geoffrey,",
+      "role": "translator,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "[Cheadle Hulme, Eng.] :"
+    ],
+    "publisher": [
+      "Carcanet Press,"
+    ],
+    "date": "[1973]",
+    "year": 1973,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "107 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Esenin, Sergeĭ Aleksandrovich,",
+      "type": "topical"
+    },
+    {
+      "value": "Russian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Translations"
+    },
+    {
+      "title": "Translations."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)578272425",
+      "Confessions of a hooligan."
+    ]
+  }
+}

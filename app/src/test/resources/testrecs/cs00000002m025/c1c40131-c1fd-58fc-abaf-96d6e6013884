@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00025843174",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025843174",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025843174",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 42018829 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2174069"
+    },
+    {
+      "type": "Local",
+      "value": "9910177744002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rakosi, Carl,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Norfolk, Conn. :"
+    ],
+    "publisher": [
+      "New directions,"
+    ],
+    "date": "1941.",
+    "year": 1941,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "30 unnumbered pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Williams, William Carlos,",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Poet of the month ;",
+      "numbering": "1941"
+    },
+    {
+      "title": "Poet of the month ;",
+      "numbering": "1941."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647597102",
+      "Selected poems."
+    ]
+  }
+}

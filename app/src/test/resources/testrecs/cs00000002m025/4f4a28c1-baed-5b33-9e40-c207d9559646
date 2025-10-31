@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00026257864",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026257864",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026257864",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0945636156"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780945636151"
+    },
+    {
+      "type": "LCCN",
+      "value": " 89040776 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)21412335"
+    },
+    {
+      "type": "Local",
+      "value": "9910232834202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Barnfield, Richard,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Klawitter, George,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Selinsgrove :"
+    ],
+    "publisher": [
+      "Susquehanna University Press,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "249 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Pastoral poetry, English.",
+      "type": "topical"
+    },
+    {
+      "value": "Pastoral poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)555677949",
+      "Complete poems."
+    ]
+  }
+}

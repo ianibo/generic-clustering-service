@@ -1,0 +1,147 @@
+{
+  "id": "marc:001:in00026061262",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026061262",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026061262",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0802016685"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802016683"
+    },
+    {
+      "type": "ISBN",
+      "value": "0802061532"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802061539"
+    },
+    {
+      "type": "LCCN",
+      "value": " 74151823 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)119041"
+    },
+    {
+      "type": "Local",
+      "value": "9910267069402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Faust /",
+      "type": "main"
+    },
+    {
+      "value": "Faust.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fairley, Barker,",
+      "role": "translator",
+      "kind": "person"
+    },
+    {
+      "name": "Jones, Randy,",
+      "role": "illustrator",
+      "kind": "person"
+    },
+    {
+      "name": "Fleming, Allan R.",
+      "role": "book designer.",
+      "kind": "person"
+    },
+    {
+      "name": "Lewis, Laurie,",
+      "role": "book designer.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Toronto] :"
+    ],
+    "publisher": [
+      "University of Toronto Press,"
+    ],
+    "date": "[©1970]",
+    "year": 1970,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "203 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "26 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Drama",
+      "type": "topical"
+    },
+    {
+      "value": "Faust,",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "German drama",
+      "type": "topical"
+    },
+    {
+      "value": "German drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Germany",
+      "type": "topical"
+    },
+    {
+      "value": "Magicians",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)581126190",
+      "Faust."
+    ]
+  }
+}

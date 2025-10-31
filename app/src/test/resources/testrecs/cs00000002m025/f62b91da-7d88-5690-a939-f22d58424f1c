@@ -1,0 +1,136 @@
+{
+  "id": "marc:001:in00027954895",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027954895",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027954895",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0375411739"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780375411731"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2001029345"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)46462888"
+    },
+    {
+      "type": "Local",
+      "value": "9910424258502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The confessions /",
+      "type": "main"
+    },
+    {
+      "value": "Confessiones.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Augustine,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Burton, Philip",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "A.A. Knopf,"
+    ],
+    "date": "2001.",
+    "year": 2001,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "li, 370 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Algeria",
+      "type": "topical"
+    },
+    {
+      "value": "Augustine,",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Christian literature, Early",
+      "type": "topical"
+    },
+    {
+      "value": "Christian literature, Early.",
+      "type": "topical"
+    },
+    {
+      "value": "Christian saints",
+      "type": "topical"
+    },
+    {
+      "value": "Christian saints.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library ;",
+      "numbering": "128"
+    },
+    {
+      "title": "Everyman's library (Alfred A. Knopf, Inc.)"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)891123893",
+      "Confessions."
+    ]
+  }
+}

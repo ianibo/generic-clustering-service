@@ -1,0 +1,142 @@
+{
+  "id": "marc:001:in00026715406",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026715406",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026715406",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780674054912"
+    },
+    {
+      "type": "ISBN",
+      "value": "0674054911"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780674237186"
+    },
+    {
+      "type": "ISBN",
+      "value": "0674237188"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780674248465"
+    },
+    {
+      "type": "ISBN",
+      "value": "0674248465"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2012007924"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)778857663"
+    },
+    {
+      "type": "Local",
+      "value": "9910184735902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Dialogues /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pontano, Giovanni Gioviano,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Gaisser, Julia Haig,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Pontano, Giovanni Gioviano,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pontano, Giovanni Gioviano,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "lat"
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, Massachusetts :"
+    ],
+    "publisher": [
+      "Harvard University Press,"
+    ],
+    "date": "2012-2020.",
+    "year": 2012,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "3 volumes ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dialogues (Literature)",
+      "type": "topical"
+    },
+    {
+      "value": "Dialogues (Pontano, Giovanni Gioviano)",
+      "type": "topical"
+    },
+    {
+      "value": "Pontano, Giovanni Gioviano,",
+      "type": "topical"
+    },
+    {
+      "value": "dialogues.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The I Tatti Renaissance library ;",
+      "numbering": "53, 91-92"
+    },
+    {
+      "title": "I Tatti Renaissance library ;",
+      "numbering": "53."
+    },
+    {
+      "title": "I Tatti Renaissance library ;",
+      "numbering": "53."
+    }
+  ]
+}

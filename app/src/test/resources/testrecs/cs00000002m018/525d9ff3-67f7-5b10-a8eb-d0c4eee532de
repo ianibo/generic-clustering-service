@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:in00028284224",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028284224",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028284224",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:24Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:24Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 61010506 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1866144"
+    },
+    {
+      "type": "Local",
+      "value": "9910210147602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Googe, Barnabe,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Alan Swallow (Firm : Denver, Colo.),",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Denver :"
+    ],
+    "publisher": [
+      "A. Swallow,"
+    ],
+    "date": "[©1961]",
+    "year": 1961,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "61 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Books of the Renaissance series ;",
+      "numbering": "[7]"
+    },
+    {
+      "title": "Books of the Renaissance series ;",
+      "numbering": "7."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609786777",
+      "Selected poems."
+    ]
+  }
+}

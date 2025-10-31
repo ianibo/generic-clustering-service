@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00028167056",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028167056",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028167056",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0370005651"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780370005652"
+    },
+    {
+      "type": "ISBN",
+      "value": "037000566X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780370005669"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7428864"
+    },
+    {
+      "type": "Local",
+      "value": "9911257831002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Short stories,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fitzgerald, F. Scott",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cowley, Malcolm,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Bodley Head"
+    ],
+    "date": "[1963]",
+    "year": 1963,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "2 volumes",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Ireland",
+      "type": "topical"
+    },
+    {
+      "value": "Ireland.",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "His The Bodley Head Scott Fitzgerald,",
+      "numbering": "5-6"
+    }
+  ]
+}

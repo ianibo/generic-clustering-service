@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00029143494",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029143494",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029143494",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 40027330 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5156502"
+    },
+    {
+      "type": "Local",
+      "value": "9910005630702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected poems of A.E. Housman.",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Housman, A. E.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Henry Holt and Company,",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Henry Holt and Co.,"
+    ],
+    "date": "1940.",
+    "year": 1940,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "264 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bookplates (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654467199",
+      "Collected poems of A.E. Housman."
+    ]
+  }
+}

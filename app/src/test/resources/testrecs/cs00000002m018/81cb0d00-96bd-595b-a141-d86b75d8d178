@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:gsuin00004518528",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004518528",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004518528",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:33Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:33Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "089845395X"
+    },
+    {
+      "type": "Other",
+      "value": "2363500395"
+    },
+    {
+      "type": "Local",
+      "value": "ocm17632309"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)649273-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)996492733402952"
+    },
+    {
+      "type": "Local",
+      "value": "996492733402952"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "A 2086"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Wuthering Heights",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Anderson, Judith,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bloom, Claire,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Gould, Gordon,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mason, James,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rose, George,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "Caedmon,"
+    ],
+    "date": "p1985.",
+    "year": 1985,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "2 sound cassettes (104 min.) :",
+    "illustrations": "analog, stereo, Dolby processed"
+  },
+  "subjects": [
+    {
+      "value": "Brontë, Emily,",
+      "type": "topical"
+    }
+  ]
+}

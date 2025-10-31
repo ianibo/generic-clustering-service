@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00028288934",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028288934",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028288934",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0809830329"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780809830329"
+    },
+    {
+      "type": "LCCN",
+      "value": " 60016125 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1167988"
+    },
+    {
+      "type": "Local",
+      "value": "9910130882902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad of Homer.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Picard, Barbara Leonie.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kiddell-Monroe, Joan,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "H.Z. Walck"
+    ],
+    "date": "[1960]",
+    "year": 1960,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "vii, 208 pages",
+    "illustrations": "illustrations (some color)",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Achilles",
+      "type": "topical"
+    },
+    {
+      "value": "Achilles (Greek mythology)",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War",
+      "type": "topical"
+    }
+  ]
+}

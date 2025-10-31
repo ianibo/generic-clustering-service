@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00027657298",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027657298",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027657298",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0710049161"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780710049162"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)895652"
+    },
+    {
+      "type": "Local",
+      "value": "9910544392802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cotton, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Routledge"
+    ],
+    "date": "[1958]",
+    "year": 1958,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "286 pages",
+    "illustrations": "portrait",
+    "dimensions": "17 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Latin poetry, Medieval and modern.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Muses' library"
+    },
+    {
+      "title": "Muses' library."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)570071667",
+      "Poems."
+    ]
+  }
+}

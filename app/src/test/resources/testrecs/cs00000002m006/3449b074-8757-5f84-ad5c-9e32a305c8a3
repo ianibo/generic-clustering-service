@@ -1,0 +1,183 @@
+{
+  "id": "marc:001:in00028047292",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028047292",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028047292",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0679600841"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679600848"
+    },
+    {
+      "type": "ISBN",
+      "value": "0451523261"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780451523266"
+    },
+    {
+      "type": "ISBN",
+      "value": "0192833987"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192833983"
+    },
+    {
+      "type": "ISBN",
+      "value": "0143039997"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780143039990"
+    },
+    {
+      "type": "LCCN",
+      "value": " 42036201 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)321109"
+    },
+    {
+      "type": "Local",
+      "value": "9910014872902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "War and peace /",
+      "type": "main"
+    },
+    {
+      "value": "Voĭna i mir.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Maude, Louise,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Maude, Aylmer,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Rouben Mamoulian Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Simon and Schuster,"
+    ],
+    "date": "1942.",
+    "year": 1942,
+    "countryCode": "ab "
+  },
+  "physical": {
+    "extent": "lxii, 1370 pages :",
+    "illustrations": "illustrations, maps ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1825",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Military campaigns.",
+      "type": "topical"
+    },
+    {
+      "value": "Napoleonic Wars, 1800-1815",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Russia.",
+      "type": "topical"
+    },
+    {
+      "value": "War fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "War stories.",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The inner sanctum ed."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)569612691",
+      "War and peace."
+    ]
+  }
+}

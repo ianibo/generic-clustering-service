@@ -1,0 +1,164 @@
+{
+  "id": "marc:001:in00026493850",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026493850",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026493850",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780852295311"
+    },
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)23136749"
+    },
+    {
+      "type": "Local",
+      "value": "9911809611602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gulliver's travels /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Gay, Peter,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Barzun, Jacques,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Voltaire,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Diderot, Denis,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "Second edition."
+  },
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica, Inc.,"
+    ],
+    "date": "[1990]",
+    "year": 1990,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "xxi, 303 pages :",
+    "illustrations": "maps ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "English fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "French fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Gulliver, Lemuel",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Travelers",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "34"
+    },
+    {
+      "title": "Great books of the Western world (1990) ;",
+      "numbering": "34."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894784334",
+      "Gulliver's travels."
+    ]
+  }
+}

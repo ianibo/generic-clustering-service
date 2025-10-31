@@ -1,0 +1,120 @@
+{
+  "id": "marc:001:in00029371052",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029371052",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029371052",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 63023753 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1969512"
+    },
+    {
+      "type": "Local",
+      "value": "9911698026002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crime and punishment /",
+      "type": "main"
+    },
+    {
+      "value": "Prestuplenie i nakazanie.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Scammell, Michael,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Washington Square Press,"
+    ],
+    "date": "[1963]",
+    "year": 1963,
+    "countryCode": "ac "
+  },
+  "physical": {
+    "extent": "xviii, 574 pages :",
+    "illustrations": "illustrations, portrait ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Detective and mystery fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Detective and mystery stories",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Guilt",
+      "type": "topical"
+    },
+    {
+      "value": "Murder",
+      "type": "topical"
+    },
+    {
+      "value": "Pawnbrokers",
+      "type": "topical"
+    },
+    {
+      "value": "Poverty",
+      "type": "topical"
+    },
+    {
+      "value": "Saint Petersburg (Russia)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1378567965",
+      "Crime and punishment"
+    ]
+  }
+}

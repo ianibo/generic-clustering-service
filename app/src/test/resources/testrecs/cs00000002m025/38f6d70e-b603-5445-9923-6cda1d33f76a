@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00025892568",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025892568",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025892568",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0937406244"
+    },
+    {
+      "type": "ISBN",
+      "value": "0937406252 :"
+    },
+    {
+      "type": "ISBN",
+      "value": "0937406260"
+    },
+    {
+      "type": "LCCN",
+      "value": " 83014867"
+    },
+    {
+      "type": "Local",
+      "value": "ocm09757107"
+    },
+    {
+      "type": "Local",
+      "value": "(GUA)824910"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)824910-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910163831902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poetry & prose /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aichinger, Ilse.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Chappel, Allen H.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "ger"
+  ],
+  "publication": {
+    "place": [
+      "Durango, Colo. :"
+    ],
+    "publisher": [
+      "Logbridge-Rhodes,"
+    ],
+    "date": "c1983.",
+    "year": 1983,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "141 p. ;",
+    "dimensions": "23 cm"
+  }
+}

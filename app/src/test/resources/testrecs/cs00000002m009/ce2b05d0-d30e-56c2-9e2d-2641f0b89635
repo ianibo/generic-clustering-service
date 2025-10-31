@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00030090118",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030090118",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030090118",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 52013059 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)291547"
+    },
+    {
+      "type": "Local",
+      "value": "9910771301502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poetry and prose.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Arnold, Matthew,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Rinehart"
+    ],
+    "date": "[1953]",
+    "year": 1953,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "353 pages",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "English prose literature",
+      "type": "topical"
+    },
+    {
+      "value": "English prose literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Mulhauser, Frederick L.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Rinehart editions ;",
+      "numbering": "62"
+    },
+    {
+      "title": "Rinehart editions ;",
+      "numbering": "62."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "marc:001:in00028416411",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028416411",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028416411",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0460011294"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460011297"
+    },
+    {
+      "type": "ISBN",
+      "value": "0460001299"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460001298"
+    },
+    {
+      "type": "ISBN",
+      "value": "0460111299"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460111294"
+    },
+    {
+      "type": "ISBN",
+      "value": "0460870998"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460870993"
+    },
+    {
+      "type": "LCCN",
+      "value": "a 10000052 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)687092"
+    },
+    {
+      "type": "Local",
+      "value": "9910086709202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The bride of Lammermoor /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Parker, W. M.",
+      "role": "writer of preface.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "New York,"
+    ],
+    "publisher": [
+      "E.P. Dutton,",
+      "J.M. Dent ;"
+    ],
+    "date": "1906.",
+    "year": 1906,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "x, 342 pages ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1689-1745",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Man-woman relationships",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    },
+    {
+      "value": "Scottish fiction",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's Library ;",
+      "numbering": "v. 129"
+    },
+    {
+      "title": "Everyman's library ;",
+      "numbering": "v. 129."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)784126090",
+      "Bride of Lammermoor."
+    ]
+  }
+}

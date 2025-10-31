@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00028797054",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028797054",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028797054",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)12292285"
+    },
+    {
+      "type": "Local",
+      "value": "9910212901802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Walter, William Bicker,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "[publisher not identified],"
+    ],
+    "date": "1821",
+    "year": 1821,
+    "countryCode": " a "
+  },
+  "physical": {
+    "extent": "iv. 71 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Thorndike pamphlets ;",
+      "numbering": "v. 2, no. 3"
+    },
+    {
+      "title": "Thorndike pamphlets ;",
+      "numbering": "v. 2, no. 3."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 31021590"
+    ]
+  }
+}

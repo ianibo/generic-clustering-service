@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00027380506",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027380506",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027380506",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0670749931"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780670749935"
+    },
+    {
+      "type": "ISBN",
+      "value": "0856353396"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780856353390"
+    },
+    {
+      "type": "LCCN",
+      "value": " 82050704 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8811962"
+    },
+    {
+      "type": "Local",
+      "value": "9910150236802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Warner, Sylvia Townsend,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Harman, Claire,",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Manchester [Greater Manchester] :",
+      "New York :"
+    ],
+    "publisher": [
+      "Carcanet New Press ;",
+      "Viking Press,"
+    ],
+    "date": "1983.",
+    "year": 1983,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxv, 290 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

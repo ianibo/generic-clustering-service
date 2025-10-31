@@ -1,0 +1,145 @@
+{
+  "id": "marc:001:in00029568149",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029568149",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029568149",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781101912379"
+    },
+    {
+      "type": "ISBN",
+      "value": "1101912375"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781408839973"
+    },
+    {
+      "type": "ISBN",
+      "value": "1408839970"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781408839980"
+    },
+    {
+      "type": "ISBN",
+      "value": "1408839989"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781101946336"
+    },
+    {
+      "type": "ISBN",
+      "value": "1101946334"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)951948048"
+    },
+    {
+      "type": "Local",
+      "value": "9923797395002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The silk roads : a new history of the world /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Frankopan, Peter,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First Vintage books edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Vintage Books,"
+    ],
+    "date": "2017.",
+    "year": 2017,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xix, 647 pages, 16 unnumbered pages of plates :",
+    "illustrations": "illustrations (some color), maps ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Acculturation",
+      "type": "topical"
+    },
+    {
+      "value": "Asia",
+      "type": "topical"
+    },
+    {
+      "value": "Culture conflict",
+      "type": "topical"
+    },
+    {
+      "value": "East and West",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Imperialism",
+      "type": "topical"
+    },
+    {
+      "value": "Silk Road",
+      "type": "topical"
+    },
+    {
+      "value": "Trade routes",
+      "type": "topical"
+    },
+    {
+      "value": "World history",
+      "type": "topical"
+    },
+    {
+      "value": "World history.",
+      "type": "topical"
+    }
+  ]
+}

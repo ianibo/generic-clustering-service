@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00028984672",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028984672",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028984672",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 66051408 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)313317"
+    },
+    {
+      "type": "Local",
+      "value": "9911684412802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Riba, Carles,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Gili, Joan,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "cat",
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Oxford :"
+    ],
+    "publisher": [
+      "Dolphin Book Co.,"
+    ],
+    "date": "1964.",
+    "year": 1964,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "71 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Catalan poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Catalan poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)583581981",
+      "Poems."
+    ]
+  }
+}

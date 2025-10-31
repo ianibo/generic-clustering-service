@@ -1,0 +1,135 @@
+{
+  "id": "marc:001:in00026130729",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026130729",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026130729",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:33Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:33Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "m 59002003 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)554680"
+    },
+    {
+      "type": "Local",
+      "value": "9910346443002931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "CMM 161"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Carver, Robert,",
+      "role": "composer.",
+      "kind": "person"
+    },
+    {
+      "name": "Stevens, Denis,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Carver, Robert,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Carver, Robert,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "lat"
+  ],
+  "publication": {
+    "place": [
+      "[Place of publication not identified] :"
+    ],
+    "publisher": [
+      "American Institute of Musicology,"
+    ],
+    "date": "1959.",
+    "year": 1959,
+    "countryCode": "mol"
+  },
+  "physical": {
+    "extent": "1 score (vi, 30 pages) ;",
+    "dimensions": "36 cm.",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Choruses, Sacred (Mixed voices), Unaccompanied",
+      "type": "topical"
+    },
+    {
+      "value": "Choruses, Sacred (Mixed voices), Unaccompanied.",
+      "type": "topical"
+    },
+    {
+      "value": "Motets",
+      "type": "topical"
+    },
+    {
+      "value": "Motets.",
+      "type": "topical"
+    },
+    {
+      "value": "Scores",
+      "type": "topical"
+    },
+    {
+      "value": "Scores.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Corpus mensurabilis musicae ;",
+      "numbering": "16"
+    },
+    {
+      "title": "Corpus mensurabilis musicae ;",
+      "numbering": "16."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)681684666",
+      "Collected works."
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "id": "marc:001:in00029774449",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029774449",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029774449",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0252028821"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780252028823"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780252075902"
+    },
+    {
+      "type": "ISBN",
+      "value": "0252075900"
+    },
+    {
+      "type": "Other",
+      "value": "9780252028823"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2003005691"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)51867960"
+    },
+    {
+      "type": "Local",
+      "value": "9910358081602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "McKay, Claude,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Maxwell, William J.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "University of Illinois Press,"
+    ],
+    "date": "2004.",
+    "year": 2004,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "xliv, 405 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Black people",
+      "type": "topical"
+    },
+    {
+      "value": "Black people.",
+      "type": "topical"
+    },
+    {
+      "value": "Harlem (New York, N.Y.)",
+      "type": "topical"
+    },
+    {
+      "value": "Jamaica",
+      "type": "topical"
+    },
+    {
+      "value": "Jamaica.",
+      "type": "topical"
+    },
+    {
+      "value": "Jamaican Americans",
+      "type": "topical"
+    },
+    {
+      "value": "Jamaican Americans.",
+      "type": "topical"
+    },
+    {
+      "value": "Jamaican poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "New York (State)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American poetry recovery series"
+    },
+    {
+      "title": "American poetry recovery series."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "marc:001:in00027454174",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027454174",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027454174",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0807842486"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780807842485"
+    },
+    {
+      "type": "LCCN",
+      "value": " 88040555 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)18871387"
+    },
+    {
+      "type": "Local",
+      "value": "9911073964802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Edward Taylor /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Taylor, Edward,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Stanford, Donald E.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chapel Hill :"
+    ],
+    "publisher": [
+      "University of North Carolina,"
+    ],
+    "date": "©1989.",
+    "year": 1989,
+    "countryCode": "ncu"
+  },
+  "physical": {
+    "extent": "xli, 369 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Devotional poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Devotional poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    }
+  ]
+}

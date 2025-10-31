@@ -1,0 +1,104 @@
+{
+  "id": "marc:001:in00029444119",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029444119",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029444119",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "014042220X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140422207"
+    },
+    {
+      "type": "LCCN",
+      "value": " 64011226 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7910593"
+    },
+    {
+      "type": "Local",
+      "value": "9910074830202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems of D.H. Lawrence /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lawrence, D. H.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pinto, Vivian de Sola,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Roberts, Warren,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Harmondsworth, Middlesex ;",
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1977, ©1971.",
+    "year": 1977,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "1079 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Penguin poets"
+    },
+    {
+      "title": "Penguin poets."
+    }
+  ]
+}

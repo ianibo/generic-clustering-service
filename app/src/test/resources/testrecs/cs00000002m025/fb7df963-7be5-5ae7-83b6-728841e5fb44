@@ -1,0 +1,86 @@
+{
+  "id": "marc:001:in00028285766",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028285766",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028285766",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)12786746"
+    },
+    {
+      "type": "Local",
+      "value": "9910277266602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The prince /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Balzac, Jean-Louis Guez de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "H. G.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Printed for M. Meighen and G. Bedell, and are to be sold at their shop ...,"
+    ],
+    "date": "1648.",
+    "year": 1648,
+    "countryCode": " a "
+  },
+  "physical": {
+    "extent": "[80], 326 [i.e. 322], [2] pages",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Kings and rulers",
+      "type": "topical"
+    },
+    {
+      "value": "Louis",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Early English books, 1641-1700 ;",
+      "numbering": "1518:7."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00026593896",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026593896",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026593896",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "3518029665"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783518029664"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87023435 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)16647867"
+    },
+    {
+      "type": "Local",
+      "value": "9910280157502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The sorrows of young Werther ; Elective affinities ; Novella /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wellbery, David E.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York, NY :"
+    ],
+    "publisher": [
+      "Suhrkamp Publishers,"
+    ],
+    "date": "©1988.",
+    "year": 1988,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "296 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Confessional fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Goethe, Johann Wolfgang von,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Goethe's collected works ;",
+      "numbering": "v. 11"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "marc:001:in00030475844",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030475844",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030475844",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)13805086"
+    },
+    {
+      "type": "Local",
+      "value": "9910134820302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Eaglestone.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Albany :"
+    ],
+    "publisher": [
+      "J. Munsell,"
+    ],
+    "date": "1857.",
+    "year": 1857,
+    "countryCode": " a "
+  },
+  "physical": {
+    "extent": "100 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 28007906"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:gsouin00002296934",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsouin00002296934",
+    "sourceRecordUri": "https://catalog.example.org/record/gsouin00002296934",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)21100841"
+    },
+    {
+      "type": "Local",
+      "value": "(GSaAAS)53688-armstrongdb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GASOUTH)9916095198202950"
+    },
+    {
+      "type": "Local",
+      "value": "9916095198202950"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Wuthering Heights,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fulcher, Paul Milton.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "The Macmillan company,"
+    ],
+    "date": "1957.",
+    "year": 1957,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxxii p., 1 l., 348 p.",
+    "dimensions": "19 cm."
+  },
+  "series": [
+    {
+      "title": "The modern readers' series"
+    }
+  ]
+}

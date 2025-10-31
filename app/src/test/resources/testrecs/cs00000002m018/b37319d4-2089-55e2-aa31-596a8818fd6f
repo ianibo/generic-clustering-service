@@ -1,0 +1,123 @@
+{
+  "id": "marc:001:in00027969783",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027969783",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027969783",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780061244186"
+    },
+    {
+      "type": "ISBN",
+      "value": "006124418X"
+    },
+    {
+      "type": "LCCN",
+      "value": " 66020740 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)489669888"
+    },
+    {
+      "type": "Local",
+      "value": "9910604560902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The odyssey of Homer /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Lattimore, Richmond,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "First Harper Perennial Modern Classics edition."
+  },
+  "publication": {
+    "place": [
+      "New York, NY :"
+    ],
+    "publisher": [
+      "Harper Perennial Modern Classics,"
+    ],
+    "date": "2007.",
+    "year": 2007,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "x, 374, 16 pages :",
+    "illustrations": "illustrations, facsimiles ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1252627544",
+      "Odyssey of Homer."
+    ]
+  }
+}

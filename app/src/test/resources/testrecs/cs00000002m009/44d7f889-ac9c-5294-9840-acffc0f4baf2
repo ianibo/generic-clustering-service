@@ -1,0 +1,81 @@
+{
+  "id": "marc:001:in00027737396",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027737396",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027737396",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0899664512"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780899664514"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)15029570"
+    },
+    {
+      "type": "Local",
+      "value": "9910643825302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected poems of A.E. Housman.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Housman, A. E.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cutchogue, N.Y. :"
+    ],
+    "publisher": [
+      "Buccaneer,"
+    ],
+    "date": "©1986.",
+    "year": 1986,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "254 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ]
+}

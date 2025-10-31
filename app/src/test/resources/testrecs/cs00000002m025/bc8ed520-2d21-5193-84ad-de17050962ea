@@ -1,0 +1,140 @@
+{
+  "id": "marc:001:in00026392725",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026392725",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026392725",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0472095951"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780472095957"
+    },
+    {
+      "type": "ISBN",
+      "value": "0472065955"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780472065950"
+    },
+    {
+      "type": "LCCN",
+      "value": " 94024222 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)31295067"
+    },
+    {
+      "type": "Local",
+      "value": "9910380172002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Aeneid /",
+      "type": "main"
+    },
+    {
+      "value": "Aeneis.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Virgil.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "McCrorie, Edward.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Ann Arbor :"
+    ],
+    "publisher": [
+      "University of Michigan Press,"
+    ],
+    "date": "©1995.",
+    "year": 1995,
+    "countryCode": "b 0"
+  },
+  "physical": {
+    "extent": "xvi, 290 pages :",
+    "illustrations": "map ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Aeneas",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Latin.",
+      "type": "topical"
+    },
+    {
+      "value": "Legends",
+      "type": "topical"
+    },
+    {
+      "value": "Legends.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)604318117",
+      "Aeneid."
+    ]
+  }
+}

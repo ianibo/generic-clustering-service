@@ -1,0 +1,89 @@
+{
+  "id": "marc:001:in00026589279",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026589279",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026589279",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1842331213"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781842331217"
+    },
+    {
+      "type": "Other",
+      "value": "100434042"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)154233765"
+    },
+    {
+      "type": "Local",
+      "value": "9910616789302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bloomfield, Robert,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Goodridge, John.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lucas, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Nottingham :"
+    ],
+    "publisher": [
+      "Trent Eds.,"
+    ],
+    "date": "2007.",
+    "year": 2007,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "vii, 195 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

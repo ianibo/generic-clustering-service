@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00026847325",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026847325",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026847325",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:54Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:54Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 50000063 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)946506096"
+    },
+    {
+      "type": "Local",
+      "value": "9914951448802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected poems of Christopher Smart /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Smart, Christopher,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Callan, N. R.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Routledge and Kegan Paul,"
+    ],
+    "date": "1949.",
+    "year": 1949,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "portrait ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Smart, Christopher,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Muses' library"
+    }
+  ]
+}

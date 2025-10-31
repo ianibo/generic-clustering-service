@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00029206818",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029206818",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029206818",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "081952140X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780819521408"
+    },
+    {
+      "type": "ISBN",
+      "value": "0819511412"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780819511416"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87013681 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)16005527"
+    },
+    {
+      "type": "Local",
+      "value": "9910329869102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New and selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Orr, Gregory,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "Middletown, Conn. :"
+    ],
+    "publisher": [
+      "Wesleyan University Press,"
+    ],
+    "date": "©1988.",
+    "year": 1988,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "x, 92 pages ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Wesleyan poetry"
+    },
+    {
+      "title": "Wesleyan poetry."
+    }
+  ]
+}

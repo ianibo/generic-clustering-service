@@ -1,0 +1,64 @@
+{
+  "id": "marc:001:in00026883844",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026883844",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026883844",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)5540940"
+    },
+    {
+      "type": "Local",
+      "value": "9910282817902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The works of J.S. ...",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Dublin,"
+    ],
+    "publisher": [
+      "G. Faulkner,"
+    ],
+    "date": "1735.",
+    "year": 1735,
+    "countryCode": "cf "
+  },
+  "physical": {
+    "extent": "4 volumes",
+    "illustrations": "frontispieces (portraits volumes 1, 3)",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

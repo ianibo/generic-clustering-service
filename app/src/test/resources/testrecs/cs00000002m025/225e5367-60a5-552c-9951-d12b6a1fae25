@@ -1,0 +1,142 @@
+{
+  "id": "marc:001:in00026446463",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026446463",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026446463",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0460001736"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780460001731"
+    },
+    {
+      "type": "LCCN",
+      "value": "a 10000498 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1465943"
+    },
+    {
+      "type": "Local",
+      "value": "9910488702702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The old curiosity shop /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Chesterton, G. K.",
+      "role": "writer of introduction.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "J.M. Dent & Sons Ltd.,"
+    ],
+    "date": "1907.",
+    "year": 1907,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xvi, 541 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Gambling",
+      "type": "topical"
+    },
+    {
+      "value": "Gambling.",
+      "type": "topical"
+    },
+    {
+      "value": "Grandparent and child",
+      "type": "topical"
+    },
+    {
+      "value": "Grandparent and child.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Social conditions.",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no. 173"
+    },
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no. 173."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)952227764",
+      "Old curiosity shop."
+    ]
+  }
+}

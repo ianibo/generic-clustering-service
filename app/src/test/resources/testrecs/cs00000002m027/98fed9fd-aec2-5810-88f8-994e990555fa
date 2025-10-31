@@ -1,0 +1,87 @@
+{
+  "id": "marc:001:ungin00000553303",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ungin00000553303",
+    "sourceRecordUri": "https://catalog.example.org/record/ungin00000553303",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)21284666"
+    },
+    {
+      "type": "Local",
+      "value": "(GDahN)410103-northgadb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_UNG)994101033702960"
+    },
+    {
+      "type": "Local",
+      "value": "994101033702960"
+    }
+  ],
+  "titles": [
+    {
+      "value": "War and peace",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Fuller, Edmund,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York]"
+    ],
+    "publisher": [
+      "Scholastic Book Services,"
+    ],
+    "date": "c1963.",
+    "year": 1963,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "512 p.",
+    "dimensions": "17 cm"
+  },
+  "subjects": [
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Napoleonic Wars, 1800-1815",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00030199319",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030199319",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030199319",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 67014958 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)846857"
+    },
+    {
+      "type": "Local",
+      "value": "9910596938002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "George, Stefan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Valhope, Carol North,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Morwitz, Ernst,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "ger"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Schocken Books"
+    ],
+    "date": "[1967, ©1943]",
+    "year": 1967,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "253 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "German poetry",
+      "type": "topical"
+    },
+    {
+      "value": "German poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)891686656",
+      "Poems."
+    ]
+  }
+}

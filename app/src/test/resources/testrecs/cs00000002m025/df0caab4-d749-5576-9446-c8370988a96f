@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00029162027",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029162027",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029162027",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)12007343"
+    },
+    {
+      "type": "Local",
+      "value": "9910491858202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Everett, Alexander Hill,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "J. Munroe & Co.,"
+    ],
+    "date": "1845.",
+    "year": 1845,
+    "countryCode": " a "
+  },
+  "physical": {
+    "extent": "2 preliminary leaves, [9]-105 pages ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American poetry, 1609-1900.",
+      "numbering": "no. 780."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 25000046"
+    ]
+  }
+}

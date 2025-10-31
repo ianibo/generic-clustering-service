@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:in00028552438",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028552438",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028552438",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0932576095"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780932576095"
+    },
+    {
+      "type": "ISBN",
+      "value": "093257601X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780932576019"
+    },
+    {
+      "type": "ISBN",
+      "value": "0932576028"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780932576026"
+    },
+    {
+      "type": "LCCN",
+      "value": " 79054693 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5958721"
+    },
+    {
+      "type": "Local",
+      "value": "9910154244202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Barnard, Mary,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Stafford, William,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Portland, Or. :"
+    ],
+    "publisher": [
+      "Breitenbush Publications,"
+    ],
+    "date": "©1979 (1981 printing)",
+    "year": 1979,
+    "countryCode": "oru"
+  },
+  "physical": {
+    "extent": "8 preliminary leaves, 101 pages, 1 unnumbered leaf ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry, American",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)761204145",
+      "Collected poems."
+    ]
+  }
+}

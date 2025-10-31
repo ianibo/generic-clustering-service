@@ -1,0 +1,120 @@
+{
+  "id": "marc:001:in00028241583",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028241583",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028241583",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780374220884"
+    },
+    {
+      "type": "ISBN",
+      "value": "0374220883"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780374535414"
+    },
+    {
+      "type": "ISBN",
+      "value": "0374535418"
+    },
+    {
+      "type": "Other",
+      "value": "99967077078"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2013044344"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)858896837"
+    },
+    {
+      "type": "Local",
+      "value": "9910206035102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Murray, Les A.,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First American edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Farrar, Straus and Giroux,"
+    ],
+    "date": "2014.",
+    "year": 2014,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xiv, 310 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "2000-2099",
+      "type": "topical"
+    },
+    {
+      "value": "Australian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Australian poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

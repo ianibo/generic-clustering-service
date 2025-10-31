@@ -1,0 +1,137 @@
+{
+  "id": "marc:001:in00026361978",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026361978",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026361978",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0582484464"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780582484467"
+    },
+    {
+      "type": "ISBN",
+      "value": "039304372X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780393043723"
+    },
+    {
+      "type": "ISBN",
+      "value": "058248457X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780582484573"
+    },
+    {
+      "type": "LCCN",
+      "value": " 70547023 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)130213"
+    },
+    {
+      "type": "Local",
+      "value": "9910160837402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of John Keats;",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Keats, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Allott, Miriam Farris,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Harlow,"
+    ],
+    "publisher": [
+      "Longman,"
+    ],
+    "date": "1970.",
+    "year": 1970,
+    "countryCode": "cfh"
+  },
+  "physical": {
+    "extent": "xxvii, 772 pages, 5 plates",
+    "illustrations": "facsimiles, portraits",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Longman annotated English poets"
+    },
+    {
+      "title": "Longman annotated English poets."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)565839895",
+      "Poems of John Keats."
+    ]
+  }
+}

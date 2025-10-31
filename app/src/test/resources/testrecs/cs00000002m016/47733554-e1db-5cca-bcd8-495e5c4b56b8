@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:in00026333922",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026333922",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026333922",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300008481"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300008487"
+    },
+    {
+      "type": "LCCN",
+      "value": " 57006875 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)393136"
+    },
+    {
+      "type": "Local",
+      "value": "9910234866502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Freedom of the will /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "©1957.",
+    "year": 1957,
+    "countryCode": "ctu"
+  },
+  "physical": {
+    "extent": "xii, 494 pages :",
+    "illustrations": "portrait, facsimile ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Free will and determinism",
+      "type": "topical"
+    },
+    {
+      "value": "Free will and determinism.",
+      "type": "topical"
+    },
+    {
+      "value": "Kames, Henry Home,",
+      "type": "topical"
+    },
+    {
+      "value": "Personal Autonomy",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Works of Jonathan Edwards ;",
+      "numbering": "v. 1"
+    },
+    {
+      "title": "Works of Jonathan Edwards ;",
+      "numbering": "v. 1."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1038518496",
+      "Freedom of the will."
+    ]
+  }
+}

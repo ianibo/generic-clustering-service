@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:mgsuin00000265889",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "mgsuin00000265889",
+    "sourceRecordUri": "https://catalog.example.org/record/mgsuin00000265889",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1591940346"
+    },
+    {
+      "type": "Local",
+      "value": "(Voyager)215880-middlegadb-Voyager"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_MGA)992158804602955"
+    },
+    {
+      "type": "Local",
+      "value": "992158804602955"
+    }
+  ],
+  "titles": [
+    {
+      "value": "A tale of two cities /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "West Berlin, NJ. :"
+    ],
+    "publisher": [
+      "Townsend Press,"
+    ],
+    "date": "2004.",
+    "year": 2004,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "362 p. ;",
+    "dimensions": "18 cm."
+  },
+  "subjects": [
+    {
+      "value": "Executions and executioners",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "French fiction",
+      "type": "topical"
+    },
+    {
+      "value": "London (England)",
+      "type": "topical"
+    },
+    {
+      "value": "Lookalikes",
+      "type": "topical"
+    },
+    {
+      "value": "Paris (France)",
+      "type": "topical"
+    }
+  ]
+}

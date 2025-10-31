@@ -1,0 +1,179 @@
+{
+  "id": "marc:001:in00028838533",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028838533",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028838533",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781101947333"
+    },
+    {
+      "type": "ISBN",
+      "value": "1101947330"
+    },
+    {
+      "type": "ISBN",
+      "value": "1524712086"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781524712082"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2020055683"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1227836357"
+    },
+    {
+      "type": "Local",
+      "value": "9922633282102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "All in : an autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "King, Billie Jean,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Howard, Johnette,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Vollers, Maryanne,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Alfred A. Knopf,"
+    ],
+    "date": "2021.",
+    "year": 2021,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "481 pages, 32 unnumbered pages of plates :",
+    "illustrations": "illustrations (some color) ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiography",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies (LGBTQ)",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biography",
+      "type": "topical"
+    },
+    {
+      "value": "Biography.",
+      "type": "topical"
+    },
+    {
+      "value": "King, Billie Jean",
+      "type": "topical"
+    },
+    {
+      "value": "King, Billie Jean.",
+      "type": "topical"
+    },
+    {
+      "value": "LGBTQ+ people.",
+      "type": "topical"
+    },
+    {
+      "value": "Lesbian biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Lesbians",
+      "type": "topical"
+    },
+    {
+      "value": "Sexual minorities.",
+      "type": "topical"
+    },
+    {
+      "value": "Tennis",
+      "type": "topical"
+    },
+    {
+      "value": "Tennis players",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "Women tennis players",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 2020055684",
+      "(OCoLC)1227790095",
+      "9781101947340",
+      "All in."
+    ]
+  }
+}

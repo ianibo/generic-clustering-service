@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00026761123",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026761123",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026761123",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1854594605"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781854594600"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)59431150"
+    },
+    {
+      "type": "Local",
+      "value": "9911448794702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An ideal husband /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wilde, Oscar,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Nick Hern,"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "106 pages ;",
+    "dimensions": "16 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Comedies.",
+      "type": "topical"
+    },
+    {
+      "value": "Drama.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "English drama",
+      "type": "topical"
+    },
+    {
+      "value": "English drama.",
+      "type": "topical"
+    },
+    {
+      "value": "London (England)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Drama classics"
+    },
+    {
+      "title": "Drama classics."
+    }
+  ]
+}

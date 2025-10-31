@@ -1,0 +1,144 @@
+{
+  "id": "marc:001:in00029957120",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029957120",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029957120",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0787977284"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780787977283"
+    },
+    {
+      "type": "ISBN",
+      "value": "0000000000000"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780000000002"
+    },
+    {
+      "type": "ISBN",
+      "value": "0000000000"
+    },
+    {
+      "type": "Other",
+      "value": "R9-549424"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2005010921"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)60312531"
+    },
+    {
+      "type": "Local",
+      "value": "9910138013902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Efficiency in learning : evidence-based guidelines to manage cognitive load /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Clark, Ruth Colvin.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Nguyen, Frank,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sweller, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "San Francisco :"
+    ],
+    "publisher": [
+      "Jossey-Bass,"
+    ],
+    "date": "©2006.",
+    "year": 2006,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "390 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm +",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Attention",
+      "type": "topical"
+    },
+    {
+      "value": "Attention.",
+      "type": "topical"
+    },
+    {
+      "value": "Cognitive Science",
+      "type": "topical"
+    },
+    {
+      "value": "Cognitive learning.",
+      "type": "topical"
+    },
+    {
+      "value": "Efficiency",
+      "type": "topical"
+    },
+    {
+      "value": "Learning",
+      "type": "topical"
+    },
+    {
+      "value": "Learning.",
+      "type": "topical"
+    },
+    {
+      "value": "Memory",
+      "type": "topical"
+    },
+    {
+      "value": "Memory.",
+      "type": "topical"
+    },
+    {
+      "value": "Organizational learning.",
+      "type": "topical"
+    }
+  ]
+}

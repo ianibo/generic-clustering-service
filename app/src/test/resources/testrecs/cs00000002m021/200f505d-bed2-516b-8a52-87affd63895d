@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00028910082",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028910082",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028910082",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:27Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:27Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)6743975"
+    },
+    {
+      "type": "Local",
+      "value": "9911093617702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Principia",
+      "type": "alternative"
+    },
+    {
+      "value": "The mathematical principles of natural philosophy /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Newton, Isaac,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Motte, Andrew,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Machin, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Printed for B. Motte,"
+    ],
+    "date": "1729.",
+    "year": 1729,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "illustrations",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "subjects": [
+    {
+      "value": "Celestial mechanics.",
+      "type": "topical"
+    },
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Mechanics.",
+      "type": "topical"
+    },
+    {
+      "value": "Physics",
+      "type": "topical"
+    },
+    {
+      "value": "Physics.",
+      "type": "topical"
+    },
+    {
+      "value": "mechanics (physics)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Library of English literature ;",
+      "numbering": "LEL 21257-58."
+    }
+  ]
+}

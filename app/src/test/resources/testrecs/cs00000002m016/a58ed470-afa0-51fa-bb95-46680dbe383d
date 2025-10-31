@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00029705639",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029705639",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029705639",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 63015185 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)353300"
+    },
+    {
+      "type": "Local",
+      "value": "9910088314002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Works /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tourneur, Cyril,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Nicoll, Allardyce,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Russell & Russell,"
+    ],
+    "date": "1963.",
+    "year": 1963,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "ix, 344 pages",
+    "illustrations": "illustrations",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1600-1699",
+      "type": "topical"
+    },
+    {
+      "value": "English drama",
+      "type": "topical"
+    },
+    {
+      "value": "English drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Nicoll, Allardyce,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)582481238",
+      "Works."
+    ]
+  }
+}

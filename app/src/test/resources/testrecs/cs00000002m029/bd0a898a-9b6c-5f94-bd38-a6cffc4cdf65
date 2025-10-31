@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00025992355",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025992355",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025992355",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0807607878"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780807607879"
+    },
+    {
+      "type": "ISBN",
+      "value": "0892550082"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780892550081"
+    },
+    {
+      "type": "LCCN",
+      "value": " 75007958 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1884858"
+    },
+    {
+      "type": "Local",
+      "value": "9910002245702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Melville /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Miller, Edwin Haviland.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "G. Braziller,"
+    ],
+    "date": "©1975.",
+    "year": 1975,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "382 pages, 4 unnumbered leaves of plates :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biography",
+      "type": "topical"
+    },
+    {
+      "value": "Melville, Herman,",
+      "type": "topical"
+    },
+    {
+      "value": "Novelists, American",
+      "type": "topical"
+    },
+    {
+      "value": "Novelists, American.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Venture book"
+    },
+    {
+      "title": "Venture book."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)551403633",
+      "Melville."
+    ]
+  }
+}

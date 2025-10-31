@@ -1,0 +1,89 @@
+{
+  "id": "marc:001:in00029483001",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029483001",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029483001",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0811202054"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780811202053"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3250632"
+    },
+    {
+      "type": "Local",
+      "value": "9910094025402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected poems of Dylan Thomas /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thomas, Dylan,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "Nineteenth printing, 1957."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "New Directions,"
+    ],
+    "date": "1957.",
+    "year": 1957,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "xviii, 203 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Thomas, Dylan,",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

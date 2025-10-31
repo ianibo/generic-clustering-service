@@ -1,0 +1,150 @@
+{
+  "id": "marc:001:in00026925984",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026925984",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026925984",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0899664067"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780899664064"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)13224044"
+    },
+    {
+      "type": "Local",
+      "value": "9910573166402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Vanity fair : a novel without a hero /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thackeray, William Makepeace,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cutchogue, N.Y. :"
+    ],
+    "publisher": [
+      "Buccaneer Books,"
+    ],
+    "date": "©1985.",
+    "year": 1985,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "543 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1815",
+      "type": "topical"
+    },
+    {
+      "value": "Belgium",
+      "type": "topical"
+    },
+    {
+      "value": "British",
+      "type": "topical"
+    },
+    {
+      "value": "British.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Europe.",
+      "type": "topical"
+    },
+    {
+      "value": "Female friendship",
+      "type": "topical"
+    },
+    {
+      "value": "Female friendship.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Humorous fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    },
+    {
+      "value": "Married women",
+      "type": "topical"
+    },
+    {
+      "value": "Married women.",
+      "type": "topical"
+    },
+    {
+      "value": "Satirical literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Social classes",
+      "type": "topical"
+    },
+    {
+      "value": "Social classes.",
+      "type": "topical"
+    },
+    {
+      "value": "Waterloo, Battle of, Waterloo, Belgium, 1815",
+      "type": "topical"
+    }
+  ]
+}

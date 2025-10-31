@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00026763673",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026763673",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026763673",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0393006948"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780393006940"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)943332"
+    },
+    {
+      "type": "Local",
+      "value": "9910953425502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kavanagh, Patrick,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Norton,"
+    ],
+    "date": "1973, ©1964.",
+    "year": 1973,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xv, 202 pages ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Irish poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Irish poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Norton library ;",
+      "numbering": "N694"
+    },
+    {
+      "title": "Norton library ;",
+      "numbering": "N694."
+    }
+  ]
+}

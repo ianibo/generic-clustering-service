@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:in00026366149",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026366149",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026366149",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0198281846"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198281849"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199269572"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199269570"
+    },
+    {
+      "type": "LCCN",
+      "value": " 76369861 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2715561"
+    },
+    {
+      "type": "Local",
+      "value": "9910268982502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An inquiry into the nature and causes of the wealth of nations /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Smith, Adam,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Campbell, R. H.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Skinner, Andrew S.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford [Oxfordshire] :"
+    ],
+    "publisher": [
+      "Clarendon Press ;",
+      "Oxford University Press,"
+    ],
+    "date": "1976.",
+    "year": 1976,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "2 volumes (viii, 1080 pages) ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Classical school of economics.",
+      "type": "topical"
+    },
+    {
+      "value": "Economics",
+      "type": "topical"
+    },
+    {
+      "value": "Economics.",
+      "type": "topical"
+    },
+    {
+      "value": "economics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Glasgow edition of the works and correspondence of Adam Smith ;",
+      "numbering": "2"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)559897130",
+      "Inquiry into the nature and causes of the wealth of nations."
+    ]
+  }
+}

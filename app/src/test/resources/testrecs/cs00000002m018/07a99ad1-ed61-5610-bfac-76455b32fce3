@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:in00028634533",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028634533",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028634533",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:50Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:50Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780140424430"
+    },
+    {
+      "type": "ISBN",
+      "value": "0140424431"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)166624902"
+    },
+    {
+      "type": "Local",
+      "value": "9910782534102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tennyson, Alfred Tennyson,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ricks, Christopher,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "2007.",
+    "year": 2007,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xli, 384 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)608127421",
+      "(OCoLC)608335167",
+      "Selected poems."
+    ]
+  }
+}

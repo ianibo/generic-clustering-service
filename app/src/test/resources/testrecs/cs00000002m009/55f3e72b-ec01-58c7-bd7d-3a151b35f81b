@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00029047442",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029047442",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029047442",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 48030632 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1259575"
+    },
+    {
+      "type": "Local",
+      "value": "9912075769602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Robinson, Edwin Arlington,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Drinkwater, John,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "C. Palmer,"
+    ],
+    "date": "[1922]",
+    "year": 1922,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxii, 591 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry, Modern",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)953096360",
+      "Collected poems."
+    ]
+  }
+}

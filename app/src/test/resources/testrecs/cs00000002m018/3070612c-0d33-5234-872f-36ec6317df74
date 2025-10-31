@@ -1,0 +1,158 @@
+{
+  "id": "marc:001:in00029280074",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029280074",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029280074",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0393092143"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780393092141"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780393044263"
+    },
+    {
+      "type": "ISBN",
+      "value": "0393044262"
+    },
+    {
+      "type": "LCCN",
+      "value": " 75037792 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2281274"
+    },
+    {
+      "type": "Local",
+      "value": "9910306405702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Brothers Karamazov : the Constance Garnett translation /",
+      "type": "main"
+    },
+    {
+      "value": "Bratʹi︠a︡ Karamazovy.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dostoyevsky, Fyodor,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Garnett, Constance,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Matlaw, Ralph E.,",
+      "role": "translator,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "W. W. Norton & Company,"
+    ],
+    "date": "1976.",
+    "year": 1976,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xviii, 887 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Bratʹi︠a︡ Karamazovy (Dostoyevsky, Fyodor)",
+      "type": "topical"
+    },
+    {
+      "value": "Brothers",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Dostoyevsky, Fyodor,",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and sons",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Russian fiction",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Norton critical edition"
+    },
+    {
+      "title": "Norton critical edition."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00030208335",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030208335",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030208335",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0865972745"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780865972742"
+    },
+    {
+      "type": "ISBN",
+      "value": "0865972788"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780865972780"
+    },
+    {
+      "type": "LCCN",
+      "value": " 00025945 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)43555180"
+    },
+    {
+      "type": "Local",
+      "value": "9911435351602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Crisis of the 17th century",
+      "type": "alternative"
+    },
+    {
+      "value": "The crisis of the seventeenth century : religion, the Reformation, and social change /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Trevor-Roper, H. R.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Indianapolis :"
+    ],
+    "publisher": [
+      "Liberty Fund,"
+    ],
+    "date": "©1999.",
+    "year": 1999,
+    "countryCode": "inu"
+  },
+  "physical": {
+    "extent": "xiv, 415 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1600-1699",
+      "type": "topical"
+    },
+    {
+      "value": "Europe",
+      "type": "topical"
+    },
+    {
+      "value": "Europe.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)895119903",
+      "Crisis of the seventeenth century."
+    ]
+  }
+}

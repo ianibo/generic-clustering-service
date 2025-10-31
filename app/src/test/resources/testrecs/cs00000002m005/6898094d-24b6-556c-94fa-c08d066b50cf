@@ -1,0 +1,90 @@
+{
+  "id": "marc:001:in00026233643",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026233643",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026233643",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 68054231 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)451355"
+    },
+    {
+      "type": "Local",
+      "value": "9910266908102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gill, Eric,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Biblo and Tannen,"
+    ],
+    "date": "1968 [©1941]",
+    "year": 1968,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xv, 300, [33] pages of plates :",
+    "illustrations": "illustrations, portraits ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Artists",
+      "type": "topical"
+    },
+    {
+      "value": "Artists.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Gill, Eric,",
+      "type": "topical"
+    }
+  ]
+}

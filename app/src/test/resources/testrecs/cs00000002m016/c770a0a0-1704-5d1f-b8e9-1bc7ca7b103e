@@ -1,0 +1,162 @@
+{
+  "id": "marc:001:gsouin00002332786",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsouin00002332786",
+    "sourceRecordUri": "https://catalog.example.org/record/gsouin00002332786",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "028941552624"
+    },
+    {
+      "type": "Other",
+      "value": "2894155262"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87753469 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)15719059"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GASOUTH)9916088872902950"
+    },
+    {
+      "type": "Local",
+      "value": "9916088872902950"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "415 526-2"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Cantate del barocco tedesco",
+      "type": "alternative"
+    },
+    {
+      "value": "Cantates du baroque allemand",
+      "type": "alternative"
+    },
+    {
+      "value": "German baroque cantatas",
+      "type": "alternative"
+    },
+    {
+      "value": "Kantaten de deutschen Barock =",
+      "type": "alternative"
+    },
+    {
+      "value": "De profundis.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Zedelius, Maria.",
+      "role": "prf",
+      "kind": "person"
+    },
+    {
+      "name": "Schopper, Michael.",
+      "role": "prf",
+      "kind": "person"
+    },
+    {
+      "name": "Goebel, Reinhard.",
+      "role": "cnd",
+      "kind": "person"
+    },
+    {
+      "name": "Schütz, Heinrich,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Tunder, Franz,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Tunder, Franz,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bruhns, Nicolaus,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Weckmann, Matthias,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Strungk, Nicolaus Adam,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Musica Antiqua Köln.",
+      "role": "prf",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Hamburg, West Germany :"
+    ],
+    "publisher": [
+      "Archiv Produktion,"
+    ],
+    "date": "℗1986.",
+    "year": 1986,
+    "countryCode": "gw "
+  },
+  "physical": {
+    "extent": "1 audio disc ;",
+    "dimensions": "4 3/4 in.",
+    "contentType": "performed music",
+    "mediaType": "audio",
+    "carrierType": "audio disc"
+  },
+  "subjects": [
+    {
+      "value": "Sacred vocal duets with string orchestra",
+      "type": "topical"
+    },
+    {
+      "value": "Sacred vocal duets with string orchestra.",
+      "type": "topical"
+    },
+    {
+      "value": "Solo cantatas, Sacred (High voice)",
+      "type": "topical"
+    },
+    {
+      "value": "Solo cantatas, Sacred (Low voice)",
+      "type": "topical"
+    }
+  ]
+}

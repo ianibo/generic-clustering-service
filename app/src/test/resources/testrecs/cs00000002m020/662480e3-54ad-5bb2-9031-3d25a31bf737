@@ -1,0 +1,135 @@
+{
+  "id": "marc:001:in00026469028",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026469028",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026469028",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:48Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:48Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781598531008"
+    },
+    {
+      "type": "ISBN",
+      "value": "159853100X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781598531008"
+    },
+    {
+      "type": "Other",
+      "value": "9781598531008"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2006045135"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)65400836"
+    },
+    {
+      "type": "Local",
+      "value": "9910386944802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sandburg, Carl,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Berman, Paul,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Library of America,"
+    ],
+    "date": "©2006.",
+    "year": 2006,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "xxxviii, 154 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poems",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "American poets project ;",
+      "numbering": "23"
+    },
+    {
+      "title": "American poets project ;",
+      "numbering": "23."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607832227",
+      "Selected poems."
+    ]
+  }
+}

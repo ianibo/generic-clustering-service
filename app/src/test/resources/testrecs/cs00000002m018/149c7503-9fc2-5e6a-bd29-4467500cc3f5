@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00028840898",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028840898",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028840898",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "058248457X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780582484573"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1939858"
+    },
+    {
+      "type": "Local",
+      "value": "9910731542702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of John Keats;",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Keats, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Allott, Miriam Farris,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[London]",
+      "[New York]"
+    ],
+    "publisher": [
+      "Longman;",
+      "Norton"
+    ],
+    "date": "[1972, ©1970]",
+    "year": 1972,
+    "countryCode": "cfh"
+  },
+  "physical": {
+    "extent": "xxvii, 772 pages, 5 plates",
+    "illustrations": "facsimiles, portraits",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Longman annotated English poets"
+    },
+    {
+      "title": "Longman annotated English poets"
+    },
+    {
+      "title": "Longman annotated English poets."
+    }
+  ]
+}

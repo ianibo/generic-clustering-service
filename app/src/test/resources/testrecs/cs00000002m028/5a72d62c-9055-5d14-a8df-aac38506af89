@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00026200829",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026200829",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026200829",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 73159347 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)175033"
+    },
+    {
+      "type": "Local",
+      "value": "9910451282502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The history of Don Quixote of the Mancha.",
+      "type": "main"
+    },
+    {
+      "value": "Don Quixote.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cervantes Saavedra, Miguel de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Shelton, Thomas,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "AMS Press,"
+    ],
+    "date": "1967.",
+    "year": 1967,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "4 volumes",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Cognition",
+      "type": "topical"
+    },
+    {
+      "value": "Cognition.",
+      "type": "topical"
+    },
+    {
+      "value": "Cognitive neuroscience.",
+      "type": "topical"
+    },
+    {
+      "value": "Neurotransmitter Agents",
+      "type": "topical"
+    },
+    {
+      "value": "Neurotransmitters.",
+      "type": "topical"
+    },
+    {
+      "value": "cognition.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Tudor translations ;",
+      "numbering": "1st ser., v. 13-16."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)610117439",
+      "History of Don Quixote of the Mancha."
+    ]
+  }
+}

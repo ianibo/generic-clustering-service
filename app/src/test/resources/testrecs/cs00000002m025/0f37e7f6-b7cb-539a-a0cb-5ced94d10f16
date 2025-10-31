@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00029972854",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029972854",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029972854",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "D06009014X"
+    },
+    {
+      "type": "LCCN",
+      "value": " 44001454 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3659773"
+    },
+    {
+      "type": "Local",
+      "value": "9910309506302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The tree of life ...",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Massingham, H. J.",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Chapman & Hall Ltd."
+    ],
+    "date": "[1943]",
+    "year": 1943,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "223 pages",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Christian civilization.",
+      "type": "topical"
+    },
+    {
+      "value": "Christianity",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Religious thought",
+      "type": "topical"
+    },
+    {
+      "value": "Religious thought.",
+      "type": "topical"
+    }
+  ]
+}

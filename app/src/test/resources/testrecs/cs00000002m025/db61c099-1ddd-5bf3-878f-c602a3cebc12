@@ -1,0 +1,196 @@
+{
+  "id": "marc:001:in00028854638",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028854638",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028854638",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781595515155"
+    },
+    {
+      "type": "ISBN",
+      "value": "1595515151"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781595515186"
+    },
+    {
+      "type": "ISBN",
+      "value": "1595515186"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783775126533"
+    },
+    {
+      "type": "ISBN",
+      "value": "3775126538"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781595515001"
+    },
+    {
+      "type": "ISBN",
+      "value": "1595515003"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781595515445"
+    },
+    {
+      "type": "ISBN",
+      "value": "1595515445"
+    },
+    {
+      "type": "LCCN",
+      "value": " 98701847 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)38868463"
+    },
+    {
+      "type": "Local",
+      "value": "9910328742402931"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "68.563"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "CMM 106-1"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "CMM 106-2"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "CMM 106,3"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "CMM 106-4"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "CMM 106-5"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Weerbeke, Gaspar van,",
+      "role": "composer.",
+      "kind": "person"
+    },
+    {
+      "name": "Croll, Gerhard,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Fiedler, Eric F.,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Lindmayr-Brandl, Andrea,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Kolb, Paul Lawrence,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Pavanello, Agnese,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "lat"
+  ],
+  "publication": {
+    "place": [
+      "Neuhausen :",
+      "[Middleton, Wis.?] :"
+    ],
+    "publisher": [
+      "American Institute of Musicology ;",
+      "Hänssler-Verlag,"
+    ],
+    "date": "<1998-2018>",
+    "year": 1998,
+    "countryCode": "wiu"
+  },
+  "physical": {
+    "extent": "1 score (volumes <1-5>) :",
+    "illustrations": "illustrations ;",
+    "dimensions": "35 cm.",
+    "contentType": "notated music",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Mary,",
+      "type": "topical"
+    },
+    {
+      "value": "Songs and music.",
+      "type": "topical"
+    },
+    {
+      "value": "Vocal music.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Corpus mensurabilis musicae ;",
+      "numbering": "106"
+    },
+    {
+      "title": "Corpus mensurabilis musicae ;",
+      "numbering": "106."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)648393928",
+      "Collected works."
+    ]
+  }
+}

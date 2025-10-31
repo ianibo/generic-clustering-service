@@ -1,0 +1,79 @@
+{
+  "id": "marc:001:in00026722636",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026722636",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026722636",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0571063845"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780571063840"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)21990626"
+    },
+    {
+      "type": "Local",
+      "value": "9910787649202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stevens, Wallace,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "Reset."
+  },
+  "publication": {
+    "place": [
+      "Boston :",
+      "London ;"
+    ],
+    "publisher": [
+      "Faber and Faber,"
+    ],
+    "date": "1986.",
+    "year": 1986,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "vii, 128 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

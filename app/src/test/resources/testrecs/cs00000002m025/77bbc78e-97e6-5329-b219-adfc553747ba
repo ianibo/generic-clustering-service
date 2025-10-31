@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00030423037",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030423037",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030423037",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140187596"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)64445367"
+    },
+    {
+      "type": "Local",
+      "value": "(GUA)3200507"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)3200507-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910435960802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "T͡Svetaeva, Marina,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Feinstein, Elaine.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Livingstone, Angela.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1994, c1993.",
+    "year": 1994,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xviii, 131 p. ;",
+    "dimensions": "20 cm."
+  },
+  "subjects": [
+    {
+      "value": "Translations into English.",
+      "type": "topical"
+    },
+    {
+      "value": "T͡Svetaeva, Marina,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

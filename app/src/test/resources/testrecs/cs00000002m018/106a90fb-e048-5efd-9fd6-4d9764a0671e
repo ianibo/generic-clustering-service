@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00028443639",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028443639",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028443639",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 04031102 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1336615"
+    },
+    {
+      "type": "Local",
+      "value": "9910193637202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lanier, Sidney,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "Philadelphia ;"
+    ],
+    "publisher": [
+      "J.B. Lippincott,"
+    ],
+    "date": "1877.",
+    "year": 1877,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "94 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Armorial bookplates.",
+      "type": "topical"
+    },
+    {
+      "value": "Bookplates (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)806995547",
+      "Poems."
+    ]
+  }
+}

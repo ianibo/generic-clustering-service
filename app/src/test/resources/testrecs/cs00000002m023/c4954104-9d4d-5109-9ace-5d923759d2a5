@@ -1,0 +1,130 @@
+{
+  "id": "marc:001:in00029043481",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029043481",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029043481",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0064958213"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780064958219"
+    },
+    {
+      "type": "ISBN",
+      "value": "0435150707"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780435150709"
+    },
+    {
+      "type": "ISBN",
+      "value": "0435150693"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780435150693"
+    },
+    {
+      "type": "LCCN",
+      "value": " 77355541 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2696871"
+    },
+    {
+      "type": "Local",
+      "value": "9910762165102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems of Walt Whitman /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Whitman, Walt,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Reeves, James.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Seymour-Smith, Martin.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York :"
+    ],
+    "publisher": [
+      "Barnes & Noble,",
+      "Heinemann Educational ;"
+    ],
+    "date": "1976.",
+    "year": 1976,
+    "countryCode": "cf "
+  },
+  "physical": {
+    "extent": "xxxvii, 146 pages, plate :",
+    "illustrations": "portrait ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Poetry bookshelf"
+    },
+    {
+      "title": "Poetry bookshelf."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00026000132",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026000132",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026000132",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0405046464"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780405046469"
+    },
+    {
+      "type": "LCCN",
+      "value": " 72004976 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)388598"
+    },
+    {
+      "type": "Local",
+      "value": "9910215355902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Henry Timrod.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Timrod, Henry,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Arno Press,"
+    ],
+    "date": "1972 [©1872]",
+    "year": 1972,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "232 pages",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Romantic tradition in American literature"
+    },
+    {
+      "title": "Romantic tradition in American literature."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)761393273",
+      "Poems of Henry Timrod."
+    ]
+  }
+}

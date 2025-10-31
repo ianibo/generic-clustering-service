@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00029520659",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029520659",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029520659",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0452280397"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780452280397"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)41254323"
+    },
+    {
+      "type": "Local",
+      "value": "9911091561102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Paradise /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Morrison, Toni,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st Plume print."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Plume,"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "318 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "African Americans",
+      "type": "topical"
+    },
+    {
+      "value": "African-Americans",
+      "type": "topical"
+    },
+    {
+      "value": "Communal living",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Oklahoma",
+      "type": "topical"
+    },
+    {
+      "value": "Women",
+      "type": "topical"
+    },
+    {
+      "value": "Women.",
+      "type": "topical"
+    },
+    {
+      "value": "Womyn.",
+      "type": "topical"
+    }
+  ]
+}

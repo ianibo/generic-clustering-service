@@ -1,0 +1,106 @@
+{
+  "id": "marc:001:in00028217975",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028217975",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028217975",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0684837862"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780684837864"
+    },
+    {
+      "type": "LCCN",
+      "value": " 96053349 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)36103830"
+    },
+    {
+      "type": "Local",
+      "value": "9911394663302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The short stories /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hemingway, Ernest,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st Scribner Classics ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Scribner Classics,"
+    ],
+    "date": "1997.",
+    "year": 1997,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "457 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories.",
+      "type": "topical"
+    },
+    {
+      "value": "short stories.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607731022",
+      "Short stories."
+    ]
+  }
+}

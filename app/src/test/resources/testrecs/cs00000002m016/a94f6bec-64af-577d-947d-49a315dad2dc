@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00028367157",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028367157",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028367157",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 50026928 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)923975"
+    },
+    {
+      "type": "Local",
+      "value": "9910820562302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Paradise.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brown, Alice,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cairns Collection of American Women Writers.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston,"
+    ],
+    "publisher": [
+      "Houghton, Mifflin and Co,"
+    ],
+    "date": "1905.",
+    "year": 1905,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "5 plates [1]-388 pages, 3 leaves",
+    "dimensions": "18.8 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Domestic fiction, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)701648431",
+      "Paradise."
+    ]
+  }
+}

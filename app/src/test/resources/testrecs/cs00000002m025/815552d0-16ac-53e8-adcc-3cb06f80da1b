@@ -1,0 +1,82 @@
+{
+  "id": "marc:001:in00028203953",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028203953",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028203953",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "nuc87711979 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)18124493"
+    },
+    {
+      "type": "Local",
+      "value": "9910176089702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Russell, Irwin,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Harris, Joel Chandler,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Century Co."
+    ],
+    "date": "[1888]",
+    "year": 1888,
+    "countryCode": " c "
+  },
+  "physical": {
+    "extent": "2 preliminary leaves, vii-xi, 109 pages",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microopaque"
+  },
+  "series": [
+    {
+      "title": "Nineteenth century American literature."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 11018675"
+    ]
+  }
+}

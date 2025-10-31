@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00029881017",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029881017",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029881017",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781852247690"
+    },
+    {
+      "type": "ISBN",
+      "value": "185224769X"
+    },
+    {
+      "type": "Other",
+      "value": "9781852247690"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2008399791"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)227808371"
+    },
+    {
+      "type": "Local",
+      "value": "9910162539902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Merwin, W. S.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Highgreen, Tarset, Northumberland :"
+    ],
+    "publisher": [
+      "Bloodaxe Books,"
+    ],
+    "date": "2007.",
+    "year": 2007,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "191 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    }
+  ]
+}

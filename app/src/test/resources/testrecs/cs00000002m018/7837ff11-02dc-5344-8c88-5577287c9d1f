@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00026401143",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026401143",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026401143",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0674154304"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780674154308"
+    },
+    {
+      "type": "ISBN",
+      "value": "0674154312"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780674154315"
+    },
+    {
+      "type": "LCCN",
+      "value": " 82006091 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8388427"
+    },
+    {
+      "type": "Local",
+      "value": "9910414739502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Keats, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Stillinger, Jack.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, Mass. :"
+    ],
+    "publisher": [
+      "Belknap Press of Harvard University Press,"
+    ],
+    "date": "1982.",
+    "year": 1982,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxx, 493 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)644435236",
+      "Complete poems."
+    ]
+  }
+}

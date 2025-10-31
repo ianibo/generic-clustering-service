@@ -1,0 +1,135 @@
+{
+  "id": "marc:001:in00028786281",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028786281",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028786281",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780806144122"
+    },
+    {
+      "type": "ISBN",
+      "value": "0806144122"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2013027321"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)852488676"
+    },
+    {
+      "type": "Local",
+      "value": "9910460086802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Jordan, Herbert,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Norman :"
+    ],
+    "publisher": [
+      "University of Oklahoma Press,"
+    ],
+    "date": "2014.",
+    "year": 2014,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxv, 406 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "epic literature.",
+      "type": "topical"
+    },
+    {
+      "value": "epic poems.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oklahoma series in classical culture ;",
+      "numbering": "volume 49"
+    },
+    {
+      "title": "Oklahoma series in classical culture ;",
+      "numbering": "v. 49."
+    }
+  ]
+}

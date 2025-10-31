@@ -1,0 +1,150 @@
+{
+  "id": "marc:001:in00028161084",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028161084",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028161084",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:01Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:01Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0195199782"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780195199789"
+    },
+    {
+      "type": "LCCN",
+      "value": " 77002750 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3072628"
+    },
+    {
+      "type": "Local",
+      "value": "9910302409702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gulliver's travels /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Chappell, Warren,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Davis, Herbert,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1977.",
+    "year": 1977,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxxii, 299 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Brobdingnag (Imaginary place)",
+      "type": "topical"
+    },
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Gulliver, Lemuel",
+      "type": "topical"
+    },
+    {
+      "value": "Lilliput (Imaginary place)",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Satire.",
+      "type": "topical"
+    },
+    {
+      "value": "Satirical literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Travelers",
+      "type": "topical"
+    },
+    {
+      "value": "Travelers.",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary.",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)655060717",
+      "Gulliver's travels."
+    ]
+  }
+}

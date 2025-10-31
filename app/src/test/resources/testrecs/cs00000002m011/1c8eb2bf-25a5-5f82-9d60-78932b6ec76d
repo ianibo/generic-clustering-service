@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:in00028968831",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028968831",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028968831",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 96219599 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)17810282"
+    },
+    {
+      "type": "Local",
+      "value": "9924229718002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey of Homer /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pope, Alexander,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Whitman, Walt,",
+      "role": "former owner.",
+      "kind": "person"
+    },
+    {
+      "name": "Charles E. Feinberg Collection of Walt Whitman (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York :"
+    ],
+    "publisher": [
+      "Frederick Warne and Co. ;",
+      "Scribner, Welford, and Armstrong,"
+    ],
+    "date": "[1874]",
+    "year": 1874,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "xxx, 345 pages, 1 unnumbered leaf of plates :",
+    "illustrations": "illustrations ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Chandos classics"
+    },
+    {
+      "title": "Chandos classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647026559",
+      "Odyssey of Homer."
+    ]
+  }
+}

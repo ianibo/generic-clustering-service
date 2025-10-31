@@ -1,0 +1,152 @@
+{
+  "id": "marc:001:in00029055170",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029055170",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029055170",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0141439491"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780141439495"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199536849"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199536848"
+    },
+    {
+      "type": "LCCN",
+      "value": " 45009567 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)545057"
+    },
+    {
+      "type": "Local",
+      "value": "9910005928402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gulliver's travels /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Corbino, Jon,",
+      "role": "illus.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Garden City, N.Y. :"
+    ],
+    "publisher": [
+      "Doubleday, Doran & Co., Inc.,"
+    ],
+    "date": "1945.",
+    "year": 1945,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "4 pages. leaf, v-x, 308, [1] pages, 1 leaf :",
+    "illustrations": "illustrations, color plates ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Action and adventure fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Action and adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Gulliver, Lemuel",
+      "type": "topical"
+    },
+    {
+      "value": "Satire",
+      "type": "topical"
+    },
+    {
+      "value": "Satire.",
+      "type": "topical"
+    },
+    {
+      "value": "Satirical literature",
+      "type": "topical"
+    },
+    {
+      "value": "Satirical literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Travelers",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary",
+      "type": "topical"
+    },
+    {
+      "value": "satire (artistic device)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Doubleday Dorian limited editions"
+    }
+  ]
+}

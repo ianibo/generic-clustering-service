@@ -1,0 +1,83 @@
+{
+  "id": "marc:001:ungin00000557540",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ungin00000557540",
+    "sourceRecordUri": "https://catalog.example.org/record/ungin00000557540",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 99001367"
+    },
+    {
+      "type": "Local",
+      "value": "ocm01823003"
+    },
+    {
+      "type": "Local",
+      "value": "(GND)47235"
+    },
+    {
+      "type": "Local",
+      "value": "(GDahN)328917-northgadb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_UNG)993289173702960"
+    },
+    {
+      "type": "Local",
+      "value": "993289173702960"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The principles of psychology,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Spencer, Herbert,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "D. Appleton and company,"
+    ],
+    "date": "1899.",
+    "year": 1899,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "v.",
+    "illustrations": "diagrs.",
+    "dimensions": "21 cm"
+  },
+  "subjects": [
+    {
+      "value": "Psychology.",
+      "type": "topical"
+    }
+  ]
+}

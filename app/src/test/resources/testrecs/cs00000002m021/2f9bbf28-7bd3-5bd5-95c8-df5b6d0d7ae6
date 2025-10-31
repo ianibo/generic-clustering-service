@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:in00028020526",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028020526",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028020526",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)46622465"
+    },
+    {
+      "type": "Local",
+      "value": "9911099654802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gulliver's travels.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Frederick Warne amd Co.,"
+    ],
+    "date": "©1887.",
+    "year": 1887,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "88 pages :",
+    "illustrations": "color illustrations ;",
+    "dimensions": "27 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Dystopias",
+      "type": "topical"
+    },
+    {
+      "value": "Dystopias.",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary.",
+      "type": "topical"
+    }
+  ]
+}

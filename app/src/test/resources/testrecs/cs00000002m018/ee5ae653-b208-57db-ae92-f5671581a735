@@ -1,0 +1,126 @@
+{
+  "id": "marc:001:in00028204450",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028204450",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028204450",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:48Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:48Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780307267115"
+    },
+    {
+      "type": "ISBN",
+      "value": "0307267113"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781841597775"
+    },
+    {
+      "type": "ISBN",
+      "value": "1841597775"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2008270342"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)153582514"
+    },
+    {
+      "type": "Local",
+      "value": "9910679304202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Kipling poems",
+      "type": "alternative"
+    },
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kipling, Rudyard,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Washington, Peter.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Alfred A. Knopf,"
+    ],
+    "date": "2007.",
+    "year": 2007,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "255 pages ;",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library pocket poets"
+    },
+    {
+      "title": "Everyman's library pocket poets."
+    }
+  ]
+}

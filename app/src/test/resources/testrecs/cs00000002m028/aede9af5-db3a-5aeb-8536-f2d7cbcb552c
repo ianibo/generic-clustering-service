@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00025955304",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025955304",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025955304",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 54023357 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7368990"
+    },
+    {
+      "type": "Local",
+      "value": "9910465610502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Works /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stalin, Joseph,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Moscow :"
+    ],
+    "publisher": [
+      "Foreign Languages Pub. House,"
+    ],
+    "date": "1952-",
+    "year": 1952,
+    "countryCode": "ru "
+  },
+  "physical": {
+    "extent": "volumes :",
+    "illustrations": "mounted portrait ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1917-1936",
+      "type": "topical"
+    },
+    {
+      "value": "Communism",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Soviet Union",
+      "type": "topical"
+    },
+    {
+      "value": "Stalin, Joseph,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)576581919",
+      "(OCoLC)604328942",
+      "Works."
+    ]
+  }
+}

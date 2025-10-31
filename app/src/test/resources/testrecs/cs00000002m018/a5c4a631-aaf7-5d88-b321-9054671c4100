@@ -1,0 +1,142 @@
+{
+  "id": "marc:001:in00030320441",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030320441",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030320441",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:04Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:04Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780674031487"
+    },
+    {
+      "type": "ISBN",
+      "value": "0674031482"
+    },
+    {
+      "type": "Other",
+      "value": "99937584053"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2008033807"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)225874284"
+    },
+    {
+      "type": "Local",
+      "value": "9910510377002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Landino, Cristoforo,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Chatfield, Mary P.,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Landino, Cristoforo,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Landino, Cristoforo,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "lat"
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, Mass. :"
+    ],
+    "publisher": [
+      "Harvard University Press,"
+    ],
+    "date": "2008.",
+    "year": 2008,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxv, 398 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Latin poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Latin poetry, Medieval and modern",
+      "type": "topical"
+    },
+    {
+      "value": "Latin poetry, Medieval and modern.",
+      "type": "topical"
+    },
+    {
+      "value": "Latin poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The I Tatti Renaissance library ;",
+      "numbering": "ITRL 35"
+    },
+    {
+      "title": "I Tatti Renaissance library ;",
+      "numbering": "35."
+    }
+  ]
+}

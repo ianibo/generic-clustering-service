@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00030319697",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030319697",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030319697",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 14001068 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7627782"
+    },
+    {
+      "type": "Local",
+      "value": "9910800573102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of William Watson.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Watson, William,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "New ed.",
+    "number": "rearranged by the author, with additions."
+  },
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1893.",
+    "year": 1893,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "viii, 238 pages",
+    "illustrations": "frontispiece (portrait)",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894245368",
+      "Poems of William Watson."
+    ]
+  }
+}

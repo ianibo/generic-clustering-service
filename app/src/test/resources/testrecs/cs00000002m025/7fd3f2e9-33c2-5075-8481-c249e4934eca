@@ -1,0 +1,81 @@
+{
+  "id": "marc:001:in00026906123",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026906123",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026906123",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 76359105 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)41687"
+    },
+    {
+      "type": "Local",
+      "value": "9910326004302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickey, James.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Melbourne],"
+    ],
+    "publisher": [
+      "[Sun Books],"
+    ],
+    "date": "[1968]",
+    "year": 1968,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "55 pages",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

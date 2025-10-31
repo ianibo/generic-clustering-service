@@ -1,0 +1,151 @@
+{
+  "id": "marc:001:in00027082303",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027082303",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027082303",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780679433132"
+    },
+    {
+      "type": "ISBN",
+      "value": "0679433139"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781857151831"
+    },
+    {
+      "type": "ISBN",
+      "value": "1857151836"
+    },
+    {
+      "type": "LCCN",
+      "value": " 95075206 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)32944246"
+    },
+    {
+      "type": "Local",
+      "value": "9910580947402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The divine comedy /",
+      "type": "main"
+    },
+    {
+      "value": "Divina commedia.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Mandelbaum, Allen,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Armour, Peter,",
+      "role": "writer of supplementary textual content.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Alfred A. Knopf,"
+    ],
+    "date": "[1995]",
+    "year": 1995,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "798 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Classical literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Dante Alighieri,",
+      "type": "topical"
+    },
+    {
+      "value": "Divina commedia (Dante Alighieri)",
+      "type": "topical"
+    },
+    {
+      "value": "Italian poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Latin literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library ;",
+      "numbering": "183"
+    },
+    {
+      "title": "Everyman's library (Alfred A. Knopf, Inc.) ;",
+      "numbering": "183."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)988581607",
+      "Divine comedy."
+    ]
+  }
+}

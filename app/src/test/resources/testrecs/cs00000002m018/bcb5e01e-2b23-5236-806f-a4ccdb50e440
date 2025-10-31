@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00028042889",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028042889",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028042889",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 64013910 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1294923"
+    },
+    {
+      "type": "Local",
+      "value": "9910695124002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tennyson, Alfred Tennyson,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Crowell"
+    ],
+    "date": "[1964]",
+    "year": 1964,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xii, 145 pages",
+    "illustrations": "illustrations",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Collections.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Crowell poets"
+    },
+    {
+      "title": "Crowell poets."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)754688228",
+      "Poems of Alfred, Lord Tennyson."
+    ]
+  }
+}

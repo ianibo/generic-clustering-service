@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:in00029923462",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029923462",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029923462",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:51Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:51Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "nuc87739651 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8526089"
+    },
+    {
+      "type": "Local",
+      "value": "9910577707502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "[Autobiography].",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Strong, Rebecca.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Place of publication not identified] :"
+    ],
+    "publisher": [
+      "[publisher not identified],"
+    ],
+    "date": "[1933?]",
+    "year": 1933,
+    "countryCode": "b 0"
+  },
+  "physical": {
+    "extent": "7 leaves",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfiche"
+  },
+  "subjects": [
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biography",
+      "type": "topical"
+    },
+    {
+      "value": "Nurses",
+      "type": "topical"
+    },
+    {
+      "value": "Personal correspondence",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Adelaide Nutting historical nursing collection ;",
+      "numbering": "AN 0812."
+    }
+  ]
+}

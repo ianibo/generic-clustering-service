@@ -1,0 +1,164 @@
+{
+  "id": "marc:001:in00026761888",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026761888",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026761888",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 42039471 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)5663356"
+    },
+    {
+      "type": "Local",
+      "value": "9911115523202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Ivanhoe : a romance /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Archibald Constable & Co.,",
+      "role": "publisher.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Hurst, Robinson, and Co.,",
+      "role": "publisher.",
+      "kind": "corporate"
+    },
+    {
+      "name": "James Ballantyne and Co.,",
+      "role": "printer.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edinburgh :",
+      "London :"
+    ],
+    "publisher": [
+      "And Hurst, Robinson, and Co.,",
+      "Printed for Archibald Constable and Co. ;"
+    ],
+    "date": "1820.",
+    "year": 1820,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "3 volumes ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1189-1199",
+      "type": "topical"
+    },
+    {
+      "value": "Anglo-Saxons",
+      "type": "topical"
+    },
+    {
+      "value": "Binders' tickets",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Ivanhoe",
+      "type": "topical"
+    },
+    {
+      "value": "Jews",
+      "type": "topical"
+    },
+    {
+      "value": "Knights and knighthood",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Normans",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Triangles (Interpersonal relations)",
+      "type": "topical"
+    },
+    {
+      "value": "rare books.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)760028114",
+      "Ivanhoe."
+    ]
+  }
+}

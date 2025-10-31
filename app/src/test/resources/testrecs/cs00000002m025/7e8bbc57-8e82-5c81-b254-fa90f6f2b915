@@ -1,0 +1,165 @@
+{
+  "id": "marc:001:in00028121220",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028121220",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028121220",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2222185"
+    },
+    {
+      "type": "Local",
+      "value": "9910272938302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Wuthering Heights;",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Emily,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Maugham, W. Somerset",
+      "role": "edt",
+      "kind": "person"
+    },
+    {
+      "name": "Rothschild, Loren.",
+      "role": "fmo",
+      "kind": "person"
+    },
+    {
+      "name": "Rothschild, Frances.",
+      "role": "fmo",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia,"
+    ],
+    "publisher": [
+      "John C. Winston,"
+    ],
+    "date": "©1949.",
+    "year": 1949,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "xxii, 260 pages, 8 unnumbered pages of plates",
+    "illustrations": "illustrations (some color)",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings",
+      "type": "topical"
+    },
+    {
+      "value": "Heathcliff",
+      "type": "topical"
+    },
+    {
+      "value": "Heathlands",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Man-woman relationships",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Moors (Wetlands)",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Psychological fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Rejection (Psychology)",
+      "type": "topical"
+    },
+    {
+      "value": "Rural families",
+      "type": "topical"
+    },
+    {
+      "value": "Social conflict",
+      "type": "topical"
+    },
+    {
+      "value": "Triangles (Interpersonal relations)",
+      "type": "topical"
+    },
+    {
+      "value": "Yorkshire (England)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Ten greatest novels of the world"
+    },
+    {
+      "title": "Ten greatest novels of the world."
+    }
+  ]
+}

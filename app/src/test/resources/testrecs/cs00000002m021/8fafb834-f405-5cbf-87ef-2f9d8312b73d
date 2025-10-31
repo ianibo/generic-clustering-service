@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:in00026522874",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026522874",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026522874",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1398553"
+    },
+    {
+      "type": "Local",
+      "value": "9910585817602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Byron, George Gordon Byron,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,",
+      "N.Y.,"
+    ],
+    "publisher": [
+      "Dent;",
+      "Dutton,"
+    ],
+    "date": "1963.",
+    "year": 1963,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "3 volumes",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "Everyman's library"
+    },
+    {
+      "title": "Everyman's library."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)566058757",
+      "Poems."
+    ]
+  }
+}

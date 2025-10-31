@@ -1,0 +1,192 @@
+{
+  "id": "marc:001:in00026398475",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026398475",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026398475",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 55010339 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2519788"
+    },
+    {
+      "type": "Local",
+      "value": "9910895861802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Areopagitica",
+      "type": "alternative"
+    },
+    {
+      "value": "Paradise lost",
+      "type": "alternative"
+    },
+    {
+      "value": "Samson Agonistes",
+      "type": "alternative"
+    },
+    {
+      "value": "English minor poems : Paradise lost. Samson Agonistes. Areopagitica /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Milton, John,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Milton, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Milton, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Milton, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "[1955]",
+    "year": 1955,
+    "countryCode": "ilu"
+  },
+  "physical": {
+    "extent": "vii, 412 pages ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adam",
+      "type": "topical"
+    },
+    {
+      "value": "Bible.",
+      "type": "topical"
+    },
+    {
+      "value": "Eve",
+      "type": "topical"
+    },
+    {
+      "value": "Fall of man",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "History of Biblical events",
+      "type": "topical"
+    },
+    {
+      "value": "Literature",
+      "type": "topical"
+    },
+    {
+      "value": "Literature, Modern",
+      "type": "topical"
+    },
+    {
+      "value": "Literature, Modern.",
+      "type": "topical"
+    },
+    {
+      "value": "Literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Samson",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western World,",
+      "numbering": "v. 32"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 32."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756459723",
+      "English minor poems."
+    ]
+  }
+}

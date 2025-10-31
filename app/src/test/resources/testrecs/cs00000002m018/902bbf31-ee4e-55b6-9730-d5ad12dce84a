@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:gsuin00005777119",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00005777119",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00005777119",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)560348116"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9935042072902952"
+    },
+    {
+      "type": "Local",
+      "value": "9935042072902952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Snowden, Philip Snowden,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "I. Nicholson and Watson,"
+    ],
+    "date": "1934.",
+    "year": 1934,
+    "countryCode": "cf "
+  },
+  "physical": {
+    "extent": "1 online resource (2 volumes)",
+    "illustrations": "plates, portraits",
+    "contentType": "text",
+    "mediaType": "computer",
+    "carrierType": "online resource"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Independent Labour Party (Great Britain)",
+      "type": "topical"
+    },
+    {
+      "value": "Politics and government",
+      "type": "topical"
+    },
+    {
+      "value": "Snowden, Philip Snowden,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 34037977",
+      "(OCoLC)1990560",
+      "Autobiography."
+    ]
+  }
+}

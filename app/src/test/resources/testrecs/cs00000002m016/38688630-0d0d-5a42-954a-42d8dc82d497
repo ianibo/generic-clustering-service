@@ -1,0 +1,154 @@
+{
+  "id": "marc:001:gsouin00002296911",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsouin00002296911",
+    "sourceRecordUri": "https://catalog.example.org/record/gsouin00002296911",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0801839254"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780801839252"
+    },
+    {
+      "type": "ISBN",
+      "value": "0801839262"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780801839269"
+    },
+    {
+      "type": "LCCN",
+      "value": " 89045486 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)19847208"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GASOUTH)9916095151602950"
+    },
+    {
+      "type": "Local",
+      "value": "9916095151602950"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Catullus /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Catullus, Gaius Valerius.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Martin, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Baltimore :"
+    ],
+    "publisher": [
+      "Johns Hopkins University Press,"
+    ],
+    "date": "©1990.",
+    "year": 1990,
+    "countryCode": "mdu"
+  },
+  "physical": {
+    "extent": "xxv, 181 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Catullus, Gaius Valerius",
+      "type": "topical"
+    },
+    {
+      "value": "Catullus, Gaius Valerius.",
+      "type": "topical"
+    },
+    {
+      "value": "Elegiac poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Elegiac poetry, Latin.",
+      "type": "topical"
+    },
+    {
+      "value": "Epigrams, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Epigrams, Latin.",
+      "type": "topical"
+    },
+    {
+      "value": "Love poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Love poetry, Latin.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Rome",
+      "type": "topical"
+    },
+    {
+      "value": "Rome (Empire)",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

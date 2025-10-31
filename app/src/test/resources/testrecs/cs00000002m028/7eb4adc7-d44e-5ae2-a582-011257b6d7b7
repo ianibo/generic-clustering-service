@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00029301119",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029301119",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029301119",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:43Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:43Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 40003926 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)294399"
+    },
+    {
+      "type": "Local",
+      "value": "9910947543202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Faust; a tragedy:",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Raphael, Alice,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Delacroix, Eugène,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Heritage Club"
+    ],
+    "date": "[1939]",
+    "year": 1939,
+    "countryCode": "cf "
+  },
+  "physical": {
+    "extent": "xvii, pages, 1 leaf, 183, [1] pages",
+    "illustrations": "frontispiece (portrait) plates",
+    "dimensions": "26 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Faust (Goethe, Johann Wolfgang von)",
+      "type": "topical"
+    },
+    {
+      "value": "Faust,",
+      "type": "topical"
+    },
+    {
+      "value": "Goethe, Johann Wolfgang von,",
+      "type": "topical"
+    },
+    {
+      "value": "Illustrated works.",
+      "type": "topical"
+    },
+    {
+      "value": "Pictures.",
+      "type": "topical"
+    },
+    {
+      "value": "Tragedies.",
+      "type": "topical"
+    },
+    {
+      "value": "illustrations (layout features)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)568709321",
+      "(OCoLC)613033398",
+      "Faust."
+    ]
+  }
+}

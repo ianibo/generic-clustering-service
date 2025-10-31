@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00027610351",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027610351",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027610351",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 20020995 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)421818"
+    },
+    {
+      "type": "Local",
+      "value": "9910119793702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Margot Asquith",
+      "type": "alternative"
+    },
+    {
+      "value": "An autobiography ...",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Asquith, Margot,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Woodrow Wilson Collection (Library of Congress)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "George H. Doran Company,"
+    ],
+    "date": "[1920-1922]",
+    "year": 1920,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "4 volumes :",
+    "illustrations": "plates, portraits (including frontispiece), facsimilies ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Asquith, Margot,",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Nobility",
+      "type": "topical"
+    },
+    {
+      "value": "Prime ministers' spouses",
+      "type": "topical"
+    },
+    {
+      "value": "Tennant family",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)561236129",
+      "Autobiography ."
+    ]
+  }
+}

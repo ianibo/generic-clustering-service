@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00025824946",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025824946",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025824946",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "067943321X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679433217"
+    },
+    {
+      "type": "LCCN",
+      "value": " 94002496 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)29846060"
+    },
+    {
+      "type": "Local",
+      "value": "9910339053102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rimbaud, Arthur,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Washington, Peter.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "A.A. Knopf :",
+      "Distributed by Random House,"
+    ],
+    "date": "©1994.",
+    "year": 1994,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "288 pages ;",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Rimbaud, Arthur,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library pocket poets"
+    },
+    {
+      "title": "Everyman's library pocket poets."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)646897615",
+      "Poems."
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00026964818",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026964818",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026964818",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0313241759"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780313241758"
+    },
+    {
+      "type": "LCCN",
+      "value": " 83012960 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)9830643"
+    },
+    {
+      "type": "Local",
+      "value": "9910324820002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New and selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fearing, Kenneth,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Westport, Conn. :"
+    ],
+    "publisher": [
+      "Greenwood Press,"
+    ],
+    "date": "©1956, 1983 printing.",
+    "year": 1956,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxiv, 143 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "marc:001:in00026169255",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026169255",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026169255",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:40Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:40Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 70426517 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)25567"
+    },
+    {
+      "type": "Local",
+      "value": "9910395877802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "McDonald, Nancy May.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Sydney]"
+    ],
+    "publisher": [
+      "Angus and Robertson"
+    ],
+    "date": "[1969]",
+    "year": 1969,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "87 pages",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)610264702",
+      "Selected poems."
+    ]
+  }
+}

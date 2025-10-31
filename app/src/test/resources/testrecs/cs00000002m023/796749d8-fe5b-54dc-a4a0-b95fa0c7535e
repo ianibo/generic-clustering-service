@@ -1,0 +1,93 @@
+{
+  "id": "marc:001:in00025786470",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025786470",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025786470",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 54010684 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1209489"
+    },
+    {
+      "type": "Local",
+      "value": "9911592932202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Paradise;",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bergin, Thomas Goddard,",
+      "role": "ed. and tr.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "engita"
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Appleton-Century-Crofts"
+    ],
+    "date": "[1954]",
+    "year": 1954,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "112p.",
+    "illustrations": "diagr.",
+    "dimensions": "18cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bergin, Thomas Goddard,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Crofts classics"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647451958",
+      "Paradise."
+    ]
+  }
+}

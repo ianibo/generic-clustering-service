@@ -1,0 +1,98 @@
+{
+  "id": "marc:001:gsuin00004480664",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004480664",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004480664",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "ocm01064871"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)293114-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)992931143402952"
+    },
+    {
+      "type": "Local",
+      "value": "992931143402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected works of J. Willard Gibbs.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gibbs, J. Willard",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Bumstead, Henry Andrews,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Van Name, Ralph Gibbs,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Longley, William Raymond,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Longmans, Green,"
+    ],
+    "date": "1931 [c1902]",
+    "year": 1931,
+    "countryCode": " r "
+  },
+  "physical": {
+    "extent": "2 v.",
+    "illustrations": "front. (port.) diagrs.",
+    "dimensions": "24 cm"
+  },
+  "subjects": [
+    {
+      "value": "Science.",
+      "type": "topical"
+    },
+    {
+      "value": "Statistical mechanics.",
+      "type": "topical"
+    },
+    {
+      "value": "Thermodynamics.",
+      "type": "topical"
+    }
+  ]
+}

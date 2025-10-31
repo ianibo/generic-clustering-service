@@ -1,0 +1,112 @@
+{
+  "id": "marc:001:in00028301505",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028301505",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028301505",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300003404"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300003406"
+    },
+    {
+      "type": "LCCN",
+      "value": " 63025056 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)355425"
+    },
+    {
+      "type": "Local",
+      "value": "9910015443202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pope, Alexander,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Butt, John,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "[1963]",
+    "year": 1963,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxix, 850 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "University paperbacks ;",
+      "numbering": "163"
+    },
+    {
+      "title": "University paperbacks ;",
+      "numbering": "163."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "marc:001:in00027393887",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027393887",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027393887",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)14142962"
+    },
+    {
+      "type": "Local",
+      "value": "9910134796302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Osgood, Frances Sargent,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Clark, Austin, & Co.,"
+    ],
+    "date": "1852.",
+    "year": 1852,
+    "countryCode": " a "
+  },
+  "physical": {
+    "extent": "252 pages ;",
+    "dimensions": "16 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  }
+}

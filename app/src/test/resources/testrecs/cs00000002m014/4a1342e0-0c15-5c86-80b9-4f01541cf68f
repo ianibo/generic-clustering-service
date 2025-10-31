@@ -1,0 +1,85 @@
+{
+  "id": "marc:001:in00028006286",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028006286",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028006286",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852295316"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)27013578"
+    },
+    {
+      "type": "Local",
+      "value": "(FQ8)85201"
+    },
+    {
+      "type": "Local",
+      "value": "(Voyager)85201-fcdb"
+    },
+    {
+      "type": "Local",
+      "value": "9911879678702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The critique of pure reason ; The critique of practical reason : and other ethical treatises ; The critique of judgement /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kant, Immanuel,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopaedia Britannica,"
+    ],
+    "date": "c1990.",
+    "year": 1990,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xi, 613 p. ;",
+    "dimensions": "24 cm."
+  },
+  "series": [
+    {
+      "title": "Great books of the western world ;",
+      "numbering": "39"
+    },
+    {
+      "title": "Great books of the Western world (1990) ;",
+      "numbering": "39."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00029691856",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029691856",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029691856",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 46004926 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1382298"
+    },
+    {
+      "type": "Local",
+      "value": "9910054220502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Treece, Henry,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "A.A. Knopf,"
+    ],
+    "date": "1946.",
+    "year": 1946,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "3 preliminary leaves, v-xi, 155 pages, 1 leaf",
+    "illustrations": "frontispiece (portrait)",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)579589787",
+      "Collected poems."
+    ]
+  }
+}

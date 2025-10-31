@@ -1,0 +1,140 @@
+{
+  "id": "marc:001:in00025888881",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025888881",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025888881",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:26Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:26Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "068911088X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780689110887"
+    },
+    {
+      "type": "ISBN",
+      "value": "0689110898"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780689110894"
+    },
+    {
+      "type": "ISBN",
+      "value": "0679733019"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679733010"
+    },
+    {
+      "type": "LCCN",
+      "value": " 80066013 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6965043"
+    },
+    {
+      "type": "Local",
+      "value": "9910246146502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Strand, Mark,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Atheneum (New York, N.Y.),",
+      "role": "publisher.",
+      "kind": "corporate"
+    },
+    {
+      "name": "American Book-Stratford Press,",
+      "role": "manufacturer,",
+      "kind": "corporate"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Atheneum,"
+    ],
+    "date": "1980.",
+    "year": 1980,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "viii, 152 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Collections",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry, Modern",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)561053308",
+      "Selected poems."
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "marc:001:in00027053683",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027053683",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027053683",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)33500876"
+    },
+    {
+      "type": "Local",
+      "value": "9911739120602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Purgatorio /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1972.",
+    "year": 1972,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "446 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

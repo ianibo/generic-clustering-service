@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00030045688",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030045688",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030045688",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "B6021805"
+    },
+    {
+      "type": "LCCN",
+      "value": " 61065728 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)276879"
+    },
+    {
+      "type": "Local",
+      "value": "9910686711202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Crabbe, George,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Liverpool]:"
+    ],
+    "publisher": [
+      "Liverpool University Press,"
+    ],
+    "date": "1960.",
+    "year": 1960,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "189 pages :",
+    "illustrations": "illustrations;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)558004026",
+      "New Poems by George Crabbe."
+    ]
+  }
+}

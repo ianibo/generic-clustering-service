@@ -1,0 +1,126 @@
+{
+  "id": "marc:001:in00026337187",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026337187",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026337187",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:54Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:54Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0060909250"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780060909253"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780060133696"
+    },
+    {
+      "type": "ISBN",
+      "value": "0060133694"
+    },
+    {
+      "type": "ISBN",
+      "value": "0060119527"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780060119522"
+    },
+    {
+      "type": "LCCN",
+      "value": " 80008207 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8208206"
+    },
+    {
+      "type": "Local",
+      "value": "9910377184802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hughes, Ted,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Harper & Row,"
+    ],
+    "date": "[1982]",
+    "year": 1982,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xii, 242 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)557714765",
+      "New selected poems."
+    ]
+  }
+}

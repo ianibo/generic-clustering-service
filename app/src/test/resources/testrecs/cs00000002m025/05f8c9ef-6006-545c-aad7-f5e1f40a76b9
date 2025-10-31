@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00027568251",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027568251",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027568251",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "070221647X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780702216473"
+    },
+    {
+      "type": "ISBN",
+      "value": "0702216488"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780702216480"
+    },
+    {
+      "type": "LCCN",
+      "value": " 81011410 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7597481"
+    },
+    {
+      "type": "Local",
+      "value": "9910090049002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Simpson, R. A.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Saint Lucia ;"
+    ],
+    "publisher": [
+      "University of Queensland Press,"
+    ],
+    "date": "©1981.",
+    "year": 1981,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "xii, 164 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Australian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Australian poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)613103762",
+      "Selected poems."
+    ]
+  }
+}

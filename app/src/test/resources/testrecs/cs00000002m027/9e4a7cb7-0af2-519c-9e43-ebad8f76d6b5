@@ -1,0 +1,67 @@
+{
+  "id": "marc:001:in00029291739",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029291739",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029291739",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 54004823"
+    },
+    {
+      "type": "Local",
+      "value": "ocm00364358"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)197157-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "9910565664002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Coleridge, Mary E.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "Hart-Davis,"
+    ],
+    "date": "1954.",
+    "year": 1954,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "266 p."
+  }
+}

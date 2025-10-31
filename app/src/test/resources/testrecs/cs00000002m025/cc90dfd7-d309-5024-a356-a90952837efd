@@ -1,0 +1,101 @@
+{
+  "id": "marc:001:in00029157929",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029157929",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029157929",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "351802969X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783518029695"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87023185 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)16649125"
+    },
+    {
+      "type": "Local",
+      "value": "9910280106702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Scientific studies /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Miller, Douglas",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "ger"
+  ],
+  "publication": {
+    "place": [
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "Suhrkamp,"
+    ],
+    "date": "©1988.",
+    "year": 1988,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "xix, 344 pages, viii pages of plates :",
+    "illustrations": "color illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Science.",
+      "type": "topical"
+    },
+    {
+      "value": "sciences (philosophy)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Goethe edition ;",
+      "numbering": "v. 12"
+    }
+  ]
+}

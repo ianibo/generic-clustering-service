@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00025896524",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025896524",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025896524",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 67028244 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1156942"
+    },
+    {
+      "type": "Local",
+      "value": "9910522386502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works.",
+      "type": "main"
+    },
+    {
+      "value": "Works",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Yamabe, Hidehiko,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Boas, Ralph P.",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Gordon and Breach"
+    ],
+    "date": "[©1967]",
+    "year": 1967,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xii, 142 pages",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Group theory",
+      "type": "topical"
+    },
+    {
+      "value": "Group theory.",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics.",
+      "type": "topical"
+    },
+    {
+      "value": "Topological groups",
+      "type": "topical"
+    },
+    {
+      "value": "Topological groups.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Notes on mathematics and its applications"
+    },
+    {
+      "title": "Notes on mathematics and its applications."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)645881923",
+      "Collected works."
+    ]
+  }
+}

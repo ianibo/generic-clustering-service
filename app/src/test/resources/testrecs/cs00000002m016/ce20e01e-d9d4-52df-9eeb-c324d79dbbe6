@@ -1,0 +1,128 @@
+{
+  "id": "marc:001:in00026479733",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026479733",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026479733",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0520065794"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780520065796"
+    },
+    {
+      "type": "ISBN",
+      "value": "0520065808"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780520065802"
+    },
+    {
+      "type": "LCCN",
+      "value": " 91025903 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)24106605"
+    },
+    {
+      "type": "Local",
+      "value": "9910498088902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cendrars, Blaise,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Padgett, Ron,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Berkeley :"
+    ],
+    "publisher": [
+      "University of California Press,"
+    ],
+    "date": "1992.",
+    "year": 1992,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xxx, 392 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Cendrars, Blaise,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    },
+    {
+      "value": "poems.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)689863441",
+      "Complete poems."
+    ]
+  }
+}

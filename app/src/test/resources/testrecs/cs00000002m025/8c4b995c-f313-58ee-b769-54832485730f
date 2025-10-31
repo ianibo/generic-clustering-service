@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:in00028621086",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028621086",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028621086",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)7610329"
+    },
+    {
+      "type": "Local",
+      "value": "9910456438502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Prince /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Machiavelli, Niccolò,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ricci, Luigi,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Grant Richards,"
+    ],
+    "date": "1903.",
+    "year": 1903,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "viii, 107 pages ;",
+    "dimensions": "16 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Political ethics.",
+      "type": "topical"
+    },
+    {
+      "value": "Political science.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The world's classics ;",
+      "numbering": "43"
+    },
+    {
+      "title": "World's classics (Grant Richards Ltd.) ;",
+      "numbering": "43."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894111475",
+      "Prince."
+    ]
+  }
+}

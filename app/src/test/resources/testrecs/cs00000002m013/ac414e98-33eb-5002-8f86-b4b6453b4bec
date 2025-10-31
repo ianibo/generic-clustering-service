@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00030424135",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030424135",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030424135",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0156792591"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780156792592"
+    },
+    {
+      "type": "ISBN",
+      "value": "0151792607"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780151792603"
+    },
+    {
+      "type": "LCCN",
+      "value": " 79010586 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4831725"
+    },
+    {
+      "type": "Local",
+      "value": "9911145752802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Samuel Johnson /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bate, Walter Jackson,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st Harvest/HBJ ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Harcourt Brace Jovanovich,"
+    ],
+    "date": "1979, ©1977.",
+    "year": 1979,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xxii, 646 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, English",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, English.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    },
+    {
+      "value": "collective biographies.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "A Harvest/HBJ book"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894687326",
+      "Samuel Johnson."
+    ]
+  }
+}

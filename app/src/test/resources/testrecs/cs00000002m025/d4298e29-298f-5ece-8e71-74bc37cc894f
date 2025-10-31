@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00028923750",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028923750",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028923750",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:37Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:37Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1852242906"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781852242909"
+    },
+    {
+      "type": "ISBN",
+      "value": "1852242914"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781852242916"
+    },
+    {
+      "type": "LCCN",
+      "value": " 95104853 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)31935453"
+    },
+    {
+      "type": "Local",
+      "value": "9910276364802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Enzensberger, Hans Magnus.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hamburger, Michael.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "ger"
+  ],
+  "publication": {
+    "place": [
+      "Newcastle upon Tyne :"
+    ],
+    "publisher": [
+      "Bloodaxe Books,"
+    ],
+    "date": "1994.",
+    "year": 1994,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "255 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "German poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

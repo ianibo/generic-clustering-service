@@ -1,0 +1,91 @@
+{
+  "id": "marc:001:in00028136006",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028136006",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028136006",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 65001265 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)307287"
+    },
+    {
+      "type": "Local",
+      "value": "9911708048402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lewis, C. S.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hooper, Walter,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Kilby, Clyde S.,",
+      "role": "former owner",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Geoffrey Bles,"
+    ],
+    "date": "1964.",
+    "year": 1964,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xiv, 142 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ]
+}

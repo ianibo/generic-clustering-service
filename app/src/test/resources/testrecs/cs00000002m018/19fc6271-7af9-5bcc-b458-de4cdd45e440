@@ -1,0 +1,155 @@
+{
+  "id": "marc:001:in00028740171",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028740171",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028740171",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "039305876X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780393058765"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780393928396"
+    },
+    {
+      "type": "ISBN",
+      "value": "039392839X"
+    },
+    {
+      "type": "ISBN",
+      "value": "0000000000000"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780000000002"
+    },
+    {
+      "type": "ISBN",
+      "value": "0000000000"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2004006210"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)54817179"
+    },
+    {
+      "type": "Local",
+      "value": "9910376785902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An invitation to poetry : a new Favorite Poem Project anthology /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pinsky, Robert.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Dietz, Maggie.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ellis, Rosemarie.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Favorite Poem Project (U.S.)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "W.W. Norton,"
+    ],
+    "date": "©2004.",
+    "year": 2004,
+    "countryCode": " j "
+  },
+  "physical": {
+    "extent": "xxiv, 308 pages ;",
+    "dimensions": "25 cm +",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "DVD-Video discs.",
+      "type": "topical"
+    },
+    {
+      "value": "DVDs.",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "Videodiscs.",
+      "type": "topical"
+    }
+  ]
+}

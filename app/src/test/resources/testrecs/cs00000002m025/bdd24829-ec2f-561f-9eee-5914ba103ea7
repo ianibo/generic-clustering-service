@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:ugain00010203374",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ugain00010203374",
+    "sourceRecordUri": "https://catalog.example.org/record/ugain00010203374",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)848974"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_UGA)992252823902959"
+    },
+    {
+      "type": "Local",
+      "value": "992252823902959"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems of Robert Frost.",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Frost, Robert,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Halcyon House"
+    ],
+    "date": "[1939]",
+    "year": 1939,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "436 pages",
+    "illustrations": "frontispiece (portrait)",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Libraries.",
+      "type": "topical"
+    },
+    {
+      "value": "Personal copy.",
+      "type": "topical"
+    },
+    {
+      "value": "Thompson, Lawrance,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)623280539",
+      "Collected poems of Robert Frost."
+    ]
+  }
+}

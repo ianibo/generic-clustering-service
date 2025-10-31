@@ -1,0 +1,121 @@
+{
+  "id": "marc:001:in00028894922",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028894922",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028894922",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:48Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:48Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)8279862"
+    },
+    {
+      "type": "Local",
+      "value": "9910335515202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Tom Jones",
+      "type": "alternative"
+    },
+    {
+      "value": "The history of Tom Jones, a foundling /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fielding, Henry,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York :"
+    ],
+    "publisher": [
+      "Dent ;",
+      "Dutton,"
+    ],
+    "date": "1929.",
+    "year": 1929,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "2 volumes ;",
+    "dimensions": "18 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings",
+      "type": "topical"
+    },
+    {
+      "value": "Foundlings.",
+      "type": "topical"
+    },
+    {
+      "value": "Identity (Psychology)",
+      "type": "topical"
+    },
+    {
+      "value": "London (England)",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    },
+    {
+      "value": "Young men",
+      "type": "topical"
+    },
+    {
+      "value": "Young men.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library. Fiction ;",
+      "numbering": "355, 356"
+    },
+    {
+      "title": "Everyman's library.",
+      "numbering": "355, 356."
+    }
+  ]
+}

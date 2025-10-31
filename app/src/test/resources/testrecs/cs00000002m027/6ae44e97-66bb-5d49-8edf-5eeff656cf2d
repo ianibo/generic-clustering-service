@@ -1,0 +1,140 @@
+{
+  "id": "marc:001:in00026276018",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026276018",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026276018",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 67080838 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)954899"
+    },
+    {
+      "type": "Local",
+      "value": "9911105441702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Miroslav Holub : selected poems.",
+      "type": "alternative"
+    },
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Holub, Miroslav,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Milner, Ian,",
+      "role": "translator",
+      "kind": "person"
+    },
+    {
+      "name": "Theiner, George,",
+      "role": "translator",
+      "kind": "person"
+    },
+    {
+      "name": "Alvarez, A.",
+      "role": "writer of introduction",
+      "kind": "person"
+    },
+    {
+      "name": "Walters, Harriet,",
+      "role": "cover designer.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Harmondsworth, Middlesex :"
+    ],
+    "publisher": [
+      "Penguin Books,"
+    ],
+    "date": "1967.",
+    "year": 1967,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "101 pages,",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Holub, Miroslav,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin modern European poets",
+      "numbering": "D95"
+    },
+    {
+      "title": "Penguin modern European poets",
+      "numbering": "D95"
+    },
+    {
+      "title": "Penguin modern European poets.",
+      "numbering": "D95."
+    },
+    {
+      "title": "Penguin modern European poets.",
+      "numbering": "D95."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654721790",
+      "Selected poems."
+    ]
+  }
+}

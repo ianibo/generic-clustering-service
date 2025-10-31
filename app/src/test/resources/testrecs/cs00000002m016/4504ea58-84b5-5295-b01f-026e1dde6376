@@ -1,0 +1,140 @@
+{
+  "id": "marc:001:in00029257169",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029257169",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029257169",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0375411399"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780375411397"
+    },
+    {
+      "type": "ISBN",
+      "value": "037570941X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780375709418"
+    },
+    {
+      "type": "Other",
+      "value": "9780375411397"
+    },
+    {
+      "type": "LCCN",
+      "value": " 00040542 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)44174148"
+    },
+    {
+      "type": "Local",
+      "value": "9910067434502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Merrill, James,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "McClatchy, J. D.,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Yenser, Stephen,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Knopf,"
+    ],
+    "date": "[2001]",
+    "year": 2001,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xx, 885 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)606518884",
+      "Collected poems."
+    ]
+  }
+}

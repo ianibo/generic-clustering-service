@@ -1,0 +1,105 @@
+{
+  "id": "marc:001:in00028115663",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028115663",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028115663",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0906427851"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780906427859"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87162402 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)17384122"
+    },
+    {
+      "type": "Local",
+      "value": "9910472813602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Levertov, Denise,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Newcastle upon Tyne :"
+    ],
+    "publisher": [
+      "Bloodaxe Books,"
+    ],
+    "date": "1986.",
+    "year": 1986,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "189 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

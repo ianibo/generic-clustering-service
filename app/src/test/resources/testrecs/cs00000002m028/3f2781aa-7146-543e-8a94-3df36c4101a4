@@ -1,0 +1,117 @@
+{
+  "id": "marc:001:in00027342233",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027342233",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027342233",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 67007981 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1974823"
+    },
+    {
+      "type": "Local",
+      "value": "9910758929302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected poems of Christopher Smart /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Smart, Christopher,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Callan, N. R.,",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, Mass.,"
+    ],
+    "publisher": [
+      "Harvard University Press,"
+    ],
+    "date": "1967 [©1949]",
+    "year": 1967,
+    "countryCode": "mau"
+  },
+  "physical": {
+    "extent": "2 volumes (lv, 1020 pages)",
+    "illustrations": "illustrations",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Smart, Christopher,",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Muses' library"
+    },
+    {
+      "title": "Muses' library."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)651831347",
+      "Collected poems of Christophher Smart."
+    ]
+  }
+}

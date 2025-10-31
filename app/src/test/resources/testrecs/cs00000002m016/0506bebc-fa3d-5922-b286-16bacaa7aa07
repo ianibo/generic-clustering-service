@@ -1,0 +1,84 @@
+{
+  "id": "marc:001:in00029953376",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029953376",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029953376",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 00000514"
+    },
+    {
+      "type": "Local",
+      "value": "ocm02216528"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)438893-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910110561202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Principles of political economy; with some of their applications to social philosophy.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Mill, John Stuart,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "Rev. ed."
+  },
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Colonial Press"
+    ],
+    "date": "[1899]",
+    "year": 1899,
+    "countryCode": "cfh"
+  },
+  "physical": {
+    "extent": "2 v.",
+    "illustrations": "fronts. (ports.) plates, facsims.",
+    "dimensions": "24 cm."
+  },
+  "subjects": [
+    {
+      "value": "Economics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The world's great classics ;",
+      "numbering": "[v. 13-14]"
+    }
+  ]
+}

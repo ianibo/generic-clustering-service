@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:in00027857422",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027857422",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027857422",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0403008492"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780403008490"
+    },
+    {
+      "type": "LCCN",
+      "value": " 79144911 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)146803"
+    },
+    {
+      "type": "Local",
+      "value": "9911382070002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New poems,",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Browning, Robert,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Browning, Elizabeth Barrett,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kenyon, Frederic G.",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "St. Clair Shores, Mich.,"
+    ],
+    "publisher": [
+      "Scholarly Press,"
+    ],
+    "date": "1971.",
+    "year": 1971,
+    "countryCode": "miu"
+  },
+  "physical": {
+    "extent": "xxix, 186 pages",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)875147364",
+      "New poems."
+    ]
+  }
+}

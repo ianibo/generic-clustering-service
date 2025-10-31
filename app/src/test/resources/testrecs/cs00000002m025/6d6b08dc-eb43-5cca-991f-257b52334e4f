@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00028488573",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028488573",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028488573",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 29022539 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2945415"
+    },
+    {
+      "type": "Local",
+      "value": "9910197332002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The piazza tales /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Benno, Benjamin,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "The Elf Publishers,"
+    ],
+    "date": "1929.",
+    "year": 1929,
+    "countryCode": "f 0"
+  },
+  "physical": {
+    "extent": "270 pages, 6 unnumbered leaves of plates :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Book prices (Publishing)",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Prospectuses",
+      "type": "topical"
+    },
+    {
+      "value": "Short stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Typefaces (Type evidence)",
+      "type": "topical"
+    },
+    {
+      "value": "short stories.",
+      "type": "topical"
+    }
+  ]
+}

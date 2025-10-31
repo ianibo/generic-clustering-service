@@ -1,0 +1,65 @@
+{
+  "id": "marc:001:in00026755787",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026755787",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026755787",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "ocm02273399"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)443515-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910210688502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems of Robert Frost.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Frost, Robert,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Garden City, N.Y. :"
+    ],
+    "publisher": [
+      "Garden City Publishing Co.,"
+    ],
+    "date": "1942.",
+    "year": 1942,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "453 p. :",
+    "illustrations": "port. ;",
+    "dimensions": "22 cm"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00029359105",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029359105",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029359105",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0815324111"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)42458075"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)870822-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "9910578303002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected works /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fawcett-Yeske, Maxine.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kroeger, Karl.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Doolittle, Eliakim,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Olmsted, Timothy,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Garland Publishing,"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": "mua"
+  },
+  "physical": {
+    "extent": "1 score (xxvi, 221 p.) ;",
+    "dimensions": "29 cm."
+  },
+  "subjects": [
+    {
+      "value": "Choruses, Sacred (Mixed voices), Unaccompanied.",
+      "type": "topical"
+    },
+    {
+      "value": "Hymns, English",
+      "type": "topical"
+    },
+    {
+      "value": "Psalms (Music)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Music of the new American nation ;",
+      "numbering": "v. 15"
+    },
+    {
+      "title": "Music of the new American nation ;",
+      "numbering": "v. 15."
+    }
+  ]
+}

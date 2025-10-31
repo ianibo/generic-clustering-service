@@ -1,0 +1,104 @@
+{
+  "id": "marc:001:in00028778340",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028778340",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028778340",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 50010042 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3370998"
+    },
+    {
+      "type": "Local",
+      "value": "9910511272202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Pensées,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pascal, Blaise,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "[New York]"
+    ],
+    "publisher": [
+      "Pantheon Books"
+    ],
+    "date": "[1950]",
+    "year": 1950,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxiv, 543 pages",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1600-1699",
+      "type": "topical"
+    },
+    {
+      "value": "Apologetics",
+      "type": "topical"
+    },
+    {
+      "value": "Apologetics.",
+      "type": "topical"
+    },
+    {
+      "value": "Catholic Church",
+      "type": "topical"
+    },
+    {
+      "value": "Catholic Church.",
+      "type": "topical"
+    },
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Theology, Doctrinal",
+      "type": "topical"
+    }
+  ]
+}

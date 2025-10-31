@@ -1,0 +1,125 @@
+{
+  "id": "marc:001:in00027325505",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027325505",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027325505",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "039304341X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780393043419"
+    },
+    {
+      "type": "ISBN",
+      "value": "0393323870"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780393323870"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2001044318"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)47650648"
+    },
+    {
+      "type": "Local",
+      "value": "9910465177002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Inferno /",
+      "type": "main"
+    },
+    {
+      "value": "Inferno.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dante Alighieri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Palma, Michael,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "ita"
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "W.W. Norton,"
+    ],
+    "date": "©2002.",
+    "year": 2002,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxii, 392 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Hell",
+      "type": "topical"
+    },
+    {
+      "value": "Italian language materials",
+      "type": "topical"
+    },
+    {
+      "value": "Italian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

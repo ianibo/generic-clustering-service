@@ -1,0 +1,67 @@
+{
+  "id": "marc:001:in00029778178",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029778178",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029778178",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)24940458"
+    },
+    {
+      "type": "Local",
+      "value": "9910825893802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Holmes, Oliver Wendell,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "[14th ed.]."
+  },
+  "publication": {
+    "place": [
+      "Boston,"
+    ],
+    "publisher": [
+      "Fields, Osgood,"
+    ],
+    "date": "1869.",
+    "year": 1869,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "xi, 410 pages",
+    "illustrations": "frontispiece (portrait)",
+    "dimensions": "17 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  }
+}

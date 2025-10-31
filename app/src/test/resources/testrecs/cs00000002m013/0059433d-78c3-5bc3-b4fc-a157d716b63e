@@ -1,0 +1,121 @@
+{
+  "id": "marc:001:in00029114192",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029114192",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029114192",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:23Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:23Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0872205878"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780872205871"
+    },
+    {
+      "type": "ISBN",
+      "value": "0872205886"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780872205888"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2001026403"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)46959766"
+    },
+    {
+      "type": "Local",
+      "value": "9910227353702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "On the nature of things /",
+      "type": "main"
+    },
+    {
+      "value": "De rerum natura.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lucretius Carus, Titus.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Smith, Martin Ferguson.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Indianapolis :"
+    ],
+    "publisher": [
+      "Hackett Pub.,"
+    ],
+    "date": "©2001.",
+    "year": 2001,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxviii, 224 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Didactic poetry, Latin",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy, Ancient",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

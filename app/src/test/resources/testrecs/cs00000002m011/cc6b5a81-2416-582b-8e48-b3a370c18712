@@ -1,0 +1,191 @@
+{
+  "id": "marc:001:in00026446224",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026446224",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026446224",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780199689279"
+    },
+    {
+      "type": "ISBN",
+      "value": "019968927X"
+    },
+    {
+      "type": "ISBN",
+      "value": "019853275X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198532750"
+    },
+    {
+      "type": "ISBN",
+      "value": "0198530994"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198530992"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780199689262"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199689261"
+    },
+    {
+      "type": "ISBN",
+      "value": "0198532768"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198532767"
+    },
+    {
+      "type": "ISBN",
+      "value": "0198532776"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198532774"
+    },
+    {
+      "type": "ISBN",
+      "value": "0198532784"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198532781"
+    },
+    {
+      "type": "ISBN",
+      "value": "0198532792"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198532798"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87034744 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)17260519"
+    },
+    {
+      "type": "Local",
+      "value": "9910114760302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Atiyah, Michael Francis,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre",
+    "ger"
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford [Oxfordshire] :"
+    ],
+    "publisher": [
+      "Clarendon Press ;",
+      "Oxford University Press,"
+    ],
+    "date": "1988-2014.",
+    "year": 1988,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "7 volumes :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Atiyah, Michael Francis,",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematicians",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics.",
+      "type": "topical"
+    },
+    {
+      "value": "applied mathematics.",
+      "type": "topical"
+    },
+    {
+      "value": "mathematics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford science publications"
+    },
+    {
+      "title": "Oxford science publications."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)681831571",
+      "Collected works."
+    ]
+  }
+}

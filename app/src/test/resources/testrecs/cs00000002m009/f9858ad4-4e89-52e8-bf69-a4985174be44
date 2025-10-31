@@ -1,0 +1,113 @@
+{
+  "id": "marc:001:in00026791162",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026791162",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026791162",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0899664784"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780899664781"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)21170831"
+    },
+    {
+      "type": "Local",
+      "value": "9912078821602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Whale",
+      "type": "alternative"
+    },
+    {
+      "value": "Moby Dick, or, The whale /",
+      "type": "main"
+    },
+    {
+      "value": "Moby Dick",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cutchogue, N.Y. :"
+    ],
+    "publisher": [
+      "Buccaneer Books,"
+    ],
+    "date": "©1976.",
+    "year": 1976,
+    "countryCode": " j "
+  },
+  "physical": {
+    "extent": "505 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Allegories.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "Sailing ships",
+      "type": "topical"
+    },
+    {
+      "value": "Sailing ships.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories.",
+      "type": "topical"
+    }
+  ]
+}

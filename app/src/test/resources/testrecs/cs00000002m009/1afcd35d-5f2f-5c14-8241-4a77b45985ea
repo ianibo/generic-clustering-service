@@ -1,0 +1,72 @@
+{
+  "id": "marc:001:in00026677984",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026677984",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026677984",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:49Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:49Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "ocm07467366"
+    },
+    {
+      "type": "Local",
+      "value": "(GUA)724164"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)724164-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910193475702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems.",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cavafy, Constantine,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Harcourt, Brace & World"
+    ],
+    "date": "[c1961]",
+    "year": 1961,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "234 p.",
+    "dimensions": "22 cm"
+  }
+}

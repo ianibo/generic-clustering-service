@@ -1,0 +1,170 @@
+{
+  "id": "marc:001:in00029561317",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029561317",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029561317",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "3487058154"
+    },
+    {
+      "type": "ISBN",
+      "value": "9783487058153"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4126127"
+    },
+    {
+      "type": "Local",
+      "value": "9911008386702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The works /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Walpole, Horace,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Vertue, George,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Berry, Mary,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cole, William,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Martin, John,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Montagu, George,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Holland, Henry Richard Vassall,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hertford, Francis Seymour Conway,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Zouch, Henry,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Croker, John Wilson,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Hildesheim [West Germany] ;",
+      "New York :"
+    ],
+    "publisher": [
+      "G. Olms,"
+    ],
+    "date": "1975-1977.",
+    "year": 1975,
+    "countryCode": "gw "
+  },
+  "physical": {
+    "extent": "10 volumes in 11, 1 volume leaves of plates :",
+    "illustrations": "illustrations, plans, portraits ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1727-1760",
+      "type": "topical"
+    },
+    {
+      "value": "Art",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Engravers",
+      "type": "topical"
+    },
+    {
+      "value": "Engravers.",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Painting",
+      "type": "topical"
+    },
+    {
+      "value": "Painting.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Anglistica & Americana ;",
+      "numbering": "157"
+    },
+    {
+      "title": "Anglistica & Americana ;",
+      "numbering": "157."
+    }
+  ]
+}

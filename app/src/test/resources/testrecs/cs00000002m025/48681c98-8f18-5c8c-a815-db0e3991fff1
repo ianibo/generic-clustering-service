@@ -1,0 +1,85 @@
+{
+  "id": "marc:001:in00026620940",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026620940",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026620940",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)15448793"
+    },
+    {
+      "type": "Local",
+      "value": "9910213903102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Elements of chemistry /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thomson, Thomas,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia :"
+    ],
+    "publisher": [
+      "Published and sold by J. & A.Y. Humphreys,"
+    ],
+    "date": "1810.",
+    "year": 1810,
+    "countryCode": " c "
+  },
+  "physical": {
+    "extent": "351 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microopaque"
+  },
+  "subjects": [
+    {
+      "value": "Chemistry.",
+      "type": "topical"
+    },
+    {
+      "value": "chemistry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Early American imprints.",
+      "numbering": "no. 21490."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)719427467",
+      "Elements of chemistry."
+    ]
+  }
+}

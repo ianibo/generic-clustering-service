@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00029045633",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029045633",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029045633",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 59015754 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)315788"
+    },
+    {
+      "type": "Local",
+      "value": "9910040918802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Butcher, S. H.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Long, Andrew,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "publisher": [
+      "Dodd, Mead"
+    ],
+    "date": "[1959]",
+    "year": 1959,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "358 pages.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great illustrated classics"
+    },
+    {
+      "title": "Great illustrated classics."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)894774552",
+      "Odyssey."
+    ]
+  }
+}

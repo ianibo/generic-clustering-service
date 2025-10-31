@@ -1,0 +1,68 @@
+{
+  "id": "marc:001:in00028898490",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028898490",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028898490",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)9212294"
+    },
+    {
+      "type": "Local",
+      "value": "9911187904202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Procter, Adelaide Anne,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston,"
+    ],
+    "publisher": [
+      "Ticknor,"
+    ],
+    "date": "1863.",
+    "year": 1863,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "416 pages",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)793722524",
+      "Poems."
+    ]
+  }
+}

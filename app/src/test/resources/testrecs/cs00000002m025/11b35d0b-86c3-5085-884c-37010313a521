@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00026164073",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026164073",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026164073",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0709909012"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780709909019"
+    },
+    {
+      "type": "ISBN",
+      "value": "0709909020"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780709909026"
+    },
+    {
+      "type": "LCCN",
+      "value": " 82121916 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)8310776"
+    },
+    {
+      "type": "Local",
+      "value": "9910136831502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Teaching English /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Evans, Tricia.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Croom Helm,"
+    ],
+    "date": "©1982.",
+    "year": 1982,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "212 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English language",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654706449",
+      "Teaching English."
+    ]
+  }
+}

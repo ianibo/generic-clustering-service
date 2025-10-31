@@ -1,0 +1,129 @@
+{
+  "id": "marc:001:in00029569138",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029569138",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029569138",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0915556065 :"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780915556069"
+    },
+    {
+      "type": "ISBN",
+      "value": "0915556294"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780915556298"
+    },
+    {
+      "type": "LCCN",
+      "value": " 80022845 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6789489"
+    },
+    {
+      "type": "Local",
+      "value": "9910575502402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gulliver's travels /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Grandville, J. J.,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Arlington, VA :"
+    ],
+    "publisher": [
+      "Great Ocean Publishers,"
+    ],
+    "date": "[1980]",
+    "year": 1980,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "519 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Early works.",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Satire.",
+      "type": "topical"
+    },
+    {
+      "value": "Travelers",
+      "type": "topical"
+    },
+    {
+      "value": "Travelers.",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)646951201",
+      "Gulliver's travels."
+    ]
+  }
+}

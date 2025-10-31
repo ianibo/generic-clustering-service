@@ -1,0 +1,104 @@
+{
+  "id": "marc:001:in00029378451",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029378451",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029378451",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0335008143"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780335008148"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)332155-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)16229747"
+    },
+    {
+      "type": "Local",
+      "value": "9910134098002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "'Wuthering Heights' /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Holderness, Graham.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Open University. Nineteenth-Century Novel and its Legacy Course Team.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Milton Keynes] :"
+    ],
+    "publisher": [
+      "Open University Press,"
+    ],
+    "date": "1973.",
+    "year": 1973,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "39 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "30 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Brontë, Emily,",
+      "type": "topical"
+    },
+    {
+      "value": "Wuthering Heights (Brontë, Emily)",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Arts a third level course. the nineteenth-century novel and its legacy ;",
+      "numbering": "unit 5"
+    },
+    {
+      "title": "Arts a third level course. the nineteenth-century novel and its legacy ;",
+      "numbering": "unit 5"
+    },
+    {
+      "title": "Arts third level course."
+    }
+  ]
+}

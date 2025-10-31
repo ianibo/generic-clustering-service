@@ -1,0 +1,200 @@
+{
+  "id": "marc:001:in00030050887",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030050887",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030050887",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "PML 22507"
+    },
+    {
+      "type": "urn",
+      "value": "urn:nbn:de:bvb:12-bsb10859155-3"
+    },
+    {
+      "type": "LCCN",
+      "value": " 06026438 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1018006"
+    },
+    {
+      "type": "Local",
+      "value": "9910130789802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little Dorrit /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Browne, Hablot Knight,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Connors, Robert S.,",
+      "role": "former owner",
+      "kind": "person"
+    },
+    {
+      "name": "Bradbury & Evans,",
+      "role": "publisher.",
+      "kind": "corporate"
+    },
+    {
+      "name": "Robert S. Connors Basic Program Collection.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Bradbury and Evans, 11 Bouverie Street,"
+    ],
+    "date": "1857.",
+    "year": 1857,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "xiv, 625 pages, 38 unnumbered leaves of plates :",
+    "illustrations": "illustrations ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Bookplates (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Children of prisoners",
+      "type": "topical"
+    },
+    {
+      "value": "Debt, Imprisonment for",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "Engraved frontispieces (illustrations)",
+      "type": "topical"
+    },
+    {
+      "value": "Engraved title pages.",
+      "type": "topical"
+    },
+    {
+      "value": "Fathers and daughters",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Inheritance and succession",
+      "type": "topical"
+    },
+    {
+      "value": "London (England)",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Marshalsea Prison (Southwark, London, England)",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Octavo",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Serialized fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Serialized fiction.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)794349099",
+      "Little Dorrit."
+    ]
+  }
+}

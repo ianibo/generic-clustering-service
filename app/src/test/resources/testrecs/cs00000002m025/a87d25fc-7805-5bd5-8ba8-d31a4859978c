@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00029504202",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029504202",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029504202",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0300019459"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300019452"
+    },
+    {
+      "type": "LCCN",
+      "value": " 76030845 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2680833"
+    },
+    {
+      "type": "Local",
+      "value": "9910194808302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Apocalyptic writings /",
+      "type": "main"
+    },
+    {
+      "value": "Notes on the apocalypse",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Edwards, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New Haven :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "1977.",
+    "year": 1977,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "x, 501 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bible.",
+      "type": "topical"
+    },
+    {
+      "value": "Commentaries.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The works of Jonathan Edwards ;",
+      "numbering": "v. 5"
+    }
+  ]
+}

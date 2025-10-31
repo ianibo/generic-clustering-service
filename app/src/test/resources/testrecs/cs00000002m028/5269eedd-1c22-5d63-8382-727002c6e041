@@ -1,0 +1,130 @@
+{
+  "id": "marc:001:in00026686328",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026686328",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026686328",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:34Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:34Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0670234729"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780670234721"
+    },
+    {
+      "type": "ISBN",
+      "value": "067000281X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780670002818"
+    },
+    {
+      "type": "LCCN",
+      "value": " 76031760 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)223834"
+    },
+    {
+      "type": "Local",
+      "value": "9910839248202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The complete poems of D.H. Lawrence /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lawrence, D. H.",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "de Sola Pinto, Vivian,",
+      "role": "selector,",
+      "kind": "person"
+    },
+    {
+      "name": "Roberts, Warren,",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Viking Press"
+    ],
+    "date": "[1971]",
+    "year": 1971,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "1079 pages",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Collections",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Compass book, C281"
+    },
+    {
+      "title": "Compass books ;",
+      "numbering": "C281."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)988174202",
+      "Complete poems of D.H. Lawrence."
+    ]
+  }
+}

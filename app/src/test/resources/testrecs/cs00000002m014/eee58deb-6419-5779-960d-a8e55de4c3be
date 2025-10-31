@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00026940220",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026940220",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026940220",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780199538331"
+    },
+    {
+      "type": "ISBN",
+      "value": "0199538336"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2009290486"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)310716638"
+    },
+    {
+      "type": "Local",
+      "value": "9921992759802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Samuel Johnson the major works",
+      "type": "alternative"
+    },
+    {
+      "value": "The major works /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Johnson, Samuel,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Greene, Donald J.,",
+      "role": "editor with an introduction and notes.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, New York :",
+      "Oxford, England ;"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "2008.",
+    "year": 2008,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xxxii, 840 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Johnson, Samuel,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Oxford world's classics paperback"
+    },
+    {
+      "title": "Oxford world's classics (Oxford University Press)"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)650025067",
+      "Major works."
+    ]
+  }
+}

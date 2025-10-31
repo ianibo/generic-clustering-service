@@ -1,0 +1,146 @@
+{
+  "id": "marc:001:in00027908351",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027908351",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027908351",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:03Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:03Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0691037973"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691037974"
+    },
+    {
+      "type": "ISBN",
+      "value": "0691037981"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691037981"
+    },
+    {
+      "type": "LCCN",
+      "value": " 94003217 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)30815671"
+    },
+    {
+      "type": "Local",
+      "value": "9910604185202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "From my life /",
+      "type": "main"
+    },
+    {
+      "value": "Aus meinem Leben.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Heitner, Robert R.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Saine, Thomas P.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sammons, Jeffrey L.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Princeton, N.J. :"
+    ],
+    "publisher": [
+      "Princeton University Press,"
+    ],
+    "date": "1994-",
+    "year": 1994,
+    "countryCode": "nju"
+  },
+  "physical": {
+    "extent": "volumes <1> ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, German",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, German.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biography",
+      "type": "topical"
+    },
+    {
+      "value": "Goethe, Johann Wolfgang von,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Princeton paperbacks"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1273053027",
+      "From my life."
+    ]
+  }
+}

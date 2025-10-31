@@ -1,0 +1,83 @@
+{
+  "id": "marc:001:in00029768461",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029768461",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029768461",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)4689927"
+    },
+    {
+      "type": "Local",
+      "value": "9911284491902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Don Quixote de La Mancha.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cervantes Saavedra, Miguel de,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Jervas, Charles,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Johannot, Tony,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia,"
+    ],
+    "publisher": [
+      "Blanchard and Lea,"
+    ],
+    "date": "1853.",
+    "year": 1853,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "2 volumes",
+    "illustrations": "frontispieces, illustrations, plates",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)793689811",
+      "Don Quixote de La Mancha."
+    ]
+  }
+}

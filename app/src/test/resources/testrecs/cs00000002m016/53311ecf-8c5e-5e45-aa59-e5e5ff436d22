@@ -1,0 +1,399 @@
+{
+  "id": "marc:001:in00028896194",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028896194",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028896194",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "LCCN",
+      "value": " 55010314 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6285662"
+    },
+    {
+      "type": "Local",
+      "value": "9910848782702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Aeschylus ; Sophocles ; Euripides ; Aristophanes.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Cookson, G. M.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Jebb, R. C.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Coleridge, Edward P.",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Rogers, Benjamin Bickley,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Aeschylus.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sophocles.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aristophanes.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aeschylus.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aeschylus.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aeschylus.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aeschylus.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aeschylus.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aeschylus.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aeschylus.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aeschylus.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sophocles.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sophocles.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sophocles.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sophocles.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sophocles.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sophocles.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sophocles.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sophocles.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Euripides.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aristophanes.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aristophanes.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aristophanes.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aristophanes.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aristophanes.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aristophanes.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aristophanes.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aristophanes.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aristophanes.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aristophanes.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Aristophanes.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "grc"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopaedia Britannica, Inc.,"
+    ],
+    "date": "[1952]",
+    "year": 1952,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "ix, 649 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Comedies.",
+      "type": "topical"
+    },
+    {
+      "value": "Comedy plays.",
+      "type": "topical"
+    },
+    {
+      "value": "Drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Greece",
+      "type": "topical"
+    },
+    {
+      "value": "Greece.",
+      "type": "topical"
+    },
+    {
+      "value": "LIterature",
+      "type": "topical"
+    },
+    {
+      "value": "Mythological plays.",
+      "type": "topical"
+    },
+    {
+      "value": "Mythology, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Mythology, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Tragedies (Drama)",
+      "type": "topical"
+    },
+    {
+      "value": "Tragedies.",
+      "type": "topical"
+    },
+    {
+      "value": "tragedies.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western World ;",
+      "numbering": "5"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "5."
+    }
+  ]
+}

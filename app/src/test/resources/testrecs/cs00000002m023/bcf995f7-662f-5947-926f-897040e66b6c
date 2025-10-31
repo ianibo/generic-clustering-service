@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00027203658",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027203658",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027203658",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:08Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:08Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Other",
+      "value": "B6423484"
+    },
+    {
+      "type": "LCCN",
+      "value": " 65008313 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1157572"
+    },
+    {
+      "type": "Local",
+      "value": "9910733927202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Devlin, Denis,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Coffey, Brian,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Dublin]"
+    ],
+    "publisher": [
+      "Dolmen Press"
+    ],
+    "date": "[©1964]",
+    "year": 1964,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "xxiv, 132 pages",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Coffey, Brian,",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)558081343",
+      "Collected poems."
+    ]
+  }
+}

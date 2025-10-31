@@ -1,0 +1,85 @@
+{
+  "id": "marc:001:in00028197170",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028197170",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028197170",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:18Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:18Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)3950389"
+    },
+    {
+      "type": "Local",
+      "value": "9910488795402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Works.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hood, Thomas,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hood, Tom,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Broderip, Frances Freeling,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Hildesheim,",
+      "New York,"
+    ],
+    "publisher": [
+      "G. Olms,"
+    ],
+    "date": "1969-1970.",
+    "year": 1969,
+    "countryCode": "gw "
+  },
+  "physical": {
+    "extent": "11 volumes",
+    "illustrations": "illustrations",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "Anglistica and Americana,",
+      "numbering": "36"
+    },
+    {
+      "title": "Anglistica & Americana ;",
+      "numbering": "36."
+    }
+  ]
+}

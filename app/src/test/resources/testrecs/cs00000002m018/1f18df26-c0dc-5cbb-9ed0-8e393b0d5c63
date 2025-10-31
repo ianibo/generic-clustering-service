@@ -1,0 +1,136 @@
+{
+  "id": "marc:001:in00026825579",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026825579",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026825579",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0192508989"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780192508980"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)7423332"
+    },
+    {
+      "type": "Local",
+      "value": "9910542565102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "War and peace : a novel /",
+      "type": "main"
+    },
+    {
+      "value": "Voĭna i mir.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Maude, Louise,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Maude, Aylmer,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Oxford University,"
+    ],
+    "date": "1941.",
+    "year": 1941,
+    "countryCode": "b 0"
+  },
+  "physical": {
+    "extent": "3 volumes in 1 (xxviii, 564; xii, 564; viii, 563 pages) :",
+    "illustrations": "maps (some folded) ;",
+    "dimensions": "16 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1801-1825",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Napoleon",
+      "type": "topical"
+    },
+    {
+      "value": "Russia (Federation)",
+      "type": "topical"
+    },
+    {
+      "value": "War fiction.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The World's classics ;",
+      "numbering": "233"
+    },
+    {
+      "title": "World's classics ;",
+      "numbering": "233."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)586499019",
+      "War and peace."
+    ]
+  }
+}

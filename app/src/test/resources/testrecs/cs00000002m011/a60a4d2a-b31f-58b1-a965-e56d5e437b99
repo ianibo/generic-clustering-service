@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00026079105",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026079105",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026079105",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1557283516"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781557283511"
+    },
+    {
+      "type": "LCCN",
+      "value": " 94002576 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)29668410"
+    },
+    {
+      "type": "Local",
+      "value": "9910404740302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Fierce solitude : a life of John Gould Fletcher /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Johnson, Ben F.,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Fayetteville :"
+    ],
+    "publisher": [
+      "University of Arkansas Press,"
+    ],
+    "date": "1994.",
+    "year": 1994,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xv, 308 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Biography",
+      "type": "topical"
+    },
+    {
+      "value": "Fletcher, John Gould,",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The John Gould Fletcher series ;",
+      "numbering": "v. 6"
+    },
+    {
+      "title": "John Gould Fletcher series ;",
+      "numbering": "v. 6."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)624555970",
+      "Fierce solitude."
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": "marc:001:in00028534419",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028534419",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028534419",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0520069358"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780520069350"
+    },
+    {
+      "type": "ISBN",
+      "value": "0714529265"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780714529264"
+    },
+    {
+      "type": "ISBN",
+      "value": "0520069366"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780520069367"
+    },
+    {
+      "type": "LCCN",
+      "value": " 91007152 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)23141644"
+    },
+    {
+      "type": "Local",
+      "value": "9910117064102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Creeley, Robert,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Jellow, Barbara,",
+      "role": "book designer,",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Berkeley :"
+    ],
+    "publisher": [
+      "University of California Press,"
+    ],
+    "date": "©1991.",
+    "year": 1991,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "xxii, 366 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ]
+}

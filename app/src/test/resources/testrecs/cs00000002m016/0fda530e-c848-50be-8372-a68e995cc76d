@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00025982868",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025982868",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025982868",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:45Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:45Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0375405518"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780375405518"
+    },
+    {
+      "type": "LCCN",
+      "value": " 98055136 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)40543200"
+    },
+    {
+      "type": "Local",
+      "value": "9910565350702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hughes, Langston,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Roessel, David E.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Knopf,"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "252 pages ;",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "African Americans",
+      "type": "topical"
+    },
+    {
+      "value": "African Americans.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library pocket poets"
+    },
+    {
+      "title": "Everyman's library pocket poets."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607167671",
+      "Poems."
+    ]
+  }
+}

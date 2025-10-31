@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00029247025",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029247025",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029247025",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0030098904"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780030098901"
+    },
+    {
+      "type": "LCCN",
+      "value": " 59014521 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1238811"
+    },
+    {
+      "type": "Local",
+      "value": "9910881274902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Autobiography,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Franklin, Benjamin,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wecter, Dixon,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ziff, Larzer,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Franklin, Benjamin,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Rinehart"
+    ],
+    "date": "[1959]",
+    "year": 1959,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxiv, 293 pages",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Biographies",
+      "type": "topical"
+    },
+    {
+      "value": "Franklin, Benjamin,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Rinehart editions ;",
+      "numbering": "12"
+    },
+    {
+      "title": "Rinehart editions ;",
+      "numbering": "12."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)989967457",
+      "Autobiography."
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "marc:001:in00029600301",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029600301",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029600301",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0684839350"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)38307742"
+    },
+    {
+      "type": "Local",
+      "value": "(GUA)3004792"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)3004792-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910135843802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The collected works of W.B. Yeats /",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Yeats, W. B.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Finneran, Richard J.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Harper, George Mills.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "2nd ed."
+  },
+  "publication": {
+    "place": [
+      "New York, N.Y. :"
+    ],
+    "publisher": [
+      "Scribner,"
+    ],
+    "date": "c1997-",
+    "year": 1997,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "v. :",
+    "illustrations": "ill. ;",
+    "dimensions": "23 cm"
+  }
+}

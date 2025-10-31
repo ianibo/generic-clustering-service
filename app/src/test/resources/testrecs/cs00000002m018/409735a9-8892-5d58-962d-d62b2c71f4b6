@@ -1,0 +1,224 @@
+{
+  "id": "marc:001:gsuin00004477322",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004477322",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004477322",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0800142039"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780800142032"
+    },
+    {
+      "type": "ISBN",
+      "value": "0800181735"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780800181734"
+    },
+    {
+      "type": "Other",
+      "value": "4339601023"
+    },
+    {
+      "type": "Other",
+      "value": "4339659913"
+    },
+    {
+      "type": "Other",
+      "value": "043396010239"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)32679509"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)997806503402952"
+    },
+    {
+      "type": "Local",
+      "value": "997806503402952"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "01023"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little women /",
+      "type": "main"
+    },
+    {
+      "value": "Little women (Motion picture : 1994)",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Di Novi, Denise.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Armstrong, Gillian,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ryder, Winona,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Sarandon, Susan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Byrne, Gabriel,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Alvarado, Trini.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Mathis, Samantha.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Dunst, Kirsten,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Danes, Claire,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Alcott, Louisa May,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Columbia Pictures.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Columbia TriStar Home Video (Firm)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Culver City, Calif. :"
+    ],
+    "publisher": [
+      "Columbia TriStar Home Video,"
+    ],
+    "date": "1995, ©1994.",
+    "year": 1995,
+    "countryCode": "cau"
+  },
+  "physical": {
+    "extent": "1 videocassette (119 min.) :",
+    "illustrations": "sound, color ;",
+    "dimensions": "1/2 in.",
+    "contentType": "two-dimensional moving image",
+    "mediaType": "video",
+    "carrierType": "videocassette"
+  },
+  "subjects": [
+    {
+      "value": "1861-1865",
+      "type": "topical"
+    },
+    {
+      "value": "American Civil War (1861-1865)",
+      "type": "topical"
+    },
+    {
+      "value": "Drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Families",
+      "type": "topical"
+    },
+    {
+      "value": "Families.",
+      "type": "topical"
+    },
+    {
+      "value": "Feature films.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction films.",
+      "type": "topical"
+    },
+    {
+      "value": "Film adaptations.",
+      "type": "topical"
+    },
+    {
+      "value": "Historical films.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "March family (Fictitious characters)",
+      "type": "topical"
+    },
+    {
+      "value": "United States",
+      "type": "topical"
+    },
+    {
+      "value": "United States.",
+      "type": "topical"
+    },
+    {
+      "value": "Video recordings for the hearing impaired.",
+      "type": "topical"
+    },
+    {
+      "value": "Videocassettes.",
+      "type": "topical"
+    }
+  ]
+}

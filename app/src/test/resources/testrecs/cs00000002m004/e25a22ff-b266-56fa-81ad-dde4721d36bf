@@ -1,0 +1,99 @@
+{
+  "id": "marc:001:in00029070575",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029070575",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029070575",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:48Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:48Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)730061"
+    },
+    {
+      "type": "Local",
+      "value": "9910105060902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Trudeau, Edward Livingston,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "And New York,",
+      "Philadelphia"
+    ],
+    "publisher": [
+      "Lea & Febiger"
+    ],
+    "date": "[©1915]",
+    "year": 1915,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "322 pages",
+    "illustrations": "illustrations",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Adirondack Cottage Sanitarium (Saranac Lake, N.Y.)",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiography",
+      "type": "topical"
+    },
+    {
+      "value": "Saranac Laboratory",
+      "type": "topical"
+    },
+    {
+      "value": "Saranac Laboratory.",
+      "type": "topical"
+    },
+    {
+      "value": "Trudeau, Edward Livingston,",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary works)",
+      "type": "topical"
+    }
+  ]
+}

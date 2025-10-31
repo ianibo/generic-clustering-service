@@ -1,0 +1,131 @@
+{
+  "id": "marc:001:ugain00010178022",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "ugain00010178022",
+    "sourceRecordUri": "https://catalog.example.org/record/ugain00010178022",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:36Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:36Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 53009909 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3973620"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_UGA)9932106253902959"
+    },
+    {
+      "type": "Local",
+      "value": "9932106253902959"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The old curiosity shop /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Collins,"
+    ],
+    "date": "1953.",
+    "year": 1953,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "511 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Antique dealers",
+      "type": "topical"
+    },
+    {
+      "value": "Antique dealers.",
+      "type": "topical"
+    },
+    {
+      "value": "Compulsive gamblers",
+      "type": "topical"
+    },
+    {
+      "value": "Compulsive gamblers.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Grandparent and child",
+      "type": "topical"
+    },
+    {
+      "value": "Grandparent and child.",
+      "type": "topical"
+    },
+    {
+      "value": "Loss (Psychology)",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Collins New classics series-no. 473"
+    }
+  ]
+}

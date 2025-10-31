@@ -1,0 +1,85 @@
+{
+  "id": "marc:001:in00028805237",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028805237",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028805237",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:20Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:20Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 62001958 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3459527"
+    },
+    {
+      "type": "Local",
+      "value": "9910104069202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The teaching of English /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Quirk, Randolph,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Smith, A. H.",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Secker & Warburg,"
+    ],
+    "date": "1959.",
+    "year": 1959,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "192 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English language",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Communication Research Centre, University College, London. Studies in communications ;",
+      "numbering": "3"
+    }
+  ]
+}

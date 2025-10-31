@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:in00026924122",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026924122",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026924122",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:32Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:32Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0198118341"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780198118343"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2975069"
+    },
+    {
+      "type": "Local",
+      "value": "9911811641902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The poems of Sir Philip Sidney /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sidney, Philip,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ringler, William A.,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Oxford :"
+    ],
+    "publisher": [
+      "Clarendon Press,"
+    ],
+    "date": "1971.",
+    "year": 1971,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "lxx, 578 pages, 2 unnumbered leaves of plates :",
+    "illustrations": "diagrams, facsimile, portrait ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

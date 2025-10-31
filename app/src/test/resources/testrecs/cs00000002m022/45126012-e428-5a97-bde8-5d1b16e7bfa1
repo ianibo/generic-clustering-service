@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00029334442",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029334442",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029334442",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0375405518"
+    },
+    {
+      "type": "LCCN",
+      "value": " 98055136"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)41446120"
+    },
+    {
+      "type": "Local",
+      "value": "(Voyager)206074-middlegadb-Voyager"
+    },
+    {
+      "type": "Local",
+      "value": "9911367855602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Langston Hughes : poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hughes, Langston,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Roessel, David E.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Distributed by Random House,",
+      "Knopf :"
+    ],
+    "date": "1999.",
+    "year": 1999,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "252 p. ;",
+    "dimensions": "17 cm."
+  },
+  "subjects": [
+    {
+      "value": "African Americans",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library pocket poets"
+    },
+    {
+      "title": "Everyman's library pocket poets."
+    }
+  ]
+}

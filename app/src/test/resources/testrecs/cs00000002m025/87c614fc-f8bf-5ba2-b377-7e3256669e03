@@ -1,0 +1,88 @@
+{
+  "id": "marc:001:in00028404037",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028404037",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028404037",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:07Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:07Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "090528965X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780905289656"
+    },
+    {
+      "type": "LCCN",
+      "value": " 78324499 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4809001"
+    },
+    {
+      "type": "Local",
+      "value": "9910194078702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems [of] Joseph Chiari /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Chiari, Joseph.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Enitharmon Press,"
+    ],
+    "date": "1978.",
+    "year": 1978,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "xiv, 185 pages :",
+    "illustrations": "portrait ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)655090753",
+      "Collected poems [of] Joseph Chiari."
+    ]
+  }
+}

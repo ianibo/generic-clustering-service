@@ -1,0 +1,92 @@
+{
+  "id": "marc:001:in00030379120",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030379120",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030379120",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:48Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:48Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 23004350 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)407768"
+    },
+    {
+      "type": "Local",
+      "value": "9911150610602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Masefield, John,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London,"
+    ],
+    "publisher": [
+      "W. Heinemann,"
+    ],
+    "date": "1922.",
+    "year": 1922,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "viii, 223 pages",
+    "illustrations": "[1] pages frontispiece (portrait)",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Authors' autographs (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "Limitation statements (Publishing)",
+      "type": "topical"
+    },
+    {
+      "value": "Masefield, John,",
+      "type": "topical"
+    },
+    {
+      "value": "Poems",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)858192497",
+      "Selected poems."
+    ]
+  }
+}

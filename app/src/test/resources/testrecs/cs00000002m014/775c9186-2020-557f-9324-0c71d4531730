@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:in00030485804",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030485804",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030485804",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0785812814"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780785812814"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)46644408"
+    },
+    {
+      "type": "Local",
+      "value": "9911878700402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of Edgar Allan Poe /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Poe, Edgar Allan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lipkin, Lisa.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Edison, NJ :"
+    ],
+    "publisher": [
+      "Castle Books,"
+    ],
+    "date": "©2000.",
+    "year": 2000,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "201 pages ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Fantasy poetry, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ]
+}

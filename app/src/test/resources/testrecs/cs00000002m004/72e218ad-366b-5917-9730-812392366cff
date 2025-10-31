@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00030231815",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030231815",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030231815",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0821401122"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780821401125"
+    },
+    {
+      "type": "LCCN",
+      "value": " 71181687 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)681256"
+    },
+    {
+      "type": "Local",
+      "value": "9910007594102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems.",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Bosquet, Alain,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng",
+    "fre"
+  ],
+  "publication": {
+    "place": [
+      "[Athens] :"
+    ],
+    "publisher": [
+      "Ohio University Press,"
+    ],
+    "date": "[1973]",
+    "year": 1973,
+    "countryCode": "ohu"
+  },
+  "physical": {
+    "extent": "xi, 189 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Bosquet, Alain,",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Translations",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)614936052",
+      "Selected poems."
+    ]
+  }
+}

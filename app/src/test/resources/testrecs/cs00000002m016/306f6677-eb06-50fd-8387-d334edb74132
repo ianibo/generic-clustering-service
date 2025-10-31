@@ -1,0 +1,109 @@
+{
+  "id": "marc:001:in00029452721",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029452721",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029452721",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:22Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:22Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781904634393"
+    },
+    {
+      "type": "ISBN",
+      "value": "1904634397"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781904634560"
+    },
+    {
+      "type": "ISBN",
+      "value": "1904634567"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2008273085"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)132315755"
+    },
+    {
+      "type": "Local",
+      "value": "9910149655802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thwaite, Anthony.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chester Springs, PA :",
+      "London :"
+    ],
+    "publisher": [
+      "Distributed in the USA by Dufour Editions Inc.,",
+      "Enitharmon ;"
+    ],
+    "date": "2007.",
+    "year": 2007,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "445 pages ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)608144890",
+      "Collected poems."
+    ]
+  }
+}

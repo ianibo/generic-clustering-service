@@ -1,0 +1,102 @@
+{
+  "id": "marc:001:in00029127687",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029127687",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029127687",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:10Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:10Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 64018302 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)3567861"
+    },
+    {
+      "type": "Local",
+      "value": "9912101396002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Senghor, Léopold Sédar,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Reed, John.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wake, Clive.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "[1st American ed.]."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Atheneum,"
+    ],
+    "date": "1969, ©1964.",
+    "year": 1969,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "xix, 99 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Black people",
+      "type": "topical"
+    },
+    {
+      "value": "Europeans",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

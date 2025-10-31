@@ -1,0 +1,160 @@
+{
+  "id": "marc:001:in00028896192",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028896192",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028896192",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:35Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:35Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0852291639"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780852291634"
+    },
+    {
+      "type": "LCCN",
+      "value": " 55010325 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)12761615"
+    },
+    {
+      "type": "Local",
+      "value": "9910848782002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Copernican astronomy",
+      "type": "alternative"
+    },
+    {
+      "value": "Epitome of Copernican astronomy",
+      "type": "alternative"
+    },
+    {
+      "value": "Harmonies of the world",
+      "type": "alternative"
+    },
+    {
+      "value": "On the revolutions of the heavenly spheres",
+      "type": "alternative"
+    },
+    {
+      "value": "The almagest /",
+      "type": "main"
+    },
+    {
+      "value": "Almagest.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ptolemy,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Taliaferro, R. Catesby",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Wallis, Charles Glenn.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Copernicus, Nicolaus,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kepler, Johannes,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Kepler, Johannes,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Encyclopædia Britannica,"
+    ],
+    "date": "[©1952]",
+    "year": 1952,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xiv, 1085 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Astronomy",
+      "type": "topical"
+    },
+    {
+      "value": "Early works",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Mathematics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Great books of the Western World ;",
+      "numbering": "v. 16"
+    },
+    {
+      "title": "Great books of the Western world ;",
+      "numbering": "v. 16."
+    }
+  ]
+}

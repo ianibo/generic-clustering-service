@@ -1,0 +1,122 @@
+{
+  "id": "marc:001:in00029551497",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029551497",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029551497",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)6960780"
+    },
+    {
+      "type": "Local",
+      "value": "9910889019802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Gulliver's travels /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Swift, Jonathan,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Baltzer, Hans,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Moss, Elaine.",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Duell, Sloane and Pearce,"
+    ],
+    "date": "c1961.",
+    "year": 1961,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "175 pages :",
+    "illustrations": "color illustrations ;",
+    "dimensions": "31 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Gulliver, Lemuel",
+      "type": "topical"
+    },
+    {
+      "value": "Gulliver, Lemuel (Fictitious character)",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works.",
+      "type": "topical"
+    },
+    {
+      "value": "Satire.",
+      "type": "topical"
+    },
+    {
+      "value": "Satirical literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary",
+      "type": "topical"
+    },
+    {
+      "value": "Voyages, Imaginary.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607534000",
+      "Gulliver's travels."
+    ]
+  }
+}

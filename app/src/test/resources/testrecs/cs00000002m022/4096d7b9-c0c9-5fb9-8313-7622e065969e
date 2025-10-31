@@ -1,0 +1,136 @@
+{
+  "id": "marc:001:in00028072414",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028072414",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028072414",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:00Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:00Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0817216634"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780817216634"
+    },
+    {
+      "type": "LCCN",
+      "value": " 80015669 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6331149"
+    },
+    {
+      "type": "Local",
+      "value": "9911101683502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stewart, Diana,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Shaw, Charles,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Homer.",
+      "role": "author,",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Milwaukee :"
+    ],
+    "publisher": [
+      "Raintree Publishers,"
+    ],
+    "date": "©1981.",
+    "year": 1981,
+    "countryCode": "a j"
+  },
+  "physical": {
+    "extent": "47 pages :",
+    "illustrations": "color illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Achilles",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Juvenile works",
+      "type": "topical"
+    },
+    {
+      "value": "Mythology, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War.",
+      "type": "topical"
+    },
+    {
+      "value": "novels.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Raintree short classics"
+    },
+    {
+      "title": "Raintree short classics."
+    }
+  ]
+}

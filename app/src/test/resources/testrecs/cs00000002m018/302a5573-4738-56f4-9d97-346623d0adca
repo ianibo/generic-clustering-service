@@ -1,0 +1,139 @@
+{
+  "id": "marc:001:in00028858488",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028858488",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028858488",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780811220675"
+    },
+    {
+      "type": "ISBN",
+      "value": "0811220672"
+    },
+    {
+      "type": "Other",
+      "value": "40025926512"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2015045958"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)911364401"
+    },
+    {
+      "type": "Local",
+      "value": "9910481758602931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Confessions /",
+      "type": "main"
+    },
+    {
+      "value": "Iʻtirāfāt.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jābir, Rabīʻ,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Abu-Zeid, Kareem James,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "New Directions,"
+    ],
+    "date": "2016.",
+    "year": 2016,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "120 pages ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1975-1990",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Lebanon",
+      "type": "topical"
+    },
+    {
+      "value": "Lebanon.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Orphans",
+      "type": "topical"
+    },
+    {
+      "value": "Orphans.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "New Directions paperbook ;",
+      "numbering": "1329"
+    },
+    {
+      "title": "New Directions paperbook ;",
+      "numbering": "1329."
+    }
+  ]
+}

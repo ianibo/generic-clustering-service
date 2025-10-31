@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00027871467",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027871467",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027871467",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0802058027"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780802058027"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)21910511"
+    },
+    {
+      "type": "Local",
+      "value": "9910245657502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Complete poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Klein, A. M.",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Pollock, Zailig,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Toronto :"
+    ],
+    "publisher": [
+      "University of Toronto Press,"
+    ],
+    "date": "1990.",
+    "year": 1990,
+    "countryCode": "c b"
+  },
+  "physical": {
+    "extent": "2 volumes (li, xvi, 1115 pages) :",
+    "illustrations": "2 portraits ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Canadian poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Canadian poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Collected works of A.M. Klein"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)707050930",
+      "Complete poems."
+    ]
+  }
+}

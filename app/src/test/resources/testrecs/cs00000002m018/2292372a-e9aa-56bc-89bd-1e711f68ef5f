@@ -1,0 +1,120 @@
+{
+  "id": "marc:001:in00026287386",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026287386",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026287386",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0938626299"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780938626299"
+    },
+    {
+      "type": "ISBN",
+      "value": "0938626302"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780938626305"
+    },
+    {
+      "type": "LCCN",
+      "value": " 83024254 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)10274184"
+    },
+    {
+      "type": "Local",
+      "value": "9910243547402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ciardi, John,",
+      "role": "author.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Fayetteville :"
+    ],
+    "publisher": [
+      "University of Arkansas Press,"
+    ],
+    "date": "[1984]",
+    "year": 1984,
+    "countryCode": "aru"
+  },
+  "physical": {
+    "extent": "xi, 222 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)560745088",
+      "(OCoLC)607906166",
+      "Selected poems."
+    ]
+  }
+}

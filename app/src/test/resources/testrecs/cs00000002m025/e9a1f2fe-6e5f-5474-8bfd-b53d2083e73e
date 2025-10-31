@@ -1,0 +1,116 @@
+{
+  "id": "marc:001:in00027394899",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027394899",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027394899",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:42Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:42Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1887178635"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781887178631"
+    },
+    {
+      "type": "ISBN",
+      "value": "1582430381"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781582430386"
+    },
+    {
+      "type": "LCCN",
+      "value": " 98039929 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)39727760"
+    },
+    {
+      "type": "Local",
+      "value": "9910373027502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Analects /",
+      "type": "main"
+    },
+    {
+      "value": "Lun yu.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Confucius.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hinton, David,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Washington, D.C. :"
+    ],
+    "publisher": [
+      "Counterpoint,"
+    ],
+    "date": "©1998.",
+    "year": 1998,
+    "countryCode": "b b"
+  },
+  "physical": {
+    "extent": "xxxv, 252 pages :",
+    "illustrations": "map ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "China.",
+      "type": "topical"
+    },
+    {
+      "value": "Ethics",
+      "type": "topical"
+    },
+    {
+      "value": "Ethics.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)707399435",
+      "Analects."
+    ]
+  }
+}

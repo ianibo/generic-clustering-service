@@ -1,0 +1,152 @@
+{
+  "id": "marc:001:in00026634949",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026634949",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026634949",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0140430113"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140430110"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)13290305"
+    },
+    {
+      "type": "Local",
+      "value": "9910928848702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Jane Eyre /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Brontë, Charlotte,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Leavis, Q. D.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Harmondsworth, Middlesex, England :",
+      "New York, N.Y., U.S.A. :"
+    ],
+    "publisher": [
+      "Penguin Books ;",
+      "Viking Penguin,"
+    ],
+    "date": "[1985]",
+    "year": 1985,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "489 pages ;",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Bildungsromans.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Eyre, Jane",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "Governesses",
+      "type": "topical"
+    },
+    {
+      "value": "Governesses.",
+      "type": "topical"
+    },
+    {
+      "value": "Jane Eyre",
+      "type": "topical"
+    },
+    {
+      "value": "Love stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Man-woman relationships",
+      "type": "topical"
+    },
+    {
+      "value": "Man-woman relationships.",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs.",
+      "type": "topical"
+    },
+    {
+      "value": "Novels.",
+      "type": "topical"
+    },
+    {
+      "value": "Romance fiction.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin classics"
+    },
+    {
+      "title": "Penguin classics."
+    }
+  ]
+}

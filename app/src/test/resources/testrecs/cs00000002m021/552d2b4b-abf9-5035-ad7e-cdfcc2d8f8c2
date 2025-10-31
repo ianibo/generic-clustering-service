@@ -1,0 +1,133 @@
+{
+  "id": "marc:001:in00026080694",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026080694",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026080694",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "155728329X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781557283290"
+    },
+    {
+      "type": "LCCN",
+      "value": " 95039410 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)33407871"
+    },
+    {
+      "type": "Local",
+      "value": "9910425527902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected letters of John Gould Fletcher /",
+      "type": "main"
+    },
+    {
+      "value": "Correspondence.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fletcher, John Gould,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rudolph, Leighton.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Carpenter, Lucas.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Simpson, Ethel C.,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Fayetteville :"
+    ],
+    "publisher": [
+      "University of Arkansas Press,"
+    ],
+    "date": "1996.",
+    "year": 1996,
+    "countryCode": "a s"
+  },
+  "physical": {
+    "extent": "xxvii, 279 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "Fletcher, John Gould,",
+      "type": "topical"
+    },
+    {
+      "value": "Personal correspondence.",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American",
+      "type": "topical"
+    },
+    {
+      "value": "Poets, American.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "John Gould Fletcher series ;",
+      "numbering": "v. 7"
+    },
+    {
+      "title": "John Gould Fletcher series ;",
+      "numbering": "v. 7."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)604014406",
+      "Selected letters of John Gould Fletcher."
+    ]
+  }
+}

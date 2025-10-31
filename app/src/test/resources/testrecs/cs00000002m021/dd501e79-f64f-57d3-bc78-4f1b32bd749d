@@ -1,0 +1,81 @@
+{
+  "id": "marc:001:in00029234426",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029234426",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029234426",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 84100581 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)10948981"
+    },
+    {
+      "type": "Local",
+      "value": "9911122986502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of Sidney Lanier /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lanier, Sidney,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lanier, Mary Day.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[Birmingham, Ala.] :"
+    ],
+    "publisher": [
+      "Southern Living Gallery,"
+    ],
+    "date": "[1983, ©1884]",
+    "year": 1983,
+    "countryCode": "alu"
+  },
+  "physical": {
+    "extent": "xli, [i], 252 pages :",
+    "illustrations": "color portrait ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "series": [
+    {
+      "title": "The Southern classics library"
+    },
+    {
+      "title": "Southern classics library."
+    }
+  ]
+}

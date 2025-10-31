@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00028836891",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028836891",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028836891",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:14Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:14Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0374259089"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780374259082"
+    },
+    {
+      "type": "LCCN",
+      "value": " 64017912 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)248263"
+    },
+    {
+      "type": "Local",
+      "value": "9910740242402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems. /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Walcott, Derek.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "Farrar, Straus & Company"
+    ],
+    "date": "[1964]",
+    "year": 1964,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "x, 85 pages",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Caribbean poetry (English)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Saint Lucian poetry (English)",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)609455292",
+      "Selected poems."
+    ]
+  }
+}

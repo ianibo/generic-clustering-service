@@ -1,0 +1,96 @@
+{
+  "id": "marc:001:in00028554749",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028554749",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028554749",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:15Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:15Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)4533649"
+    },
+    {
+      "type": "Local",
+      "value": "9910924567402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Quentin Durward /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "P.F. Collier,"
+    ],
+    "date": "1902.",
+    "year": 1902,
+    "countryCode": "af "
+  },
+  "physical": {
+    "extent": "550 pages, 5 unnumbered leaves of plates :",
+    "illustrations": "illustrations ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1461-1483",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fictional Work",
+      "type": "topical"
+    },
+    {
+      "value": "France",
+      "type": "topical"
+    },
+    {
+      "value": "France.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "His The Waverley novels ;",
+      "numbering": "v. 16"
+    }
+  ]
+}

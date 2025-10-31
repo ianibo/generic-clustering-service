@@ -1,0 +1,74 @@
+{
+  "id": "marc:001:gsuin00004496581",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004496581",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004496581",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:28Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:28Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)6658272"
+    },
+    {
+      "type": "Local",
+      "value": "(GASU)3101245-gsudb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)9931012453402952"
+    },
+    {
+      "type": "Local",
+      "value": "9931012453402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Little Dorrit /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Macmillan and co., limited,"
+    ],
+    "date": "1899.",
+    "year": 1899,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xxx, 788 p. :",
+    "illustrations": "ill. ;",
+    "dimensions": "19 cm"
+  }
+}

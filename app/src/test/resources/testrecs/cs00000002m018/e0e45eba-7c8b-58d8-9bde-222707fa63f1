@@ -1,0 +1,166 @@
+{
+  "id": "marc:001:in00030111431",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030111431",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030111431",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:09Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:09Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "014043075X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140430752"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780140437423"
+    },
+    {
+      "type": "ISBN",
+      "value": "0140437428"
+    },
+    {
+      "type": "LCCN",
+      "value": " 72192922 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)850398"
+    },
+    {
+      "type": "Local",
+      "value": "9910538650802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The old curiosity shop /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Dickens, Charles,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Easson, Angus,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Andrews, Malcolm,",
+      "role": "writer of introduction.",
+      "kind": "person"
+    },
+    {
+      "name": "Cattermole, George,",
+      "role": "illustrator.",
+      "kind": "person"
+    },
+    {
+      "name": "Browne, Hablot Knight,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Harmondsworth,"
+    ],
+    "publisher": [
+      "Penguin,"
+    ],
+    "date": "1972.",
+    "year": 1972,
+    "countryCode": "ah "
+  },
+  "physical": {
+    "extent": "720 pages",
+    "illustrations": "illustrations, facsimile",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "Antique dealers",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Domestic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "English fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Gamblers",
+      "type": "topical"
+    },
+    {
+      "value": "Girls",
+      "type": "topical"
+    },
+    {
+      "value": "Grandfathers",
+      "type": "topical"
+    },
+    {
+      "value": "Grandparent and child",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Penguin English library"
+    },
+    {
+      "title": "Penguin English library."
+    }
+  ]
+}

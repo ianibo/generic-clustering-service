@@ -1,0 +1,80 @@
+{
+  "id": "marc:001:in00027456299",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027456299",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027456299",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:25Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:25Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1802905"
+    },
+    {
+      "type": "Local",
+      "value": "9911004739502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems of Sidney Lanier,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lanier, Sidney,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lanier, Mary (Day),",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Ward, William Hayes,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Athens,"
+    ],
+    "publisher": [
+      "University of Georgia Press,"
+    ],
+    "date": "[1944]",
+    "year": 1944,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "xli, 262 pages",
+    "illustrations": "portrait",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Lanier, Sidney,",
+      "type": "topical"
+    }
+  ]
+}

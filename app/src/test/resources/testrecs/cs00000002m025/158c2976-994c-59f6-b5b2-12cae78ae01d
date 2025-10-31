@@ -1,0 +1,80 @@
+{
+  "id": "marc:001:in00027965063",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027965063",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027965063",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)15453810"
+    },
+    {
+      "type": "Local",
+      "value": "9910523734302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Iliad of Homer /",
+      "type": "main"
+    },
+    {
+      "value": "Iliad.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Pope, Alexander,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Boston :"
+    ],
+    "publisher": [
+      "Edward Cotton,"
+    ],
+    "date": "1806",
+    "year": 1806,
+    "countryCode": " c "
+  },
+  "physical": {
+    "extent": "2 volumes",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microopaque"
+  },
+  "series": [
+    {
+      "title": "Early American imprints.",
+      "numbering": "no. 10584."
+    }
+  ]
+}

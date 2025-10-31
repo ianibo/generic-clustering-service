@@ -1,0 +1,142 @@
+{
+  "id": "marc:001:in00026991499",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026991499",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026991499",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:57Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:57Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)234309847"
+    },
+    {
+      "type": "Local",
+      "value": "9911231344002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Pendennis",
+      "type": "alternative"
+    },
+    {
+      "value": "Vanity fair : a novel without a hero /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thackeray, William Makepeace,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia :"
+    ],
+    "publisher": [
+      "Edwin S. Stuart,"
+    ],
+    "date": "[1859]",
+    "year": 1859,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "688 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1815",
+      "type": "topical"
+    },
+    {
+      "value": "Belgium",
+      "type": "topical"
+    },
+    {
+      "value": "British",
+      "type": "topical"
+    },
+    {
+      "value": "British.",
+      "type": "topical"
+    },
+    {
+      "value": "England",
+      "type": "topical"
+    },
+    {
+      "value": "England.",
+      "type": "topical"
+    },
+    {
+      "value": "Europe.",
+      "type": "topical"
+    },
+    {
+      "value": "Female friendship",
+      "type": "topical"
+    },
+    {
+      "value": "Female friendship.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "London (England)",
+      "type": "topical"
+    },
+    {
+      "value": "Married women",
+      "type": "topical"
+    },
+    {
+      "value": "Married women.",
+      "type": "topical"
+    },
+    {
+      "value": "Social classes",
+      "type": "topical"
+    },
+    {
+      "value": "Social classes.",
+      "type": "topical"
+    },
+    {
+      "value": "Waterloo, Battle of, Waterloo, Belgium, 1815",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Thackeray's complete works"
+    },
+    {
+      "title": "Thackeray's complete works."
+    }
+  ]
+}

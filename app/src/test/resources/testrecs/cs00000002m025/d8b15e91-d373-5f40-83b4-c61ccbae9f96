@@ -1,0 +1,120 @@
+{
+  "id": "marc:001:in00030401724",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030401724",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030401724",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0672614154"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780672614156"
+    },
+    {
+      "type": "LCCN",
+      "value": " 76055800 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2968200"
+    },
+    {
+      "type": "Local",
+      "value": "9910347619202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey of Homer /",
+      "type": "main"
+    },
+    {
+      "value": "Odyssey.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Rees, Ennis.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "1st ed."
+  },
+  "publication": {
+    "place": [
+      "Indianapolis :"
+    ],
+    "publisher": [
+      "Bobbs-Merrill Educational Pub.,"
+    ],
+    "date": "©1977.",
+    "year": 1977,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xviii, 416 pages ;",
+    "dimensions": "20 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek.",
+      "type": "topical"
+    },
+    {
+      "value": "Odysseus,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Library of liberal arts ;",
+      "numbering": "LLA 225"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647114884",
+      "Odyssey of Homer."
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "marc:001:in00026781404",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026781404",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026781404",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780822226871"
+    },
+    {
+      "type": "ISBN",
+      "value": "0822226871"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2016299189"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)861541271"
+    },
+    {
+      "type": "Local",
+      "value": "9910255126202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An Iliad /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Peterson, Lisa",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "O'Hare, Denis,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York, NY :"
+    ],
+    "publisher": [
+      "Dramatists Play Service, Inc.,"
+    ],
+    "date": "[2013]",
+    "year": 2013,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "55 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Achilles",
+      "type": "topical"
+    },
+    {
+      "value": "Drama",
+      "type": "topical"
+    },
+    {
+      "value": "Drama.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic poetry, Greek",
+      "type": "topical"
+    },
+    {
+      "value": "Trojan War",
+      "type": "topical"
+    }
+  ]
+}

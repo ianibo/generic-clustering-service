@@ -1,0 +1,64 @@
+{
+  "id": "marc:001:in00028404381",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028404381",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028404381",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "ocm03190414"
+    },
+    {
+      "type": "Local",
+      "value": "(GVaS)250736-valdostadb"
+    },
+    {
+      "type": "Local",
+      "value": "9911062102002931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Yeats, W. B.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York:"
+    ],
+    "publisher": [
+      "Macmillan,"
+    ],
+    "date": "1921.",
+    "year": 1921,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "308 p. ;",
+    "dimensions": "20 cm"
+  }
+}

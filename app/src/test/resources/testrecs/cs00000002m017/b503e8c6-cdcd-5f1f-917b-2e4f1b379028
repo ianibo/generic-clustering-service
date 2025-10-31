@@ -1,0 +1,111 @@
+{
+  "id": "marc:001:in00030167494",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030167494",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030167494",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:46Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:46Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1907593209"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781907593208"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2011514806"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)714731398"
+    },
+    {
+      "type": "Local",
+      "value": "9911300958102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "New and selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Higgins, Michael D.,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chester Springs :",
+      "Dublin :"
+    ],
+    "publisher": [
+      "Distributed in the U.S. by Dufour,",
+      "Liberties Press ;"
+    ],
+    "date": "2011.",
+    "year": 2011,
+    "countryCode": "000"
+  },
+  "physical": {
+    "extent": "180 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Authors' autographs (Provenance)",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Ireland",
+      "type": "topical"
+    },
+    {
+      "value": "Ireland.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "marc:001:in00026829381",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026829381",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026829381",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)9259450"
+    },
+    {
+      "type": "Local",
+      "value": "9910146834302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "A woman of no importance /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wilde, Oscar,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "J. Lane,"
+    ],
+    "date": "1894.",
+    "year": 1894,
+    "countryCode": " c "
+  },
+  "physical": {
+    "extent": "[xiv], 154 pages",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microopaque"
+  },
+  "subjects": [
+    {
+      "value": "1894,",
+      "type": "topical"
+    },
+    {
+      "value": "Einstein, Milton I. D.,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "English and American drama of the nineteenth century."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)1027792918",
+      "Woman of no importance."
+    ]
+  }
+}

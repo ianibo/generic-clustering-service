@@ -1,0 +1,160 @@
+{
+  "id": "marc:001:in00029187203",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029187203",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029187203",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:38Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:38Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780691219295"
+    },
+    {
+      "type": "ISBN",
+      "value": "069121929X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691219301"
+    },
+    {
+      "type": "ISBN",
+      "value": "0691219303"
+    },
+    {
+      "type": "Other",
+      "value": "40031251188"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2020947863"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1317831753"
+    },
+    {
+      "type": "Local",
+      "value": "9923682473702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Auden, W. H.",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Mendelson, Edward,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Princeton :"
+    ],
+    "publisher": [
+      "Princeton University Press,"
+    ],
+    "date": "[2022]",
+    "year": 2022,
+    "countryCode": "nju"
+  },
+  "physical": {
+    "extent": "2 volumes :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1900-1999",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "American prose literature",
+      "type": "topical"
+    },
+    {
+      "value": "American prose literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Auden, W. H.",
+      "type": "topical"
+    },
+    {
+      "value": "English letters",
+      "type": "topical"
+    },
+    {
+      "value": "English letters.",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "English prose literature",
+      "type": "topical"
+    },
+    {
+      "value": "English prose literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The complete works of W.H. Auden"
+    }
+  ]
+}

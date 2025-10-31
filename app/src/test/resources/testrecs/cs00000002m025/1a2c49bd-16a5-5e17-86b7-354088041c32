@@ -1,0 +1,78 @@
+{
+  "id": "marc:001:in00026741452",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026741452",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026741452",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:12Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:12Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "nuc87747609 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)18137437"
+    },
+    {
+      "type": "Local",
+      "value": "9910365840802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Thompson, Maurice,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Boston,",
+      "New York,"
+    ],
+    "publisher": [
+      "Houghton, Mifflin,"
+    ],
+    "date": "1892.",
+    "year": 1892,
+    "countryCode": " c "
+  },
+  "physical": {
+    "extent": "vii, 216 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microopaque"
+  },
+  "series": [
+    {
+      "title": "Nineteenth century American literature."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(DLC) 12039398"
+    ]
+  }
+}

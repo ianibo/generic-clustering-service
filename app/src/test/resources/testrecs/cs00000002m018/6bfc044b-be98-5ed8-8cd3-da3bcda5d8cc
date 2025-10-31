@@ -1,0 +1,103 @@
+{
+  "id": "marc:001:in00027071061",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027071061",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027071061",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0691043434"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780691043432"
+    },
+    {
+      "type": "LCCN",
+      "value": " 94040896 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)31517631"
+    },
+    {
+      "type": "Local",
+      "value": "9910737651802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Verse plays and epic /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Goethe, Johann Wolfgang von,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Hamlin, Cyrus.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ryder, Frank G.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Princeton, N.J. :"
+    ],
+    "publisher": [
+      "Princeton University Press,"
+    ],
+    "date": "1995.",
+    "year": 1995,
+    "countryCode": "nju"
+  },
+  "physical": {
+    "extent": "xi, 318 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Goethe, Johann Wolfgang von,",
+      "type": "topical"
+    },
+    {
+      "value": "Translations.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Princeton paperbacks"
+    }
+  ]
+}

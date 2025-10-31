@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:in00028044520",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028044520",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028044520",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:53Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:53Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "sn 85022186 "
+    },
+    {
+      "type": "Local",
+      "value": "(GUA)4116579"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)4116579-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)4225233"
+    },
+    {
+      "type": "Local",
+      "value": "9910510206502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The rambler.",
+      "type": "main"
+    },
+    {
+      "value": "Rambler (London, England : 1750)",
+      "type": "uniform"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "W. Suttaby,"
+    ],
+    "date": "1809.",
+    "year": 1809,
+    "countryCode": "miu"
+  },
+  "physical": {
+    "extent": "208 volumes :",
+    "illustrations": "illustrations",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "Great Britain",
+      "type": "topical"
+    },
+    {
+      "value": "Great Britain.",
+      "type": "topical"
+    },
+    {
+      "value": "Intellectual life.",
+      "type": "topical"
+    },
+    {
+      "value": "Periodicals.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "Rambler (London, England : 1750)"
+    ]
+  }
+}

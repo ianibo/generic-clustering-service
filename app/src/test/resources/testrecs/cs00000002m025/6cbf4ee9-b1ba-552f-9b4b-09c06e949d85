@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00028058524",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028058524",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028058524",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:11:13Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:11:13Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0787999458"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780787999452"
+    },
+    {
+      "type": "LCCN",
+      "value": " 87646993 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)33296649"
+    },
+    {
+      "type": "Local",
+      "value": "9910325227202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The growth and specialization of emergency psychiatry /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Allen, Michael H.,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "San Francisco :"
+    ],
+    "publisher": [
+      "Jossey-Bass,"
+    ],
+    "date": "©1995.",
+    "year": 1995,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "124 pages ;",
+    "dimensions": "23 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Crisis Intervention",
+      "type": "topical"
+    },
+    {
+      "value": "Crisis intervention (Mental health services)",
+      "type": "topical"
+    },
+    {
+      "value": "Emergency Services, Psychiatric",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "New directions for mental health services"
+    },
+    {
+      "title": "New directions for mental health services."
+    }
+  ]
+}

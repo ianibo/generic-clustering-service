@@ -1,0 +1,73 @@
+{
+  "id": "marc:001:in00029464803",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029464803",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029464803",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:11Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:11Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 22009517 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2140676"
+    },
+    {
+      "type": "Local",
+      "value": "9910166875302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Shakespeare, William,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[London]"
+    ],
+    "publisher": [
+      "T. Evans"
+    ],
+    "date": "[1775]",
+    "year": 1775,
+    "countryCode": "c 0"
+  },
+  "physical": {
+    "extent": "3 preliminary leaves, [vi]-viii, 250 pages",
+    "dimensions": "18 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)647656512",
+      "Poems."
+    ]
+  }
+}

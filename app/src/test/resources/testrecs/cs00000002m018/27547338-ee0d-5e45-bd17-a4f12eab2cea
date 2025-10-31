@@ -1,0 +1,115 @@
+{
+  "id": "marc:001:in00029417319",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029417319",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029417319",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "087220717X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780872207172"
+    },
+    {
+      "type": "ISBN",
+      "value": "0872207188"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780872207189"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2004021245"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)56590911"
+    },
+    {
+      "type": "Local",
+      "value": "9910057365302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Pensées /",
+      "type": "main"
+    },
+    {
+      "value": "Pensées.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pascal, Blaise,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Ariew, Roger.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Indianapolis, IN :"
+    ],
+    "publisher": [
+      "Hackett Pub. Co.,"
+    ],
+    "date": "©2005.",
+    "year": 2005,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xix, 328 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Apologetics.",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy",
+      "type": "topical"
+    },
+    {
+      "value": "Philosophy.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)607557112",
+      "Pensées."
+    ]
+  }
+}

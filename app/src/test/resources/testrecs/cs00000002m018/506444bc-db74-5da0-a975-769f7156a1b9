@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00026304787",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026304787",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026304787",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "1854771752"
+    },
+    {
+      "type": "ISBN",
+      "value": "9781854771759"
+    },
+    {
+      "type": "LCCN",
+      "value": " 94022012 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)30665695"
+    },
+    {
+      "type": "Local",
+      "value": "9910142931902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Baillie, Joanna,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :",
+      "Oxford [England] ;"
+    ],
+    "publisher": [
+      "Woodstock Books,"
+    ],
+    "date": "1994.",
+    "year": 1994,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "179 pages ;",
+    "dimensions": "21 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Revolution and romanticism, 1789-1834"
+    },
+    {
+      "title": "Revolution and romanticism, 1789-1834."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)622747522",
+      "Poems."
+    ]
+  }
+}

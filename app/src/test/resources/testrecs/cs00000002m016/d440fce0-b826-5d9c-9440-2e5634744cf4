@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:in00028024210",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028024210",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028024210",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0099723506"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780099723509"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)26355963"
+    },
+    {
+      "type": "Local",
+      "value": "9925110711302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Yeats, W. B.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Martin, Augustine.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :"
+    ],
+    "publisher": [
+      "Vintage,"
+    ],
+    "date": "1992.",
+    "year": 1992,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xxxi, 544 pages ;",
+    "dimensions": "20 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1800-1999",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry",
+      "type": "topical"
+    },
+    {
+      "value": "English poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Yeats, W. B. (William Butler)",
+      "type": "topical"
+    }
+  ]
+}

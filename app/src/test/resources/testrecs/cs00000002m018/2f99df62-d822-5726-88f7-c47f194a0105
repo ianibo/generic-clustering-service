@@ -1,0 +1,110 @@
+{
+  "id": "marc:001:in00028175357",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028175357",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028175357",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:47Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:47Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 61009293 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1494308"
+    },
+    {
+      "type": "Local",
+      "value": "9910382438902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Seferis, George,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Warner, Rex,",
+      "role": "translator.",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "edition": {
+    "statement": "[1st American ed.]."
+  },
+  "publication": {
+    "place": [
+      "Boston,"
+    ],
+    "publisher": [
+      "Little, Brown"
+    ],
+    "date": "[1960]",
+    "year": 1960,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "127 pages",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry as Topic",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Atlantic monthly press book"
+    },
+    {
+      "title": "Atlantic monthly press book."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)654803460",
+      "Poems."
+    ]
+  }
+}

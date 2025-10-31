@@ -1,0 +1,108 @@
+{
+  "id": "marc:001:in00028091051",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028091051",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028091051",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:17Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:17Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780674063440"
+    },
+    {
+      "type": "ISBN",
+      "value": "0674063449"
+    },
+    {
+      "type": "Other",
+      "value": "40028125061"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2016045715"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)960905810"
+    },
+    {
+      "type": "Local",
+      "value": "9915190339502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Engonopoulos, Nikos,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Connolly, David,",
+      "role": "translator,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "Cambridge, Massachusetts :"
+    ],
+    "publisher": [
+      "Distributed by Harvard University Press,",
+      "Harvard University, Department of the Classics :"
+    ],
+    "date": "2016.",
+    "year": 2016,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "lxxi, 311 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Engonopoulos, Nikos,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Harvard early modern and modern Greek library ;",
+      "numbering": "III"
+    },
+    {
+      "title": "Harvard Early Modern and Modern Greek Library ;",
+      "numbering": "3."
+    }
+  ]
+}

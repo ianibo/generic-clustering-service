@@ -1,0 +1,91 @@
+{
+  "id": "marc:001:in00030049469",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030049469",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030049469",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:59Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:59Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)5859378"
+    },
+    {
+      "type": "Local",
+      "value": "9911613064502931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected works /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Lenin, Vladimir Ilʹich,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Institut marksizma-leninizma (Moscow, Russia)",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "edition": {
+    "statement": "4th ed.",
+    "number": "enl. Russian ed."
+  },
+  "publication": {
+    "place": [
+      "Moscow :"
+    ],
+    "publisher": [
+      "Progress Publishers,"
+    ],
+    "date": "1977 [1960]",
+    "year": 1977,
+    "countryCode": "ach"
+  },
+  "physical": {
+    "extent": "45 volumes :",
+    "illustrations": "illustrations, facsimiles ;",
+    "dimensions": "21 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Communism",
+      "type": "topical"
+    },
+    {
+      "value": "Dialectical materialism",
+      "type": "topical"
+    },
+    {
+      "value": "History",
+      "type": "topical"
+    },
+    {
+      "value": "Sources",
+      "type": "topical"
+    }
+  ]
+}

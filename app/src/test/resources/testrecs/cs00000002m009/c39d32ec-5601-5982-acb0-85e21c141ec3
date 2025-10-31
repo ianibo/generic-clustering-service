@@ -1,0 +1,121 @@
+{
+  "id": "marc:001:in00029445803",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029445803",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029445803",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:44Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:44Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 32026577 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1577047"
+    },
+    {
+      "type": "Local",
+      "value": "9910014671702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems of Elinor Wylie.",
+      "type": "main"
+    },
+    {
+      "value": "Poems",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wylie, Elinor,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Benét, William Rose,",
+      "role": "editor.",
+      "kind": "person"
+    },
+    {
+      "name": "Alfred A. Knopf, Inc.,",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "edition": {
+    "statement": "First edition."
+  },
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Alfred A. Knopf,"
+    ],
+    "date": "1932.",
+    "year": 1932,
+    "countryCode": "ch "
+  },
+  "physical": {
+    "extent": "xviii, 311 pages :",
+    "illustrations": "portraits, facsimiles ;",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "Publishers' advertisements.",
+      "type": "topical"
+    },
+    {
+      "value": "Typefaces (Type evidence)",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)580672923",
+      "Collected poems of Elinor Wylie."
+    ]
+  }
+}

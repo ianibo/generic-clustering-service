@@ -1,0 +1,94 @@
+{
+  "id": "marc:001:gsuin00004477022",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsuin00004477022",
+    "sourceRecordUri": "https://catalog.example.org/record/gsuin00004477022",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:21Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:21Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)1059304"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GSU)992927193402952"
+    },
+    {
+      "type": "Local",
+      "value": "992927193402952"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Capital /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Marx, Karl,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Cole, G. D. H.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London :",
+      "New York :"
+    ],
+    "publisher": [
+      "Dent ;",
+      "Dutton,"
+    ],
+    "date": "[1957]",
+    "year": 1957,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "2 volumes (paged continuously) ;",
+    "dimensions": "19 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Capital.",
+      "type": "topical"
+    },
+    {
+      "value": "Economics.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no. 848-849"
+    },
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no. 848-849."
+    }
+  ]
+}

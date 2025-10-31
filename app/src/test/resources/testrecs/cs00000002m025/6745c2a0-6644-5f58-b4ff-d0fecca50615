@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:in00029218986",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00029218986",
+    "sourceRecordUri": "https://catalog.example.org/record/in00029218986",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:58Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:58Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)2219693"
+    },
+    {
+      "type": "Local",
+      "value": "9910117785902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Parker, Henry W.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Auburn :"
+    ],
+    "publisher": [
+      "J.M. Alden,"
+    ],
+    "date": "1850.",
+    "year": 1850,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "238 pages",
+    "contentType": "text",
+    "mediaType": "microform",
+    "carrierType": "microfilm reel"
+  },
+  "subjects": [
+    {
+      "value": "1800-1899",
+      "type": "topical"
+    },
+    {
+      "value": "American literature",
+      "type": "topical"
+    },
+    {
+      "value": "American literature.",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry",
+      "type": "topical"
+    },
+    {
+      "value": "American poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "New York (State)",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry, Modern",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry, Modern.",
+      "type": "topical"
+    },
+    {
+      "value": "Printing",
+      "type": "topical"
+    },
+    {
+      "value": "Printing.",
+      "type": "topical"
+    },
+    {
+      "value": "Specimens.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Wright American fiction ;",
+      "numbering": "v. 1, no. 1990."
+    }
+  ]
+}

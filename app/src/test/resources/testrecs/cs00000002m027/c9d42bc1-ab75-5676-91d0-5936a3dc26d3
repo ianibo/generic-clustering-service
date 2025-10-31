@@ -1,0 +1,114 @@
+{
+  "id": "marc:001:in00028806774",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00028806774",
+    "sourceRecordUri": "https://catalog.example.org/record/in00028806774",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:08:52Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:08:52Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": "a 40001933 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)358876"
+    },
+    {
+      "type": "Local",
+      "value": "9910003402202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The moonstone,",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Collins, Wilkie,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Eliot, T. S.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[London]"
+    ],
+    "publisher": [
+      "Oxford University Press, H. Milford"
+    ],
+    "date": "[1928]",
+    "year": 1928,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "xx, 522, [1] pages",
+    "dimensions": "16 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Detective and mystery fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Detective and mystery fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Detective and mystery stories, English",
+      "type": "topical"
+    },
+    {
+      "value": "Detective and mystery stories, English.",
+      "type": "topical"
+    },
+    {
+      "value": "Mystery and detective fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Mystery fiction.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The world's classics,",
+      "numbering": "CCXVI"
+    },
+    {
+      "title": "World's classics ;",
+      "numbering": "CCXVI."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)588907473",
+      "Moonstone."
+    ]
+  }
+}

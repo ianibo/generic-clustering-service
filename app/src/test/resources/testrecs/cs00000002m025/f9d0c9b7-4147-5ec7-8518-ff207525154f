@@ -1,0 +1,124 @@
+{
+  "id": "marc:001:in00025986631",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00025986631",
+    "sourceRecordUri": "https://catalog.example.org/record/in00025986631",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:39Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:39Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "067940998X"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780679409984"
+    },
+    {
+      "type": "LCCN",
+      "value": " 91053194 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)25318647"
+    },
+    {
+      "type": "Local",
+      "value": "9910311997102931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Confessions /",
+      "type": "main"
+    },
+    {
+      "value": "Confessions.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rousseau, Jean-Jacques,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "Knopf,"
+    ],
+    "date": "©1992.",
+    "year": 1992,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xli, 320, 306 pages ;",
+    "dimensions": "22 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1700-1799",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, French",
+      "type": "topical"
+    },
+    {
+      "value": "Authors, French.",
+      "type": "topical"
+    },
+    {
+      "value": "Biographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Rousseau, Jean-Jacques,",
+      "type": "topical"
+    },
+    {
+      "value": "collective biographies.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Everyman's library ;",
+      "numbering": "84"
+    },
+    {
+      "title": "Everyman's library ;",
+      "numbering": "no. 84."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)623321742",
+      "Confessions."
+    ]
+  }
+}

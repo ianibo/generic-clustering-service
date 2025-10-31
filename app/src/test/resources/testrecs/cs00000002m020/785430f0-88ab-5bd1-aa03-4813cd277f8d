@@ -1,0 +1,68 @@
+{
+  "id": "marc:001:gscin00000197326",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gscin00000197326",
+    "sourceRecordUri": "https://catalog.example.org/record/gscin00000197326",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:16Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:16Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "ocm04645261"
+    },
+    {
+      "type": "Local",
+      "value": "(GBG)35140-gordondb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GORDON)99351404102953"
+    },
+    {
+      "type": "Local",
+      "value": "99351404102953"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Odyssey of Homer.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Homer.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "[New York]"
+    ],
+    "publisher": [
+      "The Macmillan Company"
+    ],
+    "date": "[c1930]",
+    "year": 1930,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "373 p.",
+    "dimensions": "17 cm"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "marc:001:gsouin00002294055",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "gsouin00002294055",
+    "sourceRecordUri": "https://catalog.example.org/record/gsouin00002294055",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:05Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:05Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0679433740"
+    },
+    {
+      "type": "Local",
+      "value": "(GSaAAS)75943-armstrongdb"
+    },
+    {
+      "type": "Local",
+      "value": "(01GALI_GASOUTH)9916096900402950"
+    },
+    {
+      "type": "Local",
+      "value": "9916096900402950"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Paradise.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Toni Morrison.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st."
+  },
+  "publication": {
+    "publisher": [
+      "Alfred A. Knopf."
+    ],
+    "date": "1998",
+    "year": 1998
+  }
+}

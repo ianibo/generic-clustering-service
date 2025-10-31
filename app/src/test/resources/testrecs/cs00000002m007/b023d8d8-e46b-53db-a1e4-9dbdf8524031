@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00027546890",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027546890",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027546890",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:30Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:30Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0674677013"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780674677012"
+    },
+    {
+      "type": "LCCN",
+      "value": " 55008623 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)6806199"
+    },
+    {
+      "type": "Local",
+      "value": "9910538357302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems.",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jonson, Ben,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Johnston, George Burke,",
+      "role": "editor.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Cambridge,"
+    ],
+    "publisher": [
+      "Harvard University Press"
+    ],
+    "date": "[1975, ©1954]",
+    "year": 1975,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "liv, 353 pages",
+    "dimensions": "17 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Johnston, George Burke,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "The Muses' library"
+    },
+    {
+      "title": "Muses' library."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)987913106",
+      "Poems."
+    ]
+  }
+}

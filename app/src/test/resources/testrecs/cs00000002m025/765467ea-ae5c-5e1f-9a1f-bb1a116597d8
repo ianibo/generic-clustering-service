@@ -1,0 +1,91 @@
+{
+  "id": "marc:001:in00026150384",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026150384",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026150384",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:13:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:13:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0856356212"
+    },
+    {
+      "type": "LCCN",
+      "value": " 86206565 "
+    },
+    {
+      "type": "Local",
+      "value": "ocm17441282"
+    },
+    {
+      "type": "Local",
+      "value": "(GU)1068786-ugadb"
+    },
+    {
+      "type": "Local",
+      "value": "9910209451702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Selected poetry /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Crabbe, George,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Poster, Jem.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Ashington, Northumberland :",
+      "Manchester :"
+    ],
+    "publisher": [
+      "Carcanet ;",
+      "MidNAG,"
+    ],
+    "date": "1986.",
+    "year": 1986,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "168 p. ;",
+    "dimensions": "20 cm."
+  },
+  "series": [
+    {
+      "title": "Fyfield books"
+    },
+    {
+      "title": "Fyfield books."
+    }
+  ]
+}

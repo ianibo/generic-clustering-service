@@ -1,0 +1,106 @@
+{
+  "id": "marc:001:in00030294524",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030294524",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030294524",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:41Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:41Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 15027954 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1351733"
+    },
+    {
+      "type": "Local",
+      "value": "9910998285402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "An autobiography /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Trudeau, Edward Livingston,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Lea & Febiger,",
+      "role": "publisher.",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Philadelphia and New York :"
+    ],
+    "publisher": [
+      "Lea & Febiger,"
+    ],
+    "date": "1916.",
+    "year": 1916,
+    "countryCode": "pau"
+  },
+  "physical": {
+    "extent": "322 pages, 14 unnumbered leaves of plates :",
+    "illustrations": "illustrations, portraits, plates ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Autobiographies.",
+      "type": "topical"
+    },
+    {
+      "value": "Autobiography",
+      "type": "topical"
+    },
+    {
+      "value": "Physicians",
+      "type": "topical"
+    },
+    {
+      "value": "Trudeau, Edward Livingston,",
+      "type": "topical"
+    },
+    {
+      "value": "Tuberculosis",
+      "type": "topical"
+    },
+    {
+      "value": "autobiographies (literary genre)",
+      "type": "topical"
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)599673961",
+      "(OCoLC)608347238",
+      "Autobiography."
+    ]
+  }
+}

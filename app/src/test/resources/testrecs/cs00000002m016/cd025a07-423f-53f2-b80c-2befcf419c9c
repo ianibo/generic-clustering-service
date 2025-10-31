@@ -1,0 +1,95 @@
+{
+  "id": "marc:001:in00027840409",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027840409",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027840409",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:29Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:29Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "Local",
+      "value": "(OCoLC)7376243"
+    },
+    {
+      "type": "Local",
+      "value": "9910817462902931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The bride of Lammermoor /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Scott, Walter,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "London ;",
+      "New York :"
+    ],
+    "publisher": [
+      "Oxford University Press,"
+    ],
+    "date": "1909.",
+    "year": 1909,
+    "countryCode": "a 0"
+  },
+  "physical": {
+    "extent": "xvi, 419 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "19 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1689-1745",
+      "type": "topical"
+    },
+    {
+      "value": "Arranged marriage",
+      "type": "topical"
+    },
+    {
+      "value": "Arranged marriage.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "History.",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland",
+      "type": "topical"
+    },
+    {
+      "value": "Scotland.",
+      "type": "topical"
+    }
+  ]
+}

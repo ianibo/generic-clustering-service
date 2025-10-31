@@ -1,0 +1,100 @@
+{
+  "id": "marc:001:in00027910937",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027910937",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027910937",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:19Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:19Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9781930630314"
+    },
+    {
+      "type": "ISBN",
+      "value": "193063031X"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)86082616"
+    },
+    {
+      "type": "Local",
+      "value": "9910276198802931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Collected poems /",
+      "type": "main"
+    },
+    {
+      "value": "Poems.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Longley, Michael,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "edition": {
+    "statement": "1st American ed."
+  },
+  "publication": {
+    "place": [
+      "Winston-Salem, N.C. :"
+    ],
+    "publisher": [
+      "Wake Forest University Press,"
+    ],
+    "date": "2007.",
+    "year": 2007,
+    "countryCode": " 00"
+  },
+  "physical": {
+    "extent": "346 pages ;",
+    "dimensions": "22 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "2000-2099",
+      "type": "topical"
+    },
+    {
+      "value": "Irish poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry",
+      "type": "topical"
+    },
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ]
+}

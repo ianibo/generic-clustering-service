@@ -1,0 +1,182 @@
+{
+  "id": "marc:001:in00030355652",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030355652",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030355652",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:02Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:02Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0393044025"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780393044027"
+    },
+    {
+      "type": "LCCN",
+      "value": " 75020032 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)1934846"
+    },
+    {
+      "type": "Local",
+      "value": "9910025125302931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Moby-Dick, or, The whale /",
+      "type": "main"
+    },
+    {
+      "value": "Moby Dick",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Melville, Herman,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Jones, Howard Mumford,",
+      "role": "writer of added commentary",
+      "kind": "person"
+    },
+    {
+      "name": "Hayford, Harrison,",
+      "role": "writer of added text.",
+      "kind": "person"
+    },
+    {
+      "name": "Parker, Hershel,",
+      "role": "writer of added text.",
+      "kind": "person"
+    },
+    {
+      "name": "Chappell, Warren,",
+      "role": "illustrator.",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York :"
+    ],
+    "publisher": [
+      "W.W. Norton,"
+    ],
+    "date": "[1976]",
+    "year": 1976,
+    "countryCode": "a b"
+  },
+  "physical": {
+    "extent": "xix, 585 pages :",
+    "illustrations": "illustrations ;",
+    "dimensions": "25 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Action and adventure fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Action and adventure fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Adventure stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Ahab,",
+      "type": "topical"
+    },
+    {
+      "value": "Allegories",
+      "type": "topical"
+    },
+    {
+      "value": "Allegories.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Epic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Epic literature.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Sea fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Sea fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories, American",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories, American.",
+      "type": "topical"
+    },
+    {
+      "value": "Sea stories.",
+      "type": "topical"
+    },
+    {
+      "value": "Ship captains",
+      "type": "topical"
+    },
+    {
+      "value": "Whales",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling",
+      "type": "topical"
+    },
+    {
+      "value": "Whaling ships",
+      "type": "topical"
+    }
+  ]
+}

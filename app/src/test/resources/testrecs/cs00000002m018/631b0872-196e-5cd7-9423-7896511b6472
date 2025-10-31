@@ -1,0 +1,97 @@
+{
+  "id": "marc:001:in00026364655",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00026364655",
+    "sourceRecordUri": "https://catalog.example.org/record/in00026364655",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:14:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:14:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "LCCN",
+      "value": " 72187156 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)389260"
+    },
+    {
+      "type": "Local",
+      "value": "9910215416702931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Poems,",
+      "type": "main"
+    },
+    {
+      "value": "Works.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Drayton, Michael,",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "New York,"
+    ],
+    "publisher": [
+      "B. Franklin"
+    ],
+    "date": "[1967]",
+    "year": 1967,
+    "countryCode": "nyu"
+  },
+  "physical": {
+    "extent": "2 volumes (500 pages)",
+    "dimensions": "25 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "Poetry.",
+      "type": "topical"
+    },
+    {
+      "value": "poetry.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Burt Franklin research & source works series,",
+      "numbering": "150"
+    },
+    {
+      "title": "Publications of the Spenser Society ;",
+      "numbering": "no. 45-46."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)756436184",
+      "Poems."
+    ]
+  }
+}

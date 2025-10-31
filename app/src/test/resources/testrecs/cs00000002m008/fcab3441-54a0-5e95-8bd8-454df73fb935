@@ -1,0 +1,106 @@
+{
+  "id": "marc:001:in00027802631",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027802631",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027802631",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:10:06Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:10:06Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0226601226"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780226601229"
+    },
+    {
+      "type": "LCCN",
+      "value": " 76044918 "
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)2951810"
+    },
+    {
+      "type": "Local",
+      "value": "9910014029402931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "The Teaching of English /",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Squire, James R.",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": [
+      "Chicago :"
+    ],
+    "publisher": [
+      "Distributed by the University of Chicago Press,",
+      "National Society for the Study of Education :"
+    ],
+    "date": "1977.",
+    "year": 1977,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxi, 361 pages ;",
+    "dimensions": "24 cm.",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "English language",
+      "type": "topical"
+    },
+    {
+      "value": "Language arts",
+      "type": "topical"
+    },
+    {
+      "value": "Language arts.",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Yearbook of the National Society for the Study of Education ;",
+      "numbering": "76th, pt. 1"
+    },
+    {
+      "title": "Yearbook of the National Society for the Study of Education ;",
+      "numbering": "new ser., 76th, pt. 1."
+    }
+  ],
+  "relations": {
+    "otherFormats": [
+      "(OCoLC)737646033",
+      "Teaching of English."
+    ]
+  }
+}

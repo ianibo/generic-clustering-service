@@ -1,0 +1,223 @@
+{
+  "id": "marc:001:in00027130408",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00027130408",
+    "sourceRecordUri": "https://catalog.example.org/record/in00027130408",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:12:56Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:12:56Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "0778600572"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780778600572"
+    },
+    {
+      "type": "Other",
+      "value": "056775005795"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)41363656"
+    },
+    {
+      "type": "MusicPublisher",
+      "value": "DVD-9-9021"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Tolstoy's Anna Karenina",
+      "type": "alternative"
+    },
+    {
+      "value": "Anna Karenina /",
+      "type": "main"
+    },
+    {
+      "value": "Anna Karenina (Motion picture : 1948)",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Anouilh, Jean,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Morgan, Guy,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Duvivier, Julien,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Leigh, Vivien,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Richardson, Ralph,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Moore, Kieron,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Howes, Sally Ann.",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Dempster, Hugh,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Alekan, Henri,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lloyd, Russell,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Lambert, Constant,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author",
+      "kind": "person"
+    },
+    {
+      "name": "London Film Productions.",
+      "role": "contributor",
+      "kind": "corporate"
+    },
+    {
+      "name": "Madacy Entertainment Group.",
+      "role": "contributor",
+      "kind": "corporate"
+    }
+  ],
+  "publication": {
+    "place": [
+      "St. Laurent, Quebec :"
+    ],
+    "publisher": [
+      "Madacy Entertainment Group,"
+    ],
+    "date": "©1998.",
+    "year": 1998,
+    "countryCode": "enk"
+  },
+  "physical": {
+    "extent": "1 videodisc (111 min.) :",
+    "illustrations": "sound, black and white ;",
+    "dimensions": "4 3/4 in.",
+    "contentType": "two-dimensional moving image",
+    "mediaType": "video",
+    "carrierType": "videodisc"
+  },
+  "subjects": [
+    {
+      "value": "Adaptations cinématographiques.",
+      "type": "topical"
+    },
+    {
+      "value": "Adultery",
+      "type": "topical"
+    },
+    {
+      "value": "Drama",
+      "type": "topical"
+    },
+    {
+      "value": "Feature films",
+      "type": "topical"
+    },
+    {
+      "value": "Feature films.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction films",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction films.",
+      "type": "topical"
+    },
+    {
+      "value": "Film adaptations",
+      "type": "topical"
+    },
+    {
+      "value": "Film adaptations.",
+      "type": "topical"
+    },
+    {
+      "value": "Films d'amour.",
+      "type": "topical"
+    },
+    {
+      "value": "Films de fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Karenina, Anna",
+      "type": "topical"
+    },
+    {
+      "value": "Married women",
+      "type": "topical"
+    },
+    {
+      "value": "Romance films",
+      "type": "topical"
+    },
+    {
+      "value": "Romance films.",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Hollywood classics"
+    },
+    {
+      "title": "Hollywood classics."
+    }
+  ]
+}

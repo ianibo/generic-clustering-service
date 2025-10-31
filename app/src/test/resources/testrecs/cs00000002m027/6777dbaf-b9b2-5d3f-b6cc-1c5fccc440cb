@@ -1,0 +1,170 @@
+{
+  "id": "marc:001:in00030085575",
+  "provenance": {
+    "authorityId": "GCSTEST",
+    "authorityScheme": "GCSTEST",
+    "sourceRecordId": "in00030085575",
+    "sourceRecordUri": "https://catalog.example.org/record/in00030085575",
+    "originalFormat": "MARC",
+    "harvestedAt": "2025-10-31T10:09:31Z"
+  },
+  "domain": "bibliographic",
+  "licenseDeclaration": {
+    "license": "CC0-1.0",
+    "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisherAffirmation": {
+      "statement": "GCSTEST affirms that it has the rights to publish this metadata and releases it under CC0-1.0",
+      "confirmed": true,
+      "confirmedAt": "2025-10-31T10:09:31Z",
+      "signatory": "CGS Metadata Services"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "9780300203943"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300203942"
+    },
+    {
+      "type": "ISBN",
+      "value": "9780300216820"
+    },
+    {
+      "type": "ISBN",
+      "value": "0300216823"
+    },
+    {
+      "type": "Other",
+      "value": "99962164327"
+    },
+    {
+      "type": "LCCN",
+      "value": " 2014015256"
+    },
+    {
+      "type": "Local",
+      "value": "(OCoLC)877851949"
+    },
+    {
+      "type": "Local",
+      "value": "9910205978202931"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Anna Karenina /",
+      "type": "main"
+    },
+    {
+      "value": "Anna Karenina.",
+      "type": "uniform"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Tolstoy, Leo,",
+      "role": "author.",
+      "kind": "person"
+    },
+    {
+      "name": "Schwartz, Marian,",
+      "role": "translator.",
+      "kind": "person"
+    },
+    {
+      "name": "Morson, Gary Saul,",
+      "role": "editor,",
+      "kind": "person"
+    }
+  ],
+  "languages": [
+    "eng"
+  ],
+  "publication": {
+    "place": [
+      "New Haven, Connecticut :"
+    ],
+    "publisher": [
+      "Yale University Press,"
+    ],
+    "date": "2014.",
+    "year": 2014,
+    "countryCode": " b "
+  },
+  "physical": {
+    "extent": "xxxii, 754 pages ;",
+    "dimensions": "24 cm",
+    "contentType": "text",
+    "mediaType": "unmediated",
+    "carrierType": "volume"
+  },
+  "subjects": [
+    {
+      "value": "1533 - 1917",
+      "type": "topical"
+    },
+    {
+      "value": "Adultery",
+      "type": "topical"
+    },
+    {
+      "value": "Anna Karenina (Tolstoy, Leo, graf)",
+      "type": "topical"
+    },
+    {
+      "value": "Criticism, interpretation, etc.",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Didactic fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Fiction",
+      "type": "topical"
+    },
+    {
+      "value": "Historical fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Karenina, Anna",
+      "type": "topical"
+    },
+    {
+      "value": "Manners and customs",
+      "type": "topical"
+    },
+    {
+      "value": "Russia",
+      "type": "topical"
+    },
+    {
+      "value": "Russian fiction.",
+      "type": "topical"
+    },
+    {
+      "value": "Social conditions",
+      "type": "topical"
+    },
+    {
+      "value": "Tolstoy, Leo,",
+      "type": "topical"
+    }
+  ],
+  "series": [
+    {
+      "title": "Margellos world republic of letters book"
+    },
+    {
+      "title": "Margellos world republic of letters book."
+    }
+  ]
+}
