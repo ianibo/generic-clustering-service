@@ -27,7 +27,12 @@ public class Cli {
             String line;
             while ((line = reader.readLine()) != null) {
                 InputRecord record = objectMapper.readValue(line, new TypeReference<InputRecord>() {});
-                float[] embedding = embeddingService.embed(record.text());
+                String title = record.titles().stream()
+                    .filter(t -> "main".equals(t.type()))
+                    .findFirst()
+                    .map(InputRecord.Title::value)
+                    .orElse("");
+                float[] embedding = embeddingService.embed(title);
                 vectorIndex.add(record.id(), embedding, record);
             }
         }
@@ -38,10 +43,15 @@ public class Cli {
             String firstLine = reader.readLine();
             ObjectMapper objectMapper = new ObjectMapper();
             InputRecord firstRecord = objectMapper.readValue(firstLine, new TypeReference<InputRecord>() {});
-            float[] queryVector = embeddingService.embed(firstRecord.text());
+            String firstTitle = firstRecord.titles().stream()
+                .filter(t -> "main".equals(t.type()))
+                .findFirst()
+                .map(InputRecord.Title::value)
+                .orElse("");
+            float[] queryVector = embeddingService.embed(firstTitle);
             List<VectorIndex.Neighbor<InputRecord>> neighbors = vectorIndex.topK(queryVector, 3);
 
-            System.out.println("Top 3 candidates for: " + firstRecord.text());
+            System.out.println("Top 3 candidates for: " + firstTitle);
             for (VectorIndex.Neighbor<InputRecord> neighbor : neighbors) {
                 System.out.println(neighbor);
             }
