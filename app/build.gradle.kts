@@ -1,6 +1,8 @@
 plugins {
-    id("com.gradleup.shadow")
-    id("io.micronaut.application")
+	id("com.gradleup.shadow")
+	id("io.micronaut.application")
+	id("io.micronaut.aot")
+	`jvm-test-suite`
 }
 
 version = "0.1"
@@ -44,6 +46,12 @@ application {
     mainClass.set("gcs.app.Application")
 }
 
+
+java {
+	sourceCompatibility = JavaVersion.toVersion("21")
+	targetCompatibility = JavaVersion.toVersion("21")
+}
+
 tasks.withType<Test> {
     useJUnitPlatform()
 }
@@ -54,5 +62,17 @@ micronaut {
     processing {
         incremental(true)
         annotations("gcs.app.*")
+    }
+    aot {
+        // Please review carefully the optimizations enabled below
+        // Check https://micronaut-projects.github.io/micronaut-aot/latest/guide/ for more details
+        optimizeServiceLoading = false
+        convertYamlToJava = false
+        precomputeOperations = true
+        cacheEnvironment = true
+        optimizeClassLoading = true
+        deduceEnvironment = true
+        optimizeNetty = true
+        replaceLogbackXml = true
     }
 }
