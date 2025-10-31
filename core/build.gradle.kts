@@ -16,12 +16,14 @@ dependencies {
 
 	// JSON runtime (pick one; Jackson is common)
 	implementation("io.micronaut.serde:micronaut-serde-jackson")
+	implementation("com.fasterxml.jackson.core:jackson-databind")
 
 	compileOnly("org.projectlombok:lombok")
 
 	testAnnotationProcessor("io.micronaut:micronaut-inject-java")
 	testAnnotationProcessor("io.micronaut.serde:micronaut-serde-processor")
 	testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.0")
+	testImplementation("org.mockito:mockito-core:5.10.0")
 	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.10.0")
 
 }
