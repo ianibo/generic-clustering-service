@@ -6,6 +6,18 @@ Agents please read Agents.md
 <!-- BEGIN: JULES-APPEND-ONLY -->
 <!-- Jules: append new notes below, do not modify content above this line. -->
 
+## Integration Tests
+
+Are defined in the gcs-it subproject. Cause them to run with
+
+    ./gradlew -PrunIT :gcs-it:test
+
+or in a gh action
+
+    - name: Full-stack integration tests
+      run: ./gradlew --no-daemon -PrunIT :gcs-it:test
+
+
 ## How to Run
 
 To run the application, use the following command:
