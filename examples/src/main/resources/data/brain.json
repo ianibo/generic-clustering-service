@@ -1,0 +1,56 @@
+{
+  "id": "rec-001",
+  "provenance": {
+    "authorityId": "some-authority",
+    "authorityScheme": "some-scheme",
+    "sourceRecordId": "src-001",
+    "sourceRecordUri": "http://example.com/records/001",
+    "originalFormat": "MARC",
+    "harvestedAt": "2023-10-27T10:00:00Z"
+  },
+  "domain": "books",
+  "licenseDeclaration": {
+    "license": "CC-BY-4.0",
+    "licenseUri": "https://creativecommons.org/licenses/by/4.0/",
+    "publisherAffirmation": {
+      "statement": "This record is openly licensed.",
+      "confirmed": true,
+      "confirmedAt": "2023-10-27T10:00:00Z",
+      "signatory": "The Publisher"
+    }
+  },
+  "identifiers": [
+    {
+      "type": "ISBN",
+      "value": "978-0-471-05845-8",
+      "status": "valid"
+    }
+  ],
+  "titles": [
+    {
+      "value": "Brain of the Firm",
+      "type": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Stafford Beer",
+      "role": "author",
+      "kind": "person"
+    }
+  ],
+  "publication": {
+    "place": ["Chichester"],
+    "publisher": ["Wiley"],
+    "date": "1972",
+    "year": 1972,
+    "countryCode": "GB"
+  },
+  "physical": {
+    "extent": "319 pages",
+    "dimensions": "23 cm",
+    "contentType": "text",
+    "mediaType": "book",
+    "carrierType": "print"
+  }
+}
