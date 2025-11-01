@@ -7,10 +7,11 @@ package gcs.core.classification;
  * @see <a href="https://www.loc.gov/standards/sourcelist/marc-source-list.html#media-type">RDA Media Type</a>
  */
 public enum MediaType {
-    UNMEDIATED,
-    AUDIO,
-    COMPUTER,
-    VIDEO,
-    MICROFORM,
-    TACTILE
+	UNMEDIATED,
+	AUDIO,
+	COMPUTER,
+	VIDEO,
+	MICROFORM,
+	TACTILE,
+	UNKNOWN
 }

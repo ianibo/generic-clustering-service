@@ -1,0 +1,17 @@
+datasources:
+  default:
+    url: jdbc:h2:mem:gcs;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ''
+    schema-generate: NONE
+    dialect: H2
+
+
+flyway:
+  datasources:
+    defalt:
+      enabled: true
+      locations:
+        - 'classpath:db/migrations'
+

@@ -35,6 +35,8 @@ Deliverables per task:
 
 Code (compilable).
 
+FULL run of test suite from top level - no module only tests - complete set must pass from a clean build
+
 Short README snippet or Javadoc for each public type. (Do not remove existing content from README)
 
 Minimal test that runs in ~1s, no network, deterministic.

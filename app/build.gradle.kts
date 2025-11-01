@@ -25,8 +25,9 @@ dependencies {
 	implementation("io.micronaut:micronaut-jackson-databind")
 	implementation("io.micronaut.serde:micronaut-serde-jackson")
 	implementation("ch.qos.logback:logback-classic")
+  implementation("io.micronaut.data:micronaut-data-jdbc")
+  implementation("io.micronaut.flyway:micronaut-flyway")
   implementation("io.micronaut.sql:micronaut-jdbc-hikari")
-  implementation("io.micronaut.data:micronaut-data-hibernate-jpa")
   implementation("org.flywaydb:flyway-core")
 
 

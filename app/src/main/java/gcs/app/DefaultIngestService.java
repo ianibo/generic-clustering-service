@@ -2,7 +2,7 @@ package gcs.app;
 
 import gcs.core.Calibration;
 import gcs.core.Canonicalizer;
-import gcs.core.Classifier;
+import gcs.core.classification.Classifier;
 import gcs.core.EmbeddingService;
 import gcs.core.IngestService;
 import gcs.core.InputRecord;
@@ -47,7 +47,7 @@ public class DefaultIngestService implements IngestService {
     @Override
     public List<Candidate> ingest(InputRecord record) {
         var classification = classifier.classify(record);
-        LOG.info("Classified record {} as {} with explanation: {}", record.id(), classification.workType(), classification.explanation());
+        LOG.info("Classified record {} as {} with explanation: {}", record.id(), classification.workType(), classification);
 
         // Create a new InputRecord with the classifierVersion
         var versionedRecord = new InputRecord(

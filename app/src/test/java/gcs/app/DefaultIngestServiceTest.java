@@ -2,16 +2,21 @@ package gcs.app;
 
 import gcs.core.Calibration;
 import gcs.core.Canonicalizer;
-import gcs.core.Classifier;
-import gcs.core.ClassificationResult;
+import gcs.core.classification.Classifier;
+import gcs.core.classification.ClassificationResult;
+import gcs.core.classification.InstanceClassification;
+import gcs.core.classification.ContentType;
+import gcs.core.classification.MediaType;
+import gcs.core.classification.CarrierType;
 import gcs.core.EmbeddingService;
 import gcs.core.InputRecord;
 import gcs.core.VectorIndex;
-import gcs.core.WorkType;
+import gcs.core.classification.WorkType;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
 
 import java.util.List;
+import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
@@ -34,7 +39,11 @@ class DefaultIngestServiceTest {
         var embedding = new float[]{1.0f, 2.0f, 3.0f};
         var topKNeighbors = List.of(new VectorIndex.Neighbor<>("rec-002", 0.9, null, new float[0]));
         var radiusNeighbors = List.of(new VectorIndex.Neighbor<>("rec-003", 0.85, null, new float[0]));
-        var classificationResult = new ClassificationResult(WorkType.BOOK_MONOGRAPH, "Default classification.", 0.5, 1);
+				List<String> evidence = new ArrayList<String>();
+				var instanceClassification = new InstanceClassification(ContentType.UNKNOWN,MediaType.UNKNOWN,CarrierType.UNKNOWN,null,null,null);
+				var source = "";
+
+        var classificationResult = new ClassificationResult(WorkType.BOOK_MONOGRAPH, instanceClassification, evidence, source, 0.5, 1);
 
         var versionedRecord = new InputRecord("rec-001", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1);
 

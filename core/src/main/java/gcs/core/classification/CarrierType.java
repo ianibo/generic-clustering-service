@@ -7,10 +7,11 @@ package gcs.core.classification;
  * @see <a href="https://www.loc.gov/standards/sourcelist/marc-source-list.html#carrier-type">RDA Carrier Type</a>
  */
 public enum CarrierType {
-    VOLUME,
-    AUDIO_DISC,
-    VIDEODISC,
-    ONLINE_RESOURCE,
-    MICROFICHE,
-    SHEET
+	VOLUME,
+	AUDIO_DISC,
+	VIDEODISC,
+	ONLINE_RESOURCE,
+	MICROFICHE,
+	SHEET,
+	UNKNOWN
 }

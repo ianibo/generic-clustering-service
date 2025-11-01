@@ -3,18 +3,35 @@ package gcs.app;
 import gcs.core.InputRecord;
 import io.micronaut.data.annotation.DateCreated;
 import io.micronaut.data.annotation.DateUpdated;
-import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import org.hibernate.annotations.JdbcTypeCode;
-import org.hibernate.type.SqlTypes;
 
 import java.time.Instant;
 
-@Entity
-@Table(name = "input_record")
+import io.micronaut.core.annotation.Creator;
+import io.micronaut.data.annotation.GeneratedValue;
+import io.micronaut.data.annotation.Id;
+import io.micronaut.data.annotation.MappedEntity;
+import io.micronaut.data.annotation.Transient;
+import io.micronaut.data.annotation.TypeDef;
+import io.micronaut.data.model.DataType;
+import io.micronaut.serde.annotation.Serdeable;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+import lombok.experimental.Accessors;
+
+import java.util.Map;
+import java.util.HashMap;
+
+@Builder
+@Data
+@NoArgsConstructor(onConstructor_ = @Creator())
+@AllArgsConstructor
+@Accessors(chain = true)
+@ToString(onlyExplicitlyIncluded = false)
+@MappedEntity(value = "mt_tenant_info")
+@Serdeable
 public class InputRecordEntity {
     @Id
     private String id;
@@ -23,9 +40,10 @@ public class InputRecordEntity {
     @DateUpdated
     private Instant dateModified;
     private String extractedResourceType;
-    @JdbcTypeCode(SqlTypes.JSON)
+
+    @TypeDef(type = DataType.JSON)
     private InputRecord record;
-    @Enumerated(EnumType.STRING)
+
     private ProcessingStatus processingStatus;
     private Integer classifierVersion;
 
