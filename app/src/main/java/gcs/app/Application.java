@@ -1,14 +1,12 @@
 package gcs.app;
 
 import gcs.core.Calibration;
-import gcs.core.Canonicalizer;
 import gcs.core.Clusterer;
 import gcs.core.EmbeddingService;
 import gcs.core.HashingEmbeddingService;
 import gcs.core.InMemoryVectorIndex;
 import gcs.core.InputRecord;
 import gcs.core.PlattCalibration;
-import gcs.core.SimpleCanonicalizer;
 import gcs.core.SimpleThresholdClusterer;
 import gcs.core.VectorIndex;
 import io.micronaut.runtime.Micronaut;
@@ -31,11 +29,6 @@ public class Application {
     @Singleton
     public VectorIndex<InputRecord> vectorIndex() {
         return new InMemoryVectorIndex<>();
-    }
-
-    @Singleton
-    public Canonicalizer canonicalizer() {
-        return new SimpleCanonicalizer();
     }
 
     @Singleton

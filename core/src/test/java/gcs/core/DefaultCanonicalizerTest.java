@@ -1,15 +1,16 @@
 package gcs.core;
 
+import gcs.core.canonicalization.DefaultCanonicalizer;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class SimpleCanonicalizerTest {
+class DefaultCanonicalizerTest {
     @Test
     void testSummarize() {
-        var canonicalizer = new SimpleCanonicalizer();
+        var canonicalizer = new DefaultCanonicalizer();
         var record = new InputRecord(
             "rec-001", // id
             null, // provenance

@@ -28,6 +28,8 @@ import static org.mockito.Mockito.verify;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
+import gcs.core.canonicalization.Canonicalizer;
+
 class ClassificationTest {
 
     private ObjectMapper objectMapper;
@@ -40,10 +42,15 @@ class ClassificationTest {
         objectMapper = new ObjectMapper().registerModule(new JavaTimeModule());
         inputRecordRepository = mock(InputRecordRepository.class);
         classifier = new gcs.core.classification.RuleBasedClassifier(new gcs.core.classification.RuleBasedInstanceClassifier());
+        var defaultCanonicalizer = mock(Canonicalizer.class);
+        when(defaultCanonicalizer.forContentType()).thenReturn(null);
+        var textCanonicalizer = mock(Canonicalizer.class);
+        when(textCanonicalizer.forContentType()).thenReturn("TEXT");
+        var canonicalizers = List.of(defaultCanonicalizer, textCanonicalizer);
         service = new DefaultIngestService(
                 mock(gcs.core.EmbeddingService.class),
                 mock(gcs.core.VectorIndex.class),
-                mock(gcs.core.Canonicalizer.class),
+                canonicalizers,
                 mock(gcs.core.Calibration.class),
                 inputRecordRepository,
                 classifier

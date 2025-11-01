@@ -1,7 +1,7 @@
 package gcs.app;
 
 import gcs.core.Calibration;
-import gcs.core.Canonicalizer;
+import gcs.core.canonicalization.Canonicalizer;
 import gcs.core.classification.Classifier;
 import gcs.core.EmbeddingService;
 import gcs.core.IngestService;
@@ -12,6 +12,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.List;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @Singleton
@@ -23,7 +26,8 @@ public class DefaultIngestService implements IngestService {
 
     private final EmbeddingService embeddingService;
     private final VectorIndex<InputRecord> vectorIndex;
-    private final Canonicalizer canonicalizer;
+    private final Map<String, Canonicalizer> canonicalizers;
+    private final Canonicalizer defaultCanonicalizer;
     private final Calibration calibration;
     private final InputRecordRepository inputRecordRepository;
     private final Classifier classifier;
@@ -31,14 +35,20 @@ public class DefaultIngestService implements IngestService {
     public DefaultIngestService(
         EmbeddingService embeddingService,
         VectorIndex<InputRecord> vectorIndex,
-        Canonicalizer canonicalizer,
+        List<Canonicalizer> canonicalizerList,
         Calibration calibration,
         InputRecordRepository inputRecordRepository,
         Classifier classifier
     ) {
         this.embeddingService = embeddingService;
         this.vectorIndex = vectorIndex;
-        this.canonicalizer = canonicalizer;
+        this.canonicalizers = canonicalizerList.stream()
+            .filter(c -> c.forContentType() != null)
+            .collect(Collectors.toMap(Canonicalizer::forContentType, Function.identity()));
+        this.defaultCanonicalizer = canonicalizerList.stream()
+            .filter(c -> c.forContentType() == null)
+            .findFirst()
+            .orElseThrow(() -> new IllegalStateException("No default canonicalizer found"));
         this.calibration = calibration;
         this.inputRecordRepository = inputRecordRepository;
         this.classifier = classifier;
@@ -73,6 +83,10 @@ public class DefaultIngestService implements IngestService {
             record.ext(),
             classification.classifierVersion()
         );
+
+        var contentType = classification.instanceClassification().contentType().toString();
+        var canonicalizer = canonicalizers.getOrDefault(contentType, defaultCanonicalizer);
+        LOG.info("Using canonicalizer {} for content type {}", canonicalizer.getClass().getSimpleName(), contentType);
 
         String summary = canonicalizer.summarize(versionedRecord);
         float[] embedding = embeddingService.embed(summary);

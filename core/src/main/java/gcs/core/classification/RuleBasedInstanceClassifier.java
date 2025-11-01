@@ -14,9 +14,9 @@ public class RuleBasedInstanceClassifier implements InstanceClassifier {
                 ContentType.TEXT,
                 MediaType.UNMEDIATED,
                 CarrierType.VOLUME,
-                null,
-                null,
-                null
+                "UNKNOWN",
+                "UNKNOWN",
+                "UNKNOWN"
             );
         }
 
@@ -33,19 +33,19 @@ public class RuleBasedInstanceClassifier implements InstanceClassifier {
     }
 
     private ContentType parseContentType(String s) {
-        if (s == null) return ContentType.TEXT; // default
+        if (s == null) return ContentType.UNKNOWN;
         return switch (s.toLowerCase()) {
             case "text" -> ContentType.TEXT;
             case "two-dimensional moving image" -> ContentType.TWO_DIMENSIONAL_MOVING_IMAGE;
             case "tactile text" -> ContentType.TACTILE_TEXT;
             case "still image" -> ContentType.STILL_IMAGE;
             case "audio" -> ContentType.AUDIO;
-            default -> ContentType.TEXT;
+            default -> ContentType.UNKNOWN;
         };
     }
 
     private MediaType parseMediaType(String s) {
-        if (s == null) return MediaType.UNMEDIATED; // default
+        if (s == null) return MediaType.UNKNOWN;
         return switch (s.toLowerCase()) {
             case "unmediated" -> MediaType.UNMEDIATED;
             case "audio" -> MediaType.AUDIO;
@@ -53,12 +53,12 @@ public class RuleBasedInstanceClassifier implements InstanceClassifier {
             case "video" -> MediaType.VIDEO;
             case "microform" -> MediaType.MICROFORM;
             case "tactile" -> MediaType.TACTILE;
-            default -> MediaType.UNMEDIATED;
+            default -> MediaType.UNKNOWN;
         };
     }
 
     private CarrierType parseCarrierType(String s) {
-        if (s == null) return CarrierType.VOLUME; // default
+        if (s == null) return CarrierType.UNKNOWN;
         return switch (s.toLowerCase()) {
             case "volume" -> CarrierType.VOLUME;
             case "audio disc" -> CarrierType.AUDIO_DISC;
@@ -66,12 +66,12 @@ public class RuleBasedInstanceClassifier implements InstanceClassifier {
             case "online resource" -> CarrierType.ONLINE_RESOURCE;
             case "microfiche" -> CarrierType.MICROFICHE;
             case "sheet" -> CarrierType.SHEET;
-            default -> CarrierType.VOLUME;
+            default -> CarrierType.UNKNOWN;
         };
     }
 
     private String detectFormatDetail(String format) {
-        if (format == null) return null;
+        if (format == null) return "UNKNOWN";
         String lowerFormat = format.toLowerCase();
         if (lowerFormat.contains("epub")) return "EPUB";
         if (lowerFormat.contains("pdf")) return "PDF";
@@ -82,17 +82,17 @@ public class RuleBasedInstanceClassifier implements InstanceClassifier {
     }
 
     private String detectModality(InputRecord.Edition edition) {
-        if (edition == null || edition.statement() == null) return null;
+        if (edition == null || edition.statement() == null) return "UNKNOWN";
         String statement = edition.statement().toLowerCase();
         if (statement.contains("large print")) return "largePrint";
         if (statement.contains("braille")) return "braille";
-        return null;
+        return "UNKNOWN";
     }
 
     private String detectObjectClass(String contentType) {
         if (contentType != null && contentType.equalsIgnoreCase("human-made object")) {
             return "E22 Human-Made Object";
         }
-        return null;
+        return "UNKNOWN";
     }
 }

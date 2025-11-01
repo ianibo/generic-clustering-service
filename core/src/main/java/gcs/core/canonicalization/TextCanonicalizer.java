@@ -1,12 +1,13 @@
-package gcs.core;
+package gcs.core.canonicalization;
 
+import gcs.core.InputRecord;
 import jakarta.inject.Singleton;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 @Singleton
-public class SimpleCanonicalizer implements Canonicalizer {
+public class TextCanonicalizer implements Canonicalizer {
     @Override
     public String summarize(InputRecord record) {
         return List.of(
@@ -56,5 +57,10 @@ public class SimpleCanonicalizer implements Canonicalizer {
         return record.identifiers().stream()
             .map(id -> id.type() + ":" + id.value())
             .collect(Collectors.joining(", "));
+    }
+
+    @Override
+    public String forContentType() {
+        return "TEXT";
     }
 }
