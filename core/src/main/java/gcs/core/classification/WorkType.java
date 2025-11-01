@@ -1,4 +1,4 @@
-package gcs.core;
+package gcs.core.classification;
 
 public enum WorkType {
     BOOK_MONOGRAPH("workType/book-monograph"),

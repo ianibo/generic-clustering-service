@@ -1,18 +1,32 @@
 package gcs.core;
 
+import gcs.core.classification.InstanceClassifier;
+import gcs.core.classification.RuleBasedClassifier;
+import gcs.core.classification.WorkType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import java.util.Collections;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+
 import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.when;
 
 class RuleBasedClassifierTest {
 
+    @Mock
+    private InstanceClassifier instanceClassifier;
+
+    @InjectMocks
     private RuleBasedClassifier classifier;
 
     @BeforeEach
     void setUp() {
-        classifier = new RuleBasedClassifier();
+        MockitoAnnotations.openMocks(this);
+        when(instanceClassifier.classify(any(InputRecord.class))).thenReturn(null);
     }
 
     @Test
