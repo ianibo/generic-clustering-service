@@ -37,7 +37,9 @@ Deliverables per task:
 
 Code (compilable).
 
-FULL run of test suite from top level - no module only tests - complete set must pass from a clean build
+DO NOT INCLUDE -PrunIT in ANY jules workflows - it invokes testcontainers and will not work.
+
+FULL run of test suite (Excluding runIT) from top level - no module only tests - app and core modules must both pass their test suites.
 
 Short README snippet or Javadoc for each public type. (Do not remove existing content from README)
 
