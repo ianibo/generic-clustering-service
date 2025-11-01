@@ -2,9 +2,12 @@ package gcs.app;
 
 import gcs.core.Calibration;
 import gcs.core.Canonicalizer;
+import gcs.core.Classifier;
+import gcs.core.ClassificationResult;
 import gcs.core.EmbeddingService;
 import gcs.core.InputRecord;
 import gcs.core.VectorIndex;
+import gcs.core.WorkType;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
 
@@ -22,15 +25,18 @@ class DefaultIngestServiceTest {
         var canonicalizer = mock(Canonicalizer.class);
         var calibration = mock(Calibration.class);
         var inputRecordRepository = mock(InputRecordRepository.class);
+        var classifier = mock(Classifier.class);
 
-        var service = new DefaultIngestService(embeddingService, vectorIndex, canonicalizer, calibration, inputRecordRepository);
+        var service = new DefaultIngestService(embeddingService, vectorIndex, canonicalizer, calibration, inputRecordRepository, classifier);
 
         var record = new InputRecord("rec-001", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
         var summary = "test summary";
         var embedding = new float[]{1.0f, 2.0f, 3.0f};
         var topKNeighbors = List.of(new VectorIndex.Neighbor<>("rec-002", 0.9, null, new float[0]));
         var radiusNeighbors = List.of(new VectorIndex.Neighbor<>("rec-003", 0.85, null, new float[0]));
+        var classificationResult = new ClassificationResult(WorkType.BOOK_MONOGRAPH, "Default classification.", 0.5);
 
+        when(classifier.classify(record)).thenReturn(classificationResult);
         when(canonicalizer.summarize(record)).thenReturn(summary);
         when(embeddingService.embed(summary)).thenReturn(embedding);
         when(vectorIndex.topK(embedding, 5)).thenReturn(topKNeighbors);
@@ -43,6 +49,7 @@ class DefaultIngestServiceTest {
 
         // Assert
         assertEquals(2, candidates.size());
+        verify(classifier).classify(record);
 
         var captor = ArgumentCaptor.forClass(InputRecordEntity.class);
         verify(inputRecordRepository).save(captor.capture());
