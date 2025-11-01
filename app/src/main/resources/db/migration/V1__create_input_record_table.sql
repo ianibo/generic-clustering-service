@@ -3,7 +3,7 @@ CREATE TABLE input_record (
     date_created TIMESTAMP NOT NULL,
     date_modified TIMESTAMP NOT NULL,
     extracted_resource_type VARCHAR(255),
-    record JSONB NOT NULL,
+    record ${json_type} NOT NULL,
     processing_status VARCHAR(255) NOT NULL,
     classifier_version INT DEFAULT 1
 );

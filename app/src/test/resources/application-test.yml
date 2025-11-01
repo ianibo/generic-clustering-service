@@ -7,10 +7,11 @@ datasources:
     schema-generate: NONE
     dialect: H2
 
-
 flyway:
   datasources:
-    defalt:
+    default:
+      placeholders:
+        json_type: JSON
       enabled: true
       locations:
         - 'classpath:db/migrations'
