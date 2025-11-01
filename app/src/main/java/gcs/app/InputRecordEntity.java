@@ -27,6 +27,7 @@ public class InputRecordEntity {
     private InputRecord record;
     @Enumerated(EnumType.STRING)
     private ProcessingStatus processingStatus;
+    private Integer classifierVersion;
 
     public String getId() {
         return id;
@@ -74,5 +75,13 @@ public class InputRecordEntity {
 
     public void setProcessingStatus(ProcessingStatus processingStatus) {
         this.processingStatus = processingStatus;
+    }
+
+    public Integer getClassifierVersion() {
+        return classifierVersion;
+    }
+
+    public void setClassifierVersion(Integer classifierVersion) {
+        this.classifierVersion = classifierVersion;
     }
 }

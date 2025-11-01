@@ -86,3 +86,7 @@ GET /health → returns {"ok":true}.
 Non-goals: no UI, no persistence beyond local files for this phase.
 
 Output format expectations: tabs for indentation preferred; if spaces are required, use 2 spaces.
+
+## Future Work
+
+- **Re-processing Records:** The `classifierVersion` has been added to the `InputRecord` to support future work on re-processing records that have been classified by an older version of the `RuleBasedClassifier`.

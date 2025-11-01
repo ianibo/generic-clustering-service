@@ -4,5 +4,6 @@ CREATE TABLE input_record (
     date_modified TIMESTAMP NOT NULL,
     extracted_resource_type VARCHAR(255),
     record JSONB NOT NULL,
-    processing_status VARCHAR(255) NOT NULL
+    processing_status VARCHAR(255) NOT NULL,
+    classifier_version INT DEFAULT 1
 );

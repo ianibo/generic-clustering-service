@@ -28,7 +28,8 @@ public record InputRecord(
     @Nullable Rights rights,
     @Nullable Admin admin,
     @Nullable Media media,
-    @Nullable Ext ext
+    @Nullable Ext ext,
+    @Nullable Integer classifierVersion
 ) {
     @Serdeable
     public record Provenance(
