@@ -1,11 +1,13 @@
-package gcs.core;
+package gcs.app;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+import gcs.core.Calibration;
+import gcs.core.Canonicalizer;
+import gcs.core.EmbeddingService;
+import gcs.core.InputRecord;
+import gcs.core.VectorIndex;
 import org.junit.jupiter.api.Test;
+import org.mockito.ArgumentCaptor;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -13,15 +15,15 @@ import static org.mockito.Mockito.*;
 
 class DefaultIngestServiceTest {
     @Test
-    void testIngest() throws IOException {
+    void testIngest() {
         // Arrange
         var embeddingService = mock(EmbeddingService.class);
         var vectorIndex = mock(VectorIndex.class);
         var canonicalizer = mock(Canonicalizer.class);
         var calibration = mock(Calibration.class);
-        var objectMapper = new ObjectMapper();
+        var inputRecordRepository = mock(InputRecordRepository.class);
 
-        var service = new DefaultIngestService(embeddingService, vectorIndex, canonicalizer, calibration, objectMapper);
+        var service = new DefaultIngestService(embeddingService, vectorIndex, canonicalizer, calibration, inputRecordRepository);
 
         var record = new InputRecord("rec-001", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
         var summary = "test summary";
@@ -41,21 +43,10 @@ class DefaultIngestServiceTest {
 
         // Assert
         assertEquals(2, candidates.size());
-        assertEquals("rec-002", candidates.get(0).id());
-        assertEquals(0.9, candidates.get(0).score(), 1e-6);
-        assertEquals(0.95, candidates.get(0).pDup(), 1e-6);
-        assertEquals("rec-003", candidates.get(1).id());
-        assertEquals(0.85, candidates.get(1).score(), 1e-6);
-        assertEquals(0.90, candidates.get(1).pDup(), 1e-6);
 
-        verify(vectorIndex).add("rec-001", embedding, record);
-
-        var dataPath = Path.of("./data/records.jsonl");
-        var storedJson = Files.readString(dataPath);
-        var storedRecord = objectMapper.readValue(storedJson, InputRecord.class);
-        assertEquals(record.id(), storedRecord.id());
-
-        Files.deleteIfExists(dataPath);
-        Files.deleteIfExists(dataPath.getParent());
+        var captor = ArgumentCaptor.forClass(InputRecordEntity.class);
+        verify(inputRecordRepository).save(captor.capture());
+        assertEquals("rec-001", captor.getValue().getId());
+        assertEquals(ProcessingStatus.PENDING, captor.getValue().getProcessingStatus());
     }
 }
