@@ -4,7 +4,6 @@ import gcs.core.InputRecord;
 import gcs.core.classification.ClassificationResult;
 import io.micronaut.data.annotation.DateCreated;
 import io.micronaut.data.annotation.DateUpdated;
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -21,22 +20,16 @@ public class InputRecordEntity {
     @Id
     private String id;
     @DateCreated
-    @Column(name = "date_created")
     private Instant dateCreated;
     @DateUpdated
-    @Column(name = "date_modified")
     private Instant dateModified;
-    @Column(name = "extracted_resource_type")
     private String extractedResourceType;
     @JdbcTypeCode(SqlTypes.JSON)
     private InputRecord record;
     @Enumerated(EnumType.STRING)
-    @Column(name = "processing_status")
     private ProcessingStatus processingStatus;
-    @Column(name = "classifier_version")
     private Integer classifierVersion;
     @JdbcTypeCode(SqlTypes.JSON)
-    @Column(name = "classification_result")
     private ClassificationResult classificationResult;
 
     public String getId() {

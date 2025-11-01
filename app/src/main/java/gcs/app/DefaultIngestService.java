@@ -2,7 +2,8 @@ package gcs.app;
 
 import gcs.core.Calibration;
 import gcs.core.Canonicalizer;
-import gcs.core.Classifier;
+import gcs.core.classification.ClassificationResult;
+import gcs.core.classification.Classifier;
 import gcs.core.EmbeddingService;
 import gcs.core.IngestService;
 import gcs.core.InputRecord;
@@ -47,7 +48,7 @@ public class DefaultIngestService implements IngestService {
     @Override
     public List<Candidate> ingest(InputRecord record) {
         var classification = classifier.classify(record);
-        LOG.info("Classified record {} as {} with explanation: {}", record.id(), classification.workType(), classification.explanation());
+        LOG.info("Classified record {} as {} with evidence: {}", record.id(), classification.workType(), classification.evidence());
 
         // Create a new InputRecord with the classifierVersion
         var versionedRecord = new InputRecord(
@@ -81,7 +82,7 @@ public class DefaultIngestService implements IngestService {
         var radiusNeighbors = vectorIndex.radius(embedding, RADIUS);
 
         vectorIndex.add(versionedRecord.id(), embedding, versionedRecord);
-        store(versionedRecord, classification.classifierVersion());
+        store(versionedRecord, classification);
 
         return Stream.concat(topKNeighbors.stream(), radiusNeighbors.stream())
             .distinct()
@@ -89,12 +90,13 @@ public class DefaultIngestService implements IngestService {
             .toList();
     }
 
-    private void store(InputRecord record, int classifierVersion) {
+    private void store(InputRecord record, ClassificationResult classificationResult) {
         var entity = new InputRecordEntity();
         entity.setId(record.id());
         entity.setRecord(record);
         entity.setProcessingStatus(ProcessingStatus.PENDING);
-        entity.setClassifierVersion(classifierVersion);
+        entity.setClassifierVersion(classificationResult.classifierVersion());
+        entity.setClassificationResult(classificationResult);
         inputRecordRepository.save(entity);
     }
 }

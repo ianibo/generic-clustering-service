@@ -1,6 +1,6 @@
 datasources:
   default:
-    url: jdbc:h2:mem:devDb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    url: jdbc:h2:mem:devDb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;NON_KEYWORDS=RECORD
     driverClassName: org.h2.Driver
     username: sa
     password: ""
