@@ -34,7 +34,8 @@ class DefaultIngestServiceTest {
 
         var service = new DefaultIngestService(embeddingService, vectorIndex, canonicalizer, calibration, inputRecordRepository, classifier);
 
-        var record = new InputRecord("rec-001", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+        var physical = new InputRecord.Physical("extent", "dimensions", "contentType", "mediaType", "carrierType", "format");
+        var record = new InputRecord("rec-001", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, null);
         var summary = "test summary";
         var embedding = new float[]{1.0f, 2.0f, 3.0f};
         var topKNeighbors = List.of(new VectorIndex.Neighbor<>("rec-002", 0.9, null, new float[0]));
@@ -45,7 +46,7 @@ class DefaultIngestServiceTest {
 
         var classificationResult = new ClassificationResult(WorkType.BOOK_MONOGRAPH, instanceClassification, evidence, source, 0.5, 1);
 
-        var versionedRecord = new InputRecord("rec-001", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1);
+        var versionedRecord = new InputRecord("rec-001", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, 1);
 
         when(classifier.classify(record)).thenReturn(classificationResult);
         when(canonicalizer.summarize(versionedRecord)).thenReturn(summary);
@@ -66,5 +67,8 @@ class DefaultIngestServiceTest {
         verify(inputRecordRepository).save(captor.capture());
         assertEquals("rec-001", captor.getValue().getId());
         assertEquals(ProcessingStatus.PENDING, captor.getValue().getProcessingStatus());
+        assertEquals("contentType", captor.getValue().getContentType());
+        assertEquals("mediaType", captor.getValue().getMediaType());
+        assertEquals("carrierType", captor.getValue().getCarrierType());
     }
 }
