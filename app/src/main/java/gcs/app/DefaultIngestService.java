@@ -1,13 +1,13 @@
-package gcs.core;
+package gcs.app;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+import gcs.core.Calibration;
+import gcs.core.Canonicalizer;
+import gcs.core.EmbeddingService;
+import gcs.core.IngestService;
+import gcs.core.InputRecord;
+import gcs.core.VectorIndex;
 import jakarta.inject.Singleton;
 
-import java.io.IOException;
-import java.io.UncheckedIOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.StandardOpenOption;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -15,26 +15,25 @@ import java.util.stream.Stream;
 public class DefaultIngestService implements IngestService {
     private static final int TOP_K = 5;
     private static final float RADIUS = 0.8f;
-    private static final Path DATA_PATH = Path.of("./data/records.jsonl");
 
     private final EmbeddingService embeddingService;
     private final VectorIndex<InputRecord> vectorIndex;
     private final Canonicalizer canonicalizer;
     private final Calibration calibration;
-    private final ObjectMapper objectMapper;
+    private final InputRecordRepository inputRecordRepository;
 
     public DefaultIngestService(
         EmbeddingService embeddingService,
         VectorIndex<InputRecord> vectorIndex,
         Canonicalizer canonicalizer,
         Calibration calibration,
-        ObjectMapper objectMapper
+        InputRecordRepository inputRecordRepository
     ) {
         this.embeddingService = embeddingService;
         this.vectorIndex = vectorIndex;
         this.canonicalizer = canonicalizer;
         this.calibration = calibration;
-        this.objectMapper = objectMapper;
+        this.inputRecordRepository = inputRecordRepository;
     }
 
     @Override
@@ -55,12 +54,10 @@ public class DefaultIngestService implements IngestService {
     }
 
     private void store(InputRecord record) {
-        try {
-            Files.createDirectories(DATA_PATH.getParent());
-            String json = objectMapper.writeValueAsString(record);
-            Files.writeString(DATA_PATH, json + "\n", StandardOpenOption.CREATE, StandardOpenOption.APPEND);
-        } catch (IOException e) {
-            throw new UncheckedIOException(e);
-        }
+        var entity = new InputRecordEntity();
+        entity.setId(record.id());
+        entity.setRecord(record);
+        entity.setProcessingStatus(ProcessingStatus.PENDING);
+        inputRecordRepository.save(entity);
     }
 }

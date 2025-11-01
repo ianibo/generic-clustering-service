@@ -16,6 +16,7 @@ dependencies {
   annotationProcessor("io.micronaut:micronaut-inject-java")
   annotationProcessor("io.micronaut.serde:micronaut-serde-processor")
   annotationProcessor("org.projectlombok:lombok")
+  annotationProcessor("io.micronaut.data:micronaut-data-processor")
 
 	implementation(project(":core"))
 
@@ -24,12 +25,18 @@ dependencies {
 	implementation("io.micronaut:micronaut-jackson-databind")
 	implementation("io.micronaut.serde:micronaut-serde-jackson")
 	implementation("ch.qos.logback:logback-classic")
+  implementation("io.micronaut.sql:micronaut-jdbc-hikari")
+  implementation("io.micronaut.data:micronaut-data-hibernate-jpa")
+  implementation("org.flywaydb:flyway-core")
 
 
   compileOnly("org.projectlombok:lombok")
+  compileOnly("jakarta.persistence:jakarta.persistence-api")
 	runtimeOnly("org.yaml:snakeyaml")
+  runtimeOnly("com.h2database:h2")
 
 	testImplementation("io.micronaut.test:micronaut-test-junit5")
+  testImplementation("org.mockito:mockito-core:5.10.0")
 
 	testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.0")
 	testImplementation("org.junit.jupiter:junit-jupiter-params:5.10.0")
