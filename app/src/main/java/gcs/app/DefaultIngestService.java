@@ -95,6 +95,9 @@ public class DefaultIngestService implements IngestService {
         entity.setRecord(record);
         entity.setProcessingStatus(ProcessingStatus.PENDING);
         entity.setClassifierVersion(classifierVersion);
+        entity.setContentType(record.physical().contentType());
+        entity.setMediaType(record.physical().mediaType());
+        entity.setCarrierType(record.physical().carrierType());
         inputRecordRepository.save(entity);
     }
 }

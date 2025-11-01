@@ -40,6 +40,9 @@ public class InputRecordEntity {
     @DateUpdated
     private Instant dateModified;
     private String extractedResourceType;
+    private String contentType;
+    private String mediaType;
+    private String carrierType;
 
     @TypeDef(type = DataType.JSON)
     private InputRecord record;
@@ -77,6 +80,30 @@ public class InputRecordEntity {
 
     public void setExtractedResourceType(String extractedResourceType) {
         this.extractedResourceType = extractedResourceType;
+    }
+
+    public String getContentType() {
+        return contentType;
+    }
+
+    public void setContentType(String contentType) {
+        this.contentType = contentType;
+    }
+
+    public String getMediaType() {
+        return mediaType;
+    }
+
+    public void setMediaType(String mediaType) {
+        this.mediaType = mediaType;
+    }
+
+    public String getCarrierType() {
+        return carrierType;
+    }
+
+    public void setCarrierType(String carrierType) {
+        this.carrierType = carrierType;
     }
 
     public InputRecord getRecord() {
