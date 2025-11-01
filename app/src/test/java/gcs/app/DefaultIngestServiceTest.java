@@ -29,15 +29,17 @@ class DefaultIngestServiceTest {
 
         var service = new DefaultIngestService(embeddingService, vectorIndex, canonicalizer, calibration, inputRecordRepository, classifier);
 
-        var record = new InputRecord("rec-001", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+        var record = new InputRecord("rec-001", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
         var summary = "test summary";
         var embedding = new float[]{1.0f, 2.0f, 3.0f};
         var topKNeighbors = List.of(new VectorIndex.Neighbor<>("rec-002", 0.9, null, new float[0]));
         var radiusNeighbors = List.of(new VectorIndex.Neighbor<>("rec-003", 0.85, null, new float[0]));
-        var classificationResult = new ClassificationResult(WorkType.BOOK_MONOGRAPH, "Default classification.", 0.5);
+        var classificationResult = new ClassificationResult(WorkType.BOOK_MONOGRAPH, "Default classification.", 0.5, 1);
+
+        var versionedRecord = new InputRecord("rec-001", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1);
 
         when(classifier.classify(record)).thenReturn(classificationResult);
-        when(canonicalizer.summarize(record)).thenReturn(summary);
+        when(canonicalizer.summarize(versionedRecord)).thenReturn(summary);
         when(embeddingService.embed(summary)).thenReturn(embedding);
         when(vectorIndex.topK(embedding, 5)).thenReturn(topKNeighbors);
         when(vectorIndex.radius(embedding, 0.8f)).thenReturn(radiusNeighbors);

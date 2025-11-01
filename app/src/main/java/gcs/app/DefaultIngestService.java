@@ -49,14 +49,39 @@ public class DefaultIngestService implements IngestService {
         var classification = classifier.classify(record);
         LOG.info("Classified record {} as {} with explanation: {}", record.id(), classification.workType(), classification.explanation());
 
-        String summary = canonicalizer.summarize(record);
+        // Create a new InputRecord with the classifierVersion
+        var versionedRecord = new InputRecord(
+            record.id(),
+            record.provenance(),
+            record.domain(),
+            record.licenseDeclaration(),
+            record.identifiers(),
+            record.titles(),
+            record.contributors(),
+            record.languages(),
+            record.edition(),
+            record.publication(),
+            record.physical(),
+            record.subjects(),
+            record.series(),
+            record.relations(),
+            record.classification(),
+            record.notes(),
+            record.rights(),
+            record.admin(),
+            record.media(),
+            record.ext(),
+            classification.classifierVersion()
+        );
+
+        String summary = canonicalizer.summarize(versionedRecord);
         float[] embedding = embeddingService.embed(summary);
 
         var topKNeighbors = vectorIndex.topK(embedding, TOP_K);
         var radiusNeighbors = vectorIndex.radius(embedding, RADIUS);
 
-        vectorIndex.add(record.id(), embedding, record);
-        store(record);
+        vectorIndex.add(versionedRecord.id(), embedding, versionedRecord);
+        store(versionedRecord, classification.classifierVersion());
 
         return Stream.concat(topKNeighbors.stream(), radiusNeighbors.stream())
             .distinct()
@@ -64,11 +89,12 @@ public class DefaultIngestService implements IngestService {
             .toList();
     }
 
-    private void store(InputRecord record) {
+    private void store(InputRecord record, int classifierVersion) {
         var entity = new InputRecordEntity();
         entity.setId(record.id());
         entity.setRecord(record);
         entity.setProcessingStatus(ProcessingStatus.PENDING);
+        entity.setClassifierVersion(classifierVersion);
         inputRecordRepository.save(entity);
     }
 }

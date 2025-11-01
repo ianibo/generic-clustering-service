@@ -6,5 +6,6 @@ import io.micronaut.serde.annotation.Serdeable;
 public record ClassificationResult(
     WorkType workType,
     String explanation,
-    double confidence
+    double confidence,
+    int classifierVersion
 ) {}
