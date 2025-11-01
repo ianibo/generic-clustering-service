@@ -19,11 +19,13 @@ technology to address the long standing problem of fuzzy matching in bibliograph
 
 Project: Generic Clustering Service (GCS)
 Runtime: Java 21, Micronaut 4.10+, Gradle (Kotlin DSL).
+Use JDBC implementation of MicronautData - do not use JPA
+
 Hard constraints:
 
 No network calls, no external AI APIs, no containers, no Docker, no Testcontainers.
 
-No Elasticsearch / OpenSearch / pgvector.
+No Elasticsearch / OpenSearch / pgvector IN CORE for TESTS - These may be mocked for alternate implementations however.
 
 All code must run locally and deterministically via pure JVM.
 
