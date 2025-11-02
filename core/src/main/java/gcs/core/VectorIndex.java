@@ -43,4 +43,9 @@ public interface VectorIndex<T> {
      * @return The list of neighbors within the radius.
      */
     List<Neighbor<T>> radius(float[] query, float threshold);
+
+    /**
+     * Clears all entries from the index.
+     */
+    void clear();
 }

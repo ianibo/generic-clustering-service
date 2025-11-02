@@ -1,5 +1,7 @@
 package gcs.core;
 
+import jakarta.inject.Named;
+import jakarta.inject.Singleton;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -9,6 +11,8 @@ import java.util.PriorityQueue;
  * An in-memory vector index that performs a brute-force search.
  * @param <T> The type of the payload associated with each vector.
  */
+@Singleton
+@Named("in-memory")
 public class InMemoryVectorIndex<T> implements VectorIndex<T> {
 
     private final List<Entry<T>> entries = new ArrayList<>();
@@ -42,5 +46,10 @@ public class InMemoryVectorIndex<T> implements VectorIndex<T> {
                 .filter(neighbor -> neighbor.score() >= threshold)
                 .sorted(Comparator.comparingDouble(Neighbor<T>::score).reversed().thenComparing(Neighbor::id))
                 .toList();
+    }
+
+    @Override
+    public void clear() {
+        entries.clear();
     }
 }

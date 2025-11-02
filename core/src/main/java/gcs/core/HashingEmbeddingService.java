@@ -1,5 +1,7 @@
 package gcs.core;
 
+import jakarta.inject.Named;
+import jakarta.inject.Singleton;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -7,6 +9,8 @@ import java.security.NoSuchAlgorithmException;
 /**
  * A simple, deterministic embedding service that uses a hashing algorithm to generate embeddings.
  */
+@Singleton
+@Named("hashing")
 public class HashingEmbeddingService implements EmbeddingService {
 
     private static final int DIMENSION = 128;

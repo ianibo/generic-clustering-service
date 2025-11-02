@@ -22,7 +22,8 @@ class OpenAiEmbeddingServiceTest {
     private EmbeddingModel embeddingModel;
 
     @Inject
-    private OpenAiEmbeddingService openAiEmbeddingService;
+    @jakarta.inject.Named("openai")
+    private EmbeddingService openAiEmbeddingService;
 
     @Test
     void testEmbed() {

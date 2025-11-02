@@ -3,9 +3,11 @@ package gcs.core;
 import dev.langchain4j.data.embedding.Embedding;
 import dev.langchain4j.model.embedding.EmbeddingModel;
 import dev.langchain4j.model.output.Response;
+import jakarta.inject.Named;
 import jakarta.inject.Singleton;
 
 @Singleton
+@Named("openai")
 public class OpenAiEmbeddingService implements EmbeddingService {
 
     private final EmbeddingModel embeddingModel;
