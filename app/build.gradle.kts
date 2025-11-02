@@ -31,6 +31,8 @@ dependencies {
   runtimeOnly("org.flywaydb:flyway-database-postgresql")
   implementation("io.micronaut.sql:micronaut-jdbc-hikari")
   implementation("org.flywaydb:flyway-core")
+  implementation("dev.langchain4j:langchain4j:0.32.0")
+  implementation("dev.langchain4j:langchain4j-open-ai:0.32.0")
 
 
   compileOnly("org.projectlombok:lombok")
@@ -38,6 +40,7 @@ dependencies {
 	runtimeOnly("org.yaml:snakeyaml")
   // runtimeOnly("com.h2database:h2")
   runtimeOnly("org.postgresql:postgresql")
+  implementation("com.pgvector:pgvector:0.1.4")
 
 
 	testImplementation("io.micronaut.test:micronaut-test-junit5")
