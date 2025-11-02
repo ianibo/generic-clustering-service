@@ -21,8 +21,10 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 import co.elastic.clients.elasticsearch._types.mapping.DenseVectorSimilarity;
+import jakarta.inject.Named;
 
 @Singleton
+@Named("es")
 public class ESIndexStore {
     private static final Logger log = LoggerFactory.getLogger(ESIndexStore.class);
     private final ElasticsearchClient esClient;

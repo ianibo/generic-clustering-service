@@ -4,9 +4,11 @@ import gcs.app.pgvector.*;
 import jakarta.inject.Singleton;
 import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
+import jakarta.inject.Named;
 
 @Slf4j
 @Singleton
+@Named("pgvector")
 public class PGVectorStore {
 
 	private final WorkClusterRepository workClusterRepository;
