@@ -22,3 +22,6 @@ test-resources:
   containers:
     postgres:
       image-name: pgvector/pgvector:pg17
+    elasticsearch:
+      image-name: docker.elastic.co/elasticsearch/elasticsearch:8.11.3
+      exposed-ports: 9200
