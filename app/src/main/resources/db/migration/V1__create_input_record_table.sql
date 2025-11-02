@@ -33,8 +33,12 @@ CREATE TABLE work_cluster_member (
 	added_reason	TEXT,                  -- audit/human note
 	summary VARCHAR(256),
   facts JSONB,
+  blocking VECTOR(64) NOT NULL
   embedding VECTOR(1536) NOT NULL
 );
+
+CREATE INDEX idx_work_cm_blocking ON work_cluster_member USING hnsw (blocking vector_cosine_ops);
+CREATE INDEX idx_work_cm_embedding ON work_cluster_member USING hnsw (embedding vector_cosine_ops);
 
 CREATE TABLE instance_cluster (
   id UUID NOT NULL PRIMARY KEY,
@@ -56,6 +60,9 @@ CREATE TABLE instance_cluster_member (
 	added_reason	TEXT,                  -- audit/human note
 	summary VARCHAR(256),
   facts JSONB,
+  blocking VECTOR(64) NOT NULL
   embedding VECTOR(1536) NOT NULL
 );
 
+CREATE INDEX idx_instance_cm_blocking ON work_instance_member USING hnsw (blocking vector_cosine_ops);
+CREATE INDEX idx_instance_cm_embedding ON instance_cluster_member USING hnsw (embedding vector_cosine_ops);
