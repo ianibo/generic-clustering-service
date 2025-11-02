@@ -1,4 +1,4 @@
-package org.olf.gcs;
+package gcs.app;
 
 import gcs.core.InputRecord;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;

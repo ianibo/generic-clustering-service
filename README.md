@@ -3,6 +3,12 @@
 
 Agents please read Agents.md
 
+Humans - if you are using jules - set this as your repository context command:
+
+    ./gradlew --no-daemon --parallel :core:clean :core:check :app:compileJava -x :app:test
+
+Jules will run unit tests on the core project and will compile the app project but will not run the integration tests on the app project (It uses testcontainers which are not supported by Jules - at least not yet)
+
 <!-- BEGIN: JULES-APPEND-ONLY -->
 <!-- Jules: append new notes below, do not modify content above this line. -->
 

@@ -2,6 +2,7 @@ plugins {
 	id("com.gradleup.shadow")
 	id("io.micronaut.application")
 	id("io.micronaut.aot")
+  id("io.micronaut.test-resources") 
 }
 
 version = "0.1"
@@ -27,6 +28,7 @@ dependencies {
 	implementation("ch.qos.logback:logback-classic")
   implementation("io.micronaut.data:micronaut-data-jdbc")
   implementation("io.micronaut.flyway:micronaut-flyway")
+  runtimeOnly("org.flywaydb:flyway-database-postgresql")
   implementation("io.micronaut.sql:micronaut-jdbc-hikari")
   implementation("org.flywaydb:flyway-core")
 
@@ -34,7 +36,9 @@ dependencies {
   compileOnly("org.projectlombok:lombok")
   compileOnly("jakarta.persistence:jakarta.persistence-api")
 	runtimeOnly("org.yaml:snakeyaml")
-  runtimeOnly("com.h2database:h2")
+  // runtimeOnly("com.h2database:h2")
+  runtimeOnly("org.postgresql:postgresql")
+
 
 	testImplementation("io.micronaut.test:micronaut-test-junit5")
   testImplementation("org.mockito:mockito-core:5.10.0")
@@ -44,6 +48,10 @@ dependencies {
 	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.10.0")
 	testImplementation("io.micronaut.test:micronaut-test-junit5:3.9.0")
 	testImplementation("io.micronaut:micronaut-http-client")
+  testImplementation("org.testcontainers:junit-jupiter")
+  testImplementation("org.testcontainers:postgresql")
+  testImplementation("org.testcontainers:testcontainers")
+
 
   testAnnotationProcessor("io.micronaut:micronaut-inject-java")
   testAnnotationProcessor("io.micronaut.serde:micronaut-serde-processor")
