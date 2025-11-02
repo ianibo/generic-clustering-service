@@ -17,6 +17,9 @@
     <logger name="org.flywaydb" level="INFO"/>
     <logger name="io.micronaut.data.query" level="DEBUG"/>
 
+    <logger name="io.micronaut.flyway" level="DEBUG"/>
+    <logger name="org.flywaydb" level="DEBUG"/>
+
     <root level="warn">
         <appender-ref ref="STDOUT" />
     </root>

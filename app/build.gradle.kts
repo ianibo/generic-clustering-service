@@ -42,6 +42,7 @@ dependencies {
   runtimeOnly("org.postgresql:postgresql")
   implementation("com.pgvector:pgvector:0.1.4")
   implementation("io.micronaut.elasticsearch:micronaut-elasticsearch")
+	implementation("co.elastic.clients:elasticsearch-java:9.2.0")
 
 
 	testImplementation("io.micronaut.test:micronaut-test-junit5")
@@ -54,6 +55,7 @@ dependencies {
 	testImplementation("io.micronaut:micronaut-http-client")
   testImplementation("org.testcontainers:junit-jupiter")
   testImplementation("org.testcontainers:postgresql")
+	testImplementation("org.testcontainers:elasticsearch")
   testImplementation("org.testcontainers:testcontainers")
   testCompileOnly("org.projectlombok:lombok")
 

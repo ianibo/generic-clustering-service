@@ -109,6 +109,9 @@ public class DefaultIngestService implements IngestService {
     }
 
 	private void processCluster(InputRecord record, Canonicalizer canonicalizer, String clusterType, Canonicalizer.Intent intent, double threshold) {
+
+		log.info("processCluster(....)");
+
 		String summary = canonicalizer.summarize(record, intent);
 		float[] embedding = embeddingService.embed(summary);
 		float[] blockingEmbedding = projector.project(embedding);
@@ -116,6 +119,9 @@ public class DefaultIngestService implements IngestService {
 
 		try {
 			esIndexStore.getOrCreate(indexName);
+
+			log.info("clusteringService.findClosestMatch.... indexName:{}",indexName);
+
 			Optional<ESIndexStore.SearchResult> closestMatch = clusteringService.findClosestMatch(indexName, blockingEmbedding, "blocking", threshold);
 			
 			log.info("Result of findClosestMatch = {}",closestMatch);
