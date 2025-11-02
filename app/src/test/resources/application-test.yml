@@ -21,4 +21,4 @@ flyway:
 test-resources:
   containers:
     postgres:
-      image-name: pgvector/pgvector:pg16
+      image-name: pgvector/pgvector:pg17
