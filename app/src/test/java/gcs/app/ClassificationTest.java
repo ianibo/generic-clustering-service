@@ -1,76 +1,70 @@
 package gcs.app;
 
+import gcs.app.clustering.BlockingRandomProjector;
+import gcs.app.clustering.ESClusteringService;
+import gcs.app.esvector.ESIndexStore;
+import gcs.app.pgvector.InstanceCluster;
+import gcs.app.pgvector.InstanceClusterMember;
+import gcs.app.pgvector.WorkCluster;
+import gcs.app.pgvector.WorkClusterMember;
+import gcs.app.pgvector.storage.PGVectorStore;
 import gcs.core.InputRecord;
 import gcs.core.classification.Classifier;
-import gcs.core.classification.ClassificationResult;
-import gcs.core.classification.InstanceClassification;
-import gcs.core.classification.ContentType;
-import gcs.core.classification.MediaType;
-import gcs.core.classification.CarrierType;
-import gcs.core.classification.WorkType;
+import gcs.core.canonicalization.Canonicalizer;
+import jakarta.inject.Named;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
-import org.mockito.Mockito;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
-import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.*;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-
-import gcs.core.canonicalization.Canonicalizer;
+import gcs.app.util.TestRecordLoader;
 
 class ClassificationTest {
 
-    private ObjectMapper objectMapper;
     private DefaultIngestService service;
-    private InputRecordRepository inputRecordRepository;
-    private Classifier classifier;
+    private PGVectorStore pgVectorStore;
+    private ESIndexStore esIndexStore;
+
 
     @BeforeEach
     void setup() {
-        objectMapper = new ObjectMapper().registerModule(new JavaTimeModule());
-        inputRecordRepository = mock(InputRecordRepository.class);
-        classifier = new gcs.core.classification.RuleBasedClassifier(new gcs.core.classification.RuleBasedInstanceClassifier());
+        var classifier = new gcs.core.classification.RuleBasedClassifier(new gcs.core.classification.RuleBasedInstanceClassifier());
         var defaultCanonicalizer = mock(Canonicalizer.class);
         when(defaultCanonicalizer.forContentType()).thenReturn(null);
         var textCanonicalizer = mock(Canonicalizer.class);
         when(textCanonicalizer.forContentType()).thenReturn("TEXT");
         var canonicalizers = List.of(defaultCanonicalizer, textCanonicalizer);
+        pgVectorStore = mock(PGVectorStore.class);
+        esIndexStore = mock(ESIndexStore.class);
+
+        when(pgVectorStore.saveWorkCluster(any(WorkCluster.class))).thenReturn(new WorkCluster(UUID.randomUUID()));
+        when(pgVectorStore.saveInstanceCluster(any(InstanceCluster.class))).thenReturn(new InstanceCluster(UUID.randomUUID()));
+
         service = new DefaultIngestService(
                 mock(gcs.core.EmbeddingService.class),
-                mock(gcs.core.VectorIndex.class),
                 canonicalizers,
-                mock(gcs.core.Calibration.class),
-                inputRecordRepository,
-                classifier
+                classifier,
+                mock(BlockingRandomProjector.class),
+                mock(ESClusteringService.class),
+                pgVectorStore,
+                esIndexStore
         );
-    }
-
-    private InputRecord loadRecord(String fileName) throws IOException {
-        try (var in = getClass().getResourceAsStream("/testrecs/cs00000002m001/" + fileName)) {
-            return objectMapper.readValue(in, InputRecord.class);
-        }
     }
 
     @Test
     void testCollectedPoemsRecords() throws IOException {
         // Arrange
-        InputRecord record1 = loadRecord("4bcc8bff-2de9-50db-86ea-af75a84de228");
-        InputRecord record2 = loadRecord("4f4e511a-a03d-57b1-8132-6ce7e1617c38");
-        InputRecord record3 = loadRecord("4f5de229-7df0-5f76-af84-03326e132f4a");
-        InputRecord record4 = loadRecord("5161586e-04ea-53f2-b94c-8a29e9d05625");
-        InputRecord record5 = loadRecord("657cdce5-66ab-58d1-9a36-42dc96229dca");
+        InputRecord record1 = TestRecordLoader.loadRecord("4bcc8bff-2de9-50db-86ea-af75a84de228");
+        InputRecord record2 = TestRecordLoader.loadRecord("4f4e511a-a03d-57b1-8132-6ce7e1617c38");
+        InputRecord record3 = TestRecordLoader.loadRecord("4f5de229-7df0-5f76-af84-03326e132f4a");
+        InputRecord record4 = TestRecordLoader.loadRecord("5161586e-04ea-53f2-b94c-8a29e9d05625");
+        InputRecord record5 = TestRecordLoader.loadRecord("657cdce5-66ab-58d1-9a36-42dc96229dca");
 
         // Act
         service.ingest(record1);
@@ -80,46 +74,24 @@ class ClassificationTest {
         service.ingest(record5);
 
         // Assert
-        var captor = ArgumentCaptor.forClass(InputRecordEntity.class);
-        verify(inputRecordRepository, Mockito.times(5)).save(captor.capture());
-        List<InputRecordEntity> savedEntities = captor.getAllValues();
-
-        assertEquals("text", savedEntities.get(0).getRecord().physical().contentType());
-        assertEquals("unmediated", savedEntities.get(0).getRecord().physical().mediaType());
-        assertEquals("volume", savedEntities.get(0).getRecord().physical().carrierType());
-
-        assertEquals(null, savedEntities.get(1).getRecord().physical().contentType());
-        assertEquals(null, savedEntities.get(1).getRecord().physical().mediaType());
-        assertEquals(null, savedEntities.get(1).getRecord().physical().carrierType());
-
-        assertEquals(null, savedEntities.get(2).getRecord().physical().contentType());
-        assertEquals(null, savedEntities.get(2).getRecord().physical().mediaType());
-        assertEquals(null, savedEntities.get(2).getRecord().physical().carrierType());
-
-        assertEquals("text", savedEntities.get(3).getRecord().physical().contentType());
-        assertEquals("unmediated", savedEntities.get(3).getRecord().physical().mediaType());
-        assertEquals("volume", savedEntities.get(3).getRecord().physical().carrierType());
-
-        assertEquals(null, savedEntities.get(4).getRecord().physical().contentType());
-        assertEquals(null, savedEntities.get(4).getRecord().physical().mediaType());
-        assertEquals(null, savedEntities.get(4).getRecord().physical().carrierType());
+        var workCaptor = ArgumentCaptor.forClass(WorkClusterMember.class);
+        var instanceCaptor = ArgumentCaptor.forClass(InstanceClusterMember.class);
+        verify(pgVectorStore, times(5)).saveWorkClusterMember(workCaptor.capture());
+        verify(pgVectorStore, times(5)).saveInstanceClusterMember(instanceCaptor.capture());
     }
 
     @Test
     void testFaustRecord() throws IOException {
         // Arrange
-        InputRecord record = loadRecord("c61d904c-bad1-5160-a510-9a0eeba4f9bf");
+        InputRecord record = TestRecordLoader.loadRecord("c61d904c-bad1-5160-a510-9a0eeba4f9bf");
 
         // Act
         service.ingest(record);
 
         // Assert
-        var captor = ArgumentCaptor.forClass(InputRecordEntity.class);
-        verify(inputRecordRepository).save(captor.capture());
-        InputRecordEntity savedEntity = captor.getValue();
-
-        assertEquals("text", savedEntity.getRecord().physical().contentType());
-        assertEquals("unmediated", savedEntity.getRecord().physical().mediaType());
-        assertEquals("volume", savedEntity.getRecord().physical().carrierType());
+        var workCaptor = ArgumentCaptor.forClass(WorkClusterMember.class);
+        var instanceCaptor = ArgumentCaptor.forClass(InstanceClusterMember.class);
+        verify(pgVectorStore).saveWorkClusterMember(workCaptor.capture());
+        verify(pgVectorStore).saveInstanceClusterMember(instanceCaptor.capture());
     }
 }

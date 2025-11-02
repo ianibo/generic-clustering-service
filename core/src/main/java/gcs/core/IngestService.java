@@ -1,10 +1,13 @@
 package gcs.core;
 
-import java.util.List;
-
+/**
+ * The main entry point for the GCS service.
+ */
 public interface IngestService {
-    List<Candidate> ingest(InputRecord record);
-
-    record Candidate(String id, double score, double pDup) {
-    }
+    /**
+     * Ingests a single record into the system.
+     * @param record The record to ingest.
+     * @return The ingested record, possibly enriched with additional information.
+     */
+    InputRecord ingest(InputRecord record);
 }

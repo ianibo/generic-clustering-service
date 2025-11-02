@@ -23,6 +23,12 @@ public abstract class Cluster {
 
     private String status;
 
+    public Cluster() {}
+
+    public Cluster(UUID id) {
+        this.id = id;
+    }
+
     public UUID getId() {
         return id;
     }

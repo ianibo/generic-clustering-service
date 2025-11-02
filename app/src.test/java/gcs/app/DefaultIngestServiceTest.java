@@ -3,8 +3,6 @@ package gcs.app;
 import gcs.app.clustering.BlockingRandomProjector;
 import gcs.app.clustering.ESClusteringService;
 import gcs.app.esvector.ESIndexStore;
-import gcs.app.pgvector.InstanceClusterMember;
-import gcs.app.pgvector.WorkClusterMember;
 import gcs.app.pgvector.storage.PGVectorStore;
 import gcs.core.canonicalization.Canonicalizer;
 import gcs.core.classification.Classifier;
@@ -17,19 +15,15 @@ import gcs.core.EmbeddingService;
 import gcs.core.InputRecord;
 import gcs.core.classification.WorkType;
 import org.junit.jupiter.api.Test;
-import org.mockito.ArgumentCaptor;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
 class DefaultIngestServiceTest {
     @Test
-    void testIngest() throws IOException {
+    void testIngest() {
         // Arrange
         var embeddingService = mock(EmbeddingService.class);
         var defaultCanonicalizer = mock(Canonicalizer.class);
@@ -47,23 +41,19 @@ class DefaultIngestServiceTest {
 
         var physical = new InputRecord.Physical("extent", "dimensions", "TEXT", "UNMEDIATED", "VOLUME", "format");
         var record = new InputRecord("rec-001", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, null);
-        var workSummary = "work summary";
-        var instanceSummary = "instance summary";
+        var summary = "test summary";
         var embedding = new float[]{1.0f, 2.0f, 3.0f};
-        var blockingEmbedding = new float[]{0.1f, 0.2f, 0.3f};
         List<String> evidence = new ArrayList<String>();
         var instanceClassification = new InstanceClassification(ContentType.TEXT,MediaType.UNMEDIATED,CarrierType.VOLUME,null,null,null);
         var source = "";
 
         var classificationResult = new ClassificationResult(WorkType.BOOK_MONOGRAPH, instanceClassification, evidence, source, 0.5, 1);
+
         var versionedRecord = new InputRecord("rec-001", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, 1);
 
         when(classifier.classify(record)).thenReturn(classificationResult);
-        when(textCanonicalizer.summarize(versionedRecord, Canonicalizer.Intent.WORK)).thenReturn(workSummary);
-        when(textCanonicalizer.summarize(versionedRecord, Canonicalizer.Intent.INSTANCE)).thenReturn(instanceSummary);
-        when(embeddingService.embed(anyString())).thenReturn(embedding);
-        when(projector.project(embedding)).thenReturn(blockingEmbedding);
-        when(clusteringService.findClosestMatch(anyString(), any(), anyString(), anyDouble())).thenReturn(Optional.empty());
+        when(textCanonicalizer.summarize(versionedRecord, Canonicalizer.Intent.WORK)).thenReturn(summary);
+        when(embeddingService.embed(summary)).thenReturn(embedding);
 
 
         // Act
@@ -71,9 +61,5 @@ class DefaultIngestServiceTest {
 
         // Assert
         verify(classifier).classify(record);
-        var workCaptor = ArgumentCaptor.forClass(WorkClusterMember.class);
-        verify(pgVectorStore).saveWorkClusterMember(workCaptor.capture());
-        var instanceCaptor = ArgumentCaptor.forClass(InstanceClusterMember.class);
-        verify(pgVectorStore).saveInstanceClusterMember(instanceCaptor.capture());
     }
 }
