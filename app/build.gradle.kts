@@ -31,6 +31,8 @@ dependencies {
   runtimeOnly("org.flywaydb:flyway-database-postgresql")
   implementation("io.micronaut.sql:micronaut-jdbc-hikari")
   implementation("org.flywaydb:flyway-core")
+  implementation("dev.langchain4j:langchain4j:0.32.0")
+  implementation("dev.langchain4j:langchain4j-open-ai:0.32.0")
 
 
   compileOnly("org.projectlombok:lombok")
