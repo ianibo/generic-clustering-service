@@ -39,7 +39,7 @@ Code (compilable).
 
 DO NOT INCLUDE -PrunIT in ANY jules workflows - it invokes testcontainers and will not work.
 
-FULL run of test suite (Excluding runIT) from top level - no module only tests - app and core modules must both pass their test suites.
+FULL run of test suite (Excluding runIT) from top level - no module only tests - core modules must both pass. DO not run app tests unless you support testcontainers. app must BUILD. rely on github actions feedback for app test results.
 
 Short README snippet or Javadoc for each public type. (Do not remove existing content from README)
 
