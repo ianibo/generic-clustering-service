@@ -22,6 +22,8 @@ test-resources:
   containers:
     postgres:
       image-name: pgvector/pgvector:pg17
+    elasticsearch:
+      image-name: docker.elastic.co/elasticsearch/elasticsearch:8.11.3
 
 openai:
   # SET OPENAI_API_KEY as an env var rather than this
@@ -29,3 +31,6 @@ openai:
   base-url: "https://api.openai.com/v1"
   model: "text-embedding-3-small"
 
+# elasticsearch:
+#  image-name: docker.elastic.co/elasticsearch/elasticsearch:8.11.3
+#  exposed-ports: 9200
