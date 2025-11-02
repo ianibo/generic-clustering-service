@@ -41,6 +41,7 @@ dependencies {
   // runtimeOnly("com.h2database:h2")
   runtimeOnly("org.postgresql:postgresql")
   implementation("com.pgvector:pgvector:0.1.4")
+  implementation("io.micronaut.elasticsearch:micronaut-elasticsearch")
 
 
 	testImplementation("io.micronaut.test:micronaut-test-junit5")
