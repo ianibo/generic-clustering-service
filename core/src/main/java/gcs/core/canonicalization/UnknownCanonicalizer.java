@@ -3,11 +3,24 @@ package gcs.core.canonicalization;
 import gcs.core.InputRecord;
 import jakarta.inject.Singleton;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 @Singleton
 public class UnknownCanonicalizer implements Canonicalizer {
 
     @Override
-    public String summarize(InputRecord record) {
+    public String summarize(InputRecord record, Intent intent) {
+        switch (intent) {
+            case INSTANCE:
+                return summarizeInstance(record);
+            case WORK:
+            default:
+                return summarizeWork(record);
+        }
+    }
+
+    private String summarizeWork(InputRecord record) {
         return List.of(
                 "title:" + getTitle(record),
                 "creators:" + getCreators(record),
@@ -16,6 +29,50 @@ public class UnknownCanonicalizer implements Canonicalizer {
                 "ids:" + getIds(record)
             ).stream()
             .collect(Collectors.joining("; "));
+    }
+
+    private String summarizeInstance(InputRecord record) {
+        return List.of(
+            "title:" + getTitle(record),
+            "creators:" + getCreators(record),
+            "pub_full:" + getFullPublication(record),
+            "physical:" + getPhysical(record),
+            "ids:" + getIds(record)
+        ).stream()
+        .collect(Collectors.joining("; "));
+    }
+
+    private String getFullPublication(InputRecord record) {
+        if (record.publication() == null) {
+            return "";
+        }
+        var pub = record.publication();
+        var parts = new java.util.ArrayList<String>();
+        if (pub.place() != null && !pub.place().isEmpty()) {
+            parts.add(String.join(", ", pub.place()));
+        }
+        if (pub.publisher() != null && !pub.publisher().isEmpty()) {
+            parts.add(String.join(", ", pub.publisher()));
+        }
+        if (pub.date() != null && !pub.date().isBlank()) {
+            parts.add(pub.date());
+        }
+        return String.join(" : ", parts);
+    }
+
+    private String getPhysical(InputRecord record) {
+        if (record.physical() == null) {
+            return "";
+        }
+        var p = record.physical();
+        return List.of(
+            "extent:" + p.extent(),
+            "dims:" + p.dimensions(),
+            "contentType:" + p.contentType(),
+            "mediaType:" + p.mediaType(),
+            "carrierType:" + p.carrierType(),
+            "format:" + (p.format() != null ? p.format() : "")
+        ).stream().collect(Collectors.joining(", "));
     }
 
     private String getTitle(InputRecord record) {

@@ -88,7 +88,7 @@ public class DefaultIngestService implements IngestService {
         var canonicalizer = canonicalizers.getOrDefault(contentType, defaultCanonicalizer);
         LOG.info("Using canonicalizer {} for content type {}", canonicalizer.getClass().getSimpleName(), contentType);
 
-        String summary = canonicalizer.summarize(versionedRecord);
+        String summary = canonicalizer.summarize(versionedRecord, Canonicalizer.Intent.WORK);
         float[] embedding = embeddingService.embed(summary);
 
         var topKNeighbors = vectorIndex.topK(embedding, TOP_K);

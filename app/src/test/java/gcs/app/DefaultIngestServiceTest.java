@@ -53,7 +53,7 @@ class DefaultIngestServiceTest {
         var versionedRecord = new InputRecord("rec-001", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, 1);
 
         when(classifier.classify(record)).thenReturn(classificationResult);
-        when(textCanonicalizer.summarize(versionedRecord)).thenReturn(summary);
+        when(textCanonicalizer.summarize(versionedRecord, Canonicalizer.Intent.WORK)).thenReturn(summary);
         when(embeddingService.embed(summary)).thenReturn(embedding);
         when(vectorIndex.topK(embedding, 5)).thenReturn(topKNeighbors);
         when(vectorIndex.radius(embedding, 0.8f)).thenReturn(radiusNeighbors);
