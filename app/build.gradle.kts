@@ -40,6 +40,7 @@ dependencies {
 	runtimeOnly("org.yaml:snakeyaml")
   // runtimeOnly("com.h2database:h2")
   runtimeOnly("org.postgresql:postgresql")
+  implementation("com.pgvector:pgvector:0.1.4")
 
 
 	testImplementation("io.micronaut.test:micronaut-test-junit5")
