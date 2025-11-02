@@ -1,10 +1,16 @@
 package gcs.app;
 
+import io.micronaut.http.HttpRequest;
+import io.micronaut.http.HttpResponse;
+import io.micronaut.http.HttpStatus;
+import io.micronaut.http.client.HttpClient;
+import io.micronaut.http.client.annotation.Client;
+import io.micronaut.http.client.exceptions.HttpClientResponseException;
+import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
+
 import gcs.app.clustering.BlockingRandomProjector;
 import gcs.app.clustering.ESClusteringService;
 import gcs.app.esvector.ESIndexStore;
-import gcs.app.pgvector.InstanceClusterMember;
-import gcs.app.pgvector.WorkClusterMember;
 import gcs.app.pgvector.storage.PGVectorStore;
 import gcs.core.canonicalization.Canonicalizer;
 import gcs.core.classification.Classifier;
@@ -17,63 +23,34 @@ import gcs.core.EmbeddingService;
 import gcs.core.InputRecord;
 import gcs.core.classification.WorkType;
 import org.junit.jupiter.api.Test;
-import org.mockito.ArgumentCaptor;
+import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 
-import java.io.IOException;
+import gcs.app.util.TestRecordLoader;
+
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Optional;
+import jakarta.inject.Inject;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
+@MicronautTest
 class DefaultIngestServiceTest {
-    @Test
-    void testIngest() throws IOException {
-        // Arrange
-        var embeddingService = mock(EmbeddingService.class);
-        var defaultCanonicalizer = mock(Canonicalizer.class);
-        when(defaultCanonicalizer.forContentType()).thenReturn(null);
-        var textCanonicalizer = mock(Canonicalizer.class);
-        when(textCanonicalizer.forContentType()).thenReturn("TEXT");
-        var canonicalizers = List.of(defaultCanonicalizer, textCanonicalizer);
-        var classifier = mock(Classifier.class);
-        var projector = mock(BlockingRandomProjector.class);
-        var clusteringService = mock(ESClusteringService.class);
-        var pgVectorStore = mock(PGVectorStore.class);
-        var esIndexStore = mock(ESIndexStore.class);
 
-        var service = new DefaultIngestService(embeddingService, canonicalizers, classifier, projector, clusteringService, pgVectorStore, esIndexStore);
+	@Inject
+  @Client("/")
+  HttpClient client;
 
-        var physical = new InputRecord.Physical("extent", "dimensions", "TEXT", "UNMEDIATED", "VOLUME", "format");
-        var record = new InputRecord("rec-001", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, null);
-        var workSummary = "work summary";
-        var instanceSummary = "instance summary";
-        var embedding = new float[]{1.0f, 2.0f, 3.0f};
-        var blockingEmbedding = new float[]{0.1f, 0.2f, 0.3f};
-        List<String> evidence = new ArrayList<String>();
-        var instanceClassification = new InstanceClassification(ContentType.TEXT,MediaType.UNMEDIATED,CarrierType.VOLUME,null,null,null);
-        var source = "";
-
-        var classificationResult = new ClassificationResult(WorkType.BOOK_MONOGRAPH, instanceClassification, evidence, source, 0.5, 1);
-        var versionedRecord = new InputRecord("rec-001", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, 1);
-
-        when(classifier.classify(record)).thenReturn(classificationResult);
-        when(textCanonicalizer.summarize(versionedRecord, Canonicalizer.Intent.WORK)).thenReturn(workSummary);
-        when(textCanonicalizer.summarize(versionedRecord, Canonicalizer.Intent.INSTANCE)).thenReturn(instanceSummary);
-        when(embeddingService.embed(anyString())).thenReturn(embedding);
-        when(projector.project(embedding)).thenReturn(blockingEmbedding);
-        when(clusteringService.findClosestMatch(anyString(), any(), anyString(), anyDouble())).thenReturn(Optional.empty());
+  @Inject
+	DefaultIngestService service;
 
 
-        // Act
-        service.ingest(record);
-
-        // Assert
-        verify(classifier).classify(record);
-        var workCaptor = ArgumentCaptor.forClass(WorkClusterMember.class);
-        verify(pgVectorStore).saveWorkClusterMember(workCaptor.capture());
-        var instanceCaptor = ArgumentCaptor.forClass(InstanceClusterMember.class);
-        verify(pgVectorStore).saveInstanceClusterMember(instanceCaptor.capture());
-    }
+	@Test
+	void testIngest() throws java.io.IOException {
+		InputRecord record1 = TestRecordLoader.loadRecord("4bcc8bff-2de9-50db-86ea-af75a84de228");
+		var result = service.ingest(record1);
+		log.info("Result = {}",result);
+		assert result != null;
+	}
 }

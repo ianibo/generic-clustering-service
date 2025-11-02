@@ -26,9 +26,12 @@ import java.util.UUID;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+import lombok.extern.slf4j.Slf4j;
+import jakarta.transaction.Transactional;
+
+@Slf4j
 @Singleton
 public class DefaultIngestService implements IngestService {
-    private static final Logger LOG = LoggerFactory.getLogger(DefaultIngestService.class);
     private static final double WORK_THRESHOLD = 0.9;
     private static final double INSTANCE_THRESHOLD = 0.95;
 
@@ -66,9 +69,10 @@ public class DefaultIngestService implements IngestService {
     }
 
     @Override
+		@Transactional
     public InputRecord ingest(InputRecord record) {
         var classification = classifier.classify(record);
-        LOG.info("Classified record {} as {} with explanation: {}", record.id(), classification.workType(), classification);
+        log.info("Classified record {} as {} with explanation: {}", record.id(), classification.workType(), classification);
 
         var versionedRecord = new InputRecord(
             record.id(),
@@ -96,7 +100,7 @@ public class DefaultIngestService implements IngestService {
 
         var contentType = classification.instanceClassification().contentType().toString();
         var canonicalizer = canonicalizers.getOrDefault(contentType, defaultCanonicalizer);
-        LOG.info("Using canonicalizer {} for content type {}", canonicalizer.getClass().getSimpleName(), contentType);
+        log.info("Using canonicalizer {} for content type {}", canonicalizer.getClass().getSimpleName(), contentType);
 
         processCluster(versionedRecord, canonicalizer, "work", Canonicalizer.Intent.WORK, WORK_THRESHOLD);
         processCluster(versionedRecord, canonicalizer, "instance", Canonicalizer.Intent.INSTANCE, INSTANCE_THRESHOLD);
@@ -104,53 +108,68 @@ public class DefaultIngestService implements IngestService {
         return versionedRecord;
     }
 
-    private void processCluster(InputRecord record, Canonicalizer canonicalizer, String clusterType, Canonicalizer.Intent intent, double threshold) {
-        String summary = canonicalizer.summarize(record, intent);
-        float[] embedding = embeddingService.embed(summary);
-        float[] blockingEmbedding = projector.project(embedding);
-        String indexName = clusterType + "_index";
+	private void processCluster(InputRecord record, Canonicalizer canonicalizer, String clusterType, Canonicalizer.Intent intent, double threshold) {
+		String summary = canonicalizer.summarize(record, intent);
+		float[] embedding = embeddingService.embed(summary);
+		float[] blockingEmbedding = projector.project(embedding);
+		String indexName = clusterType + "_index";
 
-        try {
-            esIndexStore.getOrCreate(indexName);
-            Optional<ESIndexStore.SearchResult> closestMatch = clusteringService.findClosestMatch(indexName, blockingEmbedding, "blocking", threshold);
+		try {
+			esIndexStore.getOrCreate(indexName);
+			Optional<ESIndexStore.SearchResult> closestMatch = clusteringService.findClosestMatch(indexName, blockingEmbedding, "blocking", threshold);
+			
+			log.info("Result of findClosestMatch = {}",closestMatch);
 
-            if (closestMatch.isPresent() && closestMatch.get().score() >= threshold) {
-                // Add to existing cluster
-                UUID clusterId = UUID.fromString(closestMatch.get().id());
-                saveClusterMember(clusterType, clusterId, embedding, blockingEmbedding, indexName);
-            } else {
-                // Create new cluster
-                UUID newClusterId = createNewCluster(clusterType);
-                saveClusterMember(clusterType, newClusterId, embedding, blockingEmbedding, indexName);
-            }
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
+			if (closestMatch.isPresent() && closestMatch.get().score() >= threshold) {
+				// Add to existing cluster
+				UUID clusterId = UUID.fromString(closestMatch.get().id());
+				log.info("Attempt to save {}", clusterId);
+				saveClusterMember(clusterType, clusterId, embedding, blockingEmbedding, indexName);
+			} else {
+				// Create new cluster
+				log.info("Create new cluster");
+				UUID newClusterId = createNewCluster(clusterType);
+				saveClusterMember(clusterType, newClusterId, embedding, blockingEmbedding, indexName);
+			}
+		} catch (IOException e) {
+			throw new RuntimeException(e);
+		}
+	}
 
-    private void saveClusterMember(String clusterType, UUID clusterId, float[] embedding, float[] blockingEmbedding, String indexName) throws IOException {
-        if ("work".equals(clusterType)) {
-            WorkClusterMember member = new WorkClusterMember();
-            member.setWorkCluster(new WorkCluster(clusterId));
-            member.setEmbedding(embedding);
-            member.setBlocking(blockingEmbedding);
-            pgVectorStore.saveWorkClusterMember(member);
-            esIndexStore.store(indexName, member);
-        } else {
-            InstanceClusterMember member = new InstanceClusterMember();
-            member.setInstanceCluster(new InstanceCluster(clusterId));
-            member.setEmbedding(embedding);
-            member.setBlocking(blockingEmbedding);
-            pgVectorStore.saveInstanceClusterMember(member);
-            esIndexStore.store(indexName, member);
-        }
-    }
+	private void saveClusterMember(String clusterType, UUID clusterId, float[] embedding, float[] blockingEmbedding, String indexName) throws IOException {
+		if ("work".equals(clusterType)) {
+			WorkClusterMember member = new WorkClusterMember();
+			member.setWorkCluster(WorkCluster.builder().id(clusterId).build());
+			member.setEmbedding(embedding);
+			member.setBlocking(blockingEmbedding);
+			pgVectorStore.saveWorkClusterMember(member);
+			esIndexStore.store(indexName, member);
+		} else {
+			InstanceClusterMember member = new InstanceClusterMember();
+			member.setInstanceCluster(InstanceCluster.builder().id(clusterId).build());
+			member.setEmbedding(embedding);
+			member.setBlocking(blockingEmbedding);
+			pgVectorStore.saveInstanceClusterMember(member);
+			esIndexStore.store(indexName, member);
+		}
+	}
 
-    private UUID createNewCluster(String clusterType) {
-        if ("work".equals(clusterType)) {
-            return pgVectorStore.saveWorkCluster(new WorkCluster()).getId();
-        } else {
-            return pgVectorStore.saveInstanceCluster(new InstanceCluster()).getId();
-        }
-    }
+	private UUID createNewCluster(String clusterType) {
+
+		log.info("Create new cluster of type {}",clusterType);
+
+		if ("work".equals(clusterType)) {
+			WorkCluster wc = WorkCluster.builder()
+				.id(java.util.UUID.randomUUID())
+				.build();
+			log.info("Saving work {} {}",wc,wc.getId());
+            return pgVectorStore.saveWorkCluster(wc).getId();
+		} else {
+			InstanceCluster ic = InstanceCluster.builder()
+				.id(java.util.UUID.randomUUID())
+				.build();
+			log.info("Saving instance {} {}",ic,ic.getId());
+			return pgVectorStore.saveInstanceCluster(ic).getId();
+		}
+	}
 }

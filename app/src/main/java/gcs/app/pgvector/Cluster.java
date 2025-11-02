@@ -8,9 +8,16 @@ import io.micronaut.data.annotation.MappedEntity;
 
 import java.time.Instant;
 import java.util.UUID;
+import lombok.experimental.SuperBuilder;
+import lombok.NoArgsConstructor;
+import lombok.Data;
 
+@NoArgsConstructor
+@SuperBuilder
+@Data
 @MappedEntity
 public abstract class Cluster {
+
     @Id
     @GeneratedValue
     private UUID id;
@@ -23,41 +30,5 @@ public abstract class Cluster {
 
     private String status;
 
-    public Cluster() {}
-
-    public Cluster(UUID id) {
-        this.id = id;
-    }
-
-    public UUID getId() {
-        return id;
-    }
-
-    public void setId(UUID id) {
-        this.id = id;
-    }
-
-    public Instant getDateCreated() {
-        return dateCreated;
-    }
-
-    public void setDateCreated(Instant dateCreated) {
-        this.dateCreated = dateCreated;
-    }
-
-    public Instant getDateModified() {
-        return dateModified;
-    }
-
-    public void setDateModified(Instant dateModified) {
-        this.dateModified = dateModified;
-    }
-
-    public String getStatus() {
-        return status;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
-    }
+    private String label;
 }

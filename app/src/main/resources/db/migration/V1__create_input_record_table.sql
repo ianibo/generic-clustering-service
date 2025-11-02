@@ -45,7 +45,7 @@ CREATE TABLE instance_cluster (
   date_created TIMESTAMP NOT NULL default now(),
   date_modified TIMESTAMP NOT NULL,
   status VARCHAR(16) NOT NULL,
-	summary VARCHAR(256)
+	label VARCHAR(256)
 );
 
 CREATE TABLE instance_cluster_member (

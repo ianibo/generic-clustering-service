@@ -55,10 +55,12 @@ dependencies {
   testImplementation("org.testcontainers:junit-jupiter")
   testImplementation("org.testcontainers:postgresql")
   testImplementation("org.testcontainers:testcontainers")
+  testCompileOnly("org.projectlombok:lombok")
 
 
   testAnnotationProcessor("io.micronaut:micronaut-inject-java")
   testAnnotationProcessor("io.micronaut.serde:micronaut-serde-processor")
+  testAnnotationProcessor("org.projectlombok:lombok")
 }
 
 application {

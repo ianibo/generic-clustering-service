@@ -8,10 +8,17 @@ import io.micronaut.data.annotation.Id;
 import io.micronaut.data.annotation.MappedEntity;
 import io.micronaut.data.annotation.TypeDef;
 import io.micronaut.data.model.DataType;
+import lombok.Builder;
+import lombok.Data;
 
 import java.time.Instant;
 import java.util.UUID;
+import lombok.experimental.SuperBuilder;
+import lombok.NoArgsConstructor;
 
+@NoArgsConstructor
+@SuperBuilder
+@Data
 @MappedEntity
 public abstract class ClusterMember {
     @Id
@@ -32,6 +39,7 @@ public abstract class ClusterMember {
 
     private String role;
 
+		@Builder.Default
     private boolean enabled = true;
 
     private String addedReason;
@@ -46,108 +54,4 @@ public abstract class ClusterMember {
 
     @TypeDef(type = DataType.STRING, converter = PGvector.class)
     private PGvector embedding;
-
-    public UUID getId() {
-        return id;
-    }
-
-    public void setId(UUID id) {
-        this.id = id;
-    }
-
-    public Instant getDateCreated() {
-        return dateCreated;
-    }
-
-    public void setDateCreated(Instant dateCreated) {
-        this.dateCreated = dateCreated;
-    }
-
-    public Instant getDateModified() {
-        return dateModified;
-    }
-
-    public void setDateModified(Instant dateModified) {
-        this.dateModified = dateModified;
-    }
-
-    public String getRecordId() {
-        return recordId;
-    }
-
-    public void setRecordId(String recordId) {
-        this.recordId = recordId;
-    }
-
-    public UUID getClusterId() {
-        return clusterId;
-    }
-
-    public void setClusterId(UUID clusterId) {
-        this.clusterId = clusterId;
-    }
-
-    public Double getScore() {
-        return score;
-    }
-
-    public void setScore(Double score) {
-        this.score = score;
-    }
-
-    public String getRole() {
-        return role;
-    }
-
-    public void setRole(String role) {
-        this.role = role;
-    }
-
-    public boolean isEnabled() {
-        return enabled;
-    }
-
-    public void setEnabled(boolean enabled) {
-        this.enabled = enabled;
-    }
-
-    public String getAddedReason() {
-        return addedReason;
-    }
-
-    public void setAddedReason(String addedReason) {
-        this.addedReason = addedReason;
-    }
-
-    public String getSummary() {
-        return summary;
-    }
-
-    public void setSummary(String summary) {
-        this.summary = summary;
-    }
-
-    public String getFacts() {
-        return facts;
-    }
-
-    public void setFacts(String facts) {
-        this.facts = facts;
-    }
-
-    public PGvector getBlocking() {
-        return blocking;
-    }
-
-    public void setBlocking(PGvector blocking) {
-        this.blocking = blocking;
-    }
-
-    public PGvector getEmbedding() {
-        return embedding;
-    }
-
-    public void setEmbedding(PGvector embedding) {
-        this.embedding = embedding;
-    }
 }

@@ -43,8 +43,11 @@ class ClassificationTest {
         pgVectorStore = mock(PGVectorStore.class);
         esIndexStore = mock(ESIndexStore.class);
 
-        when(pgVectorStore.saveWorkCluster(any(WorkCluster.class))).thenReturn(new WorkCluster(UUID.randomUUID()));
-        when(pgVectorStore.saveInstanceCluster(any(InstanceCluster.class))).thenReturn(new InstanceCluster(UUID.randomUUID()));
+        when(pgVectorStore.saveWorkCluster(any(WorkCluster.class)))
+					.thenReturn(WorkCluster.builder().id(UUID.randomUUID()).build());
+
+        when(pgVectorStore.saveInstanceCluster(any(InstanceCluster.class)))
+					.thenReturn(InstanceCluster.builder().id(UUID.randomUUID()).build());
 
         service = new DefaultIngestService(
                 mock(gcs.core.EmbeddingService.class),
