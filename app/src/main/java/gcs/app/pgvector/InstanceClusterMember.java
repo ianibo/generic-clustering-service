@@ -1,47 +1,61 @@
 package gcs.app.pgvector;
 
 import com.pgvector.PGvector;
-import io.micronaut.data.annotation.MappedEntity;
-import io.micronaut.data.annotation.Relation;
-import io.micronaut.core.annotation.Creator;
-
+import io.micronaut.data.annotation.*;
+import io.micronaut.data.model.DataType;
 import java.util.UUID;
-import lombok.Builder;
-import lombok.Data;
-import lombok.ToString;
+import lombok.*;
 import lombok.experimental.Accessors;
-import lombok.NoArgsConstructor;
-import lombok.AllArgsConstructor;
-import lombok.experimental.SuperBuilder;
-
 import io.micronaut.serde.annotation.Serdeable;
-
-
+import java.time.Instant;
 import java.util.Map;
 import java.util.HashMap;
 
+@Builder
 @Data
 @Accessors(chain = true)
 @Serdeable
 @NoArgsConstructor
-@lombok.EqualsAndHashCode(callSuper = true)
-@lombok.ToString(callSuper = true)
-@lombok.experimental.SuperBuilder
+@lombok.EqualsAndHashCode
+@lombok.ToString
 @MappedEntity("instance_cluster_member")
-public class InstanceClusterMember extends ClusterMember {
+public class InstanceClusterMember {
 
-    @Relation(value = Relation.Kind.MANY_TO_ONE)
-    private InstanceCluster instanceCluster;
+  @Id
+  @GeneratedValue
+  private UUID id;
 
-    public void setInstanceCluster(InstanceCluster instanceCluster) {
-        this.instanceCluster = instanceCluster;
-    }
+  @DateCreated
+  private Instant dateCreated;
 
-    public void setBlocking(float[] blocking) {
-        super.setBlocking(new PGvector(blocking));
-    }
+  @DateUpdated
+  private Instant dateModified;
 
-    public void setEmbedding(float[] embedding) {
-        super.setEmbedding(new PGvector(embedding));
-    }
+  private String recordId;
+
+  private UUID clusterId;
+
+  private Double score;
+
+  private String role;
+
+  @Builder.Default
+  private boolean enabled = true;
+
+  private String addedReason;
+
+  private String summary;
+
+  @TypeDef(type = DataType.JSON)
+  private String facts;
+
+  private PGvector blocking;
+
+  private PGvector embedding;
+
+  @Relation(value = Relation.Kind.MANY_TO_ONE)
+  private InstanceCluster instanceCluster;
+
+  public void setEmbeddingArr(float[] e) { this.embedding = new PGvector(e); }
+  public void setBlockingArr(float[] b) { this.blocking = new PGvector(b); }
 }

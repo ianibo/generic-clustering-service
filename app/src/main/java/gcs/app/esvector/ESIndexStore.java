@@ -10,7 +10,8 @@ import co.elastic.clients.json.JsonData;
 import co.elastic.clients.elasticsearch._types.HealthStatus;
 import co.elastic.clients.elasticsearch._types.WaitForActiveShards;
 import co.elastic.clients.elasticsearch.indices.CreateIndexResponse;
-import gcs.app.pgvector.ClusterMember;
+import gcs.app.pgvector.InstanceClusterMember;
+import gcs.app.pgvector.WorkClusterMember;
 import jakarta.inject.Singleton;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -90,13 +91,13 @@ public class ESIndexStore {
 	}
 
     /**
-     * Store a ClusterMember in the vector store.
+     * Store a WorkClusterMember in the vector store.
      *
      * @param indexName The name of the index.
      * @param member    The ClusterMember to store.
      * @throws IOException If an I/O error occurs.
      */
-    public void store(String indexName, ClusterMember member) throws IOException {
+    public void store(String indexName, WorkClusterMember member) throws IOException {
 
 			log.info("Store({},{})",indexName,member);
 
@@ -107,6 +108,19 @@ public class ESIndexStore {
         );
         esClient.index(request);
     }
+
+    public void store(String indexName, InstanceClusterMember member) throws IOException {
+
+      log.info("Store({},{})",indexName,member);
+
+        IndexRequest<ClusterMember> request = IndexRequest.of(i -> i
+            .index(indexName)
+            .id(member.getId().toString())
+            .document(member)
+        );
+        esClient.index(request);
+    }
+
 
     /**
      * Search for similar vectors in the index.
