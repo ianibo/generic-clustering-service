@@ -1,27 +1,38 @@
 package gcs.app.pgvector;
 
-import io.micronaut.data.annotation.MappedEntity;
+import io.micronaut.data.annotation.*;
 
 import java.util.UUID;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 import lombok.experimental.Accessors;
 import io.micronaut.serde.annotation.Serdeable;
-
-
+import java.time.Instant;
 import java.util.Map;
 import java.util.HashMap;
 
+@Builder
 @Data
 @Accessors(chain = true)
 @Serdeable
+@AllArgsConstructor
 @NoArgsConstructor
-@lombok.EqualsAndHashCode(callSuper = true)
-@lombok.ToString(callSuper = true)
-@lombok.experimental.SuperBuilder
+@lombok.EqualsAndHashCode
+@lombok.ToString
 @MappedEntity("instance_cluster")
-public class InstanceCluster extends Cluster {
+public class InstanceCluster {
+
+    @Id
+    @GeneratedValue
+    private UUID id;
+
+    @DateCreated
+    private Instant dateCreated;
+
+    @DateUpdated
+    private Instant dateModified;
+
+    private String status;
+
+    private String label;
+
 }
