@@ -143,8 +143,12 @@ public class DefaultIngestService implements IngestService {
 	}
 
 	private void saveClusterMember(String clusterType, UUID clusterId, float[] embedding, float[] blockingEmbedding, String indexName) throws IOException {
+
+		log.info("saveClusterMember({},{}....)",clusterType,clusterId);
+
 		if ("work".equals(clusterType)) {
 			WorkClusterMember member = new WorkClusterMember();
+			member.setId(generateUUIDForMember());
 			member.setWorkCluster(WorkCluster.builder().id(clusterId).build());
 			member.setEmbeddingArr(embedding);
 			member.setBlockingArr(blockingEmbedding);
@@ -152,12 +156,17 @@ public class DefaultIngestService implements IngestService {
 			esIndexStore.store(indexName, member);
 		} else {
 			InstanceClusterMember member = new InstanceClusterMember();
+			member.setId(generateUUIDForMember());
 			member.setInstanceCluster(InstanceCluster.builder().id(clusterId).build());
 			member.setEmbeddingArr(embedding);
 			member.setBlockingArr(blockingEmbedding);
 			pgVectorStore.saveInstanceClusterMember(member);
 			esIndexStore.store(indexName, member);
 		}
+	}
+
+	private UUID generateUUIDForMember() {
+		return java.util.UUID.randomUUID();
 	}
 
 	private UUID createNewCluster(String clusterType) {

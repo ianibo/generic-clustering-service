@@ -34,8 +34,6 @@ public class WorkClusterMember {
 
 	private String recordId;
 
-	private UUID clusterId;
-
 	private Double score;
 
 	private String role;

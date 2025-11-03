@@ -26,7 +26,7 @@ CREATE TABLE work_cluster_member (
   date_created TIMESTAMP NOT NULL default now(),
   date_modified TIMESTAMP NOT NULL default now(),
 	record_id VARCHAR(255),
-  cluster_id UUID,
+  work_cluster_id UUID,
 	score	DOUBLE PRECISION,
 	role VARCHAR(16),
 	enabled	BOOLEAN NOT NULL DEFAULT true,
@@ -36,7 +36,7 @@ CREATE TABLE work_cluster_member (
   blocking VECTOR(64) NOT NULL,
   embedding VECTOR(1536) NOT NULL,
   CONSTRAINT fk_wcm_record FOREIGN KEY (record_id) REFERENCES input_record(id) ON DELETE CASCADE,
-  CONSTRAINT fk_wcm_cluster FOREIGN KEY (cluster_id) REFERENCES work_cluster(id) ON DELETE CASCADE
+  CONSTRAINT fk_wcm_cluster FOREIGN KEY (work_cluster_id) REFERENCES work_cluster(id) ON DELETE CASCADE
 );
 
 CREATE INDEX idx_work_cm_blocking ON work_cluster_member USING hnsw (blocking vector_cosine_ops);
@@ -55,7 +55,7 @@ CREATE TABLE instance_cluster_member (
   date_created TIMESTAMP NOT NULL default now(),
   date_modified TIMESTAMP NOT NULL default now(),
 	record_id VARCHAR(255),
-  cluster_id UUID,
+  instance_cluster_id UUID,
 	score	DOUBLE PRECISION,
 	role VARCHAR(16),
 	enabled	BOOLEAN NOT NULL DEFAULT true,
@@ -65,7 +65,7 @@ CREATE TABLE instance_cluster_member (
   blocking VECTOR(64) NOT NULL,
   embedding VECTOR(1536) NOT NULL,
   CONSTRAINT fk_icm_record FOREIGN KEY (record_id) REFERENCES input_record(id) ON DELETE CASCADE,
-  CONSTRAINT fk_icm_cluster FOREIGN KEY (cluster_id) REFERENCES instance_cluster(id) ON DELETE CASCADE
+  CONSTRAINT fk_icm_cluster FOREIGN KEY (instance_cluster_id) REFERENCES instance_cluster(id) ON DELETE CASCADE
 );
 
 CREATE INDEX idx_instance_cm_blocking ON work_cluster_member USING hnsw (blocking vector_cosine_ops);

@@ -34,8 +34,6 @@ public class InstanceClusterMember {
 
   private String recordId;
 
-  private UUID clusterId;
-
   private Double score;
 
   private String role;
