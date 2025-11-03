@@ -146,15 +146,15 @@ public class DefaultIngestService implements IngestService {
 		if ("work".equals(clusterType)) {
 			WorkClusterMember member = new WorkClusterMember();
 			member.setWorkCluster(WorkCluster.builder().id(clusterId).build());
-			member.setEmbedding(embedding);
-			member.setBlocking(blockingEmbedding);
+			member.setEmbeddingArr(embedding);
+			member.setBlockingArr(blockingEmbedding);
 			pgVectorStore.saveWorkClusterMember(member);
 			esIndexStore.store(indexName, member);
 		} else {
 			InstanceClusterMember member = new InstanceClusterMember();
 			member.setInstanceCluster(InstanceCluster.builder().id(clusterId).build());
-			member.setEmbedding(embedding);
-			member.setBlocking(blockingEmbedding);
+			member.setEmbeddingArr(embedding);
+			member.setBlockingArr(blockingEmbedding);
 			pgVectorStore.saveInstanceClusterMember(member);
 			esIndexStore.store(indexName, member);
 		}
@@ -167,14 +167,18 @@ public class DefaultIngestService implements IngestService {
 		if ("work".equals(clusterType)) {
 			WorkCluster wc = WorkCluster.builder()
 				.id(java.util.UUID.randomUUID())
+				.status("new")
+				.label("new")
 				.build();
-			log.info("Saving work {} {}",wc,wc.getId());
-            return pgVectorStore.saveWorkCluster(wc).getId();
+			log.info("Saving work cluster {} {}",wc,wc.getId());
+			return pgVectorStore.saveWorkCluster(wc).getId();
 		} else {
 			InstanceCluster ic = InstanceCluster.builder()
 				.id(java.util.UUID.randomUUID())
+				.status("new")
+				.label("new")
 				.build();
-			log.info("Saving instance {} {}",ic,ic.getId());
+			log.info("Saving instance cluster {} {}",ic,ic.getId());
 			return pgVectorStore.saveInstanceCluster(ic).getId();
 		}
 	}

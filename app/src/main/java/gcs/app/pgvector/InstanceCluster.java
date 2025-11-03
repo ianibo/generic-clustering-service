@@ -22,7 +22,6 @@ import java.util.HashMap;
 public class InstanceCluster {
 
     @Id
-    @GeneratedValue
     private UUID id;
 
     @DateCreated

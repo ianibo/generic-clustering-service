@@ -4,6 +4,7 @@ import com.pgvector.PGvector;
 import io.micronaut.core.annotation.*;
 import io.micronaut.serde.annotation.Serdeable;
 import io.micronaut.data.model.DataType;
+import io.micronaut.data.annotation.*;
 import java.util.UUID;
 import lombok.*;
 import lombok.experimental.Accessors;
@@ -16,13 +17,13 @@ import java.util.HashMap;
 @Accessors(chain = true)
 @Serdeable
 @NoArgsConstructor
+@AllArgsConstructor
 @lombok.EqualsAndHashCode
 @lombok.ToString
 @MappedEntity("work_cluster_member")
 public class WorkClusterMember {
 
   @Id
-  @GeneratedValue
   private UUID id;
 
   @DateCreated
@@ -31,31 +32,34 @@ public class WorkClusterMember {
   @DateUpdated
   private Instant dateModified;
 
-    private String recordId;
+	private String recordId;
 
-    private UUID clusterId;
+	private UUID clusterId;
 
-    private Double score;
+	private Double score;
 
-    private String role;
+	private String role;
 
-    @Builder.Default
-    private boolean enabled = true;
+	@Builder.Default
+	private boolean enabled = true;
 
-    private String addedReason;
+	private String addedReason;
 
-    private String summary;
+	private String summary;
 
-    @TypeDef(type = DataType.JSON)
-    private String facts;
+	@TypeDef(type = DataType.JSON)
+	private String facts;
 
-    private PGvector blocking;
+	private PGvector blocking;
 
-    private PGvector embedding;
+	private PGvector embedding;
 
-    @Relation(value = Relation.Kind.MANY_TO_ONE)
-    private WorkCluster workCluster;
+	@Relation(value = Relation.Kind.MANY_TO_ONE)
+	private WorkCluster workCluster;
 
-    public void setEmbeddingArr(float[] e) { this.embedding = new PGvector(e); }
-    public void setBlockingArr(float[] b) { this.blocking = new PGvector(b); }
+	@io.micronaut.data.annotation.Transient
+	public void setEmbeddingArr(float[] e) { this.embedding = new PGvector(e); }
+
+	@io.micronaut.data.annotation.Transient
+	public void setBlockingArr(float[] b) { this.blocking = new PGvector(b); }
 }

@@ -101,7 +101,7 @@ public class ESIndexStore {
 
 			log.info("Store({},{})",indexName,member);
 
-        IndexRequest<ClusterMember> request = IndexRequest.of(i -> i
+        IndexRequest<WorkClusterMember> request = IndexRequest.of(i -> i
             .index(indexName)
             .id(member.getId().toString())
             .document(member)
@@ -113,7 +113,7 @@ public class ESIndexStore {
 
       log.info("Store({},{})",indexName,member);
 
-        IndexRequest<ClusterMember> request = IndexRequest.of(i -> i
+        IndexRequest<InstanceClusterMember> request = IndexRequest.of(i -> i
             .index(indexName)
             .id(member.getId().toString())
             .document(member)

@@ -1,5 +1,6 @@
 package gcs.app.pgvector;
 
+import io.micronaut.data.annotation.*;
 import com.pgvector.PGvector;
 import io.micronaut.data.annotation.*;
 import io.micronaut.data.model.DataType;
@@ -16,13 +17,13 @@ import java.util.HashMap;
 @Accessors(chain = true)
 @Serdeable
 @NoArgsConstructor
+@AllArgsConstructor
 @lombok.EqualsAndHashCode
 @lombok.ToString
 @MappedEntity("instance_cluster_member")
 public class InstanceClusterMember {
 
   @Id
-  @GeneratedValue
   private UUID id;
 
   @DateCreated
@@ -56,6 +57,9 @@ public class InstanceClusterMember {
   @Relation(value = Relation.Kind.MANY_TO_ONE)
   private InstanceCluster instanceCluster;
 
+	@io.micronaut.data.annotation.Transient
   public void setEmbeddingArr(float[] e) { this.embedding = new PGvector(e); }
+
+	@io.micronaut.data.annotation.Transient
   public void setBlockingArr(float[] b) { this.blocking = new PGvector(b); }
 }
