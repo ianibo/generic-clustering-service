@@ -1,47 +1,60 @@
 package gcs.app;
 
-import gcs.core.Calibration;
-import gcs.core.canonicalization.Canonicalizer;
-import gcs.core.classification.Classifier;
+import gcs.app.clustering.BlockingRandomProjector;
+import gcs.app.clustering.ESClusteringService;
+import gcs.app.esvector.ESIndexStore;
+import gcs.app.pgvector.InstanceCluster;
+import gcs.app.pgvector.InstanceClusterMember;
+import gcs.app.pgvector.WorkCluster;
+import gcs.app.pgvector.WorkClusterMember;
+import gcs.app.pgvector.storage.PGVectorStore;
 import gcs.core.EmbeddingService;
 import gcs.core.IngestService;
 import gcs.core.InputRecord;
-import gcs.core.VectorIndex;
+import gcs.core.canonicalization.Canonicalizer;
+import gcs.core.classification.Classifier;
+import jakarta.inject.Named;
 import jakarta.inject.Singleton;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.Map;
+import java.util.HashMap;
+import java.util.Optional;
+import java.util.UUID;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
+import lombok.extern.slf4j.Slf4j;
+import jakarta.transaction.Transactional;
+
+@Slf4j
 @Singleton
 public class DefaultIngestService implements IngestService {
-    private static final int TOP_K = 5;
-    private static final float RADIUS = 0.8f;
-    private static final Logger LOG = LoggerFactory.getLogger(DefaultIngestService.class);
-
+    private static final double WORK_THRESHOLD = 0.9;
+    private static final double INSTANCE_THRESHOLD = 0.95;
 
     private final EmbeddingService embeddingService;
-    private final VectorIndex<InputRecord> vectorIndex;
     private final Map<String, Canonicalizer> canonicalizers;
     private final Canonicalizer defaultCanonicalizer;
-    private final Calibration calibration;
-    private final InputRecordRepository inputRecordRepository;
     private final Classifier classifier;
+    private final BlockingRandomProjector projector;
+    private final ESClusteringService clusteringService;
+    private final PGVectorStore pgVectorStore;
+    private final ESIndexStore esIndexStore;
 
     public DefaultIngestService(
-        EmbeddingService embeddingService,
-        VectorIndex<InputRecord> vectorIndex,
+        @Named("openai") EmbeddingService embeddingService,
         List<Canonicalizer> canonicalizerList,
-        Calibration calibration,
-        InputRecordRepository inputRecordRepository,
-        Classifier classifier
+        Classifier classifier,
+        BlockingRandomProjector projector,
+        ESClusteringService clusteringService,
+        @Named("pgvector") PGVectorStore pgVectorStore,
+        @Named("es") ESIndexStore esIndexStore
     ) {
         this.embeddingService = embeddingService;
-        this.vectorIndex = vectorIndex;
         this.canonicalizers = canonicalizerList.stream()
             .filter(c -> c.forContentType() != null)
             .collect(Collectors.toMap(Canonicalizer::forContentType, Function.identity()));
@@ -49,17 +62,19 @@ public class DefaultIngestService implements IngestService {
             .filter(c -> c.forContentType() == null)
             .findFirst()
             .orElseThrow(() -> new IllegalStateException("No default canonicalizer found"));
-        this.calibration = calibration;
-        this.inputRecordRepository = inputRecordRepository;
         this.classifier = classifier;
+        this.projector = projector;
+        this.clusteringService = clusteringService;
+        this.pgVectorStore = pgVectorStore;
+        this.esIndexStore = esIndexStore;
     }
 
     @Override
-    public List<Candidate> ingest(InputRecord record) {
+		@Transactional
+    public InputRecord ingest(InputRecord record) {
         var classification = classifier.classify(record);
-        LOG.info("Classified record {} as {} with explanation: {}", record.id(), classification.workType(), classification);
+        log.info("Classified record {} as {} with explanation: {}", record.id(), classification.workType(), classification);
 
-        // Create a new InputRecord with the classifierVersion
         var versionedRecord = new InputRecord(
             record.id(),
             record.provenance(),
@@ -86,32 +101,111 @@ public class DefaultIngestService implements IngestService {
 
         var contentType = classification.instanceClassification().contentType().toString();
         var canonicalizer = canonicalizers.getOrDefault(contentType, defaultCanonicalizer);
-        LOG.info("Using canonicalizer {} for content type {}", canonicalizer.getClass().getSimpleName(), contentType);
+        log.info("Using canonicalizer {} for content type {}", canonicalizer.getClass().getSimpleName(), contentType);
 
-        String summary = canonicalizer.summarize(versionedRecord, Canonicalizer.Intent.WORK);
-        float[] embedding = embeddingService.embed(summary);
+        processCluster(versionedRecord, canonicalizer, "work", Canonicalizer.Intent.WORK, WORK_THRESHOLD);
+        processCluster(versionedRecord, canonicalizer, "instance", Canonicalizer.Intent.INSTANCE, INSTANCE_THRESHOLD);
 
-        var topKNeighbors = vectorIndex.topK(embedding, TOP_K);
-        var radiusNeighbors = vectorIndex.radius(embedding, RADIUS);
-
-        vectorIndex.add(versionedRecord.id(), embedding, versionedRecord);
-        store(versionedRecord, classification.classifierVersion());
-
-        return Stream.concat(topKNeighbors.stream(), radiusNeighbors.stream())
-            .distinct()
-            .map(neighbor -> new Candidate(neighbor.id(), neighbor.score(), calibration.scoreToProb(neighbor.score())))
-            .toList();
+        return versionedRecord;
     }
 
-    private void store(InputRecord record, int classifierVersion) {
-        var entity = new InputRecordEntity();
-        entity.setId(record.id());
-        entity.setRecord(record);
-        entity.setProcessingStatus(ProcessingStatus.PENDING);
-        entity.setClassifierVersion(classifierVersion);
-        entity.setContentType(record.physical().contentType());
-        entity.setMediaType(record.physical().mediaType());
-        entity.setCarrierType(record.physical().carrierType());
-        inputRecordRepository.save(entity);
-    }
+	private void processCluster(InputRecord record, Canonicalizer canonicalizer, String clusterType, Canonicalizer.Intent intent, double threshold) {
+
+		log.info("processCluster(....)");
+
+		String summary = canonicalizer.summarize(record, intent);
+		float[] embedding = embeddingService.embed(summary);
+		float[] blockingEmbedding = projector.project(embedding);
+		String indexName = clusterType + "_index";
+
+		try {
+			esIndexStore.getOrCreate(indexName);
+
+			log.info("clusteringService.findClosestMatch.... indexName:{}",indexName);
+
+			Optional<ESIndexStore.SearchResult> closestMatch = clusteringService.findClosestMatch(indexName, blockingEmbedding, "blocking", threshold);
+			
+			log.info("Result of findClosestMatch = {}",closestMatch);
+
+			if (closestMatch.isPresent() && closestMatch.get().score() >= threshold) {
+				// Add to existing cluster
+				UUID clusterId = UUID.fromString(closestMatch.get().id());
+				log.info("Attempt to save {}", clusterId);
+				saveClusterMember(clusterType, clusterId, embedding, blockingEmbedding, indexName);
+			} else {
+				// Create new cluster
+				log.info("Create new cluster");
+				UUID newClusterId = createNewCluster(clusterType);
+				saveClusterMember(clusterType, newClusterId, embedding, blockingEmbedding, indexName);
+			}
+		} catch (IOException e) {
+			throw new RuntimeException(e);
+		}
+	}
+
+	private void saveClusterMember(String clusterType, UUID clusterId, float[] embedding, float[] blockingEmbedding, String indexName) throws IOException {
+
+		log.info("saveClusterMember({},{}....)",clusterType,clusterId);
+
+		if ("work".equals(clusterType)) {
+			// Store DB System of record
+			WorkClusterMember member = new WorkClusterMember();
+			member.setId(generateUUIDForMember());
+			member.setWorkCluster(WorkCluster.builder().id(clusterId).build());
+			member.setEmbeddingArr(embedding);
+			member.setBlockingArr(blockingEmbedding);
+			pgVectorStore.saveWorkClusterMember(member);
+
+			// Store ES Representation
+			Map<String,Object> rec = new HashMap<String,Object>();
+			rec.put("id",member.getId());
+			rec.put("clusterId",clusterId);
+			rec.put("blocking",blockingEmbedding);
+			rec.put("embedding",embedding);
+			esIndexStore.store(indexName, rec);
+		} else {
+			// Store DB System of record
+			InstanceClusterMember member = new InstanceClusterMember();
+			member.setId(generateUUIDForMember());
+			member.setInstanceCluster(InstanceCluster.builder().id(clusterId).build());
+			member.setEmbeddingArr(embedding);
+			member.setBlockingArr(blockingEmbedding);
+			pgVectorStore.saveInstanceClusterMember(member);
+
+			// Store ES Representation
+			Map<String,Object> rec = new HashMap<String,Object>();
+			rec.put("id",member.getId());
+			rec.put("clusterId",clusterId);
+			rec.put("blocking",blockingEmbedding);
+			rec.put("embedding",embedding);
+			esIndexStore.store(indexName, rec);
+		}
+	}
+
+	private UUID generateUUIDForMember() {
+		return java.util.UUID.randomUUID();
+	}
+
+	private UUID createNewCluster(String clusterType) {
+
+		log.info("Create new cluster of type {}",clusterType);
+
+		if ("work".equals(clusterType)) {
+			WorkCluster wc = WorkCluster.builder()
+				.id(java.util.UUID.randomUUID())
+				.status("new")
+				.label("new")
+				.build();
+			log.info("Saving work cluster {} {}",wc,wc.getId());
+			return pgVectorStore.saveWorkCluster(wc).getId();
+		} else {
+			InstanceCluster ic = InstanceCluster.builder()
+				.id(java.util.UUID.randomUUID())
+				.status("new")
+				.label("new")
+				.build();
+			log.info("Saving instance cluster {} {}",ic,ic.getId());
+			return pgVectorStore.saveInstanceCluster(ic).getId();
+		}
+	}
 }

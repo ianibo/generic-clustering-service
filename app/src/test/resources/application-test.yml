@@ -10,11 +10,13 @@ datasources:
     reconnect: true
 
 flyway:
+  enabled: true
+  placeholders:
+    json_type: JSONB
   datasources:
     default:
-      placeholders:
-        json_type: JSON
       enabled: true
+      placeholder-replacement: true
       locations:
         - 'classpath:db/migrations'
 
@@ -23,7 +25,8 @@ test-resources:
     postgres:
       image-name: pgvector/pgvector:pg17
     elasticsearch:
-      image-name: docker.elastic.co/elasticsearch/elasticsearch:8.11.3
+      image-name: docker.elastic.co/elasticsearch/elasticsearch
+      image-tag: 9.2.0
 
 openai:
   # SET OPENAI_API_KEY as an env var rather than this
@@ -31,6 +34,6 @@ openai:
   base-url: "https://api.openai.com/v1"
   model: "text-embedding-3-small"
 
+
 # elasticsearch:
-#  image-name: docker.elastic.co/elasticsearch/elasticsearch:8.11.3
-#  exposed-ports: 9200
+#   http-hosts: ${elasticsearch.hosts}

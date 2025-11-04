@@ -1,16 +1,36 @@
 package gcs.app.pgvector;
 
-import io.micronaut.data.annotation.MappedEntity;
+import io.micronaut.data.annotation.*;
 
+import java.util.UUID;
+import lombok.*;
+import lombok.experimental.Accessors;
+import io.micronaut.serde.annotation.Serdeable;
+import java.time.Instant;
+import java.util.Map;
+import java.util.HashMap;
+
+@Builder
+@Data
+@Accessors(chain = true)
+@Serdeable
+@NoArgsConstructor
+@AllArgsConstructor
+@lombok.EqualsAndHashCode
+@lombok.ToString
 @MappedEntity("work_cluster")
-public class WorkCluster extends Cluster {
+public class WorkCluster {
+
+    @Id
+    private UUID id;
+
+    @DateCreated
+    private Instant dateCreated;
+
+    @DateUpdated
+    private Instant dateModified;
+
+    private String status;
+
     private String label;
-
-    public String getLabel() {
-        return label;
-    }
-
-    public void setLabel(String label) {
-        this.label = label;
-    }
 }

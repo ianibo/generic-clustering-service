@@ -6,6 +6,7 @@ datasources:
     # password: ""
 
 flyway:
+  enabled: true
   datasources:
     default:
       enabled: true

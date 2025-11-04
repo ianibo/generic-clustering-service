@@ -26,8 +26,8 @@ import java.util.HashMap;
 
 @Builder
 @Data
-@NoArgsConstructor(onConstructor_ = @Creator())
 @AllArgsConstructor
+@NoArgsConstructor
 @Accessors(chain = true)
 @ToString(onlyExplicitlyIncluded = false)
 @MappedEntity(value = "mt_tenant_info")

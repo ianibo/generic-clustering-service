@@ -7,7 +7,9 @@ import java.util.List;
 /**
  * A clustering algorithm.
  * @param <T> The type of the items to cluster.
+ * @deprecated Use ESClusteringService instead.
  */
+@Deprecated
 public interface Clusterer<T> {
 
     /**

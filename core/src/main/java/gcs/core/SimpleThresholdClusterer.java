@@ -13,7 +13,9 @@ import java.util.stream.Collectors;
  * components of this graph.
  *
  * @param <T> The type of the items to cluster.
+ * @deprecated Use ESClusteringService instead.
  */
+@Deprecated
 public class SimpleThresholdClusterer<T> implements Clusterer<T> {
 
     @Override

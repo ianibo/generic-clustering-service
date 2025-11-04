@@ -6,8 +6,6 @@ import io.micronaut.http.annotation.Body;
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Post;
 
-import java.util.List;
-
 @Controller("/ingest")
 public class IngestController {
 
@@ -18,7 +16,7 @@ public class IngestController {
     }
 
     @Post
-    public List<IngestService.Candidate> ingest(@Body InputRecord record) {
+    public InputRecord ingest(@Body InputRecord record) {
         return ingestService.ingest(record);
     }
 }
