@@ -21,6 +21,7 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
+import java.util.HashMap;
 import java.util.Optional;
 import java.util.UUID;
 import java.util.function.Function;
@@ -147,21 +148,37 @@ public class DefaultIngestService implements IngestService {
 		log.info("saveClusterMember({},{}....)",clusterType,clusterId);
 
 		if ("work".equals(clusterType)) {
+			// Store DB System of record
 			WorkClusterMember member = new WorkClusterMember();
 			member.setId(generateUUIDForMember());
 			member.setWorkCluster(WorkCluster.builder().id(clusterId).build());
 			member.setEmbeddingArr(embedding);
 			member.setBlockingArr(blockingEmbedding);
 			pgVectorStore.saveWorkClusterMember(member);
-			esIndexStore.store(indexName, member);
+
+			// Store ES Representation
+			Map<String,Object> rec = new HashMap<String,Object>();
+			rec.put("id",member.getId());
+			rec.put("clusterId",clusterId);
+			rec.put("blocking",blockingEmbedding);
+			rec.put("embedding",embedding);
+			esIndexStore.store(indexName, rec);
 		} else {
+			// Store DB System of record
 			InstanceClusterMember member = new InstanceClusterMember();
 			member.setId(generateUUIDForMember());
 			member.setInstanceCluster(InstanceCluster.builder().id(clusterId).build());
 			member.setEmbeddingArr(embedding);
 			member.setBlockingArr(blockingEmbedding);
 			pgVectorStore.saveInstanceClusterMember(member);
-			esIndexStore.store(indexName, member);
+
+			// Store ES Representation
+			Map<String,Object> rec = new HashMap<String,Object>();
+			rec.put("id",member.getId());
+			rec.put("clusterId",clusterId);
+			rec.put("blocking",blockingEmbedding);
+			rec.put("embedding",embedding);
+			esIndexStore.store(indexName, rec);
 		}
 	}
 

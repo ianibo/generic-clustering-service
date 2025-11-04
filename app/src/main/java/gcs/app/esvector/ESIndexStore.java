@@ -22,6 +22,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
+import java.util.HashMap;
 import java.util.Objects;
 import java.util.stream.Collectors;
 import co.elastic.clients.elasticsearch._types.mapping.DenseVectorSimilarity;
@@ -97,30 +99,17 @@ public class ESIndexStore {
      * @param member    The ClusterMember to store.
      * @throws IOException If an I/O error occurs.
      */
-    public void store(String indexName, WorkClusterMember member) throws IOException {
+    public void store(String indexName, Map<String,Object> esrec) throws IOException {
 
-			log.info("Store({},{})",indexName,member);
+			log.info("Store Work Cluster Member({},{})",indexName,esrec);
 
-        IndexRequest<WorkClusterMember> request = IndexRequest.of(i -> i
+        IndexRequest<Map<String,Object>> request = IndexRequest.of(i -> i
             .index(indexName)
-            .id(member.getId().toString())
-            .document(member)
+            .id(esrec.get("id").toString())
+            .document(esrec)
         );
         esClient.index(request);
     }
-
-    public void store(String indexName, InstanceClusterMember member) throws IOException {
-
-      log.info("Store({},{})",indexName,member);
-
-        IndexRequest<InstanceClusterMember> request = IndexRequest.of(i -> i
-            .index(indexName)
-            .id(member.getId().toString())
-            .document(member)
-        );
-        esClient.index(request);
-    }
-
 
     /**
      * Search for similar vectors in the index.
