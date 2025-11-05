@@ -2,8 +2,8 @@ CREATE EXTENSION IF NOT EXISTS vector;
 
 CREATE TABLE input_record (
     id VARCHAR(255) NOT NULL PRIMARY KEY,
-    date_created TIMESTAMP NOT NULL default now(),
-    date_modified TIMESTAMP NOT NULL default now(),
+    date_created TIMESTAMP default now(),
+    date_modified TIMESTAMP default now(),
     extracted_resource_type VARCHAR(255),
     content_type VARCHAR(255),
     media_type VARCHAR(255),
@@ -15,10 +15,10 @@ CREATE TABLE input_record (
 
 CREATE TABLE work_cluster (
 	id UUID NOT NULL PRIMARY KEY,
-  date_created TIMESTAMP NOT NULL default now(),
-  date_modified TIMESTAMP NOT NULL default now(),
-  status VARCHAR(16) NOT NULL default 'UNKNOWN',
-	label VARCHAR(256) default 'UNKNOWN',
+  date_created TIMESTAMP default now(),
+  date_modified TIMESTAMP default now(),
+  status VARCHAR(16),
+	label VARCHAR(256),
   synthetic_anchor JSONB,
   centroid VECTOR(1536),
   content_fingerprint VARCHAR(64),
@@ -27,8 +27,8 @@ CREATE TABLE work_cluster (
 
 CREATE TABLE work_cluster_member (
 	id UUID NOT NULL PRIMARY KEY,
-  date_created TIMESTAMP NOT NULL default now(),
-  date_modified TIMESTAMP NOT NULL default now(),
+  date_created TIMESTAMP default now(),
+  date_modified TIMESTAMP default now(),
 	record_id VARCHAR(255),
   work_cluster_id UUID,
 	score	DOUBLE PRECISION,
@@ -48,9 +48,9 @@ CREATE INDEX idx_work_cm_embedding ON work_cluster_member USING hnsw (embedding 
 
 CREATE TABLE instance_cluster (
   id UUID NOT NULL PRIMARY KEY,
-  date_created TIMESTAMP NOT NULL default now(),
-  date_modified TIMESTAMP NOT NULL default now(),
-  status VARCHAR(16) NOT NULL default 'UNKNOWN',
+  date_created TIMESTAMP default now(),
+  date_modified TIMESTAMP default now(),
+  status VARCHAR(16) default 'UNKNOWN',
 	label VARCHAR(256) default 'UNKNOWN',
   synthetic_anchor JSONB,
   centroid VECTOR(1536),

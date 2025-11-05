@@ -39,12 +39,14 @@ public class PgAnchorAdapter implements AnchorPort {
         if ("work".equals(representation)) {
             WorkCluster cluster = new WorkCluster();
             cluster.setId(UUID.randomUUID());
+						cluster.setStatus("NEW");
             cluster.setSyntheticAnchor(anchor);
             return workClusterRepository.save(cluster).getId();
         } else {
             InstanceCluster cluster = new InstanceCluster();
             cluster.setId(UUID.randomUUID());
             cluster.setSyntheticAnchor(anchor);
+						cluster.setStatus("NEW");
             return instanceClusterRepository.save(cluster).getId();
         }
     }
@@ -53,11 +55,13 @@ public class PgAnchorAdapter implements AnchorPort {
     public void updateAnchor(UUID clusterId, InputRecord anchor) {
         if (workClusterRepository.existsById(clusterId)) {
             workClusterRepository.findById(clusterId).ifPresent(c -> {
+								c.setStatus("UPDATED");
                 c.setSyntheticAnchor(anchor);
                 workClusterRepository.update(c);
             });
         } else {
             instanceClusterRepository.findById(clusterId).ifPresent(c -> {
+								c.setStatus("UPDATED");
                 c.setSyntheticAnchor(anchor);
                 instanceClusterRepository.update(c);
             });
