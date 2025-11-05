@@ -35,6 +35,9 @@ Architecture rule: Ports & Adapters. Every external capability (embeddings, vect
 
 DO not remove app/src/test/resources/application-test.yml it is necessary to run the integration tests - just because Jules can't run them this file must not be deleted.
 
+ENSURE that for the APP module postgres is maintained as the source of truth / system of record. Objects in PG can be replicated to ES for fast and efficient vector match but ES must be
+fully re-creatable from the postgres system of record in a DR scenario.
+
 Deliverables per task:
 
 Code (compilable).
