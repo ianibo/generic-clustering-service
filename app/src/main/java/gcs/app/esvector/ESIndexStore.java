@@ -23,6 +23,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.HashMap;
 import java.util.Objects;
 import java.util.stream.Collectors;
@@ -42,12 +43,13 @@ public class ESIndexStore {
     }
 
 	/**
-	 * Get or create an Elasticsearch index.
+	 * Create an Elasticsearch index if it doesn't already exist.
 	 *
 	 * @param indexName The name of the index.
+	 * @param mapping   The mapping for the index.
 	 * @throws IOException If an I/O error occurs.
 	 */
-	public void getOrCreate(String indexName) throws IOException {
+	public void createIndex(String indexName, String mapping) throws IOException {
 
 		boolean exists = esClient.indices().exists(ExistsRequest.of(e -> e.index(indexName))).value();
 
@@ -57,26 +59,11 @@ public class ESIndexStore {
 		}
 
 		log.info("Index [{}] does not exist. Creating...", indexName);
-		// Note: Dimensions are assumed. 128 for blocking, 1536 for embedding.
-		esClient.indices().create(new CreateIndexRequest.Builder()
+
+		esClient.indices().create(c -> c
 			.index(indexName)
-			.mappings(m -> m
-				.properties("blocking", p -> p
-					.denseVector(d -> d
-                        .dims(64)
-                        .similarity(DenseVectorSimilarity.Cosine) // Use cosine similarity
-                        .index(true)
-					)
-				)
-				.properties("embedding", p -> p
-					.denseVector(d -> d
-						.dims(1536)
-						.similarity(DenseVectorSimilarity.Cosine) // Use cosine similarity
-						.index(true)
-					)
-				)
-			)
-			.build());
+			.withJson(new java.io.StringReader(mapping))
+		);
 
 		log.info("Index [{}] created.", indexName);
 
@@ -89,7 +76,6 @@ public class ESIndexStore {
 		);
 
 		log.info("Completed wait for index present");
-
 	}
 
     /**
@@ -118,29 +104,37 @@ public class ESIndexStore {
      * @param vector    The vector to search for.
      * @param fieldName The name of the vector field.
      * @param threshold The similarity threshold.
+     * @param k         The number of results to return.
+     * @param filters   Optional filters to apply to the search.
      * @return A list of search results.
      * @throws IOException If an I/O error occurs.
      */
-	public List<SearchResult> search(String indexName, float[] vector, String fieldName, double threshold) throws IOException {
+	public List<SearchResult> search(String indexName, float[] vector, String fieldName, double threshold, int k, Optional<Map<String, String>> filters) throws IOException {
 
 		List<Float> queryVector = new ArrayList<>(vector.length);
 		for (float v : vector) {
 			queryVector.add(v);
 		}
 
-		SearchRequest searchRequest = new SearchRequest.Builder()
+		SearchRequest.Builder searchRequestBuilder = new SearchRequest.Builder()
             .index(indexName)
-            .knn(k -> k
+            .knn(knn -> knn
                 .field(fieldName)
                 .queryVector(queryVector)
-                .k(10)
+                .k(k)
                 .numCandidates(50)
             )
-            .minScore(threshold) // Filter by score
-            .build();
+            .minScore(threshold); // Filter by score
+
+        filters.ifPresent(f -> {
+            // This is a simplified filter implementation. A real implementation would need to handle different types of filters.
+            f.forEach((key, value) -> {
+                searchRequestBuilder.query(q -> q.term(t -> t.field(key).value(v -> v.stringValue(value))));
+            });
+        });
 
 		try {
-			SearchResponse<Void> searchResponse = esClient.search(searchRequest, Void.class);
+			SearchResponse<Void> searchResponse = esClient.search(searchRequestBuilder.build(), Void.class);
 
 			return searchResponse.hits().hits().stream()
 				.map(hit -> {

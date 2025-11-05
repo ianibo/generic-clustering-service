@@ -22,7 +22,7 @@ public class ESClusteringService {
 
 		log.info("findClosestMatch({},....)",indexName);
 
-		List<ESIndexStore.SearchResult> results = esIndexStore.search(indexName, vector, fieldName, threshold);
+		List<ESIndexStore.SearchResult> results = esIndexStore.search(indexName, vector, fieldName, threshold, 10, Optional.empty());
 
 		if (results.isEmpty()) {
 			return Optional.empty();
