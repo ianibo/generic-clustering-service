@@ -33,7 +33,7 @@ public class DefaultAssignmentService implements AssignmentService {
         AnchorPort anchorPort,
         Scorer scorer,
         RepresentationPolicy representationPolicy,
-        EmbeddingService embeddingService,
+        @Named("openai") EmbeddingService embeddingService,
         List<Canonicalizer> canonicalizerList
     ) {
         this.candidatePort = candidatePort;
