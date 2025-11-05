@@ -15,4 +15,14 @@ public interface AssignmentService {
      * @return An Assignment object describing the result of the operation.
      */
     Assignment assign(InputRecord record, String representation);
+
+    /**
+     * Assigns an input record to an existing cluster or creates a new one, using a pre-computed embedding.
+     *
+     * @param record The input record to assign.
+     * @param representation The representation of the record (e.g., "WORK", "INSTANCE").
+     * @param embedding The pre-computed embedding of the record.
+     * @return An Assignment object describing the result of the operation.
+     */
+    Assignment assign(InputRecord record, String representation, float[] embedding);
 }

@@ -18,7 +18,8 @@ CREATE TABLE work_cluster (
   date_created TIMESTAMP NOT NULL default now(),
   date_modified TIMESTAMP NOT NULL default now(),
   status VARCHAR(16) NOT NULL,
-	label VARCHAR(256)
+	label VARCHAR(256),
+  centroid VECTOR(1536)
 );
 
 CREATE TABLE work_cluster_member (
@@ -47,7 +48,8 @@ CREATE TABLE instance_cluster (
   date_created TIMESTAMP NOT NULL default now(),
   date_modified TIMESTAMP NOT NULL default now(),
   status VARCHAR(16) NOT NULL,
-	label VARCHAR(256)
+	label VARCHAR(256),
+  centroid VECTOR(1536)
 );
 
 CREATE TABLE instance_cluster_member (
