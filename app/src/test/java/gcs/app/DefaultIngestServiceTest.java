@@ -11,7 +11,6 @@ import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 import gcs.app.clustering.BlockingRandomProjector;
 import gcs.app.clustering.ESClusteringService;
 import gcs.app.esvector.ESIndexStore;
-import gcs.app.pgvector.storage.PGVectorStore;
 import gcs.core.canonicalization.Canonicalizer;
 import gcs.core.classification.Classifier;
 import gcs.core.classification.ClassificationResult;
