@@ -76,11 +76,7 @@ public class DefaultAssignmentService implements AssignmentService {
     }
 
     @Override
-    public Assignment assign(EmbeddingService embeddingService, InputRecord record, String representation) {
-        var canonicalizer = canonicalizers.getOrDefault(record.physical().contentType(), defaultCanonicalizer);
-        String summary = canonicalizer.summarize(record, "work".equals(representation) ? Canonicalizer.Intent.WORK : Canonicalizer.Intent.INSTANCE);
-        float[] embedding = embeddingService.embed(summary);
-
+    public Assignment assign(InputRecord record, String representation, float[] embedding) {
         List<CandidatePort.Candidate> candidates = candidatePort.findCandidates(embedding, representation, 10, Optional.empty());
 
         CandidatePort.Candidate bestCandidate = null;

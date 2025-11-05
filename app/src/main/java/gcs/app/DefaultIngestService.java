@@ -2,6 +2,7 @@ package gcs.app;
 
 import gcs.app.adapters.PgMemberAdapter;
 import gcs.app.clustering.BlockingRandomProjector;
+import gcs.app.clustering.CentroidService;
 import gcs.app.esvector.ESIndexStore;
 import gcs.app.pgvector.InstanceCluster;
 import gcs.core.IngestService;
@@ -64,6 +65,7 @@ public class DefaultIngestService implements IngestService {
     private final Map<String, Canonicalizer> canonicalizers;
     private final Canonicalizer defaultCanonicalizer;
     private final BlockingRandomProjector projector;
+    private final CentroidService centroidService;
 
     public DefaultIngestService(
         Classifier classifier,
@@ -76,7 +78,8 @@ public class DefaultIngestService implements IngestService {
         InstanceClusterMemberRepository instanceClusterMemberRepository,
         @Named("openai") EmbeddingService embeddingService,
         List<Canonicalizer> canonicalizerList,
-        BlockingRandomProjector projector
+        BlockingRandomProjector projector,
+        CentroidService centroidService
     ) {
         this.classifier = classifier;
         this.assignmentService = assignmentService;
@@ -95,6 +98,7 @@ public class DefaultIngestService implements IngestService {
             .findFirst()
             .orElseThrow(() -> new IllegalStateException("No default canonicalizer found"));
         this.projector = projector;
+        this.centroidService = centroidService;
     }
 
     @Override
@@ -127,8 +131,16 @@ public class DefaultIngestService implements IngestService {
             classification.classifierVersion()
         );
 
-        handleAssignment(assignmentService.assign(embeddingService, versionedRecord, "work"), "work", versionedRecord);
-        handleAssignment(assignmentService.assign(embeddingService, versionedRecord, "instance"), "instance", versionedRecord);
+        var workCanonicalizer = canonicalizers.getOrDefault(versionedRecord.physical().contentType(), defaultCanonicalizer);
+        String workSummary = workCanonicalizer.summarize(versionedRecord, Canonicalizer.Intent.WORK);
+        float[] workEmbedding = embeddingService.embed(workSummary);
+
+        var instanceCanonicalizer = canonicalizers.getOrDefault(versionedRecord.physical().contentType(), defaultCanonicalizer);
+        String instanceSummary = instanceCanonicalizer.summarize(versionedRecord, Canonicalizer.Intent.INSTANCE);
+        float[] instanceEmbedding = embeddingService.embed(instanceSummary);
+
+        handleAssignment(assignmentService.assign(versionedRecord, "work", workEmbedding), "work", versionedRecord, workEmbedding);
+        handleAssignment(assignmentService.assign(versionedRecord, "instance", instanceEmbedding), "instance", versionedRecord, instanceEmbedding);
 
         return versionedRecord;
     }
@@ -140,11 +152,11 @@ public class DefaultIngestService implements IngestService {
      * @param representation The representation type ("work" or "instance").
      * @param record The record that was processed.
      */
-    private void handleAssignment(Assignment assignment, String representation, InputRecord record) {
+    private void handleAssignment(Assignment assignment, String representation, InputRecord record, float[] embedding) {
         if (assignment.getDecision() == Assignment.Decision.JOINED) {
             // If the record joined an existing cluster:
             // 1. Persist the new membership link.
-            addMemberToCluster(assignment.getClusterId(), record.id(), representation);
+            addMemberToCluster(assignment.getClusterId(), record, representation, embedding);
             // 2. Re-calculate the synthetic anchor with the new member.
             List<InputRecord> members = memberAdapter.getMembers(assignment.getClusterId());
             InputRecord newAnchor = synthesizer.synthesize(members);
@@ -159,26 +171,27 @@ public class DefaultIngestService implements IngestService {
         } else {
             // If a new cluster was created:
             // 1. Persist the new membership link.
-            addMemberToCluster(assignment.getClusterId(), record.id(), representation);
+            addMemberToCluster(assignment.getClusterId(), record, representation, embedding);
             // 2. Upsert the new anchor to Elasticsearch.
             upsertAnchorToEs(assignment.getClusterId(), assignment.getClusterAnchor(), representation);
         }
     }
 
-    private void addMemberToCluster(UUID clusterId, String recordId, String representation) {
+    private void addMemberToCluster(UUID clusterId, InputRecord record, String representation, float[] embedding) {
         if ("work".equals(representation)) {
             WorkClusterMember member = new WorkClusterMember();
             member.setId(UUID.randomUUID());
             member.setWorkCluster(WorkCluster.builder().id(clusterId).build());
-            member.setRecordId(recordId);
+            member.setRecordId(record.id());
             workClusterMemberRepository.save(member);
         } else {
             InstanceClusterMember member = new InstanceClusterMember();
             member.setId(UUID.randomUUID());
             member.setInstanceCluster(InstanceCluster.builder().id(clusterId).build());
-            member.setRecordId(recordId);
+            member.setRecordId(record.id());
             instanceClusterMemberRepository.save(member);
         }
+        centroidService.updateCentroid(clusterId, representation, new com.pgvector.PGvector(embedding));
     }
 
     private void upsertAnchorToEs(UUID clusterId, InputRecord anchor, String representation) {
