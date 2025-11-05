@@ -14,7 +14,34 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 /**
- * Default implementation of the AssignmentService interface.
+ * Default implementation of the {@link AssignmentService}. This class contains the core logic
+ * for deciding whether an incoming record should be assigned to an existing cluster or
+ * should start a new one.
+ *
+ * <h2>Orchestration Roadmap:</h2>
+ * <ol>
+ *   <li><b>Generate Embedding:</b>
+ *     <ul>
+ *       <li>Selects the appropriate {@link Canonicalizer} based on the record's content type.</li>
+ *       <li>Generates a textual summary of the record.</li>
+ *       <li>Calls the {@link EmbeddingService} to convert the summary into a vector embedding.</li>
+ *     </ul>
+ *   </li>
+ *   <li><b>Find Candidates:</b> The embedding is passed to the {@link CandidatePort} to perform a k-NN search for the most similar existing cluster anchors.</li>
+ *   <li><b>Score Candidates:</b> Each candidate is evaluated:
+ *     <ul>
+ *       <li>First, a coarse check is done using {@link RepresentationPolicy#fieldAgreementOk}.</li>
+ *       <li>If compatible, the {@link Scorer} calculates a detailed {@link ScoreBreakdown}, combining the initial vector score with scores from other business rules (e.g., publication year).</li>
+ *     </ul>
+ *   </li>
+ *   <li><b>Make Decision:</b>
+ *     <ul>
+ *       <li>The candidate with the highest total score is selected.</li>
+ *       <li>If this score is at or above the join threshold ({@code tauJoin}), a {@link Assignment.Decision#JOINED} decision is returned.</li>
+ *       <li>Otherwise, the {@link AnchorPort} is called to create a new cluster, and a {@link Assignment.Decision#CREATED} decision is returned.</li>
+ *     </ul>
+ *   </li>
+ * </ol>
  */
 @Singleton
 public class DefaultAssignmentService implements AssignmentService {
@@ -33,7 +60,7 @@ public class DefaultAssignmentService implements AssignmentService {
         AnchorPort anchorPort,
         Scorer scorer,
         RepresentationPolicy representationPolicy,
-        @Named("openai") EmbeddingService embeddingService,
+        EmbeddingService embeddingService,
         List<Canonicalizer> canonicalizerList
     ) {
         this.candidatePort = candidatePort;

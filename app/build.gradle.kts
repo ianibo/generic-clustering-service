@@ -13,18 +13,19 @@ repositories {
 }
 
 dependencies {
+
   annotationProcessor("io.micronaut:micronaut-inject-java")
   annotationProcessor("io.micronaut.serde:micronaut-serde-processor")
   annotationProcessor("org.projectlombok:lombok")
   annotationProcessor("io.micronaut.data:micronaut-data-processor")
 
-  implementation(project(":core"))
+	implementation(project(":core"))
 
   implementation("io.micronaut.serde:micronaut-serde-api")
-  implementation("io.micronaut:micronaut-http-server")
-  implementation("io.micronaut:micronaut-jackson-databind")
-  implementation("io.micronaut.serde:micronaut-serde-jackson")
-  implementation("ch.qos.logback:logback-classic")
+	implementation("io.micronaut:micronaut-http-server")
+	implementation("io.micronaut:micronaut-jackson-databind")
+	implementation("io.micronaut.serde:micronaut-serde-jackson")
+	implementation("ch.qos.logback:logback-classic")
   implementation("io.micronaut.data:micronaut-data-jdbc")
   implementation("io.micronaut.flyway:micronaut-flyway")
   runtimeOnly("org.flywaydb:flyway-database-postgresql")
@@ -36,25 +37,25 @@ dependencies {
 
   compileOnly("org.projectlombok:lombok")
   compileOnly("jakarta.persistence:jakarta.persistence-api")
-  runtimeOnly("org.yaml:snakeyaml")
+	runtimeOnly("org.yaml:snakeyaml")
   // runtimeOnly("com.h2database:h2")
   runtimeOnly("org.postgresql:postgresql")
   implementation("com.pgvector:pgvector:0.1.4")
   implementation("io.micronaut.elasticsearch:micronaut-elasticsearch")
-  implementation("co.elastic.clients:elasticsearch-java:9.2.0")
+	implementation("co.elastic.clients:elasticsearch-java:9.2.0")
 
 
-  testImplementation("io.micronaut.test:micronaut-test-junit5")
+	testImplementation("io.micronaut.test:micronaut-test-junit5")
   testImplementation("org.mockito:mockito-core:5.10.0")
 
-  testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.0")
-  testImplementation("org.junit.jupiter:junit-jupiter-params:5.10.0")
-  testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.10.0")
-  testImplementation("io.micronaut.test:micronaut-test-junit5:3.9.0")
-  testImplementation("io.micronaut:micronaut-http-client")
+	testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.0")
+	testImplementation("org.junit.jupiter:junit-jupiter-params:5.10.0")
+	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.10.0")
+	testImplementation("io.micronaut.test:micronaut-test-junit5:3.9.0")
+	testImplementation("io.micronaut:micronaut-http-client")
   testImplementation("org.testcontainers:junit-jupiter")
   testImplementation("org.testcontainers:postgresql")
-  testImplementation("org.testcontainers:elasticsearch")
+	testImplementation("org.testcontainers:elasticsearch")
   testImplementation("org.testcontainers:testcontainers")
   testCompileOnly("org.projectlombok:lombok")
 
