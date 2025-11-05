@@ -5,8 +5,8 @@ import gcs.app.pgvector.InstanceCluster;
 import gcs.app.pgvector.InstanceClusterRepository;
 import gcs.app.pgvector.WorkCluster;
 import gcs.app.pgvector.WorkClusterRepository;
-import gcs.app.pgvector.WorkClusterMemberRepository;
-import gcs.app.pgvector.InstanceClusterMemberRepository;
+import gcs.app.pgvector.storage.WorkClusterMemberRepository;
+import gcs.app.pgvector.storage.InstanceClusterMemberRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

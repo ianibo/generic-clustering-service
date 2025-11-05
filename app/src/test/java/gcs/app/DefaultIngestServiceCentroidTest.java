@@ -48,12 +48,15 @@ class DefaultIngestServiceCentroidTest {
     void testIngestCallsCentroidService() throws IOException {
         // Arrange
         InputRecord record = TestRecordLoader.loadRecord("4bcc8bff-2de9-50db-86ea-af75a84de228");
+
         UUID clusterId = UUID.randomUUID();
+
         Assignment assignment = Assignment.builder()
             .decision(Assignment.Decision.JOINED)
             .clusterId(clusterId)
             .build();
-        when(assignmentService.assign(any(), any())).thenReturn(assignment);
+
+        // when(assignmentService.assign(any(), any())).thenReturn(assignment);
 
         // Act
         service.ingest(record);
