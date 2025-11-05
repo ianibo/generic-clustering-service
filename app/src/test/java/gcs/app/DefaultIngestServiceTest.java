@@ -1,11 +1,14 @@
 package gcs.app;
 
+import gcs.app.pgvector.storage.InstanceClusterRepository;
+import gcs.app.pgvector.storage.WorkClusterRepository;
 import io.micronaut.http.HttpRequest;
 import io.micronaut.http.HttpResponse;
 import io.micronaut.http.HttpStatus;
 import io.micronaut.http.client.HttpClient;
 import io.micronaut.http.client.annotation.Client;
 import io.micronaut.http.client.exceptions.HttpClientResponseException;
+import io.micronaut.test.annotation.MockBean;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 
 import gcs.app.clustering.BlockingRandomProjector;
@@ -53,4 +56,14 @@ class DefaultIngestServiceTest {
 		log.info("Result = {}",result);
 		assert result != null;
 	}
+
+    @MockBean(WorkClusterRepository.class)
+    WorkClusterRepository workClusterRepository() {
+        return mock(WorkClusterRepository.class);
+    }
+
+    @MockBean(InstanceClusterRepository.class)
+    InstanceClusterRepository instanceClusterRepository() {
+        return mock(InstanceClusterRepository.class);
+    }
 }

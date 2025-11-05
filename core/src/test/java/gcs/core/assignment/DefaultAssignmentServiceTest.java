@@ -36,9 +36,6 @@ class DefaultAssignmentServiceTest {
     private RepresentationPolicy representationPolicy;
 
     @Mock
-    private EmbeddingService embeddingService;
-
-    @Mock
     private Canonicalizer canonicalizer;
 
     private DefaultAssignmentService assignmentService;
@@ -47,7 +44,7 @@ class DefaultAssignmentServiceTest {
     void setUp() {
         MockitoAnnotations.openMocks(this);
         when(canonicalizer.forContentType()).thenReturn(null);
-        assignmentService = new DefaultAssignmentService(candidatePort, anchorPort, scorer, representationPolicy, embeddingService, List.of(canonicalizer));
+        assignmentService = new DefaultAssignmentService(candidatePort, anchorPort, scorer, representationPolicy, List.of(canonicalizer));
     }
 
     @Test
@@ -73,12 +70,11 @@ class DefaultAssignmentServiceTest {
             }
         };
 
-        when(embeddingService.embed(anyString())).thenReturn(new float[0]);
         when(candidatePort.findCandidates(any(), anyString(), anyInt(), any())).thenReturn(Collections.singletonList(candidate));
         when(representationPolicy.fieldAgreementOk(record, anchor)).thenReturn(true);
         when(scorer.score(record, anchor, 0.9)).thenReturn(ScoreBreakdown.builder().total(0.9).build());
 
-        Assignment assignment = assignmentService.assign(record, "work");
+        Assignment assignment = assignmentService.assign(record, "work", new float[0]);
 
         assertEquals(Assignment.Decision.JOINED, assignment.getDecision());
         assertEquals(clusterId, assignment.getClusterId());
@@ -89,11 +85,10 @@ class DefaultAssignmentServiceTest {
         InputRecord record = new InputRecord("1", null, null, null, null, null, null, null, null, null, new InputRecord.Physical(null, null, "TEXT", null, null, null), null, null, null, null, null, null, null, null, null, null);
         UUID newClusterId = UUID.randomUUID();
 
-        when(embeddingService.embed(anyString())).thenReturn(new float[0]);
         when(candidatePort.findCandidates(any(), anyString(), anyInt(), any())).thenReturn(Collections.emptyList());
         when(anchorPort.createCluster(record, "work")).thenReturn(newClusterId);
 
-        Assignment assignment = assignmentService.assign(record, "work");
+        Assignment assignment = assignmentService.assign(record, "work", new float[0]);
 
         assertEquals(Assignment.Decision.CREATED, assignment.getDecision());
         assertEquals(newClusterId, assignment.getClusterId());

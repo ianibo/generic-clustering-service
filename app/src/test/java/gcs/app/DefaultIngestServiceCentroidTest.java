@@ -2,6 +2,10 @@ package gcs.app;
 
 import com.pgvector.PGvector;
 import gcs.app.clustering.CentroidService;
+import gcs.app.pgvector.InstanceCluster;
+import gcs.app.pgvector.WorkCluster;
+import gcs.app.pgvector.storage.InstanceClusterRepository;
+import gcs.app.pgvector.storage.WorkClusterRepository;
 import gcs.app.util.TestRecordLoader;
 import gcs.core.InputRecord;
 import gcs.core.assignment.Assignment;
@@ -12,6 +16,7 @@ import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
 
 import java.io.IOException;
+import java.util.Optional;
 import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -23,11 +28,15 @@ class DefaultIngestServiceCentroidTest {
     private DefaultIngestService service;
     private AssignmentService assignmentService;
     private CentroidService centroidService;
+    private WorkClusterRepository workClusterRepository;
+    private InstanceClusterRepository instanceClusterRepository;
 
     @BeforeEach
     void setUp() {
         assignmentService = mock(AssignmentService.class);
         centroidService = mock(CentroidService.class);
+        workClusterRepository = mock(WorkClusterRepository.class);
+        instanceClusterRepository = mock(InstanceClusterRepository.class);
         service = new DefaultIngestService(
             mock(gcs.core.classification.Classifier.class),
             assignmentService,
@@ -37,6 +46,8 @@ class DefaultIngestServiceCentroidTest {
             mock(gcs.app.esvector.ESIndexStore.class),
             mock(gcs.app.pgvector.storage.WorkClusterMemberRepository.class),
             mock(gcs.app.pgvector.storage.InstanceClusterMemberRepository.class),
+            workClusterRepository,
+            instanceClusterRepository,
             mock(gcs.core.EmbeddingService.class),
             java.util.List.of(mock(gcs.core.canonicalization.Canonicalizer.class)),
             mock(gcs.app.clustering.BlockingRandomProjector.class),
@@ -56,7 +67,9 @@ class DefaultIngestServiceCentroidTest {
             .clusterId(clusterId)
             .build();
 
-        // when(assignmentService.assign(any(), any())).thenReturn(assignment);
+        when(assignmentService.assign(any(), any(), any())).thenReturn(assignment);
+        when(workClusterRepository.findById(clusterId)).thenReturn(Optional.of(WorkCluster.builder().id(clusterId).build()));
+        when(instanceClusterRepository.findById(clusterId)).thenReturn(Optional.of(InstanceCluster.builder().id(clusterId).build()));
 
         // Act
         service.ingest(record);

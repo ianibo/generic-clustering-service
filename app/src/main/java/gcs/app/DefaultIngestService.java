@@ -11,6 +11,8 @@ import gcs.app.pgvector.WorkCluster;
 import gcs.app.pgvector.WorkClusterMember;
 import gcs.app.pgvector.storage.InstanceClusterMemberRepository;
 import gcs.app.pgvector.storage.WorkClusterMemberRepository;
+import gcs.app.pgvector.storage.WorkClusterRepository;
+import gcs.app.pgvector.storage.InstanceClusterRepository;
 import gcs.core.EmbeddingService;
 import gcs.core.InputRecord;
 import gcs.core.assignment.AnchorPort;
@@ -61,6 +63,8 @@ public class DefaultIngestService implements IngestService {
     private final ESIndexStore esIndexStore;
     private final WorkClusterMemberRepository workClusterMemberRepository;
     private final InstanceClusterMemberRepository instanceClusterMemberRepository;
+    private final WorkClusterRepository workClusterRepository;
+    private final InstanceClusterRepository instanceClusterRepository;
     private final EmbeddingService embeddingService;
     private final Map<String, Canonicalizer> canonicalizers;
     private final Canonicalizer defaultCanonicalizer;
@@ -76,6 +80,8 @@ public class DefaultIngestService implements IngestService {
         ESIndexStore esIndexStore,
         WorkClusterMemberRepository workClusterMemberRepository,
         InstanceClusterMemberRepository instanceClusterMemberRepository,
+        WorkClusterRepository workClusterRepository,
+        InstanceClusterRepository instanceClusterRepository,
         @Named("openai") EmbeddingService embeddingService,
         List<Canonicalizer> canonicalizerList,
         BlockingRandomProjector projector,
@@ -89,6 +95,8 @@ public class DefaultIngestService implements IngestService {
         this.esIndexStore = esIndexStore;
         this.workClusterMemberRepository = workClusterMemberRepository;
         this.instanceClusterMemberRepository = instanceClusterMemberRepository;
+        this.workClusterRepository = workClusterRepository;
+        this.instanceClusterRepository = instanceClusterRepository;
         this.embeddingService = embeddingService;
         this.canonicalizers = canonicalizerList.stream()
             .filter(c -> c.forContentType() != null)
@@ -179,15 +187,17 @@ public class DefaultIngestService implements IngestService {
 
     private void addMemberToCluster(UUID clusterId, InputRecord record, String representation, float[] embedding) {
         if ("work".equals(representation)) {
+            WorkCluster workCluster = workClusterRepository.findById(clusterId).orElseThrow(() -> new IllegalArgumentException("WorkCluster not found: " + clusterId));
             WorkClusterMember member = new WorkClusterMember();
             member.setId(UUID.randomUUID());
-            member.setWorkCluster(WorkCluster.builder().id(clusterId).build());
+            member.setWorkCluster(workCluster);
             member.setRecordId(record.id());
             workClusterMemberRepository.save(member);
         } else {
+            InstanceCluster instanceCluster = instanceClusterRepository.findById(clusterId).orElseThrow(() -> new IllegalArgumentException("InstanceCluster not found: " + clusterId));
             InstanceClusterMember member = new InstanceClusterMember();
             member.setId(UUID.randomUUID());
-            member.setInstanceCluster(InstanceCluster.builder().id(clusterId).build());
+            member.setInstanceCluster(instanceCluster);
             member.setRecordId(record.id());
             instanceClusterMemberRepository.save(member);
         }

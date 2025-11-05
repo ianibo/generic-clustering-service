@@ -14,44 +14,34 @@ import java.time.Instant;
 import java.util.Map;
 import java.util.HashMap;
 
+@Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@lombok.EqualsAndHashCode
-@lombok.ToString
 @Serdeable
 @MappedEntity("work_cluster")
 public class WorkCluster implements Cluster {
 
     @Id
-    @Getter @Setter
     private UUID id;
 
     @DateCreated
-    @Getter @Setter
     private Instant dateCreated;
 
     @DateUpdated
-    @Getter @Setter
     private Instant dateModified;
 
-    @Getter @Setter
     private String status;
 
-    @Getter @Setter
     private String label;
 
     @TypeDef(type = DataType.JSON)
-    @Getter @Setter
     private InputRecord syntheticAnchor;
 
-    @Getter @Setter
     private PGvector centroid;
 
-    @Getter @Setter
     private String contentFingerprint;
 
     @TypeDef(type = DataType.JSON)
-    @Getter @Setter
     private Lineage lineage;
 }

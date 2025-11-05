@@ -1,5 +1,6 @@
 package gcs.app;
 
+import gcs.app.adapters.PgLineageResolver;
 import gcs.core.lineage.Lineage;
 import gcs.core.lineage.LineageResolver;
 import io.micronaut.http.HttpRequest;
@@ -25,7 +26,7 @@ class LineageControllerTest {
     HttpClient client;
 
     @Inject
-    private LineageResolver lineageResolver;
+    private PgLineageResolver lineageResolver;
 
     @Test
     void testResolve() {
@@ -45,8 +46,8 @@ class LineageControllerTest {
         assertEquals(expectedLineage, actualLineage);
     }
 
-    @MockBean(gcs.app.adapters.PgLineageResolver.class)
+    @MockBean(PgLineageResolver.class)
     LineageResolver lineageResolver() {
-        return mock(LineageResolver.class);
+        return mock(PgLineageResolver.class);
     }
 }
