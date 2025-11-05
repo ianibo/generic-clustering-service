@@ -2,6 +2,9 @@ package gcs.app;
 
 import gcs.app.pgvector.storage.InstanceClusterRepository;
 import gcs.app.pgvector.storage.WorkClusterRepository;
+import gcs.core.assignment.Assignment;
+import gcs.core.assignment.AssignmentService;
+import gcs.core.classification.ClassificationResult;
 import io.micronaut.http.HttpRequest;
 import io.micronaut.http.HttpResponse;
 import io.micronaut.http.HttpStatus;
@@ -25,6 +28,7 @@ import gcs.core.classification.CarrierType;
 import gcs.core.EmbeddingService;
 import gcs.core.InputRecord;
 import gcs.core.classification.WorkType;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 
@@ -32,6 +36,7 @@ import gcs.app.util.TestRecordLoader;
 
 import java.util.List;
 import java.util.ArrayList;
+import java.util.UUID;
 import jakarta.inject.Inject;
 
 import static org.mockito.Mockito.*;
@@ -48,6 +53,18 @@ class DefaultIngestServiceTest {
   @Inject
 	DefaultIngestService service;
 
+  @Inject
+    Classifier classifier;
+
+  @Inject
+    AssignmentService assignmentService;
+
+
+    @BeforeEach
+    void setUp() {
+        when(classifier.classify(any())).thenReturn(ClassificationResult.builder().build());
+        when(assignmentService.assign(any(), any(), any())).thenReturn(Assignment.builder().decision(Assignment.Decision.CREATED).clusterId(UUID.randomUUID()).build());
+    }
 
 	@Test
 	void testIngest() throws java.io.IOException {
@@ -65,5 +82,15 @@ class DefaultIngestServiceTest {
     @MockBean(InstanceClusterRepository.class)
     InstanceClusterRepository instanceClusterRepository() {
         return mock(InstanceClusterRepository.class);
+    }
+
+    @MockBean(Classifier.class)
+    Classifier classifier() {
+        return mock(Classifier.class);
+    }
+
+    @MockBean(AssignmentService.class)
+    AssignmentService assignmentService() {
+        return mock(AssignmentService.class);
     }
 }

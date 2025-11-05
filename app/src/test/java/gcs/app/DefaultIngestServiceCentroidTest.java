@@ -10,6 +10,8 @@ import gcs.app.util.TestRecordLoader;
 import gcs.core.InputRecord;
 import gcs.core.assignment.Assignment;
 import gcs.core.assignment.AssignmentService;
+import gcs.core.classification.Classifier;
+import gcs.core.classification.ClassificationResult;
 import io.micronaut.context.annotation.Replaces;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -30,6 +32,7 @@ class DefaultIngestServiceCentroidTest {
     private CentroidService centroidService;
     private WorkClusterRepository workClusterRepository;
     private InstanceClusterRepository instanceClusterRepository;
+    private Classifier classifier;
 
     @BeforeEach
     void setUp() {
@@ -37,8 +40,9 @@ class DefaultIngestServiceCentroidTest {
         centroidService = mock(CentroidService.class);
         workClusterRepository = mock(WorkClusterRepository.class);
         instanceClusterRepository = mock(InstanceClusterRepository.class);
+        classifier = mock(Classifier.class);
         service = new DefaultIngestService(
-            mock(gcs.core.classification.Classifier.class),
+            classifier,
             assignmentService,
             mock(gcs.app.adapters.PgMemberAdapter.class),
             mock(gcs.core.synthesis.Synthesizer.class),
@@ -67,6 +71,7 @@ class DefaultIngestServiceCentroidTest {
             .clusterId(clusterId)
             .build();
 
+        when(classifier.classify(any())).thenReturn(ClassificationResult.builder().build());
         when(assignmentService.assign(any(), any(), any())).thenReturn(assignment);
         when(workClusterRepository.findById(clusterId)).thenReturn(Optional.of(WorkCluster.builder().id(clusterId).build()));
         when(instanceClusterRepository.findById(clusterId)).thenReturn(Optional.of(InstanceCluster.builder().id(clusterId).build()));

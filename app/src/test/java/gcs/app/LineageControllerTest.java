@@ -47,7 +47,7 @@ class LineageControllerTest {
     }
 
     @MockBean(PgLineageResolver.class)
-    LineageResolver lineageResolver() {
+    PgLineageResolver lineageResolver() {
         return mock(PgLineageResolver.class);
     }
 }
