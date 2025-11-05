@@ -147,10 +147,14 @@ public class DefaultIngestService implements IngestService {
             // 2. Re-calculate the synthetic anchor with the new member.
             List<InputRecord> members = memberAdapter.getMembers(assignment.getClusterId());
             InputRecord newAnchor = synthesizer.synthesize(members);
-            // 3. Update the anchor in the database.
-            anchorPort.updateAnchor(assignment.getClusterId(), newAnchor);
-            // 4. Upsert the updated anchor to Elasticsearch.
-            upsertAnchorToEs(assignment.getClusterId(), newAnchor, representation);
+            // 3. Update the anchor in the database, if synthesis was successful.
+            if (newAnchor != null) {
+                anchorPort.updateAnchor(assignment.getClusterId(), newAnchor);
+                // 4. Upsert the updated anchor to Elasticsearch.
+                upsertAnchorToEs(assignment.getClusterId(), newAnchor, representation);
+            } else {
+                log.warn("Synthesizer returned null for cluster {}, not updating anchor.", assignment.getClusterId());
+            }
         } else {
             // If a new cluster was created:
             // 1. Persist the new membership link.
