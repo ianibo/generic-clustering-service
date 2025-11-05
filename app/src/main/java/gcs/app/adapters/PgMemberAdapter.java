@@ -33,18 +33,19 @@ public class PgMemberAdapter implements MemberPort {
 
     @Override
     public List<InputRecord> getMembers(UUID clusterId) {
+        List<String> recordIds;
         if (workClusterMemberRepository.existsByWorkClusterId(clusterId)) {
-            return workClusterMemberRepository.findByWorkClusterId(clusterId).stream()
-                .map(m -> inputRecordRepository.findById(m.getRecordId()).orElse(null))
-                .filter(java.util.Objects::nonNull)
-                .map(InputRecordEntity::getRecord)
+            recordIds = workClusterMemberRepository.findByWorkClusterId(clusterId).stream()
+                .map(gcs.app.pgvector.WorkClusterMember::getRecordId)
                 .collect(Collectors.toList());
         } else {
-            return instanceClusterMemberRepository.findByInstanceClusterId(clusterId).stream()
-                .map(m -> inputRecordRepository.findById(m.getRecordId()).orElse(null))
-                .filter(java.util.Objects::nonNull)
-                .map(InputRecordEntity::getRecord)
+            recordIds = instanceClusterMemberRepository.findByInstanceClusterId(clusterId).stream()
+                .map(gcs.app.pgvector.InstanceClusterMember::getRecordId)
                 .collect(Collectors.toList());
         }
+
+        return inputRecordRepository.findAllById(recordIds).stream()
+            .map(InputRecordEntity::getRecord)
+            .collect(Collectors.toList());
     }
 }

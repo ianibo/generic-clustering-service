@@ -19,7 +19,6 @@ import gcs.core.canonicalization.Canonicalizer;
 import gcs.core.classification.Classifier;
 import gcs.core.synthesis.Synthesizer;
 import jakarta.inject.Singleton;
-import jakarta.inject.Named;
 import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 
@@ -31,6 +30,23 @@ import java.util.UUID;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+/**
+ * The primary service for processing and clustering incoming records.
+ * This service acts as the main entry point for the ingestion pipeline.
+ *
+ * <h2>Orchestration Roadmap:</h2>
+ * <ol>
+ *   <li><b>Classification:</b> The incoming {@link InputRecord} is first passed to the {@link Classifier} to determine its {@code WorkType} and {@code InstanceClassification}.</li>
+ *   <li><b>Assignment:</b> The classified record is then sent to the {@link AssignmentService} for both "work" and "instance" representations. The {@code AssignmentService} decides whether the record should join an existing cluster or create a new one.</li>
+ *   <li><b>Handling the Assignment:</b>
+ *     <ul>
+ *       <li>If a record **joins** an existing cluster, its membership is persisted, the cluster's synthetic anchor is re-calculated using the {@link Synthesizer}, and the updated anchor is saved via the {@link AnchorPort} and upserted to Elasticsearch.</li>
+ *       <li>If a record **creates** a new cluster, the new cluster and its first member are persisted, and the new anchor is indexed in Elasticsearch.</li>
+ *     </ul>
+ *   </li>
+ *   <li><b>Result:</b> The service returns the final, versioned {@code InputRecord}.</li>
+ * </ol>
+ */
 @Slf4j
 @Singleton
 public class DefaultIngestService implements IngestService {
@@ -57,7 +73,7 @@ public class DefaultIngestService implements IngestService {
         ESIndexStore esIndexStore,
         WorkClusterMemberRepository workClusterMemberRepository,
         InstanceClusterMemberRepository instanceClusterMemberRepository,
-        @Named("openai") EmbeddingService embeddingService,
+        EmbeddingService embeddingService,
         List<Canonicalizer> canonicalizerList,
         BlockingRandomProjector projector
     ) {
@@ -116,15 +132,30 @@ public class DefaultIngestService implements IngestService {
         return versionedRecord;
     }
 
+    /**
+     * Acts on the decision from the {@link AssignmentService}.
+     *
+     * @param assignment The assignment decision.
+     * @param representation The representation type ("work" or "instance").
+     * @param record The record that was processed.
+     */
     private void handleAssignment(Assignment assignment, String representation, InputRecord record) {
         if (assignment.getDecision() == Assignment.Decision.JOINED) {
+            // If the record joined an existing cluster:
+            // 1. Persist the new membership link.
             addMemberToCluster(assignment.getClusterId(), record.id(), representation);
+            // 2. Re-calculate the synthetic anchor with the new member.
             List<InputRecord> members = memberAdapter.getMembers(assignment.getClusterId());
             InputRecord newAnchor = synthesizer.synthesize(members);
+            // 3. Update the anchor in the database.
             anchorPort.updateAnchor(assignment.getClusterId(), newAnchor);
+            // 4. Upsert the updated anchor to Elasticsearch.
             upsertAnchorToEs(assignment.getClusterId(), newAnchor, representation);
         } else {
+            // If a new cluster was created:
+            // 1. Persist the new membership link.
             addMemberToCluster(assignment.getClusterId(), record.id(), representation);
+            // 2. Upsert the new anchor to Elasticsearch.
             upsertAnchorToEs(assignment.getClusterId(), assignment.getClusterAnchor(), representation);
         }
     }
