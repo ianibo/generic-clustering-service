@@ -33,6 +33,8 @@ Prefer zero extra dependencies; if unavoidable, explain and keep to small, pure-
 
 Architecture rule: Ports & Adapters. Every external capability (embeddings, vector index, storage) is a port with at least one in-memory adapter.
 
+DO not remove app/src/test/resources/application-test.yml it is necessary to run the integration tests - just because Jules can't run them this file must not be deleted.
+
 Deliverables per task:
 
 Code (compilable).
