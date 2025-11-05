@@ -17,8 +17,12 @@ CREATE TABLE work_cluster (
 	id UUID NOT NULL PRIMARY KEY,
   date_created TIMESTAMP NOT NULL default now(),
   date_modified TIMESTAMP NOT NULL default now(),
-  status VARCHAR(16) NOT NULL,
-	label VARCHAR(256)
+  status VARCHAR(16) NOT NULL default 'UNKNOWN',
+	label VARCHAR(256) default 'UNKNOWN',
+  synthetic_anchor JSONB,
+  centroid VECTOR(1536),
+  content_fingerprint VARCHAR(64),
+  lineage JSONB
 );
 
 CREATE TABLE work_cluster_member (
@@ -46,8 +50,12 @@ CREATE TABLE instance_cluster (
   id UUID NOT NULL PRIMARY KEY,
   date_created TIMESTAMP NOT NULL default now(),
   date_modified TIMESTAMP NOT NULL default now(),
-  status VARCHAR(16) NOT NULL,
-	label VARCHAR(256)
+  status VARCHAR(16) NOT NULL default 'UNKNOWN',
+	label VARCHAR(256) default 'UNKNOWN',
+  synthetic_anchor JSONB,
+  centroid VECTOR(1536),
+  content_fingerprint VARCHAR(64),
+  lineage JSONB
 );
 
 CREATE TABLE instance_cluster_member (

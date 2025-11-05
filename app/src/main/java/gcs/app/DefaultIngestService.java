@@ -19,6 +19,7 @@ import gcs.core.canonicalization.Canonicalizer;
 import gcs.core.classification.Classifier;
 import gcs.core.synthesis.Synthesizer;
 import jakarta.inject.Singleton;
+import jakarta.inject.Named;
 import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 
@@ -73,7 +74,7 @@ public class DefaultIngestService implements IngestService {
         ESIndexStore esIndexStore,
         WorkClusterMemberRepository workClusterMemberRepository,
         InstanceClusterMemberRepository instanceClusterMemberRepository,
-        EmbeddingService embeddingService,
+        @Named("openai") EmbeddingService embeddingService,
         List<Canonicalizer> canonicalizerList,
         BlockingRandomProjector projector
     ) {
@@ -126,8 +127,8 @@ public class DefaultIngestService implements IngestService {
             classification.classifierVersion()
         );
 
-        handleAssignment(assignmentService.assign(versionedRecord, "work"), "work", versionedRecord);
-        handleAssignment(assignmentService.assign(versionedRecord, "instance"), "instance", versionedRecord);
+        handleAssignment(assignmentService.assign(embeddingService, versionedRecord, "work"), "work", versionedRecord);
+        handleAssignment(assignmentService.assign(embeddingService, versionedRecord, "instance"), "instance", versionedRecord);
 
         return versionedRecord;
     }
