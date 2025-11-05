@@ -51,7 +51,6 @@ public class DefaultAssignmentService implements AssignmentService {
     private final AnchorPort anchorPort;
     private final Scorer scorer;
     private final RepresentationPolicy representationPolicy;
-    private final EmbeddingService embeddingService;
     private final Map<String, Canonicalizer> canonicalizers;
     private final Canonicalizer defaultCanonicalizer;
     private final double tauJoin = 0.8; // Placeholder
@@ -61,14 +60,12 @@ public class DefaultAssignmentService implements AssignmentService {
         AnchorPort anchorPort,
         Scorer scorer,
         RepresentationPolicy representationPolicy,
-        EmbeddingService embeddingService,
         List<Canonicalizer> canonicalizerList
     ) {
         this.candidatePort = candidatePort;
         this.anchorPort = anchorPort;
         this.scorer = scorer;
         this.representationPolicy = representationPolicy;
-        this.embeddingService = embeddingService;
         this.canonicalizers = canonicalizerList.stream()
             .filter(c -> c.forContentType() != null)
             .collect(Collectors.toMap(Canonicalizer::forContentType, Function.identity()));
@@ -79,7 +76,7 @@ public class DefaultAssignmentService implements AssignmentService {
     }
 
     @Override
-    public Assignment assign(InputRecord record, String representation) {
+    public Assignment assign(EmbeddingService embeddingService, InputRecord record, String representation) {
         var canonicalizer = canonicalizers.getOrDefault(record.physical().contentType(), defaultCanonicalizer);
         String summary = canonicalizer.summarize(record, "work".equals(representation) ? Canonicalizer.Intent.WORK : Canonicalizer.Intent.INSTANCE);
         float[] embedding = embeddingService.embed(summary);

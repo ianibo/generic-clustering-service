@@ -1,6 +1,7 @@
 package gcs.core.assignment;
 
 import gcs.core.InputRecord;
+import gcs.core.EmbeddingService;
 
 /**
  * Assigns an input record to an existing cluster or creates a new one.

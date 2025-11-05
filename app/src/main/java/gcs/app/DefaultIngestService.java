@@ -20,6 +20,7 @@ import gcs.core.canonicalization.Canonicalizer;
 import gcs.core.classification.Classifier;
 import gcs.core.synthesis.Synthesizer;
 import jakarta.inject.Singleton;
+import jakarta.inject.Named;
 import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 
@@ -75,7 +76,7 @@ public class DefaultIngestService implements IngestService {
         ESIndexStore esIndexStore,
         WorkClusterMemberRepository workClusterMemberRepository,
         InstanceClusterMemberRepository instanceClusterMemberRepository,
-        EmbeddingService embeddingService,
+        @Named("openai") EmbeddingService embeddingService,
         List<Canonicalizer> canonicalizerList,
         BlockingRandomProjector projector,
         CentroidService centroidService
