@@ -24,6 +24,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.UUID;
 import java.util.HashMap;
 import java.util.Objects;
 import java.util.stream.Collectors;
@@ -109,7 +110,7 @@ public class ESIndexStore {
      * @return A list of search results.
      * @throws IOException If an I/O error occurs.
      */
-	public List<SearchResult> search(String indexName, float[] vector, String fieldName, double threshold, int k, Optional<Map<String, String>> filters) throws IOException {
+	public List<SearchResult> search(String indexName, float[] vector, String fieldName, double threshold, int k, Optional<Map<String, String>> filters, List<UUID> candidateIds) throws IOException {
 
 		List<Float> queryVector = new ArrayList<>(vector.length);
 		for (float v : vector) {
@@ -118,12 +119,16 @@ public class ESIndexStore {
 
 		SearchRequest.Builder searchRequestBuilder = new SearchRequest.Builder()
             .index(indexName)
-            .knn(knn -> knn
-                .field(fieldName)
-                .queryVector(queryVector)
-                .k(k)
-                .numCandidates(50)
-            )
+            .knn(knn -> {
+                knn.field(fieldName)
+                    .queryVector(queryVector)
+                    .k(k)
+                    .numCandidates(50);
+                if (candidateIds != null && !candidateIds.isEmpty()) {
+                    knn.filter(f -> f.ids(i -> i.values(candidateIds.stream().map(UUID::toString).collect(Collectors.toList()))));
+                }
+                return knn;
+            })
             .minScore(threshold); // Filter by score
 
         filters.ifPresent(f -> {
