@@ -1,59 +1,90 @@
 package gcs.app;
 
+import gcs.app.adapters.PgMemberAdapter;
 import gcs.app.clustering.BlockingRandomProjector;
-import gcs.app.clustering.ESClusteringService;
 import gcs.app.esvector.ESIndexStore;
 import gcs.app.pgvector.InstanceCluster;
+import gcs.core.IngestService;
 import gcs.app.pgvector.InstanceClusterMember;
 import gcs.app.pgvector.WorkCluster;
 import gcs.app.pgvector.WorkClusterMember;
-import gcs.app.pgvector.storage.PGVectorStore;
+import gcs.app.pgvector.storage.InstanceClusterMemberRepository;
+import gcs.app.pgvector.storage.WorkClusterMemberRepository;
 import gcs.core.EmbeddingService;
-import gcs.core.IngestService;
 import gcs.core.InputRecord;
+import gcs.core.assignment.AnchorPort;
+import gcs.core.assignment.Assignment;
+import gcs.core.assignment.AssignmentService;
 import gcs.core.canonicalization.Canonicalizer;
 import gcs.core.classification.Classifier;
-import jakarta.inject.Named;
+import gcs.core.synthesis.Synthesizer;
 import jakarta.inject.Singleton;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import jakarta.transaction.Transactional;
+import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.HashMap;
-import java.util.Optional;
 import java.util.UUID;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import lombok.extern.slf4j.Slf4j;
-import jakarta.transaction.Transactional;
-
+/**
+ * The primary service for processing and clustering incoming records.
+ * This service acts as the main entry point for the ingestion pipeline.
+ *
+ * <h2>Orchestration Roadmap:</h2>
+ * <ol>
+ *   <li><b>Classification:</b> The incoming {@link InputRecord} is first passed to the {@link Classifier} to determine its {@code WorkType} and {@code InstanceClassification}.</li>
+ *   <li><b>Assignment:</b> The classified record is then sent to the {@link AssignmentService} for both "work" and "instance" representations. The {@code AssignmentService} decides whether the record should join an existing cluster or create a new one.</li>
+ *   <li><b>Handling the Assignment:</b>
+ *     <ul>
+ *       <li>If a record **joins** an existing cluster, its membership is persisted, the cluster's synthetic anchor is re-calculated using the {@link Synthesizer}, and the updated anchor is saved via the {@link AnchorPort} and upserted to Elasticsearch.</li>
+ *       <li>If a record **creates** a new cluster, the new cluster and its first member are persisted, and the new anchor is indexed in Elasticsearch.</li>
+ *     </ul>
+ *   </li>
+ *   <li><b>Result:</b> The service returns the final, versioned {@code InputRecord}.</li>
+ * </ol>
+ */
 @Slf4j
 @Singleton
 public class DefaultIngestService implements IngestService {
-    private static final double WORK_THRESHOLD = 0.9;
-    private static final double INSTANCE_THRESHOLD = 0.95;
 
+    private final Classifier classifier;
+    private final AssignmentService assignmentService;
+    private final PgMemberAdapter memberAdapter;
+    private final Synthesizer synthesizer;
+    private final AnchorPort anchorPort;
+    private final ESIndexStore esIndexStore;
+    private final WorkClusterMemberRepository workClusterMemberRepository;
+    private final InstanceClusterMemberRepository instanceClusterMemberRepository;
     private final EmbeddingService embeddingService;
     private final Map<String, Canonicalizer> canonicalizers;
     private final Canonicalizer defaultCanonicalizer;
-    private final Classifier classifier;
     private final BlockingRandomProjector projector;
-    private final ESClusteringService clusteringService;
-    private final PGVectorStore pgVectorStore;
-    private final ESIndexStore esIndexStore;
 
     public DefaultIngestService(
-        @Named("openai") EmbeddingService embeddingService,
-        List<Canonicalizer> canonicalizerList,
         Classifier classifier,
-        BlockingRandomProjector projector,
-        ESClusteringService clusteringService,
-        @Named("pgvector") PGVectorStore pgVectorStore,
-        @Named("es") ESIndexStore esIndexStore
+        AssignmentService assignmentService,
+        PgMemberAdapter memberAdapter,
+        Synthesizer synthesizer,
+        AnchorPort anchorPort,
+        ESIndexStore esIndexStore,
+        WorkClusterMemberRepository workClusterMemberRepository,
+        InstanceClusterMemberRepository instanceClusterMemberRepository,
+        EmbeddingService embeddingService,
+        List<Canonicalizer> canonicalizerList,
+        BlockingRandomProjector projector
     ) {
+        this.classifier = classifier;
+        this.assignmentService = assignmentService;
+        this.memberAdapter = memberAdapter;
+        this.synthesizer = synthesizer;
+        this.anchorPort = anchorPort;
+        this.esIndexStore = esIndexStore;
+        this.workClusterMemberRepository = workClusterMemberRepository;
+        this.instanceClusterMemberRepository = instanceClusterMemberRepository;
         this.embeddingService = embeddingService;
         this.canonicalizers = canonicalizerList.stream()
             .filter(c -> c.forContentType() != null)
@@ -62,15 +93,11 @@ public class DefaultIngestService implements IngestService {
             .filter(c -> c.forContentType() == null)
             .findFirst()
             .orElseThrow(() -> new IllegalStateException("No default canonicalizer found"));
-        this.classifier = classifier;
         this.projector = projector;
-        this.clusteringService = clusteringService;
-        this.pgVectorStore = pgVectorStore;
-        this.esIndexStore = esIndexStore;
     }
 
     @Override
-		@Transactional
+    @Transactional
     public InputRecord ingest(InputRecord record) {
         var classification = classifier.classify(record);
         log.info("Classified record {} as {} with explanation: {}", record.id(), classification.workType(), classification);
@@ -99,113 +126,72 @@ public class DefaultIngestService implements IngestService {
             classification.classifierVersion()
         );
 
-        var contentType = classification.instanceClassification().contentType().toString();
-        var canonicalizer = canonicalizers.getOrDefault(contentType, defaultCanonicalizer);
-        log.info("Using canonicalizer {} for content type {}", canonicalizer.getClass().getSimpleName(), contentType);
-
-        processCluster(versionedRecord, canonicalizer, "work", Canonicalizer.Intent.WORK, WORK_THRESHOLD);
-        processCluster(versionedRecord, canonicalizer, "instance", Canonicalizer.Intent.INSTANCE, INSTANCE_THRESHOLD);
+        handleAssignment(assignmentService.assign(versionedRecord, "work"), "work", versionedRecord);
+        handleAssignment(assignmentService.assign(versionedRecord, "instance"), "instance", versionedRecord);
 
         return versionedRecord;
     }
 
-	private void processCluster(InputRecord record, Canonicalizer canonicalizer, String clusterType, Canonicalizer.Intent intent, double threshold) {
+    /**
+     * Acts on the decision from the {@link AssignmentService}.
+     *
+     * @param assignment The assignment decision.
+     * @param representation The representation type ("work" or "instance").
+     * @param record The record that was processed.
+     */
+    private void handleAssignment(Assignment assignment, String representation, InputRecord record) {
+        if (assignment.getDecision() == Assignment.Decision.JOINED) {
+            // If the record joined an existing cluster:
+            // 1. Persist the new membership link.
+            addMemberToCluster(assignment.getClusterId(), record.id(), representation);
+            // 2. Re-calculate the synthetic anchor with the new member.
+            List<InputRecord> members = memberAdapter.getMembers(assignment.getClusterId());
+            InputRecord newAnchor = synthesizer.synthesize(members);
+            // 3. Update the anchor in the database.
+            anchorPort.updateAnchor(assignment.getClusterId(), newAnchor);
+            // 4. Upsert the updated anchor to Elasticsearch.
+            upsertAnchorToEs(assignment.getClusterId(), newAnchor, representation);
+        } else {
+            // If a new cluster was created:
+            // 1. Persist the new membership link.
+            addMemberToCluster(assignment.getClusterId(), record.id(), representation);
+            // 2. Upsert the new anchor to Elasticsearch.
+            upsertAnchorToEs(assignment.getClusterId(), assignment.getClusterAnchor(), representation);
+        }
+    }
 
-		log.info("processCluster(....)");
+    private void addMemberToCluster(UUID clusterId, String recordId, String representation) {
+        if ("work".equals(representation)) {
+            WorkClusterMember member = new WorkClusterMember();
+            member.setId(UUID.randomUUID());
+            member.setWorkCluster(WorkCluster.builder().id(clusterId).build());
+            member.setRecordId(recordId);
+            workClusterMemberRepository.save(member);
+        } else {
+            InstanceClusterMember member = new InstanceClusterMember();
+            member.setId(UUID.randomUUID());
+            member.setInstanceCluster(InstanceCluster.builder().id(clusterId).build());
+            member.setRecordId(recordId);
+            instanceClusterMemberRepository.save(member);
+        }
+    }
 
-		String summary = canonicalizer.summarize(record, intent);
-		float[] embedding = embeddingService.embed(summary);
-		float[] blockingEmbedding = projector.project(embedding);
-		String indexName = clusterType + "_index";
+    private void upsertAnchorToEs(UUID clusterId, InputRecord anchor, String representation) {
+        String indexName = "anchors-" + representation;
+        var canonicalizer = canonicalizers.getOrDefault(anchor.physical().contentType(), defaultCanonicalizer);
+        String summary = canonicalizer.summarize(anchor, "work".equals(representation) ? Canonicalizer.Intent.WORK : Canonicalizer.Intent.INSTANCE);
+        float[] embedding = embeddingService.embed(summary);
+        float[] blockingEmbedding = projector.project(embedding);
 
-		try {
-			esIndexStore.getOrCreate(indexName);
-
-			log.info("clusteringService.findClosestMatch.... indexName:{}",indexName);
-
-			Optional<ESIndexStore.SearchResult> closestMatch = clusteringService.findClosestMatch(indexName, blockingEmbedding, "blocking", threshold);
-			
-			log.info("Result of findClosestMatch = {}",closestMatch);
-
-			if (closestMatch.isPresent() && closestMatch.get().score() >= threshold) {
-				// Add to existing cluster
-				UUID clusterId = UUID.fromString(closestMatch.get().id());
-				log.info("Attempt to save {}", clusterId);
-				saveClusterMember(clusterType, clusterId, embedding, blockingEmbedding, indexName);
-			} else {
-				// Create new cluster
-				log.info("Create new cluster");
-				UUID newClusterId = createNewCluster(clusterType);
-				saveClusterMember(clusterType, newClusterId, embedding, blockingEmbedding, indexName);
-			}
-		} catch (IOException e) {
-			throw new RuntimeException(e);
-		}
-	}
-
-	private void saveClusterMember(String clusterType, UUID clusterId, float[] embedding, float[] blockingEmbedding, String indexName) throws IOException {
-
-		log.info("saveClusterMember({},{}....)",clusterType,clusterId);
-
-		if ("work".equals(clusterType)) {
-			// Store DB System of record
-			WorkClusterMember member = new WorkClusterMember();
-			member.setId(generateUUIDForMember());
-			member.setWorkCluster(WorkCluster.builder().id(clusterId).build());
-			member.setEmbeddingArr(embedding);
-			member.setBlockingArr(blockingEmbedding);
-			pgVectorStore.saveWorkClusterMember(member);
-
-			// Store ES Representation
-			Map<String,Object> rec = new HashMap<String,Object>();
-			rec.put("id",member.getId());
-			rec.put("clusterId",clusterId);
-			rec.put("blocking",blockingEmbedding);
-			rec.put("embedding",embedding);
-			esIndexStore.store(indexName, rec);
-		} else {
-			// Store DB System of record
-			InstanceClusterMember member = new InstanceClusterMember();
-			member.setId(generateUUIDForMember());
-			member.setInstanceCluster(InstanceCluster.builder().id(clusterId).build());
-			member.setEmbeddingArr(embedding);
-			member.setBlockingArr(blockingEmbedding);
-			pgVectorStore.saveInstanceClusterMember(member);
-
-			// Store ES Representation
-			Map<String,Object> rec = new HashMap<String,Object>();
-			rec.put("id",member.getId());
-			rec.put("clusterId",clusterId);
-			rec.put("blocking",blockingEmbedding);
-			rec.put("embedding",embedding);
-			esIndexStore.store(indexName, rec);
-		}
-	}
-
-	private UUID generateUUIDForMember() {
-		return java.util.UUID.randomUUID();
-	}
-
-	private UUID createNewCluster(String clusterType) {
-
-		log.info("Create new cluster of type {}",clusterType);
-
-		if ("work".equals(clusterType)) {
-			WorkCluster wc = WorkCluster.builder()
-				.id(java.util.UUID.randomUUID())
-				.status("new")
-				.label("new")
-				.build();
-			log.info("Saving work cluster {} {}",wc,wc.getId());
-			return pgVectorStore.saveWorkCluster(wc).getId();
-		} else {
-			InstanceCluster ic = InstanceCluster.builder()
-				.id(java.util.UUID.randomUUID())
-				.status("new")
-				.label("new")
-				.build();
-			log.info("Saving instance cluster {} {}",ic,ic.getId());
-			return pgVectorStore.saveInstanceCluster(ic).getId();
-		}
-	}
+        Map<String, Object> esRecord = new HashMap<>();
+        esRecord.put("clusterId", clusterId.toString());
+        esRecord.put("representation", representation);
+        esRecord.put("embedding", embedding);
+        esRecord.put("blocking", blockingEmbedding);
+        try {
+            esIndexStore.store(indexName, esRecord);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }

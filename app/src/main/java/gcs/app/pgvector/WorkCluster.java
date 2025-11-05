@@ -1,6 +1,10 @@
 package gcs.app.pgvector;
 
+import com.pgvector.PGvector;
+import gcs.core.InputRecord;
+import gcs.core.lineage.Lineage;
 import io.micronaut.data.annotation.*;
+import io.micronaut.data.model.DataType;
 
 import java.util.UUID;
 import lombok.*;
@@ -33,4 +37,14 @@ public class WorkCluster {
     private String status;
 
     private String label;
+
+    @TypeDef(type = DataType.JSON)
+    private InputRecord syntheticAnchor;
+
+    private PGvector centroid;
+
+    private String contentFingerprint;
+
+    @TypeDef(type = DataType.JSON)
+    private Lineage lineage;
 }

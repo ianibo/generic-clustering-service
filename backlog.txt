@@ -1,0 +1,6 @@
+# GCS Backlog
+
+## Improvements and Future Work
+
+- **Pre-filter k-NN search in Elasticsearch:**
+  The `DefaultAssignmentService` should build a filter map from the `InstanceClassification` properties (e.g., `contentType`, `mediaType`) and pass it to the `CandidatePort`. The `EsCandidateAdapter` should then use this map to construct a filtered k-NN query. This will make the candidate search more efficient and accurate by ensuring only relevant anchors are considered for a vector similarity search, rather than relying on post-search scoring penalties.
