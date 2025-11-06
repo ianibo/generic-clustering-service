@@ -76,7 +76,7 @@ public class DefaultAssignmentService implements AssignmentService {
     }
 
     @Override
-    public Assignment assign(InputRecord record, String representation, float[] embedding) {
+    public Assignment assign(InputRecord record, String representation, float[] embedding, String summary) {
         List<CandidatePort.Candidate> candidates = candidatePort.findCandidates(embedding, representation, 10, Optional.empty());
 
         CandidatePort.Candidate bestCandidate = null;
@@ -100,9 +100,10 @@ public class DefaultAssignmentService implements AssignmentService {
                 .scoreBreakdown(bestScore)
                 .build();
         } else {
+            String label = (summary != null && summary.length() > 256) ? summary.substring(0, 256) : summary;
             return Assignment.builder()
                 .decision(Assignment.Decision.CREATED)
-                .clusterId(anchorPort.createCluster(record, representation))
+                .clusterId(anchorPort.createCluster(record, representation, label))
                 .clusterAnchor(record)
                 .scoreBreakdown(null)
                 .build();

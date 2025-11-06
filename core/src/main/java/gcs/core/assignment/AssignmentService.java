@@ -15,7 +15,8 @@ public interface AssignmentService {
      * @param record The input record to assign.
      * @param representation The representation of the record (e.g., "WORK", "INSTANCE").
      * @param embedding The pre-computed embedding of the record.
+     * @param summary The pre-computed summary of the record.
      * @return An Assignment object describing the result of the operation.
      */
-    Assignment assign(InputRecord record, String representation, float[] embedding);
+    Assignment assign(InputRecord record, String representation, float[] embedding, String summary);
 }
