@@ -196,6 +196,7 @@ public class DefaultIngestService implements IngestService {
             member.setWorkCluster(workCluster);
             member.setRecordId(record.id());
             member.setBlocking(new PGvector(blocking));
+            member.setEmbedding(new PGvector(embedding));
             workClusterMemberRepository.save(member);
         } else {
             InstanceCluster instanceCluster = instanceClusterRepository.findById(clusterId).orElseThrow(() -> new IllegalArgumentException("InstanceCluster not found: " + clusterId));
@@ -204,6 +205,7 @@ public class DefaultIngestService implements IngestService {
             member.setInstanceCluster(instanceCluster);
             member.setRecordId(record.id());
             member.setBlocking(new PGvector(blocking));
+            member.setEmbedding(new PGvector(embedding));
             instanceClusterMemberRepository.save(member);
         }
         centroidService.updateCentroid(clusterId, representation, new com.pgvector.PGvector(embedding));
