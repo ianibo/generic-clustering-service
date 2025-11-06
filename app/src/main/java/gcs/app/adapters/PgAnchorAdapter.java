@@ -35,18 +35,20 @@ public class PgAnchorAdapter implements AnchorPort {
     }
 
     @Override
-    public UUID createCluster(InputRecord anchor, String representation) {
+    public UUID createCluster(InputRecord anchor, String representation, String label) {
         if ("work".equals(representation)) {
             WorkCluster cluster = new WorkCluster();
             cluster.setId(UUID.randomUUID());
-						cluster.setStatus("NEW");
+            cluster.setStatus("NEW");
             cluster.setSyntheticAnchor(anchor);
+            cluster.setLabel(label);
             return workClusterRepository.save(cluster).getId();
         } else {
             InstanceCluster cluster = new InstanceCluster();
             cluster.setId(UUID.randomUUID());
             cluster.setSyntheticAnchor(anchor);
-						cluster.setStatus("NEW");
+            cluster.setStatus("NEW");
+            cluster.setLabel(label);
             return instanceClusterRepository.save(cluster).getId();
         }
     }

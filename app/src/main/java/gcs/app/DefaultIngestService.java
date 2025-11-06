@@ -161,8 +161,8 @@ public class DefaultIngestService implements IngestService {
         float[] instanceEmbedding = embeddingService.embed(instanceSummary);
         float[] instanceBlocking = projector.project(instanceEmbedding);
 
-        handleAssignment(assignmentService.assign(versionedRecord, "work", workEmbedding), "work", versionedRecord, workEmbedding, workBlocking);
-        handleAssignment(assignmentService.assign(versionedRecord, "instance", instanceEmbedding), "instance", versionedRecord, instanceEmbedding, instanceBlocking);
+        handleAssignment(assignmentService.assign(versionedRecord, "work", workEmbedding, workSummary), "work", versionedRecord, workEmbedding, workBlocking);
+        handleAssignment(assignmentService.assign(versionedRecord, "instance", instanceEmbedding, instanceSummary), "instance", versionedRecord, instanceEmbedding, instanceBlocking);
 
         return versionedRecord;
     }
