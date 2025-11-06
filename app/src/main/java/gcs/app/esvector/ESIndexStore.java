@@ -88,17 +88,11 @@ public class ESIndexStore {
      */
     public void store(String indexName, Map<String,Object> esrec) throws IOException {
 
-        log.info("Storing record in index {}: {}", indexName, esrec);
-
-        Object clusterIdObj = esrec.get("clusterId");
-        if (clusterIdObj == null) {
-            throw new IllegalArgumentException("The 'clusterId' key is missing or null in the record map.");
-        }
-        String clusterId = clusterIdObj.toString();
+			log.info("Store Work Cluster Member({},{})",indexName,esrec);
 
         IndexRequest<Map<String,Object>> request = IndexRequest.of(i -> i
             .index(indexName)
-            .id(clusterId)
+            .id(esrec.get("id").toString())
             .document(esrec)
         );
         esClient.index(request);
