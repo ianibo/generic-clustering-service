@@ -240,7 +240,7 @@ public class DefaultIngestService implements IngestService {
         }
 
         Map<String, Object> esRecord = new HashMap<>();
-        esRecord.put("clusterId", clusterId.toString());
+        esRecord.put("id", clusterId.toString());
         esRecord.put("representation", representation);
         esRecord.put("embedding", embeddingList);
         esRecord.put("blocking", blockingList);
