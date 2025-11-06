@@ -71,6 +71,8 @@ public class DefaultIngestService implements IngestService {
     private final Canonicalizer defaultCanonicalizer;
     private final BlockingRandomProjector projector;
     private final CentroidService centroidService;
+    private final InputRecordRepository inputRecordRepository;
+
 
     public DefaultIngestService(
         Classifier classifier,
@@ -86,7 +88,8 @@ public class DefaultIngestService implements IngestService {
         @Named("openai") EmbeddingService embeddingService,
         List<Canonicalizer> canonicalizerList,
         BlockingRandomProjector projector,
-        CentroidService centroidService
+        CentroidService centroidService,
+        InputRecordRepository inputRecordRepository
     ) {
         this.classifier = classifier;
         this.assignmentService = assignmentService;
@@ -108,6 +111,7 @@ public class DefaultIngestService implements IngestService {
             .orElseThrow(() -> new IllegalStateException("No default canonicalizer found"));
         this.projector = projector;
         this.centroidService = centroidService;
+        this.inputRecordRepository = inputRecordRepository;
     }
 
     @Override
@@ -139,6 +143,12 @@ public class DefaultIngestService implements IngestService {
             record.ext(),
             classification.classifierVersion()
         );
+
+        var entity = new InputRecordEntity();
+        entity.setId(versionedRecord.id());
+        entity.setRecord(versionedRecord);
+        entity.setProcessingStatus(ProcessingStatus.PENDING);
+        inputRecordRepository.save(entity);
 
         var workCanonicalizer = canonicalizers.getOrDefault(versionedRecord.physical().contentType(), defaultCanonicalizer);
         String workSummary = workCanonicalizer.summarize(versionedRecord, Canonicalizer.Intent.WORK);
