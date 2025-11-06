@@ -46,7 +46,7 @@ public class DefaultConsolidationService implements ConsolidationService {
 
         // This is a simplified representation. In a real implementation, you would
         // also need to handle lineage, update the vector index, etc.
-        return anchorPort.createCluster(newAnchor, "work", "Consolidated Cluster"); // Assuming "work" for simplicity
+        return anchorPort.createCluster(newAnchor, "work", "Consolidated Cluster", new float[1536]); // Assuming "work" for simplicity
     }
 
     @Override
@@ -65,7 +65,7 @@ public class DefaultConsolidationService implements ConsolidationService {
 
         // This is a simplified representation. In a real implementation, you would
         // also need to handle lineage, update the vector index, etc.
-        anchorPort.createCluster(newAnchor1, "work", "Split Cluster 1"); // Assuming "work" for simplicity
-        anchorPort.createCluster(newAnchor2, "work", "Split Cluster 2"); // Assuming "work" for simplicity
+        anchorPort.createCluster(newAnchor1, "work", "Split Cluster 1", new float[1536]); // Assuming "work" for simplicity
+        anchorPort.createCluster(newAnchor2, "work", "Split Cluster 2", new float[1536]); // Assuming "work" for simplicity
     }
 }
