@@ -30,7 +30,7 @@ import java.util.HashMap;
 @NoArgsConstructor
 @Accessors(chain = true)
 @ToString(onlyExplicitlyIncluded = false)
-@MappedEntity(value = "mt_tenant_info")
+@MappedEntity(value = "input_record")
 @Serdeable
 public class InputRecordEntity {
     @Id
