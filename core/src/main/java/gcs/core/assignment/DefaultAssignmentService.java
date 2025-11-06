@@ -103,7 +103,7 @@ public class DefaultAssignmentService implements AssignmentService {
             String label = (summary != null && summary.length() > 256) ? summary.substring(0, 256) : summary;
             return Assignment.builder()
                 .decision(Assignment.Decision.CREATED)
-                .clusterId(anchorPort.createCluster(record, representation, label))
+                .clusterId(anchorPort.createCluster(record, representation, label, embedding))
                 .clusterAnchor(record)
                 .scoreBreakdown(null)
                 .build();

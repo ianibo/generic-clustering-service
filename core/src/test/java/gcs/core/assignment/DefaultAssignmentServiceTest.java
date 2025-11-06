@@ -86,7 +86,7 @@ class DefaultAssignmentServiceTest {
         UUID newClusterId = UUID.randomUUID();
 
         when(candidatePort.findCandidates(any(), anyString(), anyInt(), any())).thenReturn(Collections.emptyList());
-        when(anchorPort.createCluster(record, "work", "summary")).thenReturn(newClusterId);
+        when(anchorPort.createCluster(record, "work", "summary", new float[0])).thenReturn(newClusterId);
 
         Assignment assignment = assignmentService.assign(record, "work", new float[0], "summary");
 
