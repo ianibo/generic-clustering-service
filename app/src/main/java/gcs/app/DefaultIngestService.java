@@ -28,6 +28,7 @@ import lombok.extern.slf4j.Slf4j;
 import com.pgvector.PGvector;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -228,11 +229,21 @@ public class DefaultIngestService implements IngestService {
         float[] embedding = embeddingService.embed(summary);
         float[] blockingEmbedding = projector.project(embedding);
 
+        // Convert float arrays to List<Float> for Elasticsearch
+        List<Float> embeddingList = new ArrayList<>();
+        for (float f : embedding) {
+            embeddingList.add(f);
+        }
+        List<Float> blockingList = new ArrayList<>();
+        for (float f : blockingEmbedding) {
+            blockingList.add(f);
+        }
+
         Map<String, Object> esRecord = new HashMap<>();
         esRecord.put("clusterId", clusterId.toString());
         esRecord.put("representation", representation);
-        esRecord.put("embedding", embedding);
-        esRecord.put("blocking", blockingEmbedding);
+        esRecord.put("embedding", embeddingList);
+        esRecord.put("blocking", blockingList);
         try {
             esIndexStore.store(indexName, esRecord);
         } catch (IOException e) {
