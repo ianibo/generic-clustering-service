@@ -29,31 +29,31 @@ public class DefaultCentroidService implements CentroidService {
     public void updateCentroid(UUID clusterId, String representation, PGvector memberEmbedding) {
         if ("work".equals(representation)) {
             workClusterRepository.findById(clusterId).ifPresent(cluster -> {
-                updateClusterCentroid(cluster, memberEmbedding, workClusterMemberRepository.countByWorkClusterId(clusterId));
+                updateClusterCentroid(cluster, memberEmbedding);
                 workClusterRepository.update(cluster);
             });
         } else {
             instanceClusterRepository.findById(clusterId).ifPresent(cluster -> {
-                updateClusterCentroid(cluster, memberEmbedding, instanceClusterMemberRepository.countByInstanceClusterId(clusterId));
+                updateClusterCentroid(cluster, memberEmbedding);
                 instanceClusterRepository.update(cluster);
             });
         }
     }
 
-    private <T extends gcs.app.pgvector.Cluster> void updateClusterCentroid(T cluster, PGvector memberEmbedding, long memberCount) {
+    private <T extends gcs.app.pgvector.Cluster> void updateClusterCentroid(T cluster, PGvector memberEmbedding) {
         PGvector currentCentroid = cluster.getCentroid();
-        if (currentCentroid == null) {
-            cluster.setCentroid(memberEmbedding);
-        } else {
-            // Simple incremental update
-            float[] currentCentroidArray = currentCentroid.toArray();
-            float[] memberEmbeddingArray = memberEmbedding.toArray();
-            int dimension = currentCentroidArray.length;
-            float[] newCentroid = new float[dimension];
-            for (int i = 0; i < dimension; i++) {
-                newCentroid[i] = (currentCentroidArray[i] * (memberCount - 1) + memberEmbeddingArray[i]) / memberCount;
-            }
-            cluster.setCentroid(new PGvector(newCentroid));
+        int memberCount = cluster.getMemberCount();
+
+        float[] currentCentroidArray = currentCentroid.toArray();
+        float[] memberEmbeddingArray = memberEmbedding.toArray();
+        int dimension = currentCentroidArray.length;
+        float[] newCentroid = new float[dimension];
+
+        for (int i = 0; i < dimension; i++) {
+            newCentroid[i] = (currentCentroidArray[i] * memberCount + memberEmbeddingArray[i]) / (memberCount + 1);
         }
+
+        cluster.setCentroid(new PGvector(newCentroid));
+        cluster.setMemberCount(memberCount + 1);
     }
 }
