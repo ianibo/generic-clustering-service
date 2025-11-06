@@ -62,7 +62,7 @@ class DefaultIngestServiceTest {
 
     @BeforeEach
     void setUp() {
-        when(classifier.classify(any())).thenReturn(ClassificationResult.builder().build());
+        when(classifier.classify(any())).thenReturn(new ClassificationResult(null, null, null, null, 0.0, 0));
         when(assignmentService.assign(any(), any(), any())).thenReturn(Assignment.builder().decision(Assignment.Decision.CREATED).clusterId(UUID.randomUUID()).build());
     }
 
