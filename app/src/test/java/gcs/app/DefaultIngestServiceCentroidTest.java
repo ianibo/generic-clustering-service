@@ -55,7 +55,8 @@ class DefaultIngestServiceCentroidTest {
             mock(gcs.core.EmbeddingService.class),
             java.util.List.of(mock(gcs.core.canonicalization.Canonicalizer.class)),
             mock(gcs.app.clustering.BlockingRandomProjector.class),
-            centroidService
+            centroidService,
+            mock(InputRecordRepository.class)
         );
     }
 
