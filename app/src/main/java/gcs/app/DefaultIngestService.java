@@ -25,6 +25,7 @@ import jakarta.inject.Singleton;
 import jakarta.inject.Named;
 import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
+import com.pgvector.PGvector;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -142,13 +143,15 @@ public class DefaultIngestService implements IngestService {
         var workCanonicalizer = canonicalizers.getOrDefault(versionedRecord.physical().contentType(), defaultCanonicalizer);
         String workSummary = workCanonicalizer.summarize(versionedRecord, Canonicalizer.Intent.WORK);
         float[] workEmbedding = embeddingService.embed(workSummary);
+        float[] workBlocking = projector.project(workEmbedding);
 
         var instanceCanonicalizer = canonicalizers.getOrDefault(versionedRecord.physical().contentType(), defaultCanonicalizer);
         String instanceSummary = instanceCanonicalizer.summarize(versionedRecord, Canonicalizer.Intent.INSTANCE);
         float[] instanceEmbedding = embeddingService.embed(instanceSummary);
+        float[] instanceBlocking = projector.project(instanceEmbedding);
 
-        handleAssignment(assignmentService.assign(versionedRecord, "work", workEmbedding), "work", versionedRecord, workEmbedding);
-        handleAssignment(assignmentService.assign(versionedRecord, "instance", instanceEmbedding), "instance", versionedRecord, instanceEmbedding);
+        handleAssignment(assignmentService.assign(versionedRecord, "work", workEmbedding), "work", versionedRecord, workEmbedding, workBlocking);
+        handleAssignment(assignmentService.assign(versionedRecord, "instance", instanceEmbedding), "instance", versionedRecord, instanceEmbedding, instanceBlocking);
 
         return versionedRecord;
     }
@@ -160,11 +163,11 @@ public class DefaultIngestService implements IngestService {
      * @param representation The representation type ("work" or "instance").
      * @param record The record that was processed.
      */
-    private void handleAssignment(Assignment assignment, String representation, InputRecord record, float[] embedding) {
+    private void handleAssignment(Assignment assignment, String representation, InputRecord record, float[] embedding, float[] blocking) {
         if (assignment.getDecision() == Assignment.Decision.JOINED) {
             // If the record joined an existing cluster:
             // 1. Persist the new membership link.
-            addMemberToCluster(assignment.getClusterId(), record, representation, embedding);
+            addMemberToCluster(assignment.getClusterId(), record, representation, embedding, blocking);
             // 2. Re-calculate the synthetic anchor with the new member.
             List<InputRecord> members = memberAdapter.getMembers(assignment.getClusterId());
             InputRecord newAnchor = synthesizer.synthesize(members);
@@ -179,19 +182,20 @@ public class DefaultIngestService implements IngestService {
         } else {
             // If a new cluster was created:
             // 1. Persist the new membership link.
-            addMemberToCluster(assignment.getClusterId(), record, representation, embedding);
+            addMemberToCluster(assignment.getClusterId(), record, representation, embedding, blocking);
             // 2. Upsert the new anchor to Elasticsearch.
             upsertAnchorToEs(assignment.getClusterId(), assignment.getClusterAnchor(), representation);
         }
     }
 
-    private void addMemberToCluster(UUID clusterId, InputRecord record, String representation, float[] embedding) {
+    private void addMemberToCluster(UUID clusterId, InputRecord record, String representation, float[] embedding, float[] blocking) {
         if ("work".equals(representation)) {
             WorkCluster workCluster = workClusterRepository.findById(clusterId).orElseThrow(() -> new IllegalArgumentException("WorkCluster not found: " + clusterId));
             WorkClusterMember member = new WorkClusterMember();
             member.setId(UUID.randomUUID());
             member.setWorkCluster(workCluster);
             member.setRecordId(record.id());
+            member.setBlocking(new PGvector(blocking));
             workClusterMemberRepository.save(member);
         } else {
             InstanceCluster instanceCluster = instanceClusterRepository.findById(clusterId).orElseThrow(() -> new IllegalArgumentException("InstanceCluster not found: " + clusterId));
@@ -199,6 +203,7 @@ public class DefaultIngestService implements IngestService {
             member.setId(UUID.randomUUID());
             member.setInstanceCluster(instanceCluster);
             member.setRecordId(record.id());
+            member.setBlocking(new PGvector(blocking));
             instanceClusterMemberRepository.save(member);
         }
         centroidService.updateCentroid(clusterId, representation, new com.pgvector.PGvector(embedding));

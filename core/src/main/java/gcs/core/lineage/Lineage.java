@@ -4,6 +4,7 @@ import io.micronaut.serde.annotation.Serdeable;
 import lombok.Builder;
 import lombok.Data;
 import lombok.extern.jackson.Jacksonized;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
@@ -28,7 +29,8 @@ public class Lineage {
     private final String synth;
 
     /** A list of recent lineage edges. */
-    private final List<Edge> recentHistory;
+    @Builder.Default
+    private final List<Edge> recentHistory = new ArrayList<>();
 
     public enum Status {
         /** The cluster is current and has not been merged or split. */
