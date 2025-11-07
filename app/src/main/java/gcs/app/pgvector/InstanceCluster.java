@@ -6,6 +6,7 @@ import gcs.core.lineage.Lineage;
 import io.micronaut.data.annotation.*;
 import io.micronaut.data.model.DataType;
 import io.micronaut.data.annotation.MappedProperty;
+import io.micronaut.core.annotation.Nullable;
 
 import java.util.UUID;
 import lombok.*;
@@ -23,31 +24,34 @@ import java.util.HashMap;
 @MappedEntity("instance_cluster")
 public class InstanceCluster implements Cluster {
 
-    @Id
-    private UUID id;
+	@Id
+	private UUID id;
 
-    @DateCreated
-    private Instant dateCreated;
+	@DateCreated
+	private Instant dateCreated;
 
-    @DateUpdated
-    private Instant dateModified;
+	@DateUpdated
+	private Instant dateModified;
 
-    private String status;
+	@Nullable
+	private String status;
 
-    private String label;
+	@Nullable
+	private String label;
 
-    @TypeDef(type = DataType.JSON)
-    private InputRecord syntheticAnchor;
+	@TypeDef(type = DataType.JSON)
+	private InputRecord syntheticAnchor;
 
-    @Getter(onMethod_ = @TypeDef(type = DataType.OBJECT, converter = PGvectorAttributeConverter.class))
-    @Setter(onMethod_ = @TypeDef(type = DataType.OBJECT, converter = PGvectorAttributeConverter.class))
-    @MappedProperty(value = "centroid", definition = "VECTOR(1536)")
-    private PGvector centroid;
+	@Getter(onMethod_ = @TypeDef(type = DataType.OBJECT, converter = PGvectorAttributeConverter.class))
+	@Setter(onMethod_ = @TypeDef(type = DataType.OBJECT, converter = PGvectorAttributeConverter.class))
+	@MappedProperty(value = "centroid", definition = "VECTOR(1536)")
+	private PGvector centroid;
 
-    private String contentFingerprint;
+	@Nullable
+	private String contentFingerprint;
 
-    @TypeDef(type = DataType.JSON)
-    private Lineage lineage;
+	@TypeDef(type = DataType.JSON)
+	private Lineage lineage;
 
-    private int memberCount;
+	private int memberCount;
 }
