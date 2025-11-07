@@ -8,7 +8,6 @@ import gcs.core.InputRecord;
 import gcs.core.consolidation.MemberPort;
 import jakarta.inject.Singleton;
 import java.util.List;
-import java.util.UUID;
 import java.util.stream.Collectors;
 
 /**
@@ -32,7 +31,7 @@ public class PgMemberAdapter implements MemberPort {
     }
 
     @Override
-    public List<InputRecord> getMembers(UUID clusterId) {
+    public List<InputRecord> getMembers(String clusterId) {
         List<String> recordIds;
         if (workClusterMemberRepository.existsByWorkClusterId(clusterId)) {
             recordIds = workClusterMemberRepository.findByWorkClusterId(clusterId).stream()

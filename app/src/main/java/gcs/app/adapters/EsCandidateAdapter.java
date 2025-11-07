@@ -12,7 +12,6 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.UUID;
 import java.util.stream.Collectors;
 
 /**
@@ -35,14 +34,14 @@ public class EsCandidateAdapter implements CandidatePort {
 
     @Override
     public List<Candidate> findCandidates(float[] embedding, String representation, int k, Optional<Map<String, String>> filters) {
-        List<UUID> candidateIds = findCandidateIds(embedding, representation, k);
+        List<String> candidateIds = findCandidateIds(embedding, representation, k);
         if (candidateIds.isEmpty()) {
             return List.of();
         }
         return searchAnchors(embedding, representation, k, filters, candidateIds);
     }
 
-    private List<UUID> findCandidateIds(float[] embedding, String representation, int k) {
+    private List<String> findCandidateIds(float[] embedding, String representation, int k) {
         if ("work".equals(representation)) {
             return workClusterRepository.findNearestNeighbors(new PGvector(embedding), k).stream()
                 .map(c -> c.getId())
@@ -54,19 +53,19 @@ public class EsCandidateAdapter implements CandidatePort {
         }
     }
 
-    private List<Candidate> searchAnchors(float[] embedding, String representation, int k, Optional<Map<String, String>> filters, List<UUID> candidateIds) {
+    private List<Candidate> searchAnchors(float[] embedding, String representation, int k, Optional<Map<String, String>> filters, List<String> candidateIds) {
         String indexName = "anchors-" + representation;
         try {
             return esIndexStore.search(indexName, embedding, "embedding", 0.0, k, filters, candidateIds).stream()
                 .map(searchResult -> {
-                    Optional<InputRecord> anchor = pgAnchorAdapter.getAnchor(UUID.fromString(searchResult.id()));
+                    Optional<InputRecord> anchor = pgAnchorAdapter.getAnchor(searchResult.id());
                     if (anchor.isEmpty()) {
                         return null;
                     }
                     return new Candidate() {
                         @Override
-                        public UUID getClusterId() {
-                            return UUID.fromString(searchResult.id());
+                        public String getClusterId() {
+                            return searchResult.id();
                         }
 
                         @Override

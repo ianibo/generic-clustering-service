@@ -9,7 +9,7 @@ import java.util.UUID;
 
 @JdbcRepository(dialect = Dialect.POSTGRES)
 public interface WorkClusterMemberRepository extends CrudRepository<WorkClusterMember, UUID> {
-    List<WorkClusterMember> findByWorkClusterId(UUID workClusterId);
-    long countByWorkClusterId(UUID workClusterId);
-    boolean existsByWorkClusterId(UUID workClusterId);
+    List<WorkClusterMember> findByWorkClusterId(String workClusterId);
+    long countByWorkClusterId(String workClusterId);
+    boolean existsByWorkClusterId(String workClusterId);
 }

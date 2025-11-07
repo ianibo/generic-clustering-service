@@ -6,8 +6,6 @@ import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;
 import io.micronaut.http.annotation.PathVariable;
 
-import java.util.UUID;
-
 @Controller("/resolve")
 public class LineageController {
 
@@ -18,7 +16,7 @@ public class LineageController {
     }
 
     @Get("/{cid}")
-    public Lineage resolve(@PathVariable UUID cid) {
+    public Lineage resolve(@PathVariable String cid) {
         return lineageResolver.resolve(cid);
     }
 }

@@ -6,7 +6,6 @@ import io.micronaut.serde.annotation.Serdeable;
 import lombok.Builder;
 import lombok.Data;
 import lombok.extern.jackson.Jacksonized;
-import java.util.UUID;
 
 /**
  * Represents the result of an assignment operation, indicating whether a record
@@ -21,7 +20,7 @@ public class Assignment {
     private final Decision decision;
 
     /** The ID of the cluster to which the record was assigned. */
-    private final UUID clusterId;
+    private final String clusterId;
 
     /** The anchor record of the assigned cluster. */
     private final InputRecord clusterAnchor;

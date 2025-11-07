@@ -7,10 +7,9 @@ import io.micronaut.data.model.query.builder.sql.Dialect;
 import io.micronaut.data.repository.CrudRepository;
 import java.util.List;
 import gcs.app.pgvector.*;
-import java.util.UUID;
 
 @JdbcRepository(dialect = Dialect.POSTGRES)
-public interface WorkClusterRepository extends CrudRepository<WorkCluster, UUID> {
+public interface WorkClusterRepository extends CrudRepository<WorkCluster, String> {
 
 	@Query(value = "SELECT *, 1 - (centroid <=> :embedding) AS score FROM work_cluster ORDER BY centroid <=> :embedding LIMIT :limit", nativeQuery = true)
 	List<WorkClusterWithScore> findNearestNeighbors(PGvector embedding, int limit);

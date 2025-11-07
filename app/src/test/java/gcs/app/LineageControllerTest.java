@@ -1,8 +1,8 @@
 package gcs.app;
 
 import gcs.app.adapters.PgLineageResolver;
+import gcs.core.ids.Ulid;
 import gcs.core.lineage.Lineage;
-import gcs.core.lineage.LineageResolver;
 import io.micronaut.http.HttpRequest;
 import io.micronaut.http.client.HttpClient;
 import io.micronaut.http.client.annotation.Client;
@@ -12,10 +12,8 @@ import jakarta.inject.Inject;
 import org.junit.jupiter.api.Test;
 
 import java.util.Collections;
-import java.util.UUID;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -31,7 +29,7 @@ class LineageControllerTest {
 
     @Test
     void testResolve() {
-        UUID clusterId = UUID.randomUUID();
+        String clusterId = Ulid.nextUlid();
         Lineage expectedLineage = Lineage.builder()
             .status(Lineage.Status.CURRENT)
             .current(Collections.singletonList(clusterId))
@@ -40,7 +38,7 @@ class LineageControllerTest {
             .recentHistory(Collections.emptyList())
             .build();
 
-        when(lineageResolver.resolve(any(UUID.class))).thenReturn(expectedLineage);
+        when(lineageResolver.resolve(anyString())).thenReturn(expectedLineage);
 
         Lineage actualLineage = client.toBlocking().retrieve(HttpRequest.GET("/resolve/" + clusterId), Lineage.class);
 

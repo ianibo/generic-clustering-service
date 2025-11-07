@@ -4,6 +4,7 @@ import gcs.core.InputRecord;
 import gcs.core.assignment.AnchorPort;
 import gcs.core.assignment.CandidatePort;
 import gcs.core.synthesis.Synthesizer;
+import gcs.core.ids.Ulid;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
@@ -11,12 +12,8 @@ import org.mockito.MockitoAnnotations;
 
 import java.util.Collections;
 import java.util.List;
-import java.util.UUID;
 
-import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
@@ -44,9 +41,9 @@ class DefaultConsolidationServiceTest {
 
     @Test
     void testMerge() {
-        UUID clusterId1 = UUID.randomUUID();
-        UUID clusterId2 = UUID.randomUUID();
-        UUID newClusterId = UUID.randomUUID();
+        String clusterId1 = Ulid.nextUlid();
+        String clusterId2 = Ulid.nextUlid();
+        String newClusterId = Ulid.nextUlid();
         InputRecord record1 = new InputRecord("1", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
         InputRecord record2 = new InputRecord("2", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
         InputRecord newAnchor = new InputRecord("3", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
@@ -56,14 +53,14 @@ class DefaultConsolidationServiceTest {
         when(synthesizer.synthesize(List.of(record1, record2))).thenReturn(newAnchor);
         when(anchorPort.createCluster(newAnchor, "work", "Consolidated Cluster", new float[1536])).thenReturn(newClusterId);
 
-        UUID result = service.merge(clusterId1, clusterId2);
+        String result = service.merge(clusterId1, clusterId2);
 
         assertEquals(newClusterId, result);
     }
 
     @Test
     void testSplit() {
-        UUID clusterId = UUID.randomUUID();
+        String clusterId = Ulid.nextUlid();
         InputRecord record1 = new InputRecord("1", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
         InputRecord record2 = new InputRecord("2", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
         InputRecord newAnchor1 = new InputRecord("3", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);

@@ -189,7 +189,7 @@ class DefaultIngestServiceTest {
 	}
 
 	private void logClusterMemberships() {
-		Map<UUID, List<String>> workClusters = streamOf(workClusterMemberRepository.findAll())
+		Map<String, List<String>> workClusters = streamOf(workClusterMemberRepository.findAll())
 			.filter(member -> TARGET_RECORD_IDS.contains(member.getRecordId()))
 			.filter(member -> member.getWorkCluster() != null)
 			.collect(Collectors.groupingBy(member -> member.getWorkCluster().getId(),
@@ -202,7 +202,7 @@ class DefaultIngestServiceTest {
 				log.info("Work cluster {} contains records {}", clusterId, members));
 		}
 
-		Map<UUID, List<String>> instanceClusters = streamOf(instanceClusterMemberRepository.findAll())
+		Map<String, List<String>> instanceClusters = streamOf(instanceClusterMemberRepository.findAll())
 			.filter(member -> TARGET_RECORD_IDS.contains(member.getRecordId()))
 			.filter(member -> member.getInstanceCluster() != null)
 			.collect(Collectors.groupingBy(member -> member.getInstanceCluster().getId(),

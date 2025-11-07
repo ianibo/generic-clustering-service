@@ -6,8 +6,6 @@ import gcs.core.lineage.Lineage;
 import gcs.core.lineage.LineageResolver;
 import jakarta.inject.Singleton;
 
-import java.util.UUID;
-
 @Singleton
 public class PgLineageResolver implements LineageResolver {
 
@@ -20,7 +18,7 @@ public class PgLineageResolver implements LineageResolver {
     }
 
     @Override
-    public Lineage resolve(UUID clusterId) {
+    public Lineage resolve(String clusterId) {
         if (workClusterRepository.existsById(clusterId)) {
             return workClusterRepository.findById(clusterId).map(c -> c.getLineage()).orElse(null);
         } else {

@@ -1,7 +1,5 @@
 package gcs.core.consolidation;
 
-import java.util.UUID;
-
 /**
  * Service responsible for consolidating clusters by merging or splitting them.
  */
@@ -18,12 +16,12 @@ public interface ConsolidationService {
      * @param clusterId2 The ID of the second cluster.
      * @return The ID of the new, merged cluster.
      */
-    UUID merge(UUID clusterId1, UUID clusterId2);
+    String merge(String clusterId1, String clusterId2);
 
     /**
      * Splits a cluster into two or more new clusters.
      *
      * @param clusterId The ID of the cluster to split.
      */
-    void split(UUID clusterId);
+    void split(String clusterId);
 }

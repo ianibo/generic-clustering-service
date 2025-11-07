@@ -9,6 +9,6 @@ import java.util.UUID;
 
 @JdbcRepository(dialect = Dialect.POSTGRES)
 public interface InstanceClusterMemberRepository extends CrudRepository<InstanceClusterMember, UUID> {
-    List<InstanceClusterMember> findByInstanceClusterId(UUID instanceClusterId);
-    long countByInstanceClusterId(UUID instanceClusterId);
+    List<InstanceClusterMember> findByInstanceClusterId(String instanceClusterId);
+    long countByInstanceClusterId(String instanceClusterId);
 }

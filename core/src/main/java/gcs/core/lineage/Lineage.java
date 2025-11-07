@@ -6,7 +6,6 @@ import lombok.Data;
 import lombok.extern.jackson.Jacksonized;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
 /**
  * Represents the lineage of a cluster, tracking its history of merges and splits.
@@ -20,7 +19,7 @@ public class Lineage {
     private final Status status;
 
     /** The current successor CIDs. */
-    private final List<UUID> current;
+    private final List<String> current;
 
     /** The current content fingerprint. */
     private final String cfp;
@@ -50,10 +49,10 @@ public class Lineage {
         private final Type type;
 
         /** The source cluster ID. */
-        private final UUID source;
+        private final String source;
 
         /** The destination cluster ID. */
-        private final UUID destination;
+        private final String destination;
 
         public enum Type {
             /** A merge event. */

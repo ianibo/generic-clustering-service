@@ -15,14 +15,13 @@ import gcs.core.classification.Classifier;
 import gcs.core.classification.ClassificationResult;
 import gcs.core.canonicalization.Canonicalizer;
 import gcs.core.EmbeddingService;
-import io.micronaut.context.annotation.Replaces;
+import gcs.core.ids.Ulid;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
 
 import java.io.IOException;
 import java.util.Optional;
-import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
@@ -79,7 +78,7 @@ class DefaultIngestServiceCentroidTest {
         // Arrange
         InputRecord record = TestRecordLoader.loadRecord("cs00000002m001", "4bcc8bff-2de9-50db-86ea-af75a84de228");
 
-        UUID clusterId = UUID.randomUUID();
+        String clusterId = Ulid.nextUlid();
 
         Assignment assignment = Assignment.builder()
             .decision(Assignment.Decision.JOINED)
@@ -96,7 +95,7 @@ class DefaultIngestServiceCentroidTest {
         service.ingest(record);
 
         // Assert
-        ArgumentCaptor<UUID> clusterIdCaptor = ArgumentCaptor.forClass(UUID.class);
+        ArgumentCaptor<String> clusterIdCaptor = ArgumentCaptor.forClass(String.class);
         ArgumentCaptor<String> representationCaptor = ArgumentCaptor.forClass(String.class);
         ArgumentCaptor<PGvector> embeddingCaptor = ArgumentCaptor.forClass(PGvector.class);
 

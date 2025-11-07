@@ -24,7 +24,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.UUID;
 import java.util.HashMap;
 import java.util.Objects;
 import java.util.stream.Collectors;
@@ -108,7 +107,7 @@ public class ESIndexStore {
      * @return A list of search results.
      * @throws IOException If an I/O error occurs.
      */
-	public List<SearchResult> search(String indexName, float[] vector, String fieldName, double threshold, int k, Optional<Map<String, String>> filters, List<UUID> candidateIds) throws IOException {
+	public List<SearchResult> search(String indexName, float[] vector, String fieldName, double threshold, int k, Optional<Map<String, String>> filters, List<String> candidateIds) throws IOException {
 
 		List<Float> queryVector = new ArrayList<>(vector.length);
 		for (float v : vector) {
@@ -123,7 +122,7 @@ public class ESIndexStore {
                     .k(k)
                     .numCandidates(50);
                 if (candidateIds != null && !candidateIds.isEmpty()) {
-                    knn.filter(f -> f.ids(i -> i.values(candidateIds.stream().map(UUID::toString).collect(Collectors.toList()))));
+                    knn.filter(f -> f.ids(i -> i.values(candidateIds)));
                 }
                 return knn;
             })

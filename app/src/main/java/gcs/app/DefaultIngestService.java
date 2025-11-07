@@ -211,7 +211,7 @@ public class DefaultIngestService implements IngestService {
 		}
 	}
 
-    private void addMemberToCluster(UUID clusterId, InputRecord record, String representation, float[] embedding, float[] blocking) {
+    private void addMemberToCluster(String clusterId, InputRecord record, String representation, float[] embedding, float[] blocking) {
         if ("work".equals(representation)) {
             WorkCluster workCluster = workClusterRepository.findById(clusterId).orElseThrow(() -> new IllegalArgumentException("WorkCluster not found: " + clusterId));
             WorkClusterMember member = new WorkClusterMember();
@@ -234,7 +234,7 @@ public class DefaultIngestService implements IngestService {
         centroidService.updateCentroid(clusterId, representation, new com.pgvector.PGvector(embedding));
     }
 
-    private void upsertAnchorToEs(UUID clusterId, InputRecord anchor, String representation) {
+    private void upsertAnchorToEs(String clusterId, InputRecord anchor, String representation) {
         String indexName = "anchors-" + representation;
         var canonicalizer = canonicalizers.getOrDefault(anchor.physical().contentType(), defaultCanonicalizer);
         String summary = canonicalizer.summarize(anchor, "work".equals(representation) ? Canonicalizer.Intent.WORK : Canonicalizer.Intent.INSTANCE);
@@ -252,7 +252,7 @@ public class DefaultIngestService implements IngestService {
         }
 
         Map<String, Object> esRecord = new HashMap<>();
-        esRecord.put("id", clusterId.toString());
+        esRecord.put("id", clusterId);
         esRecord.put("representation", representation);
         esRecord.put("embedding", embeddingList);
         esRecord.put("blocking", blockingList);

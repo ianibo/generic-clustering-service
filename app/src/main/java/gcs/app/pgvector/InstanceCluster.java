@@ -9,13 +9,10 @@ import io.micronaut.data.annotation.MappedProperty;
 import io.micronaut.core.annotation.Creator;
 import io.micronaut.core.annotation.Nullable;
 
-import java.util.UUID;
 import lombok.*;
 import lombok.experimental.Accessors;
 import io.micronaut.serde.annotation.Serdeable;
 import java.time.Instant;
-import java.util.Map;
-import java.util.HashMap;
 
 @Data
 @Builder
@@ -26,7 +23,7 @@ import java.util.HashMap;
 public class InstanceCluster implements Cluster {
 
 	@Id
-	private UUID id;
+	private String id;
 
 	@DateCreated
 	private Instant dateCreated;

@@ -3,11 +3,11 @@ package gcs.app.clustering;
 import com.pgvector.PGvector;
 import gcs.app.pgvector.storage.*;
 import gcs.app.pgvector.*;
+import gcs.core.ids.Ulid;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.Optional;
-import java.util.UUID;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -33,7 +33,7 @@ class DefaultCentroidServiceTest {
 
     @Test
     void testUpdateCentroid_newWorkCluster() {
-        UUID clusterId = UUID.randomUUID();
+        String clusterId = Ulid.nextUlid();
         PGvector embedding = new PGvector(new float[]{1.0f, 2.0f, 3.0f});
         WorkCluster cluster = new WorkCluster();
         cluster.setId(clusterId);
@@ -47,7 +47,7 @@ class DefaultCentroidServiceTest {
 
     @Test
     void testUpdateCentroid_existingWorkCluster() {
-        UUID clusterId = UUID.randomUUID();
+        String clusterId = Ulid.nextUlid();
         PGvector existingCentroid = new PGvector(new float[]{1.0f, 1.0f, 1.0f});
         PGvector newEmbedding = new PGvector(new float[]{3.0f, 3.0f, 3.0f});
         WorkCluster cluster = new WorkCluster();

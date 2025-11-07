@@ -2,7 +2,6 @@ package gcs.core.assignment;
 
 import gcs.core.InputRecord;
 import java.util.Optional;
-import java.util.UUID;
 
 /**
  * A port for reading and updating anchor records in the system of record.
@@ -14,7 +13,7 @@ public interface AnchorPort {
      * @param clusterId The ID of the cluster.
      * @return An Optional containing the anchor record, or empty if not found.
      */
-    Optional<InputRecord> getAnchor(UUID clusterId);
+    Optional<InputRecord> getAnchor(String clusterId);
 
     /**
      * Creates a new cluster with the given anchor record.
@@ -25,7 +24,7 @@ public interface AnchorPort {
      * @param initialCentroid The initial centroid for the new cluster.
      * @return The ID of the newly created cluster.
      */
-    UUID createCluster(InputRecord anchor, String representation, String label, float[] initialCentroid);
+    String createCluster(InputRecord anchor, String representation, String label, float[] initialCentroid);
 
     /**
      * Updates the anchor record for an existing cluster.
@@ -33,5 +32,5 @@ public interface AnchorPort {
      * @param clusterId The ID of the cluster to update.
      * @param anchor The new anchor record.
      */
-    void updateAnchor(UUID clusterId, InputRecord anchor);
+    void updateAnchor(String clusterId, InputRecord anchor);
 }

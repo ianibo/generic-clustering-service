@@ -4,7 +4,6 @@ import jakarta.inject.Singleton;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.UUID;
 
 /**
  * Default implementation of the LineageResolver interface.
@@ -13,10 +12,10 @@ import java.util.UUID;
 @Singleton
 public class DefaultLineageResolver implements LineageResolver {
 
-    private final Map<UUID, Lineage> lineageMap = new HashMap<>();
+    private final Map<String, Lineage> lineageMap = new HashMap<>();
 
     @Override
-    public Lineage resolve(UUID clusterId) {
+    public Lineage resolve(String clusterId) {
         return lineageMap.getOrDefault(clusterId, Lineage.builder()
             .status(Lineage.Status.CURRENT)
             .current(Collections.singletonList(clusterId))
@@ -26,7 +25,7 @@ public class DefaultLineageResolver implements LineageResolver {
             .build());
     }
 
-    public void addLineage(UUID clusterId, Lineage lineage) {
+    public void addLineage(String clusterId, Lineage lineage) {
         lineageMap.put(clusterId, lineage);
     }
 }

@@ -5,8 +5,6 @@ import gcs.app.pgvector.*;
 import gcs.app.pgvector.storage.*;
 import jakarta.inject.Singleton;
 import jakarta.transaction.Transactional;
-import java.util.UUID;
-import gcs.app.clustering.*;
 
 @Singleton
 public class DefaultCentroidService implements CentroidService {
@@ -25,7 +23,7 @@ public class DefaultCentroidService implements CentroidService {
 
     @Override
     @Transactional
-    public void updateCentroid(UUID clusterId, String representation, PGvector memberEmbedding) {
+    public void updateCentroid(String clusterId, String representation, PGvector memberEmbedding) {
         if ("work".equals(representation)) {
             workClusterRepository.findById(clusterId).ifPresent(cluster -> {
                 updateClusterCentroid(cluster, memberEmbedding);

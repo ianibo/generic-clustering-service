@@ -6,8 +6,6 @@ import gcs.core.assignment.CandidatePort;
 import gcs.core.synthesis.Synthesizer;
 import jakarta.inject.Singleton;
 import java.util.List;
-import java.util.Optional;
-import java.util.UUID;
 import java.util.stream.Stream;
 
 /**
@@ -37,7 +35,7 @@ public class DefaultConsolidationService implements ConsolidationService {
     }
 
     @Override
-    public UUID merge(UUID clusterId1, UUID clusterId2) {
+    public String merge(String clusterId1, String clusterId2) {
         List<InputRecord> members1 = memberPort.getMembers(clusterId1);
         List<InputRecord> members2 = memberPort.getMembers(clusterId2);
 
@@ -50,7 +48,7 @@ public class DefaultConsolidationService implements ConsolidationService {
     }
 
     @Override
-    public void split(UUID clusterId) {
+    public void split(String clusterId) {
         List<InputRecord> members = memberPort.getMembers(clusterId);
         if (members.size() < 2) {
             return;

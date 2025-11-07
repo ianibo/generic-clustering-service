@@ -1,8 +1,7 @@
 package gcs.core.lineage;
 
+import gcs.core.ids.Ulid;
 import org.junit.jupiter.api.Test;
-
-import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -12,7 +11,7 @@ class DefaultLineageResolverTest {
 
     @Test
     void testResolve() {
-        UUID clusterId = UUID.randomUUID();
+        String clusterId = Ulid.nextUlid();
         Lineage lineage = resolver.resolve(clusterId);
 
         assertEquals(Lineage.Status.CURRENT, lineage.getStatus());

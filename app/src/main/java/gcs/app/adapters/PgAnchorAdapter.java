@@ -7,9 +7,9 @@ import gcs.app.pgvector.storage.InstanceClusterRepository;
 import gcs.app.pgvector.storage.WorkClusterRepository;
 import gcs.core.InputRecord;
 import gcs.core.assignment.AnchorPort;
+import gcs.core.ids.Ulid;
 import jakarta.inject.Singleton;
 import java.util.Optional;
-import java.util.UUID;
 
 /**
  * An adapter that implements the AnchorPort interface for a PostgreSQL database.
@@ -26,7 +26,7 @@ public class PgAnchorAdapter implements AnchorPort {
     }
 
     @Override
-    public Optional<InputRecord> getAnchor(UUID clusterId) {
+    public Optional<InputRecord> getAnchor(String clusterId) {
         if (workClusterRepository.existsById(clusterId)) {
             return workClusterRepository.findById(clusterId).map(WorkCluster::getSyntheticAnchor);
         } else {
@@ -35,10 +35,10 @@ public class PgAnchorAdapter implements AnchorPort {
     }
 
     @Override
-    public UUID createCluster(InputRecord anchor, String representation, String label, float[] initialCentroid) {
+    public String createCluster(InputRecord anchor, String representation, String label, float[] initialCentroid) {
         if ("work".equals(representation)) {
             WorkCluster cluster = new WorkCluster();
-            cluster.setId(UUID.randomUUID());
+            cluster.setId(Ulid.nextUlid());
             cluster.setStatus("NEW");
             cluster.setSyntheticAnchor(anchor);
             cluster.setLabel(label);
@@ -46,7 +46,7 @@ public class PgAnchorAdapter implements AnchorPort {
             return workClusterRepository.save(cluster).getId();
         } else {
             InstanceCluster cluster = new InstanceCluster();
-            cluster.setId(UUID.randomUUID());
+            cluster.setId(Ulid.nextUlid());
             cluster.setSyntheticAnchor(anchor);
             cluster.setStatus("NEW");
             cluster.setLabel(label);
@@ -56,7 +56,7 @@ public class PgAnchorAdapter implements AnchorPort {
     }
 
     @Override
-    public void updateAnchor(UUID clusterId, InputRecord anchor) {
+    public void updateAnchor(String clusterId, InputRecord anchor) {
         if (workClusterRepository.existsById(clusterId)) {
             workClusterRepository.findById(clusterId).ifPresent(c -> {
 								c.setStatus("UPDATED");

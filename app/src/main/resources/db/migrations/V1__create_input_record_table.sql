@@ -15,7 +15,7 @@ CREATE TABLE input_record (
 );
 
 CREATE TABLE work_cluster (
-	id UUID NOT NULL PRIMARY KEY,
+	id VARCHAR(26) NOT NULL PRIMARY KEY,
   date_created TIMESTAMP default now(),
   date_modified TIMESTAMP default now(),
   status VARCHAR(16),
@@ -32,7 +32,7 @@ CREATE TABLE work_cluster_member (
   date_created TIMESTAMP default now(),
   date_modified TIMESTAMP default now(),
 	record_id VARCHAR(255),
-  work_cluster_id UUID,
+  work_cluster_id VARCHAR(26),
 	score	DOUBLE PRECISION,
 	role VARCHAR(16),
 	enabled	BOOLEAN NOT NULL DEFAULT true,
@@ -49,7 +49,7 @@ CREATE INDEX idx_work_cm_blocking ON work_cluster_member USING hnsw (blocking ve
 CREATE INDEX idx_work_cm_embedding ON work_cluster_member USING hnsw (embedding vector_cosine_ops);
 
 CREATE TABLE instance_cluster (
-  id UUID NOT NULL PRIMARY KEY,
+  id VARCHAR(26) NOT NULL PRIMARY KEY,
   date_created TIMESTAMP default now(),
   date_modified TIMESTAMP default now(),
   status VARCHAR(16) default 'UNKNOWN',
@@ -66,7 +66,7 @@ CREATE TABLE instance_cluster_member (
   date_created TIMESTAMP NOT NULL default now(),
   date_modified TIMESTAMP NOT NULL default now(),
 	record_id VARCHAR(255),
-  instance_cluster_id UUID,
+  instance_cluster_id VARCHAR(26),
 	score	DOUBLE PRECISION,
 	role VARCHAR(16),
 	enabled	BOOLEAN NOT NULL DEFAULT true,

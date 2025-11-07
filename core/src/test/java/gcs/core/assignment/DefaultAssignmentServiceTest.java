@@ -13,7 +13,7 @@ import org.mockito.MockitoAnnotations;
 
 import java.util.Collections;
 import java.util.List;
-import java.util.UUID;
+import gcs.core.ids.Ulid;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
@@ -51,11 +51,11 @@ class DefaultAssignmentServiceTest {
     void testAssign_join() {
         InputRecord record = new InputRecord("1", null, null, null, null, null, null, null, null, null, new InputRecord.Physical(null, null, null, "TEXT", null, null, null), null, null, null, null, null, null, null, null, null, null, null);
         InputRecord anchor = new InputRecord("2", null, null, null, null, null, null, null, null, null, new InputRecord.Physical(null, null, null, "TEXT", null, null, null), null, null, null, null, null, null, null, null, null, null, null);
-        UUID clusterId = UUID.randomUUID();
+        String clusterId = Ulid.nextUlid();
 
         CandidatePort.Candidate candidate = new CandidatePort.Candidate() {
             @Override
-            public UUID getClusterId() {
+            public String getClusterId() {
                 return clusterId;
             }
 
@@ -83,7 +83,7 @@ class DefaultAssignmentServiceTest {
     @Test
     void testAssign_create() {
         InputRecord record = new InputRecord("1", null, null, null, null, null, null, null, null, null, new InputRecord.Physical(null, null, null, "TEXT", null, null, null), null, null, null, null, null, null, null, null, null, null, null);
-        UUID newClusterId = UUID.randomUUID();
+        String newClusterId = Ulid.nextUlid();
 
         when(candidatePort.findCandidates(any(), anyString(), anyInt(), any())).thenReturn(Collections.emptyList());
         when(anchorPort.createCluster(record, "work", "summary", new float[0])).thenReturn(newClusterId);

@@ -4,7 +4,6 @@ import gcs.core.InputRecord;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.UUID;
 
 /**
  * A port for retrieving candidate anchors from a vector index.
@@ -28,7 +27,7 @@ public interface CandidatePort {
         /**
          * @return The ID of the cluster.
          */
-        UUID getClusterId();
+        String getClusterId();
 
         /**
          * @return The anchor record of the cluster.
