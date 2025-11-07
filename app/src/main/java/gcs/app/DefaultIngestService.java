@@ -154,7 +154,7 @@ public class DefaultIngestService implements IngestService {
 		entity.setId(versionedRecord.id());
 		entity.setRecord(versionedRecord);
 		entity.setProcessingStatus(ProcessingStatus.PENDING);
-		inputRecordRepository.save(entity);
+		inputRecordRepository.saveOrUpdate(entity);
 
 		log.info("Canonicalizing");
 		var workCanonicalizer = canonicalizers.getOrDefault(versionedRecord.physical().contentType(), defaultCanonicalizer);

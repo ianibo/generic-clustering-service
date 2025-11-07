@@ -14,6 +14,11 @@ import org.junit.jupiter.api.condition.DisabledIfSystemProperty;
 
 import java.io.IOException;
 import java.io.UncheckedIOException;
+import java.time.Instant;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -22,7 +27,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.*;
 
 @Slf4j
 @MicronautTest
@@ -36,6 +41,7 @@ class DefaultIngestServiceTest {
 		"541947fe-8192-547d-be9b-f23db4778d72",
 		"a33a02a1-9d4d-53c4-8d98-aeffba31466d"
 	);
+	private static final String UPDATED_TITLE = "Updated integration test title";
 	private static final List<InputRecord> TEST_RECORDS = loadTestRecords();
 	private static final Set<String> TARGET_RECORD_IDS = TEST_RECORDS.stream()
 		.map(DefaultIngestServiceTest::sourceRecordIdOf)
@@ -69,6 +75,43 @@ class DefaultIngestServiceTest {
 		logAllRecords();
 	}
 
+	@Test
+	void testReingestUpdatesExistingRecord() {
+		InputRecord originalRecord = TEST_RECORDS.get(0);
+		InputRecord updatedRecord = withUpdatedTitle(originalRecord, UPDATED_TITLE);
+
+		String recordId = versionedIdOf(originalRecord);
+		Set<UUID> knownMemberIds = new HashSet<>(workMembersForRecord(recordId).stream()
+			.map(WorkClusterMember::getId)
+			.collect(Collectors.toSet()));
+
+		InputRecord firstResult = service.ingest(originalRecord);
+		InputRecordEntity firstEntity = inputRecordRepository.findById(firstResult.id()).orElseThrow();
+		Instant firstModified = firstEntity.getDateModified();
+
+		WorkClusterMember initialMember = newestMember(workMembersForRecord(firstResult.id()), knownMemberIds);
+		assertNotNull(initialMember, "Initial ingest should create a work cluster member");
+		knownMemberIds.add(initialMember.getId());
+
+		InputRecord secondResult = service.ingest(updatedRecord);
+		InputRecordEntity secondEntity = inputRecordRepository.findById(secondResult.id()).orElseThrow();
+
+		assertEquals(firstResult.id(), secondResult.id(), "Versioned record id should be stable across ingests");
+		assertEquals(firstEntity.getDateCreated(), secondEntity.getDateCreated(), "Entity should be updated instead of recreated");
+		assertEquals(UPDATED_TITLE, secondEntity.getRecord().titles().get(0).value(), "Stored record must reflect the update");
+		assertTrue(secondEntity.getDateModified().isAfter(firstModified), "Reingest should advance the modification timestamp");
+
+		WorkClusterMember updatedMember = newestMember(workMembersForRecord(secondResult.id()), knownMemberIds);
+		assertNotNull(updatedMember, "Reingest should add another work cluster member");
+		knownMemberIds.add(updatedMember.getId());
+
+		assertNotNull(initialMember.getEmbedding(), "Initial embedding should be stored");
+		assertNotNull(updatedMember.getEmbedding(), "Updated embedding should be stored");
+		float[] initialEmbedding = initialMember.getEmbedding().toArray();
+		float[] updatedEmbedding = updatedMember.getEmbedding().toArray();
+		assertFalse(Arrays.equals(initialEmbedding, updatedEmbedding), "Embedding should change when canonical details change");
+	}
+
 	private static List<InputRecord> loadTestRecords() {
 		return TEST_RECORD_FILES.stream()
 			.map(DefaultIngestServiceTest::loadRecordOrThrow)
@@ -89,6 +132,59 @@ class DefaultIngestServiceTest {
 			throw new IllegalStateException("Test record is missing provenance.sourceRecordId: " + record.id());
 		}
 		return provenance.sourceRecordId();
+	}
+
+	private static String versionedIdOf(InputRecord record) {
+		InputRecord.Provenance provenance = record.provenance();
+		if (provenance == null) {
+			throw new IllegalStateException("Test record is missing provenance: " + record.id());
+		}
+		return provenance.authorityId() + ":" + provenance.sourceRecordId();
+	}
+
+	private static InputRecord withUpdatedTitle(InputRecord record, String newTitle) {
+		if (record.titles() == null || record.titles().isEmpty()) {
+			throw new IllegalStateException("Test record is missing titles: " + record.id());
+		}
+		List<InputRecord.Title> titles = new ArrayList<>(record.titles());
+		InputRecord.Title firstTitle = titles.get(0);
+		titles.set(0, new InputRecord.Title(newTitle, firstTitle.type(), firstTitle.language()));
+		return new InputRecord(
+			record.id(),
+			record.provenance(),
+			record.domain(),
+			record.licenseDeclaration(),
+			record.identifiers(),
+			List.copyOf(titles),
+			record.contributors(),
+			record.languages(),
+			record.edition(),
+			record.publication(),
+			record.physical(),
+			record.subjects(),
+			record.series(),
+			record.relations(),
+			record.classification(),
+			record.notes(),
+			record.rights(),
+			record.admin(),
+			record.media(),
+			record.ext(),
+			record.classifierVersion()
+		);
+	}
+
+	private List<WorkClusterMember> workMembersForRecord(String recordId) {
+		return streamOf(workClusterMemberRepository.findAll())
+			.filter(member -> recordId.equals(member.getRecordId()))
+			.collect(Collectors.toList());
+	}
+
+	private static WorkClusterMember newestMember(List<WorkClusterMember> members, Set<UUID> knownMemberIds) {
+		return members.stream()
+			.filter(member -> !knownMemberIds.contains(member.getId()))
+			.max(Comparator.comparing(WorkClusterMember::getDateCreated))
+			.orElse(null);
 	}
 
 	private void logClusterMemberships() {
