@@ -7,7 +7,7 @@ import io.micronaut.data.annotation.DateUpdated;
 import java.time.Instant;
 
 import io.micronaut.core.annotation.Creator;
-import io.micronaut.data.annotation.GeneratedValue;
+import io.micronaut.core.annotation.Nullable;
 import io.micronaut.data.annotation.Id;
 import io.micronaut.data.annotation.MappedEntity;
 import io.micronaut.data.annotation.Transient;
@@ -27,7 +27,7 @@ import java.util.HashMap;
 @Builder
 @Data
 @AllArgsConstructor
-@NoArgsConstructor
+@NoArgsConstructor(onConstructor_ = @__(@Creator))
 @Accessors(chain = true)
 @ToString(onlyExplicitlyIncluded = false)
 @MappedEntity(value = "input_record")
@@ -39,15 +39,20 @@ public class InputRecordEntity {
     private Instant dateCreated;
     @DateUpdated
     private Instant dateModified;
+    @Nullable
     private String extractedResourceType;
+    @Nullable
     private String contentType;
+    @Nullable
     private String mediaType;
+    @Nullable
     private String carrierType;
 
     @TypeDef(type = DataType.JSON)
     private InputRecord record;
 
     private ProcessingStatus processingStatus;
+    @Nullable
     private Integer classifierVersion;
 
     public String getId() {

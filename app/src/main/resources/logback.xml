@@ -12,15 +12,18 @@
     <logger name="io.micronaut" level="INFO"/>
     <logger name="net.semweb" level="DEBUG"/>
     <logger name="gcs" level="DEBUG"/>
-    <logger name="gcs.app.pgvector.storage" level="DEBUG"/>
+
     <logger name="org.flywaydb.core.internal.dbsupport.SqlScript" level="WARN"/>
     <logger name="org.flywaydb" level="INFO"/>
-    <logger name="io.micronaut.data.query" level="DEBUG"/>
 
-    <logger name="io.micronaut.flyway" level="DEBUG"/>
-    <logger name="org.flywaydb" level="DEBUG"/>
+    <!-- 
+			<logger name="io.micronaut.data.query" level="DEBUG"/>
+      <logger name="io.micronaut.flyway" level="DEBUG"/>
+      <logger name="org.flywaydb" level="DEBUG"/> 
+    -->
 
     <root level="warn">
         <appender-ref ref="STDOUT" />
     </root>
+
 </configuration>

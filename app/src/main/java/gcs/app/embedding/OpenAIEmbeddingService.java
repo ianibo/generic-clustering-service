@@ -6,36 +6,39 @@ import gcs.core.EmbeddingService;
 import io.micronaut.context.annotation.Factory;
 import jakarta.inject.Named;
 import jakarta.inject.Singleton;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Singleton
 @Named("openai")
 public class OpenAIEmbeddingService implements EmbeddingService {
 
-    private final EmbeddingModel embeddingModel;
+	private final EmbeddingModel embeddingModel;
 
-    // As of langchain4j v0.32.0, the dimension is not available directly from the model.
-    private volatile Integer dimension;
+	// As of langchain4j v0.32.0, the dimension is not available directly from the model.
+	private volatile Integer dimension;
 
-    public OpenAIEmbeddingService(EmbeddingModel embeddingModel) {
-        this.embeddingModel = embeddingModel;
-    }
+	public OpenAIEmbeddingService(EmbeddingModel embeddingModel) {
+		this.embeddingModel = embeddingModel;
+	}
 
-    @Override
-    public float[] embed(String text) {
-        return embeddingModel.embed(text).content().vector();
-    }
+	@Override
+	public float[] embed(String text) {
+		log.debug("Generate embedding for {}",text);
+		return embeddingModel.embed(text).content().vector();
+	}
 
-    @Override
-    public int dim() {
-        if (dimension == null) {
-            synchronized (this) {
-                if (dimension == null) {
-                    dimension = embeddingModel.embed("for dimension").content().vector().length;
-                }
-            }
-        }
-        return dimension;
-    }
+	@Override
+	public int dim() {
+		if (dimension == null) {
+			synchronized (this) {
+				if (dimension == null) {
+					dimension = embeddingModel.embed("for dimension").content().vector().length;
+				}
+			}
+		}
+		return dimension;
+	}
 }
 
 @Factory

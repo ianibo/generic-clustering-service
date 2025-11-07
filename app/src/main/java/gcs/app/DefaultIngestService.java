@@ -115,13 +115,16 @@ public class DefaultIngestService implements IngestService {
         this.inputRecordRepository = inputRecordRepository;
     }
 
-    @Override
-    @Transactional
-    public InputRecord ingest(InputRecord record) {
-        var classification = classifier.classify(record);
-        log.info("Classified record {} as {} with explanation: {}", record.id(), classification.workType(), classification);
+	@Override
+	@Transactional
+	public InputRecord ingest(InputRecord record) {
 
-        var versionedRecord = new InputRecord(
+		log.info("Ingesting {}",record);
+
+		var classification = classifier.classify(record);
+		log.info("Classified record {} as {} with explanation: {}", record.id(), classification.workType(), classification);
+
+		var versionedRecord = new InputRecord(
             record.id(),
             record.provenance(),
             record.domain(),
@@ -143,61 +146,67 @@ public class DefaultIngestService implements IngestService {
             record.media(),
             record.ext(),
             classification.classifierVersion()
-        );
+		);
 
-        var entity = new InputRecordEntity();
-        entity.setId(versionedRecord.id());
-        entity.setRecord(versionedRecord);
-        entity.setProcessingStatus(ProcessingStatus.PENDING);
-        inputRecordRepository.save(entity);
+		log.info("Saving input record");
+		var entity = new InputRecordEntity();
+		entity.setId(versionedRecord.id());
+		entity.setRecord(versionedRecord);
+		entity.setProcessingStatus(ProcessingStatus.PENDING);
+		inputRecordRepository.save(entity);
 
-        var workCanonicalizer = canonicalizers.getOrDefault(versionedRecord.physical().contentType(), defaultCanonicalizer);
-        String workSummary = workCanonicalizer.summarize(versionedRecord, Canonicalizer.Intent.WORK);
-        float[] workEmbedding = embeddingService.embed(workSummary);
-        float[] workBlocking = projector.project(workEmbedding);
+		log.info("Canonicalizing");
+		var workCanonicalizer = canonicalizers.getOrDefault(versionedRecord.physical().contentType(), defaultCanonicalizer);
+		String workSummary = workCanonicalizer.summarize(versionedRecord, Canonicalizer.Intent.WORK);
+		log.info("Work Canonicalization {}",workSummary);
+		float[] workEmbedding = embeddingService.embed(workSummary);
+		float[] workBlocking = projector.project(workEmbedding);
 
-        var instanceCanonicalizer = canonicalizers.getOrDefault(versionedRecord.physical().contentType(), defaultCanonicalizer);
-        String instanceSummary = instanceCanonicalizer.summarize(versionedRecord, Canonicalizer.Intent.INSTANCE);
-        float[] instanceEmbedding = embeddingService.embed(instanceSummary);
-        float[] instanceBlocking = projector.project(instanceEmbedding);
+		var instanceCanonicalizer = canonicalizers.getOrDefault(versionedRecord.physical().contentType(), defaultCanonicalizer);
+		String instanceSummary = instanceCanonicalizer.summarize(versionedRecord, Canonicalizer.Intent.INSTANCE);
+		log.info("Instance Canonicalization {}",instanceSummary);
+		float[] instanceEmbedding = embeddingService.embed(instanceSummary);
+		float[] instanceBlocking = projector.project(instanceEmbedding);
 
-        handleAssignment(assignmentService.assign(versionedRecord, "work", workEmbedding, workSummary), "work", versionedRecord, workEmbedding, workBlocking);
-        handleAssignment(assignmentService.assign(versionedRecord, "instance", instanceEmbedding, instanceSummary), "instance", versionedRecord, instanceEmbedding, instanceBlocking);
+		handleAssignment(assignmentService.assign(versionedRecord, "work", workEmbedding, workSummary), "work", versionedRecord, workEmbedding, workBlocking);
+		handleAssignment(assignmentService.assign(versionedRecord, "instance", instanceEmbedding, instanceSummary), "instance", versionedRecord, instanceEmbedding, instanceBlocking);
 
-        return versionedRecord;
-    }
+		return versionedRecord;
+	}
 
-    /**
+	/**
      * Acts on the decision from the {@link AssignmentService}.
      *
      * @param assignment The assignment decision.
      * @param representation The representation type ("work" or "instance").
      * @param record The record that was processed.
      */
-    private void handleAssignment(Assignment assignment, String representation, InputRecord record, float[] embedding, float[] blocking) {
-        if (assignment.getDecision() == Assignment.Decision.JOINED) {
-            // If the record joined an existing cluster:
-            // 1. Persist the new membership link.
-            addMemberToCluster(assignment.getClusterId(), record, representation, embedding, blocking);
-            // 2. Re-calculate the synthetic anchor with the new member.
-            List<InputRecord> members = memberAdapter.getMembers(assignment.getClusterId());
-            InputRecord newAnchor = synthesizer.synthesize(members);
-            // 3. Update the anchor in the database, if synthesis was successful.
-            if (newAnchor != null) {
-                anchorPort.updateAnchor(assignment.getClusterId(), newAnchor);
-                // 4. Upsert the updated anchor to Elasticsearch.
-                upsertAnchorToEs(assignment.getClusterId(), newAnchor, representation);
-            } else {
-                log.warn("Synthesizer returned null for cluster {}, not updating anchor.", assignment.getClusterId());
-            }
-        } else {
-            // If a new cluster was created:
-            // 1. Persist the new membership link.
-            addMemberToCluster(assignment.getClusterId(), record, representation, embedding, blocking);
-            // 2. Upsert the new anchor to Elasticsearch.
-            upsertAnchorToEs(assignment.getClusterId(), assignment.getClusterAnchor(), representation);
-        }
-    }
+	private void handleAssignment(Assignment assignment, String representation, InputRecord record, float[] embedding, float[] blocking) {
+		if (assignment.getDecision() == Assignment.Decision.JOINED) {
+			log.info("Handle work and instance assignments - JOIN CLUSTER");
+			// If the record joined an existing cluster:
+			// 1. Persist the new membership link.
+			addMemberToCluster(assignment.getClusterId(), record, representation, embedding, blocking);
+			// 2. Re-calculate the synthetic anchor with the new member.
+			List<InputRecord> members = memberAdapter.getMembers(assignment.getClusterId());
+			InputRecord newAnchor = synthesizer.synthesize(members);
+			// 3. Update the anchor in the database, if synthesis was successful.
+			if (newAnchor != null) {
+				anchorPort.updateAnchor(assignment.getClusterId(), newAnchor);
+				// 4. Upsert the updated anchor to Elasticsearch.
+				upsertAnchorToEs(assignment.getClusterId(), newAnchor, representation);
+			} else {
+				log.warn("Synthesizer returned null for cluster {}, not updating anchor.", assignment.getClusterId());
+			}
+		} else {
+			log.info("Handle work and instance assignments - CREATE CLUSTER");
+			// If a new cluster was created:
+			// 1. Persist the new membership link.
+			addMemberToCluster(assignment.getClusterId(), record, representation, embedding, blocking);
+			// 2. Upsert the new anchor to Elasticsearch.
+			upsertAnchorToEs(assignment.getClusterId(), assignment.getClusterAnchor(), representation);
+		}
+	}
 
     private void addMemberToCluster(UUID clusterId, InputRecord record, String representation, float[] embedding, float[] blocking) {
         if ("work".equals(representation)) {

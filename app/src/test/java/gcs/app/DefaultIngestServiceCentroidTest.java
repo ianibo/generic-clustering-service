@@ -77,7 +77,7 @@ class DefaultIngestServiceCentroidTest {
     @Test
     void testIngestCallsCentroidService() throws IOException {
         // Arrange
-        InputRecord record = TestRecordLoader.loadRecord("4bcc8bff-2de9-50db-86ea-af75a84de228");
+        InputRecord record = TestRecordLoader.loadRecord("cs00000002m001", "4bcc8bff-2de9-50db-86ea-af75a84de228");
 
         UUID clusterId = UUID.randomUUID();
 

@@ -97,6 +97,7 @@ public record InputRecord(
     @Serdeable
     public record Physical(
         String extent,
+        @Nullable String illustrations,
         String dimensions,
         String contentType,
         String mediaType,

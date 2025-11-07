@@ -88,8 +88,6 @@ public class ESIndexStore {
      */
     public void store(String indexName, Map<String,Object> esrec) throws IOException {
 
-			log.info("Store Work Cluster Member({},{})",indexName,esrec);
-
         IndexRequest<Map<String,Object>> request = IndexRequest.of(i -> i
             .index(indexName)
             .id(esrec.get("id").toString())

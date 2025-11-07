@@ -49,8 +49,8 @@ class DefaultAssignmentServiceTest {
 
     @Test
     void testAssign_join() {
-        InputRecord record = new InputRecord("1", null, null, null, null, null, null, null, null, null, new InputRecord.Physical(null, null, "TEXT", null, null, null), null, null, null, null, null, null, null, null, null, null);
-        InputRecord anchor = new InputRecord("2", null, null, null, null, null, null, null, null, null, new InputRecord.Physical(null, null, "TEXT", null, null, null), null, null, null, null, null, null, null, null, null, null);
+        InputRecord record = new InputRecord("1", null, null, null, null, null, null, null, null, null, new InputRecord.Physical(null, null, null, "TEXT", null, null, null), null, null, null, null, null, null, null, null, null, null);
+        InputRecord anchor = new InputRecord("2", null, null, null, null, null, null, null, null, null, new InputRecord.Physical(null, null, null, "TEXT", null, null, null), null, null, null, null, null, null, null, null, null, null);
         UUID clusterId = UUID.randomUUID();
 
         CandidatePort.Candidate candidate = new CandidatePort.Candidate() {
@@ -82,7 +82,7 @@ class DefaultAssignmentServiceTest {
 
     @Test
     void testAssign_create() {
-        InputRecord record = new InputRecord("1", null, null, null, null, null, null, null, null, null, new InputRecord.Physical(null, null, "TEXT", null, null, null), null, null, null, null, null, null, null, null, null, null);
+        InputRecord record = new InputRecord("1", null, null, null, null, null, null, null, null, null, new InputRecord.Physical(null, null, null, "TEXT", null, null, null), null, null, null, null, null, null, null, null, null, null);
         UUID newClusterId = UUID.randomUUID();
 
         when(candidatePort.findCandidates(any(), anyString(), anyInt(), any())).thenReturn(Collections.emptyList());

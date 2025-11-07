@@ -12,8 +12,8 @@ class DefaultRepresentationPolicyTest {
 
     @Test
     void testConflictPenalty_mismatchedContentType() {
-        InputRecord.Physical physical1 = new InputRecord.Physical(null, null, "TEXT", null, null, null);
-        InputRecord.Physical physical2 = new InputRecord.Physical(null, null, "IMAGE", null, null, null);
+        InputRecord.Physical physical1 = new InputRecord.Physical(null, null, null, "TEXT", null, null, null);
+        InputRecord.Physical physical2 = new InputRecord.Physical(null, null, null, "IMAGE", null, null, null);
         InputRecord record1 = new InputRecord(null, null, null, null, null, null, null, null, null, null, physical1, null, null, null, null, null, null, null, null, null, null);
         InputRecord record2 = new InputRecord(null, null, null, null, null, null, null, null, null, null, physical2, null, null, null, null, null, null, null, null, null, null);
 

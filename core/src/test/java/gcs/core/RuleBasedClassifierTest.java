@@ -47,7 +47,7 @@ class RuleBasedClassifierTest {
 
     @Test
     void testClassifyArchivalByExtent() {
-        var physical = new InputRecord.Physical("1.5 linear feet", null, null, null, null, null);
+        var physical = new InputRecord.Physical("1.5 linear feet", null, null, null, null, null, null);
         var record = new InputRecord("3", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, null);
         var result = classifier.classify(record);
         assertEquals(WorkType.ARCHIVAL, result.workType());

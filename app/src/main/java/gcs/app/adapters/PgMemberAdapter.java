@@ -44,7 +44,7 @@ public class PgMemberAdapter implements MemberPort {
                 .collect(Collectors.toList());
         }
 
-        return inputRecordRepository.findAllById(recordIds).stream()
+        return inputRecordRepository.findByIdInList(recordIds).stream()
             .map(InputRecordEntity::getRecord)
             .collect(Collectors.toList());
     }
