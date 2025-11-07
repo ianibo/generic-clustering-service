@@ -57,9 +57,9 @@ class DefaultCentroidServiceTest {
         WorkCluster cluster = new WorkCluster();
         cluster.setId(clusterId);
         cluster.setCentroid(existingCentroid);
+        cluster.setMemberCount(1);
 
         when(workClusterRepository.findById(clusterId)).thenReturn(Optional.of(cluster));
-        when(workClusterMemberRepository.countByWorkClusterId(clusterId)).thenReturn(2L);
 
         centroidService.updateCentroid(clusterId, "work", newEmbedding);
 

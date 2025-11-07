@@ -67,7 +67,7 @@ public class DefaultIngestService implements IngestService {
     private final InstanceClusterMemberRepository instanceClusterMemberRepository;
     private final WorkClusterRepository workClusterRepository;
     private final InstanceClusterRepository instanceClusterRepository;
-    private final EmbeddingService embeddingService;
+    final EmbeddingService embeddingService;
     private final Map<String, Canonicalizer> canonicalizers;
     private final Canonicalizer defaultCanonicalizer;
     private final BlockingRandomProjector projector;

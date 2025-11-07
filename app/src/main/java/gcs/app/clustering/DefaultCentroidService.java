@@ -42,6 +42,11 @@ public class DefaultCentroidService implements CentroidService {
 
     private <T extends gcs.app.pgvector.Cluster> void updateClusterCentroid(T cluster, PGvector memberEmbedding) {
         PGvector currentCentroid = cluster.getCentroid();
+        if (currentCentroid == null) {
+            cluster.setCentroid(memberEmbedding);
+            cluster.setMemberCount(1);
+            return;
+        }
         int memberCount = cluster.getMemberCount();
 
         float[] currentCentroidArray = currentCentroid.toArray();
