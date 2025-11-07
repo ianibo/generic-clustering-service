@@ -48,9 +48,15 @@ public class WorkClusterMember {
 	@TypeDef(type = DataType.JSON)
 	private String facts;
 
-	private PGvector blocking;
+  @Getter(onMethod_ = @TypeDef(type = DataType.OBJECT, converter = PGvectorAttributeConverter.class))
+  @Setter(onMethod_ = @TypeDef(type = DataType.OBJECT, converter = PGvectorAttributeConverter.class))
+  @MappedProperty(value = "blocking", definition = "VECTOR(64)")
+  private PGvector blocking;
 
-	private PGvector embedding;
+  @Getter(onMethod_ = @TypeDef(type = DataType.OBJECT, converter = PGvectorAttributeConverter.class))
+  @Setter(onMethod_ = @TypeDef(type = DataType.OBJECT, converter = PGvectorAttributeConverter.class))
+  @MappedProperty(value = "embedding", definition = "VECTOR(1536)")
+  private PGvector embedding;
 
 	@Relation(value = Relation.Kind.MANY_TO_ONE)
 	private WorkCluster workCluster;

@@ -28,6 +28,7 @@ import lombok.extern.slf4j.Slf4j;
 import com.pgvector.PGvector;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -71,6 +72,8 @@ public class DefaultIngestService implements IngestService {
     private final Canonicalizer defaultCanonicalizer;
     private final BlockingRandomProjector projector;
     private final CentroidService centroidService;
+    private final InputRecordRepository inputRecordRepository;
+
 
     public DefaultIngestService(
         Classifier classifier,
@@ -86,7 +89,8 @@ public class DefaultIngestService implements IngestService {
         @Named("openai") EmbeddingService embeddingService,
         List<Canonicalizer> canonicalizerList,
         BlockingRandomProjector projector,
-        CentroidService centroidService
+        CentroidService centroidService,
+        InputRecordRepository inputRecordRepository
     ) {
         this.classifier = classifier;
         this.assignmentService = assignmentService;
@@ -108,6 +112,7 @@ public class DefaultIngestService implements IngestService {
             .orElseThrow(() -> new IllegalStateException("No default canonicalizer found"));
         this.projector = projector;
         this.centroidService = centroidService;
+        this.inputRecordRepository = inputRecordRepository;
     }
 
     @Override
@@ -140,6 +145,12 @@ public class DefaultIngestService implements IngestService {
             classification.classifierVersion()
         );
 
+        var entity = new InputRecordEntity();
+        entity.setId(versionedRecord.id());
+        entity.setRecord(versionedRecord);
+        entity.setProcessingStatus(ProcessingStatus.PENDING);
+        inputRecordRepository.save(entity);
+
         var workCanonicalizer = canonicalizers.getOrDefault(versionedRecord.physical().contentType(), defaultCanonicalizer);
         String workSummary = workCanonicalizer.summarize(versionedRecord, Canonicalizer.Intent.WORK);
         float[] workEmbedding = embeddingService.embed(workSummary);
@@ -150,8 +161,8 @@ public class DefaultIngestService implements IngestService {
         float[] instanceEmbedding = embeddingService.embed(instanceSummary);
         float[] instanceBlocking = projector.project(instanceEmbedding);
 
-        handleAssignment(assignmentService.assign(versionedRecord, "work", workEmbedding), "work", versionedRecord, workEmbedding, workBlocking);
-        handleAssignment(assignmentService.assign(versionedRecord, "instance", instanceEmbedding), "instance", versionedRecord, instanceEmbedding, instanceBlocking);
+        handleAssignment(assignmentService.assign(versionedRecord, "work", workEmbedding, workSummary), "work", versionedRecord, workEmbedding, workBlocking);
+        handleAssignment(assignmentService.assign(versionedRecord, "instance", instanceEmbedding, instanceSummary), "instance", versionedRecord, instanceEmbedding, instanceBlocking);
 
         return versionedRecord;
     }
@@ -196,6 +207,7 @@ public class DefaultIngestService implements IngestService {
             member.setWorkCluster(workCluster);
             member.setRecordId(record.id());
             member.setBlocking(new PGvector(blocking));
+            member.setEmbedding(new PGvector(embedding));
             workClusterMemberRepository.save(member);
         } else {
             InstanceCluster instanceCluster = instanceClusterRepository.findById(clusterId).orElseThrow(() -> new IllegalArgumentException("InstanceCluster not found: " + clusterId));
@@ -204,6 +216,7 @@ public class DefaultIngestService implements IngestService {
             member.setInstanceCluster(instanceCluster);
             member.setRecordId(record.id());
             member.setBlocking(new PGvector(blocking));
+            member.setEmbedding(new PGvector(embedding));
             instanceClusterMemberRepository.save(member);
         }
         centroidService.updateCentroid(clusterId, representation, new com.pgvector.PGvector(embedding));
@@ -216,11 +229,21 @@ public class DefaultIngestService implements IngestService {
         float[] embedding = embeddingService.embed(summary);
         float[] blockingEmbedding = projector.project(embedding);
 
+        // Convert float arrays to List<Float> for Elasticsearch
+        List<Float> embeddingList = new ArrayList<>();
+        for (float f : embedding) {
+            embeddingList.add(f);
+        }
+        List<Float> blockingList = new ArrayList<>();
+        for (float f : blockingEmbedding) {
+            blockingList.add(f);
+        }
+
         Map<String, Object> esRecord = new HashMap<>();
-        esRecord.put("clusterId", clusterId.toString());
+        esRecord.put("id", clusterId.toString());
         esRecord.put("representation", representation);
-        esRecord.put("embedding", embedding);
-        esRecord.put("blocking", blockingEmbedding);
+        esRecord.put("embedding", embeddingList);
+        esRecord.put("blocking", blockingList);
         try {
             esIndexStore.store(indexName, esRecord);
         } catch (IOException e) {

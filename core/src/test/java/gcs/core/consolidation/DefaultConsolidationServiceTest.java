@@ -54,7 +54,7 @@ class DefaultConsolidationServiceTest {
         when(memberPort.getMembers(clusterId1)).thenReturn(Collections.singletonList(record1));
         when(memberPort.getMembers(clusterId2)).thenReturn(Collections.singletonList(record2));
         when(synthesizer.synthesize(List.of(record1, record2))).thenReturn(newAnchor);
-        when(anchorPort.createCluster(newAnchor, "work")).thenReturn(newClusterId);
+        when(anchorPort.createCluster(newAnchor, "work", "Consolidated Cluster", new float[1536])).thenReturn(newClusterId);
 
         UUID result = service.merge(clusterId1, clusterId2);
 
@@ -75,7 +75,7 @@ class DefaultConsolidationServiceTest {
 
         service.split(clusterId);
 
-        verify(anchorPort).createCluster(newAnchor1, "work");
-        verify(anchorPort).createCluster(newAnchor2, "work");
+        verify(anchorPort).createCluster(newAnchor1, "work", "Split Cluster 1", new float[1536]);
+        verify(anchorPort).createCluster(newAnchor2, "work", "Split Cluster 2", new float[1536]);
     }
 }

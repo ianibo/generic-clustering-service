@@ -21,9 +21,11 @@ public interface AnchorPort {
      *
      * @param anchor The anchor record for the new cluster.
      * @param representation The representation of the record (e.g., "WORK", "INSTANCE").
+     * @param label The label for the new cluster.
+     * @param initialCentroid The initial centroid for the new cluster.
      * @return The ID of the newly created cluster.
      */
-    UUID createCluster(InputRecord anchor, String representation);
+    UUID createCluster(InputRecord anchor, String representation, String label, float[] initialCentroid);
 
     /**
      * Updates the anchor record for an existing cluster.

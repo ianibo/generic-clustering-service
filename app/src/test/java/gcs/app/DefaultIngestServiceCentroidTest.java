@@ -55,7 +55,8 @@ class DefaultIngestServiceCentroidTest {
             mock(gcs.core.EmbeddingService.class),
             java.util.List.of(mock(gcs.core.canonicalization.Canonicalizer.class)),
             mock(gcs.app.clustering.BlockingRandomProjector.class),
-            centroidService
+            centroidService,
+            mock(InputRecordRepository.class)
         );
     }
 
@@ -72,9 +73,9 @@ class DefaultIngestServiceCentroidTest {
             .build();
 
         when(classifier.classify(any())).thenReturn(new ClassificationResult(null, null, null, null, 0.0, 0));
-        when(assignmentService.assign(any(), any(), any())).thenReturn(assignment);
-        when(workClusterRepository.findById(clusterId)).thenReturn(Optional.of(WorkCluster.builder().id(clusterId).build()));
-        when(instanceClusterRepository.findById(clusterId)).thenReturn(Optional.of(InstanceCluster.builder().id(clusterId).build()));
+        when(assignmentService.assign(any(), any(), any(), any(String.class))).thenReturn(assignment);
+        when(workClusterRepository.findById(clusterId)).thenReturn(Optional.of(WorkCluster.builder().id(clusterId).label("label").centroid(new PGvector(new float[1536])).build()));
+        when(instanceClusterRepository.findById(clusterId)).thenReturn(Optional.of(InstanceCluster.builder().id(clusterId).label("label").centroid(new PGvector(new float[1536])).build()));
 
         // Act
         service.ingest(record);

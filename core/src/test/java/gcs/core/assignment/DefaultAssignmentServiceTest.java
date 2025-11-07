@@ -74,7 +74,7 @@ class DefaultAssignmentServiceTest {
         when(representationPolicy.fieldAgreementOk(record, anchor)).thenReturn(true);
         when(scorer.score(record, anchor, 0.9)).thenReturn(ScoreBreakdown.builder().total(0.9).build());
 
-        Assignment assignment = assignmentService.assign(record, "work", new float[0]);
+        Assignment assignment = assignmentService.assign(record, "work", new float[0], "summary");
 
         assertEquals(Assignment.Decision.JOINED, assignment.getDecision());
         assertEquals(clusterId, assignment.getClusterId());
@@ -86,9 +86,9 @@ class DefaultAssignmentServiceTest {
         UUID newClusterId = UUID.randomUUID();
 
         when(candidatePort.findCandidates(any(), anyString(), anyInt(), any())).thenReturn(Collections.emptyList());
-        when(anchorPort.createCluster(record, "work")).thenReturn(newClusterId);
+        when(anchorPort.createCluster(record, "work", "summary", new float[0])).thenReturn(newClusterId);
 
-        Assignment assignment = assignmentService.assign(record, "work", new float[0]);
+        Assignment assignment = assignmentService.assign(record, "work", new float[0], "summary");
 
         assertEquals(Assignment.Decision.CREATED, assignment.getDecision());
         assertEquals(newClusterId, assignment.getClusterId());

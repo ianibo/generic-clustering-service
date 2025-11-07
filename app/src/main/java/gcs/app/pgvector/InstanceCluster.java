@@ -5,6 +5,7 @@ import gcs.core.InputRecord;
 import gcs.core.lineage.Lineage;
 import io.micronaut.data.annotation.*;
 import io.micronaut.data.model.DataType;
+import io.micronaut.data.annotation.MappedProperty;
 
 import java.util.UUID;
 import lombok.*;
@@ -38,10 +39,15 @@ public class InstanceCluster implements Cluster {
     @TypeDef(type = DataType.JSON)
     private InputRecord syntheticAnchor;
 
+    @Getter(onMethod_ = @TypeDef(type = DataType.OBJECT, converter = PGvectorAttributeConverter.class))
+    @Setter(onMethod_ = @TypeDef(type = DataType.OBJECT, converter = PGvectorAttributeConverter.class))
+    @MappedProperty(value = "centroid", definition = "VECTOR(1536)")
     private PGvector centroid;
 
     private String contentFingerprint;
 
     @TypeDef(type = DataType.JSON)
     private Lineage lineage;
+
+    private int memberCount;
 }
