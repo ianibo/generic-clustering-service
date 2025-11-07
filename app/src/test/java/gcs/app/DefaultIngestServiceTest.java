@@ -1,11 +1,11 @@
 package gcs.app;
 
-import gcs.app.pgvector.InstanceClusterMember;
-import gcs.app.pgvector.WorkClusterMember;
-import gcs.app.pgvector.storage.InstanceClusterMemberRepository;
-import gcs.app.pgvector.storage.WorkClusterMemberRepository;
+import gcs.app.pgvector.*;
+import gcs.app.pgvector.storage.*;
 import gcs.app.util.TestRecordLoader;
 import gcs.core.InputRecord;
+import gcs.app.InputRecordEntity;
+import gcs.app.InputRecordRepository;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 import jakarta.inject.Inject;
 import lombok.extern.slf4j.Slf4j;
@@ -48,7 +48,16 @@ class DefaultIngestServiceTest {
 	WorkClusterMemberRepository workClusterMemberRepository;
 
 	@Inject
+	WorkClusterRepository workClusterRepository;
+
+	@Inject
 	InstanceClusterMemberRepository instanceClusterMemberRepository;
+
+	@Inject
+	InstanceClusterRepository instanceClusterRepository;
+
+	@Inject
+	InputRecordRepository inputRecordRepository;
 
 	@Test
 	void testIngest() {
@@ -57,6 +66,7 @@ class DefaultIngestServiceTest {
 			assertNotNull(result, "Ingest should return a versioned record for " + sourceRecordIdOf(record));
 		}
 		logClusterMemberships();
+		logAllRecords();
 	}
 
 	private static List<InputRecord> loadTestRecords() {
@@ -107,6 +117,30 @@ class DefaultIngestServiceTest {
 			instanceClusters.forEach((clusterId, members) ->
 				log.info("Instance cluster {} contains records {}", clusterId, members));
 		}
+	}
+
+	private void logAllRecords() {
+
+		for (WorkClusterMember wcm : workClusterMemberRepository.findAll()) {
+			log.info("WCM: {}",wcm);
+		}
+
+		for (WorkCluster wc : workClusterRepository.findAll()) {
+			log.info("WC: {}",wc);
+		}
+
+    for (InstanceClusterMember icm : instanceClusterMemberRepository.findAll()) {
+      log.info("ICM: {}",icm);
+    }
+
+    for (InstanceCluster ic : instanceClusterRepository.findAll()) {
+      log.info("IC: {}",ic);
+    }
+
+    for (InputRecordEntity ir : inputRecordRepository.findAll()) {
+      log.info("IR: {}",ir);
+    }
+
 	}
 
 	private static <T> Stream<T> streamOf(Iterable<T> iterable) {

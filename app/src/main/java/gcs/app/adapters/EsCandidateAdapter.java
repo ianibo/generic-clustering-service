@@ -2,8 +2,8 @@ package gcs.app.adapters;
 
 import com.pgvector.PGvector;
 import gcs.app.esvector.ESIndexStore;
-import gcs.app.pgvector.InstanceClusterRepository;
-import gcs.app.pgvector.WorkClusterRepository;
+import gcs.app.pgvector.storage.*;
+import gcs.app.pgvector.*;
 import gcs.core.InputRecord;
 import gcs.core.assignment.CandidatePort;
 import jakarta.inject.Singleton;

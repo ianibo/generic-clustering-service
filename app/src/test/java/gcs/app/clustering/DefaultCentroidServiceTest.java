@@ -1,12 +1,8 @@
 package gcs.app.clustering;
 
 import com.pgvector.PGvector;
-import gcs.app.pgvector.InstanceCluster;
-import gcs.app.pgvector.InstanceClusterRepository;
-import gcs.app.pgvector.WorkCluster;
-import gcs.app.pgvector.WorkClusterRepository;
-import gcs.app.pgvector.storage.WorkClusterMemberRepository;
-import gcs.app.pgvector.storage.InstanceClusterMemberRepository;
+import gcs.app.pgvector.storage.*;
+import gcs.app.pgvector.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

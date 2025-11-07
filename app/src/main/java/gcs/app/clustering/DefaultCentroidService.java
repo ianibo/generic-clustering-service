@@ -1,13 +1,12 @@
 package gcs.app.clustering;
 
 import com.pgvector.PGvector;
-import gcs.app.pgvector.InstanceClusterRepository;
-import gcs.app.pgvector.WorkClusterRepository;
-import gcs.app.pgvector.storage.WorkClusterMemberRepository;
-import gcs.app.pgvector.storage.InstanceClusterMemberRepository;
+import gcs.app.pgvector.*;
+import gcs.app.pgvector.storage.*;
 import jakarta.inject.Singleton;
 import jakarta.transaction.Transactional;
 import java.util.UUID;
+import gcs.app.clustering.*;
 
 @Singleton
 public class DefaultCentroidService implements CentroidService {
