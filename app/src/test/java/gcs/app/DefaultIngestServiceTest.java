@@ -24,6 +24,7 @@ import gcs.core.InputRecord;
 import gcs.core.classification.WorkType;
 import org.junit.jupiter.api.Test;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
+import org.junit.jupiter.api.condition.DisabledIfSystemProperty;
 
 import gcs.app.util.TestRecordLoader;
 
@@ -36,6 +37,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @MicronautTest
+@DisabledIfSystemProperty(named = "skipIT", matches = "true")
 class DefaultIngestServiceTest {
 
 	@Inject
