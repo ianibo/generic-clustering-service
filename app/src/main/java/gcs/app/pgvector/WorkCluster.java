@@ -48,4 +48,6 @@ public class WorkCluster implements Cluster {
 
     @TypeDef(type = DataType.JSON)
     private Lineage lineage;
+
+    private int memberCount;
 }

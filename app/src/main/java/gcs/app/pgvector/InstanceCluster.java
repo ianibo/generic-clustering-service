@@ -48,4 +48,6 @@ public class InstanceCluster implements Cluster {
 
     @TypeDef(type = DataType.JSON)
     private Lineage lineage;
+
+    private int memberCount;
 }

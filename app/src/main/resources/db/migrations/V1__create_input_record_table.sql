@@ -22,7 +22,8 @@ CREATE TABLE work_cluster (
   synthetic_anchor JSONB,
   centroid VECTOR(1536),
   content_fingerprint VARCHAR(64),
-  lineage JSONB
+  lineage JSONB,
+  member_count INT DEFAULT 0
 );
 
 CREATE TABLE work_cluster_member (
@@ -55,7 +56,8 @@ CREATE TABLE instance_cluster (
   synthetic_anchor JSONB,
   centroid VECTOR(1536),
   content_fingerprint VARCHAR(64),
-  lineage JSONB
+  lineage JSONB,
+  member_count INT DEFAULT 0
 );
 
 CREATE TABLE instance_cluster_member (
