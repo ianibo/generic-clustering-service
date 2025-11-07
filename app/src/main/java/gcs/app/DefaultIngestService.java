@@ -125,7 +125,8 @@ public class DefaultIngestService implements IngestService {
 		log.info("Classified record {} as {} with explanation: {}", record.id(), classification.workType(), classification);
 
 		var versionedRecord = new InputRecord(
-            record.id(),
+            // replace record.id() with authority:recordid,
+            record.provenance().authorityId()+":"+record.provenance().sourceRecordId(),
             record.provenance(),
             record.domain(),
             record.licenseDeclaration(),

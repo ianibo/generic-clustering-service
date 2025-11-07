@@ -122,7 +122,7 @@ class DefaultIngestServiceTest {
 	private void logAllRecords() {
 
 		for (WorkClusterMember wcm : workClusterMemberRepository.findAll()) {
-			log.info("WCM: {} member of {}",wcm.getId(),wcm.getWorkCluster().getId());
+			log.info("WCM: {} member of {} ({})",wcm.getId(),wcm.getWorkCluster().getId(),wcm.getRecordId());
 		}
 
 		for (WorkCluster wc : workClusterRepository.findAll()) {
@@ -130,7 +130,7 @@ class DefaultIngestServiceTest {
 		}
 
     for (InstanceClusterMember icm : instanceClusterMemberRepository.findAll()) {
-      log.info("ICM: {} member of {}",icm.getId(),icm.getInstanceCluster().getId());
+      log.info("ICM: {} member of {} ({})",icm.getId(),icm.getInstanceCluster().getId(),icm.getRecordId());
     }
 
     for (InstanceCluster ic : instanceClusterRepository.findAll()) {
