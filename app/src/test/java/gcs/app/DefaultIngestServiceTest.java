@@ -122,23 +122,23 @@ class DefaultIngestServiceTest {
 	private void logAllRecords() {
 
 		for (WorkClusterMember wcm : workClusterMemberRepository.findAll()) {
-			log.info("WCM: {}",wcm);
+			log.info("WCM: {} member of {}",wcm.getId(),wcm.getWorkCluster().getId());
 		}
 
 		for (WorkCluster wc : workClusterRepository.findAll()) {
-			log.info("WC: {}",wc);
+			log.info("WC: {}",wc.getId());
 		}
 
     for (InstanceClusterMember icm : instanceClusterMemberRepository.findAll()) {
-      log.info("ICM: {}",icm);
+      log.info("ICM: {} member of {}",icm.getId(),icm.getInstanceCluster().getId());
     }
 
     for (InstanceCluster ic : instanceClusterRepository.findAll()) {
-      log.info("IC: {}",ic);
+      log.info("IC: {}",ic.getId());
     }
 
     for (InputRecordEntity ir : inputRecordRepository.findAll()) {
-      log.info("IR: {}",ir);
+      log.info("IR: {}",ir.getId());
     }
 
 	}
