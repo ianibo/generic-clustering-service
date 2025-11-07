@@ -1,9 +1,29 @@
+micronaut:
+  security:
+    authentication: idtoken
+    token:
+      jwt:
+        enabled: true
+        signatures.jwks.keycloak:
+          url: ${SKEIN_CORE_JWKS:""}
+    endpoints:
+      login:
+        enabled: false
+    intercept-url-map:
+      - pattern: /graphql
+        access:
+          - isAuthenticated()
+
 datasources:
   default:
-    # url: jdbc:h2:mem:devDb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
-    # driverClassName: org.h2.Driver
-    # username: sa
-    # password: ""
+    enabled: true
+    dialect: POSTGRES
+    driverClassName: org.postgresql.Driver
+    schema-generate: NONE
+    db-type: postgresql
+    minimumIdle: 0
+    maximumPoolSize: 20
+    reconnect: true
 
 flyway:
   enabled: true

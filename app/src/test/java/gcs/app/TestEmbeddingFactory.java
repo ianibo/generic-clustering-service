@@ -29,6 +29,7 @@ import java.util.HashMap;
 import java.util.HexFormat;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.List;
 
 /**
  * Provides deterministic test embeddings by hashing the input text and serving pre-recorded vectors.

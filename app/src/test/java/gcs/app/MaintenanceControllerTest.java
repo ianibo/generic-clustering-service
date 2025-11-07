@@ -10,6 +10,10 @@ import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 import jakarta.inject.Inject;
 import org.junit.jupiter.api.Test;
 
+import io.micronaut.security.authentication.Authentication;
+import gcs.app.security.TestStaticTokenValidator;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
@@ -17,23 +21,31 @@ import static org.mockito.Mockito.verify;
 @MicronautTest
 class MaintenanceControllerTest {
 
-    @Inject
-    @Client("/")
-    HttpClient client;
+	@Inject
+	@Client("/")
+	HttpClient client;
 
-    @Inject
-    private ConsolidationService consolidationService;
+  private static final String accessToken = "maint-controller-test-token";
+  private static Authentication auth;
 
-    @Test
-    void testConsolidate() {
-        HttpResponse<String> response = client.toBlocking().exchange(HttpRequest.POST("/maintenance/consolidate", ""));
+	@Inject
+	private ConsolidationService consolidationService;
 
-        assertEquals(200, response.getStatus().getCode());
-        verify(consolidationService).consolidate();
+  public MaintenanceControllerTest() {
+    if (auth == null) {
+      auth = TestStaticTokenValidator.add(accessToken, "test-admin-client", List.of("GCS-ADMIN"));
     }
+  }
 
-    @MockBean(gcs.core.consolidation.DefaultConsolidationService.class)
-    ConsolidationService consolidationService() {
-        return mock(ConsolidationService.class);
-    }
+	@Test
+	void testConsolidate() {
+		HttpResponse<String> response = client.toBlocking().exchange(HttpRequest.POST("/maintenance/consolidate", "").bearerAuth(accessToken));
+		assertEquals(200, response.getStatus().getCode());
+		verify(consolidationService).consolidate();
+	}
+
+	@MockBean(gcs.core.consolidation.DefaultConsolidationService.class)
+	ConsolidationService consolidationService() {
+		return mock(ConsolidationService.class);
+	}
 }

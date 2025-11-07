@@ -44,6 +44,9 @@ dependencies {
   implementation("io.micronaut.elasticsearch:micronaut-elasticsearch")
 	implementation("co.elastic.clients:elasticsearch-java:9.2.0")
 
+  implementation("io.micronaut.security:micronaut-security-jwt")
+  implementation("io.micronaut.security:micronaut-security-oauth2")
+  implementation("io.micronaut.reactor:micronaut-reactor")
 
 	testImplementation("io.micronaut.test:micronaut-test-junit5")
   testImplementation("org.mockito:mockito-core:5.10.0")
