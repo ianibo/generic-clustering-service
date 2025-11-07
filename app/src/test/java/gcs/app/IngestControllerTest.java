@@ -26,8 +26,8 @@ class IngestControllerTest {
 
     @Test
     void testIngest() {
-        InputRecord record = new InputRecord("1", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
-        InputRecord expectedResponse = new InputRecord("1", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1);
+        InputRecord record = new InputRecord("1", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+        InputRecord expectedResponse = new InputRecord("1", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1, null);
 
         when(ingestService.ingest(record)).thenReturn(expectedResponse);
 

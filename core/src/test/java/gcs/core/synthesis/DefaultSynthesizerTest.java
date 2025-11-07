@@ -18,9 +18,9 @@ class DefaultSynthesizerTest {
         InputRecord.Title title1 = new InputRecord.Title("Title 1", "main", null);
         InputRecord.Title title2 = new InputRecord.Title("Title 2", "main", null);
 
-        InputRecord record1 = new InputRecord("1", null, null, null, null, List.of(title1), null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
-        InputRecord record2 = new InputRecord("2", null, null, null, null, List.of(title1), null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
-        InputRecord record3 = new InputRecord("3", null, null, null, null, List.of(title2), null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+        InputRecord record1 = new InputRecord("1", null, null, null, null, List.of(title1), null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+        InputRecord record2 = new InputRecord("2", null, null, null, null, List.of(title1), null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+        InputRecord record3 = new InputRecord("3", null, null, null, null, List.of(title2), null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
 
         InputRecord result = synthesizer.synthesize(List.of(record1, record2, record3));
 

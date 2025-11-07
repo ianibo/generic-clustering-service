@@ -5,7 +5,9 @@ import io.micronaut.serde.annotation.Serdeable;
 import io.micronaut.core.annotation.Introspected;
 import java.util.List;
 import java.time.OffsetDateTime;
+import lombok.Builder;
 
+@Builder(toBuilder = true)
 @Introspected
 @Serdeable
 public record InputRecord(
@@ -29,8 +31,10 @@ public record InputRecord(
     @Nullable Admin admin,
     @Nullable Media media,
     @Nullable Ext ext,
-    @Nullable Integer classifierVersion
+    @Nullable Integer classifierVersion,
+    @Nullable String rawChecksum
 ) {
+		@Builder(toBuilder = true)
     @Serdeable
     public record Provenance(
         String authorityId,
@@ -42,6 +46,7 @@ public record InputRecord(
         @Nullable String metadataLicense
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record LicenseDeclaration(
         String license,
@@ -49,6 +54,7 @@ public record InputRecord(
         PublisherAffirmation publisherAffirmation
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record PublisherAffirmation(
         String statement,
@@ -57,6 +63,7 @@ public record InputRecord(
         String signatory
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record Identifier(
         String type,
@@ -64,6 +71,7 @@ public record InputRecord(
         @Nullable String status
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record Title(
         String value,
@@ -71,6 +79,7 @@ public record InputRecord(
         @Nullable String language
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record Contributor(
         String name,
@@ -80,11 +89,13 @@ public record InputRecord(
         @Nullable String dates
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record Edition(
         String statement
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record Publication(
         List<String> place,
@@ -94,6 +105,7 @@ public record InputRecord(
         String countryCode
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record Physical(
         String extent,
@@ -105,6 +117,7 @@ public record InputRecord(
         @Nullable String format
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record Subject(
         String value,
@@ -112,34 +125,40 @@ public record InputRecord(
         @Nullable String type
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record Series(
         String title
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record Relations(
         List<String> otherFormats
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record Classification(
         String scheme,
         String value
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record Note(
         String type,
         String value
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record Rights(
         String rightsStatement,
         String license
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record Admin(
         OffsetDateTime created,
@@ -147,22 +166,26 @@ public record InputRecord(
         List<String> flags
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record Quality(
         boolean normalized
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record Media(
         @Nullable String url,
         @Nullable String contentType
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record Ext(
         @Nullable SourceHints sourceHints
     ) {}
 
+		@Builder(toBuilder = true)
     @Serdeable
     public record SourceHints(
         @Nullable List<String> titleTokens,

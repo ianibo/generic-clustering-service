@@ -52,9 +52,14 @@ public class InputRecordEntity {
     private InputRecord record;
 
     private ProcessingStatus processingStatus;
+
     @Nullable
     private Integer classifierVersion;
 
+    @Nullable
+    private String rawChecksum;
+
+		/*
     public String getId() {
         return id;
     }
@@ -134,4 +139,13 @@ public class InputRecordEntity {
     public void setClassifierVersion(Integer classifierVersion) {
         this.classifierVersion = classifierVersion;
     }
+
+    public String getRawChecksum() {
+        return rawChecksum;
+    }
+
+    public void setRawChecksum(String rawChecksum) {
+        this.rawChecksum = rawChecksum;
+    }
+	*/
 }

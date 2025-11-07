@@ -25,8 +25,8 @@ class DefaultScorerTest {
 
     @Test
     void testScore() {
-        InputRecord record1 = new InputRecord(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
-        InputRecord record2 = new InputRecord(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+        InputRecord record1 = new InputRecord(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+        InputRecord record2 = new InputRecord(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
 
         when(representationPolicy.scorePublicationYear(record1, record2)).thenReturn(0.5);
         when(representationPolicy.conflictPenalty(record1, record2)).thenReturn(0.1);

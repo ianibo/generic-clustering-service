@@ -62,7 +62,8 @@ public class DefaultSynthesizer implements Synthesizer {
             firstRecord.admin(),
             firstRecord.media(),
             firstRecord.ext(),
-            firstRecord.classifierVersion()
+            firstRecord.classifierVersion(),
+            firstRecord.rawChecksum()
         );
     }
 }

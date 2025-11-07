@@ -170,7 +170,8 @@ class DefaultIngestServiceTest {
 			record.admin(),
 			record.media(),
 			record.ext(),
-			record.classifierVersion()
+			record.classifierVersion(),
+			record.rawChecksum()
 		);
 	}
 

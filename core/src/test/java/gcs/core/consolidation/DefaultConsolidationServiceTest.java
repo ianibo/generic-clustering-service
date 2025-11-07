@@ -47,9 +47,9 @@ class DefaultConsolidationServiceTest {
         UUID clusterId1 = UUID.randomUUID();
         UUID clusterId2 = UUID.randomUUID();
         UUID newClusterId = UUID.randomUUID();
-        InputRecord record1 = new InputRecord("1", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
-        InputRecord record2 = new InputRecord("2", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
-        InputRecord newAnchor = new InputRecord("3", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+        InputRecord record1 = new InputRecord("1", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+        InputRecord record2 = new InputRecord("2", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+        InputRecord newAnchor = new InputRecord("3", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
 
         when(memberPort.getMembers(clusterId1)).thenReturn(Collections.singletonList(record1));
         when(memberPort.getMembers(clusterId2)).thenReturn(Collections.singletonList(record2));
@@ -64,10 +64,10 @@ class DefaultConsolidationServiceTest {
     @Test
     void testSplit() {
         UUID clusterId = UUID.randomUUID();
-        InputRecord record1 = new InputRecord("1", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
-        InputRecord record2 = new InputRecord("2", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
-        InputRecord newAnchor1 = new InputRecord("3", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
-        InputRecord newAnchor2 = new InputRecord("4", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+        InputRecord record1 = new InputRecord("1", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+        InputRecord record2 = new InputRecord("2", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+        InputRecord newAnchor1 = new InputRecord("3", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+        InputRecord newAnchor2 = new InputRecord("4", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
 
         when(memberPort.getMembers(clusterId)).thenReturn(List.of(record1, record2));
         when(synthesizer.synthesize(List.of(record1))).thenReturn(newAnchor1);

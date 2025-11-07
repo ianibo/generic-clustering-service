@@ -19,7 +19,7 @@ class RuleBasedInstanceClassifierTest {
     @Test
     void testClassifyPrintBook() {
         var physical = new InputRecord.Physical(null, null, null, "text", "unmediated", "volume", null);
-        var record = new InputRecord("1", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, null);
+        var record = new InputRecord("1", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, null, null);
         var result = classifier.classify(record);
         assertEquals(ContentType.TEXT, result.contentType());
         assertEquals(MediaType.UNMEDIATED, result.mediaType());
@@ -30,7 +30,7 @@ class RuleBasedInstanceClassifierTest {
     @Test
     void testClassifyEbook() {
         var physical = new InputRecord.Physical(null, null, null, "text", "computer", "online resource", "epub");
-        var record = new InputRecord("2", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, null);
+        var record = new InputRecord("2", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, null, null);
         var result = classifier.classify(record);
         assertEquals(ContentType.TEXT, result.contentType());
         assertEquals(MediaType.COMPUTER, result.mediaType());
@@ -41,7 +41,7 @@ class RuleBasedInstanceClassifierTest {
     @Test
     void testClassifyDvd() {
         var physical = new InputRecord.Physical(null, null, null, "two-dimensional moving image", "video", "videodisc", "dvd");
-        var record = new InputRecord("3", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, null);
+        var record = new InputRecord("3", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, null, null);
         var result = classifier.classify(record);
         assertEquals(ContentType.TWO_DIMENSIONAL_MOVING_IMAGE, result.contentType());
         assertEquals(MediaType.VIDEO, result.mediaType());
@@ -52,7 +52,7 @@ class RuleBasedInstanceClassifierTest {
     @Test
     void testClassifyBluray() {
         var physical = new InputRecord.Physical(null, null, null, "two-dimensional moving image", "video", "videodisc", "blu-ray");
-        var record = new InputRecord("4", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, null);
+        var record = new InputRecord("4", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, null, null);
         var result = classifier.classify(record);
         assertEquals(ContentType.TWO_DIMENSIONAL_MOVING_IMAGE, result.contentType());
         assertEquals(MediaType.VIDEO, result.mediaType());
@@ -62,7 +62,7 @@ class RuleBasedInstanceClassifierTest {
 
     @Test
     void testDefaultClassification() {
-        var record = new InputRecord("5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+        var record = new InputRecord("5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
         var result = classifier.classify(record);
         assertEquals(ContentType.TEXT, result.contentType());
         assertEquals(MediaType.UNMEDIATED, result.mediaType());
@@ -74,7 +74,7 @@ class RuleBasedInstanceClassifierTest {
     void testClassifyLargePrint() {
         var physical = new InputRecord.Physical(null, null, null, "text", "unmediated", "volume", null);
         var edition = new InputRecord.Edition("Large print edition");
-        var record = new InputRecord("6", null, null, null, null, null, null, null, edition, null, physical, null, null, null, null, null, null, null, null, null, null);
+        var record = new InputRecord("6", null, null, null, null, null, null, null, edition, null, physical, null, null, null, null, null, null, null, null, null, null, null);
         var result = classifier.classify(record);
         assertEquals("largePrint", result.modality());
     }
@@ -83,7 +83,7 @@ class RuleBasedInstanceClassifierTest {
     void testClassifyBraille() {
         var physical = new InputRecord.Physical(null, null, null, "tactile text", "tactile", "volume", null);
         var edition = new InputRecord.Edition("Braille edition");
-        var record = new InputRecord("7", null, null, null, null, null, null, null, edition, null, physical, null, null, null, null, null, null, null, null, null, null);
+        var record = new InputRecord("7", null, null, null, null, null, null, null, edition, null, physical, null, null, null, null, null, null, null, null, null, null, null);
         var result = classifier.classify(record);
         assertEquals("braille", result.modality());
     }
@@ -91,7 +91,7 @@ class RuleBasedInstanceClassifierTest {
     @Test
     void testClassifyPhysicalObject() {
         var physical = new InputRecord.Physical(null, null, null, "human-made object", null, null, null);
-        var record = new InputRecord("8", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, null);
+        var record = new InputRecord("8", null, null, null, null, null, null, null, null, null, physical, null, null, null, null, null, null, null, null, null, null, null);
         var result = classifier.classify(record);
         assertEquals("E22 Human-Made Object", result.objectClass());
     }

@@ -10,7 +10,8 @@ CREATE TABLE input_record (
     carrier_type VARCHAR(255),
     record JSONB NOT NULL,
     processing_status VARCHAR(255) NOT NULL,
-    classifier_version INT DEFAULT 1
+    classifier_version INT DEFAULT 1,
+		raw_checksum VARCHAR(32)
 );
 
 CREATE TABLE work_cluster (

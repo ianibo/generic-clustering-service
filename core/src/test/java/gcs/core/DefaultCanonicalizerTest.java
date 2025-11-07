@@ -32,7 +32,8 @@ class DefaultCanonicalizerTest {
             null, // admin
             null, // media
             null, // ext
-            null // classifierVersion
+            null, // classifierVersion
+            null // rawChecksum
         );
 
         var expected = "title:Brain of the Firm; creators:Stafford Beer; pub:Wiley; year:1972; ids:ISBN:978-0-471-05845-8";

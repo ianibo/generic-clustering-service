@@ -146,7 +146,8 @@ public class DefaultIngestService implements IngestService {
             record.admin(),
             record.media(),
             record.ext(),
-            classification.classifierVersion()
+            classification.classifierVersion(),
+            record.rawChecksum()
 		);
 
 		log.info("Saving input record");
@@ -154,6 +155,7 @@ public class DefaultIngestService implements IngestService {
 		entity.setId(versionedRecord.id());
 		entity.setRecord(versionedRecord);
 		entity.setProcessingStatus(ProcessingStatus.PENDING);
+		entity.setRawChecksum(versionedRecord.rawChecksum());
 		inputRecordRepository.saveOrUpdate(entity);
 
 		log.info("Canonicalizing");
