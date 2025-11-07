@@ -76,6 +76,7 @@ class DefaultIngestServiceCentroidTest {
         when(assignmentService.assign(any(), any(), any(), any(String.class))).thenReturn(assignment);
         when(workClusterRepository.findById(clusterId)).thenReturn(Optional.of(WorkCluster.builder().id(clusterId).label("label").centroid(new PGvector(new float[1536])).build()));
         when(instanceClusterRepository.findById(clusterId)).thenReturn(Optional.of(InstanceCluster.builder().id(clusterId).label("label").centroid(new PGvector(new float[1536])).build()));
+        when(service.embeddingService.embed(anyString())).thenReturn(new float[1536]);
 
         // Act
         service.ingest(record);
