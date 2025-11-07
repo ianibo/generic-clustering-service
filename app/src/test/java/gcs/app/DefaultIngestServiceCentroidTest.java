@@ -1,6 +1,7 @@
 package gcs.app;
 
 import com.pgvector.PGvector;
+import gcs.app.clustering.BlockingRandomProjector;
 import gcs.app.clustering.CentroidService;
 import gcs.app.pgvector.InstanceCluster;
 import gcs.app.pgvector.WorkCluster;
@@ -12,6 +13,8 @@ import gcs.core.assignment.Assignment;
 import gcs.core.assignment.AssignmentService;
 import gcs.core.classification.Classifier;
 import gcs.core.classification.ClassificationResult;
+import gcs.core.canonicalization.Canonicalizer;
+import gcs.core.EmbeddingService;
 import io.micronaut.context.annotation.Replaces;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -23,6 +26,7 @@ import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.*;
 
 class DefaultIngestServiceCentroidTest {
@@ -33,6 +37,9 @@ class DefaultIngestServiceCentroidTest {
     private WorkClusterRepository workClusterRepository;
     private InstanceClusterRepository instanceClusterRepository;
     private Classifier classifier;
+    private Canonicalizer canonicalizer;
+    private BlockingRandomProjector projector;
+    private EmbeddingService embeddingService;
 
     @BeforeEach
     void setUp() {
@@ -41,6 +48,13 @@ class DefaultIngestServiceCentroidTest {
         workClusterRepository = mock(WorkClusterRepository.class);
         instanceClusterRepository = mock(InstanceClusterRepository.class);
         classifier = mock(Classifier.class);
+        canonicalizer = mock(Canonicalizer.class);
+        when(canonicalizer.forContentType()).thenReturn(null);
+        when(canonicalizer.summarize(any(InputRecord.class), any())).thenReturn("test summary");
+        projector = mock(BlockingRandomProjector.class);
+        when(projector.project(any())).thenReturn(new float[64]);
+        embeddingService = mock(EmbeddingService.class);
+
         service = new DefaultIngestService(
             classifier,
             assignmentService,
@@ -52,9 +66,9 @@ class DefaultIngestServiceCentroidTest {
             mock(gcs.app.pgvector.storage.InstanceClusterMemberRepository.class),
             workClusterRepository,
             instanceClusterRepository,
-            mock(gcs.core.EmbeddingService.class),
-            java.util.List.of(mock(gcs.core.canonicalization.Canonicalizer.class)),
-            mock(gcs.app.clustering.BlockingRandomProjector.class),
+            embeddingService,
+            java.util.List.of(canonicalizer),
+            projector,
             centroidService,
             mock(InputRecordRepository.class)
         );
@@ -73,10 +87,10 @@ class DefaultIngestServiceCentroidTest {
             .build();
 
         when(classifier.classify(any())).thenReturn(new ClassificationResult(null, null, null, null, 0.0, 0));
-        when(assignmentService.assign(any(), any(), any(), any(String.class))).thenReturn(assignment);
+        when(assignmentService.assign(any(), any(), any(), anyString())).thenReturn(assignment);
         when(workClusterRepository.findById(clusterId)).thenReturn(Optional.of(WorkCluster.builder().id(clusterId).label("label").centroid(new PGvector(new float[1536])).build()));
         when(instanceClusterRepository.findById(clusterId)).thenReturn(Optional.of(InstanceCluster.builder().id(clusterId).label("label").centroid(new PGvector(new float[1536])).build()));
-        when(service.embeddingService.embed(anyString())).thenReturn(new float[1536]);
+        when(embeddingService.embed(anyString())).thenReturn(new float[1536]);
 
         // Act
         service.ingest(record);

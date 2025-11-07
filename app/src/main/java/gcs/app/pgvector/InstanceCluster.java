@@ -6,6 +6,7 @@ import gcs.core.lineage.Lineage;
 import io.micronaut.data.annotation.*;
 import io.micronaut.data.model.DataType;
 import io.micronaut.data.annotation.MappedProperty;
+import io.micronaut.core.annotation.Creator;
 import io.micronaut.core.annotation.Nullable;
 
 import java.util.UUID;
@@ -19,7 +20,7 @@ import java.util.HashMap;
 @Data
 @Builder
 @AllArgsConstructor
-@NoArgsConstructor
+@NoArgsConstructor(onConstructor_ = @__(@Creator))
 @Serdeable
 @MappedEntity("instance_cluster")
 public class InstanceCluster implements Cluster {
@@ -51,6 +52,7 @@ public class InstanceCluster implements Cluster {
 	private String contentFingerprint;
 
 	@TypeDef(type = DataType.JSON)
+	@Nullable
 	private Lineage lineage;
 
 	private int memberCount;
