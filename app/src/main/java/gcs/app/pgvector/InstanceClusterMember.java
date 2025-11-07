@@ -48,8 +48,10 @@ public class InstanceClusterMember {
   @TypeDef(type = DataType.JSON)
   private String facts;
 
+  @TypeDef(type = DataType.OBJECT)
   private PGvector blocking;
 
+  @TypeDef(type = DataType.OBJECT)
   private PGvector embedding;
 
   @Relation(value = Relation.Kind.MANY_TO_ONE)
