@@ -47,3 +47,11 @@ jobs:
         name: Build Artifacts
         path: |
           **/build/reports
+
+    - name: Upload HTML test reports
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: junit-html
+        path: |
+          **/build/reports/tests/**              # Gradle’s HTML reports
