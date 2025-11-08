@@ -43,11 +43,13 @@ public class OpenAIEmbeddingService implements EmbeddingService {
 
 @Factory
 class OpenAiEmbeddingModelFactory {
-    @Singleton
-    EmbeddingModel openAiEmbeddingModel() {
-        return OpenAiEmbeddingModel.builder()
-                .apiKey(System.getenv("OPENAI_API_KEY"))
-                .modelName("text-embedding-3-small")
-                .build();
+	@Singleton
+	EmbeddingModel openAiEmbeddingModel() {
+		String apikey = System.getenv("OPENAI_API_KEY");
+
+		return OpenAiEmbeddingModel.builder()
+			.apiKey(apikey != null ? apikey : "NONE")
+			.modelName("text-embedding-3-small")
+			.build();
     }
 }
